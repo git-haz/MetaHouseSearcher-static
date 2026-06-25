@@ -202,6 +202,8 @@ function renderResults(results) {
           <option value="price-desc">Price: High to Low</option>
           <option value="location-asc">Location: A-Z</option>
           <option value="location-desc">Location: Z-A</option>
+          <option value="keywords-desc">Keywords Matched: Most</option>
+          <option value="keywords-asc">Keywords Matched: Fewest</option>
           <option value="airport-desc">Airport Dist: Furthest</option>
           <option value="airport-asc">Airport Dist: Nearest</option>
         </select>
@@ -229,7 +231,7 @@ function renderCard(p, context) {
 
   const carouselHtml = `<div class="card-carousel" id="${cid}">
     ${images.map((img, i) => `<img src="${img}" alt="${p.title}" loading="lazy" class="${i === 0 ? 'active' : ''}">`).join('')}
-    ${multi ? `<button class="carousel-btn carousel-prev" onclick="carouselNav('${cid}',-1)">&#8249;</button><button class="carousel-btn carousel-next" onclick="carouselNav('${cid}',1)">&#8250;</button><span class="carousel-counter">1 / ${images.length}</span>` : ''}
+    ${multi ? `<button class="carousel-btn carousel-prev" onclick="carouselNav('${cid}',-1)">&#8249;</button><button class="carousel-btn carousel-next" onclick="carouselNav('${cid}',1)">&#8250;</button><span class="carousel-counter">1 / ${images.length}</span><div class="carousel-dots">${images.map((_, i) => `<span class="carousel-dot${i === 0 ? ' active' : ''}"></span>`).join('')}</div>` : ''}
   </div>`;
 
   const fmtSI = (item, icon) => item ? `<span class="airport-summary-item${item.active === false ? ' airport-inactive' : ''}" title="${item.name} (${item.usage})">${icon} ${item.distanceMiles.toFixed(1)}mi</span>` : '';
@@ -279,12 +281,15 @@ window.carouselNav = function(cid, dir) {
   const el = document.getElementById(cid);
   if (!el) return;
   const imgs = el.querySelectorAll('img');
+  const dots = el.querySelectorAll('.carousel-dot');
   const counter = el.querySelector('.carousel-counter');
   let cur = 0;
   imgs.forEach((img, i) => { if (img.classList.contains('active')) cur = i; });
   imgs[cur].classList.remove('active');
+  if (dots[cur]) dots[cur].classList.remove('active');
   cur = (cur + dir + imgs.length) % imgs.length;
   imgs[cur].classList.add('active');
+  if (dots[cur]) dots[cur].classList.add('active');
   if (counter) counter.textContent = `${cur + 1} / ${imgs.length}`;
 };
 
@@ -363,7 +368,7 @@ function applySort() {
   const [field, dir] = document.getElementById('sortBy').value.split('-');
   currentResults.sort((a, b) => {
     if (field === 'location') return dir === 'asc' ? a.address.localeCompare(b.address) : b.address.localeCompare(a.address);
-    const k = field === 'price' ? 'price' : 'minAirportDistanceMiles';
+    const k = field === 'price' ? 'price' : field === 'keywords' ? 'keywordsMatched' : 'minAirportDistanceMiles';
     return dir === 'asc' ? (a[k] || 0) - (b[k] || 0) : (b[k] || 0) - (a[k] || 0);
   });
   renderResults(currentResults);
@@ -443,12 +448,15 @@ function renderListPage() {
 function exportCsv() {
   const props = getListProperties(activeListTab);
   if (!props.length) return;
-  const headers = ['Title', 'Address', 'Price', 'Bedrooms', 'Bathrooms', 'Type', 'Posted', 'Agency', 'Phone', 'Link', 'Airport (mi)', 'Airstrip (mi)', 'Heliport (mi)', 'Note'];
+  const headers = ['Title', 'Address', 'Price', 'Bedrooms', 'Bathrooms', 'Type', 'Posted', 'Agency', 'Phone', 'Link', 'Nearest Airport', 'Airport Dist (mi)', 'Nearest Airstrip', 'Airstrip Dist (mi)', 'Nearest Heliport', 'Heliport Dist (mi)', 'Note'];
+  const fmtName = a => a ? `${a.name} (${a.usage})` : '';
+  const fmtDist = a => a ? a.distanceMiles.toFixed(1) : '';
   const rows = props.map(p => {
     const agency = p.sources?.map(s => s.portal).join('; ') || '';
     const link = p.sources?.map(s => s.url).join('; ') || '';
-    return [p.title, p.address, p.price, p.bedrooms, p.bathrooms, p.type, p.postedDate || '', p.agent || agency, p.agentPhone || '', link,
-      p.nearestAirport ? p.nearestAirport.distanceMiles.toFixed(1) : '', p.nearestAirstrip ? p.nearestAirstrip.distanceMiles.toFixed(1) : '', p.nearestHeliport ? p.nearestHeliport.distanceMiles.toFixed(1) : '',
+    const phone = p.agentPhone || (() => { const m = (p.description || '').match(/(?:(?:\+44|0)\s*\d[\d\s]{8,12}\d)/); return m ? m[0].trim() : ''; })();
+    return [p.title, p.address, p.price, p.bedrooms, p.bathrooms, p.type, p.postedDate || '', p.agent || agency, phone, link,
+      fmtName(p.nearestAirport), fmtDist(p.nearestAirport), fmtName(p.nearestAirstrip), fmtDist(p.nearestAirstrip), fmtName(p.nearestHeliport), fmtDist(p.nearestHeliport),
       propertyNotes[pkey(p)] || propertyNotes[p._key] || ''];
   });
   const csv = [headers, ...rows].map(r => r.map(c => `"${String(c ?? '').replace(/"/g, '""')}"`).join(',')).join('\n');
