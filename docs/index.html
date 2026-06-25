@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaHouseSearcher</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css">
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+</head>
+<body>
+  <header>
+    <h1><span class="header-version">v1.0.0</span> MetaHouseSearcher</h1>
+    <nav>
+      <a href="#" class="active" data-page="search-page">Results</a>
+      <a href="#" data-page="lists-page">My Lists</a>
+    </nav>
+  </header>
+
+  <div id="loading-overlay" class="spinner-overlay active"><div class="spinner"></div></div>
+
+  <!-- Results Page -->
+  <div class="container page active" id="search-page">
+    <div class="search-panel" style="padding:12px 16px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+        <span id="lastUpdated" style="font-size:12px;color:var(--text-muted);"></span>
+        <div id="portal-links-inline" style="display:flex;flex-wrap:wrap;gap:4px;"></div>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="result-filters" id="resultFilters">
+      <div class="text-filter">
+        <label class="tag-filter-label">Locations:</label>
+        <div class="hide-tags-checks" id="locationChecks"></div>
+      </div>
+      <div class="text-filter">
+        <label class="tag-filter-label">Filter:</label>
+        <input type="text" id="textFilter" placeholder="e.g. garden, cottage (all must match)">
+      </div>
+      <div class="hide-tags-filter">
+        <label class="tag-filter-label">Hide:</label>
+        <div class="hide-tags-checks" id="hideTagsChecks">
+          <label class="pt-check"><input type="checkbox" value="favorite"> Favorites</label>
+          <label class="pt-check"><input type="checkbox" value="seen"> Seen</label>
+          <label class="pt-check"><input type="checkbox" value="view"> To View</label>
+          <label class="pt-check"><input type="checkbox" value="viewed"> Viewed</label>
+          <label class="pt-check"><input type="checkbox" value="in_progress"> In Progress</label>
+          <label class="pt-check"><input type="checkbox" value="rejected" checked> Rejected</label>
+          <label class="pt-check"><input type="checkbox" value="excluded"> Exclusion Zone</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="view-toggle" id="viewToggle">
+      <button class="view-btn active" data-view="list">List</button>
+      <button class="view-btn" data-view="map">Map</button>
+    </div>
+
+    <div id="map-area" style="display:none;">
+      <div id="map" style="height:600px;border-radius:8px;"></div>
+      <div class="zone-panel" id="zonePanel">
+        <div class="zone-header">
+          <strong>Exclusion Zones</strong>
+          <button class="btn btn-primary btn-sm" id="startDrawZone">+ Draw Zone</button>
+        </div>
+        <div id="zoneList"></div>
+      </div>
+    </div>
+
+    <div id="results-area"></div>
+  </div>
+
+  <!-- My Lists Page -->
+  <div class="container page" id="lists-page">
+    <div class="lists-tabs" id="listsTabs">
+      <button class="tab active" data-list="favorite">Favorites</button>
+      <button class="tab" data-list="seen">Seen</button>
+      <button class="tab" data-list="view">To View</button>
+      <button class="tab" data-list="viewed">Viewed</button>
+      <button class="tab" data-list="in_progress">In Progress</button>
+      <button class="tab" data-list="rejected">Rejected</button>
+    </div>
+    <div class="list-toolbar">
+      <span id="listCount">0 properties</span>
+      <button class="btn btn-outline btn-sm" id="exportCsvBtn">Export CSV</button>
+    </div>
+    <div id="list-area"></div>
+  </div>
+
+  <!-- Zone name modal -->
+  <div class="modal-overlay" id="zoneNameModal">
+    <div class="modal">
+      <h3>Name this exclusion zone</h3>
+      <input type="text" id="zoneNameInput" placeholder="e.g. Flight path area" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:6px;font-size:14px;">
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="zoneNameCancel">Cancel</button>
+        <button class="btn btn-primary" id="zoneNameSave">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Note modal -->
+  <div class="modal-overlay" id="noteModal">
+    <div class="modal">
+      <h3 id="noteModalTitle">Add Note</h3>
+      <textarea id="noteText" rows="4" placeholder="Enter your note..."></textarea>
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="noteCancelBtn">Cancel</button>
+        <button class="btn btn-primary" id="noteSaveBtn">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <span class="version-link" onclick="alert('MetaHouseSearcher Static v1.0.0')">v1.0.0</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
