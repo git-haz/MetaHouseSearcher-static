@@ -8,6 +8,7 @@ const { deduplicate } = require(path.join(mainDir, 'dedup'));
 const { findNearestByCategory } = require(path.join(mainDir, 'airports'));
 const { geocodeResults } = require(path.join(mainDir, 'geocode'));
 const { buildUrls } = require(path.join(mainDir, 'portals'));
+const { analyzeProperties } = require(path.join(mainDir, 'imageAnalyzer'));
 const zooplaParser = require(path.join(mainDir, 'parsers', 'zoopla'));
 const otmParser = require(path.join(mainDir, 'parsers', 'onthemarket'));
 
@@ -123,6 +124,12 @@ async function main() {
       .filter(Boolean).map(a => a.distanceMiles);
     r.minAirportDistanceMiles = dists.length ? Math.min(...dists) : null;
   }
+
+  // Image analysis for neighbouring houses
+  console.log('\nAnalyzing property images...');
+  await analyzeProperties(results);
+  const flagged = results.filter(r => r.neighbourDetected).length;
+  console.log(`Flagged: ${flagged}/${results.length}`);
 
   // Keywords matched
   const keywords = (config.keywords || []).map(k => k.toLowerCase().trim()).filter(Boolean);

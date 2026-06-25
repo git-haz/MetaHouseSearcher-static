@@ -1,6 +1,6 @@
 // --- Persistent lists & notes ---
 const LIST_NAMES = ['favorite', 'seen', 'view', 'viewed', 'in_progress', 'rejected'];
-const LIST_LABELS = { favorite: 'Favorites', seen: 'Seen', view: 'To View', viewed: 'Viewed', in_progress: 'In Progress', rejected: 'Rejected', excluded: 'Exclusion Zone' };
+const LIST_LABELS = { favorite: 'Favorites', seen: 'Seen', view: 'To View', viewed: 'Viewed', in_progress: 'In Progress', rejected: 'Rejected', excluded: 'Exclusion Zone', neighbour: '⚠ Neighbour' };
 
 let propertyLists = loadJSON('propertyLists', {});
 let propertyNotes = loadJSON('propertyNotes', {});
@@ -23,6 +23,8 @@ function addToList(listName, property) {
     minAirportDistanceMiles: property.minAirportDistanceMiles,
     lat: property.lat, lon: property.lon, geoAccuracy: property.geoAccuracy,
     postedDate: property.postedDate, agent: property.agent, agentPhone: property.agentPhone,
+    neighbourDetected: property.neighbourDetected || false,
+    neighbourConfidence: property.neighbourConfidence || 0,
     searchLocations: property.searchLocations,
     addedAt: new Date().toISOString(),
   };
@@ -61,6 +63,7 @@ function getPropertyTags(p) {
   const tags = [];
   for (const list of LIST_NAMES) { if (propertyLists[list] && propertyLists[list][key]) tags.push(list); }
   if (isInAnyExclusionZone(p)) tags.push('excluded');
+  if (p.neighbourDetected) tags.push('neighbour');
   return tags;
 }
 
@@ -145,6 +148,26 @@ document.getElementById('hideTagsChecks').addEventListener('change', () => {
   renderResults(currentResults);
 });
 
+// Display filter inputs
+const displayFilterIds = ['filterMinPrice', 'filterMaxPrice', 'filterMinBeds', 'filterMaxBeds', 'filterMinBaths', 'filterMaxBaths', 'filterMinGarden'];
+displayFilterIds.forEach(id => {
+  document.getElementById(id).addEventListener('input', () => renderResults(currentResults));
+});
+
+function getNum(id) { const v = Number(document.getElementById(id).value); return isNaN(v) || v === 0 ? null : v; }
+
+function extractGardenSize(p) {
+  const text = `${p.description || ''} ${p.title || ''}`;
+  // Match patterns like "0.5 acre", "1/4 acre", "2 acres", "500 sq ft garden"
+  const acreMatch = text.match(/([\d.]+)\s*acres?\b/i);
+  if (acreMatch) return parseFloat(acreMatch[1]) * 43560;
+  const fractionAcre = text.match(/(\d+)\/(\d+)\s*(?:of an?\s*)?acres?\b/i);
+  if (fractionAcre) return (parseInt(fractionAcre[1]) / parseInt(fractionAcre[2])) * 43560;
+  const sqftMatch = text.match(/([\d,]+)\s*sq\s*(?:ft|feet)\s*(?:garden|plot|land)/i);
+  if (sqftMatch) return parseInt(sqftMatch[1].replace(',', ''));
+  return null;
+}
+
 function applyFilters(results) {
   let filtered = results;
 
@@ -162,6 +185,23 @@ function applyFilters(results) {
       return textFilterKeywords.every(kw => text.includes(kw));
     });
   }
+
+  const minPrice = getNum('filterMinPrice');
+  const maxPrice = getNum('filterMaxPrice');
+  const minBeds = getNum('filterMinBeds');
+  const maxBeds = getNum('filterMaxBeds');
+  const minBaths = getNum('filterMinBaths');
+  const maxBaths = getNum('filterMaxBaths');
+  const minGarden = getNum('filterMinGarden');
+
+  if (minPrice) filtered = filtered.filter(r => r.price >= minPrice);
+  if (maxPrice) filtered = filtered.filter(r => r.price <= maxPrice);
+  if (minBeds) filtered = filtered.filter(r => r.bedrooms != null && r.bedrooms >= minBeds);
+  if (maxBeds) filtered = filtered.filter(r => r.bedrooms != null && r.bedrooms <= maxBeds);
+  if (minBaths) filtered = filtered.filter(r => r.bathrooms != null && r.bathrooms >= minBaths);
+  if (maxBaths) filtered = filtered.filter(r => r.bathrooms != null && r.bathrooms <= maxBaths);
+  if (minGarden) filtered = filtered.filter(r => { const g = extractGardenSize(r); return g != null && g >= minGarden; });
+
   return filtered;
 }
 

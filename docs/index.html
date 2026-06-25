@@ -40,6 +40,30 @@
         <label class="tag-filter-label">Filter:</label>
         <input type="text" id="textFilter" placeholder="e.g. garden, cottage (all must match)">
       </div>
+      <div class="filter-row">
+        <div class="filter-group">
+          <label>Price</label>
+          <input type="number" id="filterMinPrice" placeholder="Min" step="5000">
+          <span>–</span>
+          <input type="number" id="filterMaxPrice" placeholder="Max" step="5000">
+        </div>
+        <div class="filter-group">
+          <label>Beds</label>
+          <input type="number" id="filterMinBeds" placeholder="Min" min="0" max="20">
+          <span>–</span>
+          <input type="number" id="filterMaxBeds" placeholder="Max" min="0" max="20">
+        </div>
+        <div class="filter-group">
+          <label>Baths</label>
+          <input type="number" id="filterMinBaths" placeholder="Min" min="0" max="10">
+          <span>–</span>
+          <input type="number" id="filterMaxBaths" placeholder="Max" min="0" max="10">
+        </div>
+        <div class="filter-group">
+          <label>Min garden (sq ft)</label>
+          <input type="number" id="filterMinGarden" placeholder="e.g. 500" min="0">
+        </div>
+      </div>
       <div class="hide-tags-filter">
         <label class="tag-filter-label">Hide:</label>
         <div class="hide-tags-checks" id="hideTagsChecks">
@@ -50,6 +74,7 @@
           <label class="pt-check"><input type="checkbox" value="in_progress"> In Progress</label>
           <label class="pt-check"><input type="checkbox" value="rejected" checked> Rejected</label>
           <label class="pt-check"><input type="checkbox" value="excluded"> Exclusion Zone</label>
+          <label class="pt-check"><input type="checkbox" value="neighbour"> Neighbour Detected</label>
         </div>
       </div>
     </div>
