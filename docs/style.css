@@ -185,6 +185,7 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 .filter-group span { color: var(--text-muted); }
 
 .tag-badge-neighbour { background: #fce4ec; color: #c62828; }
+.tag-badge-neighbour_confirmed { background: #ffcdd2; color: #b71c1c; }
 
 /* Lists page tabs */
 .lists-tabs {

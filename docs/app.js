@@ -1,9 +1,11 @@
 // --- Persistent lists & notes ---
 const LIST_NAMES = ['favorite', 'seen', 'view', 'viewed', 'in_progress', 'rejected'];
-const LIST_LABELS = { favorite: 'Favorites', seen: 'Seen', view: 'To View', viewed: 'Viewed', in_progress: 'In Progress', rejected: 'Rejected', excluded: 'Exclusion Zone', neighbour: '⚠ Neighbour' };
+const LIST_LABELS = { favorite: 'Favorites', seen: 'Seen', view: 'To View', viewed: 'Viewed', in_progress: 'In Progress', rejected: 'Rejected', excluded: 'Exclusion Zone', neighbour: '⚠ Neighbour', neighbour_confirmed: '🏘 Neighbour Confirmed' };
 
 let propertyLists = loadJSON('propertyLists', {});
 let propertyNotes = loadJSON('propertyNotes', {});
+let neighbourStatus = loadJSON('neighbourStatus', {});
+function saveNeighbourStatus() { localStorage.setItem('neighbourStatus', JSON.stringify(neighbourStatus)); }
 
 function loadJSON(key, def) { try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(def)); } catch { return def; } }
 function saveLists() { localStorage.setItem('propertyLists', JSON.stringify(propertyLists)); }
@@ -63,7 +65,10 @@ function getPropertyTags(p) {
   const tags = [];
   for (const list of LIST_NAMES) { if (propertyLists[list] && propertyLists[list][key]) tags.push(list); }
   if (isInAnyExclusionZone(p)) tags.push('excluded');
-  if (p.neighbourDetected) tags.push('neighbour');
+  const ns = neighbourStatus[key];
+  if (ns === 'confirmed') tags.push('neighbour_confirmed');
+  else if (ns === 'dismissed') { /* no tag */ }
+  else if (p.neighbourDetected) tags.push('neighbour');
   return tags;
 }
 
@@ -267,7 +272,11 @@ function renderCard(p, context) {
   const cid = 'c-' + key + '-' + context;
   const ek = key.replace(/'/g, "\\'");
 
-  const badgesHtml = tags.length > 0 ? `<div class="card-tag-badges">${tags.map(t => `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t]}</span>`).join('')}</div>` : '';
+  const zoneNames = getExclusionZoneNames(p);
+  const badgesHtml = tags.length > 0 ? `<div class="card-tag-badges">${tags.map(t => {
+    if (t === 'excluded' && zoneNames.length) return zoneNames.map(zn => `<span class="tag-badge tag-badge-excluded">⚠ ${zn}</span>`).join('');
+    return `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t] || t}</span>`;
+  }).join('')}</div>` : '';
 
   const carouselHtml = `<div class="card-carousel" id="${cid}">
     ${images.map((img, i) => `<img src="${img}" alt="${p.title}" loading="lazy" class="${i === 0 ? 'active' : ''}">`).join('')}
@@ -374,10 +383,26 @@ function renderZoneList() {
   const list = document.getElementById('zoneList');
   if (!list) return;
   if (!exclusionZones.length) { list.innerHTML = '<div style="font-size:12px;color:var(--text-muted);padding:4px 0;">No zones. Click "Draw Zone" to add one.</div>'; return; }
-  list.innerHTML = exclusionZones.map((z, i) => `<div class="zone-item"><span><span class="zone-color" style="background:${ZONE_COLORS[i % ZONE_COLORS.length]};"></span>${z.name}</span><div class="zone-item-actions"><button class="btn btn-outline btn-sm" onclick="toggleZoneVis(${i})">${z.hidden ? 'Show' : 'Hide'}</button><button class="btn btn-danger btn-sm" onclick="deleteZone(${i})">Delete</button></div></div>`).join('');
+  list.innerHTML = exclusionZones.map((z, i) => `<div class="zone-item"><span><span class="zone-color" style="background:${ZONE_COLORS[i % ZONE_COLORS.length]};"></span>${z.name} (${z.points.length} points)</span><div class="zone-item-actions"><button class="btn btn-outline btn-sm" onclick="renameZone(${i})">Rename</button><button class="btn btn-outline btn-sm" onclick="toggleZoneVis(${i})">${z.hidden ? 'Show' : 'Hide'}</button><button class="btn btn-danger btn-sm" onclick="deleteZone(${i})">Delete</button></div></div>`).join('');
 }
 window.deleteZone = function(i) { exclusionZones.splice(i, 1); saveZones(); renderZoneList(); drawZonesOnMap(); renderResults(currentResults); };
 window.toggleZoneVis = function(i) { exclusionZones[i].hidden = !exclusionZones[i].hidden; saveZones(); renderZoneList(); drawZonesOnMap(); };
+window.renameZone = function(i) {
+  document.getElementById('zoneNameInput').value = exclusionZones[i].name;
+  document.getElementById('zoneNameModal').classList.add('active');
+  document.getElementById('zoneNameInput').focus();
+  pendingZoneLatLngs = null;
+  const origSave = document.getElementById('zoneNameSave').onclick;
+  document.getElementById('zoneNameSave').onclick = () => {
+    const name = document.getElementById('zoneNameInput').value.trim() || 'Unnamed Zone';
+    exclusionZones[i].name = name;
+    saveZones();
+    document.getElementById('zoneNameModal').classList.remove('active');
+    renderZoneList(); drawZonesOnMap();
+    if (currentResults.length) renderResults(currentResults);
+    document.getElementById('zoneNameSave').onclick = origSave;
+  };
+};
 
 document.getElementById('startDrawZone').addEventListener('click', () => {
   if (!map) return;

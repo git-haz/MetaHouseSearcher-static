@@ -2,10 +2,13 @@
   "searches": [
     { "location": "Wenhaston", "radius": 20 },
     { "location": "Diss", "radius": 20 },
-    { "location": "Halesworth", "radius": 20 }
+    { "location": "Harleston", "radius": 20 },
+    { "location": "Halesworth", "radius": 20 },
+    { "location": "Eye", "radius": 20 }
   ],
   "keywords": ["garden"],
   "propertyTypes": [],
   "maxPrice": null,
-  "minBed": null
+  "minBed": null,
+  "neighbourConfidenceThreshold": 0.95
 }

@@ -126,8 +126,13 @@ async function main() {
   }
 
   // Image analysis for neighbouring houses
-  console.log('\nAnalyzing property images...');
+  const threshold = config.neighbourConfidenceThreshold || 0.95;
+  console.log(`\nAnalyzing property images (threshold: ${threshold * 100}%)...`);
   await analyzeProperties(results);
+  // Apply threshold
+  for (const r of results) {
+    if (r.neighbourConfidence < threshold) r.neighbourDetected = false;
+  }
   const flagged = results.filter(r => r.neighbourDetected).length;
   console.log(`Flagged: ${flagged}/${results.length}`);
 
