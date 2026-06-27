@@ -12,7 +12,7 @@
 </head>
 <body>
   <header>
-    <h1><span class="header-version">v1.1.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version">v1.2.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -75,6 +75,14 @@
           <label class="pt-check"><input type="checkbox" value="rejected" checked> Rejected</label>
           <label class="pt-check"><input type="checkbox" value="excluded"> Exclusion Zone</label>
           <label class="pt-check"><input type="checkbox" value="neighbour"> Neighbour Detected</label>
+        </div>
+      </div>
+      <div class="hide-tags-filter">
+        <label class="tag-filter-label">Show on cards:</label>
+        <div class="hide-tags-checks" id="displayToggles">
+          <label class="pt-check"><input type="checkbox" value="flyover" id="showFlyover" checked> Flyover info</label>
+          <label class="pt-check"><input type="checkbox" value="neighbour" id="showNeighbour" checked> Image analysis</label>
+          <label class="pt-check"><input type="checkbox" value="airports" id="showAirports" checked> Airport distances</label>
         </div>
       </div>
     </div>
@@ -140,7 +148,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" onclick="alert('MetaHouseSearcher Static v1.1.0')">v1.1.0</span>
+    <span class="version-link" onclick="alert('MetaHouseSearcher Static v1.2.0')">v1.2.0</span>
   </footer>
 
   <script src="app.js"></script>

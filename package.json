@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node build.js",
+    "build:analyze": "node build.js --analyze",
     "deploy": "node build.js && git add docs && git commit -m \"Update search results\" && git push"
   },
   "dependencies": {

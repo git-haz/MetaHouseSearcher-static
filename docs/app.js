@@ -27,6 +27,7 @@ function addToList(listName, property) {
     postedDate: property.postedDate, agent: property.agent, agentPhone: property.agentPhone,
     neighbourDetected: property.neighbourDetected || false,
     neighbourConfidence: property.neighbourConfidence || 0,
+    flyoverRef: property.flyoverRef || property.flyover || null,
     searchLocations: property.searchLocations,
     addedAt: new Date().toISOString(),
   };
@@ -88,6 +89,9 @@ let currentResults = [];
 let selectedLocations = [];
 let textFilterKeywords = [];
 let hiddenTags = ['rejected'];
+let showFlyover = true;
+let showNeighbour = true;
+let showAirports = true;
 let activeView = 'list';
 let activeListTab = 'favorite';
 let map = null;
@@ -100,7 +104,9 @@ async function init() {
     allData = await res.json();
     currentResults = allData.results;
 
-    document.getElementById('lastUpdated').textContent = `Last updated: ${new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
+    const dateStr = new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+    const seedInfo = allData.seedStats ? ` · Seed: ${allData.seedStats.total} total` : '';
+    document.getElementById('lastUpdated').textContent = `Last updated: ${dateStr} · ${allData.totalResults} results${seedInfo}`;
 
     // Location checkboxes
     selectedLocations = [...allData.locations];
@@ -150,6 +156,14 @@ document.getElementById('textFilter').addEventListener('input', e => {
 document.getElementById('hideTagsChecks').addEventListener('change', () => {
   hiddenTags = [];
   document.querySelectorAll('#hideTagsChecks input:checked').forEach(cb => hiddenTags.push(cb.value));
+  renderResults(currentResults);
+});
+
+// Display toggles
+document.getElementById('displayToggles').addEventListener('change', () => {
+  showFlyover = document.getElementById('showFlyover').checked;
+  showNeighbour = document.getElementById('showNeighbour').checked;
+  showAirports = document.getElementById('showAirports').checked;
   renderResults(currentResults);
 });
 
@@ -273,7 +287,11 @@ function renderCard(p, context) {
   const ek = key.replace(/'/g, "\\'");
 
   const zoneNames = getExclusionZoneNames(p);
-  const badgesHtml = tags.length > 0 ? `<div class="card-tag-badges">${tags.map(t => {
+  const visibleTags = tags.filter(t => {
+    if ((t === 'neighbour' || t === 'neighbour_confirmed') && !showNeighbour) return false;
+    return true;
+  });
+  const badgesHtml = visibleTags.length > 0 ? `<div class="card-tag-badges">${visibleTags.map(t => {
     if (t === 'excluded' && zoneNames.length) return zoneNames.map(zn => `<span class="tag-badge tag-badge-excluded">⚠ ${zn}</span>`).join('');
     return `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t] || t}</span>`;
   }).join('')}</div>` : '';
@@ -296,10 +314,24 @@ function renderCard(p, context) {
   const agentHtml = p.agent ? `<span class="card-agent">${p.agent}${p.agentPhone ? ' · ' + p.agentPhone : ''}</span>` : '';
   const noteHtml = note ? `<div class="card-note" onclick="openNote('${ek}','${context}')">${note}</div>` : '';
 
+  const fd = p.flyoverRef || p.flyover;
+  const flyoverMonthly = fd?.monthly ? fd.monthly.filter(m => m.hours > 0) : [];
+  const flyoverHtml = fd ? `
+    <div class="card-flyover">
+      ✈ <span class="flyover-rate">${fd.flightsPerDay} flights/day</span> est.
+      ${fd.location ? `<span style="font-size:11px;color:var(--text-muted);">(ref: ${fd.location})</span>` : ''}
+      ${fd.seasonalFlag === 'high_variance' ? '<span class="flyover-seasonal-high"> — seasonal variance</span>' : ''}
+      ${fd.seasonalFlag === 'very_high_variance' ? '<span class="flyover-seasonal-high"> — high seasonal variance</span>' : ''}
+      ${fd.seasonalFlag === 'stable' ? '<span class="flyover-seasonal-stable"> — stable</span>' : ''}
+      ${fd.seasonalFlag === 'low_traffic' ? '<span class="flyover-seasonal-stable"> — low traffic</span>' : ''}
+      ${flyoverMonthly.length > 0 ? `<br><span style="font-size:11px;color:var(--text-muted);">${flyoverMonthly.map(m => m.month + ': ' + m.flightsPerDay + '/day').join(' · ')}</span>` : ''}
+    </div>` : '';
+
   return `<div class="property-card" data-key="${key}">
     ${carouselHtml}
     <div class="card-body">
       ${badgesHtml}
+      ${showFlyover ? flyoverHtml : ''}
       <div class="card-price">£${p.price.toLocaleString()} ${postedHtml}</div>
       <div class="card-title">${p.title}</div>
       <div class="card-address">${geoIcon} ${p.address}</div>
@@ -311,7 +343,7 @@ function renderCard(p, context) {
         <span>${p.type || ''}</span>
       </div>
       ${p.description ? `<div class="card-description">${p.description}</div>` : ''}
-      ${airportHtml}
+      ${showAirports ? airportHtml : ''}
       <div class="card-sources">${p.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="source-tag">${s.portal}</a>`).join('')}</div>
       <div class="card-actions">
         <button class="action-btn ${isInList('favorite', key) ? 'active-favorite' : ''}" onclick="toggleList('favorite','${ek}','${context}')">${isInList('favorite', key) ? '★' : '☆'} Fav</button>

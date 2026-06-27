@@ -9,6 +9,8 @@ const { findNearestByCategory } = require(path.join(mainDir, 'airports'));
 const { geocodeResults } = require(path.join(mainDir, 'geocode'));
 const { buildUrls } = require(path.join(mainDir, 'portals'));
 const { analyzeProperties } = require(path.join(mainDir, 'imageAnalyzer'));
+const { attachFlyoverData } = require(path.join(mainDir, 'flyovers'));
+const seedData = require(path.join(mainDir, 'seedData'));
 const zooplaParser = require(path.join(mainDir, 'parsers', 'zoopla'));
 const otmParser = require(path.join(mainDir, 'parsers', 'onthemarket'));
 
@@ -125,16 +127,29 @@ async function main() {
     r.minAirportDistanceMiles = dists.length ? Math.min(...dists) : null;
   }
 
-  // Image analysis for neighbouring houses
-  const threshold = config.neighbourConfidenceThreshold || 0.95;
-  console.log(`\nAnalyzing property images (threshold: ${threshold * 100}%)...`);
-  await analyzeProperties(results);
-  // Apply threshold
-  for (const r of results) {
-    if (r.neighbourConfidence < threshold) r.neighbourDetected = false;
+  // Flyover reference data
+  const flyoverSource = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
+  if (fs.existsSync(flyoverSource)) {
+    fs.copyFileSync(flyoverSource, path.join(docsDir, 'flyover-reference.json'));
+    console.log('Copied flyover-reference.json');
+    attachFlyoverData(results, allLocations);
+    const withFlyover = results.filter(r => r.flyoverRef).length;
+    console.log(`Flyover data attached to ${withFlyover}/${results.length} properties`);
   }
-  const flagged = results.filter(r => r.neighbourDetected).length;
-  console.log(`Flagged: ${flagged}/${results.length}`);
+
+  // Image analysis — only if --analyze flag is passed
+  if (process.argv.includes('--analyze')) {
+    const threshold = config.neighbourConfidenceThreshold || 0.95;
+    console.log(`\nAnalyzing property images (threshold: ${threshold * 100}%)...`);
+    await analyzeProperties(results, threshold);
+    for (const r of results) {
+      if (r.neighbourConfidence < threshold) r.neighbourDetected = false;
+    }
+    const flagged = results.filter(r => r.neighbourDetected).length;
+    console.log(`Flagged: ${flagged}/${results.length}`);
+  } else {
+    console.log('\nSkipping image analysis (use --analyze to enable)');
+  }
 
   // Keywords matched
   const keywords = (config.keywords || []).map(k => k.toLowerCase().trim()).filter(Boolean);
@@ -146,6 +161,11 @@ async function main() {
     }
   }
 
+  // Merge into seed data
+  console.log('\nMerging seed data...');
+  const mergeStats = seedData.mergeResults(results);
+  console.log(`Seed: ${mergeStats.added} new, ${mergeStats.updated} updated, ${mergeStats.duplicates} dupes (${mergeStats.total} total)`);
+
   // Write output
   const output = {
     generatedAt: new Date().toISOString(),
@@ -154,6 +174,7 @@ async function main() {
     totalResults: results.length,
     results,
     portalLinks: allPortalLinks,
+    seedStats: mergeStats,
   };
 
   fs.writeFileSync(path.join(docsDir, 'results.json'), JSON.stringify(output, null, 2));
