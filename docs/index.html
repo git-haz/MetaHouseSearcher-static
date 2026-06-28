@@ -123,6 +123,18 @@
     <div id="list-area"></div>
   </div>
 
+  <!-- Duplicate chooser modal -->
+  <div class="modal-overlay" id="dupeModal">
+    <div class="modal" style="max-width:900px;width:95%;">
+      <h3>Choose which listing to keep</h3>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:12px;">These listings appear to be the same property from different sources. Click "Keep this one" to dismiss the others.</p>
+      <div class="dupe-grid" id="dupeGrid"></div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" onclick="document.getElementById('dupeModal').classList.remove('active')">Close</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Zone name modal -->
   <div class="modal-overlay" id="zoneNameModal">
     <div class="modal">

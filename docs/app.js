@@ -221,6 +221,12 @@ function applyFilters(results) {
   if (maxBaths) filtered = filtered.filter(r => r.bathrooms != null && r.bathrooms <= maxBaths);
   if (minGarden) filtered = filtered.filter(r => { const g = extractGardenSize(r); return g != null && g >= minGarden; });
 
+  // Hide dismissed duplicates
+  filtered = filtered.filter(r => {
+    const dk = pkey(r) + '__' + (r.agent || r.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    return !dismissedDupes[dk];
+  });
+
   return filtered;
 }
 
@@ -265,6 +271,8 @@ function renderResults(results) {
           <option value="keywords-asc">Keywords Matched: Fewest</option>
           <option value="airport-desc">Airport Dist: Furthest</option>
           <option value="airport-asc">Airport Dist: Nearest</option>
+          <option value="retrieved-desc">Retrieved: Newest First</option>
+          <option value="retrieved-asc">Retrieved: Oldest First</option>
         </select>
       </div>
     </div>
@@ -333,6 +341,11 @@ function renderCard(p, context) {
       ${badgesHtml}
       ${showFlyover ? flyoverHtml : ''}
       <div class="card-price">£${p.price.toLocaleString()} ${postedHtml}</div>
+      <div class="card-meta-row">
+        ${p.retrievedAt || p.seedAddedAt ? `<span class="card-retrieved" title="Retrieved ${new Date(p.retrievedAt || p.seedAddedAt).toISOString()}">${new Date(p.retrievedAt || p.seedAddedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short'})}</span>` : ''}
+        ${p.isNew ? '<span class="card-new-badge">NEW</span>' : ''}
+        ${p.hasDuplicates ? `<button class="card-dupe-btn" onclick="showDuplicates('${ek}')">⚠ Duplicates — choose one</button>` : ''}
+      </div>
       <div class="card-title">${p.title}</div>
       <div class="card-address">${geoIcon} ${p.address}</div>
       ${agentHtml ? `<div class="card-agent-line">${agentHtml}</div>` : ''}
@@ -465,6 +478,11 @@ function applySort() {
   const [field, dir] = document.getElementById('sortBy').value.split('-');
   currentResults.sort((a, b) => {
     if (field === 'location') return dir === 'asc' ? a.address.localeCompare(b.address) : b.address.localeCompare(a.address);
+    if (field === 'retrieved') {
+      const da = new Date(a.retrievedAt || a.seedAddedAt || 0).getTime();
+      const db = new Date(b.retrievedAt || b.seedAddedAt || 0).getTime();
+      return dir === 'asc' ? da - db : db - da;
+    }
     const k = field === 'price' ? 'price' : field === 'keywords' ? 'keywordsMatched' : 'minAirportDistanceMiles';
     return dir === 'asc' ? (a[k] || 0) - (b[k] || 0) : (b[k] || 0) - (a[k] || 0);
   });
@@ -477,6 +495,63 @@ function applyAirportFilter() {
   const grid = document.querySelector('.results-grid');
   if (grid) grid.innerHTML = filtered.length ? filtered.map(p => renderCard(p, 'search')).join('') : '<div class="empty-state" style="grid-column:1/-1;"><h2>No properties this far from airports</h2></div>';
 }
+
+// --- Duplicate chooser ---
+let dismissedDupes = loadJSON('dismissedDupes', {});
+function saveDismissedDupes() { localStorage.setItem('dismissedDupes', JSON.stringify(dismissedDupes)); }
+
+window.showDuplicates = function(key) {
+  const property = currentResults.find(r => pkey(r) === key);
+  if (!property || !property.duplicateKeys) return;
+
+  const addrKey = (property.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const dupes = currentResults.filter(r => {
+    const ak = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    return ak === addrKey;
+  });
+
+  const grid = document.getElementById('dupeGrid');
+  grid.innerHTML = dupes.map(d => {
+    const dk = pkey(d) + '__' + (d.agent || d.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const img = d.images && d.images[0] ? d.images[0] : 'https://placehold.co/400x300/e0e0e0/999?text=No+Image';
+    const isDismissed = dismissedDupes[dk];
+    return `<div class="dupe-card" style="${isDismissed ? 'opacity:0.4;' : ''}">
+      <img src="${img}" alt="${d.title}" loading="lazy">
+      <div class="dupe-price">£${d.price.toLocaleString()}</div>
+      <div><strong>${d.title}</strong></div>
+      <div>${d.address}</div>
+      <div class="dupe-source">${d.agent || ''} · ${d.sources?.map(s => s.portal).join(', ') || ''}</div>
+      <div class="dupe-source">Retrieved: ${d.retrievedAt ? new Date(d.retrievedAt).toLocaleDateString('en-GB') : 'unknown'}</div>
+      ${d.description ? `<div class="dupe-desc">${d.description}</div>` : ''}
+      <div style="display:flex;gap:6px;">
+        ${d.sources?.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="source-tag">${s.portal}</a>`).join('') || ''}
+      </div>
+      ${isDismissed ? '<span style="font-size:12px;color:var(--danger);">Dismissed</span>' : `<button class="dupe-keep-btn" onclick="keepDuplicate('${dk}','${addrKey}')">Keep this one</button>`}
+    </div>`;
+  }).join('');
+
+  document.getElementById('dupeModal').classList.add('active');
+};
+
+window.keepDuplicate = function(keepKey, addrKey) {
+  // Dismiss all duplicates with same address except the kept one
+  const dupes = currentResults.filter(r => {
+    const ak = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    return ak === addrKey;
+  });
+  for (const d of dupes) {
+    const dk = pkey(d) + '__' + (d.agent || d.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (dk !== keepKey) dismissedDupes[dk] = true;
+    else delete dismissedDupes[dk];
+  }
+  saveDismissedDupes();
+  document.getElementById('dupeModal').classList.remove('active');
+  renderResults(currentResults);
+};
+
+document.getElementById('dupeModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) e.currentTarget.classList.remove('active');
+});
 
 // --- Tags / lists ---
 window.toggleList = function(listName, key, context) {

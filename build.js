@@ -187,19 +187,48 @@ async function main() {
   const mergeStats = seedData.mergeResults(results);
   console.log(`Seed: ${mergeStats.added} new, ${mergeStats.updated} updated, ${mergeStats.duplicates} dupes (${mergeStats.total} total)`);
 
-  // Write output
+  // Build output from FULL seed (all accumulated properties, not just this scrape)
+  const allSeedProperties = seedData.getAll();
+  console.log(`\nFull seed: ${allSeedProperties.length} properties`);
+
+  // Mark newly scraped properties
+  const newKeys = new Set(results.map(r => seedData.dedupKey(r)));
+  for (const p of allSeedProperties) {
+    const key = seedData.dedupKey(p);
+    p.isNew = newKeys.has(key);
+    p.retrievedAt = p.seedAddedAt || p.addedAt || new Date().toISOString();
+    if (p.seedUpdatedAt) p.lastUpdatedAt = p.seedUpdatedAt;
+  }
+
+  // Find duplicates (same address, different agents)
+  const addrGroups = {};
+  for (const p of allSeedProperties) {
+    const addrKey = (p.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (!addrGroups[addrKey]) addrGroups[addrKey] = [];
+    addrGroups[addrKey].push(seedData.dedupKey(p));
+  }
+  for (const p of allSeedProperties) {
+    const addrKey = (p.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const group = addrGroups[addrKey];
+    if (group.length > 1) {
+      p.duplicateKeys = group.filter(k => k !== seedData.dedupKey(p));
+      p.hasDuplicates = true;
+    }
+  }
+
   const output = {
     generatedAt: new Date().toISOString(),
     searchConfig: config,
     locations: config.searches.map(s => s.location),
-    totalResults: results.length,
-    results,
+    totalResults: allSeedProperties.length,
+    newResults: results.length,
+    results: allSeedProperties,
     portalLinks: allPortalLinks,
     seedStats: mergeStats,
   };
 
   fs.writeFileSync(path.join(docsDir, 'results.json'), JSON.stringify(output, null, 2));
-  console.log(`\nWrote ${results.length} results to docs/results.json`);
+  console.log(`Wrote ${allSeedProperties.length} total properties (${results.length} new this run) to docs/results.json`);
   console.log(`Wrote ${allPortalLinks.length} portal links`);
   console.log('Build complete!');
 }
