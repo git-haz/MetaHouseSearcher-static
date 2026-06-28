@@ -344,7 +344,7 @@ function renderCard(p, context) {
       <div class="card-meta-row">
         ${p.retrievedAt || p.seedAddedAt ? `<span class="card-retrieved" title="Retrieved ${new Date(p.retrievedAt || p.seedAddedAt).toISOString()}">${new Date(p.retrievedAt || p.seedAddedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short'})}</span>` : ''}
         ${p.isNew ? '<span class="card-new-badge">NEW</span>' : ''}
-        ${p.hasDuplicates ? `<button class="card-dupe-btn" onclick="showDuplicates('${ek}')">⚠ Duplicates — choose one</button>` : ''}
+        ${propertyHasDuplicates(p) ? `<button class="card-dupe-btn" onclick="showDuplicates('${ek}')">⚠ Duplicates — choose one</button>` : ''}
       </div>
       <div class="card-title">${p.title}</div>
       <div class="card-address">${geoIcon} ${p.address}</div>
@@ -498,21 +498,45 @@ function applyAirportFilter() {
 
 // --- Duplicate chooser ---
 let dismissedDupes = loadJSON('dismissedDupes', {});
+let notDuplicates = loadJSON('notDuplicates', []);
 function saveDismissedDupes() { localStorage.setItem('dismissedDupes', JSON.stringify(dismissedDupes)); }
+function saveNotDuplicates() { localStorage.setItem('notDuplicates', JSON.stringify(notDuplicates)); }
+
+function dupeKey(p) {
+  return pkey(p) + '__' + (p.agent || p.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function areSeparated(dk1, dk2) {
+  return notDuplicates.some(pair => (pair[0] === dk1 && pair[1] === dk2) || (pair[0] === dk2 && pair[1] === dk1));
+}
+
+function getDuplicateGroup(property) {
+  const addrKey = (property.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const myDk = dupeKey(property);
+  return currentResults.filter(r => {
+    const ak = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (ak !== addrKey) return false;
+    const rDk = dupeKey(r);
+    if (rDk === myDk) return true;
+    return !areSeparated(myDk, rDk);
+  });
+}
+
+function propertyHasDuplicates(p) {
+  if (!p.hasDuplicates) return false;
+  return getDuplicateGroup(p).length > 1;
+}
 
 window.showDuplicates = function(key) {
   const property = currentResults.find(r => pkey(r) === key);
-  if (!property || !property.duplicateKeys) return;
+  if (!property) return;
 
+  const dupes = getDuplicateGroup(property);
   const addrKey = (property.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-  const dupes = currentResults.filter(r => {
-    const ak = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    return ak === addrKey;
-  });
 
   const grid = document.getElementById('dupeGrid');
   grid.innerHTML = dupes.map(d => {
-    const dk = pkey(d) + '__' + (d.agent || d.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const dk = dupeKey(d);
     const img = d.images && d.images[0] ? d.images[0] : 'https://placehold.co/400x300/e0e0e0/999?text=No+Image';
     const isDismissed = dismissedDupes[dk];
     return `<div class="dupe-card" style="${isDismissed ? 'opacity:0.4;' : ''}">
@@ -523,10 +547,15 @@ window.showDuplicates = function(key) {
       <div class="dupe-source">${d.agent || ''} · ${d.sources?.map(s => s.portal).join(', ') || ''}</div>
       <div class="dupe-source">Retrieved: ${d.retrievedAt ? new Date(d.retrievedAt).toLocaleDateString('en-GB') : 'unknown'}</div>
       ${d.description ? `<div class="dupe-desc">${d.description}</div>` : ''}
-      <div style="display:flex;gap:6px;">
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
         ${d.sources?.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="source-tag">${s.portal}</a>`).join('') || ''}
       </div>
-      ${isDismissed ? '<span style="font-size:12px;color:var(--danger);">Dismissed</span>' : `<button class="dupe-keep-btn" onclick="keepDuplicate('${dk}','${addrKey}')">Keep this one</button>`}
+      <div style="display:flex;gap:6px;margin-top:auto;">
+        ${isDismissed
+          ? `<button class="btn btn-outline btn-sm" onclick="restoreDuplicate('${dk}')">Restore</button>`
+          : `<button class="dupe-keep-btn" onclick="keepDuplicate('${dk}','${addrKey}')">Keep this one</button>`}
+        <button class="btn btn-outline btn-sm" onclick="markNotDuplicate('${dk}','${addrKey}')">Not a duplicate</button>
+      </div>
     </div>`;
   }).join('');
 
@@ -534,13 +563,9 @@ window.showDuplicates = function(key) {
 };
 
 window.keepDuplicate = function(keepKey, addrKey) {
-  // Dismiss all duplicates with same address except the kept one
-  const dupes = currentResults.filter(r => {
-    const ak = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    return ak === addrKey;
-  });
+  const dupes = getDuplicateGroupByAddr(addrKey, keepKey);
   for (const d of dupes) {
-    const dk = pkey(d) + '__' + (d.agent || d.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const dk = dupeKey(d);
     if (dk !== keepKey) dismissedDupes[dk] = true;
     else delete dismissedDupes[dk];
   }
@@ -548,6 +573,42 @@ window.keepDuplicate = function(keepKey, addrKey) {
   document.getElementById('dupeModal').classList.remove('active');
   renderResults(currentResults);
 };
+
+window.restoreDuplicate = function(dk) {
+  delete dismissedDupes[dk];
+  saveDismissedDupes();
+  // Re-render the modal
+  const modal = document.getElementById('dupeModal');
+  if (modal.classList.contains('active')) {
+    const firstVisible = currentResults.find(r => dupeKey(r) === dk);
+    if (firstVisible) showDuplicates(pkey(firstVisible));
+  }
+  renderResults(currentResults);
+};
+
+window.markNotDuplicate = function(dk, addrKey) {
+  // Mark this property as NOT a duplicate of all others in the group
+  const group = getDuplicateGroupByAddr(addrKey, null);
+  for (const d of group) {
+    const otherDk = dupeKey(d);
+    if (otherDk !== dk && !areSeparated(dk, otherDk)) {
+      notDuplicates.push([dk, otherDk]);
+    }
+  }
+  // Restore it if it was dismissed
+  delete dismissedDupes[dk];
+  saveDismissedDupes();
+  saveNotDuplicates();
+  document.getElementById('dupeModal').classList.remove('active');
+  renderResults(currentResults);
+};
+
+function getDuplicateGroupByAddr(addrKey, keepKey) {
+  return currentResults.filter(r => {
+    const ak = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    return ak === addrKey;
+  });
+}
 
 document.getElementById('dupeModal').addEventListener('click', e => {
   if (e.target === e.currentTarget) e.currentTarget.classList.remove('active');
