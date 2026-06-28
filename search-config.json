@@ -1,5 +1,8 @@
 {
   "searches": [
+    { "location": "Fressingfield", "radius": 20 },
+    { "location": "Laxfield", "radius": 20 },
+    { "location": "Hoxne", "radius": 20 },
     { "location": "Wenhaston", "radius": 20 },
     { "location": "Diss", "radius": 20 },
     { "location": "Harleston", "radius": 20 },
@@ -8,7 +11,7 @@
   ],
   "keywords": ["garden"],
   "propertyTypes": [],
-  "maxPrice": null,
-  "minBed": null,
-  "neighbourConfidenceThreshold": 0.95
+  "maxPrice": 450000,
+  "minBed": 2,
+  "neighbourConfidenceThreshold": 0.99
 }
