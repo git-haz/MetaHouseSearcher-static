@@ -13,15 +13,23 @@ const { attachFlyoverData } = require(path.join(mainDir, 'flyovers'));
 const seedData = require(path.join(mainDir, 'seedData'));
 const zooplaParser = require(path.join(mainDir, 'parsers', 'zoopla'));
 const otmParser = require(path.join(mainDir, 'parsers', 'onthemarket'));
+const durrantsParser = require(path.join(mainDir, 'parsers', 'durrants'));
 
-const parsers = { zoopla: zooplaParser, onthemarket: otmParser };
+const parsers = { zoopla: zooplaParser, onthemarket: otmParser, durrants: durrantsParser };
 
-const PORTALS = [
+const ALL_PORTALS = [
   { id: 'zoopla', name: 'Zoopla', enabled: true },
   { id: 'onthemarket', name: 'OnTheMarket', enabled: true },
   { id: 'durrants', name: 'Durrants', enabled: true },
   { id: 'winkworth', name: 'Winkworth', enabled: true },
 ];
+
+// --portals=durrants,zoopla to limit which portals to scrape
+const portalArg = process.argv.find(a => a.startsWith('--portals='));
+const portalFilter = portalArg ? portalArg.split('=')[1].split(',').map(s => s.trim().toLowerCase()) : null;
+const PORTALS = portalFilter
+  ? ALL_PORTALS.filter(p => portalFilter.includes(p.id))
+  : ALL_PORTALS;
 
 const AUTO_REJECT_PATTERNS = [
   /\bsemi[-\s]?detached\b/i,
