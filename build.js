@@ -14,13 +14,24 @@ const seedData = require(path.join(mainDir, 'seedData'));
 const zooplaParser = require(path.join(mainDir, 'parsers', 'zoopla'));
 const otmParser = require(path.join(mainDir, 'parsers', 'onthemarket'));
 const durrantsParser = require(path.join(mainDir, 'parsers', 'durrants'));
+const rightmoveParser = require(path.join(mainDir, 'parsers', 'rightmove'));
+const savillsParser = require(path.join(mainDir, 'parsers', 'savills'));
+const spParser = require(path.join(mainDir, 'parsers', 'struttandparker'));
+const jsParser = require(path.join(mainDir, 'parsers', 'jackson-stops'));
 
-const parsers = { zoopla: zooplaParser, onthemarket: otmParser, durrants: durrantsParser };
+const parsers = {
+  zoopla: zooplaParser, onthemarket: otmParser, durrants: durrantsParser,
+  rightmove: rightmoveParser, savills: savillsParser, struttandparker: spParser, 'jackson-stops': jsParser,
+};
 
 const ALL_PORTALS = [
   { id: 'zoopla', name: 'Zoopla', enabled: true },
   { id: 'onthemarket', name: 'OnTheMarket', enabled: true },
   { id: 'durrants', name: 'Durrants', enabled: true },
+  { id: 'rightmove', name: 'Rightmove', enabled: true },
+  { id: 'savills', name: 'Savills', enabled: true },
+  { id: 'struttandparker', name: 'Strutt & Parker', enabled: true },
+  { id: 'jackson-stops', name: 'Jackson-Stops', enabled: true },
   { id: 'winkworth', name: 'Winkworth', enabled: true },
 ];
 
