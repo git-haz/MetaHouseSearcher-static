@@ -345,6 +345,7 @@ function renderCard(p, context) {
         ${p.retrievedAt || p.seedAddedAt ? `<span class="card-retrieved" title="Retrieved ${new Date(p.retrievedAt || p.seedAddedAt).toISOString()}">${new Date(p.retrievedAt || p.seedAddedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short'})}</span>` : ''}
         ${p.isNew ? '<span class="card-new-badge">NEW</span>' : ''}
         ${propertyHasDuplicates(p) ? `<button class="card-dupe-btn" onclick="showDuplicates('${ek}')">⚠ Duplicates — choose one</button>` : ''}
+        ${!propertyHasDuplicates(p) && propertyHasPotentialDuplicates(p) ? `<button class="card-dupe-btn card-dupe-potential" onclick="showDuplicates('${ek}')">? Potential duplicate (${p.duplicateSimilarity || ''}% match) — confirm</button>` : ''}
       </div>
       <div class="card-title">${p.title}</div>
       <div class="card-address">${geoIcon} ${p.address}</div>
@@ -523,8 +524,12 @@ function getDuplicateGroup(property) {
 }
 
 function propertyHasDuplicates(p) {
-  if (!p.hasDuplicates) return false;
+  if (!p.hasDuplicates && !p.hasPotentialDuplicates) return false;
   return getDuplicateGroup(p).length > 1;
+}
+
+function propertyHasPotentialDuplicates(p) {
+  return p.hasPotentialDuplicates && !dismissedDupes[dupeKey(p)];
 }
 
 window.showDuplicates = function(key) {

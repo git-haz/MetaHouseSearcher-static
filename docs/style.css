@@ -366,6 +366,8 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
   border: 1px solid #ffcc80; border-radius: 10px; padding: 1px 10px; cursor: pointer;
 }
 .card-dupe-btn:hover { background: #ffe0b2; }
+.card-dupe-potential { background: #e3f2fd; color: var(--primary); border-color: #90caf9; }
+.card-dupe-potential:hover { background: #bbdefb; }
 
 /* Duplicate chooser */
 .dupe-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; max-height: 70vh; overflow-y: auto; }
