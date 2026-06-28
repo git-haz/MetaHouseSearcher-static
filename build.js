@@ -4,7 +4,7 @@ const path = require('path');
 // Reuse modules from the main project
 const mainDir = path.join(__dirname, '..', 'property-search', 'server');
 const { closeBrowser } = require(path.join(mainDir, 'browser'));
-const { deduplicate } = require(path.join(mainDir, 'dedup'));
+const { deduplicate, normalizeAddress, descriptionSimilarity, getUrl } = require(path.join(mainDir, 'dedup'));
 const { findNearestByCategory } = require(path.join(mainDir, 'airports'));
 const { geocodeResults } = require(path.join(mainDir, 'geocode'));
 const { buildUrls } = require(path.join(mainDir, 'portals'));
@@ -200,21 +200,78 @@ async function main() {
     if (p.seedUpdatedAt) p.lastUpdatedAt = p.seedUpdatedAt;
   }
 
-  // Find duplicates (same address, different agents)
-  const addrGroups = {};
+  // Recheck all seed properties for duplicates using new logic
+  let definiteCount = 0, potentialCount = 0;
+  // Reset flags
   for (const p of allSeedProperties) {
-    const addrKey = (p.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    if (!addrGroups[addrKey]) addrGroups[addrKey] = [];
-    addrGroups[addrKey].push(seedData.dedupKey(p));
+    delete p.hasDuplicates;
+    delete p.duplicateKeys;
+    delete p.hasPotentialDuplicates;
+    delete p.potentialDuplicateOf;
+    delete p.duplicateSimilarity;
   }
+
+  // Same-URL dedup: mark older entries
+  const urlSeen = new Map();
   for (const p of allSeedProperties) {
-    const addrKey = (p.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    const group = addrGroups[addrKey];
-    if (group.length > 1) {
-      p.duplicateKeys = group.filter(k => k !== seedData.dedupKey(p));
+    const url = getUrl(p);
+    if (!url) continue;
+    if (urlSeen.has(url)) {
+      const existing = urlSeen.get(url);
+      existing.hasDuplicates = true;
       p.hasDuplicates = true;
+      existing.duplicateKeys = existing.duplicateKeys || [];
+      existing.duplicateKeys.push(seedData.dedupKey(p));
+      p.duplicateKeys = [seedData.dedupKey(existing)];
+      definiteCount++;
+    } else {
+      urlSeen.set(url, p);
     }
   }
+
+  // Cross-URL: group by normalised address + beds + baths
+  const crossGroups = {};
+  for (const p of allSeedProperties) {
+    const addr = normalizeAddress(p.address || '');
+    const key = `${addr}|${p.bedrooms || ''}|${p.bathrooms || ''}`;
+    if (!crossGroups[key]) crossGroups[key] = [];
+    crossGroups[key].push(p);
+  }
+
+  for (const [, group] of Object.entries(crossGroups)) {
+    if (group.length < 2) continue;
+    for (let i = 0; i < group.length; i++) {
+      for (let j = i + 1; j < group.length; j++) {
+        const a = group[i], b = group[j];
+        if (getUrl(a) === getUrl(b)) continue; // already handled
+
+        if (a.price === b.price) {
+          // Definite duplicate
+          a.hasDuplicates = true;
+          b.hasDuplicates = true;
+          a.duplicateKeys = a.duplicateKeys || [];
+          b.duplicateKeys = b.duplicateKeys || [];
+          a.duplicateKeys.push(seedData.dedupKey(b));
+          b.duplicateKeys.push(seedData.dedupKey(a));
+          definiteCount++;
+        } else {
+          // Check for potential duplicate
+          const sim = descriptionSimilarity(a.description, b.description);
+          if (sim >= 0.5 && a.postedDate !== b.postedDate) {
+            a.hasPotentialDuplicates = true;
+            b.hasPotentialDuplicates = true;
+            b.potentialDuplicateOf = getUrl(a);
+            a.potentialDuplicateOf = getUrl(b);
+            a.duplicateSimilarity = Math.round(sim * 100);
+            b.duplicateSimilarity = Math.round(sim * 100);
+            potentialCount++;
+          }
+        }
+      }
+    }
+  }
+
+  console.log(`Duplicate check: ${definiteCount} definite, ${potentialCount} potential`);
 
   const output = {
     generatedAt: new Date().toISOString(),
