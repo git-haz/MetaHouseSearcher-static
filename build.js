@@ -78,8 +78,10 @@ async function main() {
       minBed: config.minBed || undefined,
     };
 
+    const rmLocations = { wenhaston: 'REGION^1264', diss: 'REGION^425', harleston: 'REGION^11918', laxfield: 'REGION^14740' };
+
     for (const portal of PORTALS) {
-      const urls = buildUrls(portal, criteria, {});
+      const urls = buildUrls(portal, criteria, rmLocations);
       for (const link of urls) {
         allPortalLinks.push({ ...link, searchLocation: search.location });
       }
