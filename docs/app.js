@@ -412,6 +412,64 @@ function renderMap(results) {
   renderZoneList();
 }
 
+// --- Airport circles on map ---
+let airportData = null;
+let airportCircleLayers = [];
+let showAirportCirclesEnabled = false;
+
+async function loadAirportData() {
+  if (airportData) return airportData;
+  try {
+    const res = await fetch('airports.json');
+    const data = await res.json();
+    airportData = data.airfields || [];
+  } catch { airportData = []; }
+  return airportData;
+}
+
+function milesToMeters(miles) { return miles * 1609.344; }
+
+function drawAirportCircles() {
+  airportCircleLayers.forEach(l => map.removeLayer(l));
+  airportCircleLayers = [];
+  if (!showAirportCirclesEnabled || !map || !airportData) return;
+
+  const bounds = map.getBounds();
+  const visible = airportData.filter(a =>
+    a.lat >= bounds.getSouth() - 0.5 && a.lat <= bounds.getNorth() + 0.5 &&
+    a.lon >= bounds.getWest() - 0.5 && a.lon <= bounds.getEast() + 0.5
+  );
+
+  for (const a of visible) {
+    const isAirstrip = a.category === 'airstrip';
+    const radiusMiles = isAirstrip ? 15 : 20;
+    const color = a.category === 'heliport' ? '#6a1b9a' : a.category === 'airport' ? '#c62828' : '#1565c0';
+    const circle = L.circle([a.lat, a.lon], {
+      radius: milesToMeters(radiusMiles),
+      color: color,
+      fillColor: color,
+      fillOpacity: 0.2,
+      weight: 1,
+      interactive: true,
+    }).addTo(map);
+    circle.bindTooltip(`${a.name}${a.icao ? ' (' + a.icao + ')' : ''} — ${a.category} (${a.usage})${a.active === false ? ' [inactive]' : ''}`, { direction: 'top' });
+    airportCircleLayers.push(circle);
+  }
+}
+
+document.getElementById('showAirportCircles').addEventListener('change', async (e) => {
+  showAirportCirclesEnabled = e.target.checked;
+  if (showAirportCirclesEnabled) {
+    await loadAirportData();
+    drawAirportCircles();
+    map.on('moveend', drawAirportCircles);
+  } else {
+    map.off('moveend', drawAirportCircles);
+    airportCircleLayers.forEach(l => map.removeLayer(l));
+    airportCircleLayers = [];
+  }
+});
+
 // --- Zones on map ---
 function drawZonesOnMap() {
   if (!map) return;
