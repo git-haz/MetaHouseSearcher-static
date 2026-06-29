@@ -687,6 +687,15 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 .flyover-seasonal-high { color: var(--danger); font-weight: 600; }
 .flyover-seasonal-stable { color: var(--success); }
 
+.airport-circle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.airport-circle-row label { min-width: 120px; }
+
 #map { z-index: 1; }
 
 /* Zone panel */
