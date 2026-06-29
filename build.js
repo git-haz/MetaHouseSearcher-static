@@ -201,7 +201,8 @@ async function main() {
   }
 
   // Recheck all seed properties for duplicates using new logic
-  let definiteCount = 0, potentialCount = 0;
+  let sameUrlRemoved = 0, definiteCount = 0, potentialCount = 0;
+
   // Reset flags
   for (const p of allSeedProperties) {
     delete p.hasDuplicates;
@@ -211,27 +212,51 @@ async function main() {
     delete p.duplicateSimilarity;
   }
 
-  // Same-URL dedup: mark older entries
+  // Phase 1: Same-URL dedup — remove duplicates from the list
+  // Content identical: keep oldest. Content changed: keep newer.
   const urlSeen = new Map();
-  for (const p of allSeedProperties) {
+  const removeIndices = new Set();
+  for (let i = 0; i < allSeedProperties.length; i++) {
+    const p = allSeedProperties[i];
     const url = getUrl(p);
     if (!url) continue;
+
     if (urlSeen.has(url)) {
-      const existing = urlSeen.get(url);
-      existing.hasDuplicates = true;
-      p.hasDuplicates = true;
-      existing.duplicateKeys = existing.duplicateKeys || [];
-      existing.duplicateKeys.push(seedData.dedupKey(p));
-      p.duplicateKeys = [seedData.dedupKey(existing)];
-      definiteCount++;
+      const { idx, prop: existing } = urlSeen.get(url);
+      const contentChanged = existing.price !== p.price
+        || existing.postedDate !== p.postedDate
+        || (existing.description || '') !== (p.description || '');
+
+      if (contentChanged) {
+        // Keep newer, discard older
+        const existingDate = new Date(existing.retrievedAt || existing.seedAddedAt || 0).getTime();
+        const newDate = new Date(p.retrievedAt || p.seedAddedAt || 0).getTime();
+        if (newDate > existingDate) {
+          // New is newer — keep new, remove old, preserve original retrieval date
+          p.firstRetrievedAt = existing.retrievedAt || existing.seedAddedAt;
+          removeIndices.add(idx);
+          urlSeen.set(url, { idx: i, prop: p });
+        } else {
+          // Existing is newer — discard new
+          removeIndices.add(i);
+        }
+      } else {
+        // Content identical — keep oldest (lower index = earlier added), discard newer
+        removeIndices.add(i);
+      }
+      sameUrlRemoved++;
     } else {
-      urlSeen.set(url, p);
+      urlSeen.set(url, { idx: i, prop: p });
     }
   }
 
-  // Cross-URL: group by normalised address + beds + baths
+  // Remove same-URL duplicates
+  const dedupedSeed = allSeedProperties.filter((_, i) => !removeIndices.has(i));
+  console.log(`Same-URL dedup: removed ${sameUrlRemoved} duplicates (${allSeedProperties.length} → ${dedupedSeed.length})`);
+
+  // Phase 2: Cross-URL: group by normalised address + beds + baths
   const crossGroups = {};
-  for (const p of allSeedProperties) {
+  for (const p of dedupedSeed) {
     const addr = normalizeAddress(p.address || '');
     const key = `${addr}|${p.bedrooms || ''}|${p.bathrooms || ''}`;
     if (!crossGroups[key]) crossGroups[key] = [];
@@ -277,15 +302,15 @@ async function main() {
     generatedAt: new Date().toISOString(),
     searchConfig: config,
     locations: config.searches.map(s => s.location),
-    totalResults: allSeedProperties.length,
+    totalResults: dedupedSeed.length,
     newResults: results.length,
-    results: allSeedProperties,
+    results: dedupedSeed,
     portalLinks: allPortalLinks,
     seedStats: mergeStats,
   };
 
   fs.writeFileSync(path.join(docsDir, 'results.json'), JSON.stringify(output, null, 2));
-  console.log(`Wrote ${allSeedProperties.length} total properties (${results.length} new this run) to docs/results.json`);
+  console.log(`Wrote ${dedupedSeed.length} total properties (${results.length} new this run) to docs/results.json`);
   console.log(`Wrote ${allPortalLinks.length} portal links`);
   console.log('Build complete!');
 }
