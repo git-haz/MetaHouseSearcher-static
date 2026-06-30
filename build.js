@@ -187,6 +187,11 @@ async function main() {
   const mergeStats = seedData.mergeResults(results);
   console.log(`Seed: ${mergeStats.added} new, ${mergeStats.updated} updated, ${mergeStats.duplicates} dupes (${mergeStats.total} total)`);
 
+  if (process.argv.includes('--seed-only')) {
+    console.log('Seed-only mode: skipping docs/results.json build. Run "npm run build" to rebuild the app.');
+    return;
+  }
+
   // Build output from FULL seed (all accumulated properties, not just this scrape)
   const allSeedProperties = seedData.getAll();
   console.log(`\nFull seed: ${allSeedProperties.length} properties`);

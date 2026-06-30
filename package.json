@@ -5,6 +5,7 @@
   "scripts": {
     "build": "node build.js",
     "build:analyze": "node build.js --analyze",
+    "seed": "node build.js --seed-only",
     "deploy": "node build.js && git add docs && git commit -m \"Update search results\" && git push"
   },
   "dependencies": {

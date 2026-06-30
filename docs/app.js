@@ -788,5 +788,57 @@ function exportCsv() {
   a.download = `property-list-${activeListTab}-${new Date().toISOString().slice(0, 10)}.csv`; a.click();
 }
 
+// --- Export / Import user data ---
+const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig'];
+
+function exportUserData() {
+  const data = {};
+  for (const key of USER_DATA_KEYS) {
+    const val = localStorage.getItem(key);
+    if (val) data[key] = JSON.parse(val);
+  }
+  data._exportedAt = new Date().toISOString();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `metahousesearcher-userdata-${new Date().toISOString().slice(0, 10)}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function importUserData() {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json';
+  input.onchange = e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      try {
+        const data = JSON.parse(ev.target.result);
+        for (const key of USER_DATA_KEYS) {
+          if (data[key] !== undefined) localStorage.setItem(key, JSON.stringify(data[key]));
+        }
+        // Reload state
+        propertyLists = loadJSON('propertyLists', {});
+        propertyNotes = loadJSON('propertyNotes', {});
+        neighbourStatus = loadJSON('neighbourStatus', {});
+        exclusionZones = loadJSON('exclusionZones', []);
+        renderResults(currentResults);
+        if (document.getElementById('lists-page').classList.contains('active')) renderListPage();
+        alert(`User data imported from ${file.name}`);
+      } catch (err) {
+        alert('Failed to import: ' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  };
+  input.click();
+}
+
+document.getElementById('exportUserDataBtn').addEventListener('click', exportUserData);
+document.getElementById('importUserDataBtn').addEventListener('click', importUserData);
+
 // --- Init ---
 init();
