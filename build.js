@@ -42,6 +42,39 @@ const PORTALS = portalFilter
   ? ALL_PORTALS.filter(p => portalFilter.includes(p.id))
   : ALL_PORTALS;
 
+// --- Baseline comparison helpers ---
+const https = require('https');
+
+function httpsGetJson(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, { headers: { 'User-Agent': 'MetaHouseSearcher-build/1.0' } }, res => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => { try { resolve(JSON.parse(data)); } catch (e) { reject(e); } });
+    }).on('error', reject);
+  });
+}
+
+function haversineDistMilesBuild(lat1, lon1, lat2, lon2) {
+  const R = 3958.8;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function countInRadius(lat, lon, airportsArr, radii) {
+  let airports = 0, airstrips = 0, helipads = 0;
+  for (const a of airportsArr) {
+    const dist = haversineDistMilesBuild(lat, lon, a.lat, a.lon);
+    const cat = a.category || 'airstrip';
+    if (cat === 'airport' && dist <= radii.airport) airports++;
+    else if (cat === 'heliport' && dist <= radii.helipad) helipads++;
+    else if (cat === 'airstrip' && dist <= radii.airstrip) airstrips++;
+  }
+  return { airports, airstrips, helipads };
+}
+
 const AUTO_REJECT_PATTERNS = [
   /\bsemi[-\s]?detached\b/i,
   /\blink[-\s]?detached\b/i,
@@ -303,6 +336,99 @@ async function main() {
 
   console.log(`Duplicate check: ${definiteCount} definite, ${potentialCount} potential`);
 
+  // --- Baseline comparison ---
+  let baselineData = null;
+  if (config.baseline) {
+    const bl = config.baseline;
+    const radii = {
+      airport: bl.airportRadiusMiles || 20,
+      airstrip: bl.airstripRadiusMiles || 5,
+      helipad: bl.helipadRadiusMiles || 15,
+    };
+    console.log(`\nBaseline: ${bl.name} (${bl.postcode})`);
+
+    // Load airports data for circle counting
+    const airportsJsonPath = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
+    const airportsArr = fs.existsSync(airportsJsonPath)
+      ? (JSON.parse(fs.readFileSync(airportsJsonPath, 'utf8')).airfields || [])
+      : [];
+
+    // Geocode baseline postcode via postcodes.io
+    let blLat = null, blLon = null;
+    try {
+      const postcode = (bl.postcode || '').replace(/\s+/g, '').toUpperCase();
+      const pcData = await httpsGetJson(`https://api.postcodes.io/postcodes/${postcode}`);
+      if (pcData.status === 200) {
+        blLat = pcData.result.latitude;
+        blLon = pcData.result.longitude;
+        console.log(`  Geocoded: ${blLat.toFixed(5)}, ${blLon.toFixed(5)}`);
+      }
+    } catch (err) {
+      console.error(`  Geocoding baseline failed: ${err.message}`);
+    }
+
+    let blCircles = { airports: 0, airstrips: 0, helipads: 0 };
+    let blFlightsPerDay = null;
+
+    if (blLat && blLon) {
+      blCircles = countInRadius(blLat, blLon, airportsArr, radii);
+      console.log(`  Circles — airports: ${blCircles.airports}, airstrips: ${blCircles.airstrips}, helipads: ${blCircles.helipads}`);
+
+      // Baseline flyover: nearest reference location
+      if (fs.existsSync(flyoverSource)) {
+        const flyoverRef = JSON.parse(fs.readFileSync(flyoverSource, 'utf8'));
+        const locsRaw = flyoverRef.locations || flyoverRef;
+        const flyoverLocs = Array.isArray(locsRaw) ? locsRaw : Object.values(locsRaw);
+        let nearestRef = null, nearestDist = Infinity;
+        for (const loc of flyoverLocs) {
+          if (loc.lat == null || loc.lon == null) continue;
+          const d = haversineDistMilesBuild(blLat, blLon, loc.lat, loc.lon);
+          if (d < nearestDist) { nearestDist = d; nearestRef = loc; }
+        }
+        if (nearestRef) {
+          blFlightsPerDay = nearestRef.flightsPerDay;
+          console.log(`  Flyover ref: ${nearestRef.location} (${nearestDist.toFixed(1)} mi away) → ${blFlightsPerDay} flights/day`);
+        }
+      }
+
+      // Per-property circles and comparison diffs
+      let withComparison = 0;
+      for (const r of dedupedSeed) {
+        if (r.isManual || r.lat == null) continue;
+        const circles = countInRadius(r.lat, r.lon, airportsArr, radii);
+        const propFlights = r.flyoverRef?.flightsPerDay ?? null;
+        const flightsDiffPct = (propFlights != null && blFlightsPerDay != null && blFlightsPerDay > 0)
+          ? Math.round(((propFlights - blFlightsPerDay) / blFlightsPerDay) * 100)
+          : null;
+        r.baselineComparison = {
+          airportsCount: circles.airports,
+          airstripsCount: circles.airstrips,
+          helipadsCount: circles.helipads,
+          airportsDiff: circles.airports - blCircles.airports,
+          airstripsDiff: circles.airstrips - blCircles.airstrips,
+          helipadsDiff: circles.helipads - blCircles.helipads,
+          flightsPerDay: propFlights,
+          flightsDiffPct,
+        };
+        withComparison++;
+      }
+      console.log(`  Comparison computed for ${withComparison} properties`);
+    }
+
+    baselineData = {
+      name: bl.name,
+      postcode: bl.postcode,
+      lat: blLat,
+      lon: blLon,
+      airports: blCircles.airports,
+      airstrips: blCircles.airstrips,
+      helipads: blCircles.helipads,
+      flightsPerDay: blFlightsPerDay,
+      radii,
+      altitudeCutoffFt: bl.altitudeCutoffFt || null,
+    };
+  }
+
   const output = {
     generatedAt: new Date().toISOString(),
     searchConfig: config,
@@ -312,6 +438,7 @@ async function main() {
     results: dedupedSeed,
     portalLinks: allPortalLinks,
     seedStats: mergeStats,
+    baseline: baselineData,
   };
 
   fs.writeFileSync(path.join(docsDir, 'results.json'), JSON.stringify(output, null, 2));

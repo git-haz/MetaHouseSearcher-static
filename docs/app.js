@@ -137,6 +137,17 @@ async function init() {
     }
 
     autoRejectProperties(currentResults);
+
+    // Show/hide baseline filter row and label it
+    if (allData.baseline) {
+      const blRow = document.getElementById('baselineFilterRow');
+      if (blRow) {
+        blRow.style.display = 'flex';
+        const lbl = document.getElementById('baselineFilterLabel');
+        if (lbl) lbl.textContent = `Better than ${allData.baseline.name}:`;
+      }
+    }
+
     renderResults(currentResults);
   } catch (err) {
     document.getElementById('results-area').innerHTML = `<div class="empty-state"><h2>Error loading results</h2><p>${err.message}</p></div>`;
@@ -178,9 +189,11 @@ document.getElementById('displayToggles').addEventListener('change', () => {
 });
 
 // Display filter inputs
-const displayFilterIds = ['filterMinPrice', 'filterMaxPrice', 'filterMinBeds', 'filterMaxBeds', 'filterMinBaths', 'filterMaxBaths', 'filterMinGarden'];
+const displayFilterIds = ['filterMinPrice', 'filterMaxPrice', 'filterMinBeds', 'filterMaxBeds', 'filterMinBaths', 'filterMaxBaths', 'filterMinGarden',
+  'filterBlFlights', 'filterBlAirports', 'filterBlAirstrips', 'filterBlHelipads'];
 displayFilterIds.forEach(id => {
-  document.getElementById(id).addEventListener('input', () => renderResults(currentResults));
+  const el = document.getElementById(id);
+  if (el) el.addEventListener('input', () => renderResults(currentResults));
 });
 
 function getNum(id) { const v = Number(document.getElementById(id).value); return isNaN(v) || v === 0 ? null : v; }
@@ -231,6 +244,16 @@ function applyFilters(results) {
   if (maxBaths) filtered = filtered.filter(r => r.bathrooms != null && r.bathrooms <= maxBaths);
   if (minGarden) filtered = filtered.filter(r => { const g = extractGardenSize(r); return g != null && g >= minGarden; });
 
+  // Baseline comparison filters
+  const blFlightsBetter = getNum('filterBlFlights');
+  const blAirportsBetter = getNum('filterBlAirports');
+  const blAirstripsBetter = getNum('filterBlAirstrips');
+  const blHelipadsBetter = getNum('filterBlHelipads');
+  if (blFlightsBetter) filtered = filtered.filter(r => r.baselineComparison?.flightsDiffPct != null && r.baselineComparison.flightsDiffPct <= -blFlightsBetter);
+  if (blAirportsBetter) filtered = filtered.filter(r => r.baselineComparison?.airportsDiff != null && r.baselineComparison.airportsDiff <= -blAirportsBetter);
+  if (blAirstripsBetter) filtered = filtered.filter(r => r.baselineComparison?.airstripsDiff != null && r.baselineComparison.airstripsDiff <= -blAirstripsBetter);
+  if (blHelipadsBetter) filtered = filtered.filter(r => r.baselineComparison?.helipadsDiff != null && r.baselineComparison.helipadsDiff <= -blHelipadsBetter);
+
   // Hide dismissed duplicates
   filtered = filtered.filter(r => {
     const dk = pkey(r) + '__' + (r.agent || r.sources?.[0]?.portal || '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -255,6 +278,43 @@ document.getElementById('viewToggle').addEventListener('click', e => {
     document.getElementById('results-area').style.display = 'block';
   }
 });
+
+// --- Baseline comparison rendering ---
+function renderBaselineComparison(p) {
+  if (p.isManual || !p.baselineComparison || !allData?.baseline) return '';
+  const bc = p.baselineComparison;
+  const bl = allData.baseline;
+
+  function fmtDiff(diff, singular) {
+    if (diff === 0) return `<span class="bc-neutral">= ${singular}s</span>`;
+    const cls = diff < 0 ? 'bc-better' : 'bc-worse';
+    return `<span class="${cls}">${diff > 0 ? '+' : ''}${diff} ${singular}${Math.abs(diff) !== 1 ? 's' : ''}</span>`;
+  }
+  function fmtPct(pct) {
+    if (pct === null) return '';
+    if (pct === 0) return '<span class="bc-neutral">= flights</span>';
+    const cls = pct < 0 ? 'bc-better' : 'bc-worse';
+    return `<span class="${cls}">${pct > 0 ? '+' : ''}${pct}% flights/day</span>`;
+  }
+
+  const summaryParts = [
+    fmtDiff(bc.airportsDiff, '✈ airport'),
+    fmtDiff(bc.airstripsDiff, '🛩 airstrip'),
+    fmtDiff(bc.helipadsDiff, '🚁 helipad'),
+    bc.flightsDiffPct != null ? fmtPct(bc.flightsDiffPct) : '',
+  ].filter(Boolean).join(' · ');
+
+  return `<details class="card-baseline">
+    <summary class="bc-summary">📊 vs ${bl.name}: ${summaryParts || 'no data'}</summary>
+    <div class="bc-detail">
+      <div class="bc-row">✈ Airports <span class="bc-radius">(${bl.radii.airport}mi)</span>: <strong>${bc.airportsCount}</strong> here · <span class="bc-base">${bl.airports} baseline</span> ${fmtDiff(bc.airportsDiff, 'airport')}</div>
+      <div class="bc-row">🛩 Airstrips <span class="bc-radius">(${bl.radii.airstrip}mi)</span>: <strong>${bc.airstripsCount}</strong> here · <span class="bc-base">${bl.airstrips} baseline</span> ${fmtDiff(bc.airstripsDiff, 'airstrip')}</div>
+      <div class="bc-row">🚁 Helipads <span class="bc-radius">(${bl.radii.helipad}mi)</span>: <strong>${bc.helipadsCount}</strong> here · <span class="bc-base">${bl.helipads} baseline</span> ${fmtDiff(bc.helipadsDiff, 'helipad')}</div>
+      ${bc.flightsPerDay != null ? `<div class="bc-row">✈ Flights/day: <strong>${bc.flightsPerDay}</strong> here · <span class="bc-base">${bl.flightsPerDay ?? 'n/a'} baseline</span> ${fmtPct(bc.flightsDiffPct)}</div>` : ''}
+      ${bl.altitudeCutoffFt ? `<div class="bc-row bc-note">Altitude cutoff: ${bl.altitudeCutoffFt.toLocaleString()} ft</div>` : ''}
+    </div>
+  </details>`;
+}
 
 // --- Render results ---
 function renderResults(results) {
@@ -369,6 +429,7 @@ function renderCard(p, context) {
       </div>
       ${p.description ? `<div class="card-description">${p.description}</div>` : ''}
       ${showAirports ? airportHtml : ''}
+      ${renderBaselineComparison(p)}
       <div class="card-sources">${p.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="source-tag">${s.portal}</a>`).join('')}</div>
       <div class="card-actions">
         <button class="action-btn ${isInList('favorite', key) ? 'active-favorite' : ''}" onclick="toggleList('favorite','${ek}','${context}')">${isInList('favorite', key) ? '★' : '☆'} Fav</button>
@@ -919,7 +980,12 @@ let editingManualKey = null; // pkey of property being edited
 function openAddPropertyModal() {
   editingManualKey = null;
   document.getElementById('addPropertyModalTitle').textContent = 'Add Property';
-  document.getElementById('addPropertyForm').reset();
+  ['mpTown','mpCounty','mpPrice','mpBedrooms','mpBathrooms','mpPostedDate',
+   'mpAgentName','mpPropertyUrl','mpDescription','mpFullAddress',
+   'mpGardenSize','mpAgentPhone','mpPhotoUrl'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
   document.getElementById('addPropertyStatus').textContent = '';
   document.getElementById('addPropertyModal').classList.add('active');
   document.getElementById('mpTown').focus();

@@ -13,5 +13,13 @@
   "propertyTypes": [],
   "maxPrice": 450000,
   "minBed": 2,
-  "neighbourConfidenceThreshold": 0.99
+  "neighbourConfidenceThreshold": 0.99,
+  "baseline": {
+    "name": "Tottenham",
+    "postcode": "N179RS",
+    "airportRadiusMiles": 20,
+    "airstripRadiusMiles": 5,
+    "helipadRadiusMiles": 15,
+    "altitudeCutoffFt": null
+  }
 }
