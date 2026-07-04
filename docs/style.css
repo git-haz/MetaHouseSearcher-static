@@ -661,6 +661,60 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 .version-entry ul { margin: 4px 0 0 18px; font-size: 13px; color: var(--text-muted); }
 .version-entry li { margin-bottom: 2px; }
 
+/* Add Property modal */
+.modal-wide { max-width: 760px; width: 95%; }
+.mp-section-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 8px 0 6px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+.mp-req { color: var(--danger); font-size: 12px; }
+.mp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px 12px;
+}
+.mp-field { display: flex; flex-direction: column; gap: 3px; }
+.mp-field-wide { grid-column: span 2; }
+.mp-field-full { grid-column: 1 / -1; }
+.mp-field label { font-size: 12px; font-weight: 500; color: var(--text-muted); }
+.mp-field input,
+.mp-field textarea {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  background: var(--bg);
+  color: var(--text);
+  transition: border-color 0.15s;
+}
+.mp-field input:focus,
+.mp-field textarea:focus { outline: none; border-color: var(--primary); }
+.mp-field textarea { resize: vertical; min-height: 64px; }
+
+/* Manual property card */
+.property-card-manual { border-left: 3px solid var(--primary); }
+.manual-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--tag-bg);
+  border-radius: 4px;
+  padding: 2px 7px;
+  margin-bottom: 4px;
+}
+.action-btn-edit { color: var(--primary); }
+.action-btn-delete { color: var(--danger); }
+.action-btn-edit:hover { background: var(--tag-bg); }
+.action-btn-delete:hover { background: #fce8e6; }
+
 /* View toggle */
 .view-toggle {
   display: flex;

@@ -12,7 +12,7 @@
 </head>
 <body>
   <header>
-    <h1><span class="header-version">v1.5.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version">v1.6.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -90,6 +90,7 @@
     <div class="view-toggle" id="viewToggle">
       <button class="view-btn active" data-view="list">List</button>
       <button class="view-btn" data-view="map">Map</button>
+      <button class="btn btn-outline btn-sm" id="addPropertyBtn" style="margin-left:auto;">+ Add Property</button>
     </div>
 
     <div id="map-area" style="display:none;">
@@ -162,6 +163,79 @@
     </div>
   </div>
 
+  <!-- Add / Edit Property modal -->
+  <div class="modal-overlay" id="addPropertyModal">
+    <div class="modal modal-wide">
+      <h3 id="addPropertyModalTitle">Add Property</h3>
+
+      <div class="mp-section-label">Required</div>
+      <div class="mp-grid">
+        <div class="mp-field">
+          <label>Town / City <span class="mp-req">*</span></label>
+          <input type="text" id="mpTown" placeholder="e.g. Harleston">
+        </div>
+        <div class="mp-field">
+          <label>County <span class="mp-req">*</span></label>
+          <input type="text" id="mpCounty" placeholder="e.g. Norfolk">
+        </div>
+        <div class="mp-field">
+          <label>Price (£) <span class="mp-req">*</span></label>
+          <input type="number" id="mpPrice" placeholder="e.g. 350000" min="0" step="1000">
+        </div>
+        <div class="mp-field">
+          <label>Bedrooms <span class="mp-req">*</span></label>
+          <input type="number" id="mpBedrooms" placeholder="e.g. 3" min="0" max="20">
+        </div>
+        <div class="mp-field">
+          <label>Bathrooms <span class="mp-req">*</span></label>
+          <input type="number" id="mpBathrooms" placeholder="e.g. 2" min="0" max="20">
+        </div>
+        <div class="mp-field">
+          <label>Posted Date <span class="mp-req">*</span></label>
+          <input type="text" id="mpPostedDate" placeholder="e.g. 1 Jun 2025">
+        </div>
+        <div class="mp-field">
+          <label>Agency Name <span class="mp-req">*</span></label>
+          <input type="text" id="mpAgentName" placeholder="e.g. Knight Frank">
+        </div>
+        <div class="mp-field mp-field-wide">
+          <label>Property URL <span class="mp-req">*</span></label>
+          <input type="url" id="mpPropertyUrl" placeholder="https://...">
+        </div>
+        <div class="mp-field mp-field-full">
+          <label>Description <span class="mp-req">*</span></label>
+          <textarea id="mpDescription" rows="3" placeholder="Brief description of the property…"></textarea>
+        </div>
+      </div>
+
+      <div class="mp-section-label" style="margin-top:12px;">Optional</div>
+      <div class="mp-grid">
+        <div class="mp-field mp-field-wide">
+          <label>Full Address / Postcode</label>
+          <input type="text" id="mpFullAddress" placeholder="e.g. 12 High Street, IP20 9BN">
+        </div>
+        <div class="mp-field">
+          <label>Garden Size</label>
+          <input type="text" id="mpGardenSize" placeholder="e.g. 0.5 acres / 500 sq ft">
+        </div>
+        <div class="mp-field">
+          <label>Agency Phone</label>
+          <input type="tel" id="mpAgentPhone" placeholder="e.g. 01379 123456">
+        </div>
+        <div class="mp-field mp-field-wide">
+          <label>Photo URL</label>
+          <input type="url" id="mpPhotoUrl" placeholder="https://...direct image link...">
+        </div>
+      </div>
+
+      <div id="addPropertyStatus" style="font-size:12px;margin-top:8px;min-height:18px;"></div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="cancelAddPropertyBtn">Cancel</button>
+        <button class="btn btn-primary" id="saveAddPropertyBtn">Save Property</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Note modal -->
   <div class="modal-overlay" id="noteModal">
     <div class="modal">
@@ -175,7 +249,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" onclick="alert('MetaHouseSearcher Static v1.5.0')">v1.5.0</span>
+    <span class="version-link" onclick="alert('MetaHouseSearcher Static v1.6.0')">v1.6.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>

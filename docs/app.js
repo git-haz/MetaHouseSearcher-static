@@ -83,6 +83,10 @@ function autoRejectProperties(results) {
   }
 }
 
+// --- Manual properties ---
+let manualProperties = loadJSON('manualProperties', []);
+function saveManualProperties() { localStorage.setItem('manualProperties', JSON.stringify(manualProperties)); }
+
 // --- State ---
 let allData = null;
 let currentResults = [];
@@ -125,6 +129,12 @@ async function init() {
     linksEl.innerHTML = allData.portalLinks.map(l =>
       `<a href="${l.url}" target="_blank" rel="noopener" class="portal-link">${l.portal} (${l.searchLocation})</a>`
     ).join('');
+
+    // Merge manual properties — always included, not overwritten by scraper
+    for (const mp of manualProperties) {
+      mp.isManual = true;
+      currentResults.push(mp);
+    }
 
     autoRejectProperties(currentResults);
     renderResults(currentResults);
@@ -335,9 +345,10 @@ function renderCard(p, context) {
       ${flyoverMonthly.length > 0 ? `<br><span style="font-size:11px;color:var(--text-muted);">${flyoverMonthly.map(m => m.month + ': ' + m.flightsPerDay + '/day').join(' · ')}</span>` : ''}
     </div>` : '';
 
-  return `<div class="property-card" data-key="${key}">
+  return `<div class="property-card${p.isManual ? ' property-card-manual' : ''}" data-key="${key}">
     ${carouselHtml}
     <div class="card-body">
+      ${p.isManual ? '<div class="manual-badge">✎ Manually added</div>' : ''}
       ${badgesHtml}
       ${showFlyover ? flyoverHtml : ''}
       <div class="card-price">£${p.price.toLocaleString()} ${postedHtml}</div>
@@ -365,6 +376,7 @@ function renderCard(p, context) {
           `<button class="action-btn ${isInList(s, key) ? 'active-' + s : ''}" onclick="toggleList('${s}','${ek}','${context}')">${LIST_LABELS[s]}</button>`
         ).join('')}
         <button class="action-btn" onclick="openNote('${ek}','${context}')">${note ? 'Edit Note' : '+ Note'}</button>
+        ${p.isManual ? `<button class="action-btn action-btn-edit" onclick="openEditManualProperty('${ek}')">✏ Edit</button><button class="action-btn action-btn-delete" onclick="deleteManualProperty('${ek}')">✕ Delete</button>` : ''}
       </div>
       ${noteHtml}
     </div>
@@ -788,8 +800,241 @@ function exportCsv() {
   a.download = `property-list-${activeListTab}-${new Date().toISOString().slice(0, 10)}.csv`; a.click();
 }
 
+// --- Manual property management ---
+
+function haversineDistMiles(lat1, lon1, lat2, lon2) {
+  const R = 3958.8;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function calcAirportDistances(lat, lon) {
+  if (!airportData || !lat || !lon) return {};
+  const byCategory = { airport: null, airstrip: null, heliport: null };
+  for (const a of airportData) {
+    const dist = haversineDistMiles(lat, lon, a.lat, a.lon);
+    const cat = a.category || 'airstrip';
+    if (!byCategory[cat] || dist < byCategory[cat].distanceMiles) {
+      byCategory[cat] = { ...a, distanceMiles: dist };
+    }
+  }
+  const dists = Object.values(byCategory).filter(Boolean).map(a => a.distanceMiles);
+  return {
+    nearestAirport: byCategory.airport,
+    nearestAirstrip: byCategory.airstrip,
+    nearestHeliport: byCategory.heliport,
+    minAirportDistanceMiles: dists.length ? Math.min(...dists) : null,
+  };
+}
+
+async function geocodeForManual(addressStr) {
+  const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(addressStr + ', UK')}&countrycodes=gb&limit=1&format=json`;
+  try {
+    const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+    const data = await res.json();
+    if (data.length > 0) return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
+  } catch {}
+  return null;
+}
+
+// Build a property object from form values
+function buildManualProperty(fields, existing) {
+  const beds = parseInt(fields.bedrooms) || null;
+  let title = '';
+  if (beds) title += `${beds} bed `;
+  title += 'property for sale';
+
+  const addressParts = [fields.fullAddress, fields.town, fields.county].filter(Boolean);
+  const address = addressParts.join(', ');
+
+  const now = new Date().toISOString();
+  return {
+    title,
+    price: parseInt(fields.price) || 0,
+    address,
+    bedrooms: beds,
+    bathrooms: parseInt(fields.bathrooms) || null,
+    sqft: null,
+    type: 'Property',
+    description: fields.description || '',
+    postedDate: fields.postedDate || null,
+    agent: fields.agentName || '',
+    agentPhone: fields.agentPhone || null,
+    images: fields.photoUrl ? [fields.photoUrl] : ['https://placehold.co/400x300/e0e0e0/999?text=No+Image'],
+    sources: [{ portal: fields.agentName || 'Manual', url: fields.propertyUrl || '#' }],
+    lat: existing?.lat || null,
+    lon: existing?.lon || null,
+    geoAccuracy: existing?.geoAccuracy || null,
+    nearestAirport: existing?.nearestAirport || null,
+    nearestAirstrip: existing?.nearestAirstrip || null,
+    nearestHeliport: existing?.nearestHeliport || null,
+    minAirportDistanceMiles: existing?.minAirportDistanceMiles || null,
+    searchLocations: [fields.town || fields.county || 'Manual'].filter(Boolean),
+    keywordsMatched: 0,
+    isManual: true,
+    isNew: !existing,
+    manualAddedAt: existing?.manualAddedAt || now,
+    manualUpdatedAt: now,
+    retrievedAt: existing?.retrievedAt || now,
+    seedAddedAt: existing?.seedAddedAt || now,
+    gardenNote: fields.gardenSize || null,
+  };
+}
+
+function readManualForm() {
+  return {
+    town: document.getElementById('mpTown').value.trim(),
+    county: document.getElementById('mpCounty').value.trim(),
+    price: document.getElementById('mpPrice').value.trim(),
+    bedrooms: document.getElementById('mpBedrooms').value.trim(),
+    bathrooms: document.getElementById('mpBathrooms').value.trim(),
+    postedDate: document.getElementById('mpPostedDate').value.trim(),
+    agentName: document.getElementById('mpAgentName').value.trim(),
+    propertyUrl: document.getElementById('mpPropertyUrl').value.trim(),
+    description: document.getElementById('mpDescription').value.trim(),
+    fullAddress: document.getElementById('mpFullAddress').value.trim(),
+    gardenSize: document.getElementById('mpGardenSize').value.trim(),
+    agentPhone: document.getElementById('mpAgentPhone').value.trim(),
+    photoUrl: document.getElementById('mpPhotoUrl').value.trim(),
+  };
+}
+
+function validateManualForm(fields) {
+  const missing = [];
+  if (!fields.town) missing.push('Town');
+  if (!fields.price) missing.push('Price');
+  if (!fields.bedrooms) missing.push('Bedrooms');
+  if (!fields.bathrooms) missing.push('Bathrooms');
+  if (!fields.postedDate) missing.push('Posted Date');
+  if (!fields.agentName) missing.push('Agency Name');
+  if (!fields.propertyUrl) missing.push('Property URL');
+  if (!fields.description) missing.push('Description');
+  return missing;
+}
+
+let editingManualKey = null; // pkey of property being edited
+
+function openAddPropertyModal() {
+  editingManualKey = null;
+  document.getElementById('addPropertyModalTitle').textContent = 'Add Property';
+  document.getElementById('addPropertyForm').reset();
+  document.getElementById('addPropertyStatus').textContent = '';
+  document.getElementById('addPropertyModal').classList.add('active');
+  document.getElementById('mpTown').focus();
+}
+
+window.openEditManualProperty = function(key) {
+  const prop = manualProperties.find(p => pkey(p) === key);
+  if (!prop) return;
+  editingManualKey = key;
+  document.getElementById('addPropertyModalTitle').textContent = 'Edit Property';
+  document.getElementById('addPropertyStatus').textContent = '';
+
+  // Extract town/county from address
+  const parts = (prop.address || '').split(',').map(s => s.trim());
+  // fullAddress is first part if >2 parts, town is second-to-last, county is last
+  if (parts.length >= 3) {
+    document.getElementById('mpFullAddress').value = parts.slice(0, parts.length - 2).join(', ');
+    document.getElementById('mpTown').value = parts[parts.length - 2] || '';
+    document.getElementById('mpCounty').value = parts[parts.length - 1] || '';
+  } else if (parts.length === 2) {
+    document.getElementById('mpFullAddress').value = '';
+    document.getElementById('mpTown').value = parts[0] || '';
+    document.getElementById('mpCounty').value = parts[1] || '';
+  } else {
+    document.getElementById('mpFullAddress').value = '';
+    document.getElementById('mpTown').value = prop.address || '';
+    document.getElementById('mpCounty').value = '';
+  }
+
+  document.getElementById('mpPrice').value = prop.price || '';
+  document.getElementById('mpBedrooms').value = prop.bedrooms || '';
+  document.getElementById('mpBathrooms').value = prop.bathrooms || '';
+  document.getElementById('mpPostedDate').value = prop.postedDate || '';
+  document.getElementById('mpAgentName').value = prop.agent || '';
+  document.getElementById('mpPropertyUrl').value = prop.sources?.[0]?.url || '';
+  document.getElementById('mpDescription').value = prop.description || '';
+  document.getElementById('mpAgentPhone').value = prop.agentPhone || '';
+  document.getElementById('mpGardenSize').value = prop.gardenNote || '';
+  document.getElementById('mpPhotoUrl').value = (prop.images?.[0] && !prop.images[0].includes('placehold.co')) ? prop.images[0] : '';
+
+  document.getElementById('addPropertyModal').classList.add('active');
+  document.getElementById('mpTown').focus();
+};
+
+window.deleteManualProperty = function(key) {
+  if (!confirm('Delete this manually added property?')) return;
+  manualProperties = manualProperties.filter(p => pkey(p) !== key);
+  saveManualProperties();
+  currentResults = currentResults.filter(p => !(p.isManual && pkey(p) === key));
+  renderResults(currentResults);
+};
+
+document.getElementById('addPropertyModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) e.currentTarget.classList.remove('active');
+});
+document.getElementById('cancelAddPropertyBtn').addEventListener('click', () => {
+  document.getElementById('addPropertyModal').classList.remove('active');
+});
+
+document.getElementById('saveAddPropertyBtn').addEventListener('click', async () => {
+  const fields = readManualForm();
+  const missing = validateManualForm(fields);
+  const statusEl = document.getElementById('addPropertyStatus');
+  if (missing.length) {
+    statusEl.textContent = `Required: ${missing.join(', ')}`;
+    statusEl.style.color = 'var(--danger)';
+    return;
+  }
+
+  statusEl.style.color = 'var(--text-muted)';
+  statusEl.textContent = 'Geocoding address…';
+  document.getElementById('saveAddPropertyBtn').disabled = true;
+
+  // Find existing for lat/lon/airports when editing
+  const existing = editingManualKey ? manualProperties.find(p => pkey(p) === editingManualKey) : null;
+  let prop = buildManualProperty(fields, existing);
+
+  // Geocode — prefer postcode/full address, fall back to town+county
+  const geocodeQuery = [fields.fullAddress, fields.town, fields.county].filter(Boolean).join(', ');
+  await loadAirportData();
+  const geo = await geocodeForManual(geocodeQuery);
+  if (geo) {
+    prop.lat = geo.lat;
+    prop.lon = geo.lon;
+    prop.geoAccuracy = fields.fullAddress ? 'address' : 'area';
+    const airDist = calcAirportDistances(geo.lat, geo.lon);
+    Object.assign(prop, airDist);
+    statusEl.textContent = `Geocoded ✓  (${geo.lat.toFixed(4)}, ${geo.lon.toFixed(4)})`;
+  } else {
+    statusEl.textContent = 'Could not geocode address — property saved without map pin';
+  }
+
+  if (editingManualKey) {
+    // Replace in manualProperties
+    const idx = manualProperties.findIndex(p => pkey(p) === editingManualKey);
+    if (idx >= 0) manualProperties[idx] = prop;
+    // Replace in currentResults
+    const ri = currentResults.findIndex(p => p.isManual && pkey(p) === editingManualKey);
+    if (ri >= 0) currentResults[ri] = prop;
+  } else {
+    manualProperties.push(prop);
+    currentResults.push(prop);
+  }
+
+  saveManualProperties();
+  autoRejectProperties([prop]);
+  document.getElementById('saveAddPropertyBtn').disabled = false;
+  document.getElementById('addPropertyModal').classList.remove('active');
+  renderResults(currentResults);
+});
+
+document.getElementById('addPropertyBtn').addEventListener('click', openAddPropertyModal);
+
 // --- Export / Import user data ---
-const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig'];
+const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties'];
 
 function exportUserData() {
   const data = {};
@@ -825,6 +1070,10 @@ function importUserData() {
         propertyNotes = loadJSON('propertyNotes', {});
         neighbourStatus = loadJSON('neighbourStatus', {});
         exclusionZones = loadJSON('exclusionZones', []);
+        manualProperties = loadJSON('manualProperties', []);
+        // Re-merge manual props into currentResults
+        currentResults = currentResults.filter(p => !p.isManual);
+        for (const mp of manualProperties) { mp.isManual = true; currentResults.push(mp); }
         renderResults(currentResults);
         if (document.getElementById('lists-page').classList.contains('active')) renderListPage();
         alert(`User data imported from ${file.name}`);
