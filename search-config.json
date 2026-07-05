@@ -1,13 +1,16 @@
 {
   "searches": [
-    { "location": "Fressingfield", "radius": 20 },
-    { "location": "Laxfield", "radius": 20 },
-    { "location": "Hoxne", "radius": 20 },
-    { "location": "Wenhaston", "radius": 20 },
-    { "location": "Diss", "radius": 20 },
-    { "location": "Harleston", "radius": 20 },
-    { "location": "Halesworth", "radius": 20 },
-    { "location": "Eye", "radius": 20 }
+    { "location": "Launceston", "postcode": "PL15 8AE", "county": "Cornwall",  "radius": 20 },
+    { "location": "Totnes",     "postcode": "TQ9 5HR",  "county": "Devon",     "radius": 20 },
+    { "location": "Bude",       "postcode": "EX23 8LG", "county": "Cornwall",  "radius": 20 },
+    { "location": "Fressingfield","postcode": "IP21 5PS","county": "Suffolk",   "radius": 20 },
+    { "location": "Laxfield",   "postcode": "IP13 8DQ", "county": "Suffolk",   "radius": 20 },
+    { "location": "Hoxne",      "postcode": "IP21 5AR", "county": "Suffolk",   "radius": 20 },
+    { "location": "Wenhaston",  "postcode": "IP19 9JJ", "county": "Suffolk",   "radius": 20 },
+    { "location": "Diss",       "postcode": "IP22 4JT", "county": "Norfolk",   "radius": 20 },
+    { "location": "Harleston",  "postcode": "IP20 9AD", "county": "Norfolk",   "radius": 20 },
+    { "location": "Halesworth", "postcode": "IP19 8SY", "county": "Suffolk",   "radius": 20 },
+    { "location": "Eye",        "postcode": "IP23 7HF", "county": "Suffolk",   "radius": 20 }
   ],
   "keywords": ["garden"],
   "propertyTypes": [],

@@ -99,11 +99,22 @@ async function main() {
   const allResults = [];
   const allPortalLinks = [];
 
+  // Rightmove location ID map — keyed by location name AND postcode (lowercase, space preserved)
+  // Rightmove builder does loc.toLowerCase().trim() so keys must match that form
+  const rmLocations = {
+    'wenhaston':  'REGION^1264',  'ip19 9jj': 'REGION^1264',
+    'diss':       'REGION^425',   'ip22 4jt': 'REGION^425',
+    'harleston':  'REGION^11918', 'ip20 9ad': 'REGION^11918',
+    'laxfield':   'REGION^14740', 'ip13 8dq': 'REGION^14740',
+  };
+
   for (const search of config.searches) {
-    console.log(`\n=== Searching: ${search.location} (${search.radius} mile radius) ===`);
+    const queryLoc = search.postcode || search.location;
+    const displayLoc = search.location + (search.postcode ? ` (${search.postcode})` : '');
+    console.log(`\n=== Searching: ${displayLoc} (${search.radius} mile radius) ===`);
 
     const criteria = {
-      locations: search.location,
+      locations: queryLoc,
       radius: String(search.radius),
       keywords: config.keywords || [],
       propertyTypes: config.propertyTypes || [],
@@ -111,10 +122,11 @@ async function main() {
       minBed: config.minBed || undefined,
     };
 
-    const rmLocations = { wenhaston: 'REGION^1264', diss: 'REGION^425', harleston: 'REGION^11918', laxfield: 'REGION^14740' };
+    // rmLocations already has postcode keys (lowercase, with space) so no extra mapping needed
+    const rmLocationsBuild = rmLocations;
 
     for (const portal of PORTALS) {
-      const urls = buildUrls(portal, criteria, rmLocations);
+      const urls = buildUrls(portal, criteria, rmLocationsBuild);
       for (const link of urls) {
         allPortalLinks.push({ ...link, searchLocation: search.location });
       }
