@@ -124,11 +124,8 @@ async function init() {
       renderResults(currentResults);
     });
 
-    // Portal links
-    const linksEl = document.getElementById('portal-links-inline');
-    linksEl.innerHTML = allData.portalLinks.map(l =>
-      `<a href="${l.url}" target="_blank" rel="noopener" class="portal-link">${l.portal} (${l.searchLocation})</a>`
-    ).join('');
+    // Portal matrix
+    renderPortalMatrix(allData.portalLinks, allData.locations);
 
     // Merge manual properties — always included, not overwritten by scraper
     for (const mp of manualProperties) {
@@ -155,6 +152,47 @@ async function init() {
     document.getElementById('loading-overlay').classList.remove('active');
   }
 }
+
+// --- Portal matrix ---
+function renderPortalMatrix(portalLinks, locations) {
+  const container = document.getElementById('portal-matrix-container');
+  if (!container || !portalLinks || !portalLinks.length) return;
+
+  // Collect unique portal names in order they appear
+  const portals = [];
+  const seen = new Set();
+  for (const l of portalLinks) {
+    if (!seen.has(l.portal)) { seen.add(l.portal); portals.push(l.portal); }
+  }
+
+  // Build lookup: portal+location -> url
+  const lookup = {};
+  for (const l of portalLinks) lookup[`${l.portal}|||${l.searchLocation}`] = l.url;
+
+  const ths = portals.map(p => `<th class="pm-portal-header">${p}</th>`).join('');
+  const rows = locations.map(loc => {
+    const cells = portals.map(p => {
+      const url = lookup[`${p}|||${loc}`];
+      return url
+        ? `<td class="pm-cell pm-cell-yes"><a href="${url}" target="_blank" rel="noopener" title="${p} — ${loc}">✓</a></td>`
+        : `<td class="pm-cell pm-cell-no" title="Not searched">–</td>`;
+    }).join('');
+    return `<tr><th class="pm-loc-header">${loc}</th>${cells}</tr>`;
+  }).join('');
+
+  container.innerHTML = `
+    <table class="portal-matrix">
+      <thead><tr><th class="pm-corner"></th>${ths}</tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// --- Version badge / changelog ---
+function openChangelog() {
+  document.getElementById('changelogModal').classList.add('active');
+}
+document.getElementById('versionBadge').addEventListener('click', openChangelog);
+document.getElementById('footerVersion').addEventListener('click', openChangelog);
 
 // --- Navigation ---
 document.querySelectorAll('header nav a').forEach(link => {
