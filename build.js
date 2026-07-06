@@ -129,13 +129,14 @@ async function main() {
   const allResults = [];
   const allPortalLinks = [];
 
-  // Rightmove location ID map — keyed by location name AND postcode (lowercase, space preserved)
-  const rmLocations = {
-    'wenhaston':  'REGION^1264',  'ip19 9jj': 'REGION^1264',
-    'diss':       'REGION^425',   'ip22 4jt': 'REGION^425',
-    'harleston':  'REGION^11918', 'ip20 9ad': 'REGION^11918',
-    'laxfield':   'REGION^14740', 'ip13 8dq': 'REGION^14740',
-  };
+  // Rightmove location ID map — built from config, keyed by postcode AND location name (lowercase)
+  // Rightmove builder does loc.toLowerCase().trim() so keys must match that form
+  const rmLocations = {};
+  for (const s of config.searches) {
+    if (!s.rightmoveId) continue;
+    if (s.postcode) rmLocations[s.postcode.toLowerCase()] = s.rightmoveId;
+    rmLocations[s.location.toLowerCase()] = s.rightmoveId;
+  }
 
   for (const search of config.searches) {
     const queryLoc = search.postcode || search.location;
