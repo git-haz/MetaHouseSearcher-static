@@ -16,6 +16,8 @@
   "propertyTypes": [],
   "maxPrice": 450000,
   "minBed": 2,
+  "queryTimeoutMs": 10000,
+  "maxConcurrentPortals": 3,
   "neighbourConfidenceThreshold": 0.99,
   "baseline": {
     "name": "Tottenham",

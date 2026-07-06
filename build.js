@@ -87,9 +87,39 @@ function slugify(loc) {
   return loc.toLowerCase().trim().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 }
 
+// Reject a promise after ms milliseconds
+function withTimeout(promise, ms, label) {
+  let timer;
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(`Timed out after ${ms}ms: ${label}`)), ms);
+    }),
+  ]).finally(() => clearTimeout(timer));
+}
+
+// Concurrency pool — at most `limit` tasks running simultaneously
+function makePool(limit) {
+  let active = 0;
+  const queue = [];
+  const next = () => { if (queue.length && active < limit) queue.shift()(); };
+  return fn => new Promise((resolve, reject) => {
+    const run = () => {
+      active++;
+      fn().then(
+        v => { active--; resolve(v); next(); },
+        e => { active--; reject(e); next(); },
+      );
+    };
+    active < limit ? run() : queue.push(run);
+  });
+}
+
 async function main() {
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, 'search-config.json'), 'utf8'));
   const docsDir = path.join(__dirname, 'docs');
+  const timeout = config.queryTimeoutMs || 10000;
+  const concurrency = config.maxConcurrentPortals || 3;
 
   // Copy airports.json
   const airportsSource = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
@@ -100,7 +130,6 @@ async function main() {
   const allPortalLinks = [];
 
   // Rightmove location ID map — keyed by location name AND postcode (lowercase, space preserved)
-  // Rightmove builder does loc.toLowerCase().trim() so keys must match that form
   const rmLocations = {
     'wenhaston':  'REGION^1264',  'ip19 9jj': 'REGION^1264',
     'diss':       'REGION^425',   'ip22 4jt': 'REGION^425',
@@ -122,29 +151,54 @@ async function main() {
       minBed: config.minBed || undefined,
     };
 
-    // rmLocations already has postcode keys (lowercase, with space) so no extra mapping needed
-    const rmLocationsBuild = rmLocations;
+    // County fallback criteria — used if postcode query returns 0 results or errors
+    const countyCriteria = search.county ? {
+      ...criteria,
+      locations: search.county,
+    } : null;
 
-    for (const portal of PORTALS) {
-      const urls = buildUrls(portal, criteria, rmLocationsBuild);
-      for (const link of urls) {
-        allPortalLinks.push({ ...link, searchLocation: search.location });
-      }
+    const pool = makePool(concurrency);
 
-      if (parsers[portal.id]) {
-        for (const link of urls) {
+    // Build all portal tasks for this location, run them in parallel (capped at concurrency limit)
+    const portalTasks = PORTALS.flatMap(portal => {
+      const urls = buildUrls(portal, criteria, rmLocations);
+      for (const link of urls) allPortalLinks.push({ ...link, searchLocation: search.location });
+
+      if (!parsers[portal.id]) return [];
+
+      return urls.map(link => pool(async () => {
+        // --- Primary attempt ---
+        let listings = [];
+        let usedFallback = false;
+        try {
+          process.stdout.write(`  Scraping ${portal.name}: ${link.url}\n`);
+          listings = await withTimeout(parsers[portal.id].scrape(link.url), timeout, link.url);
+        } catch (err) {
+          console.log(`    ⚠ ${portal.name} error: ${err.message.slice(0, 80)}`);
+        }
+
+        // --- County fallback: retry if empty or errored ---
+        if (listings.length === 0 && countyCriteria) {
           try {
-            console.log(`  Scraping ${portal.name}: ${link.url}`);
-            const listings = await parsers[portal.id].scrape(link.url);
-            listings.forEach(l => l.searchLocation = search.location);
-            console.log(`    Found ${listings.length} listings`);
-            allResults.push(...listings);
+            const fallbackUrls = buildUrls(portal, countyCriteria, rmLocations);
+            const fallbackLink = fallbackUrls[0];
+            if (fallbackLink && fallbackLink.url !== link.url) {
+              console.log(`    ↩ Retrying ${portal.name} with county (${search.county}): ${fallbackLink.url}`);
+              listings = await withTimeout(parsers[portal.id].scrape(fallbackLink.url), timeout, fallbackLink.url);
+              usedFallback = true;
+            }
           } catch (err) {
-            console.error(`    Error: ${err.message}`);
+            console.log(`    ✗ ${portal.name} county fallback failed: ${err.message.slice(0, 80)}`);
           }
         }
-      }
-    }
+
+        listings.forEach(l => l.searchLocation = search.location);
+        allResults.push(...listings);
+        console.log(`    ✓ ${portal.name}${usedFallback ? ' [county fallback]' : ''}: ${listings.length} listings`);
+      }));
+    });
+
+    await Promise.allSettled(portalTasks);
   }
 
   await closeBrowser();
