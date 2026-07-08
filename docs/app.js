@@ -90,7 +90,6 @@ function saveManualProperties() { localStorage.setItem('manualProperties', JSON.
 // --- State ---
 let allData = null;
 let currentResults = [];
-let selectedLocations = [];
 let textFilterKeywords = [];
 let hiddenTags = ['rejected'];
 let showFlyover = true;
@@ -111,18 +110,6 @@ async function init() {
     const dateStr = new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
     const seedInfo = allData.seedStats ? ` · Seed: ${allData.seedStats.total} total` : '';
     document.getElementById('lastUpdated').textContent = `Last updated: ${dateStr} · ${allData.totalResults} results${seedInfo}`;
-
-    // Location checkboxes
-    selectedLocations = [...allData.locations];
-    const locChecks = document.getElementById('locationChecks');
-    locChecks.innerHTML = allData.locations.map(loc =>
-      `<label class="pt-check"><input type="checkbox" value="${loc}" checked> ${loc}</label>`
-    ).join('');
-    locChecks.addEventListener('change', () => {
-      selectedLocations = [];
-      locChecks.querySelectorAll('input:checked').forEach(cb => selectedLocations.push(cb.value));
-      renderResults(currentResults);
-    });
 
     // Portal matrix
     renderPortalMatrix(allData.portalLinks, allData.locations);
@@ -251,9 +238,6 @@ function extractGardenSize(p) {
 function applyFilters(results) {
   let filtered = results;
 
-  if (selectedLocations.length < (allData?.locations?.length || 0)) {
-    filtered = filtered.filter(r => r.searchLocations && r.searchLocations.some(sl => selectedLocations.includes(sl)));
-  }
 
   if (hiddenTags.length > 0) {
     filtered = filtered.filter(r => !hiddenTags.some(ht => getPropertyTags(r).includes(ht)));
