@@ -76,11 +76,11 @@ function countInRadius(lat, lon, airportsArr, radii) {
 }
 
 const AUTO_REJECT_PATTERNS = [
-  /\bsemi[-\s]?detached\b/i,
-  /\blink[-\s]?detached\b/i,
-  /\bend[-\s]?(?:of[-\s]?)?terrace\b/i,
-  /\bterraced\b/i,
-  /\bterrace\s+house\b/i,
+  { re: /\bsemi[-\s]?detached\b/i,            label: 'semi-detached'    },
+  { re: /\blink[-\s]?detached\b/i,             label: 'link-detached'    },
+  { re: /\bend[-\s]?(?:of[-\s]?)?terrace\b/i,  label: 'end-of-terrace'   },
+  { re: /\bterraced\b/i,                        label: 'terraced'         },
+  { re: /\bterrace\s+house\b/i,                 label: 'terrace house'    },
 ];
 
 function slugify(loc) {
@@ -141,7 +141,7 @@ async function buildOutput(config, docsDir, allResults, allPortalLinks) {
     let rejectedCount = 0;
     for (const r of results) {
       const text = `${r.title || ''} ${r.type || ''}`;
-      r.autoRejected = AUTO_REJECT_PATTERNS.some(re => re.test(text));
+      r.autoRejected = AUTO_REJECT_PATTERNS.some(({ re }) => re.test(text));
       if (r.autoRejected) rejectedCount++;
     }
     console.log(`Auto-rejected: ${rejectedCount}`);
@@ -420,11 +420,12 @@ async function main() {
         // --- Primary attempt ---
         let listings = [];
         let usedFallback = false;
+        const tStart = Date.now();
+        console.log(`  → [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}: ${link.url}`);
         try {
-          process.stdout.write(`  Scraping ${portal.name}: ${link.url}\n`);
           listings = await withTimeout(parsers[portal.id].scrape(link.url), timeout, link.url);
         } catch (err) {
-          console.log(`    ⚠ ${portal.name} error: ${err.message.slice(0, 80)}`);
+          console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}: ERROR after ${((Date.now()-tStart)/1000).toFixed(1)}s — ${err.message.slice(0, 100)}`);
         }
 
         // --- County fallback: retry if empty or errored ---
@@ -433,18 +434,35 @@ async function main() {
             const fallbackUrls = buildUrls(portal, countyCriteria, rmLocations);
             const fallbackLink = fallbackUrls[0];
             if (fallbackLink && fallbackLink.url !== link.url) {
-              console.log(`    ↩ Retrying ${portal.name} with county (${search.county}): ${fallbackLink.url}`);
+              const tFallback = Date.now();
+              console.log(`  → [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback: ${search.county}]: ${fallbackLink.url}`);
               listings = await withTimeout(parsers[portal.id].scrape(fallbackLink.url), timeout, fallbackLink.url);
               usedFallback = true;
+              console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback] after ${((Date.now()-tFallback)/1000).toFixed(1)}s`);
             }
           } catch (err) {
-            console.log(`    ✗ ${portal.name} county fallback failed: ${err.message.slice(0, 80)}`);
+            console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback] FAILED — ${err.message.slice(0, 100)}`);
           }
         }
 
+        // Verbose response summary
+        const elapsed = ((Date.now() - tStart) / 1000).toFixed(1);
+        const rejectTally = {};
+        for (const l of listings) {
+          const text = `${l.title || ''} ${l.type || ''}`;
+          for (const { re, label } of AUTO_REJECT_PATTERNS) {
+            if (re.test(text)) { rejectTally[label] = (rejectTally[label] || 0) + 1; break; }
+          }
+        }
+        const totalRejected = Object.values(rejectTally).reduce((a, b) => a + b, 0);
+        const rejectDetail = totalRejected > 0
+          ? `, ${totalRejected} auto-reject (${Object.entries(rejectTally).map(([k, v]) => `${k}: ${v}`).join(', ')})`
+          : '';
+        const keptCount = listings.length - totalRejected;
+        console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}${usedFallback ? ' [fallback]' : ''}: ${listings.length} returned, ${keptCount} kept${rejectDetail} [${elapsed}s]`);
+
         listings.forEach(l => l.searchLocation = search.location);
         allResults.push(...listings);
-        console.log(`    ✓ ${portal.name}${usedFallback ? ' [county fallback]' : ''}: ${listings.length} listings`);
       }));
     });
 
