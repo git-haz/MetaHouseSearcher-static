@@ -871,4 +871,61 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
 .tag-badge-excluded { background: #fff3e0; color: #e65100; }
 
 .page { display: none; }
+
+/* Exclude keywords textarea */
+#excludeKeywordsInput {
+  flex: 1;
+  resize: vertical;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  line-height: 1.4;
+}
+#excludeKeywordsInput:focus { outline: none; border-color: var(--primary); }
+
+/* Rejection reason modal */
+.reject-reason-checks { display: flex; flex-direction: column; gap: 6px; }
+.reject-reason-item { font-size: 14px; display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.reject-reason-item input { width: 16px; height: 16px; cursor: pointer; accent-color: var(--danger); }
+.btn-danger {
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-danger:hover { background: #b3261e; }
+.tag-badge-rr-note { cursor: default; }
+
+/* Merge mode */
+.active-merge-btn { background: #fce8e6 !important; border-color: var(--danger) !important; color: var(--danger) !important; }
+.action-btn-merge { border-color: var(--primary); color: var(--primary); }
+.action-btn.active-merge-sel { background: #e8f0fe; border-color: var(--primary); color: var(--primary); font-weight: 600; }
+
+/* Merge modal */
+.merge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 600px) { .merge-grid { grid-template-columns: 1fr; } }
+.merge-col {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.merge-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
 .page.active { display: block; }

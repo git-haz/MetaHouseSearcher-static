@@ -17,6 +17,17 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
+          <span class="changelog-ver">v2.0.0</span>
+          <span class="changelog-date">8 Jul 2025</span>
+          <ul>
+            <li>Rejection reasons: multi-select modal with configurable reasons + optional note</li>
+            <li>Map view: tag/favourite/note actions when a property is selected</li>
+            <li>Show-only tag filter: multi-select to display properties with any selected tag</li>
+            <li>Exclude keywords: hide properties matching any entered term</li>
+            <li>Merge tool: side-by-side comparison of two properties, keep one</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
           <span class="changelog-ver">v1.9.0</span>
           <span class="changelog-date">7 Jul 2025</span>
           <ul>
@@ -84,7 +95,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v1.9.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.0.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -168,6 +179,16 @@
         </div>
       </div>
       <div class="hide-tags-filter">
+        <label class="tag-filter-label">Show only:</label>
+        <div class="hide-tags-checks" id="showOnlyTagsChecks">
+          <!-- populated by app.js after data loads -->
+        </div>
+      </div>
+      <div class="text-filter" style="align-items:flex-start;margin-top:4px;">
+        <label class="tag-filter-label" style="padding-top:6px;">Exclude keywords:</label>
+        <textarea id="excludeKeywordsInput" rows="2" placeholder="One per line — property hidden if any term found in its data"></textarea>
+      </div>
+      <div class="hide-tags-filter">
         <label class="tag-filter-label">Show on cards:</label>
         <div class="hide-tags-checks" id="displayToggles">
           <label class="pt-check"><input type="checkbox" value="flyover" id="showFlyover" checked> Flyover info</label>
@@ -180,7 +201,8 @@
     <div class="view-toggle" id="viewToggle">
       <button class="view-btn active" data-view="list">List</button>
       <button class="view-btn" data-view="map">Map</button>
-      <button class="btn btn-outline btn-sm" id="addPropertyBtn" style="margin-left:auto;">+ Add Property</button>
+      <button class="btn btn-outline btn-sm" id="mergeBtn" style="margin-left:auto;">⤡ Merge</button>
+      <button class="btn btn-outline btn-sm" id="addPropertyBtn">+ Add Property</button>
     </div>
 
     <div id="map-area" style="display:none;">
@@ -339,12 +361,41 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" id="footerVersion">v1.9.0</span>
+    <span class="version-link" id="footerVersion">v2.0.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>
     </div>
   </footer>
+
+  <!-- Rejection reason modal -->
+  <div class="modal-overlay" id="rejectModal">
+    <div class="modal">
+      <h3 id="rejectModalTitle">Reject Property</h3>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:10px;">Select reason(s) for rejection:</p>
+      <div id="rejectReasonChecks" class="reject-reason-checks"></div>
+      <div style="margin-top:12px;">
+        <label style="font-size:13px;font-weight:500;display:block;margin-bottom:4px;">Note <span style="font-weight:400;color:var(--text-muted);">(optional)</span></label>
+        <textarea id="rejectNoteText" rows="2" placeholder="Additional notes…" style="width:100%;padding:8px;border:1px solid var(--border);border-radius:6px;font-size:13px;resize:vertical;"></textarea>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="rejectCancelBtn">Cancel</button>
+        <button class="btn btn-danger" id="rejectConfirmBtn">Reject</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Merge modal -->
+  <div class="modal-overlay" id="mergeModal">
+    <div class="modal" style="max-width:860px;width:95%;">
+      <h3>Merge Properties — keep one</h3>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:14px;">The other property will be hidden from results. This can be undone via Import user data.</p>
+      <div class="merge-grid" id="mergeGrid"></div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="mergeCancelBtn">Cancel</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

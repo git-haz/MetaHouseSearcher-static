@@ -36,6 +36,7 @@
     { "location": "Rothbury",             "postcode": "NE65 7TW", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^21129" },
     { "location": "Wooler",               "postcode": "NE71 6DQ", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^1482"  }
   ],
+  "rejectionReasons": ["house type", "neighbour vicinity", "solar panels", "A road vicinity", "B road vicinity"],
   "keywords": ["garden"],
   "propertyTypes": [],
   "maxPrice": 450000,

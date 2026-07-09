@@ -7,6 +7,18 @@ let propertyNotes = loadJSON('propertyNotes', {});
 let neighbourStatus = loadJSON('neighbourStatus', {});
 function saveNeighbourStatus() { localStorage.setItem('neighbourStatus', JSON.stringify(neighbourStatus)); }
 
+let propertyRejectionReasons = loadJSON('propertyRejectionReasons', {});
+function saveRejectionReasons() { localStorage.setItem('propertyRejectionReasons', JSON.stringify(propertyRejectionReasons)); }
+
+let excludeKeywords = loadJSON('excludeKeywords', []);
+function saveExcludeKeywords() { localStorage.setItem('excludeKeywords', JSON.stringify(excludeKeywords)); }
+
+let showOnlyTags = loadJSON('showOnlyTags', []);
+function saveShowOnlyTags() { localStorage.setItem('showOnlyTags', JSON.stringify(showOnlyTags)); }
+
+let hiddenProperties = loadJSON('hiddenProperties', {});
+function saveHiddenProperties() { localStorage.setItem('hiddenProperties', JSON.stringify(hiddenProperties)); }
+
 function loadJSON(key, def) { try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(def)); } catch { return def; } }
 function saveLists() { localStorage.setItem('propertyLists', JSON.stringify(propertyLists)); }
 function saveNotes() { localStorage.setItem('propertyNotes', JSON.stringify(propertyNotes)); }
@@ -70,6 +82,8 @@ function getPropertyTags(p) {
   if (ns === 'confirmed') tags.push('neighbour_confirmed');
   else if (ns === 'dismissed') { /* no tag */ }
   else if (p.neighbourDetected) tags.push('neighbour');
+  const rr = propertyRejectionReasons[key];
+  if (rr && rr.reasons) { for (const r of rr.reasons) tags.push('reason:' + r); }
   return tags;
 }
 
@@ -99,6 +113,8 @@ let activeView = 'list';
 let activeListTab = 'favorite';
 let map = null;
 let mapMarkers = [];
+let mergeMode = false;
+let mergeSelections = [];
 
 // --- Load data ---
 async function init() {
@@ -121,6 +137,42 @@ async function init() {
     }
 
     autoRejectProperties(currentResults);
+
+    // Populate show-only tag checkboxes
+    const rejectionReasons = allData.searchConfig?.rejectionReasons || ['house type', 'neighbour vicinity', 'solar panels', 'A road vicinity', 'B road vicinity'];
+    const showOnlyContainer = document.getElementById('showOnlyTagsChecks');
+    if (showOnlyContainer) {
+      const allTagOptions = [
+        { value: 'favorite', label: '★ Favorites' },
+        { value: 'seen', label: 'Seen' },
+        { value: 'view', label: 'To View' },
+        { value: 'viewed', label: 'Viewed' },
+        { value: 'in_progress', label: 'In Progress' },
+        { value: 'rejected', label: 'Rejected' },
+        { value: 'excluded', label: 'Exclusion Zone' },
+        { value: 'neighbour', label: '⚠ Neighbour' },
+        ...rejectionReasons.map(r => ({ value: 'reason:' + r, label: '✕ ' + r })),
+      ];
+      showOnlyContainer.innerHTML = allTagOptions.map(t =>
+        `<label class="pt-check"><input type="checkbox" value="${t.value}" ${showOnlyTags.includes(t.value) ? 'checked' : ''}> ${t.label}</label>`
+      ).join('');
+      showOnlyContainer.addEventListener('change', () => {
+        showOnlyTags = [...showOnlyContainer.querySelectorAll('input:checked')].map(cb => cb.value);
+        saveShowOnlyTags();
+        renderResults(currentResults);
+      });
+    }
+
+    // Restore exclude keywords textarea
+    const ekInput = document.getElementById('excludeKeywordsInput');
+    if (ekInput) {
+      ekInput.value = excludeKeywords.join('\n');
+      ekInput.addEventListener('input', () => {
+        excludeKeywords = ekInput.value.split('\n').map(s => s.trim()).filter(Boolean);
+        saveExcludeKeywords();
+        renderResults(currentResults);
+      });
+    }
 
     // Show/hide baseline filter row and label it
     if (allData.baseline) {
@@ -238,6 +290,16 @@ function extractGardenSize(p) {
 function applyFilters(results) {
   let filtered = results;
 
+  // Hide merged-away properties
+  filtered = filtered.filter(r => !hiddenProperties[pkey(r)]);
+
+  // Show-only filter: if any tags selected, show only properties with at least one
+  if (showOnlyTags.length > 0) {
+    filtered = filtered.filter(r => {
+      const tags = getPropertyTags(r);
+      return showOnlyTags.some(st => tags.includes(st));
+    });
+  }
 
   if (hiddenTags.length > 0) {
     filtered = filtered.filter(r => !hiddenTags.some(ht => getPropertyTags(r).includes(ht)));
@@ -247,6 +309,14 @@ function applyFilters(results) {
     filtered = filtered.filter(r => {
       const text = `${r.title} ${r.description} ${r.address} ${r.type}`.toLowerCase();
       return textFilterKeywords.every(kw => text.includes(kw));
+    });
+  }
+
+  // Exclude keywords — hide property if ANY term found anywhere in its data
+  if (excludeKeywords.length > 0) {
+    filtered = filtered.filter(r => {
+      const text = `${r.title} ${r.description} ${r.address} ${r.type} ${r.agent} ${(r.sources||[]).map(s=>s.portal).join(' ')}`.toLowerCase();
+      return !excludeKeywords.some(kw => kw && text.includes(kw.toLowerCase()));
     });
   }
 
@@ -391,8 +461,15 @@ function renderCard(p, context) {
     if ((t === 'neighbour' || t === 'neighbour_confirmed') && !showNeighbour) return false;
     return true;
   });
+  const rr = propertyRejectionReasons[key];
   const badgesHtml = visibleTags.length > 0 ? `<div class="card-tag-badges">${visibleTags.map(t => {
     if (t === 'excluded' && zoneNames.length) return zoneNames.map(zn => `<span class="tag-badge tag-badge-excluded">⚠ ${zn}</span>`).join('');
+    if (t.startsWith('reason:')) return ''; // shown inline in rejected badge
+    if (t === 'rejected') {
+      const reasons = rr?.reasons?.length ? ` · ${rr.reasons.join(', ')}` : '';
+      const note = rr?.note ? `<span class="tag-badge-rr-note" title="${rr.note.replace(/"/g,'&quot;')}"> 📝</span>` : '';
+      return `<span class="tag-badge tag-badge-rejected">✕ Rejected${reasons}</span>${note}`;
+    }
     return `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t] || t}</span>`;
   }).join('')}</div>` : '';
 
@@ -455,10 +532,12 @@ function renderCard(p, context) {
       <div class="card-sources">${p.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="source-tag">${s.portal}</a>`).join('')}</div>
       <div class="card-actions">
         <button class="action-btn ${isInList('favorite', key) ? 'active-favorite' : ''}" onclick="toggleList('favorite','${ek}','${context}')">${isInList('favorite', key) ? '★' : '☆'} Fav</button>
-        ${['seen', 'view', 'viewed', 'in_progress', 'rejected'].map(s =>
+        ${['seen', 'view', 'viewed', 'in_progress'].map(s =>
           `<button class="action-btn ${isInList(s, key) ? 'active-' + s : ''}" onclick="toggleList('${s}','${ek}','${context}')">${LIST_LABELS[s]}</button>`
         ).join('')}
+        <button class="action-btn ${isInList('rejected', key) ? 'active-rejected' : ''}" onclick="openRejectModal('${ek}','${context}')">${isInList('rejected', key) ? '✕ Rejected' : 'Reject'}</button>
         <button class="action-btn" onclick="openNote('${ek}','${context}')">${note ? 'Edit Note' : '+ Note'}</button>
+        ${mergeMode ? `<button class="action-btn action-btn-merge${mergeSelections.includes(key) ? ' active-merge-sel' : ''}" onclick="selectForMerge('${ek}')">⤡ ${mergeSelections.includes(key) ? 'Selected' : 'Select'}</button>` : ''}
         ${p.isManual ? `<button class="action-btn action-btn-edit" onclick="openEditManualProperty('${ek}')">✏ Edit</button><button class="action-btn action-btn-delete" onclick="deleteManualProperty('${ek}')">✕ Delete</button>` : ''}
       </div>
       ${noteHtml}
@@ -497,10 +576,23 @@ function renderMap(results) {
     if (p.lat == null) continue;
     bounds.push([p.lat, p.lon]);
     const tags = getPropertyTags(p);
-    const tb = tags.length ? '<div style="margin-bottom:4px;">' + tags.map(t => `<span class="tag-badge tag-badge-${t}" style="font-size:10px;">${LIST_LABELS[t]}</span> `).join('') + '</div>' : '';
+    const tb = tags.filter(t => !t.startsWith('reason:')).length ? '<div style="margin-bottom:4px;">' + tags.filter(t => !t.startsWith('reason:')).map(t => `<span class="tag-badge tag-badge-${t}" style="font-size:10px;">${LIST_LABELS[t]||t}</span> `).join('') + '</div>' : '';
     const zn = getExclusionZoneNames(p);
-    const popup = `<div style="max-width:250px;font-size:13px;">${tb}<strong style="color:var(--primary);">£${p.price.toLocaleString()}</strong>${p.postedDate ? ' <span style="font-size:11px;color:#666;">' + p.postedDate + '</span>' : ''}<br><strong>${p.title}</strong><br><span style="color:#666;">${p.address}</span><br>${p.agent ? '<span style="font-size:11px;">' + p.agent + '</span><br>' : ''}${p.sources.map(s => `<a href="${s.url}" target="_blank" style="color:var(--primary);">${s.portal}</a>`).join(' ')}${zn.length ? '<br><span style="color:#e65100;font-size:11px;">⚠ ' + zn.join(', ') + '</span>' : ''}</div>`;
-    mapMarkers.push(L.marker([p.lat, p.lon]).addTo(map).bindPopup(popup));
+    const mk = pkey(p);
+    const popup = `<div style="max-width:260px;font-size:13px;">
+      ${tb}
+      <strong style="color:var(--primary);">£${p.price.toLocaleString()}</strong>${p.postedDate ? ' <span style="font-size:11px;color:#666;">' + p.postedDate + '</span>' : ''}
+      <br><strong>${p.title}</strong>
+      <br><span style="color:#666;">${p.address}</span>
+      <br>${p.agent ? '<span style="font-size:11px;">' + p.agent + '</span><br>' : ''}${p.sources.map(s => `<a href="${s.url}" target="_blank" style="color:var(--primary);">${s.portal}</a>`).join(' ')}
+      ${zn.length ? '<br><span style="color:#e65100;font-size:11px;">⚠ ' + zn.join(', ') + '</span>' : ''}
+      <div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:8px;border-top:1px solid #eee;padding-top:8px;">
+        <button class="action-btn ${isInList('favorite',mk)?'active-favorite':''}" style="font-size:11px;padding:3px 8px;" onclick="mapToggleFav('${mk}')">☆ Fav</button>
+        <button class="action-btn ${isInList('rejected',mk)?'active-rejected':''}" style="font-size:11px;padding:3px 8px;" onclick="mapOpenReject('${mk}')">Reject</button>
+        <button class="action-btn" style="font-size:11px;padding:3px 8px;" onclick="mapOpenNote('${mk}')">📝 Note</button>
+      </div>
+    </div>`;
+    mapMarkers.push(L.marker([p.lat, p.lon]).addTo(map).bindPopup(popup, { maxWidth: 280 }));
   }
   if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
   drawZonesOnMap();
@@ -1122,7 +1214,7 @@ document.getElementById('saveAddPropertyBtn').addEventListener('click', async ()
 document.getElementById('addPropertyBtn').addEventListener('click', openAddPropertyModal);
 
 // --- Export / Import user data ---
-const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties'];
+const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties', 'propertyRejectionReasons', 'excludeKeywords', 'showOnlyTags', 'hiddenProperties'];
 
 function exportUserData() {
   const data = {};
@@ -1159,6 +1251,10 @@ function importUserData() {
         neighbourStatus = loadJSON('neighbourStatus', {});
         exclusionZones = loadJSON('exclusionZones', []);
         manualProperties = loadJSON('manualProperties', []);
+        propertyRejectionReasons = loadJSON('propertyRejectionReasons', {});
+        excludeKeywords = loadJSON('excludeKeywords', []);
+        showOnlyTags = loadJSON('showOnlyTags', []);
+        hiddenProperties = loadJSON('hiddenProperties', {});
         // Re-merge manual props into currentResults
         currentResults = currentResults.filter(p => !p.isManual);
         for (const mp of manualProperties) { mp.isManual = true; currentResults.push(mp); }
@@ -1176,6 +1272,144 @@ function importUserData() {
 
 document.getElementById('exportUserDataBtn').addEventListener('click', exportUserData);
 document.getElementById('importUserDataBtn').addEventListener('click', importUserData);
+
+// --- Rejection reason modal ---
+let pendingReject = null;
+
+window.openRejectModal = function(key, context) {
+  // Toggle off if already rejected
+  if (isInList('rejected', key)) {
+    removeFromList('rejected', key);
+    delete propertyRejectionReasons[key];
+    saveRejectionReasons();
+    refreshView(context);
+    return;
+  }
+  const property = currentResults.find(r => pkey(r) === key) || findInLists(key);
+  if (!property) return;
+  pendingReject = { key, context, property };
+
+  const reasons = allData?.searchConfig?.rejectionReasons || ['house type', 'neighbour vicinity', 'solar panels', 'A road vicinity', 'B road vicinity'];
+  const existing = propertyRejectionReasons[key]?.reasons || [];
+  document.getElementById('rejectReasonChecks').innerHTML = reasons.map(r =>
+    `<label class="pt-check reject-reason-item"><input type="checkbox" value="${r}" ${existing.includes(r) ? 'checked' : ''}> ${r}</label>`
+  ).join('');
+  document.getElementById('rejectNoteText').value = propertyRejectionReasons[key]?.note || '';
+  document.getElementById('rejectModalTitle').textContent = `Reject: ${property.title || property.address}`;
+  document.getElementById('rejectModal').classList.add('active');
+};
+
+document.getElementById('rejectConfirmBtn').addEventListener('click', () => {
+  if (!pendingReject) return;
+  const { key, context, property } = pendingReject;
+  const checkedReasons = [...document.querySelectorAll('#rejectReasonChecks input:checked')].map(cb => cb.value);
+  const note = document.getElementById('rejectNoteText').value.trim();
+  addToList('rejected', property);
+  propertyRejectionReasons[key] = { reasons: checkedReasons, note };
+  saveRejectionReasons();
+  document.getElementById('rejectModal').classList.remove('active');
+  pendingReject = null;
+  refreshView(context);
+});
+
+document.getElementById('rejectCancelBtn').addEventListener('click', () => {
+  document.getElementById('rejectModal').classList.remove('active');
+  pendingReject = null;
+});
+document.getElementById('rejectModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) { e.currentTarget.classList.remove('active'); pendingReject = null; }
+});
+
+// --- Map action helpers ---
+window.mapToggleFav = function(key) {
+  const property = currentResults.find(r => pkey(r) === key);
+  if (!property) return;
+  if (isInList('favorite', key)) removeFromList('favorite', key);
+  else addToList('favorite', property);
+  renderMap(currentResults);
+};
+window.mapOpenReject = function(key) { openRejectModal(key, 'search'); };
+window.mapOpenNote = function(key) { openNote(key, 'search'); };
+
+// --- Merge mode ---
+function enterMergeMode() {
+  mergeMode = true;
+  mergeSelections = [];
+  document.getElementById('mergeBtn').textContent = '✕ Cancel Merge';
+  document.getElementById('mergeBtn').classList.add('active-merge-btn');
+  renderResults(currentResults);
+}
+function exitMergeMode() {
+  mergeMode = false;
+  mergeSelections = [];
+  document.getElementById('mergeBtn').textContent = '⤡ Merge';
+  document.getElementById('mergeBtn').classList.remove('active-merge-btn');
+  renderResults(currentResults);
+}
+
+document.getElementById('mergeBtn').addEventListener('click', () => {
+  mergeMode ? exitMergeMode() : enterMergeMode();
+});
+
+window.selectForMerge = function(key) {
+  if (mergeSelections.includes(key)) {
+    mergeSelections = mergeSelections.filter(k => k !== key);
+    renderResults(currentResults);
+    return;
+  }
+  mergeSelections.push(key);
+  if (mergeSelections.length === 2) {
+    openMergeModal(mergeSelections[0], mergeSelections[1]);
+  } else {
+    renderResults(currentResults);
+  }
+};
+
+function openMergeModal(key1, key2) {
+  const p1 = currentResults.find(r => pkey(r) === key1) || findInLists(key1);
+  const p2 = currentResults.find(r => pkey(r) === key2) || findInLists(key2);
+  if (!p1 || !p2) return;
+
+  function mergePropHtml(p, otherKey) {
+    const k = pkey(p);
+    const img = p.images?.[0] || 'https://placehold.co/400x300/e0e0e0/999?text=No+Image';
+    const note = propertyNotes[k];
+    const rrp = propertyRejectionReasons[k];
+    const tags = getPropertyTags(p).filter(t => !t.startsWith('reason:'));
+    return `<div class="merge-col">
+      <img src="${img}" alt="${p.title}" style="width:100%;height:160px;object-fit:cover;border-radius:6px;margin-bottom:8px;">
+      <div class="merge-price">£${p.price.toLocaleString()}</div>
+      <div style="font-weight:600;margin-bottom:2px;">${p.title}</div>
+      <div style="color:var(--text-muted);font-size:12px;margin-bottom:6px;">${p.address}</div>
+      <div style="font-size:12px;margin-bottom:4px;">${p.bedrooms ?? '?'} bed · ${p.bathrooms ?? '?'} bath · ${p.type || ''}</div>
+      ${p.agent ? `<div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">${p.agent}</div>` : ''}
+      ${p.description ? `<div style="font-size:12px;max-height:80px;overflow-y:auto;margin-bottom:6px;color:var(--text-muted);">${p.description}</div>` : ''}
+      ${tags.length ? `<div style="margin-bottom:6px;">${tags.map(t=>`<span class="tag-badge tag-badge-${t}" style="font-size:10px;">${LIST_LABELS[t]||t}</span>`).join(' ')}</div>` : ''}
+      ${rrp?.reasons?.length ? `<div style="font-size:11px;color:var(--danger);margin-bottom:4px;">Rejected: ${rrp.reasons.join(', ')}</div>` : ''}
+      ${note ? `<div style="font-size:12px;padding:4px 8px;background:#fffde7;border-left:3px solid var(--warning);border-radius:0 4px 4px 0;margin-bottom:6px;">${note}</div>` : ''}
+      <div style="margin-bottom:10px;">${p.sources?.map(s=>`<a href="${s.url}" target="_blank" class="source-tag" style="font-size:11px;">${s.portal}</a>`).join(' ')||''}</div>
+      <button class="btn btn-primary" style="width:100%;" onclick="keepProperty('${k}','${otherKey}')">Keep this one</button>
+    </div>`;
+  }
+
+  document.getElementById('mergeGrid').innerHTML = mergePropHtml(p1, key2) + mergePropHtml(p2, key1);
+  document.getElementById('mergeModal').classList.add('active');
+}
+
+window.keepProperty = function(keepKey, hideKey) {
+  hiddenProperties[hideKey] = true;
+  saveHiddenProperties();
+  document.getElementById('mergeModal').classList.remove('active');
+  exitMergeMode();
+};
+
+document.getElementById('mergeCancelBtn').addEventListener('click', () => {
+  document.getElementById('mergeModal').classList.remove('active');
+  exitMergeMode();
+});
+document.getElementById('mergeModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) { e.currentTarget.classList.remove('active'); exitMergeMode(); }
+});
 
 // --- Init ---
 init();
