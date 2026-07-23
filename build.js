@@ -509,6 +509,41 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
   console.log('\nBuild complete!');
 }
 
+// ---- --rescore: re-run recommendation on existing docs/results/ files ----
+async function rescoreResults(config, resultsDir, ukTowns) {
+  const indexPath = path.join(resultsDir, 'index.json');
+  if (!fs.existsSync(indexPath)) {
+    console.error('No docs/results/index.json found — run a full build first.');
+    process.exit(1);
+  }
+  const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+  const slugs = index.available || [];
+  console.log(`\nRescoring ${slugs.length} location file(s)…`);
+
+  let totalRecommended = 0, totalProperties = 0;
+  for (const slug of slugs) {
+    const filePath = path.join(resultsDir, `${slug}.json`);
+    if (!fs.existsSync(filePath)) continue;
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    let recommended = 0;
+    for (const r of data.properties) {
+      if (r.lat == null) continue;
+      const assessment = await assessProperty(r, ukTowns, config);
+      Object.assign(r, assessment);
+      if (r.recommended) recommended++;
+    }
+    data.rescoredAt = new Date().toISOString();
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    console.log(`  ${data.location}: ${recommended}/${data.properties.length} recommended`);
+    totalRecommended += recommended;
+    totalProperties  += data.properties.length;
+  }
+
+  index.rescoredAt = new Date().toISOString();
+  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
+  console.log(`\nDone. ${totalRecommended}/${totalProperties} properties recommended across ${slugs.length} locations.`);
+}
+
 // ---- main ----
 async function main() {
   const config    = JSON.parse(fs.readFileSync(path.join(__dirname, 'search-config.json'), 'utf8'));
@@ -518,6 +553,7 @@ async function main() {
   const timeout   = config.queryTimeoutMs || 10000;
   const concurrency = config.maxConcurrentPortals || 2;
   const fromSeed  = process.argv.includes('--from-seed');
+  const rescore   = process.argv.includes('--rescore');
 
   // Ensure results/ directory exists
   if (!fs.existsSync(resultsDir)) fs.mkdirSync(resultsDir, { recursive: true });
@@ -556,6 +592,10 @@ async function main() {
 
   if (fromSeed) {
     return await buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns);
+  }
+
+  if (rescore) {
+    return await rescoreResults(config, resultsDir, ukTowns);
   }
 
   // Build Rightmove location ID map
