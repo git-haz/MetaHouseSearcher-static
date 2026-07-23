@@ -77,13 +77,21 @@ function countInRadius(lat, lon, airportsArr, radii) {
   return { airports, airstrips, helipads };
 }
 
-const AUTO_REJECT_PATTERNS = [
-  { re: /\bsemi[-\s]?detached\b/i,            label: 'semi-detached'  },
-  { re: /\blink[-\s]?detached\b/i,             label: 'link-detached'  },
-  { re: /\bend[-\s]?(?:of[-\s]?)?terrace\b/i,  label: 'end-of-terrace' },
-  { re: /\bterraced\b/i,                        label: 'terraced'       },
-  { re: /\bterrace\s+house\b/i,                 label: 'terrace house'  },
-];
+// AUTO_REJECT_PATTERNS is built in main() from config.autoReject.titlePatterns
+let AUTO_REJECT_PATTERNS = [];
+let AUTO_REJECT_MIN_PRICE = null;
+
+function buildAutoRejectFromConfig(autoRejectConfig) {
+  if (!autoRejectConfig) return;
+  AUTO_REJECT_PATTERNS = (autoRejectConfig.titlePatterns || []).map(phrase => {
+    // Convert phrase to regex: allow optional hyphen/space between words
+    const escaped    = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const normalized = escaped.replace(/[-\s]+/g, '[-\\s]?');
+    return { re: new RegExp(`\\b${normalized}\\b`, 'i'), label: phrase };
+  });
+  AUTO_REJECT_MIN_PRICE = autoRejectConfig.minPrice ?? null;
+  console.log(`Auto-reject: ${AUTO_REJECT_PATTERNS.length} title pattern(s)${AUTO_REJECT_MIN_PRICE != null ? `, min price £${AUTO_REJECT_MIN_PRICE.toLocaleString()}` : ''}`);
+}
 
 function slugify(loc) {
   return loc.toLowerCase().trim().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
@@ -159,7 +167,9 @@ async function geocodeBaseline(config, airportsArr, flyoverSource) {
 function attachAutoReject(results) {
   for (const r of results) {
     const text = `${r.title || ''} ${r.type || ''}`;
-    r.autoRejected = AUTO_REJECT_PATTERNS.some(({ re }) => re.test(text));
+    const titleMatch = AUTO_REJECT_PATTERNS.some(({ re }) => re.test(text));
+    const priceMatch = AUTO_REJECT_MIN_PRICE != null && r.price != null && r.price < AUTO_REJECT_MIN_PRICE;
+    r.autoRejected = titleMatch || priceMatch;
   }
 }
 
@@ -445,7 +455,8 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
     const slug = slugify(search.location);
     const props = (byLocation[search.location] || []).map(p => ({ ...p, isNew: false, retrievedAt: p.seedAddedAt || p.addedAt || now }));
 
-    // Refresh baseline comparison (config may have changed)
+    // Refresh criteria that may have changed since last scrape
+    attachAutoReject(props);
     attachBaselineComparison(props, airportsArr, baselineData);
 
     // Build portal links
@@ -479,6 +490,7 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
 // ---- main ----
 async function main() {
   const config    = JSON.parse(fs.readFileSync(path.join(__dirname, 'search-config.json'), 'utf8'));
+  buildAutoRejectFromConfig(config.autoReject);
   const docsDir   = path.join(__dirname, 'docs');
   const resultsDir = path.join(docsDir, 'results');
   const timeout   = config.queryTimeoutMs || 10000;
