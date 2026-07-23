@@ -760,8 +760,10 @@ async function main() {
       console.warn('  Recommendation step will be skipped.');
     } else {
       ukTowns = JSON.parse(fs.readFileSync(ukTownsSource, 'utf8'));
+      const minPop = config.recommend?.minTownPopulation ?? 10000;
+      if (minPop > 0) ukTowns = ukTowns.filter(t => t.pop >= minPop);
       fs.copyFileSync(ukTownsSource, path.join(docsDir, 'uk-towns.json'));
-      console.log(`Loaded ${ukTowns.length} UK towns for recommendation checks`);
+      console.log(`Loaded ${ukTowns.length} UK towns (pop≥${minPop.toLocaleString()}) for recommendation checks`);
       if (USE_ML) {
         try {
           const { pipeline, env } = require('@xenova/transformers');

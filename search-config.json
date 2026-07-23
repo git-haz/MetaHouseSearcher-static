@@ -39,6 +39,7 @@
   "rejectionReasons": ["house type", "neighbour vicinity", "solar panels", "A road vicinity", "B road vicinity"],
   "recommend": {
     "enabled": true,
+    "minTownPopulation": 15000,
     "minDistanceToTownMiles": 10,
     "minDistanceToAirportMiles": 15,
     "minDistanceToHelipadMiles": 15,
