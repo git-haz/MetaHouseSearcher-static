@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:27:58.381Z",
+  "generatedAt": "2026-07-23T10:39:38.806Z",
   "complete": false,
   "searchConfig": {
     "searches": [
@@ -312,7 +312,7 @@
     "Wooler"
   ],
   "totalLocations": 35,
-  "completedLocations": 15,
+  "completedLocations": 20,
   "totalResults": null,
   "available": [
     "launceston",
@@ -329,7 +329,12 @@
     "maldon",
     "burnham-on-crouch",
     "tenterden",
-    "wye"
+    "wye",
+    "sandwich",
+    "burwell",
+    "littleport",
+    "debenham",
+    "framlingham"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -947,6 +952,206 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=TN25%205AH&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Wye"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ct13-9af/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ct13-9af/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=CT13%209AF&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1173&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=CT13%209AF&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=CT13%209AF&minbeds=2&maxprice=450000",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=CT13%209AF&minBeds=2&maxPrice=450000",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=CT13%209AF&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Sandwich"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/cb25-0hb/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/cb25-0hb/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=CB25%200HB&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E5229&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=CB25%200HB&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=CB25%200HB&minbeds=2&maxprice=450000",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=CB25%200HB&minBeds=2&maxPrice=450000",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=CB25%200HB&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Burwell"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/cb6-1ph/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/cb6-1ph/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=CB6%201PH&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E15407&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=CB6%201PH&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=CB6%201PH&minbeds=2&maxprice=450000",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=CB6%201PH&minBeds=2&maxPrice=450000",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=CB6%201PH&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Littleport"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip14-6qn/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip14-6qn/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP14%206QN&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E7996&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP14%206QN&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP14%206QN&minbeds=2&maxprice=450000",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP14%206QN&minBeds=2&maxPrice=450000",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP14%206QN&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Debenham"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip13-9bt/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip13-9bt/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP13%209BT&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E10280&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP13%209BT&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP13%209BT&minbeds=2&maxprice=450000",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP13%209BT&minBeds=2&maxPrice=450000",
+      "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP13%209BT&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Framlingham"
     }
   ]
 }
