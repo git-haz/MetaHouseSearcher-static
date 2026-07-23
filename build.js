@@ -1,5 +1,7 @@
+'use strict';
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 // Reuse modules from the main project
 const mainDir = path.join(__dirname, '..', 'property-search', 'server');
@@ -25,24 +27,24 @@ const parsers = {
 };
 
 const ALL_PORTALS = [
-  { id: 'zoopla', name: 'Zoopla', enabled: true },
-  { id: 'onthemarket', name: 'OnTheMarket', enabled: true },
-  { id: 'durrants', name: 'Durrants', enabled: true },
-  { id: 'rightmove', name: 'Rightmove', enabled: true },
-  { id: 'savills', name: 'Savills', enabled: true },
-  { id: 'struttandparker', name: 'Strutt & Parker', enabled: true },
-  { id: 'jackson-stops', name: 'Jackson-Stops', enabled: true },
-  { id: 'winkworth', name: 'Winkworth', enabled: true },
+  { id: 'zoopla',         name: 'Zoopla',           enabled: true },
+  { id: 'onthemarket',    name: 'OnTheMarket',       enabled: true },
+  { id: 'durrants',       name: 'Durrants',          enabled: true },
+  { id: 'rightmove',      name: 'Rightmove',         enabled: true },
+  { id: 'savills',        name: 'Savills',           enabled: true },
+  { id: 'struttandparker',name: 'Strutt & Parker',   enabled: true },
+  { id: 'jackson-stops',  name: 'Jackson-Stops',     enabled: true },
+  { id: 'winkworth',      name: 'Winkworth',         enabled: true },
 ];
 
-// --portals=durrants,zoopla to limit which portals to scrape
 const portalArg = process.argv.find(a => a.startsWith('--portals='));
 const portalFilter = portalArg ? portalArg.split('=')[1].split(',').map(s => s.trim().toLowerCase()) : null;
-const PORTALS = portalFilter
-  ? ALL_PORTALS.filter(p => portalFilter.includes(p.id))
-  : ALL_PORTALS;
+const PORTALS = portalFilter ? ALL_PORTALS.filter(p => portalFilter.includes(p.id)) : ALL_PORTALS;
 
-// --- Baseline comparison helpers ---
+const pushEveryArg = process.argv.find(a => a.startsWith('--push-every='));
+const PUSH_EVERY = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
+
+// ---- Utilities ----
 const https = require('https');
 
 function httpsGetJson(url) {
@@ -68,26 +70,25 @@ function countInRadius(lat, lon, airportsArr, radii) {
   for (const a of airportsArr) {
     const dist = haversineDistMilesBuild(lat, lon, a.lat, a.lon);
     const cat = a.category || 'airstrip';
-    if (cat === 'airport' && dist <= radii.airport) airports++;
-    else if (cat === 'heliport' && dist <= radii.helipad) helipads++;
+    if (cat === 'airport'  && dist <= radii.airport)  airports++;
+    else if (cat === 'heliport' && dist <= radii.helipad)  helipads++;
     else if (cat === 'airstrip' && dist <= radii.airstrip) airstrips++;
   }
   return { airports, airstrips, helipads };
 }
 
 const AUTO_REJECT_PATTERNS = [
-  { re: /\bsemi[-\s]?detached\b/i,            label: 'semi-detached'    },
-  { re: /\blink[-\s]?detached\b/i,             label: 'link-detached'    },
-  { re: /\bend[-\s]?(?:of[-\s]?)?terrace\b/i,  label: 'end-of-terrace'   },
-  { re: /\bterraced\b/i,                        label: 'terraced'         },
-  { re: /\bterrace\s+house\b/i,                 label: 'terrace house'    },
+  { re: /\bsemi[-\s]?detached\b/i,            label: 'semi-detached'  },
+  { re: /\blink[-\s]?detached\b/i,             label: 'link-detached'  },
+  { re: /\bend[-\s]?(?:of[-\s]?)?terrace\b/i,  label: 'end-of-terrace' },
+  { re: /\bterraced\b/i,                        label: 'terraced'       },
+  { re: /\bterrace\s+house\b/i,                 label: 'terrace house'  },
 ];
 
 function slugify(loc) {
   return loc.toLowerCase().trim().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 }
 
-// Reject a promise after ms milliseconds
 function withTimeout(promise, ms, label) {
   let timer;
   return Promise.race([
@@ -98,7 +99,6 @@ function withTimeout(promise, ms, label) {
   ]).finally(() => clearTimeout(timer));
 }
 
-// Concurrency pool — at most `limit` tasks running simultaneously
 function makePool(limit) {
   let active = 0;
   const queue = [];
@@ -115,161 +115,261 @@ function makePool(limit) {
   });
 }
 
-async function buildOutput(config, docsDir, allResults, allPortalLinks) {
-  const flyoverSource = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
-  const allLocations = config.searches.map(s => s.location);
+// ---- Baseline geocoding (runs once at startup) ----
+async function geocodeBaseline(config, airportsArr, flyoverSource) {
+  if (!config.baseline) return null;
+  const bl = config.baseline;
+  const radii = { airport: bl.airportRadiusMiles || 20, airstrip: bl.airstripRadiusMiles || 5, helipad: bl.helipadRadiusMiles || 15 };
+  console.log(`\nBaseline: ${bl.name} (${bl.postcode})`);
 
-  // Deduplicate raw scraped results (empty when called from --from-seed)
-  let results = deduplicate(allResults);
-  if (allResults.length) {
-    console.log(`\nTotal raw listings: ${allResults.length}`);
-    console.log(`After dedup: ${results.length}`);
-
-    // Merge searchLocation for deduped results
-    const locationMap = new Map();
-    for (const r of allResults) {
-      const key = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      if (!locationMap.has(key)) locationMap.set(key, new Set());
-      locationMap.get(key).add(r.searchLocation);
+  let blLat = null, blLon = null;
+  try {
+    const pcData = await httpsGetJson(`https://api.postcodes.io/postcodes/${(bl.postcode || '').replace(/\s+/g, '').toUpperCase()}`);
+    if (pcData.status === 200) {
+      blLat = pcData.result.latitude; blLon = pcData.result.longitude;
+      console.log(`  Geocoded: ${blLat.toFixed(5)}, ${blLon.toFixed(5)}`);
     }
-    for (const r of results) {
-      const key = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      r.searchLocations = [...(locationMap.get(key) || [])];
-    }
+  } catch (err) { console.error(`  Geocoding baseline failed: ${err.message}`); }
 
-    // Auto-reject
-    let rejectedCount = 0;
-    for (const r of results) {
-      const text = `${r.title || ''} ${r.type || ''}`;
-      r.autoRejected = AUTO_REJECT_PATTERNS.some(({ re }) => re.test(text));
-      if (r.autoRejected) rejectedCount++;
-    }
-    console.log(`Auto-rejected: ${rejectedCount}`);
-
-    // Geocode
-    console.log('\nGeocoding...');
-    await geocodeResults(results, allLocations);
-    const geocoded = results.filter(r => r.lat != null).length;
-    console.log(`Geocoded: ${geocoded}/${results.length}`);
-
-    // Airport distances
-    for (const r of results) {
-      const nearest = findNearestByCategory(r.lat, r.lon);
-      r.nearestAirport = nearest.airport;
-      r.nearestAirstrip = nearest.airstrip;
-      r.nearestHeliport = nearest.heliport;
-      const dists = [nearest.airport, nearest.airstrip, nearest.heliport]
-        .filter(Boolean).map(a => a.distanceMiles);
-      r.minAirportDistanceMiles = dists.length ? Math.min(...dists) : null;
-    }
-
-    // Flyover reference data
+  let blCircles = { airports: 0, airstrips: 0, helipads: 0 }, blFlightsPerDay = null;
+  if (blLat && blLon) {
+    blCircles = countInRadius(blLat, blLon, airportsArr, radii);
+    console.log(`  Circles — airports: ${blCircles.airports}, airstrips: ${blCircles.airstrips}, helipads: ${blCircles.helipads}`);
     if (fs.existsSync(flyoverSource)) {
-      fs.copyFileSync(flyoverSource, path.join(docsDir, 'flyover-reference.json'));
-      console.log('Copied flyover-reference.json');
-      attachFlyoverData(results, allLocations);
-      const withFlyover = results.filter(r => r.flyoverRef).length;
-      console.log(`Flyover data attached to ${withFlyover}/${results.length} properties`);
-    }
-
-    // Image analysis
-    if (process.argv.includes('--analyze')) {
-      const threshold = config.neighbourConfidenceThreshold || 0.95;
-      console.log(`\nAnalyzing property images (threshold: ${threshold * 100}%)...`);
-      await analyzeProperties(results, threshold);
-      for (const r of results) {
-        if (r.neighbourConfidence < threshold) r.neighbourDetected = false;
+      const flyoverRef = JSON.parse(fs.readFileSync(flyoverSource, 'utf8'));
+      const flyoverLocs = Array.isArray(flyoverRef.locations || flyoverRef) ? (flyoverRef.locations || flyoverRef) : Object.values(flyoverRef.locations || flyoverRef);
+      let nearestRef = null, nearestDist = Infinity;
+      for (const loc of flyoverLocs) {
+        if (loc.lat == null) continue;
+        const d = haversineDistMilesBuild(blLat, blLon, loc.lat, loc.lon);
+        if (d < nearestDist) { nearestDist = d; nearestRef = loc; }
       }
-      console.log(`Flagged: ${results.filter(r => r.neighbourDetected).length}/${results.length}`);
-    } else {
-      console.log('\nSkipping image analysis (use --analyze to enable)');
-    }
-
-    // Keywords matched
-    const keywords = (config.keywords || []).map(k => k.toLowerCase().trim()).filter(Boolean);
-    for (const r of results) {
-      r.keywordsMatched = 0;
-      if (keywords.length > 0) {
-        const text = `${r.title} ${r.description} ${r.address}`.toLowerCase();
-        r.keywordsMatched = keywords.filter(kw => text.includes(kw)).length;
-      }
-    }
-
-    // Merge into seed
-    console.log('\nMerging seed data...');
-    const mergeStats = seedData.mergeResults(results);
-    console.log(`Seed: ${mergeStats.added} new, ${mergeStats.updated} updated, ${mergeStats.duplicates} dupes (${mergeStats.total} total)`);
-
-    if (process.argv.includes('--seed-only')) {
-      console.log('Seed-only mode: skipping docs/results.json build.');
-      return;
+      if (nearestRef) { blFlightsPerDay = nearestRef.flightsPerDay; console.log(`  Flyover: ${nearestRef.location} (${nearestDist.toFixed(1)} mi) → ${blFlightsPerDay} flights/day`); }
     }
   }
 
-  // Build output from FULL seed
-  const allSeedProperties = seedData.getAll();
-  console.log(`\nFull seed: ${allSeedProperties.length} properties`);
+  return {
+    name: bl.name, postcode: bl.postcode, lat: blLat, lon: blLon,
+    airports: blCircles.airports, airstrips: blCircles.airstrips, helipads: blCircles.helipads,
+    flightsPerDay: blFlightsPerDay, radii, altitudeCutoffFt: bl.altitudeCutoffFt || null,
+  };
+}
 
-  const newKeys = new Set(results.map(r => seedData.dedupKey(r)));
-  for (const p of allSeedProperties) {
-    p.isNew = newKeys.has(seedData.dedupKey(p));
-    p.retrievedAt = p.seedAddedAt || p.addedAt || new Date().toISOString();
-    if (p.seedUpdatedAt) p.lastUpdatedAt = p.seedUpdatedAt;
+// ---- Per-property enrichment helpers ----
+function attachAutoReject(results) {
+  for (const r of results) {
+    const text = `${r.title || ''} ${r.type || ''}`;
+    r.autoRejected = AUTO_REJECT_PATTERNS.some(({ re }) => re.test(text));
+  }
+}
+
+function attachAirportDistances(results) {
+  for (const r of results) {
+    if (r.lat == null) continue;
+    const nearest = findNearestByCategory(r.lat, r.lon);
+    r.nearestAirport   = nearest.airport;
+    r.nearestAirstrip  = nearest.airstrip;
+    r.nearestHeliport  = nearest.heliport;
+    const dists = [nearest.airport, nearest.airstrip, nearest.heliport].filter(Boolean).map(a => a.distanceMiles);
+    r.minAirportDistanceMiles = dists.length ? Math.min(...dists) : null;
+  }
+}
+
+function attachKeywords(results, config) {
+  const keywords = (config.keywords || []).map(k => k.toLowerCase().trim()).filter(Boolean);
+  for (const r of results) {
+    r.keywordsMatched = 0;
+    if (keywords.length) {
+      const text = `${r.title} ${r.description} ${r.address}`.toLowerCase();
+      r.keywordsMatched = keywords.filter(kw => text.includes(kw)).length;
+    }
+  }
+}
+
+function attachBaselineComparison(results, airportsArr, baselineData) {
+  if (!baselineData?.lat) return;
+  for (const r of results) {
+    if (r.isManual || r.lat == null) continue;
+    const circles = countInRadius(r.lat, r.lon, airportsArr, baselineData.radii);
+    const propFlights = r.flyoverRef?.flightsPerDay ?? null;
+    const flightsDiffPct = (propFlights != null && baselineData.flightsPerDay != null && baselineData.flightsPerDay > 0)
+      ? Math.round(((propFlights - baselineData.flightsPerDay) / baselineData.flightsPerDay) * 100) : null;
+    r.baselineComparison = {
+      airportsCount: circles.airports, airstripsCount: circles.airstrips, helipadsCount: circles.helipads,
+      airportsDiff: circles.airports - baselineData.airports,
+      airstripsDiff: circles.airstrips - baselineData.airstrips,
+      helipadsDiff: circles.helipads - baselineData.helipads,
+      flightsPerDay: propFlights, flightsDiffPct,
+    };
+  }
+}
+
+// ---- Process one location after scraping: enrich + write location file ----
+async function processLocation(search, rawResults, portalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData) {
+  const slug = slugify(search.location);
+  const now = new Date().toISOString();
+  console.log(`\n  Processing ${search.location}: ${rawResults.length} raw listings`);
+
+  // 1. Within-location dedup
+  let results = deduplicate(rawResults);
+  console.log(`  After dedup: ${results.length}`);
+
+  // 2. Merge searchLocations array
+  const locationMap = new Map();
+  for (const r of rawResults) {
+    const key = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (!locationMap.has(key)) locationMap.set(key, new Set());
+    locationMap.get(key).add(r.searchLocation);
+  }
+  for (const r of results) {
+    const key = (r.address || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    r.searchLocations = [...(locationMap.get(key) || new Set([r.searchLocation]))];
+  }
+
+  // 3. Auto-reject flag
+  attachAutoReject(results);
+
+  // 4. Geocode
+  await geocodeResults(results, [search.location]);
+  console.log(`  Geocoded: ${results.filter(r => r.lat != null).length}/${results.length}`);
+
+  // 5. Airport distances
+  attachAirportDistances(results);
+
+  // 6. Flyover data
+  if (fs.existsSync(flyoverSource)) {
+    attachFlyoverData(results, config.searches.map(s => s.location));
+  }
+
+  // 7. Keywords
+  attachKeywords(results, config);
+
+  // 8. Image analysis (--analyze flag)
+  if (process.argv.includes('--analyze')) {
+    const threshold = config.neighbourConfidenceThreshold || 0.95;
+    await analyzeProperties(results, threshold);
+    for (const r of results) {
+      if (r.neighbourConfidence < threshold) r.neighbourDetected = false;
+    }
+  }
+
+  // 9. Baseline comparison
+  attachBaselineComparison(results, airportsArr, baselineData);
+
+  // 10. Merge into seed
+  const mergeStats = seedData.mergeResults(results);
+  console.log(`  Seed: +${mergeStats.added} new, ~${mergeStats.updated} updated, ${mergeStats.duplicates} dupes`);
+
+  // 11. Mark isNew + retrievedAt
+  for (const r of results) {
+    r.isNew = true;
+    r.retrievedAt = r.seedAddedAt || now;
+  }
+
+  // 12. Write location file
+  const output = {
+    location: search.location,
+    slug,
+    generatedAt: now,
+    count: results.length,
+    properties: results,
+    portalLinks,
+  };
+  fs.writeFileSync(path.join(resultsDir, `${slug}.json`), JSON.stringify(output, null, 2));
+  console.log(`  ✓ docs/results/${slug}.json (${results.length} properties)`);
+  return results.length;
+}
+
+// ---- Write index.json ----
+function writeIndex(resultsDir, config, baselineData, availableSlugs, complete, totalResults, allPortalLinks) {
+  const index = {
+    generatedAt:       new Date().toISOString(),
+    complete,
+    searchConfig:      config,
+    locations:         config.searches.map(s => s.location),
+    totalLocations:    config.searches.length,
+    completedLocations: availableSlugs.length,
+    totalResults:      totalResults ?? null,
+    available:         availableSlugs,
+    baseline:          baselineData || null,
+    portalLinks:       allPortalLinks || [],
+  };
+  fs.writeFileSync(path.join(resultsDir, 'index.json'), JSON.stringify(index, null, 2));
+}
+
+// ---- Final cross-location pass: same-URL dedup + duplicate detection ----
+async function finalPass(resultsDir, slugs) {
+  console.log('\n=== Final pass: cross-location dedup + duplicate detection ===');
+
+  // Load all location files into a flat array, tracking offsets per slug
+  const allProperties = [];
+  const slugOffsets = {};
+
+  for (const slug of slugs) {
+    const filePath = path.join(resultsDir, `${slug}.json`);
+    if (!fs.existsSync(filePath)) continue;
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    slugOffsets[slug] = { start: allProperties.length, count: data.properties.length, data };
+    allProperties.push(...data.properties);
+  }
+
+  // Clear stale dupe flags
+  for (const p of allProperties) {
+    delete p.hasDuplicates; delete p.duplicateKeys;
+    delete p.hasPotentialDuplicates; delete p.potentialDuplicateOf; delete p.duplicateSimilarity;
   }
 
   // Same-URL dedup
   let sameUrlRemoved = 0;
   const urlSeen = new Map();
   const removeIndices = new Set();
-  for (const p of allSeedProperties) {
-    delete p.hasDuplicates; delete p.duplicateKeys;
-    delete p.hasPotentialDuplicates; delete p.potentialDuplicateOf; delete p.duplicateSimilarity;
-  }
-  for (let i = 0; i < allSeedProperties.length; i++) {
-    const p = allSeedProperties[i];
+
+  for (let i = 0; i < allProperties.length; i++) {
+    const p = allProperties[i];
     const url = getUrl(p);
     if (!url) continue;
     if (urlSeen.has(url)) {
-      const { idx, prop: existing } = urlSeen.get(url);
+      const { idx: existingIdx, prop: existing } = urlSeen.get(url);
       const contentChanged = existing.price !== p.price || existing.postedDate !== p.postedDate
         || (existing.description || '') !== (p.description || '');
       if (contentChanged) {
-        const ed = new Date(existing.retrievedAt || existing.seedAddedAt || 0).getTime();
-        const nd = new Date(p.retrievedAt || p.seedAddedAt || 0).getTime();
-        if (nd > ed) { p.firstRetrievedAt = existing.retrievedAt || existing.seedAddedAt; removeIndices.add(idx); urlSeen.set(url, { idx: i, prop: p }); }
+        const ed = new Date(existing.retrievedAt || 0).getTime();
+        const nd = new Date(p.retrievedAt     || 0).getTime();
+        if (nd > ed) { p.firstRetrievedAt = existing.retrievedAt; removeIndices.add(existingIdx); urlSeen.set(url, { idx: i, prop: p }); }
         else removeIndices.add(i);
       } else { removeIndices.add(i); }
       sameUrlRemoved++;
     } else { urlSeen.set(url, { idx: i, prop: p }); }
   }
-  const dedupedSeed = allSeedProperties.filter((_, i) => !removeIndices.has(i));
-  console.log(`Same-URL dedup: removed ${sameUrlRemoved} duplicates (${allSeedProperties.length} → ${dedupedSeed.length})`);
+  console.log(`Same-URL dedup: removed ${sameUrlRemoved}`);
 
   // Cross-URL duplicate check
-  let definiteCount = 0, potentialCount = 0;
   const crossGroups = {};
-  for (const p of dedupedSeed) {
+  for (let i = 0; i < allProperties.length; i++) {
+    if (removeIndices.has(i)) continue;
+    const p = allProperties[i];
     const key = `${normalizeAddress(p.address || '')}|${p.bedrooms || ''}|${p.bathrooms || ''}`;
     if (!crossGroups[key]) crossGroups[key] = [];
-    crossGroups[key].push(p);
+    crossGroups[key].push({ i, p });
   }
+  let definiteCount = 0, potentialCount = 0;
   for (const group of Object.values(crossGroups)) {
     if (group.length < 2) continue;
-    for (let i = 0; i < group.length; i++) {
-      for (let j = i + 1; j < group.length; j++) {
-        const a = group[i], b = group[j];
-        if (getUrl(a) === getUrl(b)) continue;
-        if (a.price === b.price) {
-          a.hasDuplicates = b.hasDuplicates = true;
-          (a.duplicateKeys = a.duplicateKeys || []).push(seedData.dedupKey(b));
-          (b.duplicateKeys = b.duplicateKeys || []).push(seedData.dedupKey(a));
+    for (let a = 0; a < group.length; a++) {
+      for (let b = a + 1; b < group.length; b++) {
+        const { p: pa } = group[a], { p: pb } = group[b];
+        if (getUrl(pa) === getUrl(pb)) continue;
+        if (pa.price === pb.price) {
+          pa.hasDuplicates = pb.hasDuplicates = true;
+          (pa.duplicateKeys = pa.duplicateKeys || []).push(seedData.dedupKey(pb));
+          (pb.duplicateKeys = pb.duplicateKeys || []).push(seedData.dedupKey(pa));
           definiteCount++;
         } else {
-          const sim = descriptionSimilarity(a.description, b.description);
-          if (sim >= 0.5 && a.postedDate !== b.postedDate) {
-            a.hasPotentialDuplicates = b.hasPotentialDuplicates = true;
-            b.potentialDuplicateOf = getUrl(a); a.potentialDuplicateOf = getUrl(b);
-            a.duplicateSimilarity = b.duplicateSimilarity = Math.round(sim * 100);
+          const sim = descriptionSimilarity(pa.description, pb.description);
+          if (sim >= 0.5 && pa.postedDate !== pb.postedDate) {
+            pa.hasPotentialDuplicates = pb.hasPotentialDuplicates = true;
+            pb.potentialDuplicateOf = getUrl(pa); pa.potentialDuplicateOf = getUrl(pb);
+            pa.duplicateSimilarity  = pb.duplicateSimilarity  = Math.round(sim * 100);
             potentialCount++;
           }
         }
@@ -278,108 +378,137 @@ async function buildOutput(config, docsDir, allResults, allPortalLinks) {
   }
   console.log(`Duplicate check: ${definiteCount} definite, ${potentialCount} potential`);
 
-  // Baseline comparison
-  let baselineData = null;
-  if (config.baseline) {
-    const bl = config.baseline;
-    const radii = { airport: bl.airportRadiusMiles || 20, airstrip: bl.airstripRadiusMiles || 5, helipad: bl.helipadRadiusMiles || 15 };
-    console.log(`\nBaseline: ${bl.name} (${bl.postcode})`);
-    const airportsJsonPath = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
-    const airportsArr = fs.existsSync(airportsJsonPath) ? (JSON.parse(fs.readFileSync(airportsJsonPath, 'utf8')).airfields || []) : [];
-
-    let blLat = null, blLon = null;
-    try {
-      const pcData = await httpsGetJson(`https://api.postcodes.io/postcodes/${(bl.postcode || '').replace(/\s+/g, '').toUpperCase()}`);
-      if (pcData.status === 200) { blLat = pcData.result.latitude; blLon = pcData.result.longitude; console.log(`  Geocoded: ${blLat.toFixed(5)}, ${blLon.toFixed(5)}`); }
-    } catch (err) { console.error(`  Geocoding baseline failed: ${err.message}`); }
-
-    let blCircles = { airports: 0, airstrips: 0, helipads: 0 }, blFlightsPerDay = null;
-    if (blLat && blLon) {
-      blCircles = countInRadius(blLat, blLon, airportsArr, radii);
-      console.log(`  Circles — airports: ${blCircles.airports}, airstrips: ${blCircles.airstrips}, helipads: ${blCircles.helipads}`);
-      if (fs.existsSync(flyoverSource)) {
-        const flyoverRef = JSON.parse(fs.readFileSync(flyoverSource, 'utf8'));
-        const flyoverLocs = Array.isArray(flyoverRef.locations || flyoverRef) ? (flyoverRef.locations || flyoverRef) : Object.values(flyoverRef.locations || flyoverRef);
-        let nearestRef = null, nearestDist = Infinity;
-        for (const loc of flyoverLocs) {
-          if (loc.lat == null) continue;
-          const d = haversineDistMilesBuild(blLat, blLon, loc.lat, loc.lon);
-          if (d < nearestDist) { nearestDist = d; nearestRef = loc; }
-        }
-        if (nearestRef) { blFlightsPerDay = nearestRef.flightsPerDay; console.log(`  Flyover ref: ${nearestRef.location} (${nearestDist.toFixed(1)} mi away) → ${blFlightsPerDay} flights/day`); }
-      }
-      let withComparison = 0;
-      for (const r of dedupedSeed) {
-        if (r.isManual || r.lat == null) continue;
-        const circles = countInRadius(r.lat, r.lon, airportsArr, radii);
-        const propFlights = r.flyoverRef?.flightsPerDay ?? null;
-        const flightsDiffPct = (propFlights != null && blFlightsPerDay != null && blFlightsPerDay > 0)
-          ? Math.round(((propFlights - blFlightsPerDay) / blFlightsPerDay) * 100) : null;
-        r.baselineComparison = {
-          airportsCount: circles.airports, airstripsCount: circles.airstrips, helipadsCount: circles.helipads,
-          airportsDiff: circles.airports - blCircles.airports, airstripsDiff: circles.airstrips - blCircles.airstrips, helipadsDiff: circles.helipads - blCircles.helipads,
-          flightsPerDay: propFlights, flightsDiffPct,
-        };
-        withComparison++;
-      }
-      console.log(`  Comparison computed for ${withComparison} properties`);
+  // Rewrite location files with dupe flags applied and same-URL dupes removed
+  let totalKept = 0;
+  for (const slug of slugs) {
+    const entry = slugOffsets[slug];
+    if (!entry) continue;
+    const { start, count, data } = entry;
+    const kept = [];
+    for (let i = start; i < start + count; i++) {
+      if (!removeIndices.has(i)) kept.push(allProperties[i]);
     }
-    baselineData = { name: bl.name, postcode: bl.postcode, lat: blLat, lon: blLon, airports: blCircles.airports, airstrips: blCircles.airstrips, helipads: blCircles.helipads, flightsPerDay: blFlightsPerDay, radii, altitudeCutoffFt: bl.altitudeCutoffFt || null };
+    data.properties = kept;
+    data.count       = kept.length;
+    data.dupePassAt  = new Date().toISOString();
+    fs.writeFileSync(path.join(resultsDir, `${data.slug || slug}.json`), JSON.stringify(data, null, 2));
+    totalKept += kept.length;
   }
-
-  // Rebuild portal links from seed if --from-seed (no scrape was run)
-  if (!allPortalLinks.length) {
-    for (const search of config.searches) {
-      const queryLoc = search.postcode || search.location;
-      const criteria = { locations: queryLoc, radius: String(search.radius), keywords: config.keywords || [], propertyTypes: config.propertyTypes || [], maxPrice: config.maxPrice, minBed: config.minBed };
-      const rmLocs = {};
-      for (const s of config.searches) { if (s.rightmoveId) { if (s.postcode) rmLocs[s.postcode.toLowerCase()] = s.rightmoveId; rmLocs[s.location.toLowerCase()] = s.rightmoveId; } }
-      for (const portal of PORTALS) {
-        for (const link of buildUrls(portal, criteria, rmLocs)) allPortalLinks.push({ ...link, searchLocation: search.location });
-      }
-    }
-  }
-
-  const output = {
-    generatedAt: new Date().toISOString(),
-    searchConfig: config,
-    locations: allLocations,
-    totalResults: dedupedSeed.length,
-    newResults: results.length,
-    results: dedupedSeed,
-    portalLinks: allPortalLinks,
-    seedStats: { total: allSeedProperties.length },
-    baseline: baselineData,
-  };
-
-  fs.writeFileSync(path.join(docsDir, 'results.json'), JSON.stringify(output, null, 2));
-  console.log(`Wrote ${dedupedSeed.length} total properties (${results.length} new this run) to docs/results.json`);
-  console.log(`Wrote ${allPortalLinks.length} portal links`);
-  console.log('Build complete!');
+  console.log(`Total after final pass: ${totalKept} properties across ${slugs.length} locations`);
+  return totalKept;
 }
 
-async function main() {
-  const config = JSON.parse(fs.readFileSync(path.join(__dirname, 'search-config.json'), 'utf8'));
-  const docsDir = path.join(__dirname, 'docs');
-  const timeout = config.queryTimeoutMs || 10000;
-  const concurrency = config.maxConcurrentPortals || 3;
-  const fromSeed = process.argv.includes('--from-seed');
+// ---- Auto git push ----
+function autoPush(done, total, isFinal) {
+  const msg = isFinal
+    ? `Build complete: ${total}/${total} locations`
+    : `Build progress: ${done}/${total} locations`;
+  console.log(`\n  → Git push: "${msg}"`);
+  try {
+    execSync(`git add docs/results/ && git commit -m "${msg}" && git push`, {
+      cwd: __dirname,
+      stdio: 'pipe',
+    });
+    console.log('  ✓ Pushed');
+  } catch (err) {
+    console.warn(`  ⚠ Push failed: ${(err.stderr || err.message || '').toString().slice(0, 120)}`);
+  }
+}
 
-  // Copy airports.json
-  const airportsSource = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
-  fs.copyFileSync(airportsSource, path.join(docsDir, 'airports.json'));
-  console.log('Copied airports.json');
+// ---- --from-seed rebuild ----
+async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData) {
+  console.log('--from-seed: rebuilding location files from existing seed data');
+  const allSeedProperties = seedData.getAll();
+  console.log(`Full seed: ${allSeedProperties.length} properties`);
 
-  if (fromSeed) {
-    console.log('--from-seed: skipping scrape, building results.json from existing seed data.');
-    return await buildOutput(config, docsDir, [], []);
+  // Build Rightmove location map
+  const rmLocs = {};
+  for (const s of config.searches) {
+    if (!s.rightmoveId) continue;
+    if (s.postcode) rmLocs[s.postcode.toLowerCase()] = s.rightmoveId;
+    rmLocs[s.location.toLowerCase()] = s.rightmoveId;
   }
 
-  const allResults = [];
-  const allPortalLinks = [];
+  // Group seed properties by searchLocation
+  const byLocation = {};
+  for (const p of allSeedProperties) {
+    const loc = p.searchLocation || '__unknown__';
+    if (!byLocation[loc]) byLocation[loc] = [];
+    byLocation[loc].push(p);
+  }
 
-  // Rightmove location ID map — built from config, keyed by postcode AND location name (lowercase)
-  // Rightmove builder does loc.toLowerCase().trim() so keys must match that form
+  const slugs = [];
+  const allPortalLinks = [];
+  const now = new Date().toISOString();
+
+  for (const search of config.searches) {
+    const slug = slugify(search.location);
+    const props = (byLocation[search.location] || []).map(p => ({ ...p, isNew: false, retrievedAt: p.seedAddedAt || p.addedAt || now }));
+
+    // Refresh baseline comparison (config may have changed)
+    attachBaselineComparison(props, airportsArr, baselineData);
+
+    // Build portal links
+    const criteria = {
+      locations: search.postcode || search.location,
+      radius: String(search.radius),
+      keywords: config.keywords || [],
+      propertyTypes: config.propertyTypes || [],
+      maxPrice: config.maxPrice,
+      minBed: config.minBed,
+    };
+    const portalLinks = [];
+    for (const portal of PORTALS) {
+      for (const link of buildUrls(portal, criteria, rmLocs)) {
+        portalLinks.push({ ...link, searchLocation: search.location });
+        allPortalLinks.push({ ...link, searchLocation: search.location });
+      }
+    }
+
+    const output = { location: search.location, slug, generatedAt: now, count: props.length, properties: props, portalLinks };
+    fs.writeFileSync(path.join(resultsDir, `${slug}.json`), JSON.stringify(output, null, 2));
+    console.log(`  ${search.location}: ${props.length} properties → docs/results/${slug}.json`);
+    slugs.push(slug);
+  }
+
+  const total = await finalPass(resultsDir, slugs);
+  writeIndex(resultsDir, config, baselineData, slugs, true, total, allPortalLinks);
+  console.log('\nBuild complete!');
+}
+
+// ---- main ----
+async function main() {
+  const config    = JSON.parse(fs.readFileSync(path.join(__dirname, 'search-config.json'), 'utf8'));
+  const docsDir   = path.join(__dirname, 'docs');
+  const resultsDir = path.join(docsDir, 'results');
+  const timeout   = config.queryTimeoutMs || 10000;
+  const concurrency = config.maxConcurrentPortals || 2;
+  const fromSeed  = process.argv.includes('--from-seed');
+
+  // Ensure results/ directory exists
+  if (!fs.existsSync(resultsDir)) fs.mkdirSync(resultsDir, { recursive: true });
+
+  // Copy static assets
+  const airportsSource  = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
+  const flyoverSource   = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
+  fs.copyFileSync(airportsSource, path.join(docsDir, 'airports.json'));
+  console.log('Copied airports.json');
+  if (fs.existsSync(flyoverSource)) {
+    fs.copyFileSync(flyoverSource, path.join(docsDir, 'flyover-reference.json'));
+    console.log('Copied flyover-reference.json');
+  }
+
+  // Load airports array for countInRadius (baseline comparison)
+  const airportsArr = JSON.parse(fs.readFileSync(path.join(docsDir, 'airports.json'), 'utf8')).airfields || [];
+
+  // Geocode baseline once up front
+  const baselineData = await geocodeBaseline(config, airportsArr, flyoverSource);
+
+  if (fromSeed) {
+    return await buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData);
+  }
+
+  // Build Rightmove location ID map
   const rmLocations = {};
   for (const s of config.searches) {
     if (!s.rightmoveId) continue;
@@ -387,61 +516,66 @@ async function main() {
     rmLocations[s.location.toLowerCase()] = s.rightmoveId;
   }
 
-  for (const search of config.searches) {
+  // Write initial empty index so app can detect a build is in progress
+  writeIndex(resultsDir, config, baselineData, [], false, null, []);
+
+  const allPortalLinks  = [];
+  const completedSlugs  = [];
+
+  for (let si = 0; si < config.searches.length; si++) {
+    const search   = config.searches[si];
+    const slug     = slugify(search.location);
     const queryLoc = search.postcode || search.location;
-    const displayLoc = search.location + (search.postcode ? ` (${search.postcode})` : '');
-    console.log(`\n=== Searching: ${displayLoc} (${search.radius} mile radius) ===`);
+    console.log(`\n=== [${si + 1}/${config.searches.length}] ${search.location}${search.postcode ? ` (${search.postcode})` : ''} ===`);
 
     const criteria = {
-      locations: queryLoc,
-      radius: String(search.radius),
-      keywords: config.keywords || [],
+      locations:     queryLoc,
+      radius:        String(search.radius),
+      keywords:      config.keywords      || [],
       propertyTypes: config.propertyTypes || [],
-      maxPrice: config.maxPrice || undefined,
-      minBed: config.minBed || undefined,
+      maxPrice:      config.maxPrice      || undefined,
+      minBed:        config.minBed        || undefined,
     };
+    const countyCriteria = search.county ? { ...criteria, locations: search.county } : null;
 
-    // County fallback criteria — used if postcode query returns 0 results or errors
-    const countyCriteria = search.county ? {
-      ...criteria,
-      locations: search.county,
-    } : null;
+    // Build portal links for this location
+    const locationPortalLinks = [];
+    for (const portal of PORTALS) {
+      for (const link of buildUrls(portal, criteria, rmLocations)) {
+        locationPortalLinks.push({ ...link, searchLocation: search.location });
+        allPortalLinks.push({ ...link, searchLocation: search.location });
+      }
+    }
 
-    const pool = makePool(concurrency);
+    // Scrape all portals concurrently
+    const pool          = makePool(concurrency);
+    const locationResults = [];
 
-    // Build all portal tasks for this location, run them in parallel (capped at concurrency limit)
     const portalTasks = PORTALS.flatMap(portal => {
-      const urls = buildUrls(portal, criteria, rmLocations);
-      for (const link of urls) allPortalLinks.push({ ...link, searchLocation: search.location });
-
       if (!parsers[portal.id]) return [];
+      const urls = buildUrls(portal, criteria, rmLocations);
 
       return urls.map(link => pool(async () => {
-        // --- Primary attempt ---
         let listings = [];
-        let usedFallback = false;
         const tStart = Date.now();
         console.log(`  → [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}: ${link.url}`);
         try {
           listings = await withTimeout(parsers[portal.id].scrape(link.url), timeout, link.url);
         } catch (err) {
-          console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}: ERROR after ${((Date.now()-tStart)/1000).toFixed(1)}s — ${err.message.slice(0, 100)}`);
+          console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}: ERROR after ${((Date.now()-tStart)/1000).toFixed(1)}s — ${err.message.slice(0, 80)}`);
         }
 
-        // --- County fallback: retry if empty or errored ---
+        // County fallback
         if (listings.length === 0 && countyCriteria) {
           try {
-            const fallbackUrls = buildUrls(portal, countyCriteria, rmLocations);
-            const fallbackLink = fallbackUrls[0];
+            const fallbackUrls  = buildUrls(portal, countyCriteria, rmLocations);
+            const fallbackLink  = fallbackUrls[0];
             if (fallbackLink && fallbackLink.url !== link.url) {
-              const tFallback = Date.now();
-              console.log(`  → [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback: ${search.county}]: ${fallbackLink.url}`);
+              console.log(`  → [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback: ${search.county}]`);
               listings = await withTimeout(parsers[portal.id].scrape(fallbackLink.url), timeout, fallbackLink.url);
-              usedFallback = true;
-              console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback] after ${((Date.now()-tFallback)/1000).toFixed(1)}s`);
             }
           } catch (err) {
-            console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location} [county fallback] FAILED — ${err.message.slice(0, 100)}`);
+            console.log(`  ← County fallback failed: ${err.message.slice(0, 80)}`);
           }
         }
 
@@ -454,23 +588,45 @@ async function main() {
             if (re.test(text)) { rejectTally[label] = (rejectTally[label] || 0) + 1; break; }
           }
         }
-        const totalRejected = Object.values(rejectTally).reduce((a, b) => a + b, 0);
-        const rejectDetail = totalRejected > 0
+        const totalRejected  = Object.values(rejectTally).reduce((a, b) => a + b, 0);
+        const rejectDetail   = totalRejected > 0
           ? `, ${totalRejected} auto-reject (${Object.entries(rejectTally).map(([k, v]) => `${k}: ${v}`).join(', ')})`
           : '';
-        const keptCount = listings.length - totalRejected;
-        console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}${usedFallback ? ' [fallback]' : ''}: ${listings.length} returned, ${keptCount} kept${rejectDetail} [${elapsed}s]`);
+        console.log(`  ← [${new Date().toLocaleTimeString()}] ${portal.name} | ${search.location}: ${listings.length} returned, ${listings.length - totalRejected} kept${rejectDetail} [${elapsed}s]`);
 
         listings.forEach(l => l.searchLocation = search.location);
-        allResults.push(...listings);
+        locationResults.push(...listings);
       }));
     });
 
     await Promise.allSettled(portalTasks);
+
+    // Enrich + write location file immediately
+    await processLocation(search, locationResults, locationPortalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData);
+    completedSlugs.push(slug);
+
+    // Update index so app can see the new location
+    writeIndex(resultsDir, config, baselineData, completedSlugs, false, null, allPortalLinks);
+
+    // Auto push every N locations
+    if (PUSH_EVERY > 0 && (si + 1) % PUSH_EVERY === 0) {
+      autoPush(si + 1, config.searches.length, false);
+    }
   }
 
   await closeBrowser();
-  await buildOutput(config, docsDir, allResults, allPortalLinks);
+
+  // Final cross-location pass (dupe detection + same-URL dedup)
+  const totalResults = await finalPass(resultsDir, completedSlugs);
+
+  // Write complete index
+  writeIndex(resultsDir, config, baselineData, completedSlugs, true, totalResults, allPortalLinks);
+  console.log('\nBuild complete!');
+
+  // Final git push
+  if (PUSH_EVERY > 0) {
+    autoPush(config.searches.length, config.searches.length, true);
+  }
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

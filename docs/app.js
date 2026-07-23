@@ -116,16 +116,110 @@ let mapMarkers = [];
 let mergeMode = false;
 let mergeSelections = [];
 
+// --- Incremental load state ---
+let loadedSlugs = new Set();
+let pollTimer   = null;
+
+function updateLoadingCounter() {
+  const el = document.getElementById('loadingCounter');
+  if (!el) return;
+  const idx = allData?._indexData;
+  if (!idx || idx.complete) { el.style.display = 'none'; return; }
+  el.textContent = `⏳ Loading… ${idx.completedLocations ?? loadedSlugs.size}/${idx.totalLocations ?? '?'} locations`;
+  el.style.display = 'inline';
+}
+
+async function loadLocationFiles(slugs) {
+  const newSlugs = slugs.filter(s => !loadedSlugs.has(s));
+  if (!newSlugs.length) return 0;
+  const bust = Date.now();
+  const settled = await Promise.allSettled(
+    newSlugs.map(slug => fetch(`results/${slug}.json?t=${bust}`).then(r => r.json()))
+  );
+  let added = 0;
+  for (let i = 0; i < newSlugs.length; i++) {
+    if (settled[i].status === 'fulfilled') {
+      currentResults.push(...settled[i].value.properties);
+      loadedSlugs.add(newSlugs[i]);
+      added += settled[i].value.properties.length;
+    }
+  }
+  return added;
+}
+
+function startPolling() {
+  updateLoadingCounter();
+  pollTimer = setInterval(async () => {
+    try {
+      const res = await fetch(`results/index.json?t=${Date.now()}`);
+      if (!res.ok) return;
+      const idx = await res.json();
+      allData._indexData = idx;
+      allData.generatedAt = idx.generatedAt;
+      allData.totalResults = idx.totalResults;
+      allData.portalLinks  = idx.portalLinks || allData.portalLinks;
+
+      const added = await loadLocationFiles(idx.available || []);
+      if (added > 0) {
+        // auto-reject only the newly appended properties
+        autoRejectProperties(currentResults.slice(currentResults.length - added));
+        renderResults(currentResults);
+      }
+
+      updateLoadingCounter();
+
+      if (idx.complete) {
+        clearInterval(pollTimer);
+        pollTimer = null;
+        // Reload all files to pick up final dupe-flag pass
+        const manuals = currentResults.filter(r => r.isManual);
+        currentResults = [...manuals];
+        loadedSlugs.clear();
+        await loadLocationFiles(idx.available || []);
+        autoRejectProperties(currentResults);
+        renderResults(currentResults);
+        updateLoadingCounter();
+      }
+    } catch { /* ignore network errors between polls */ }
+  }, 60000);
+}
+
 // --- Load data ---
 async function init() {
   try {
-    const res = await fetch('results.json');
-    allData = await res.json();
-    currentResults = allData.results;
+    // Try new per-location format first
+    let usedNewFormat = false;
+    try {
+      const idxRes = await fetch(`results/index.json?t=${Date.now()}`);
+      if (idxRes.ok) {
+        const idx = await idxRes.json();
+        allData = {
+          generatedAt:  idx.generatedAt,
+          searchConfig: idx.searchConfig,
+          locations:    idx.locations,
+          totalResults: idx.totalResults,
+          portalLinks:  idx.portalLinks || [],
+          seedStats:    { total: idx.totalResults || 0 },
+          baseline:     idx.baseline,
+          _indexData:   idx,
+        };
+        currentResults = [];
+        await loadLocationFiles(idx.available || []);
+        if (!idx.complete) startPolling();
+        usedNewFormat = true;
+      }
+    } catch { /* fall through to legacy */ }
+
+    if (!usedNewFormat) {
+      const res = await fetch('results.json');
+      allData = await res.json();
+      currentResults = allData.results;
+    }
 
     const dateStr = new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+    const total   = allData.totalResults ?? currentResults.length;
     const seedInfo = allData.seedStats ? ` · Seed: ${allData.seedStats.total} total` : '';
-    document.getElementById('lastUpdated').textContent = `Last updated: ${dateStr} · ${allData.totalResults} results${seedInfo}`;
+    document.getElementById('lastUpdated').textContent = `Last updated: ${dateStr} · ${total} results${seedInfo}`;
 
     // Portal matrix
     renderPortalMatrix(allData.portalLinks, allData.locations);
@@ -184,6 +278,7 @@ async function init() {
       }
     }
 
+    updateLoadingCounter();
     renderResults(currentResults);
   } catch (err) {
     document.getElementById('results-area').innerHTML = `<div class="empty-state"><h2>Error loading results</h2><p>${err.message}</p></div>`;
