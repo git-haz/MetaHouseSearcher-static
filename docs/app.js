@@ -88,6 +88,7 @@ function getPropertyTags(p) {
   else if (p.neighbourDetected) tags.push('neighbour');
   const rr = propertyRejectionReasons[key];
   if (rr && rr.reasons) { for (const r of rr.reasons) tags.push('reason:' + r); }
+  if (p.recommended) tags.push('recommended');
   return tags;
 }
 
@@ -241,6 +242,7 @@ async function init() {
     const unifiedContainer = document.getElementById('unifiedTagsChecks');
     if (unifiedContainer) {
       const allTagOptions = [
+        { value: 'recommended', label: '⭐ Recommended'    },
         { value: 'favorite',    label: '★ Favorites'     },
         { value: 'seen',        label: 'Seen'             },
         { value: 'view',        label: 'To View'          },
@@ -572,6 +574,11 @@ function renderCard(p, context) {
       const reasons = rr?.reasons?.length ? ` · ${rr.reasons.join(', ')}` : '';
       const note = rr?.note ? `<span class="tag-badge-rr-note" title="${rr.note.replace(/"/g,'&quot;')}"> 📝</span>` : '';
       return `<span class="tag-badge tag-badge-rejected">✕ Rejected${reasons}</span>${note}`;
+    }
+    if (t === 'recommended') {
+      const sc = p.recommendedScore;
+      const tip = sc ? `Rural: ${sc.rural}% · Detached/garden: ${sc.detached}% · Town: ${p.nearestTownMiles}mi` : '';
+      return `<span class="tag-badge tag-badge-recommended" title="${tip}">⭐ Recommended</span>`;
     }
     return `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t] || t}</span>`;
   }).join('')}</div>` : '';

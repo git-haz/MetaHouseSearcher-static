@@ -37,6 +37,13 @@
     { "location": "Wooler",               "postcode": "NE71 6DQ", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^1482"  }
   ],
   "rejectionReasons": ["house type", "neighbour vicinity", "solar panels", "A road vicinity", "B road vicinity"],
+  "recommend": {
+    "enabled": false,
+    "minDistanceToTownMiles": 15,
+    "minDistanceToAirportMiles": 15,
+    "minDistanceToHelipadMiles": 15,
+    "confidenceThreshold": 0.9
+  },
   "autoReject": {
     "titlePatterns": [
       "semi-detached",

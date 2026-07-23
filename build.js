@@ -12,6 +12,7 @@ const { geocodeResults } = require(path.join(mainDir, 'geocode'));
 const { buildUrls } = require(path.join(mainDir, 'portals'));
 const { analyzeProperties } = require(path.join(mainDir, 'imageAnalyzer'));
 const { attachFlyoverData } = require(path.join(mainDir, 'flyovers'));
+const { initML, assessProperty } = require(path.join(mainDir, 'recommend'));
 const seedData = require(path.join(mainDir, 'seedData'));
 const zooplaParser = require(path.join(mainDir, 'parsers', 'zoopla'));
 const otmParser = require(path.join(mainDir, 'parsers', 'onthemarket'));
@@ -42,7 +43,8 @@ const portalFilter = portalArg ? portalArg.split('=')[1].split(',').map(s => s.t
 const PORTALS = portalFilter ? ALL_PORTALS.filter(p => portalFilter.includes(p.id)) : ALL_PORTALS;
 
 const pushEveryArg = process.argv.find(a => a.startsWith('--push-every='));
-const PUSH_EVERY = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
+const PUSH_EVERY   = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
+const USE_ML       = process.argv.includes('--ml-recommend');
 
 // ---- Utilities ----
 const https = require('https');
@@ -215,7 +217,7 @@ function attachBaselineComparison(results, airportsArr, baselineData) {
 }
 
 // ---- Process one location after scraping: enrich + write location file ----
-async function processLocation(search, rawResults, portalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData) {
+async function processLocation(search, rawResults, portalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns) {
   const slug = slugify(search.location);
   const now = new Date().toISOString();
   console.log(`\n  Processing ${search.location}: ${rawResults.length} raw listings`);
@@ -263,7 +265,20 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
     }
   }
 
-  // 9. Baseline comparison
+  // 9. Recommendation assessment (--recommend or config.recommend.enabled)
+  const recommendEnabled = process.argv.includes('--recommend') || process.argv.includes('--ml-recommend') || config.recommend?.enabled;
+  if (recommendEnabled && ukTowns && ukTowns.length > 0) {
+    let recommended = 0;
+    for (const r of results) {
+      if (r.lat == null) continue;
+      const assessment = await assessProperty(r, ukTowns, config);
+      Object.assign(r, assessment);
+      if (r.recommended) recommended++;
+    }
+    console.log(`  Recommended: ${recommended}/${results.length}`);
+  }
+
+  // 10. Baseline comparison
   attachBaselineComparison(results, airportsArr, baselineData);
 
   // 10. Merge into seed
@@ -426,7 +441,7 @@ function autoPush(done, total, isFinal) {
 }
 
 // ---- --from-seed rebuild ----
-async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData) {
+async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns) {
   console.log('--from-seed: rebuilding location files from existing seed data');
   const allSeedProperties = seedData.getAll();
   console.log(`Full seed: ${allSeedProperties.length} properties`);
@@ -458,6 +473,13 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
     // Refresh criteria that may have changed since last scrape
     attachAutoReject(props);
     attachBaselineComparison(props, airportsArr, baselineData);
+    if (ukTowns.length > 0) {
+      for (const r of props) {
+        if (r.lat == null) continue;
+        const assessment = await assessProperty(r, ukTowns, config);
+        Object.assign(r, assessment);
+      }
+    }
 
     // Build portal links
     const criteria = {
@@ -503,6 +525,7 @@ async function main() {
   // Copy static assets
   const airportsSource  = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
   const flyoverSource   = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
+  const ukTownsSource   = path.join(__dirname, '..', 'property-search', 'public', 'uk-towns.json');
   fs.copyFileSync(airportsSource, path.join(docsDir, 'airports.json'));
   console.log('Copied airports.json');
   if (fs.existsSync(flyoverSource)) {
@@ -513,11 +536,26 @@ async function main() {
   // Load airports array for countInRadius (baseline comparison)
   const airportsArr = JSON.parse(fs.readFileSync(path.join(docsDir, 'airports.json'), 'utf8')).airfields || [];
 
+  // Load UK towns for recommendation distance check
+  const recommendEnabled = process.argv.includes('--recommend') || process.argv.includes('--ml-recommend') || config.recommend?.enabled;
+  let ukTowns = [];
+  if (recommendEnabled) {
+    if (!fs.existsSync(ukTownsSource)) {
+      console.warn('⚠ uk-towns.json not found — run: node scripts/fetch-uk-towns.js');
+      console.warn('  Recommendation step will be skipped.');
+    } else {
+      ukTowns = JSON.parse(fs.readFileSync(ukTownsSource, 'utf8'));
+      fs.copyFileSync(ukTownsSource, path.join(docsDir, 'uk-towns.json'));
+      console.log(`Loaded ${ukTowns.length} UK towns for recommendation checks`);
+      if (USE_ML) await initML();
+    }
+  }
+
   // Geocode baseline once up front
   const baselineData = await geocodeBaseline(config, airportsArr, flyoverSource);
 
   if (fromSeed) {
-    return await buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData);
+    return await buildFromSeed(config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns);
   }
 
   // Build Rightmove location ID map
@@ -614,7 +652,7 @@ async function main() {
     await Promise.allSettled(portalTasks);
 
     // Enrich + write location file immediately
-    await processLocation(search, locationResults, locationPortalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData);
+    await processLocation(search, locationResults, locationPortalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns);
     completedSlugs.push(slug);
 
     // Update index so app can see the new location
