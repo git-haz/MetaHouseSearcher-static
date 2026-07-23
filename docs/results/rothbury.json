@@ -1,0 +1,4284 @@
+{
+  "location": "Rothbury",
+  "slug": "rothbury",
+  "generatedAt": "2026-07-23T11:12:26.479Z",
+  "count": 54,
+  "properties": [
+    {
+      "title": "3 bedroom townhouse for sale",
+      "price": 270000,
+      "address": "Rothbury, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Elizabeth Humpreys - Morpeth",
+      "agentPhone": "01665 491102",
+      "type": "Townhouse",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19558114/1620365906/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19558114/1620365906/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19558114/1620365906/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19558114/1616751942/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19558114/1616751942/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19558114/"
+        }
+      ],
+      "lat": 55.3099008,
+      "lon": -1.9113504,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.357249198291484,
+        "distanceMiles": 20.72722729159158
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.002799616050407,
+        "distanceMiles": 4.972707600224857
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.20712506102524,
+        "distanceMiles": 14.420234506294316
+      },
+      "minAirportDistanceMiles": 4.972707600224857,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bedroom semi-detached house for sale",
+      "price": 225000,
+      "address": "High Street, Rothbury",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Rickard Chartered Surveyors - Morpeth",
+      "agentPhone": "01670 208920",
+      "type": "Semi-detached house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19016338/1619811466/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19016338/1619811466/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19016338/1601004557/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19016338/1619811466/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19016338/1619811466/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19016338/"
+        }
+      ],
+      "lat": 55.3093105,
+      "lon": -1.9144402,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.38126155380306,
+        "distanceMiles": 20.74214787294816
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.204006833048432,
+        "distanceMiles": 5.097731929858137
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.40772476359369,
+        "distanceMiles": 14.544881344078975
+      },
+      "minAirportDistanceMiles": 5.097731929858137,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bedroom maisonette for sale",
+      "price": 360000,
+      "address": "Townfoot, Rothbury",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Rickard Chartered Surveyors - Morpeth",
+      "agentPhone": "01670 208920",
+      "type": "Maisonette",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/18140356/1587550699/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/18140356/1587550699/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18140356/1587550699/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18140356/1587550699/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18140356/1587550699/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/18140356/"
+        }
+      ],
+      "lat": 55.3104297,
+      "lon": -1.9082819,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.328867596984956,
+        "distanceMiles": 20.70959178760614
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.803841931846137,
+        "distanceMiles": 4.849081065033166
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.01140409567103,
+        "distanceMiles": 14.298619174331202
+      },
+      "minAirportDistanceMiles": 4.849081065033166,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bedroom apartment for sale",
+      "price": 210000,
+      "address": "High Street, Morpeth NE65",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Mansell McTaggart - Hove",
+      "agentPhone": null,
+      "type": "Apartment",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19232465/1624026014/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232465/1624026014/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232465/1624026014/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232465/1624026014/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232465/1624026014/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19232465/"
+        }
+      ],
+      "lat": 55.1681654,
+      "lon": -1.6905224,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 14.478527200740563,
+        "distanceMiles": 8.996536925251364
+      },
+      "nearestAirstrip": {
+        "name": "Selby House Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.985216952202031,
+        "distanceMiles": 4.961782242806729
+      },
+      "nearestHeliport": {
+        "name": "Newcastle City Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 23.328998291540987,
+        "distanceMiles": 14.495962997413114
+      },
+      "minAirportDistanceMiles": 4.961782242806729,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bedroom flat for sale",
+      "price": 200000,
+      "address": "High Street, Morpeth NE65",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Mansell McTaggart - Hove",
+      "agentPhone": null,
+      "type": "Flat",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19232466/1624026015/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232466/1624026015/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232466/1624026015/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232466/1624026015/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19232466/1624026015/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19232466/"
+        }
+      ],
+      "lat": 55.1681654,
+      "lon": -1.6905224,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 14.478527200740563,
+        "distanceMiles": 8.996536925251364
+      },
+      "nearestAirstrip": {
+        "name": "Selby House Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.985216952202031,
+        "distanceMiles": 4.961782242806729
+      },
+      "nearestHeliport": {
+        "name": "Newcastle City Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 23.328998291540987,
+        "distanceMiles": 14.495962997413114
+      },
+      "minAirportDistanceMiles": 4.961782242806729,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 325000,
+      "address": "Hillside, Morpeth NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Brunton Residential - Morpeth",
+      "agentPhone": "01670 208557",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19489753/1620590880/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19489753/1614689530/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19489753/1614689530/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19489753/1614689530/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19489753/1614689530/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19489753/"
+        }
+      ],
+      "lat": 55.159886,
+      "lon": -1.6881674,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 13.558071618105048,
+        "distanceMiles": 8.424592519413553
+      },
+      "nearestAirstrip": {
+        "name": "Selby House Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.595058528618798,
+        "distanceMiles": 5.340720112986391
+      },
+      "nearestHeliport": {
+        "name": "Newcastle City Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 22.39637397326338,
+        "distanceMiles": 13.91645729214064
+      },
+      "minAirportDistanceMiles": 5.340720112986391,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 350000,
+      "address": "Whitton View, Morpeth NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Rook Matthews Sayer - Alnwick",
+      "agentPhone": "01665 491843",
+      "type": "Undefined",
+      "description": "Located in the picturesque Northumberland market town of Rothbury, known as the \"Capital of Coquetdale\"Substantial double-fronted detached home arranged over three floorsOverlooking attractive green space to the frontSpacious living room with bay window and",
+      "images": [
+        "https://media.onthemarket.com/properties/19467691/1629333822/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19467691/1629333822/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19467691/1629333822/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19467691/1629333822/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19467691/1629333822/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19467691/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 424950,
+      "address": "Plot 28, The Lily VI Rothbury NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Cussins - Debdon Falls",
+      "agentPhone": "01669 495745",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19742977/1622536242/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742977/1622536242/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742977/1622536242/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742977/1622536242/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742977/1622536242/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19742977/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 385950,
+      "address": "Plot 16, The Foxglove  Rothbury, Harwood Drive NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Cussins - Debdon Falls",
+      "agentPhone": "01669 495745",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19742708/1622514726/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742708/1622514726/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742708/1622514726/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742708/1622514726/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19742708/1622514726/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19742708/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 399950,
+      "address": "Plot 7, The Lily II Rothbury, Harwood Drive NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Cussins - Debdon Falls",
+      "agentPhone": "01669 495745",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19682399/1620617204/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19682399/1620617204/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19682399/1620617204/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19682399/1620617204/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19682399/1620617204/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19682399/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 325000,
+      "address": "Whitton View, Rothbury",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Signature North East - Whitley Bay",
+      "agentPhone": null,
+      "type": "Undefined",
+      "description": "located in Whitton View, Rothbury, within walking distance of the town centre & local amenitiesElevated position with stunning views over the Simonside Hills, Cragside & the Coquet ValleySpacious living room with feature fire place, & bay window overlooking",
+      "images": [
+        "https://media.onthemarket.com/properties/19511481/1629017452/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19511481/1629017452/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19511481/1629017452/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19511481/1630659042/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19511481/1630659042/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19511481/"
+        }
+      ],
+      "lat": 55.3122389,
+      "lon": -1.9019935,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.348218103250765,
+        "distanceMiles": 20.721615631035032
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.390558490087073,
+        "distanceMiles": 4.592278719543894
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 22.567499619565243,
+        "distanceMiles": 14.022789806108875
+      },
+      "minAirportDistanceMiles": 4.592278719543894,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 225000,
+      "address": "Whitton, Northumberland NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Greetham Gilbert - Jesmond",
+      "agentPhone": null,
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19416920/1612681317/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19416920/1612681317/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19416920/1612681317/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19416920/1612681317/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19416920/1612681317/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19416920/"
+        }
+      ],
+      "lat": 55.3047497,
+      "lon": -1.9098193,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 32.79772124500164,
+        "distanceMiles": 20.379552847727915
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.984132169092909,
+        "distanceMiles": 4.96110819004143
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.43527766396251,
+        "distanceMiles": 14.56200191733405
+      },
+      "minAirportDistanceMiles": 4.96110819004143,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 350000,
+      "address": "Wagtail Road, Rothbury, Northumberland, NE65 7PQ",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Pattinson - Alnwick",
+      "agentPhone": "01665 491927",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19354137/1625523830/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19354137/1625523830/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19354137/1625523830/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19354137/1621168576/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19354137/1621168576/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19354137/"
+        }
+      ],
+      "lat": 55.3076784,
+      "lon": -1.8999347,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 32.831991153503076,
+        "distanceMiles": 20.40084717504336
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.315209282426649,
+        "distanceMiles": 4.545458907030729
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 22.73381014300981,
+        "distanceMiles": 14.126130342372148
+      },
+      "minAirportDistanceMiles": 4.545458907030729,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 315000,
+      "address": "Whitton View, Morpeth NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Rook Matthews Sayer - Alnwick",
+      "agentPhone": "01665 491843",
+      "type": "Undefined",
+      "description": "a kitchen, separate utility room, and downstairs W.C.Rook Matthews Sayer - AlnwickAdded > 14 daysEmail01665 491843",
+      "images": [
+        "https://media.onthemarket.com/properties/19028913/1631227933/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19028913/1631227933/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19028913/1631227933/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19028913/1631227933/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19028913/1631227933/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19028913/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 434950,
+      "address": "Plot 32, The Lily VI Rothbury NE65",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Cussins - Debdon Falls",
+      "agentPhone": "01669 495745",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/18086324/1622513286/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/18086324/1622513286/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18086324/1622513286/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18086324/1622513286/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18086324/1622513286/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/18086324/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "undefined",
+      "price": 289950,
+      "address": "Station Road, Rothbury, Morpeth",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Signature North East - Whitley Bay",
+      "agentPhone": null,
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/16982654/1621152550/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16982654/1621152550/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16982654/1621152550/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16982654/1621152550/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16982654/1621152550/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16982654/"
+        }
+      ],
+      "lat": 55.309632,
+      "lon": -1.9117293,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.34035043238648,
+        "distanceMiles": 20.71672688852242
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.029666314910976,
+        "distanceMiles": 4.9894017877625485
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.24331813750349,
+        "distanceMiles": 14.44272383441868
+      },
+      "minAirportDistanceMiles": 4.9894017877625485,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 210000,
+      "address": "High Street, Rothbury NE65",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 915,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/35feb1bd89c4037abecc25668b6f985eb1ad55ac.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72909005/"
+        }
+      ],
+      "lat": 55.3093105,
+      "lon": -1.9144402,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.38126155380306,
+        "distanceMiles": 20.74214787294816
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.204006833048432,
+        "distanceMiles": 5.097731929858137
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.40772476359369,
+        "distanceMiles": 14.544881344078975
+      },
+      "minAirportDistanceMiles": 5.097731929858137,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 200000,
+      "address": "High Street, Rothbury NE65",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 732,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/996e3877d4abc1690ec076a560ecbea1fe619507.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72909009/"
+        }
+      ],
+      "lat": 55.3093105,
+      "lon": -1.9144402,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.38126155380306,
+        "distanceMiles": 20.74214787294816
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.204006833048432,
+        "distanceMiles": 5.097731929858137
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.40772476359369,
+        "distanceMiles": 14.544881344078975
+      },
+      "minAirportDistanceMiles": 5.097731929858137,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 270000,
+      "address": "Wrights Square, Rothbury, Morpeth, Northumberland NE65",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "An attractive three storey home situated within a quiet residential area ideally placed to enjoy views of the surrounding ...Listed on 23rd May 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/01dc909e3b9ec0e3dcf6c16a24d7a3d5a73ee041.png"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73273361/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed cottage for sale",
+      "price": 225000,
+      "address": "Old Stable Cottage, Whitton, Morpeth, Northumberland NE65",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Cottage",
+      "description": "Situated just outside of Rothbury, this two bedroom stone built cottage provides a comfortable space having been refurbished ...Listed on 7th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/b4ff6f71823bb4abc396fa625a2b9e2e8556459f.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73650738/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed semi-detached for sale",
+      "price": 289950,
+      "address": "Station Road, Rothbury, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1389,
+      "type": "semi-detached",
+      "description": "welcome to the market this charming three-bedroom semi-detached home, ideally located ...Listed on 25th Apr 2025",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/92e7ef6994cd0c79275e80310d692b6a0578a747.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/70038277/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 315000,
+      "address": "Whitton View, Rothbury NE65",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "With a façade replicating a period Georgian townhouse, this stunning three-storey property in Rothbury occupies an elevated ...Listed on 14th Jun 2025",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/c5f7980deb1d54c309776d4e07e963f81cad7608.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/70497438/"
+        }
+      ],
+      "lat": 55.3122389,
+      "lon": -1.9019935,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.348218103250765,
+        "distanceMiles": 20.721615631035032
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.390558490087073,
+        "distanceMiles": 4.592278719543894
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 22.567499619565243,
+        "distanceMiles": 14.022789806108875
+      },
+      "minAirportDistanceMiles": 4.592278719543894,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed detached for sale",
+      "price": 350000,
+      "address": "Whitton View, Rothbury NE65",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "detached",
+      "description": "Set within the heart of the picturesque market town of Rothbury, this substantial double-fronted detached home offers ...Listed on 12th May 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/3f1c34a3ba5f9916664d5c4d9419ed2c159495cb.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73172409/"
+        }
+      ],
+      "lat": 55.3122389,
+      "lon": -1.9019935,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.348218103250765,
+        "distanceMiles": 20.721615631035032
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.390558490087073,
+        "distanceMiles": 4.592278719543894
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 22.567499619565243,
+        "distanceMiles": 14.022789806108875
+      },
+      "minAirportDistanceMiles": 4.592278719543894,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 325000,
+      "address": "Whitton View, Rothbury NE65",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1638,
+      "type": "Property",
+      "description": "welcome to the market this impressive four-bedroom stone end-terrace property is situated within Whitton ...Listed on 18th May 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/b6a46873f80ed9e2d18e3b4117eeeab2c14340f6.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73222131/"
+        }
+      ],
+      "lat": 55.3122389,
+      "lon": -1.9019935,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.348218103250765,
+        "distanceMiles": 20.721615631035032
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.390558490087073,
+        "distanceMiles": 4.592278719543894
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 22.567499619565243,
+        "distanceMiles": 14.022789806108875
+      },
+      "minAirportDistanceMiles": 4.592278719543894,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed detached house for sale",
+      "price": 350000,
+      "address": "Wagtail Road, Rothbury, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Detached House",
+      "description": "",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/b0d9c9f388ef2435e2a9b25e82a2808302effca9.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73045876/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed detached for sale",
+      "price": 435000,
+      "address": "Simonside Drive, Morpeth NE65",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "detached",
+      "description": "An impressive four-bedroom detached home in the heart of Longframlington, enjoying open field views to the rear. Offering a ...Listed on 1st Mar 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/f3b3a4de60fb8464e30131686f7124c76c901468.jpg",
+        "https://lid.zoocdn.com/645/430/833382766754ced65d28de440d74dd9d34d83538.jpg",
+        "https://lid.zoocdn.com/645/430/82e12d086fa4f19e288ee2b13aec7b8fcc8f4594.jpg",
+        "https://lid.zoocdn.com/645/430/9aee34be0a9de9336925d8f2764911d4dd485c10.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72548650/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 425000,
+      "address": "Simonside Drive, Longframlington, Morpeth, Northumberland NE65",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 1498,
+      "type": "Property",
+      "description": "A home of true beauty which has been significantly extended and features quality fixtures and fittings throughout. Elizabeth ...Listed on 23rd Jan 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72257374/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed semi-detached for sale",
+      "price": 290000,
+      "address": "Cheviot Lodge, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "semi-detached",
+      "description": "This spacious three bedroomed semi-detached family home is guaranteed to impress. Located on Cheviot Lodge in ...Listed on 13th May 2026GardenOff Street Parking",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/f39d2f19e62530e2575fbc198f4f44bfbee41d58.jpg",
+        "https://lid.zoocdn.com/645/430/aa426c74443c7c5832041aa1250660d08643dfd8.jpg",
+        "https://lid.zoocdn.com/645/430/b2c6004412b1a42958b4e8f1254f64101d6873c6.jpg",
+        "https://lid.zoocdn.com/645/430/752bde51a2a65a4ed3ceae2f5c58886d779280da.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73183232/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed detached for sale",
+      "price": 380000,
+      "address": "Cairn Park, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "detached",
+      "description": "this spectacular three bedroomed detached bungalow on Cairn Park. Situated within the idyllic and small ...Listed on 12th Jan 2026ConservatoryEn Suite",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/32058bdce7d0a106f8b5765dd47bb2a2ed906306.jpg",
+        "https://lid.zoocdn.com/645/430/e1bc49c463a3e2eff2bd67c411ea9a2b39b5b5c3.jpg",
+        "https://lid.zoocdn.com/645/430/d2244841ffc3bdefbe89ede912396dc0a2e2faa3.jpg",
+        "https://lid.zoocdn.com/645/430/22378c790b495a01bf33bb5b1f10d7f145e21c4f.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72159986/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 320000,
+      "address": "Cairn Park, Longframlington, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "An extremely well-presented property offering contemporary and comfortable living within a quiet residential area. Elizabeth ...Listed on 9th May 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/bacb1ad8290b9d0e4e98f90972bae6123168ab82.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73150700/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed detached for sale",
+      "price": 350000,
+      "address": "Rothbury Road, Longframlington NE65",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "detached",
+      "description": "this charming detached 3 bedroom bungalow enjoys private wrap-around 1/4 acre ...Listed on 30th Apr 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/d2b835beb999d1aff891f7449dcba3fea6a43c78.jpg",
+        "https://lid.zoocdn.com/645/430/b78d7dd45b77d18694fe48d840141d2554f2dcff.jpg",
+        "https://lid.zoocdn.com/645/430/b87fb46b47bd58a43b73b4b0767948ee93806a5c.jpg",
+        "https://lid.zoocdn.com/645/430/83f74c8433c2ed376c390c6c04a6c621e7297af2.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73068650/"
+        }
+      ],
+      "lat": 55.3015352,
+      "lon": -1.7999243,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.13464192641811,
+        "distanceMiles": 18.724792588460346
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.9432640931510283,
+        "distanceMiles": 1.2074879528253477
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 18.290715949356635,
+        "distanceMiles": 11.365320460167682
+      },
+      "minAirportDistanceMiles": 1.2074879528253477,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 140000,
+      "address": "Gentian Court, Longframlington, Morpeth, Northumberland NE65",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "an Court, Longframlington, Morpeth, Northumberland NE65A beautiful home enabling you to escape to the country and live within this area of outstanding natural beauty. Elizabeth ...Listed on 9th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/e560ed0381461441fa1b73ce15fe95b90a390602.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73409773/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 249950,
+      "address": "Bryony Court, Fairfield Manor, Morpeth NE65",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "welcome to the market this charming three-bedroom terraced home, ideally located in the sought-after ...Listed on 7th May 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/574ce78a1147836748419664c6a77f9804dd18a3.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73132695/"
+        }
+      ],
+      "lat": 55.31489274293531,
+      "lon": -1.7433273974475825,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.982301872527675,
+        "distanceMiles": 19.251503896834393
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6779464308142344,
+        "distanceMiles": 1.6639982516614718
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.824565452152179,
+        "distanceMiles": 9.211555059569251
+      },
+      "minAirportDistanceMiles": 1.6639982516614718,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 250000,
+      "address": "The Landings,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1183,
+      "type": "Property",
+      "description": "A collection of thoughtfully designe……A collection of thoughtfullydesigned 2, 3 and 4 bedroom hom……Finished to a high specification thro……Finished to a high specificationthroughout…Integrated appliances",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBNORDCHD260059/CHD260059_01_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbnordchd260059"
+        }
+      ],
+      "lat": 51.4449629,
+      "lon": -3.1819509,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cardiff International Airport",
+        "icao": "EGFF",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.41035181562968,
+        "distanceMiles": 7.71143271802963
+      },
+      "nearestAirstrip": {
+        "name": "Croes Carn Einion Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.648220664533655,
+        "distanceMiles": 9.723350522541942
+      },
+      "nearestHeliport": {
+        "name": "Cardiff Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.97053016861078,
+        "distanceMiles": 2.467172301399849
+      },
+      "minAirportDistanceMiles": 2.467172301399849,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 3,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -1,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 269950,
+      "address": "Winterbrook Meadows,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 630,
+      "type": "Property",
+      "description": "a t……Apartments and family homes in athriving Oxfordshire community…Walk to Wallingford town centre via ……Walk to Wallingford town centre viaa direct pedestrian route…Moments from the River Thames an……M",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBSWRDSUD240091/SUD240091_10_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbswrdsud240091"
+        }
+      ],
+      "lat": 55.309632,
+      "lon": -1.9117293,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.34035043238648,
+        "distanceMiles": 20.71672688852242
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.029666314910976,
+        "distanceMiles": 4.9894017877625485
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.24331813750349,
+        "distanceMiles": 14.44272383441868
+      },
+      "minAirportDistanceMiles": 4.9894017877625485,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 255000,
+      "address": "Glenlyon Court,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 499,
+      "type": "Property",
+      "description": "situated between We……Well-maintained second-floor apart……Well-maintained second-floorapartment with neutral décor and j……Bright and spacious interiors, includi……Bright and spacious interiors,including a double",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBWYRSCLV257147/CLV257147_05_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwyrsclv257147"
+        }
+      ],
+      "lat": 55.7606353,
+      "lon": -4.0597723,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Glasgow Airport",
+        "icao": "EGPF",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 26.399501015926287,
+        "distanceMiles": 16.403884345767132
+      },
+      "nearestAirstrip": {
+        "name": "Nethershields Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.463329663481885,
+        "distanceMiles": 3.3947546163274027
+      },
+      "nearestHeliport": {
+        "name": "Wishaw Hospital",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.801445200732698,
+        "distanceMiles": 4.847591805824478
+      },
+      "minAirportDistanceMiles": 3.3947546163274027,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 330000,
+      "address": "Cat Street,",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "a d……Planning Permission granted for adetached four bedroom family ho……Wealden District Council - Referenc……Wealden District Council -Reference WD/2024/0785/F…Exceptional, convenient semi-rural l……Excep",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBTWRSTUS250192/TUS250192_19_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtwrstus250192"
+        }
+      ],
+      "lat": 51.5965163,
+      "lon": -1.3394932,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Benson",
+        "icao": "EGUB",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 16.93302964284234,
+        "distanceMiles": 10.521693562202588
+      },
+      "nearestAirstrip": {
+        "name": "Steventon Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.7421888955131655,
+        "distanceMiles": 1.7039166561939112
+      },
+      "nearestHeliport": {
+        "name": "Cricklade Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 37.18495036238827,
+        "distanceMiles": 23.105649791627563
+      },
+      "minAirportDistanceMiles": 1.7039166561939112,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 370000,
+      "address": "Brandon Street,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 743,
+      "type": "Property",
+      "description": "set ……Elegant ground floor apartment setwithin Edinburgh's prestigious Ne……Accessed via a grand and exception……Accessed via a grand andexceptionally well-maintained com……Impressive sitting room and dining",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbedscedt260295"
+        }
+      ],
+      "lat": 51.4898437,
+      "lon": -0.0920528,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 10.342626923801873,
+        "distanceMiles": 6.426608434269694
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 19.73391614771346,
+        "distanceMiles": 12.262083210620862
+      },
+      "nearestHeliport": {
+        "name": "King's College Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.4477040651191246,
+        "distanceMiles": 1.5209323226471356
+      },
+      "minAirportDistanceMiles": 1.5209323226471356,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 950000,
+      "address": "Eaton Square,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 978,
+      "type": "Property",
+      "description": "A 13 year lease, which can be extended back up to 20 years…A 13 year lease, which can be extended back up to 20 years…Richard DaltonSloane Street+44 (0) 207 730 0822+44 (0) 207 730 0822Contact nowVerity",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsshsslh260021"
+        }
+      ],
+      "lat": 51.495386,
+      "lon": -0.1524768,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 14.422954184797186,
+        "distanceMiles": 8.962005464761612
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 20.943225054078358,
+        "distanceMiles": 13.013512695077724
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 3.395581846948959,
+        "distanceMiles": 2.1099160878205216
+      },
+      "minAirportDistanceMiles": 2.1099160878205216,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 5,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 1,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1850000,
+      "address": "Ilminster Gardens,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2385,
+      "type": "Property",
+      "description": "Four double bedrooms, two with ensuite bathrooms…Four double bedrooms, two with ensuite bathrooms…Two secure underground parking spaces…Two secure underground parking spaces…Well-placed for excellent local",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbndrsndr260006"
+        }
+      ],
+      "lat": 51.4631996,
+      "lon": -0.1669097,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.081658144330007,
+        "distanceMiles": 9.992676002800481
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.420795675995937,
+        "distanceMiles": 10.824777229989271
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 1.1505023725883163,
+        "distanceMiles": 0.7148888097575747
+      },
+      "minAirportDistanceMiles": 0.7148888097575747,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 5000000,
+      "address": "Merton Lane,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 3620,
+      "type": "Property",
+      "description": "a 0.29 acres…Substantial plot circa 0.29 acres…Desirable location near Hampstead Heath…Desirable location near Hampstead Heath…Neir GigiHampstead+44 (0) 20 7472 5000+44 (0) 20 7472 5000Contact nowHouse3",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhahshah260068"
+        }
+      ],
+      "lat": 51.566823,
+      "lon": -0.1554094,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.098267230844844,
+        "distanceMiles": 10.00299640749729
+      },
+      "nearestAirstrip": {
+        "name": "Dysons Osiers Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.955342798841166,
+        "distanceMiles": 9.292816310258734
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.642512805344323,
+        "distanceMiles": 5.370206824369607
+      },
+      "minAirportDistanceMiles": 5.370206824369607,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 6,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 2,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1100000,
+      "address": "Overton Road,",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "sqft": 4889,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwsrswis250168"
+        }
+      ],
+      "lat": 51.3524681,
+      "lon": -0.2000726,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Biggin Hill Airport",
+        "icao": "EGKB",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 16.33335627164963,
+        "distanceMiles": 10.149073919871203
+      },
+      "nearestAirstrip": {
+        "name": "Chipstead Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.2278324752261796,
+        "distanceMiles": 4.491165492963766
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 13.137478424101143,
+        "distanceMiles": 8.163248105862152
+      },
+      "minAirportDistanceMiles": 4.491165492963766,
+      "flyoverRef": {
+        "location": "London Gatwick Area",
+        "flightsPerDay": 688.1,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 5,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": 1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 688.1,
+        "flightsDiffPct": 715
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1625000,
+      "address": "Englefield Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1497,
+      "type": "Property",
+      "description": "Three bedrooms…Three bedrooms…Ele RossEdinburgh Town+44 (0) 131 247 3770+44 (0) 131 247 3770Contact nowHouse1,497 sq ft (139.08 sq m)3Bedrooms2Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbisrsiss260058"
+        }
+      ],
+      "lat": 51.542346,
+      "lon": -0.0764082,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 9.998651987102901,
+        "distanceMiles": 6.212872383878117
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.979186755565754,
+        "distanceMiles": 8.686261253492649
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.9949947889462014,
+        "distanceMiles": 1.8610029070022902
+      },
+      "minAirportDistanceMiles": 1.8610029070022902,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 2500000,
+      "address": "D'arblay Street,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1848,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbmyrsmas240057"
+        }
+      ],
+      "lat": 51.5145201,
+      "lon": -0.1363449,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 13.300918436749894,
+        "distanceMiles": 8.26480498996172
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 18.772850155689277,
+        "distanceMiles": 11.664904674090801
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.410231961636549,
+        "distanceMiles": 3.361761244234064
+      },
+      "minAirportDistanceMiles": 3.361761244234064,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 550000,
+      "address": "Ivory House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 607,
+      "type": "Property",
+      "description": "a CobbBattersea Park+44 (0) 203 402 1900+44 (0) 203 402 1900Contact nowFlat / Apartment607 sq ft (56.39 sq m)1Bedrooms1Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbqrswts190055"
+        }
+      ],
+      "lat": 51.5072002,
+      "lon": -0.0714433,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 8.773051335343974,
+        "distanceMiles": 5.45131968129402
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.41507642646363,
+        "distanceMiles": 10.821223454188134
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.4929611455933518,
+        "distanceMiles": 0.9276827599984866
+      },
+      "minAirportDistanceMiles": 0.9276827599984866,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 2395000,
+      "address": "Ailsa Road,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2328,
+      "type": "Property",
+      "description": "a Road…Twickenham, TW1 1QW2,328 sq ft(216.28 sq m)Guide price £2,395,000Sold in July 2026…Sold in July 2026…Stunning deVOL kitchen…Stunning deVOL kitchen…Generous parking…Generous parking…Tasteful renov",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbrirsris250071"
+        }
+      ],
+      "lat": 51.4598818,
+      "lon": -0.3210305,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Heathrow Airport",
+        "icao": "EGLL",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 9.696125435941736,
+        "distanceMiles": 6.024891158256553
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.738252671496284,
+        "distanceMiles": 8.536551800740318
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 9.865066931809578,
+        "distanceMiles": 6.129866504485449
+      },
+      "minAirportDistanceMiles": 6.024891158256553,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 8,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 4,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1495000,
+      "address": "Cuttle Lane,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 4026,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbhrsbts250163"
+        }
+      ],
+      "lat": 51.4690471,
+      "lon": -2.2036481,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Bristol Airport",
+        "icao": "EGGD",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 36.83881765130756,
+        "distanceMiles": 22.89057296281063
+      },
+      "nearestAirstrip": {
+        "name": "Wadswick Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.54865941069471,
+        "distanceMiles": 4.069147046682783
+      },
+      "nearestHeliport": {
+        "name": "Wiltshire Air Ambulance",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.719777041644829,
+        "distanceMiles": 8.525071580143889
+      },
+      "minAirportDistanceMiles": 4.069147046682783,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 650000,
+      "address": "Albion Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1023,
+      "type": "Property",
+      "description": "Three bedrooms and a family bathroom and shower room…Three bedrooms and a family bathroom and shower room…Generously sized sitting room…Generously sized sitting room…Open-plan kitchen/dining area…Open-plan",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtwrsclv756973"
+        }
+      ],
+      "lat": 51.445216,
+      "lon": -0.341618,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Heathrow Airport",
+        "icao": "EGLL",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 8.673502820606453,
+        "distanceMiles": 5.389463121143052
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 12.246284168009701,
+        "distanceMiles": 7.609485839760357
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 11.560787097109165,
+        "distanceMiles": 7.183537839317819
+      },
+      "minAirportDistanceMiles": 5.389463121143052,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 8,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 4,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1075000,
+      "address": "Blandy Road,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 2270,
+      "type": "Property",
+      "description": "Four well proportioned double bedrooms, including principal with en suite…Four well proportioned double bedrooms, including principal with en suite…Multiple reception rooms offering flexible family and ent",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhershes260135"
+        }
+      ],
+      "lat": 51.5267112,
+      "lon": -0.9127573,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Benson",
+        "icao": "EGUB",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 15.980399147427756,
+        "distanceMiles": 9.929756598636333
+      },
+      "nearestAirstrip": {
+        "name": "Harpsden Park Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.345882492470451,
+        "distanceMiles": 0.8362923502288567
+      },
+      "nearestHeliport": {
+        "name": "Windsor/Ascot Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.635660660489997,
+        "distanceMiles": 10.33691710026933
+      },
+      "minAirportDistanceMiles": 0.8362923502288567,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": 0,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 55.309632,
+      "lon": -1.9117293,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.34035043238648,
+        "distanceMiles": 20.71672688852242
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.029666314910976,
+        "distanceMiles": 4.9894017877625485
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.24331813750349,
+        "distanceMiles": 14.44272383441868
+      },
+      "minAirportDistanceMiles": 4.9894017877625485,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 55.309632,
+      "lon": -1.9117293,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Newcastle International Airport",
+        "icao": "EGNT",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.34035043238648,
+        "distanceMiles": 20.71672688852242
+      },
+      "nearestAirstrip": {
+        "name": "Athey's Moor Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.029666314910976,
+        "distanceMiles": 4.9894017877625485
+      },
+      "nearestHeliport": {
+        "name": "RAF Boulmer",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 23.24331813750349,
+        "distanceMiles": 14.44272383441868
+      },
+      "minAirportDistanceMiles": 4.9894017877625485,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 850000,
+      "address": "Lodsworth, Petworth, West Sussex, GU28",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr2.homeflow-assets.co.uk/files/photo/image/47934/1643/450x_/MID250117_01.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21960256/sales/midhurst"
+        }
+      ],
+      "lat": 50.9995902,
+      "lon": -0.6797857,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Farnborough Airport",
+        "icao": "EGLF",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 31.44301523287263,
+        "distanceMiles": 19.537777818265297
+      },
+      "nearestAirstrip": {
+        "name": "Old Mill Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.4153244224178936,
+        "distanceMiles": 2.122183551682229
+      },
+      "nearestHeliport": {
+        "name": "Goodwood Racecourse Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 11.780813598987427,
+        "distanceMiles": 7.320255926816417
+      },
+      "minAirportDistanceMiles": 2.122183551682229,
+      "flyoverRef": {
+        "location": "London Gatwick Area",
+        "flightsPerDay": 688.1,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 1,
+        "helipadsCount": 2,
+        "airportsDiff": -2,
+        "airstripsDiff": 1,
+        "helipadsDiff": -2,
+        "flightsPerDay": 688.1,
+        "flightsDiffPct": 715
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2370037,
+      "lon": -2.2967325,
+      "searchLocation": "Rothbury",
+      "searchLocations": [
+        "Rothbury"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.54737313961276,
+        "distanceMiles": 7.796573795134321
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.403410650617062,
+        "distanceMiles": 2.7361516793845744
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.842662120410782,
+        "distanceMiles": 10.465541804421768
+      },
+      "minAirportDistanceMiles": 2.7361516793845744,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T11:12:26.479Z"
+    }
+  ],
+  "portalLinks": [
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ne65-7tw/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ne65-7tw/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=NE65%207TW&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E21129&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=NE65%207TW&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=NE65%207TW&minbeds=2&maxprice=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=NE65%207TW&minBeds=2&maxPrice=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=NE65%207TW&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Rothbury"
+    }
+  ]
+}

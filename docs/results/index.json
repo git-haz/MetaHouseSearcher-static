@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T11:03:34.503Z",
+  "generatedAt": "2026-07-23T11:15:14.744Z",
   "complete": false,
   "searchConfig": {
     "searches": [
@@ -312,7 +312,7 @@
     "Wooler"
   ],
   "totalLocations": 35,
-  "completedLocations": 30,
+  "completedLocations": 35,
   "totalResults": null,
   "available": [
     "launceston",
@@ -344,7 +344,12 @@
     "alford",
     "kirkbymoorside",
     "helmsley",
-    "appleby-in-westmorland"
+    "appleby-in-westmorland",
+    "kirkby-stephen",
+    "alston",
+    "bellingham",
+    "rothbury",
+    "wooler"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -1562,6 +1567,206 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=CA16%206XA&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ca17-4qf/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ca17-4qf/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=CA17%204QF&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E752&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=CA17%204QF&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=CA17%204QF&minbeds=2&maxprice=450000",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=CA17%204QF&minBeds=2&maxPrice=450000",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=CA17%204QF&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Kirkby Stephen"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ca9-3rq/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ca9-3rq/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=CA9%203RQ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E31&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=CA9%203RQ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=CA9%203RQ&minbeds=2&maxprice=450000",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=CA9%203RQ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=CA9%203RQ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Alston"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ne48-2aw/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ne48-2aw/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=NE48%202AW&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E3260&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=NE48%202AW&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=NE48%202AW&minbeds=2&maxprice=450000",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=NE48%202AW&minBeds=2&maxPrice=450000",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=NE48%202AW&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Bellingham"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ne65-7tw/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ne65-7tw/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=NE65%207TW&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E21129&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=NE65%207TW&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=NE65%207TW&minbeds=2&maxprice=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=NE65%207TW&minBeds=2&maxPrice=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=NE65%207TW&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Rothbury"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ne71-6dq/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ne71-6dq/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=NE71%206DQ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1482&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=NE71%206DQ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=NE71%206DQ&minbeds=2&maxprice=450000",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=NE71%206DQ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=NE71%206DQ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Wooler"
     }
   ]
 }
