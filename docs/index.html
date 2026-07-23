@@ -110,6 +110,7 @@
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
+      <a href="#" data-page="sources-page">Sources</a>
     </nav>
   </header>
 
@@ -118,14 +119,10 @@
   <!-- Results Page -->
   <div class="container page active" id="search-page">
     <div class="search-panel" style="padding:12px 16px;">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
-        <span id="lastUpdated" style="font-size:12px;color:var(--text-muted);"></span>
-        <span id="loadingCounter" style="display:none;font-size:12px;color:var(--accent);font-weight:600;"></span>
+      <div class="status-bar">
+        <span id="lastUpdated"></span>
+        <span id="loadingCounter" style="display:none;"></span>
       </div>
-      <details id="dataSourcesPanel" class="data-sources-panel">
-        <summary class="data-sources-summary">Data sources</summary>
-        <div id="portal-matrix-container" style="margin-top:10px;overflow-x:auto;"></div>
-      </details>
     </div>
 
     <!-- Filters -->
@@ -400,6 +397,14 @@
         <button class="btn btn-outline" id="mergeCancelBtn">Cancel</button>
       </div>
     </div>
+  </div>
+
+  <!-- Sources Page -->
+  <div class="container page" id="sources-page">
+    <div class="sources-header">
+      <div id="sourcesStatus" class="sources-status"></div>
+    </div>
+    <div id="portal-matrix-container" style="overflow-x:auto;"></div>
   </div>
 
   <script src="app.js"></script>

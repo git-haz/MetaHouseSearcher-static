@@ -671,7 +671,25 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 }
 .version-link:hover { color: var(--primary-hover); }
 
-/* Data sources collapsible */
+/* Status bar (one-liner on Results page) */
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Sources page */
+.sources-header { padding: 12px 0 8px; }
+.sources-status {
+  font-size: 12px;
+  color: var(--text-muted);
+  padding: 4px 0 12px;
+}
+
+/* Data sources collapsible (kept for compatibility) */
 .data-sources-panel { font-size: 13px; }
 .data-sources-summary {
   cursor: pointer;
@@ -719,8 +737,18 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
   text-decoration: none;
   font-size: 14px;
 }
-.pm-cell-yes a:hover { color: var(--primary); }
+.pm-cell-yes a { color: var(--text); font-weight: 600; text-decoration: none; }
+.pm-cell-yes a:hover { color: var(--primary); text-decoration: underline; }
+.pm-cell-zero a { color: var(--text-muted); font-weight: 400; text-decoration: none; }
+.pm-cell-zero a:hover { color: var(--primary); }
 .pm-cell-no { color: var(--border); font-size: 13px; }
+.pm-row-total, .pm-col-total-row {
+  font-weight: 700;
+  background: var(--bg);
+  text-align: center;
+  color: var(--text);
+}
+.pm-col-total { font-size: 11px; font-weight: 400; color: var(--text-muted); }
 
 /* Changelog modal */
 .changelog-list { max-height: 420px; overflow-y: auto; padding-right: 4px; }

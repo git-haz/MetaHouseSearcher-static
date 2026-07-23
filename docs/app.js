@@ -125,14 +125,21 @@ let mergeSelections = [];
 let loadedSlugs = new Set();
 let pollTimer   = null;
 
-function updateLoadingCounter() {
-  const el = document.getElementById('loadingCounter');
-  if (!el) return;
-  const idx = allData?._indexData;
-  if (!idx || idx.complete) { el.style.display = 'none'; return; }
-  el.textContent = `⏳ Loading… ${idx.completedLocations ?? loadedSlugs.size}/${idx.totalLocations ?? '?'} locations`;
-  el.style.display = 'inline';
+function updateStatusBar() {
+  if (!allData) return;
+  const dateStr  = allData.generatedAt
+    ? new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+    : '—';
+  const total    = allData.totalResults ?? currentResults.filter(r => !r.isManual).length;
+  const idx      = allData._indexData;
+  const loading  = idx && !idx.complete
+    ? ` · ⏳ ${idx.completedLocations}/${idx.totalLocations} locations`
+    : '';
+  document.getElementById('lastUpdated').textContent = `Updated ${dateStr} · ${total} results${loading}`;
+  const lcEl = document.getElementById('loadingCounter');
+  if (lcEl) lcEl.style.display = 'none'; // folded into lastUpdated
 }
+
 
 async function loadLocationFiles(slugs) {
   const newSlugs = slugs.filter(s => !loadedSlugs.has(s));
@@ -153,7 +160,7 @@ async function loadLocationFiles(slugs) {
 }
 
 function startPolling() {
-  updateLoadingCounter();
+  updateStatusBar();
   pollTimer = setInterval(async () => {
     try {
       const res = await fetch(`results/index.json?t=${Date.now()}`);
@@ -171,7 +178,7 @@ function startPolling() {
         renderResults(currentResults);
       }
 
-      updateLoadingCounter();
+      updateStatusBar();
 
       if (idx.complete) {
         clearInterval(pollTimer);
@@ -183,7 +190,7 @@ function startPolling() {
         await loadLocationFiles(idx.available || []);
         autoRejectProperties(currentResults);
         renderResults(currentResults);
-        updateLoadingCounter();
+        updateStatusBar();
       }
     } catch { /* ignore network errors between polls */ }
   }, 60000);
@@ -221,13 +228,8 @@ async function init() {
       currentResults = allData.results;
     }
 
-    const dateStr = new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
-    const total   = allData.totalResults ?? currentResults.length;
-    const seedInfo = allData.seedStats ? ` · Seed: ${allData.seedStats.total} total` : '';
-    document.getElementById('lastUpdated').textContent = `Last updated: ${dateStr} · ${total} results${seedInfo}`;
-
-    // Portal matrix
-    renderPortalMatrix(allData.portalLinks, allData.locations);
+    updateStatusBar();
+    // Sources page is rendered on demand when the tab is opened
 
     // Merge manual properties — always included, not overwritten by scraper
     for (const mp of manualProperties) {
@@ -297,7 +299,7 @@ async function init() {
       }
     }
 
-    updateLoadingCounter();
+    updateStatusBar();
     renderResults(currentResults);
   } catch (err) {
     document.getElementById('results-area').innerHTML = `<div class="empty-state"><h2>Error loading results</h2><p>${err.message}</p></div>`;
@@ -306,38 +308,78 @@ async function init() {
   }
 }
 
-// --- Portal matrix ---
-function renderPortalMatrix(portalLinks, locations) {
+// --- Sources page ---
+function renderSourcesPage() {
   const container = document.getElementById('portal-matrix-container');
-  if (!container || !portalLinks || !portalLinks.length) return;
+  const statusEl  = document.getElementById('sourcesStatus');
+  if (!container || !allData?.portalLinks?.length) return;
 
-  // Collect unique portal names in order they appear
+  const portalLinks = allData.portalLinks;
+  const locations   = allData.locations || [];
+
+  // Count results per portal+location from currentResults (post-dedup)
+  const counts = {};
+  for (const r of currentResults) {
+    if (r.isManual) continue;
+    const loc = r.searchLocation;
+    for (const src of (r.sources || [])) {
+      const k = `${src.portal}|||${loc}`;
+      counts[k] = (counts[k] || 0) + 1;
+    }
+  }
+
+  // Collect unique portal names in appearance order
   const portals = [];
   const seen = new Set();
   for (const l of portalLinks) {
     if (!seen.has(l.portal)) { seen.add(l.portal); portals.push(l.portal); }
   }
 
-  // Build lookup: portal+location -> url
-  const lookup = {};
-  for (const l of portalLinks) lookup[`${l.portal}|||${l.searchLocation}`] = l.url;
+  // Build URL lookup: portal+location -> url
+  const urlLookup = {};
+  for (const l of portalLinks) urlLookup[`${l.portal}|||${l.searchLocation}`] = l.url;
 
-  const ths = portals.map(p => `<th class="pm-portal-header">${p}</th>`).join('');
+  // Column totals
+  const portalTotals = {};
+  for (const p of portals) portalTotals[p] = locations.reduce((s, loc) => s + (counts[`${p}|||${loc}`] || 0), 0);
+  const grandTotal = Object.values(portalTotals).reduce((a, b) => a + b, 0);
+
+  const ths = portals.map(p => `<th class="pm-portal-header" title="${portalTotals[p]} total">${p}<br><span class="pm-col-total">${portalTotals[p]}</span></th>`).join('');
+
   const rows = locations.map(loc => {
+    let rowTotal = 0;
     const cells = portals.map(p => {
-      const url = lookup[`${p}|||${loc}`];
-      return url
-        ? `<td class="pm-cell pm-cell-yes"><a href="${url}" target="_blank" rel="noopener" title="${p} — ${loc}">✓</a></td>`
-        : `<td class="pm-cell pm-cell-no" title="Not searched">–</td>`;
+      const url   = urlLookup[`${p}|||${loc}`];
+      const n     = counts[`${p}|||${loc}`] || 0;
+      rowTotal += n;
+      if (!url) return `<td class="pm-cell pm-cell-no" title="Not searched">–</td>`;
+      const cls = n > 0 ? 'pm-cell-yes' : 'pm-cell-zero';
+      return `<td class="pm-cell ${cls}"><a href="${url}" target="_blank" rel="noopener" title="${p} — ${loc}">${n}</a></td>`;
     }).join('');
-    return `<tr><th class="pm-loc-header">${loc}</th>${cells}</tr>`;
+    return `<tr><th class="pm-loc-header">${loc}</th>${cells}<td class="pm-row-total">${rowTotal}</td></tr>`;
   }).join('');
+
+  const totalCols = portals.map(() => '').join('<td class="pm-row-total"></td>');
 
   container.innerHTML = `
     <table class="portal-matrix">
-      <thead><tr><th class="pm-corner"></th>${ths}</tr></thead>
+      <thead>
+        <tr><th class="pm-corner"></th>${ths}<th class="pm-row-total">Total</th></tr>
+      </thead>
       <tbody>${rows}</tbody>
+      <tfoot>
+        <tr><th class="pm-loc-header">Total</th>${portals.map(p => `<td class="pm-col-total-row">${portalTotals[p]}</td>`).join('')}<td class="pm-row-total">${grandTotal}</td></tr>
+      </tfoot>
     </table>`;
+
+  if (statusEl) {
+    const idx   = allData._indexData;
+    const parts = [];
+    if (allData.generatedAt) parts.push(`Updated ${new Date(allData.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}`);
+    parts.push(`${grandTotal} results across ${locations.length} locations`);
+    if (idx && !idx.complete) parts.push(`⏳ ${idx.completedLocations}/${idx.totalLocations} locations loaded`);
+    statusEl.textContent = parts.join('  ·  ');
+  }
 }
 
 // --- Version badge / changelog ---
@@ -355,7 +397,8 @@ document.querySelectorAll('header nav a').forEach(link => {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     link.classList.add('active');
     document.getElementById(link.dataset.page).classList.add('active');
-    if (link.dataset.page === 'lists-page') renderListPage();
+    if (link.dataset.page === 'lists-page')   renderListPage();
+    if (link.dataset.page === 'sources-page') renderSourcesPage();
   });
 });
 
