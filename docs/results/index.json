@@ -1,0 +1,542 @@
+{
+  "generatedAt": "2026-07-23T10:04:49.518Z",
+  "complete": false,
+  "searchConfig": {
+    "searches": [
+      {
+        "location": "Launceston",
+        "postcode": "PL15 8AE",
+        "county": "Cornwall",
+        "radius": 20,
+        "rightmoveId": "REGION^780"
+      },
+      {
+        "location": "Totnes",
+        "postcode": "TQ9 5HR",
+        "county": "Devon",
+        "radius": 20,
+        "rightmoveId": "REGION^1353"
+      },
+      {
+        "location": "Bude",
+        "postcode": "EX23 8LG",
+        "county": "Cornwall",
+        "radius": 20,
+        "rightmoveId": "REGION^242"
+      },
+      {
+        "location": "Fressingfield",
+        "postcode": "IP21 5PS",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^10318"
+      },
+      {
+        "location": "Laxfield",
+        "postcode": "IP13 8DQ",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^14740"
+      },
+      {
+        "location": "Hoxne",
+        "postcode": "IP21 5AR",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^13223"
+      },
+      {
+        "location": "Wenhaston",
+        "postcode": "IP19 9JJ",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^1264"
+      },
+      {
+        "location": "Diss",
+        "postcode": "IP22 4JT",
+        "county": "Norfolk",
+        "radius": 20,
+        "rightmoveId": "REGION^425"
+      },
+      {
+        "location": "Harleston",
+        "postcode": "IP20 9AD",
+        "county": "Norfolk",
+        "radius": 20,
+        "rightmoveId": "REGION^11918"
+      },
+      {
+        "location": "Halesworth",
+        "postcode": "IP19 8SY",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^587"
+      },
+      {
+        "location": "Eye",
+        "postcode": "IP23 7HF",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^496"
+      },
+      {
+        "location": "Maldon",
+        "postcode": "CM9 4QE",
+        "county": "Essex",
+        "radius": 20,
+        "rightmoveId": "REGION^898"
+      },
+      {
+        "location": "Burnham-on-Crouch",
+        "postcode": "CM0 8BL",
+        "county": "Essex",
+        "radius": 20,
+        "rightmoveId": "REGION^250"
+      },
+      {
+        "location": "Tenterden",
+        "postcode": "TN30 6BD",
+        "county": "Kent",
+        "radius": 20,
+        "rightmoveId": "REGION^1327"
+      },
+      {
+        "location": "Wye",
+        "postcode": "TN25 5AH",
+        "county": "Kent",
+        "radius": 20,
+        "rightmoveId": "REGION^27606"
+      },
+      {
+        "location": "Sandwich",
+        "postcode": "CT13 9AF",
+        "county": "Kent",
+        "radius": 20,
+        "rightmoveId": "REGION^1173"
+      },
+      {
+        "location": "Burwell",
+        "postcode": "CB25 0HB",
+        "county": "Cambridgeshire",
+        "radius": 20,
+        "rightmoveId": "REGION^5229"
+      },
+      {
+        "location": "Littleport",
+        "postcode": "CB6 1PH",
+        "county": "Cambridgeshire",
+        "radius": 20,
+        "rightmoveId": "REGION^15407"
+      },
+      {
+        "location": "Debenham",
+        "postcode": "IP14 6QN",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^7996"
+      },
+      {
+        "location": "Framlingham",
+        "postcode": "IP13 9BT",
+        "county": "Suffolk",
+        "radius": 20,
+        "rightmoveId": "REGION^10280"
+      },
+      {
+        "location": "Swaffham",
+        "postcode": "PE37 7DQ",
+        "county": "Norfolk",
+        "radius": 20,
+        "rightmoveId": "REGION^1301"
+      },
+      {
+        "location": "Aylsham",
+        "postcode": "NR11 6EH",
+        "county": "Norfolk",
+        "radius": 20,
+        "rightmoveId": "REGION^2573"
+      },
+      {
+        "location": "Donington",
+        "postcode": "PE11 4SL",
+        "county": "Lincolnshire",
+        "radius": 20,
+        "rightmoveId": "REGION^8296"
+      },
+      {
+        "location": "Spilsby",
+        "postcode": "PE23 5EE",
+        "county": "Lincolnshire",
+        "radius": 20,
+        "rightmoveId": "REGION^1242"
+      },
+      {
+        "location": "Horncastle",
+        "postcode": "LN9 5HF",
+        "county": "Lincolnshire",
+        "radius": 20,
+        "rightmoveId": "REGION^657"
+      },
+      {
+        "location": "Woodhall Spa",
+        "postcode": "LN10 6QH",
+        "county": "Lincolnshire",
+        "radius": 20,
+        "rightmoveId": "REGION^1479"
+      },
+      {
+        "location": "Alford",
+        "postcode": "LN13 9EE",
+        "county": "Lincolnshire",
+        "radius": 20,
+        "rightmoveId": "REGION^25"
+      },
+      {
+        "location": "Kirkbymoorside",
+        "postcode": "YO62 6BL",
+        "county": "North Yorkshire",
+        "radius": 20,
+        "rightmoveId": "REGION^14288"
+      },
+      {
+        "location": "Helmsley",
+        "postcode": "YO62 5AA",
+        "county": "North Yorkshire",
+        "radius": 20,
+        "rightmoveId": "REGION^12324"
+      },
+      {
+        "location": "Appleby-in-Westmorland",
+        "postcode": "CA16 6XA",
+        "county": "Cumbria",
+        "radius": 20,
+        "rightmoveId": "REGION^44"
+      },
+      {
+        "location": "Kirkby Stephen",
+        "postcode": "CA17 4QF",
+        "county": "Cumbria",
+        "radius": 20,
+        "rightmoveId": "REGION^752"
+      },
+      {
+        "location": "Alston",
+        "postcode": "CA9 3RQ",
+        "county": "Cumbria",
+        "radius": 20,
+        "rightmoveId": "REGION^31"
+      },
+      {
+        "location": "Bellingham",
+        "postcode": "NE48 2AW",
+        "county": "Northumberland",
+        "radius": 20,
+        "rightmoveId": "REGION^3260"
+      },
+      {
+        "location": "Rothbury",
+        "postcode": "NE65 7TW",
+        "county": "Northumberland",
+        "radius": 20,
+        "rightmoveId": "REGION^21129"
+      },
+      {
+        "location": "Wooler",
+        "postcode": "NE71 6DQ",
+        "county": "Northumberland",
+        "radius": 20,
+        "rightmoveId": "REGION^1482"
+      }
+    ],
+    "rejectionReasons": [
+      "house type",
+      "neighbour vicinity",
+      "solar panels",
+      "A road vicinity",
+      "B road vicinity"
+    ],
+    "keywords": [
+      "garden"
+    ],
+    "propertyTypes": [],
+    "maxPrice": 450000,
+    "minBed": 2,
+    "queryTimeoutMs": 90000,
+    "maxConcurrentPortals": 2,
+    "neighbourConfidenceThreshold": 0.99,
+    "baseline": {
+      "name": "Tottenham",
+      "postcode": "N179RS",
+      "airportRadiusMiles": 20,
+      "airstripRadiusMiles": 5,
+      "helipadRadiusMiles": 15,
+      "altitudeCutoffFt": null
+    }
+  },
+  "locations": [
+    "Launceston",
+    "Totnes",
+    "Bude",
+    "Fressingfield",
+    "Laxfield",
+    "Hoxne",
+    "Wenhaston",
+    "Diss",
+    "Harleston",
+    "Halesworth",
+    "Eye",
+    "Maldon",
+    "Burnham-on-Crouch",
+    "Tenterden",
+    "Wye",
+    "Sandwich",
+    "Burwell",
+    "Littleport",
+    "Debenham",
+    "Framlingham",
+    "Swaffham",
+    "Aylsham",
+    "Donington",
+    "Spilsby",
+    "Horncastle",
+    "Woodhall Spa",
+    "Alford",
+    "Kirkbymoorside",
+    "Helmsley",
+    "Appleby-in-Westmorland",
+    "Kirkby Stephen",
+    "Alston",
+    "Bellingham",
+    "Rothbury",
+    "Wooler"
+  ],
+  "totalLocations": 35,
+  "completedLocations": 5,
+  "totalResults": null,
+  "available": [
+    "launceston",
+    "totnes",
+    "bude",
+    "fressingfield",
+    "laxfield"
+  ],
+  "baseline": {
+    "name": "Tottenham",
+    "postcode": "N179RS",
+    "lat": 51.596356,
+    "lon": -0.064109,
+    "airports": 4,
+    "airstrips": 0,
+    "helipads": 4,
+    "flightsPerDay": 84.4,
+    "radii": {
+      "airport": 20,
+      "airstrip": 5,
+      "helipad": 15
+    },
+    "altitudeCutoffFt": null
+  },
+  "portalLinks": [
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/pl15-8ae/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/pl15-8ae/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=PL15%208AE&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E780&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=PL15%208AE&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=PL15%208AE&minbeds=2&maxprice=450000",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=PL15%208AE&minBeds=2&maxPrice=450000",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=PL15%208AE&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Launceston"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/tq9-5hr/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/tq9-5hr/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=TQ9%205HR&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1353&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=TQ9%205HR&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=TQ9%205HR&minbeds=2&maxprice=450000",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=TQ9%205HR&minBeds=2&maxPrice=450000",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=TQ9%205HR&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Totnes"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ex23-8lg/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ex23-8lg/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=EX23%208LG&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E242&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=EX23%208LG&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=EX23%208LG&minbeds=2&maxprice=450000",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=EX23%208LG&minBeds=2&maxPrice=450000",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=EX23%208LG&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Bude"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip21-5ps/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip21-5ps/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP21%205PS&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E10318&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP21%205PS&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP21%205PS&minbeds=2&maxprice=450000",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP21%205PS&minBeds=2&maxPrice=450000",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP21%205PS&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Fressingfield"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip13-8dq/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip13-8dq/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP13%208DQ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E14740&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP13%208DQ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP13%208DQ&minbeds=2&maxprice=450000",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP13%208DQ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP13%208DQ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Laxfield"
+    }
+  ]
+}
