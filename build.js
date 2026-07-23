@@ -713,7 +713,12 @@ async function rescoreResults(config, resultsDir, ukTowns) {
 
   await closeBrowser();
 
-  index.rescoredAt = new Date().toISOString();
+  // Rebuild index with correct available list and complete flag
+  index.available          = slugs;
+  index.complete           = true;
+  index.completedLocations = slugs.length;
+  index.totalResults       = totalProperties;
+  index.rescoredAt         = new Date().toISOString();
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
   console.log(`\nDone. ${totalRecommended}/${totalProperties} recommended (town≥${minTown}mi, airport≥${minAirport}mi, helipad≥${minHelipad}mi)`);
 }
