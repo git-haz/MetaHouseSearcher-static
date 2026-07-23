@@ -13,8 +13,12 @@ function saveRejectionReasons() { localStorage.setItem('propertyRejectionReasons
 let excludeKeywords = loadJSON('excludeKeywords', []);
 function saveExcludeKeywords() { localStorage.setItem('excludeKeywords', JSON.stringify(excludeKeywords)); }
 
-let showOnlyTags = loadJSON('showOnlyTags', []);
-function saveShowOnlyTags() { localStorage.setItem('showOnlyTags', JSON.stringify(showOnlyTags)); }
+let tagFilterMode = localStorage.getItem('tagFilterMode') || 'hide';
+let selectedTags  = loadJSON('selectedTags', ['rejected']);
+function saveTagFilter() {
+  localStorage.setItem('tagFilterMode', tagFilterMode);
+  localStorage.setItem('selectedTags', JSON.stringify(selectedTags));
+}
 
 let hiddenProperties = loadJSON('hiddenProperties', {});
 function saveHiddenProperties() { localStorage.setItem('hiddenProperties', JSON.stringify(hiddenProperties)); }
@@ -105,7 +109,7 @@ function saveManualProperties() { localStorage.setItem('manualProperties', JSON.
 let allData = null;
 let currentResults = [];
 let textFilterKeywords = [];
-let hiddenTags = ['rejected'];
+// hiddenTags removed — replaced by selectedTags + tagFilterMode
 let showFlyover = true;
 let showNeighbour = true;
 let showAirports = true;
@@ -232,30 +236,43 @@ async function init() {
 
     autoRejectProperties(currentResults);
 
-    // Populate show-only tag checkboxes
+    // Populate unified tag checkboxes
     const rejectionReasons = allData.searchConfig?.rejectionReasons || ['house type', 'neighbour vicinity', 'solar panels', 'A road vicinity', 'B road vicinity'];
-    const showOnlyContainer = document.getElementById('showOnlyTagsChecks');
-    if (showOnlyContainer) {
+    const unifiedContainer = document.getElementById('unifiedTagsChecks');
+    if (unifiedContainer) {
       const allTagOptions = [
-        { value: 'favorite', label: '★ Favorites' },
-        { value: 'seen', label: 'Seen' },
-        { value: 'view', label: 'To View' },
-        { value: 'viewed', label: 'Viewed' },
-        { value: 'in_progress', label: 'In Progress' },
-        { value: 'rejected', label: 'Rejected' },
-        { value: 'excluded', label: 'Exclusion Zone' },
-        { value: 'neighbour', label: '⚠ Neighbour' },
+        { value: 'favorite',    label: '★ Favorites'     },
+        { value: 'seen',        label: 'Seen'             },
+        { value: 'view',        label: 'To View'          },
+        { value: 'viewed',      label: 'Viewed'           },
+        { value: 'in_progress', label: 'In Progress'      },
+        { value: 'rejected',    label: 'Rejected'         },
+        { value: 'excluded',    label: 'Exclusion Zone'   },
+        { value: 'neighbour',   label: '⚠ Neighbour'      },
         ...rejectionReasons.map(r => ({ value: 'reason:' + r, label: '✕ ' + r })),
       ];
-      showOnlyContainer.innerHTML = allTagOptions.map(t =>
-        `<label class="pt-check"><input type="checkbox" value="${t.value}" ${showOnlyTags.includes(t.value) ? 'checked' : ''}> ${t.label}</label>`
+      unifiedContainer.innerHTML = allTagOptions.map(t =>
+        `<label class="pt-check"><input type="checkbox" value="${t.value}" ${selectedTags.includes(t.value) ? 'checked' : ''}> ${t.label}</label>`
       ).join('');
-      showOnlyContainer.addEventListener('change', () => {
-        showOnlyTags = [...showOnlyContainer.querySelectorAll('input:checked')].map(cb => cb.value);
-        saveShowOnlyTags();
+      unifiedContainer.addEventListener('change', () => {
+        selectedTags = [...unifiedContainer.querySelectorAll('input:checked')].map(cb => cb.value);
+        saveTagFilter();
         renderResults(currentResults);
       });
     }
+
+    // Mode toggle buttons
+    function applyModeButtons() {
+      document.getElementById('tagModeHide').classList.toggle('active', tagFilterMode === 'hide');
+      document.getElementById('tagModeShowOnly').classList.toggle('active', tagFilterMode === 'showonly');
+    }
+    applyModeButtons();
+    document.getElementById('tagModeHide').addEventListener('click', () => {
+      tagFilterMode = 'hide'; saveTagFilter(); applyModeButtons(); renderResults(currentResults);
+    });
+    document.getElementById('tagModeShowOnly').addEventListener('click', () => {
+      tagFilterMode = 'showonly'; saveTagFilter(); applyModeButtons(); renderResults(currentResults);
+    });
 
     // Restore exclude keywords textarea
     const ekInput = document.getElementById('excludeKeywordsInput');
@@ -346,11 +363,6 @@ document.getElementById('textFilter').addEventListener('input', e => {
   renderResults(currentResults);
 });
 
-document.getElementById('hideTagsChecks').addEventListener('change', () => {
-  hiddenTags = [];
-  document.querySelectorAll('#hideTagsChecks input:checked').forEach(cb => hiddenTags.push(cb.value));
-  renderResults(currentResults);
-});
 
 // Display toggles
 document.getElementById('displayToggles').addEventListener('change', () => {
@@ -388,16 +400,12 @@ function applyFilters(results) {
   // Hide merged-away properties
   filtered = filtered.filter(r => !hiddenProperties[pkey(r)]);
 
-  // Show-only filter: if any tags selected, show only properties with at least one
-  if (showOnlyTags.length > 0) {
-    filtered = filtered.filter(r => {
-      const tags = getPropertyTags(r);
-      return showOnlyTags.some(st => tags.includes(st));
-    });
-  }
-
-  if (hiddenTags.length > 0) {
-    filtered = filtered.filter(r => !hiddenTags.some(ht => getPropertyTags(r).includes(ht)));
+  if (selectedTags.length > 0) {
+    if (tagFilterMode === 'showonly') {
+      filtered = filtered.filter(r => selectedTags.some(t => getPropertyTags(r).includes(t)));
+    } else {
+      filtered = filtered.filter(r => !selectedTags.some(t => getPropertyTags(r).includes(t)));
+    }
   }
 
   if (textFilterKeywords.length > 0) {
@@ -1309,7 +1317,7 @@ document.getElementById('saveAddPropertyBtn').addEventListener('click', async ()
 document.getElementById('addPropertyBtn').addEventListener('click', openAddPropertyModal);
 
 // --- Export / Import user data ---
-const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties', 'propertyRejectionReasons', 'excludeKeywords', 'showOnlyTags', 'hiddenProperties'];
+const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties', 'propertyRejectionReasons', 'excludeKeywords', 'selectedTags', 'hiddenProperties'];
 
 function exportUserData() {
   const data = {};
@@ -1348,7 +1356,7 @@ function importUserData() {
         manualProperties = loadJSON('manualProperties', []);
         propertyRejectionReasons = loadJSON('propertyRejectionReasons', {});
         excludeKeywords = loadJSON('excludeKeywords', []);
-        showOnlyTags = loadJSON('showOnlyTags', []);
+        selectedTags    = loadJSON('selectedTags', ['rejected']);
         hiddenProperties = loadJSON('hiddenProperties', {});
         // Re-merge manual props into currentResults
         currentResults = currentResults.filter(p => !p.isManual);

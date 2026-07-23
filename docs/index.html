@@ -178,21 +178,14 @@
         </div>
       </div>
       <div class="hide-tags-filter">
-        <label class="tag-filter-label">Hide:</label>
-        <div class="hide-tags-checks" id="hideTagsChecks">
-          <label class="pt-check"><input type="checkbox" value="favorite"> Favorites</label>
-          <label class="pt-check"><input type="checkbox" value="seen"> Seen</label>
-          <label class="pt-check"><input type="checkbox" value="view"> To View</label>
-          <label class="pt-check"><input type="checkbox" value="viewed"> Viewed</label>
-          <label class="pt-check"><input type="checkbox" value="in_progress"> In Progress</label>
-          <label class="pt-check"><input type="checkbox" value="rejected" checked> Rejected</label>
-          <label class="pt-check"><input type="checkbox" value="excluded"> Exclusion Zone</label>
-          <label class="pt-check"><input type="checkbox" value="neighbour"> Neighbour Detected</label>
+        <div class="tag-filter-header">
+          <label class="tag-filter-label">Tags:</label>
+          <span class="tag-mode-toggle">
+            <button class="tag-mode-btn" id="tagModeHide">Hide</button>
+            <button class="tag-mode-btn" id="tagModeShowOnly">Show only</button>
+          </span>
         </div>
-      </div>
-      <div class="hide-tags-filter">
-        <label class="tag-filter-label">Show only:</label>
-        <div class="hide-tags-checks" id="showOnlyTagsChecks">
+        <div class="hide-tags-checks" id="unifiedTagsChecks">
           <!-- populated by app.js after data loads -->
         </div>
       </div>
