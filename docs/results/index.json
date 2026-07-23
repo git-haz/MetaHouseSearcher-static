@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:39:38.806Z",
+  "generatedAt": "2026-07-23T10:52:10.232Z",
   "complete": false,
   "searchConfig": {
     "searches": [
@@ -312,7 +312,7 @@
     "Wooler"
   ],
   "totalLocations": 35,
-  "completedLocations": 20,
+  "completedLocations": 25,
   "totalResults": null,
   "available": [
     "launceston",
@@ -334,7 +334,12 @@
     "burwell",
     "littleport",
     "debenham",
-    "framlingham"
+    "framlingham",
+    "swaffham",
+    "aylsham",
+    "donington",
+    "spilsby",
+    "horncastle"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -1152,6 +1157,206 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=IP13%209BT&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Framlingham"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/pe37-7dq/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/pe37-7dq/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=PE37%207DQ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1301&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=PE37%207DQ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=PE37%207DQ&minbeds=2&maxprice=450000",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=PE37%207DQ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=PE37%207DQ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Swaffham"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/nr11-6eh/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/nr11-6eh/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=NR11%206EH&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E2573&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=NR11%206EH&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=NR11%206EH&minbeds=2&maxprice=450000",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=NR11%206EH&minBeds=2&maxPrice=450000",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=NR11%206EH&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Aylsham"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/pe11-4sl/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/pe11-4sl/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=PE11%204SL&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E8296&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=PE11%204SL&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=PE11%204SL&minbeds=2&maxprice=450000",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=PE11%204SL&minBeds=2&maxPrice=450000",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=PE11%204SL&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Donington"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/pe23-5ee/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/pe23-5ee/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=PE23%205EE&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1242&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=PE23%205EE&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=PE23%205EE&minbeds=2&maxprice=450000",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=PE23%205EE&minBeds=2&maxPrice=450000",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=PE23%205EE&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Spilsby"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ln9-5hf/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ln9-5hf/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=LN9%205HF&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E657&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=LN9%205HF&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=LN9%205HF&minbeds=2&maxprice=450000",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=LN9%205HF&minBeds=2&maxPrice=450000",
+      "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=LN9%205HF&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Horncastle"
     }
   ]
 }
