@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:52:10.232Z",
+  "generatedAt": "2026-07-23T11:03:34.503Z",
   "complete": false,
   "searchConfig": {
     "searches": [
@@ -312,7 +312,7 @@
     "Wooler"
   ],
   "totalLocations": 35,
-  "completedLocations": 25,
+  "completedLocations": 30,
   "totalResults": null,
   "available": [
     "launceston",
@@ -339,7 +339,12 @@
     "aylsham",
     "donington",
     "spilsby",
-    "horncastle"
+    "horncastle",
+    "woodhall-spa",
+    "alford",
+    "kirkbymoorside",
+    "helmsley",
+    "appleby-in-westmorland"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -1357,6 +1362,206 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=LN9%205HF&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Horncastle"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ln10-6qh/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ln10-6qh/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=LN10%206QH&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1479&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=LN10%206QH&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=LN10%206QH&minbeds=2&maxprice=450000",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=LN10%206QH&minBeds=2&maxPrice=450000",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=LN10%206QH&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Woodhall Spa"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ln13-9ee/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ln13-9ee/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=LN13%209EE&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E25&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=LN13%209EE&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=LN13%209EE&minbeds=2&maxprice=450000",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=LN13%209EE&minBeds=2&maxPrice=450000",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=LN13%209EE&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Alford"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/yo62-6bl/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/yo62-6bl/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=YO62%206BL&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E14288&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=YO62%206BL&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=YO62%206BL&minbeds=2&maxprice=450000",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=YO62%206BL&minBeds=2&maxPrice=450000",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=YO62%206BL&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Kirkbymoorside"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/yo62-5aa/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/yo62-5aa/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=YO62%205AA&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E12324&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=YO62%205AA&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=YO62%205AA&minbeds=2&maxprice=450000",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=YO62%205AA&minBeds=2&maxPrice=450000",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=YO62%205AA&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Helmsley"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ca16-6xa/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ca16-6xa/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=CA16%206XA&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E44&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=CA16%206XA&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=CA16%206XA&minbeds=2&maxprice=450000",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=CA16%206XA&minBeds=2&maxPrice=450000",
+      "searchLocation": "Appleby-in-Westmorland"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=CA16%206XA&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Appleby-in-Westmorland"
     }
   ]
 }
