@@ -1,0 +1,5312 @@
+{
+  "location": "Harleston",
+  "slug": "harleston",
+  "generatedAt": "2026-07-23T10:12:20.492Z",
+  "count": 67,
+  "properties": [
+    {
+      "title": "2 bedroom flat for sale",
+      "price": 280000,
+      "address": "Waveney Place, Waveney Court, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Starkings & Watson - Bungay",
+      "agentPhone": "01986 478803",
+      "type": "Flat",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19928840/1629269253/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19928840/1629269253/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19928840/1629269253/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19928840/1629269253/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19928840/1629269253/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19928840/"
+        }
+      ],
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.362237202105785,
+        "distanceMiles": 5.196051692509673
+      },
+      "nearestAirstrip": {
+        "name": "Great Ashfield Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.04035775643583,
+        "distanceMiles": 3.753303139474288
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 49.93572030206742,
+        "distanceMiles": 31.02860845981594
+      },
+      "minAirportDistanceMiles": 3.753303139474288,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom end of terrace house for sale",
+      "price": 2000006,
+      "address": "6 Candlers Lane, Harleston IP20",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Minors & Brady - Estate Agents - Diss",
+      "agentPhone": "01379 441442",
+      "type": "End of terrace house",
+      "description": "a quiet lane within walking distance of Harleston town centreChain-freeMinors & Brady - Estate Agents - DissAdded < 14 daysEmail01379 441442",
+      "images": [
+        "https://media.onthemarket.com/properties/19926340/1629211585/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19926340/1629211585/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19926340/1629211585/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19926340/1629211585/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19926340/1629211585/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19926340/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom semi-detached bungalow for sale",
+      "price": 230000,
+      "address": "Briar Road, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Starkings & Watson - Bungay",
+      "agentPhone": "01986 478803",
+      "type": "Semi-detached bungalow",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19824787/1625768721/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19824787/1625768721/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19824787/1625768721/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19824787/1625768721/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19824787/1625768721/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19824787/"
+        }
+      ],
+      "lat": 52.4016576,
+      "lon": 1.3034972,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.515427700384812,
+        "distanceMiles": 18.961401825615813
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.663932079687811,
+        "distanceMiles": 1.6552901402876947
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.825998067247717,
+        "distanceMiles": 15.42615524504378
+      },
+      "minAirportDistanceMiles": 1.6552901402876947,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom semi-detached bungalow for sale",
+      "price": 175000,
+      "address": "Briar Road, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Starkings & Watson - Bungay",
+      "agentPhone": "01986 478803",
+      "type": "Semi-detached bungalow",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19159479/1620848653/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19159479/1620848653/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19159479/1620848653/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19159479/1620848653/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19159479/1620848653/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19159479/"
+        }
+      ],
+      "lat": 52.4016576,
+      "lon": 1.3034972,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.515427700384812,
+        "distanceMiles": 18.961401825615813
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.663932079687811,
+        "distanceMiles": 1.6552901402876947
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.825998067247717,
+        "distanceMiles": 15.42615524504378
+      },
+      "minAirportDistanceMiles": 1.6552901402876947,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom character property for sale",
+      "price": 120000,
+      "address": "Bullock Fair Close, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Howards Estate Agents - Long Stratton",
+      "agentPhone": "01508 338946",
+      "type": "Character property",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19598877/1620832959/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19598877/1620014751/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19598877/1620158960/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19598877/1620299377/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19598877/1620540445/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19598877/"
+        }
+      ],
+      "lat": 52.4031649,
+      "lon": 1.2999007,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.337743727764725,
+        "distanceMiles": 18.850994157864896
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.8707161079326715,
+        "distanceMiles": 1.783779738702232
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.60863500679386,
+        "distanceMiles": 15.291092142806509
+      },
+      "minAirportDistanceMiles": 1.783779738702232,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom apartment for sale",
+      "price": 120000,
+      "address": "Malthouse Court, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Howards Estate Agents - Long Stratton",
+      "agentPhone": "01508 338946",
+      "type": "Apartment",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19448667/1613748393/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19448667/1613706464/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19448667/1613706464/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19448667/1613748393/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19448667/1630122347/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19448667/"
+        }
+      ],
+      "lat": 52.4011959,
+      "lon": 1.2976274,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.551089425641727,
+        "distanceMiles": 18.983560987500425
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.695719207204572,
+        "distanceMiles": 1.6750417394999122
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.789690732680018,
+        "distanceMiles": 15.403594920256115
+      },
+      "minAirportDistanceMiles": 1.6750417394999122,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bedroom cottage for sale",
+      "price": 190000,
+      "address": "Exchange Street, Harleston",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Howards Estate Agents - Long Stratton",
+      "agentPhone": "01508 338946",
+      "type": "Cottage",
+      "description": "a smooth purchaseGrade II Listed character cottageFour bedrooms arranged over three floorsChain-freeHowards Estate Agents - Long StrattonAdded > 14 daysEmail01508 338946",
+      "images": [
+        "https://media.onthemarket.com/properties/19277498/1611175160/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19277498/1610286661/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19277498/1610433449/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19277498/1610559206/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19277498/1610859022/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19277498/"
+        }
+      ],
+      "lat": 52.4015104,
+      "lon": 1.2994945,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.520553476282473,
+        "distanceMiles": 18.964586834111117
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6972593910236444,
+        "distanceMiles": 1.675998765059753
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.7823361350543,
+        "distanceMiles": 15.399024986574826
+      },
+      "minAirportDistanceMiles": 1.675998765059753,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom retirement property for sale",
+      "price": 190000,
+      "address": "Mendham Lane, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Howards Estate Agents - Long Stratton",
+      "agentPhone": "01508 338946",
+      "type": "Retirement property",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/18445747/1588928014/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/18445747/1588168311/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18445747/1588379231/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18445747/1588571019/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18445747/1586836914/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/18445747/"
+        }
+      ],
+      "lat": 52.4012069,
+      "lon": 1.2999621,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.5554645146458,
+        "distanceMiles": 18.986279540929974
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6571927155192614,
+        "distanceMiles": 1.6511024948349189
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.822110109315314,
+        "distanceMiles": 15.423739380735366
+      },
+      "minAirportDistanceMiles": 1.6511024948349189,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom detached house for sale",
+      "price": 260000,
+      "address": "Doune Way, Harleston",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Howards Estate Agents - Long Stratton",
+      "agentPhone": "01508 338946",
+      "type": "Detached house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17789741/1564820751/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17789741/1564450781/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17789741/1564497900/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17789741/1564702304/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17789741/1564820751/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17789741/"
+        }
+      ],
+      "lat": 52.4048912,
+      "lon": 1.298238,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.1418183853953,
+        "distanceMiles": 18.729251831951462
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.0827123293457017,
+        "distanceMiles": 1.9155080427978681
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.39687479271934,
+        "distanceMiles": 15.15951048682681
+      },
+      "minAirportDistanceMiles": 1.9155080427978681,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom retirement property for sale",
+      "price": 140000,
+      "address": "Malthouse Court, Norfolk IP20",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Retirement property",
+      "description": "Set Within Retirement CommunityBeautifully Landscaped Communal GardensRetirementYour Move - HarlestonAdded yesterday",
+      "images": [
+        "https://media.onthemarket.com/properties/19981388/1631115011/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19981388/1631115011/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19981388/1631115011/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19981388/1631115011/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19981388/1631147411/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19981388/"
+        }
+      ],
+      "lat": 52.4011959,
+      "lon": 1.2976274,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.551089425641727,
+        "distanceMiles": 18.983560987500425
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.695719207204572,
+        "distanceMiles": 1.6750417394999122
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.789690732680018,
+        "distanceMiles": 15.403594920256115
+      },
+      "minAirportDistanceMiles": 1.6750417394999122,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom end of terrace house for sale",
+      "price": 260000,
+      "address": "London Road, Norfolk IP20",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "End of terrace house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19808034/1624578393/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19808034/1624578393/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19808034/1624578393/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19808034/1624578393/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19808034/1624578393/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19808034/"
+        }
+      ],
+      "lat": 52.7476483,
+      "lon": 0.4027221,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Marham",
+        "icao": "EGYM",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.873662631932259,
+        "distanceMiles": 9.24206262326638
+      },
+      "nearestAirstrip": {
+        "name": "Tilney-St-Lawrence Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.753737215897151,
+        "distanceMiles": 4.817947447579229
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 56.966081976917025,
+        "distanceMiles": 35.39707132407891
+      },
+      "minAirportDistanceMiles": 4.817947447579229,
+      "flyoverRef": {
+        "location": "London Stansted Area",
+        "flightsPerDay": 516.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 516.3,
+        "flightsDiffPct": 512
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom semi-detached house for sale",
+      "price": 200000,
+      "address": "Candlers Lane, Norfolk IP20",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Semi-detached house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17735558/1607489595/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17735558/1607489595/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17735558/1607489595/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17735558/1607489595/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17735558/1607489595/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17735558/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom detached bungalow for sale",
+      "price": 250000,
+      "address": "Recreation Walk, Harleston IP20",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Durrants - Harleston",
+      "agentPhone": null,
+      "type": "Detached bungalow",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/18635458/1628460384/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/18635458/1628460384/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18635458/1628460384/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18635458/1628460384/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18635458/1628460384/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/18635458/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom flat for sale",
+      "price": 180000,
+      "address": "Tudor Rose Way, Norfolk IP20",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Flat",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17827921/1622910208/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17827921/1622910208/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17827921/1622910208/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17827921/1622910208/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17827921/1622910208/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17827921/"
+        }
+      ],
+      "lat": 52.4044091,
+      "lon": 1.2989124,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.197006917635658,
+        "distanceMiles": 18.763544385418186
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.0201942306603966,
+        "distanceMiles": 1.8766611092996812
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.459060996873134,
+        "distanceMiles": 15.198151190688057
+      },
+      "minAirportDistanceMiles": 1.8766611092996812,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bedroom townhouse for sale",
+      "price": 325000,
+      "address": "Doune Way, Harleston IP20",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Durrants - Harleston",
+      "agentPhone": null,
+      "type": "Townhouse",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19835616/1626139567/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19835616/1626490299/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19835616/1626139567/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19835616/1626139567/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19835616/1626139567/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19835616/"
+        }
+      ],
+      "lat": 52.4048912,
+      "lon": 1.298238,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.1418183853953,
+        "distanceMiles": 18.729251831951462
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.0827123293457017,
+        "distanceMiles": 1.9155080427978681
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.39687479271934,
+        "distanceMiles": 15.15951048682681
+      },
+      "minAirportDistanceMiles": 1.9155080427978681,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bedroom link detached house for sale",
+      "price": 350000,
+      "address": "London Road, Norfolk IP20",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Link detached house",
+      "description": "offering spacious and versatile accommodation with character features throughout.Chain-freeStudyYour Move - HarlestonAdded > 14 days",
+      "images": [
+        "https://media.onthemarket.com/properties/19792902/1629497440/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19792902/1629497440/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19792902/1629497440/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19792902/1629497440/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19792902/1629497440/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19792902/"
+        }
+      ],
+      "lat": 52.7476483,
+      "lon": 0.4027221,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Marham",
+        "icao": "EGYM",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.873662631932259,
+        "distanceMiles": 9.24206262326638
+      },
+      "nearestAirstrip": {
+        "name": "Tilney-St-Lawrence Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.753737215897151,
+        "distanceMiles": 4.817947447579229
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 56.966081976917025,
+        "distanceMiles": 35.39707132407891
+      },
+      "minAirportDistanceMiles": 4.817947447579229,
+      "flyoverRef": {
+        "location": "London Stansted Area",
+        "flightsPerDay": 516.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 516.3,
+        "flightsDiffPct": 512
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom semi-detached house for sale",
+      "price": 260000,
+      "address": "Constable Court, Norfolk IP20",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Semi-detached house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19659058/1619824311/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19659058/1619824311/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19659058/1619824311/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19659058/1619824311/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19659058/1619824311/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19659058/"
+        }
+      ],
+      "lat": 52.4034531,
+      "lon": 1.3020469,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.311613118444694,
+        "distanceMiles": 18.834757355021097
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.8757087574654037,
+        "distanceMiles": 1.7868820263350353
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.609389901516394,
+        "distanceMiles": 15.291561212495143
+      },
+      "minAirportDistanceMiles": 1.7868820263350353,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom barn conversion for sale",
+      "price": 330000,
+      "address": "Eversons Lane, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "TW Gaze - Diss",
+      "agentPhone": null,
+      "type": "Barn conversion",
+      "description": "Charming single-storey barn conversionChain-freeTW Gaze - DissAdded > 14 days",
+      "images": [
+        "https://media.onthemarket.com/properties/19646635/1630622162/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19646635/1619508588/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19646635/1630622162/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19646635/1630622162/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19646635/1630622162/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19646635/"
+        }
+      ],
+      "lat": 52.4044071,
+      "lon": 1.3008387,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.202216519514593,
+        "distanceMiles": 18.7667814809473
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.994005334672458,
+        "distanceMiles": 1.86038808881076
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.487776931093848,
+        "distanceMiles": 15.215994439450716
+      },
+      "minAirportDistanceMiles": 1.86038808881076,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bedroom semi-detached house for sale",
+      "price": 350000,
+      "address": "London Road, Norfolk IP20",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Semi-detached house",
+      "description": "an Semi-Detached HomeStudyYour Move - HarlestonAdded > 14 days",
+      "images": [
+        "https://media.onthemarket.com/properties/19431125/1626610530/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19431125/1626610530/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19431125/1626610530/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19431125/1626610530/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19431125/1626610530/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19431125/"
+        }
+      ],
+      "lat": 52.7476483,
+      "lon": 0.4027221,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Marham",
+        "icao": "EGYM",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.873662631932259,
+        "distanceMiles": 9.24206262326638
+      },
+      "nearestAirstrip": {
+        "name": "Tilney-St-Lawrence Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.753737215897151,
+        "distanceMiles": 4.817947447579229
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 56.966081976917025,
+        "distanceMiles": 35.39707132407891
+      },
+      "minAirportDistanceMiles": 4.817947447579229,
+      "flyoverRef": {
+        "location": "London Stansted Area",
+        "flightsPerDay": 516.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 516.3,
+        "flightsDiffPct": 512
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom ground floor flat for sale",
+      "price": 119950,
+      "address": "Mendham Lane, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "TW Gaze - Diss",
+      "agentPhone": null,
+      "type": "Ground floor flat",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19361125/1629852851/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19361125/1629852851/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19361125/1629852851/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19361125/1629852851/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19361125/1629852851/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19361125/"
+        }
+      ],
+      "lat": 52.4012069,
+      "lon": 1.2999621,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.5554645146458,
+        "distanceMiles": 18.986279540929974
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6571927155192614,
+        "distanceMiles": 1.6511024948349189
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.822110109315314,
+        "distanceMiles": 15.423739380735366
+      },
+      "minAirportDistanceMiles": 1.6511024948349189,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "5 bedroom detached house for sale",
+      "price": 425000,
+      "address": "Mendham Lane, Harleston IP20",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Durrants - Harleston",
+      "agentPhone": null,
+      "type": "Detached house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/18763559/1595173220/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/18763559/1595173220/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18763559/1595173220/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18763559/1595173220/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18763559/1595173220/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/18763559/"
+        }
+      ],
+      "lat": 52.4012069,
+      "lon": 1.2999621,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.5554645146458,
+        "distanceMiles": 18.986279540929974
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6571927155192614,
+        "distanceMiles": 1.6511024948349189
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.822110109315314,
+        "distanceMiles": 15.423739380735366
+      },
+      "minAirportDistanceMiles": 1.6511024948349189,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom terraced house for sale",
+      "price": 150000,
+      "address": "Broad Street, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Durrants - Harleston",
+      "agentPhone": null,
+      "type": "Terraced house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/18198733/1629275361/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/18198733/1629275361/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18198733/1629275361/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18198733/1629275361/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18198733/1629275361/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/18198733/"
+        }
+      ],
+      "lat": 52.4031295,
+      "lon": 1.3008236,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.344123133457188,
+        "distanceMiles": 18.854958135559425
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.8545085251885687,
+        "distanceMiles": 1.7737088168049462
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.62613455225815,
+        "distanceMiles": 15.3019658528712
+      },
+      "minAirportDistanceMiles": 1.7737088168049462,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom semi-detached bungalow for sale",
+      "price": 200000,
+      "address": "Croft Close, Harleston IP20 9QD",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Whittley Parish - Diss",
+      "agentPhone": null,
+      "type": "Semi-detached bungalow",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/16355448/1619535535/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16355448/1619535535/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16355448/1619535535/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16355448/1619535535/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16355448/1619535535/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16355448/"
+        }
+      ],
+      "lat": 52.4041491,
+      "lon": 1.2960738,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.21957847292253,
+        "distanceMiles": 18.777569695298347
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.040475395444438,
+        "distanceMiles": 1.8892632369427058
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.446551222053284,
+        "distanceMiles": 15.190377979398471
+      },
+      "minAirportDistanceMiles": 1.8892632369427058,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom terraced house for sale",
+      "price": 180000,
+      "address": "Mendham Lane, Norfolk IP20",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Your Move - Harleston",
+      "agentPhone": null,
+      "type": "Terraced house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17419528/1580108633/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17419528/1554026427/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17419528/1554026427/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17419528/1554026427/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17419528/1554026427/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17419528/"
+        }
+      ],
+      "lat": 52.3972053,
+      "lon": 1.3270288,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 31.122542943837527,
+        "distanceMiles": 19.338645631555266
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.4807111503701726,
+        "distanceMiles": 1.5414419682166645
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 25.70773202712052,
+        "distanceMiles": 15.974039157423906
+      },
+      "minAirportDistanceMiles": 1.5414419682166645,
+      "flyoverRef": {
+        "location": "Halesworth",
+        "flightsPerDay": 2.7,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 2.7,
+        "flightsDiffPct": -97
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bedroom terraced house for sale",
+      "price": 180000,
+      "address": "Mendham Lane, Harleston",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Musker McIntyre Estate Agents - Harleston",
+      "agentPhone": null,
+      "type": "Terraced house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17252700/1609655270/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17252700/1609655270/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17252700/1609655270/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17252700/1609655270/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17252700/1609655270/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17252700/"
+        }
+      ],
+      "lat": 52.4012069,
+      "lon": 1.2999621,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.5554645146458,
+        "distanceMiles": 18.986279540929974
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.6571927155192614,
+        "distanceMiles": 1.6511024948349189
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.822110109315314,
+        "distanceMiles": 15.423739380735366
+      },
+      "minAirportDistanceMiles": 1.6511024948349189,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed semi-detached for sale",
+      "price": 175000,
+      "address": "Briar Road, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 524,
+      "type": "semi-detached",
+      "description": "a secluded position away from the road, this semi-detached bungalow offers a tranquil retreat away from ...Listed on 1st Apr 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/2dad587e2c9261d45d98e6cacd3646f9a70077bd.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72818996/"
+        }
+      ],
+      "lat": 52.4016576,
+      "lon": 1.3034972,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.515427700384812,
+        "distanceMiles": 18.961401825615813
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.663932079687811,
+        "distanceMiles": 1.6552901402876947
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.825998067247717,
+        "distanceMiles": 15.42615524504378
+      },
+      "minAirportDistanceMiles": 1.6552901402876947,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 200000,
+      "address": "Candlers Lane, Harleston IP20",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 922,
+      "type": "Property",
+      "description": "a quiet lane just moments from the heart of Harleston, this charming end-of-terrace home combines character, ...Listed on 14th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/121364c2a1ce6e81b67a7fb34358219985607f20.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73711178/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 200000,
+      "address": "Croft Close, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "a quiet residential area and within walking distance of the town centre. Being sold with no onward ...Listed on 9th Jan 2025",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/ea304a35bf4e9497b5fe58b275833954c5a6d16a.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/69140414/"
+        }
+      ],
+      "lat": 52.4041491,
+      "lon": 1.2960738,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.21957847292253,
+        "distanceMiles": 18.777569695298347
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.040475395444438,
+        "distanceMiles": 1.8892632369427058
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.446551222053284,
+        "distanceMiles": 15.190377979398471
+      },
+      "minAirportDistanceMiles": 1.8892632369427058,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed flat for sale",
+      "price": 280000,
+      "address": "Waveney Place, Waveney Court, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 738,
+      "type": "flat",
+      "description": "a stunning first floor apartment in immaculate order, this spacious two bedroom flat forms part of a ...Listed on 14th Jul 2026Retirement",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/f372cbb8520cc73d79e4aa11cf2d58f33fa637fe.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73713903/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed semi-detached for sale",
+      "price": 230000,
+      "address": "Briar Road, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 688,
+      "type": "semi-detached",
+      "description": "Welcome to this spacious and versatile semi-detached bungalow, offered with no onward chain and situated in a ...Listed on 30th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/403fda7f042d61ef29b94062e346a15bcc98f75b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73581783/"
+        }
+      ],
+      "lat": 52.4016576,
+      "lon": 1.3034972,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.515427700384812,
+        "distanceMiles": 18.961401825615813
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.663932079687811,
+        "distanceMiles": 1.6552901402876947
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.825998067247717,
+        "distanceMiles": 15.42615524504378
+      },
+      "minAirportDistanceMiles": 1.6552901402876947,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 170000,
+      "address": "Waveney Place, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 745,
+      "type": "Property",
+      "description": "A place to feel settled from the outset, where ...Listed on 18th Apr 2026Retirement",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/4603d5311f22df706bc861d3b04ddd8cef3cd621.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72966950/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 228750,
+      "address": "Waveney Place, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 836,
+      "type": "Property",
+      "description": "Set within the well-regarded Waveney Place development in Harleston, this well-presented first floor retirement apartment ...Listed on 20th May 2026Retirement",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/b2d044f5dc0967a2b580dc88bb067971a3ec9d0f.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73244601/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 360000,
+      "address": "Cranes Meadow, Harleston IP20",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 732,
+      "type": "Property",
+      "description": "This beautifully refurbished four-bedroom home has been finished to a high standard ...Listed on 9th Apr 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/2af6a5693f14a71b57b64eb740574b67020a53f0.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72890015/"
+        }
+      ],
+      "lat": 52.4004966,
+      "lon": 1.2928003,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.61984180557743,
+        "distanceMiles": 19.026281722573454
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.7329433959057527,
+        "distanceMiles": 1.6981717708573536
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.799496226664928,
+        "distanceMiles": 15.409687769859014
+      },
+      "minAirportDistanceMiles": 1.6981717708573536,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed detached for sale",
+      "price": 320000,
+      "address": "Cranes Meadow, Harleston IP20",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1255,
+      "type": "detached",
+      "description": "Guide Price £320,000 - £340,000. This impressive four bedroom detached family home is ideally situated within a peaceful ...Listed on 26th Jan 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/b9d756f27a1f0d201b9bdbb0e7c95cdb229def90.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72265707/"
+        }
+      ],
+      "lat": 52.4004966,
+      "lon": 1.2928003,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.61984180557743,
+        "distanceMiles": 19.026281722573454
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.7329433959057527,
+        "distanceMiles": 1.6981717708573536
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.799496226664928,
+        "distanceMiles": 15.409687769859014
+      },
+      "minAirportDistanceMiles": 1.6981717708573536,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed flat for sale",
+      "price": 52000,
+      "address": "Bullfinch Drive, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "flat",
+      "description": "This well-presented two-bedroom ground floor flat in Harleston is offered with 40% shared ownership, making it an ideal ...Listed on 6th Jul 2026Call",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/db68356ca0afa42c7079a38eb3560a72b17713fc.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73637469/"
+        }
+      ],
+      "lat": 52.3977352,
+      "lon": 1.3017377,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.945968970935752,
+        "distanceMiles": 19.22892768543932
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.2542438379316456,
+        "distanceMiles": 1.4007217478194245
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 25.225050558507462,
+        "distanceMiles": 15.67411489059034
+      },
+      "minAirportDistanceMiles": 1.4007217478194245,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 270000,
+      "address": "Pilgrims Way, Harleston IP20",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "with a large driveway, spacious front lounge, and conservatory leading onto a generous garden ...Listed on 26th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/4e97fcd9e16a2e082d5736dcb8e490855f944f3f.jpg",
+        "https://lid.zoocdn.com/645/430/60a68b2c301dbf5f2e0227ad08719af878cfe447.jpg",
+        "https://lid.zoocdn.com/645/430/fda95f9fedd544b992c6c774b38e33922bb1a7bb.jpg",
+        "https://lid.zoocdn.com/645/430/324598e2b811b87956f49fda9b926abe49670de2.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73559833/"
+        }
+      ],
+      "lat": 52.4057701,
+      "lon": 1.2966051,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.040508086385604,
+        "distanceMiles": 18.666300550145507
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.2044295134003997,
+        "distanceMiles": 1.9911395711711197
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.277839051715738,
+        "distanceMiles": 15.085545129403659
+      },
+      "minAirportDistanceMiles": 1.9911395711711197,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed detached for sale",
+      "price": 380000,
+      "address": "Harvest Way, Harleston IP20",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 966,
+      "type": "detached",
+      "description": "This detached bungalow set within a tucked away and private location is presented in immaculate condition and extends to ...Listed on 25th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/17c7d68fd7d85fd6d2a8f9dfb68bf4f6d2ee6bb8.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73544582/"
+        }
+      ],
+      "lat": 52.3994191,
+      "lon": 1.3064098,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.77367982442587,
+        "distanceMiles": 19.121872206183326
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.396659587440825,
+        "distanceMiles": 1.489214764507693
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 25.11333217023947,
+        "distanceMiles": 15.60469632395387
+      },
+      "minAirportDistanceMiles": 1.489214764507693,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed cottage for sale",
+      "price": 350000,
+      "address": "Jays Green, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 981,
+      "type": "cottage",
+      "description": "a discreet yet highly convenient town centre location, this beautifully renovated period cottage offers almost ...Listed on 22nd Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/be5fdc58db71dd56d18b46dbfba3cd204bd1629e.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73508911/"
+        }
+      ],
+      "lat": 52.40619669753087,
+      "lon": 1.3189806574074079,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 30.078316828945184,
+        "distanceMiles": 18.689793806318498
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.222066365734776,
+        "distanceMiles": 2.0020985997429834
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.59653084874867,
+        "distanceMiles": 15.283570970017811
+      },
+      "minAirportDistanceMiles": 2.0020985997429834,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed end of terrace for sale",
+      "price": 230000,
+      "address": "Maltings Drive, Harleston IP20",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 744,
+      "type": "end of terrace",
+      "description": "Guide Price £230,000 - £240,000. This delightful three bedroom end of terrace home enjoys an attractive position directly ...Listed on 29th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/9d58740353f6f5c77634d6d76481baa90bdfc724.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73571806/"
+        }
+      ],
+      "lat": 52.4067159,
+      "lon": 1.3002959,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 29.94422556411561,
+        "distanceMiles": 18.60647338300008
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.2532023492357336,
+        "distanceMiles": 2.021445596946957
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.229261099157355,
+        "distanceMiles": 15.055360198444506
+      },
+      "minAirportDistanceMiles": 2.021445596946957,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed detached for sale",
+      "price": 235000,
+      "address": "Redenhall Road, Harleston IP20",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Detached",
+      "description": "this Two Bedroom Detached Bungalow – all interest and offers are invited. *Guide Price £265,000 - £235,000*Listed on 24th Feb 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/8ba55bdc74170d7b5fa12d992f3f0a940439b6fb.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72508019/"
+        }
+      ],
+      "lat": 52.4104394,
+      "lon": 1.3157809,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 29.591025228653475,
+        "distanceMiles": 18.387004937353638
+      },
+      "nearestAirstrip": {
+        "name": "Laurel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.6490543893238825,
+        "distanceMiles": 2.2674165749485704
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.083868253904075,
+        "distanceMiles": 14.96501730079663
+      },
+      "minAirportDistanceMiles": 2.2674165749485704,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -3,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 450000,
+      "address": "Wymering Road, Southwold",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "A great opportunity to purchase a lovely home tucked away on the centre of Southwold's market town, offering an allocated parking space full details",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2026/03/JqC1LhxnPkiJvlSDqUkBmw-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/wymering-road-southwold/"
+        }
+      ],
+      "lat": 52.327173,
+      "lon": 1.6752822,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.995892089130365,
+        "distanceMiles": 29.201884463315025
+      },
+      "nearestAirstrip": {
+        "name": "Yoxford Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 12.517683520069722,
+        "distanceMiles": 7.7781255265492435
+      },
+      "nearestHeliport": {
+        "name": "Great Yarmouth - North Denes Heliport",
+        "icao": "EGSD",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 34.44486261715087,
+        "distanceMiles": 21.40303872928165
+      },
+      "minAirportDistanceMiles": 7.7781255265492435,
+      "flyoverRef": {
+        "location": "Wenhaston",
+        "flightsPerDay": 2.7,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 2.7,
+        "flightsDiffPct": -97
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 450000,
+      "address": "Mundham Hill, Mundham, Norwich",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "BEAUTIFUL ONE BEDROOM ANNEX WITH INCOME POTENTIAL**This enchanting 17th Century cottage with annex/air b and b has been meticulously and sympathetically restored to create a truly captivating home, where refined interior design and exceptional attention to det",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2026/05/rNQz3_jMe0mSiStjLwH_NA-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/mundham-hill-mundham-norwich/"
+        }
+      ],
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.362237202105785,
+        "distanceMiles": 5.196051692509673
+      },
+      "nearestAirstrip": {
+        "name": "Great Ashfield Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.04035775643583,
+        "distanceMiles": 3.753303139474288
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 49.93572030206742,
+        "distanceMiles": 31.02860845981594
+      },
+      "minAirportDistanceMiles": 3.753303139474288,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 450000,
+      "address": "Manor Road, Garboldisham, Diss",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "An attractive and charming detached house approaching 2000 sq. ft. on the edge of the popular village of Garboldisham with well-presented accommodation. full details",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2026/04/sbVQrgK9xkO0jEHw0dIFcw-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/manor-road-garboldisham-diss/"
+        }
+      ],
+      "lat": 52.4042103,
+      "lon": 0.9480646,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Honington",
+        "icao": "EGXH",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.721063237268792,
+        "distanceMiles": 8.525870784804948
+      },
+      "nearestAirstrip": {
+        "name": "Knettishall Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.450086263194959,
+        "distanceMiles": 3.386525551447715
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.200236790942178,
+        "distanceMiles": 18.765551335024533
+      },
+      "minAirportDistanceMiles": 3.386525551447715,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": 0,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 450000,
+      "address": "LONG STRATTON",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "A charming and elegant Grade II Listed detached house dating from the early 19th Century located in a convenient position and with characterful accommodation. Planning permission has been applied for a garage.",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2026/02/tKQSZF3y3kKLB2vRjONutg-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/holly-tree-house-ipswich-road-long-stratton/"
+        }
+      ],
+      "lat": 52.4878256,
+      "lon": 1.233093,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 21.16967995332656,
+        "distanceMiles": 13.154225202278479
+      },
+      "nearestAirstrip": {
+        "name": "Long Stratton Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.1227641317396784,
+        "distanceMiles": 0.6976530713032157
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.62929801570651,
+        "distanceMiles": 9.09022153731757
+      },
+      "minAirportDistanceMiles": 0.6976530713032157,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 5,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 5,
+        "helipadsDiff": -3,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 450000,
+      "address": "HOMERSFIELD, HARLESTON",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "A charming 'chocolate box' Grade II Listed period cottage in an idyllic position within the picturesque village of Homersfield. It has a cottage garden leading to sweeping grounds down to the river. No Onward Chain.",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2025/05/ay3tzInfqk63YqbbqCwa-w-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/homersfield-harleston-ip20-0et/"
+        }
+      ],
+      "lat": 52.4308929,
+      "lon": 1.3377091,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 27.484478132011304,
+        "distanceMiles": 17.078057661365996
+      },
+      "nearestAirstrip": {
+        "name": "Nut Tree Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.1126637303743654,
+        "distanceMiles": 1.9341189748064498
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 22.380169030576138,
+        "distanceMiles": 13.906388010698125
+      },
+      "minAirportDistanceMiles": 1.9341189748064498,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -3,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 450000,
+      "address": "Harleston Road, Weybread, Diss",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "An individual architect designed and deceptively spacious detached house approaching 2500 sq ft with a delightful garden and field views to the front. full details",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2026/04/o3TLDoIswUOzrTo8EXRxHA-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/harleston-road-weybread-diss/"
+        }
+      ],
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.362237202105785,
+        "distanceMiles": 5.196051692509673
+      },
+      "nearestAirstrip": {
+        "name": "Great Ashfield Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.04035775643583,
+        "distanceMiles": 3.753303139474288
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 49.93572030206742,
+        "distanceMiles": 31.02860845981594
+      },
+      "minAirportDistanceMiles": 3.753303139474288,
+      "flyoverRef": {
+        "location": "Diss",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 450000,
+      "address": "Coxs Lane, Reydon",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "This is a spacious and extremely and well presented detached house, situated in the popular village of Reydon. full details",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2025/06/m8pK53ZjdEKkabRo79hIJA-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/coxs-lane-reydon/"
+        }
+      ],
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.362237202105785,
+        "distanceMiles": 5.196051692509673
+      },
+      "nearestAirstrip": {
+        "name": "Great Ashfield Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.04035775643583,
+        "distanceMiles": 3.753303139474288
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 49.93572030206742,
+        "distanceMiles": 31.02860845981594
+      },
+      "minAirportDistanceMiles": 3.753303139474288,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 450000,
+      "address": "Covert Road, Reydon",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "This recently extended and refurbished detached cottage offers a light and spacious family home with off road parking situated in the centre of Reydon. full details",
+      "postedDate": null,
+      "agent": "Durrants",
+      "agentPhone": null,
+      "images": [
+        "https://durrants.com/wp-content/uploads/2025/01/EhO5gZp8-nLb_HN4oKq-PBubh5k-2-768x512.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Durrants",
+          "url": "https://durrants.com/property/covert-road-reydon-4/"
+        }
+      ],
+      "lat": 52.3387036,
+      "lon": 1.6711973,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Norwich Airport",
+        "icao": "EGSH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 45.78270198555904,
+        "distanceMiles": 28.448043315468805
+      },
+      "nearestAirstrip": {
+        "name": "Beccles Airfield",
+        "icao": "EGSM",
+        "category": "airstrip",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 11.324306269037098,
+        "distanceMiles": 7.036595510697851
+      },
+      "nearestHeliport": {
+        "name": "Great Yarmouth - North Denes Heliport",
+        "icao": "EGSD",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 33.19664742087125,
+        "distanceMiles": 20.62743400455419
+      },
+      "minAirportDistanceMiles": 7.036595510697851,
+      "flyoverRef": {
+        "location": "Wenhaston",
+        "flightsPerDay": 2.7,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 2.7,
+        "flightsDiffPct": -97
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 255000,
+      "address": "Glenlyon Court,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 499,
+      "type": "Property",
+      "description": "situated between We……Well-maintained second-floor apart……Well-maintained second-floorapartment with neutral décor and j……Bright and spacious interiors, includi……Bright and spacious interiors,including a double",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBWYRSCLV257147/CLV257147_05_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwyrsclv257147"
+        }
+      ],
+      "lat": 55.7606353,
+      "lon": -4.0597723,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Glasgow Airport",
+        "icao": "EGPF",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 26.399501015926287,
+        "distanceMiles": 16.403884345767132
+      },
+      "nearestAirstrip": {
+        "name": "Nethershields Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.463329663481885,
+        "distanceMiles": 3.3947546163274027
+      },
+      "nearestHeliport": {
+        "name": "Wishaw Hospital",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.801445200732698,
+        "distanceMiles": 4.847591805824478
+      },
+      "minAirportDistanceMiles": 3.3947546163274027,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -3,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 330000,
+      "address": "Cat Street,",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "a d……Planning Permission granted for adetached four bedroom family ho……Wealden District Council - Referenc……Wealden District Council -Reference WD/2024/0785/F…Exceptional, convenient semi-rural l……Excep",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBTWRSTUS250192/TUS250192_19_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtwrstus250192"
+        }
+      ],
+      "lat": 51.5965163,
+      "lon": -1.3394932,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Benson",
+        "icao": "EGUB",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 16.93302964284234,
+        "distanceMiles": 10.521693562202588
+      },
+      "nearestAirstrip": {
+        "name": "Steventon Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.7421888955131655,
+        "distanceMiles": 1.7039166561939112
+      },
+      "nearestHeliport": {
+        "name": "Cricklade Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 37.18495036238827,
+        "distanceMiles": 23.105649791627563
+      },
+      "minAirportDistanceMiles": 1.7039166561939112,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 370000,
+      "address": "Brandon Street,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 743,
+      "type": "Property",
+      "description": "set ……Elegant ground floor apartment setwithin Edinburgh's prestigious Ne……Accessed via a grand and exception……Accessed via a grand andexceptionally well-maintained com……Impressive sitting room and dining",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbedscedt260295"
+        }
+      ],
+      "lat": 51.4898437,
+      "lon": -0.0920528,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 10.342626923801873,
+        "distanceMiles": 6.426608434269694
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 19.73391614771346,
+        "distanceMiles": 12.262083210620862
+      },
+      "nearestHeliport": {
+        "name": "King's College Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.4477040651191246,
+        "distanceMiles": 1.5209323226471356
+      },
+      "minAirportDistanceMiles": 1.5209323226471356,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 950000,
+      "address": "Eaton Square,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 978,
+      "type": "Property",
+      "description": "A 13 year lease, which can be extended back up to 20 years…A 13 year lease, which can be extended back up to 20 years…Richard DaltonSloane Street+44 (0) 207 730 0822+44 (0) 207 730 0822Contact nowVerity",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsshsslh260021"
+        }
+      ],
+      "lat": 51.495386,
+      "lon": -0.1524768,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 14.422954184797186,
+        "distanceMiles": 8.962005464761612
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 20.943225054078358,
+        "distanceMiles": 13.013512695077724
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 3.395581846948959,
+        "distanceMiles": 2.1099160878205216
+      },
+      "minAirportDistanceMiles": 2.1099160878205216,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 5,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 1,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1850000,
+      "address": "Ilminster Gardens,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2385,
+      "type": "Property",
+      "description": "Four double bedrooms, two with ensuite bathrooms…Four double bedrooms, two with ensuite bathrooms…Two secure underground parking spaces…Two secure underground parking spaces…Well-placed for excellent local",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbndrsndr260006"
+        }
+      ],
+      "lat": 51.4631996,
+      "lon": -0.1669097,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.081658144330007,
+        "distanceMiles": 9.992676002800481
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.420795675995937,
+        "distanceMiles": 10.824777229989271
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 1.1505023725883163,
+        "distanceMiles": 0.7148888097575747
+      },
+      "minAirportDistanceMiles": 0.7148888097575747,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 5000000,
+      "address": "Merton Lane,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 3620,
+      "type": "Property",
+      "description": "a 0.29 acres…Substantial plot circa 0.29 acres…Desirable location near Hampstead Heath…Desirable location near Hampstead Heath…Neir GigiHampstead+44 (0) 20 7472 5000+44 (0) 20 7472 5000Contact nowHouse3",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhahshah260068"
+        }
+      ],
+      "lat": 51.566823,
+      "lon": -0.1554094,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.098267230844844,
+        "distanceMiles": 10.00299640749729
+      },
+      "nearestAirstrip": {
+        "name": "Dysons Osiers Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.955342798841166,
+        "distanceMiles": 9.292816310258734
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.642512805344323,
+        "distanceMiles": 5.370206824369607
+      },
+      "minAirportDistanceMiles": 5.370206824369607,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 6,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 2,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1100000,
+      "address": "Overton Road,",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "sqft": 4889,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwsrswis250168"
+        }
+      ],
+      "lat": 51.3524681,
+      "lon": -0.2000726,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Biggin Hill Airport",
+        "icao": "EGKB",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 16.33335627164963,
+        "distanceMiles": 10.149073919871203
+      },
+      "nearestAirstrip": {
+        "name": "Chipstead Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.2278324752261796,
+        "distanceMiles": 4.491165492963766
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 13.137478424101143,
+        "distanceMiles": 8.163248105862152
+      },
+      "minAirportDistanceMiles": 4.491165492963766,
+      "flyoverRef": {
+        "location": "London Gatwick Area",
+        "flightsPerDay": 688.1,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 5,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": 1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 688.1,
+        "flightsDiffPct": 715
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1625000,
+      "address": "Englefield Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1497,
+      "type": "Property",
+      "description": "Three bedrooms…Three bedrooms…Ele RossEdinburgh Town+44 (0) 131 247 3770+44 (0) 131 247 3770Contact nowHouse1,497 sq ft (139.08 sq m)3Bedrooms2Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbisrsiss260058"
+        }
+      ],
+      "lat": 51.542346,
+      "lon": -0.0764082,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 9.998651987102901,
+        "distanceMiles": 6.212872383878117
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.979186755565754,
+        "distanceMiles": 8.686261253492649
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.9949947889462014,
+        "distanceMiles": 1.8610029070022902
+      },
+      "minAirportDistanceMiles": 1.8610029070022902,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 2500000,
+      "address": "D'arblay Street,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1848,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbmyrsmas240057"
+        }
+      ],
+      "lat": 51.5145201,
+      "lon": -0.1363449,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 13.300918436749894,
+        "distanceMiles": 8.26480498996172
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 18.772850155689277,
+        "distanceMiles": 11.664904674090801
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.410231961636549,
+        "distanceMiles": 3.361761244234064
+      },
+      "minAirportDistanceMiles": 3.361761244234064,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 550000,
+      "address": "Ivory House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 607,
+      "type": "Property",
+      "description": "a CobbBattersea Park+44 (0) 203 402 1900+44 (0) 203 402 1900Contact nowFlat / Apartment607 sq ft (56.39 sq m)1Bedrooms1Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbqrswts190055"
+        }
+      ],
+      "lat": 51.5072002,
+      "lon": -0.0714433,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 8.773051335343974,
+        "distanceMiles": 5.45131968129402
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.41507642646363,
+        "distanceMiles": 10.821223454188134
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.4929611455933518,
+        "distanceMiles": 0.9276827599984866
+      },
+      "minAirportDistanceMiles": 0.9276827599984866,
+      "flyoverRef": {
+        "location": "London Central",
+        "flightsPerDay": 84.4,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 84.4,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 2395000,
+      "address": "Ailsa Road,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2328,
+      "type": "Property",
+      "description": "a Road…Twickenham, TW1 1QW2,328 sq ft(216.28 sq m)Guide price £2,395,000Sold in July 2026…Sold in July 2026…Stunning deVOL kitchen…Stunning deVOL kitchen…Generous parking…Generous parking…Tasteful renov",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbrirsris250071"
+        }
+      ],
+      "lat": 51.4598818,
+      "lon": -0.3210305,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Heathrow Airport",
+        "icao": "EGLL",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 9.696125435941736,
+        "distanceMiles": 6.024891158256553
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.738252671496284,
+        "distanceMiles": 8.536551800740318
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 9.865066931809578,
+        "distanceMiles": 6.129866504485449
+      },
+      "minAirportDistanceMiles": 6.024891158256553,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 8,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 4,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1495000,
+      "address": "Cuttle Lane,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 4026,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbhrsbts250163"
+        }
+      ],
+      "lat": 51.4690471,
+      "lon": -2.2036481,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Bristol Airport",
+        "icao": "EGGD",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 36.83881765130756,
+        "distanceMiles": 22.89057296281063
+      },
+      "nearestAirstrip": {
+        "name": "Wadswick Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.54865941069471,
+        "distanceMiles": 4.069147046682783
+      },
+      "nearestHeliport": {
+        "name": "Wiltshire Air Ambulance",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.719777041644829,
+        "distanceMiles": 8.525071580143889
+      },
+      "minAirportDistanceMiles": 4.069147046682783,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 3,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 3,
+        "helipadsDiff": -3,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 650000,
+      "address": "Albion Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1023,
+      "type": "Property",
+      "description": "Three bedrooms and a family bathroom and shower room…Three bedrooms and a family bathroom and shower room…Generously sized sitting room…Generously sized sitting room…Open-plan kitchen/dining area…Open-plan",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtwrsclv756973"
+        }
+      ],
+      "lat": 51.445216,
+      "lon": -0.341618,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Heathrow Airport",
+        "icao": "EGLL",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 8.673502820606453,
+        "distanceMiles": 5.389463121143052
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 12.246284168009701,
+        "distanceMiles": 7.609485839760357
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 11.560787097109165,
+        "distanceMiles": 7.183537839317819
+      },
+      "minAirportDistanceMiles": 5.389463121143052,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 8,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 4,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1075000,
+      "address": "Blandy Road,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 2270,
+      "type": "Property",
+      "description": "Four well proportioned double bedrooms, including principal with en suite…Four well proportioned double bedrooms, including principal with en suite…Multiple reception rooms offering flexible family and ent",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhershes260135"
+        }
+      ],
+      "lat": 51.5267112,
+      "lon": -0.9127573,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Benson",
+        "icao": "EGUB",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 15.980399147427756,
+        "distanceMiles": 9.929756598636333
+      },
+      "nearestAirstrip": {
+        "name": "Harpsden Park Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.345882492470451,
+        "distanceMiles": 0.8362923502288567
+      },
+      "nearestHeliport": {
+        "name": "Windsor/Ascot Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.635660660489997,
+        "distanceMiles": 10.33691710026933
+      },
+      "minAirportDistanceMiles": 0.8362923502288567,
+      "flyoverRef": {
+        "location": "London Heathrow Area",
+        "flightsPerDay": 1228.3,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": 0,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 1228.3,
+        "flightsDiffPct": 1355
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.362237202105785,
+        "distanceMiles": 5.196051692509673
+      },
+      "nearestAirstrip": {
+        "name": "Great Ashfield Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.04035775643583,
+        "distanceMiles": 3.753303139474288
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 49.93572030206742,
+        "distanceMiles": 31.02860845981594
+      },
+      "minAirportDistanceMiles": 3.753303139474288,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.362237202105785,
+        "distanceMiles": 5.196051692509673
+      },
+      "nearestAirstrip": {
+        "name": "Great Ashfield Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.04035775643583,
+        "distanceMiles": 3.753303139474288
+      },
+      "nearestHeliport": {
+        "name": "Norfolk and Norwich University Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 49.93572030206742,
+        "distanceMiles": 31.02860845981594
+      },
+      "minAirportDistanceMiles": 3.753303139474288,
+      "flyoverRef": {
+        "location": "Harleston",
+        "flightsPerDay": 3.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 850000,
+      "address": "Lodsworth, Petworth, West Sussex, GU28",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr2.homeflow-assets.co.uk/files/photo/image/47934/1643/450x_/MID250117_01.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21960256/sales/midhurst"
+        }
+      ],
+      "lat": 50.9995902,
+      "lon": -0.6797857,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Farnborough Airport",
+        "icao": "EGLF",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 31.44301523287263,
+        "distanceMiles": 19.537777818265297
+      },
+      "nearestAirstrip": {
+        "name": "Old Mill Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.4153244224178936,
+        "distanceMiles": 2.122183551682229
+      },
+      "nearestHeliport": {
+        "name": "Goodwood Racecourse Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 11.780813598987427,
+        "distanceMiles": 7.320255926816417
+      },
+      "minAirportDistanceMiles": 2.122183551682229,
+      "flyoverRef": {
+        "location": "London Gatwick Area",
+        "flightsPerDay": 688.1,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 1,
+        "helipadsCount": 2,
+        "airportsDiff": -2,
+        "airstripsDiff": 1,
+        "helipadsDiff": -2,
+        "flightsPerDay": 688.1,
+        "flightsDiffPct": 715
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2370037,
+      "lon": -2.2967325,
+      "searchLocation": "Harleston",
+      "searchLocations": [
+        "Harleston"
+      ],
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.54737313961276,
+        "distanceMiles": 7.796573795134321
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.403410650617062,
+        "distanceMiles": 2.7361516793845744
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.842662120410782,
+        "distanceMiles": 10.465541804421768
+      },
+      "minAirportDistanceMiles": 2.7361516793845744,
+      "flyoverRef": {
+        "location": "London Luton Area",
+        "flightsPerDay": 360.2,
+        "seasonalFlag": "stable",
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 360.2,
+        "flightsDiffPct": 327
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-23T10:12:20.492Z"
+    }
+  ],
+  "portalLinks": [
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip20-9ad/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip20-9ad/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP20%209AD&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E11918&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP20%209AD&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP20%209AD&minbeds=2&maxprice=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP20%209AD&minBeds=2&maxPrice=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP20%209AD&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Harleston"
+    }
+  ]
+}

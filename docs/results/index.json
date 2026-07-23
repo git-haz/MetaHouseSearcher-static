@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:04:49.518Z",
+  "generatedAt": "2026-07-23T10:15:14.365Z",
   "complete": false,
   "searchConfig": {
     "searches": [
@@ -312,14 +312,19 @@
     "Wooler"
   ],
   "totalLocations": 35,
-  "completedLocations": 5,
+  "completedLocations": 10,
   "totalResults": null,
   "available": [
     "launceston",
     "totnes",
     "bude",
     "fressingfield",
-    "laxfield"
+    "laxfield",
+    "hoxne",
+    "wenhaston",
+    "diss",
+    "harleston",
+    "halesworth"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -537,6 +542,206 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=IP13%208DQ&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Laxfield"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip21-5ar/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip21-5ar/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP21%205AR&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E13223&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP21%205AR&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP21%205AR&minbeds=2&maxprice=450000",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP21%205AR&minBeds=2&maxPrice=450000",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP21%205AR&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Hoxne"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip19-9jj/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip19-9jj/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP19%209JJ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1264&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP19%209JJ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP19%209JJ&minbeds=2&maxprice=450000",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP19%209JJ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP19%209JJ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Wenhaston"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip22-4jt/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip22-4jt/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP22%204JT&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E425&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP22%204JT&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP22%204JT&minbeds=2&maxprice=450000",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP22%204JT&minBeds=2&maxPrice=450000",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP22%204JT&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Diss"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip20-9ad/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip20-9ad/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP20%209AD&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E11918&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP20%209AD&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP20%209AD&minbeds=2&maxprice=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP20%209AD&minBeds=2&maxPrice=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP20%209AD&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Harleston"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip19-8sy/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/ip19-8sy/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP19%208SY&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E587&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP19%208SY&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=IP19%208SY&minbeds=2&maxprice=450000",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP19%208SY&minBeds=2&maxPrice=450000",
+      "searchLocation": "Halesworth"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP19%208SY&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Halesworth"
     }
   ]
 }
