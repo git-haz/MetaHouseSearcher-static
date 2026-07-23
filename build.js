@@ -5,7 +5,7 @@ const { execSync } = require('child_process');
 
 // Reuse modules from the main project
 const mainDir = path.join(__dirname, '..', 'property-search', 'server');
-const { closeBrowser } = require(path.join(mainDir, 'browser'));
+const { getBrowser, closeBrowser } = require(path.join(mainDir, 'browser'));
 const { deduplicate, normalizeAddress, descriptionSimilarity, getUrl } = require(path.join(mainDir, 'dedup'));
 const { findNearestByCategory } = require(path.join(mainDir, 'airports'));
 const { geocodeResults } = require(path.join(mainDir, 'geocode'));
@@ -268,6 +268,18 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
   // 9. Recommendation assessment (--recommend or config.recommend.enabled)
   const recommendEnabled = process.argv.includes('--recommend') || process.argv.includes('--ml-recommend') || config.recommend?.enabled;
   if (recommendEnabled && ukTowns && ukTowns.length > 0) {
+    // Fetch detail pages for properties that could pass the distance gate
+    const _browser = await getBrowser();
+    const _page = await _browser.newPage();
+    const minMiles = Math.min(
+      config.recommend?.minDistanceToTownMiles    ?? 15,
+      config.recommend?.minDistanceToAirportMiles ?? 15,
+      config.recommend?.minDistanceToHelipadMiles ?? 15,
+      5 // always fetch down to the adaptive floor
+    );
+    await enrichWithDetails(_page, results, ukTowns, minMiles);
+    await _page.close();
+
     let recommended = 0;
     for (const r of results) {
       if (r.lat == null) continue;
@@ -303,6 +315,87 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
   fs.writeFileSync(path.join(resultsDir, `${slug}.json`), JSON.stringify(output, null, 2));
   console.log(`  ✓ docs/results/${slug}.json (${results.length} properties)`);
   return results.length;
+}
+
+// ---- Detail page description fetching ----
+async function dismissCookies(page) {
+  try {
+    await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll('button, a'))
+        .find(b => /accept all|accept cookies|agree|allow all/i.test(b.textContent));
+      if (btn) btn.click();
+    });
+    await new Promise(r => setTimeout(r, 600));
+  } catch (_) {}
+}
+
+async function fetchDetailDescription(page, url) {
+  if (!url) return '';
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
+    await new Promise(r => setTimeout(r, 1800));
+    await dismissCookies(page);
+    await new Promise(r => setTimeout(r, 400));
+
+    return await page.evaluate((href) => {
+      const isOTM     = href.includes('onthemarket.com');
+      const isZoopla  = href.includes('zoopla.co.uk');
+      const isDurrants = href.includes('durrants.com');
+
+      if (isOTM) {
+        const heading = Array.from(document.querySelectorAll('h2,h3,h4,strong'))
+          .find(h => /description/i.test(h.textContent));
+        if (heading) {
+          let el = heading.parentElement;
+          for (let i = 0; i < 4; i++) {
+            const ps = el.querySelectorAll('p');
+            if (ps.length) return Array.from(ps).map(p => p.textContent.trim()).join(' ');
+            el = el.parentElement;
+          }
+        }
+      }
+      if (isZoopla) {
+        for (const sel of ['[data-testid="listing_description"]','[data-testid="description"]','#listing-description','[class*="ListingDescription"]','[class*="listing-description"]']) {
+          const el = document.querySelector(sel);
+          if (el && el.textContent.length > 100)
+            return Array.from(el.querySelectorAll('p,li') || []).map(e => e.textContent.trim()).filter(t => t.length > 10).join(' ');
+        }
+      }
+      if (isDurrants) {
+        for (const sel of ['.property-description','.entry-content','article','main']) {
+          const el = document.querySelector(sel);
+          if (el) return Array.from(el.querySelectorAll('p,li')).map(e => e.textContent.trim()).filter(t => t.length > 10).join(' ');
+        }
+      }
+      // Generic: paragraphs longer than 80 chars
+      return Array.from(document.querySelectorAll('p'))
+        .filter(p => p.textContent.trim().length > 80)
+        .map(p => p.textContent.trim()).join(' ');
+    }, url);
+  } catch (_) {
+    return '';
+  }
+}
+
+// Pre-fetch detail pages for properties that could pass a distance gate (minMiles floor).
+// Skips properties that already have fullDescription set.
+function hvDist2(lat1, lon1, lat2, lon2) {
+  const R = 3958.8, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+async function enrichWithDetails(page, properties, ukTowns, minMiles) {
+  for (const p of properties) {
+    if (!p.lat || p.fullDescription) continue;
+    const url = p.sources?.[0]?.url;
+    if (!url) continue;
+    let nearTown = Infinity;
+    for (const t of ukTowns) { const d = hvDist2(p.lat, p.lon, t.lat, t.lon); if (d < nearTown) nearTown = d; }
+    if (nearTown < minMiles) continue;
+    const desc = (await fetchDetailDescription(page, url)).replace(/\s+/g, ' ').trim().slice(0, 3000);
+    if (desc.length > 100) p.fullDescription = desc;
+  }
 }
 
 // ---- Write index.json ----
@@ -509,6 +602,89 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
   console.log('\nBuild complete!');
 }
 
+// ---- Adaptive recommendation scoring across all location files ----
+// Starts at config distances, reduces by 1 mile per iteration until ≥1 result or floor (5mi) is reached.
+async function adaptiveRescore(resultsDir, ukTowns, config, slugs, page) {
+  const rec      = config.recommend || {};
+  const MIN_FLOOR = 5;
+
+  let minTown    = rec.minDistanceToTownMiles    ?? 15;
+  let minAirport = rec.minDistanceToAirportMiles ?? 15;
+  let minHelipad = rec.minDistanceToHelipadMiles ?? 15;
+
+  // Pre-fetch detail pages once (for all props that could pass even the most lenient gate).
+  // Stores result in property.fullDescription so assessProperty picks it up automatically.
+  if (page) {
+    console.log('  Fetching detail pages for distance-eligible properties…');
+    for (const slug of slugs) {
+      const filePath = path.join(resultsDir, `${slug}.json`);
+      if (!fs.existsSync(filePath)) continue;
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const before = data.properties.filter(p => p.fullDescription).length;
+      await enrichWithDetails(page, data.properties, ukTowns, MIN_FLOOR);
+      const after = data.properties.filter(p => p.fullDescription).length;
+      if (after > before) {
+        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+        console.log(`    ${slug}: fetched ${after - before} detail page(s)`);
+      }
+    }
+  }
+
+  let finalData  = null;
+  let finalCount = 0;
+  let effectiveMins = { minTown, minAirport, minHelipad };
+
+  while (true) {
+    const iterConfig = {
+      ...config,
+      recommend: { ...rec, minDistanceToTownMiles: minTown, minDistanceToAirportMiles: minAirport, minDistanceToHelipadMiles: minHelipad },
+    };
+
+    let totalRecommended = 0;
+    const iteration = [];
+    for (const slug of slugs) {
+      const filePath = path.join(resultsDir, `${slug}.json`);
+      if (!fs.existsSync(filePath)) continue;
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      let recommended = 0;
+      for (const r of data.properties) {
+        if (r.lat == null) continue;
+        const assessment = await assessProperty(r, ukTowns, iterConfig);
+        Object.assign(r, assessment);
+        if (r.recommended) recommended++;
+      }
+      totalRecommended += recommended;
+      iteration.push({ filePath, data, recommended });
+    }
+
+    const atFloor = minTown <= MIN_FLOOR && minAirport <= MIN_FLOOR && minHelipad <= MIN_FLOOR;
+    console.log(`  town≥${minTown}mi airport≥${minAirport}mi helipad≥${minHelipad}mi → ${totalRecommended} recommended`);
+
+    if (totalRecommended > 0 || atFloor) {
+      finalData  = iteration;
+      finalCount = totalRecommended;
+      effectiveMins = { minTown, minAirport, minHelipad };
+      break;
+    }
+
+    minTown    = Math.max(MIN_FLOOR, minTown    - 1);
+    minAirport = Math.max(MIN_FLOOR, minAirport - 1);
+    minHelipad = Math.max(MIN_FLOOR, minHelipad - 1);
+  }
+
+  const ts = new Date().toISOString();
+  let totalProperties = 0;
+  for (const { filePath, data, recommended } of finalData) {
+    data.rescoredAt = ts;
+    data.effectiveRecommendConfig = effectiveMins;
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    console.log(`  ${data.location}: ${recommended}/${data.properties.length} recommended`);
+    totalProperties += data.properties.length;
+  }
+
+  return { totalRecommended: finalCount, totalProperties, slugs: finalData.map(d => d.filePath), ...effectiveMins };
+}
+
 // ---- --rescore: re-run recommendation on existing docs/results/ files ----
 async function rescoreResults(config, resultsDir, ukTowns) {
   const indexPath = path.join(resultsDir, 'index.json');
@@ -517,31 +693,29 @@ async function rescoreResults(config, resultsDir, ukTowns) {
     process.exit(1);
   }
   const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-  const slugs = index.available || [];
-  console.log(`\nRescoring ${slugs.length} location file(s)…`);
-
-  let totalRecommended = 0, totalProperties = 0;
-  for (const slug of slugs) {
-    const filePath = path.join(resultsDir, `${slug}.json`);
-    if (!fs.existsSync(filePath)) continue;
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    let recommended = 0;
-    for (const r of data.properties) {
-      if (r.lat == null) continue;
-      const assessment = await assessProperty(r, ukTowns, config);
-      Object.assign(r, assessment);
-      if (r.recommended) recommended++;
-    }
-    data.rescoredAt = new Date().toISOString();
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    console.log(`  ${data.location}: ${recommended}/${data.properties.length} recommended`);
-    totalRecommended += recommended;
-    totalProperties  += data.properties.length;
+  // Prefer index.available, but fall back to scanning the directory so --rescore
+  // works even when a previous build crashed before writing the final index.
+  let slugs = index.available || [];
+  if (slugs.length === 0) {
+    slugs = fs.readdirSync(resultsDir)
+      .filter(f => f.endsWith('.json') && f !== 'index.json')
+      .map(f => f.replace(/\.json$/, ''));
+    if (slugs.length > 0) console.log(`index.available was empty — found ${slugs.length} file(s) by directory scan`);
   }
+  console.log(`\nRescoring ${slugs.length} location file(s) with adaptive distance reduction…`);
+
+  const browser = await getBrowser();
+  const page    = await browser.newPage();
+  await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-GB,en;q=0.9' });
+
+  const { totalRecommended, totalProperties, minTown, minAirport, minHelipad } =
+    await adaptiveRescore(resultsDir, ukTowns, config, slugs, page);
+
+  await closeBrowser();
 
   index.rescoredAt = new Date().toISOString();
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
-  console.log(`\nDone. ${totalRecommended}/${totalProperties} properties recommended across ${slugs.length} locations.`);
+  console.log(`\nDone. ${totalRecommended}/${totalProperties} recommended (town≥${minTown}mi, airport≥${minAirport}mi, helipad≥${minHelipad}mi)`);
 }
 
 // ---- main ----
@@ -583,7 +757,16 @@ async function main() {
       ukTowns = JSON.parse(fs.readFileSync(ukTownsSource, 'utf8'));
       fs.copyFileSync(ukTownsSource, path.join(docsDir, 'uk-towns.json'));
       console.log(`Loaded ${ukTowns.length} UK towns for recommendation checks`);
-      if (USE_ML) await initML();
+      if (USE_ML) {
+        try {
+          const { pipeline, env } = require('@xenova/transformers');
+          env.cacheDir = path.join(mainDir, '..', '.model-cache');
+          env.allowRemoteModels = false;
+          await initML(pipeline);
+        } catch (err) {
+          console.warn(`ML not available (${err.message.slice(0, 80)}), using keyword scoring`);
+        }
+      }
     }
   }
 
@@ -708,6 +891,18 @@ async function main() {
 
   // Final cross-location pass (dupe detection + same-URL dedup)
   const totalResults = await finalPass(resultsDir, completedSlugs);
+
+  // Adaptive recommendation pass across all locations
+  if (recommendEnabled && ukTowns.length > 0) {
+    console.log('\nRunning adaptive recommendation pass…');
+    const _browser = await getBrowser();
+    const _page    = await _browser.newPage();
+    await _page.setExtraHTTPHeaders({ 'Accept-Language': 'en-GB,en;q=0.9' });
+    const { totalRecommended, minTown, minAirport, minHelipad } =
+      await adaptiveRescore(resultsDir, ukTowns, config, completedSlugs, _page);
+    await _page.close();
+    console.log(`Recommendation: ${totalRecommended} recommended (town≥${minTown}mi, airport≥${minAirport}mi, helipad≥${minHelipad}mi)`);
+  }
 
   // Write complete index
   writeIndex(resultsDir, config, baselineData, completedSlugs, true, totalResults, allPortalLinks);

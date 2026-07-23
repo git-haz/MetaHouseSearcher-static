@@ -38,11 +38,11 @@
   ],
   "rejectionReasons": ["house type", "neighbour vicinity", "solar panels", "A road vicinity", "B road vicinity"],
   "recommend": {
-    "enabled": false,
-    "minDistanceToTownMiles": 15,
+    "enabled": true,
+    "minDistanceToTownMiles": 10,
     "minDistanceToAirportMiles": 15,
     "minDistanceToHelipadMiles": 15,
-    "confidenceThreshold": 0.9
+    "confidenceThreshold": 0.4
   },
   "autoReject": {
     "titlePatterns": [
