@@ -211,6 +211,42 @@
     </div>
 
     <div id="map-area" style="display:none;">
+      <div class="map-controls">
+        <div class="mc-group">
+          <div class="mc-group-title">✈ Airports <input type="number" id="radiusAirport" value="20" min="1" max="100" class="mc-radius"> mi</div>
+          <div class="mc-checks">
+            <label class="mc-check"><input type="checkbox" id="airport-commercial" checked> Commercial</label>
+            <label class="mc-check"><input type="checkbox" id="airport-military" checked> Military/RAF</label>
+            <label class="mc-check"><input type="checkbox" id="airport-private" checked> Private</label>
+            <label class="mc-check"><input type="checkbox" id="airport-inactive"> Inactives</label>
+          </div>
+        </div>
+        <div class="mc-group">
+          <div class="mc-group-title">🛩 Airstrips <input type="number" id="radiusAirstrip" value="15" min="1" max="100" class="mc-radius"> mi</div>
+          <div class="mc-checks">
+            <label class="mc-check"><input type="checkbox" id="airstrip-commercial"> Commercial</label>
+            <label class="mc-check"><input type="checkbox" id="airstrip-military"> Military/RAF</label>
+            <label class="mc-check"><input type="checkbox" id="airstrip-private"> Private</label>
+            <label class="mc-check"><input type="checkbox" id="airstrip-inactive"> Inactives</label>
+          </div>
+        </div>
+        <div class="mc-group">
+          <div class="mc-group-title">🚁 Helipads <input type="number" id="radiusHelipad" value="20" min="1" max="100" class="mc-radius"> mi</div>
+          <div class="mc-checks">
+            <label class="mc-check"><input type="checkbox" id="heliport-commercial" checked> Commercial</label>
+            <label class="mc-check"><input type="checkbox" id="heliport-military" checked> Military/RAF</label>
+            <label class="mc-check"><input type="checkbox" id="heliport-private" checked> Private</label>
+            <label class="mc-check"><input type="checkbox" id="heliport-inactive"> Inactives</label>
+          </div>
+        </div>
+        <div class="mc-group">
+          <div class="mc-group-title">🏘 Towns <input type="number" id="radiusTown" value="5" min="1" max="100" class="mc-radius"> mi</div>
+          <div class="mc-checks">
+            <label class="mc-check"><input type="checkbox" id="showTownCircles"> Show circles</label>
+            <span class="mc-pop-label" id="townPopLabel"></span>
+          </div>
+        </div>
+      </div>
       <div id="map" style="height:600px;border-radius:8px;"></div>
       <div class="zone-panel" id="zonePanel">
         <div class="zone-header">
@@ -218,21 +254,6 @@
           <button class="btn btn-primary btn-sm" id="startDrawZone">+ Draw Zone</button>
         </div>
         <div id="zoneList"></div>
-        <div class="airport-circles-config" style="border-top:1px solid var(--border);padding-top:8px;margin-top:8px;">
-          <strong style="font-size:12px;">Airport Zones</strong>
-          <div class="airport-circle-row">
-            <label class="pt-check"><input type="checkbox" id="showAirportCircles" data-cat="airport"> ✈ Airports</label>
-            <input type="number" id="radiusAirport" value="20" min="1" max="100" style="width:50px;padding:2px 6px;border:1px solid var(--border);border-radius:4px;font-size:12px;"> mi
-          </div>
-          <div class="airport-circle-row">
-            <label class="pt-check"><input type="checkbox" id="showAirstripCircles" data-cat="airstrip"> 🛩 Airstrips</label>
-            <input type="number" id="radiusAirstrip" value="15" min="1" max="100" style="width:50px;padding:2px 6px;border:1px solid var(--border);border-radius:4px;font-size:12px;"> mi
-          </div>
-          <div class="airport-circle-row">
-            <label class="pt-check"><input type="checkbox" id="showHelipadCircles" data-cat="heliport"> 🚁 Helipads</label>
-            <input type="number" id="radiusHelipad" value="20" min="1" max="100" style="width:50px;padding:2px 6px;border:1px solid var(--border);border-radius:4px;font-size:12px;"> mi
-          </div>
-        </div>
       </div>
     </div>
 

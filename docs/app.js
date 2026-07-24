@@ -238,6 +238,7 @@ async function init() {
     }
 
     autoRejectProperties(currentResults);
+    updateTownPopLabel();
 
     // Populate unified tag checkboxes
     const rejectionReasons = allData.searchConfig?.rejectionReasons || ['house type', 'neighbour vicinity', 'solar panels', 'A road vicinity', 'B road vicinity'];
@@ -752,11 +753,30 @@ function renderMap(results) {
   renderZoneList();
 }
 
-// --- Airport circles on map ---
+// --- Airport & town circles on map ---
 let airportData = null;
 let airportCircleLayers = [];
-let airportCircleConfig = loadJSON('airportCircleConfig', { airport: false, airstrip: false, heliport: false, radiusAirport: 20, radiusAirstrip: 15, radiusHelipad: 20 });
+let townData = null;
+let townCircleLayers = [];
+
+const DEFAULT_AIRPORT_CONFIG = {
+  airport:  { commercial: true,  military: true,  private: true,  inactive: false, radius: 20 },
+  airstrip: { commercial: false, military: false, private: false, inactive: false, radius: 15 },
+  heliport: { commercial: true,  military: true,  private: true,  inactive: false, radius: 20 },
+};
+const DEFAULT_TOWN_CONFIG = { show: false, radius: 5 };
+
+let airportCircleConfig = loadJSON('airportCircleConfig', DEFAULT_AIRPORT_CONFIG);
+let townCircleConfig = loadJSON('townCircleConfig', DEFAULT_TOWN_CONFIG);
+
+// Migrate old flat config shape to new nested shape
+if (typeof airportCircleConfig.airport !== 'object') {
+  airportCircleConfig = DEFAULT_AIRPORT_CONFIG;
+  localStorage.setItem('airportCircleConfig', JSON.stringify(airportCircleConfig));
+}
+
 function saveAirportCircleConfig() { localStorage.setItem('airportCircleConfig', JSON.stringify(airportCircleConfig)); }
+function saveTownCircleConfig() { localStorage.setItem('townCircleConfig', JSON.stringify(townCircleConfig)); }
 
 async function loadAirportData() {
   if (airportData) return airportData;
@@ -768,6 +788,15 @@ async function loadAirportData() {
   return airportData;
 }
 
+async function loadTownData() {
+  if (townData) return townData;
+  try {
+    const res = await fetch('uk-towns.json');
+    townData = await res.json();
+  } catch { townData = []; }
+  return townData;
+}
+
 function milesToMeters(miles) { return miles * 1609.344; }
 
 function drawAirportCircles() {
@@ -775,67 +804,108 @@ function drawAirportCircles() {
   airportCircleLayers = [];
   if (!map || !airportData) return;
 
-  const anyEnabled = airportCircleConfig.airport || airportCircleConfig.airstrip || airportCircleConfig.heliport;
-  if (!anyEnabled) return;
-
+  const colorMap = { airport: '#c62828', airstrip: '#1565c0', heliport: '#6a1b9a' };
   const bounds = map.getBounds();
   const visible = airportData.filter(a =>
     a.lat >= bounds.getSouth() - 0.5 && a.lat <= bounds.getNorth() + 0.5 &&
     a.lon >= bounds.getWest() - 0.5 && a.lon <= bounds.getEast() + 0.5
   );
 
-  const colorMap = { airport: '#c62828', airstrip: '#1565c0', heliport: '#6a1b9a' };
-  const radiusMap = {
-    airport: airportCircleConfig.radiusAirport || 20,
-    airstrip: airportCircleConfig.radiusAirstrip || 15,
-    heliport: airportCircleConfig.radiusHelipad || 20,
-  };
-
   for (const a of visible) {
     const cat = a.category || 'airstrip';
-    if (!airportCircleConfig[cat]) continue;
+    const cfg = airportCircleConfig[cat];
+    if (!cfg) continue;
+    const usage = (a.usage || 'private').toLowerCase();
+    if (!cfg[usage]) continue;
+    if (!a.active && !cfg.inactive) continue;
 
     const circle = L.circle([a.lat, a.lon], {
-      radius: milesToMeters(radiusMap[cat]),
+      radius: milesToMeters(cfg.radius),
       color: colorMap[cat],
       fillColor: colorMap[cat],
-      fillOpacity: 0.2,
+      fillOpacity: 0.15,
       weight: 1,
-      interactive: true,
     }).addTo(map);
-    circle.bindTooltip(`${a.name}${a.icao ? ' (' + a.icao + ')' : ''} — ${cat} (${a.usage})${a.active === false ? ' [inactive]' : ''}\n${radiusMap[cat]} mi radius`, { direction: 'top' });
+    circle.bindTooltip(
+      `${a.name}${a.icao ? ' (' + a.icao + ')' : ''} — ${usage}${a.active === false ? ' [inactive]' : ''}\n${cfg.radius} mi radius`,
+      { direction: 'top' }
+    );
     airportCircleLayers.push(circle);
   }
 }
 
+async function drawTownCircles() {
+  townCircleLayers.forEach(l => map.removeLayer(l));
+  townCircleLayers = [];
+  if (!map || !townCircleConfig.show) return;
+
+  await loadTownData();
+  const minPop = (allData && allData.searchConfig && allData.searchConfig.recommend && allData.searchConfig.recommend.minTownPopulation) || 10000;
+  const filtered = townData.filter(t => t.pop >= minPop);
+
+  for (const t of filtered) {
+    const circle = L.circle([t.lat, t.lon], {
+      radius: milesToMeters(townCircleConfig.radius),
+      color: '#2e7d32',
+      fillColor: '#2e7d32',
+      fillOpacity: 0.06,
+      weight: 1,
+    }).addTo(map);
+    circle.bindTooltip(`${t.name} — pop ${t.pop.toLocaleString()}\n${townCircleConfig.radius} mi radius`, { direction: 'top' });
+    townCircleLayers.push(circle);
+  }
+}
+
 // Restore saved state into checkboxes
-document.getElementById('showAirportCircles').checked = airportCircleConfig.airport;
-document.getElementById('showAirstripCircles').checked = airportCircleConfig.airstrip;
-document.getElementById('showHelipadCircles').checked = airportCircleConfig.heliport;
-document.getElementById('radiusAirport').value = airportCircleConfig.radiusAirport || 20;
-document.getElementById('radiusAirstrip').value = airportCircleConfig.radiusAirstrip || 15;
-document.getElementById('radiusHelipad').value = airportCircleConfig.radiusHelipad || 20;
+['airport', 'airstrip', 'heliport'].forEach(cat => {
+  const cfg = airportCircleConfig[cat];
+  ['commercial', 'military', 'private', 'inactive'].forEach(k => {
+    const el = document.getElementById(`${cat}-${k}`);
+    if (el) el.checked = !!cfg[k];
+  });
+});
+document.getElementById('radiusAirport').value = airportCircleConfig.airport.radius;
+document.getElementById('radiusAirstrip').value = airportCircleConfig.airstrip.radius;
+document.getElementById('radiusHelipad').value = airportCircleConfig.heliport.radius;
+document.getElementById('showTownCircles').checked = townCircleConfig.show;
+document.getElementById('radiusTown').value = townCircleConfig.radius;
+
+function updateTownPopLabel() {
+  const minPop = (allData && allData.searchConfig && allData.searchConfig.recommend && allData.searchConfig.recommend.minTownPopulation) || 10000;
+  const el = document.getElementById('townPopLabel');
+  if (el) el.textContent = `pop ≥ ${minPop.toLocaleString()}`;
+}
 
 async function onAirportConfigChange() {
-  airportCircleConfig.airport = document.getElementById('showAirportCircles').checked;
-  airportCircleConfig.airstrip = document.getElementById('showAirstripCircles').checked;
-  airportCircleConfig.heliport = document.getElementById('showHelipadCircles').checked;
-  airportCircleConfig.radiusAirport = parseInt(document.getElementById('radiusAirport').value) || 20;
-  airportCircleConfig.radiusAirstrip = parseInt(document.getElementById('radiusAirstrip').value) || 15;
-  airportCircleConfig.radiusHelipad = parseInt(document.getElementById('radiusHelipad').value) || 20;
+  ['airport', 'airstrip', 'heliport'].forEach(cat => {
+    ['commercial', 'military', 'private', 'inactive'].forEach(k => {
+      const el = document.getElementById(`${cat}-${k}`);
+      if (el) airportCircleConfig[cat][k] = el.checked;
+    });
+  });
+  airportCircleConfig.airport.radius  = parseInt(document.getElementById('radiusAirport').value) || 20;
+  airportCircleConfig.airstrip.radius = parseInt(document.getElementById('radiusAirstrip').value) || 15;
+  airportCircleConfig.heliport.radius = parseInt(document.getElementById('radiusHelipad').value) || 20;
   saveAirportCircleConfig();
-
   await loadAirportData();
   drawAirportCircles();
-
-  const anyEnabled = airportCircleConfig.airport || airportCircleConfig.airstrip || airportCircleConfig.heliport;
+  const anyEnabled = ['airport','airstrip','heliport'].some(cat =>
+    ['commercial','military','private'].some(k => airportCircleConfig[cat][k])
+  );
   if (anyEnabled) { map.off('moveend', drawAirportCircles); map.on('moveend', drawAirportCircles); }
   else { map.off('moveend', drawAirportCircles); }
 }
 
-document.querySelectorAll('.airport-circles-config input').forEach(el => {
-  el.addEventListener('change', onAirportConfigChange);
-  if (el.type === 'number') el.addEventListener('input', onAirportConfigChange);
+async function onTownConfigChange() {
+  townCircleConfig.show   = document.getElementById('showTownCircles').checked;
+  townCircleConfig.radius = parseInt(document.getElementById('radiusTown').value) || 5;
+  saveTownCircleConfig();
+  await drawTownCircles();
+}
+
+document.querySelectorAll('.map-controls input').forEach(el => {
+  el.addEventListener('change', el.id === 'showTownCircles' || el.id === 'radiusTown' ? onTownConfigChange : onAirportConfigChange);
+  if (el.type === 'number') el.addEventListener('input', el.id === 'radiusTown' ? onTownConfigChange : onAirportConfigChange);
 });
 
 // --- Zones on map ---
