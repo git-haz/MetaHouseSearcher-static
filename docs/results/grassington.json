@@ -66,9 +66,9 @@
       },
       "minAirportDistanceMiles": 16.140267080114,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 261.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -80,8 +80,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 261.2,
+        "flightsDiffPct": 209
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -163,9 +163,9 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 261.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -177,8 +177,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 261.2,
+        "flightsDiffPct": 209
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -259,9 +259,9 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 261.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -273,8 +273,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 261.2,
+        "flightsDiffPct": 209
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -355,9 +355,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -369,8 +369,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -450,9 +450,9 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 261.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -464,8 +464,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 261.2,
+        "flightsDiffPct": 209
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -546,9 +546,9 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 261.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -560,8 +560,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 261.2,
+        "flightsDiffPct": 209
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -641,9 +641,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -656,8 +656,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -735,9 +735,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -750,8 +750,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -828,9 +828,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -843,8 +843,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -926,9 +926,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -941,8 +941,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1019,9 +1019,9 @@
       },
       "minAirportDistanceMiles": 13.089844770662078,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 260.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1034,8 +1034,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 260.8,
+        "flightsDiffPct": 209
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1115,9 +1115,9 @@
       },
       "minAirportDistanceMiles": 19.298562649967412,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1130,8 +1130,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.6,
+        "flightsDiffPct": 214
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1208,9 +1208,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1223,8 +1223,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1302,9 +1302,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1317,8 +1317,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1396,9 +1396,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1411,8 +1411,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1490,9 +1490,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1505,8 +1505,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1585,9 +1585,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -1600,8 +1600,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1679,9 +1679,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1694,8 +1694,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1775,9 +1775,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1790,8 +1790,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1868,9 +1868,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1883,8 +1883,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -1961,9 +1961,9 @@
       },
       "minAirportDistanceMiles": 13.925639315537783,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 265.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1976,8 +1976,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 265.5,
+        "flightsDiffPct": 215
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2043,9 +2043,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2058,8 +2058,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2136,9 +2136,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2151,8 +2151,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2233,9 +2233,9 @@
       },
       "minAirportDistanceMiles": 10.780365048444787,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 263.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2248,8 +2248,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 263.7,
+        "flightsDiffPct": 212
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2315,9 +2315,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2330,8 +2330,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2408,9 +2408,9 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2423,8 +2423,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2502,9 +2502,9 @@
       },
       "minAirportDistanceMiles": 13.648227983611175,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 265.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2517,8 +2517,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 265.5,
+        "flightsDiffPct": 215
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2584,9 +2584,9 @@
       },
       "minAirportDistanceMiles": 10.83606617755195,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2599,8 +2599,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.1,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2669,9 +2669,9 @@
       },
       "minAirportDistanceMiles": 11.202193994823467,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 264.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2684,8 +2684,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 264.4,
+        "flightsDiffPct": 213
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2751,9 +2751,9 @@
       },
       "minAirportDistanceMiles": 4.549803713318438,
       "flyoverRef": {
-        "location": "Diss",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 227.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2765,8 +2765,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 227.7,
+        "flightsDiffPct": 170
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -2820,5 +2820,5 @@
     "minHelipad": 5
   },
   "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:39:58.545Z"
+  "flyoverRescoredAt": "2026-07-24T23:51:33.549Z"
 }
