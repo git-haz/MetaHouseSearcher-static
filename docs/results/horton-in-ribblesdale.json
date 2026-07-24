@@ -86,14 +86,19 @@
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
-      "autoTags": [],
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views",
+        "far-from-roads"
+      ],
       "autoTagScores": {
-        "rural": 14,
-        "quiet": 0,
-        "hillside": 0,
-        "large-outdoors": 0,
-        "great-views": 0,
-        "far-from-roads": 0
+        "rural": 7,
+        "quiet": 45,
+        "hillside": 96,
+        "large-outdoors": 96,
+        "great-views": 96,
+        "far-from-roads": 61
       },
       "autoTagThreshold": 60
     },
@@ -179,14 +184,17 @@
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
-      "autoTags": [],
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
       "autoTagScores": {
-        "rural": 0,
-        "quiet": 0,
-        "hillside": 0,
-        "large-outdoors": 0,
-        "great-views": 0,
-        "far-from-roads": 0
+        "rural": 11,
+        "quiet": 27,
+        "hillside": 98,
+        "large-outdoors": 45,
+        "great-views": 87,
+        "far-from-roads": 30
       },
       "autoTagThreshold": 60
     },
@@ -272,14 +280,17 @@
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
-      "autoTags": [],
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
       "autoTagScores": {
-        "rural": 0,
-        "quiet": 0,
-        "hillside": 0,
-        "large-outdoors": 0,
-        "great-views": 0,
-        "far-from-roads": 0
+        "rural": 21,
+        "quiet": 18,
+        "hillside": 90,
+        "large-outdoors": 45,
+        "great-views": 91,
+        "far-from-roads": 38
       },
       "autoTagThreshold": 60
     },
@@ -442,14 +453,19 @@
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
-      "autoTags": [],
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views",
+        "far-from-roads"
+      ],
       "autoTagScores": {
-        "rural": 14,
-        "quiet": 30,
-        "hillside": 0,
-        "large-outdoors": 0,
-        "great-views": 0,
-        "far-from-roads": 0
+        "rural": 6,
+        "quiet": 53,
+        "hillside": 95,
+        "large-outdoors": 84,
+        "great-views": 98,
+        "far-from-roads": 62
       },
       "autoTagThreshold": 60
     },
@@ -693,14 +709,18 @@
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
-      "autoTags": [],
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views"
+      ],
       "autoTagScores": {
-        "rural": 11,
-        "quiet": 0,
-        "hillside": 0,
-        "large-outdoors": 0,
-        "great-views": 0,
-        "far-from-roads": 0
+        "rural": 28,
+        "quiet": 22,
+        "hillside": 61,
+        "large-outdoors": 60,
+        "great-views": 81,
+        "far-from-roads": 32
       },
       "autoTagThreshold": 60
     },
@@ -990,5 +1010,5 @@
     "minAirport": 5,
     "minHelipad": 5
   },
-  "autoTaggedAt": "2026-07-24T23:06:26.815Z"
+  "autoTaggedAt": "2026-07-24T23:07:47.182Z"
 }
