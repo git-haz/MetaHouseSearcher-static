@@ -671,6 +671,20 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 }
 .version-link:hover { color: var(--primary-hover); }
 
+/* Portal exclusion notice */
+.portal-notice {
+  font-size: 12px;
+  color: #92610a;
+  background: #fef9c3;
+  border: 1px solid #fde68a;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-top: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  .portal-notice { background: #2d2207; color: #f0c060; border-color: #5c4400; }
+}
+
 /* Status bar (one-liner on Results page) */
 .status-bar {
   display: flex;

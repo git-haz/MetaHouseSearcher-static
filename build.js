@@ -40,7 +40,13 @@ const ALL_PORTALS = [
 
 const portalArg = process.argv.find(a => a.startsWith('--portals='));
 const portalFilter = portalArg ? portalArg.split('=')[1].split(',').map(s => s.trim().toLowerCase()) : null;
-const PORTALS = portalFilter ? ALL_PORTALS.filter(p => portalFilter.includes(p.id)) : ALL_PORTALS;
+function getPortals(config) {
+  const disabled = (config.disabledPortals || []).map(s => s.toLowerCase());
+  let portals = ALL_PORTALS.filter(p => !disabled.includes(p.id));
+  if (portalFilter) portals = portals.filter(p => portalFilter.includes(p.id));
+  if (disabled.length) console.log(`Disabled portals: ${disabled.join(', ')}`);
+  return portals;
+}
 
 const pushEveryArg = process.argv.find(a => a.startsWith('--push-every='));
 const PUSH_EVERY   = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
@@ -584,7 +590,7 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
       minBed: config.minBed,
     };
     const portalLinks = [];
-    for (const portal of PORTALS) {
+    for (const portal of getPortals(config)) {
       for (const link of buildUrls(portal, criteria, rmLocs)) {
         portalLinks.push({ ...link, searchLocation: search.location });
         allPortalLinks.push({ ...link, searchLocation: search.location });
@@ -787,6 +793,8 @@ async function main() {
   if (rescore) {
     return await rescoreResults(config, resultsDir, ukTowns);
   }
+
+  const PORTALS = getPortals(config);
 
   // Build Rightmove location ID map
   const rmLocations = {};
