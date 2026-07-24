@@ -1195,6 +1195,14 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
 }
 .kw-chip-mode:hover { opacity: 0.7; }
 .kw-chip-text { padding: 2px 6px; }
+.kw-chip-count {
+  padding: 0 6px;
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 0.75;
+  min-width: 16px;
+  text-align: center;
+}
 .kw-chip-remove {
   background: none;
   border: none;

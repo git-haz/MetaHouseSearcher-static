@@ -505,7 +505,8 @@ function extractGardenSize(p) {
   return null;
 }
 
-function applyFilters(results) {
+// excludeChipIdx: if set, that chip is skipped — used to compute per-chip contribution counts
+function applyFilters(results, excludeChipIdx = -1) {
   let filtered = results;
 
   // Hide merged-away properties
@@ -520,9 +521,10 @@ function applyFilters(results) {
   }
 
   // Keyword chips — include (+) and exclude (−) filters
-  if (keywordFilters.length > 0) {
-    const includes = keywordFilters.filter(f => f.mode === 'include').map(f => f.text.toLowerCase());
-    const excludes = keywordFilters.filter(f => f.mode === 'exclude').map(f => f.text.toLowerCase());
+  const activeChips = keywordFilters.filter((_, i) => i !== excludeChipIdx);
+  if (activeChips.length > 0) {
+    const includes = activeChips.filter(f => f.mode === 'include').map(f => f.text.toLowerCase());
+    const excludes = activeChips.filter(f => f.mode === 'exclude').map(f => f.text.toLowerCase());
     filtered = filtered.filter(r => {
       const text = `${r.title} ${r.description} ${r.address} ${r.type} ${r.agent} ${(r.sources||[]).map(s=>s.portal).join(' ')}`.toLowerCase();
       if (excludes.some(kw => text.includes(kw))) return false;
@@ -656,6 +658,8 @@ function renderResults(results) {
   document.getElementById('sortBy').addEventListener('change', applySort);
   document.getElementById('minAirportDist')?.addEventListener('input', applyAirportFilter);
   if (activeView === 'map') renderMap(results);
+  // Refresh chip counts whenever the filtered set changes
+  if (keywordFilters.length > 0) renderKeywordChips();
 }
 
 function renderCard(p, context) {
@@ -783,12 +787,27 @@ function renderCard(p, context) {
 function renderKeywordChips() {
   const container = document.getElementById('keywordChips');
   if (!container) return;
+
+  // Compute per-chip contribution using Option B (isolated count)
+  // For each chip i: run applyFilters with that chip excluded, compare to full filtered count
+  const baseCount = currentResults.length ? applyFilters(currentResults).length : 0;
+  const chipCounts = keywordFilters.map((f, i) => {
+    if (!currentResults.length) return 0;
+    const countWithout = applyFilters(currentResults, i).length;
+    return Math.abs(countWithout - baseCount);
+  });
+
   container.innerHTML = keywordFilters.map((f, i) => {
     const modeLabel = f.mode === 'include' ? '+' : '−';
     const modeClass = f.mode === 'include' ? 'kw-chip-include' : 'kw-chip-exclude';
+    const count = chipCounts[i];
+    const countLabel = f.mode === 'include'
+      ? `${baseCount} shown`
+      : `${count} hidden`;
     return `<span class="kw-chip ${modeClass}">
       <button class="kw-chip-mode" onclick="toggleKeywordMode(${i})" title="Toggle include/exclude">${modeLabel}</button>
       <span class="kw-chip-text">${f.text.replace(/</g,'&lt;')}</span>
+      <span class="kw-chip-count" title="${countLabel}">${count}</span>
       <button class="kw-chip-remove" onclick="removeKeyword(${i})" title="Remove">×</button>
     </span>`;
   }).join('');
