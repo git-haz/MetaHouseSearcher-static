@@ -17,7 +17,21 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
-          <span class="changelog-ver">v2.1.0</span>
+          <span class="changelog-ver">v2.2.0</span>
+          <span class="changelog-date">25 Jul 2026</span>
+          <ul>
+            <li>Auto-tag system: 6 ML-classified tags per property (rural, quiet, hillside, large-outdoors, great-views, far-from-roads)</li>
+            <li>Auto-tags use NLI zero-shot classification with confidence cascade 80%→70%→60% per location</li>
+            <li>Distance gate: properties must be ≥10mi from towns ≥15k pop, ≥15mi from airports/helipads, ≥5mi from airstrips to be eligible</li>
+            <li>Keyword chips: green + to include, red − to exclude; tap to toggle mode</li>
+            <li>Keyword chips show isolated contribution count (how many results each chip adds or hides)</li>
+            <li>Removed text filter input; text filtering now done entirely via keyword chips</li>
+            <li>Flyover fix: each property now gets a per-property flights/day value via inverse-square distance-weighted interpolation across all reference points — no longer assigned the wrong search-location centroid</li>
+            <li>Properties stamped with sourceLocation at scrape time for unambiguous flyover lookup</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
+          <span class="changelog-ver">v2.2.0</span>
           <span class="changelog-date">23 Jul 2025</span>
           <ul>
             <li>Incremental build pipeline: per-location JSON files written as each location completes</li>
@@ -106,7 +120,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.1.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.2.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -407,7 +421,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" id="footerVersion">v2.1.0</span>
+    <span class="version-link" id="footerVersion">v2.2.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>
