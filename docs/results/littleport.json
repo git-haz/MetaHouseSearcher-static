@@ -66,9 +66,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -79,8 +79,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -151,9 +151,9 @@
       },
       "minAirportDistanceMiles": 2.945642765951098,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -164,8 +164,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.5,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -236,9 +236,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -249,8 +249,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -321,9 +321,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -334,8 +334,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -406,9 +406,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -419,8 +419,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -491,9 +491,9 @@
       },
       "minAirportDistanceMiles": 3.1383433370688527,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 164.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -504,8 +504,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 164.7,
+        "flightsDiffPct": 95
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -576,9 +576,9 @@
       },
       "minAirportDistanceMiles": 3.200511173464715,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -589,8 +589,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163,
+        "flightsDiffPct": 93
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -661,9 +661,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -674,8 +674,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -746,9 +746,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -759,8 +759,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -831,9 +831,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -844,8 +844,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -916,9 +916,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -929,8 +929,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1001,9 +1001,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1014,8 +1014,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1086,9 +1086,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1099,8 +1099,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1171,9 +1171,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1184,8 +1184,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1256,9 +1256,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1269,8 +1269,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1341,9 +1341,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1354,8 +1354,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1426,9 +1426,9 @@
       },
       "minAirportDistanceMiles": 2.945642765951098,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1439,8 +1439,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.5,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1511,9 +1511,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1524,8 +1524,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1596,9 +1596,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1609,8 +1609,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1680,9 +1680,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1693,8 +1693,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1761,9 +1761,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1774,8 +1774,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1842,9 +1842,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1855,8 +1855,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -1923,9 +1923,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1936,8 +1936,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2004,9 +2004,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2017,8 +2017,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2085,9 +2085,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2098,8 +2098,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2166,9 +2166,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2179,8 +2179,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2247,9 +2247,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2260,8 +2260,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2328,9 +2328,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2341,8 +2341,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2409,9 +2409,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2422,8 +2422,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2490,9 +2490,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2503,8 +2503,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2571,9 +2571,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2584,8 +2584,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2652,9 +2652,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2665,8 +2665,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2733,9 +2733,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2746,8 +2746,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2814,9 +2814,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2827,8 +2827,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2898,9 +2898,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2911,8 +2911,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -2979,9 +2979,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2992,8 +2992,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3060,9 +3060,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3073,8 +3073,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3144,9 +3144,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -3157,8 +3157,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3225,9 +3225,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3238,8 +3238,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3306,9 +3306,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3319,8 +3319,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3387,9 +3387,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3400,8 +3400,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3468,9 +3468,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3481,8 +3481,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3549,9 +3549,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3562,8 +3562,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3630,9 +3630,9 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 195,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3643,8 +3643,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 195,
+        "flightsDiffPct": 131
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3711,9 +3711,9 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 163.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3724,8 +3724,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 163.6,
+        "flightsDiffPct": 94
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3792,9 +3792,9 @@
       },
       "minAirportDistanceMiles": 3.3947546163274027,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 266.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3805,8 +3805,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 266.1,
+        "flightsDiffPct": 215
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3874,9 +3874,9 @@
       },
       "minAirportDistanceMiles": 1.7039166561939112,
       "flyoverRef": {
-        "location": "London Heathrow Area",
-        "flightsPerDay": 1228.3,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 516.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3887,8 +3887,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 1228.3,
-        "flightsDiffPct": 1355
+        "flightsPerDay": 516.9,
+        "flightsDiffPct": 512
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -3956,9 +3956,9 @@
       },
       "minAirportDistanceMiles": 1.5209323226471356,
       "flyoverRef": {
-        "location": "London Central",
-        "flightsPerDay": 84.4,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 110.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3969,8 +3969,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 84.4,
-        "flightsDiffPct": 0
+        "flightsPerDay": 110.4,
+        "flightsDiffPct": 31
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -4031,5 +4031,5 @@
     "minHelipad": 15
   },
   "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:39:48.733Z"
+  "flyoverRescoredAt": "2026-07-24T23:51:19.709Z"
 }
