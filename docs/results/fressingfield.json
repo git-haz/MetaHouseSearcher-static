@@ -66,9 +66,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -79,8 +79,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -152,9 +152,9 @@
       },
       "minAirportDistanceMiles": 2.0719823785530345,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -165,8 +165,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -238,9 +238,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -251,8 +251,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -324,9 +324,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -337,8 +337,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -410,9 +410,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -423,8 +423,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -495,9 +495,9 @@
       },
       "minAirportDistanceMiles": 2.1456599960730363,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -508,8 +508,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -580,9 +580,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -593,8 +593,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -665,9 +665,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -678,8 +678,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -750,9 +750,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -763,8 +763,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -832,9 +832,9 @@
       },
       "minAirportDistanceMiles": 2.0861754746566095,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -845,8 +845,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -914,9 +914,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -927,8 +927,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -996,9 +996,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1009,8 +1009,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1078,9 +1078,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Diss",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -1091,8 +1091,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1160,9 +1160,9 @@
       },
       "minAirportDistanceMiles": 0.5773431882955831,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1173,8 +1173,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1242,9 +1242,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1255,8 +1255,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1324,9 +1324,9 @@
       },
       "minAirportDistanceMiles": 0.9889063909463416,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 11.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1337,8 +1337,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 11.1,
+        "flightsDiffPct": -87
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1406,9 +1406,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1419,8 +1419,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1488,9 +1488,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1501,8 +1501,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1573,9 +1573,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1586,8 +1586,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1655,9 +1655,9 @@
       },
       "minAirportDistanceMiles": 2.17658458207911,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 9.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1668,8 +1668,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 9.5,
+        "flightsDiffPct": -89
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1737,9 +1737,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1750,8 +1750,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1819,9 +1819,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1832,8 +1832,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1901,9 +1901,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1914,8 +1914,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -1983,9 +1983,9 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1996,8 +1996,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2065,9 +2065,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2078,8 +2078,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2147,9 +2147,9 @@
       },
       "minAirportDistanceMiles": 2.1053734464617166,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 9.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2160,8 +2160,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 9.5,
+        "flightsDiffPct": -89
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2229,9 +2229,9 @@
       },
       "minAirportDistanceMiles": 2.4992825239594345,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 9.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2242,8 +2242,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 9.5,
+        "flightsDiffPct": -89
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2311,9 +2311,9 @@
       },
       "minAirportDistanceMiles": 2.0160480162419683,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 9.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2324,8 +2324,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 9.5,
+        "flightsDiffPct": -89
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2393,9 +2393,9 @@
       },
       "minAirportDistanceMiles": 7.7781255265492435,
       "flyoverRef": {
-        "location": "Wenhaston",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 8.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2406,8 +2406,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 8.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2486,9 +2486,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2499,8 +2499,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2568,9 +2568,9 @@
       },
       "minAirportDistanceMiles": 3.386525551447715,
       "flyoverRef": {
-        "location": "Diss",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2581,8 +2581,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 17.8,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2650,9 +2650,9 @@
       },
       "minAirportDistanceMiles": 0.6976530713032157,
       "flyoverRef": {
-        "location": "Diss",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2663,8 +2663,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -3,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 17.2,
+        "flightsDiffPct": -80
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2732,9 +2732,9 @@
       },
       "minAirportDistanceMiles": 1.9341189748064498,
       "flyoverRef": {
-        "location": "Harleston",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 13.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2745,8 +2745,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 13.1,
+        "flightsDiffPct": -84
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2814,9 +2814,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Diss",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2827,8 +2827,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2896,9 +2896,9 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 10.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2909,8 +2909,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -88
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -2978,9 +2978,9 @@
       },
       "minAirportDistanceMiles": 7.036595510697851,
       "flyoverRef": {
-        "location": "Wenhaston",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 7.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2991,8 +2991,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 7.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -3064,5 +3064,5 @@
     "minHelipad": 15
   },
   "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:39:43.606Z"
+  "flyoverRescoredAt": "2026-07-24T23:51:10.757Z"
 }

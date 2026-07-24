@@ -66,9 +66,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -79,8 +79,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -162,9 +162,9 @@
       },
       "minAirportDistanceMiles": 5.35222371068714,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -175,8 +175,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.2,
+        "flightsDiffPct": -80
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -259,9 +259,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -272,8 +272,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -355,9 +355,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -368,8 +368,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -452,9 +452,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -465,8 +465,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -549,9 +549,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -562,8 +562,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -644,9 +644,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -657,8 +657,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -741,9 +741,9 @@
       },
       "minAirportDistanceMiles": 4.772081213968469,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 18.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -754,8 +754,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 18.2,
+        "flightsDiffPct": -78
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -826,9 +826,9 @@
       },
       "minAirportDistanceMiles": 5.008591841048404,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -839,8 +839,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.9,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -922,9 +922,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -935,8 +935,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1019,9 +1019,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1032,8 +1032,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1105,9 +1105,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1118,8 +1118,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1190,9 +1190,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1203,8 +1203,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1286,9 +1286,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1299,8 +1299,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1387,9 +1387,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1400,8 +1400,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1484,9 +1484,9 @@
       },
       "minAirportDistanceMiles": 4.970698168211877,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 18,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1497,8 +1497,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 18,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1570,9 +1570,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1583,8 +1583,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1666,9 +1666,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1679,8 +1679,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1761,9 +1761,9 @@
       },
       "minAirportDistanceMiles": 4.886434515263262,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1774,8 +1774,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.9,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1843,9 +1843,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1856,8 +1856,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -1925,9 +1925,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1938,8 +1938,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2007,9 +2007,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2020,8 +2020,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2089,9 +2089,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2102,8 +2102,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2174,9 +2174,9 @@
       },
       "minAirportDistanceMiles": 5.0424407735460814,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2187,8 +2187,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.8,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2268,9 +2268,9 @@
       },
       "minAirportDistanceMiles": 5.076509288617167,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2281,8 +2281,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2362,9 +2362,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2375,8 +2375,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2444,9 +2444,9 @@
       },
       "minAirportDistanceMiles": 4.886434515263262,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2457,8 +2457,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.9,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2526,9 +2526,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2539,8 +2539,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2608,9 +2608,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2621,8 +2621,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2693,9 +2693,9 @@
       },
       "minAirportDistanceMiles": 4.919838631794767,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2706,8 +2706,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 17.6,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2775,9 +2775,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2788,8 +2788,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2857,9 +2857,9 @@
       },
       "minAirportDistanceMiles": 5.0915296304066375,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2870,8 +2870,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 17.1,
+        "flightsDiffPct": -80
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -2951,9 +2951,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2964,8 +2964,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3033,9 +3033,9 @@
       },
       "minAirportDistanceMiles": 4.914874706426492,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3046,8 +3046,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 17.9,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3118,9 +3118,9 @@
       },
       "minAirportDistanceMiles": 4.991360696350332,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3131,8 +3131,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 17.3,
+        "flightsDiffPct": -80
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3203,9 +3203,9 @@
       },
       "minAirportDistanceMiles": 4.918055484218247,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 17.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3216,8 +3216,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 17.4,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3288,9 +3288,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3301,8 +3301,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3373,9 +3373,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3386,8 +3386,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3455,9 +3455,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3468,8 +3468,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3537,9 +3537,9 @@
       },
       "minAirportDistanceMiles": 4.661218878434633,
       "flyoverRef": {
-        "location": "Halesworth",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 13.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3550,8 +3550,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 13.6,
+        "flightsDiffPct": -84
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3619,9 +3619,9 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "location": "Eye",
-        "flightsPerDay": 3.2,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 21.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3632,8 +3632,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.2,
-        "flightsDiffPct": -96
+        "flightsPerDay": 21.9,
+        "flightsDiffPct": -74
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3701,9 +3701,9 @@
       },
       "minAirportDistanceMiles": 5.854975909271578,
       "flyoverRef": {
-        "location": "Wenhaston",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 22.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3714,8 +3714,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 22.5,
+        "flightsDiffPct": -73
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3795,9 +3795,9 @@
       },
       "minAirportDistanceMiles": 6.600543923211983,
       "flyoverRef": {
-        "location": "Wenhaston",
-        "flightsPerDay": 2.7,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 6.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3808,8 +3808,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 2.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 6.9,
+        "flightsDiffPct": -92
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:38:42.217Z",
@@ -3880,5 +3880,5 @@
     "minHelipad": 15
   },
   "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:39:43.593Z"
+  "flyoverRescoredAt": "2026-07-24T23:51:10.741Z"
 }
