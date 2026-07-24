@@ -66,9 +66,9 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -79,8 +79,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -151,9 +151,9 @@
       },
       "minAirportDistanceMiles": 2.6512398668599713,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -164,8 +164,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.1,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -237,9 +237,9 @@
       },
       "minAirportDistanceMiles": 2.622782913016928,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -250,8 +250,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.2,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -322,9 +322,9 @@
       },
       "minAirportDistanceMiles": 2.4305163756228207,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -335,8 +335,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.3,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -407,9 +407,9 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -420,8 +420,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -493,9 +493,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -506,8 +506,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -579,9 +579,9 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -592,8 +592,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.8,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -665,9 +665,9 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -678,8 +678,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.8,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -751,9 +751,9 @@
       },
       "minAirportDistanceMiles": 2.471727675395755,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.6,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -764,8 +764,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.6,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -837,9 +837,9 @@
       },
       "minAirportDistanceMiles": 2.717214391518463,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -850,8 +850,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.5,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -923,9 +923,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -936,8 +936,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1009,9 +1009,9 @@
       },
       "minAirportDistanceMiles": 2.317530086806008,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1022,8 +1022,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.8,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1094,9 +1094,9 @@
       },
       "minAirportDistanceMiles": 2.602863768077376,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1107,8 +1107,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.1,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1179,9 +1179,9 @@
       },
       "minAirportDistanceMiles": 2.516875824692096,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1192,8 +1192,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.7,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1264,9 +1264,9 @@
       },
       "minAirportDistanceMiles": 2.4275116540631503,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1277,8 +1277,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.4,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1349,9 +1349,9 @@
       },
       "minAirportDistanceMiles": 2.5512794917600736,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1362,8 +1362,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.8,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1435,9 +1435,9 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1448,8 +1448,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1520,9 +1520,9 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1533,8 +1533,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1601,9 +1601,9 @@
       },
       "minAirportDistanceMiles": 2.4305163756228207,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1614,8 +1614,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.3,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1683,9 +1683,9 @@
       },
       "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1696,8 +1696,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.7,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1765,9 +1765,9 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1778,8 +1778,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1847,9 +1847,9 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1860,8 +1860,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -1929,9 +1929,9 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.3,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -1942,8 +1942,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2011,9 +2011,9 @@
       },
       "minAirportDistanceMiles": 2.6687148158916245,
       "flyoverRef": {
-        "location": "London City Area",
-        "flightsPerDay": 133.9,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 355.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2024,8 +2024,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 133.9,
-        "flightsDiffPct": 59
+        "flightsPerDay": 355.5,
+        "flightsDiffPct": 321
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2092,9 +2092,9 @@
       },
       "minAirportDistanceMiles": 2.605338406204555,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.9,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2105,8 +2105,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.9,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2174,9 +2174,9 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2187,8 +2187,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.8,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2256,9 +2256,9 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2269,8 +2269,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376.8,
+        "flightsDiffPct": 346
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2338,9 +2338,9 @@
       },
       "minAirportDistanceMiles": 2.474501420300963,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2351,8 +2351,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.7,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2420,9 +2420,9 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2433,8 +2433,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.8,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2502,9 +2502,9 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.8,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2515,8 +2515,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.8,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2584,9 +2584,9 @@
       },
       "minAirportDistanceMiles": 2.349912268160801,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 375.1,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -2597,8 +2597,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 375.1,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2666,9 +2666,9 @@
       },
       "minAirportDistanceMiles": 2.544533890911601,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 376,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2679,8 +2679,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 376,
+        "flightsDiffPct": 345
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2748,9 +2748,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2761,8 +2761,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2830,9 +2830,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2843,8 +2843,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2912,9 +2912,9 @@
       },
       "minAirportDistanceMiles": 2.9571419066380193,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 377.4,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -2925,8 +2925,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 377.4,
+        "flightsDiffPct": 347
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -2994,9 +2994,9 @@
       },
       "minAirportDistanceMiles": 2.031755592047333,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 373.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3007,8 +3007,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 373.5,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3076,9 +3076,9 @@
       },
       "minAirportDistanceMiles": 2.0004667249758956,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 373.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3089,8 +3089,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 373.7,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3158,9 +3158,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -3171,8 +3171,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3240,9 +3240,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -3253,8 +3253,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3322,9 +3322,9 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -3335,8 +3335,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 344
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3404,9 +3404,9 @@
       },
       "minAirportDistanceMiles": 1.9850704134199768,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 373.2,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
@@ -3417,8 +3417,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 373.2,
+        "flightsDiffPct": 342
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3486,9 +3486,9 @@
       },
       "minAirportDistanceMiles": 1.9673432651365563,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 373.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3499,8 +3499,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 373.5,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3568,9 +3568,9 @@
       },
       "minAirportDistanceMiles": 1.9673432651365563,
       "flyoverRef": {
-        "location": "London Gatwick Area",
-        "flightsPerDay": 688.1,
-        "seasonalFlag": "stable",
+        "location": "interpolated",
+        "flightsPerDay": 373.5,
+        "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
@@ -3581,8 +3581,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 688.1,
-        "flightsDiffPct": 715
+        "flightsPerDay": 373.5,
+        "flightsDiffPct": 343
       },
       "isNew": true,
       "retrievedAt": "2026-07-23T10:24:47.876Z",
@@ -3643,5 +3643,5 @@
     "minHelipad": 15
   },
   "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:39:51.391Z"
+  "flyoverRescoredAt": "2026-07-24T23:51:23.142Z"
 }
