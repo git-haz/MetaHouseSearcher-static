@@ -826,9 +826,13 @@ function drawAirportCircles() {
       fillOpacity: 0.15,
       weight: 1,
     }).addTo(map);
-    circle.bindTooltip(
-      `${a.name}${a.icao ? ' (' + a.icao + ')' : ''} — ${usage}${a.active === false ? ' [inactive]' : ''}\n${cfg.radius} mi radius`,
-      { direction: 'top' }
+    const label = `${a.name}${a.icao ? ' (' + a.icao + ')' : ''}`;
+    circle.bindTooltip(label, { direction: 'top', sticky: true });
+    circle.bindPopup(
+      `<strong>${a.name}</strong>${a.icao ? ` <code style="font-size:11px">${a.icao}</code>` : ''}<br>` +
+      `<em style="font-size:11px;color:#888">${cat} · ${usage}${a.active === false ? ' · inactive' : ''}</em><br>` +
+      `<div style="margin-top:6px;font-size:12px">Exclusion radius shown: <strong>${cfg.radius} mi</strong></div>`,
+      { maxWidth: 260 }
     );
     airportCircleLayers.push(circle);
   }
@@ -851,7 +855,12 @@ async function drawTownCircles() {
       fillOpacity: 0.06,
       weight: 1,
     }).addTo(map);
-    circle.bindTooltip(`${t.name} — pop ${t.pop.toLocaleString()}\n${townCircleConfig.radius} mi radius`, { direction: 'top' });
+    circle.bindTooltip(t.name, { direction: 'top', sticky: true });
+    circle.bindPopup(
+      `<strong>${t.name}</strong><br>Population: <strong>${t.pop.toLocaleString()}</strong><br>` +
+      `<div style="margin-top:6px;font-size:12px">Town circle radius: <strong>${townCircleConfig.radius} mi</strong></div>`,
+      { maxWidth: 220 }
+    );
     townCircleLayers.push(circle);
   }
 }
@@ -903,10 +912,100 @@ async function onTownConfigChange() {
   await drawTownCircles();
 }
 
+const TOWN_IDS = new Set(['showTownCircles', 'radiusTown']);
+const MILITARY_IDS = new Set(['showDangerAreas', 'showMatzs', 'showLfas']);
 document.querySelectorAll('.map-controls input').forEach(el => {
-  el.addEventListener('change', el.id === 'showTownCircles' || el.id === 'radiusTown' ? onTownConfigChange : onAirportConfigChange);
-  if (el.type === 'number') el.addEventListener('input', el.id === 'radiusTown' ? onTownConfigChange : onAirportConfigChange);
+  const handler = TOWN_IDS.has(el.id) ? onTownConfigChange : MILITARY_IDS.has(el.id) ? onMilitaryConfigChange : onAirportConfigChange;
+  el.addEventListener('change', handler);
+  if (el.type === 'number') el.addEventListener('input', handler);
 });
+
+// --- Military zones ---
+let militaryZonesData = null;
+let dangerAreaLayers = [];
+let matzLayers = [];
+let lfaLayers = [];
+let militaryZoneConfig = loadJSON('militaryZoneConfig', { danger: false, matz: false, lfa: false });
+function saveMilitaryZoneConfig() { localStorage.setItem('militaryZoneConfig', JSON.stringify(militaryZoneConfig)); }
+
+async function loadMilitaryZones() {
+  if (militaryZonesData) return militaryZonesData;
+  try {
+    const res = await fetch('military-zones.json');
+    militaryZonesData = await res.json();
+  } catch { militaryZonesData = { dangerAreas: [], matzs: [], lfas: [] }; }
+  return militaryZonesData;
+}
+
+function makeZonePopup(z) {
+  let html = `<strong>${z.name}</strong>`;
+  if (z.id) html += `<br><em style="font-size:11px;color:#888">${z.id}</em>`;
+  if (z.description) html += `<p style="margin:6px 0 4px;font-size:12px;line-height:1.45">${z.description}</p>`;
+  if (z.aircraft) html += `<div style="font-size:12px"><strong>Aircraft:</strong> ${z.aircraft}</div>`;
+  if (z.nearestTowns) html += `<div style="font-size:12px;margin-top:3px"><strong>Nearest towns:</strong> ${z.nearestTowns}</div>`;
+  return html;
+}
+
+function drawDangerAreas() {
+  dangerAreaLayers.forEach(l => map.removeLayer(l));
+  dangerAreaLayers = [];
+  if (!map || !militaryZoneConfig.danger || !militaryZonesData) return;
+  for (const z of militaryZonesData.dangerAreas) {
+    const poly = L.polygon(z.polygon, {
+      color: '#b71c1c', weight: 2, dashArray: '7 5',
+      fillColor: '#b71c1c', fillOpacity: 0.07, interactive: true,
+    }).addTo(map);
+    poly.bindTooltip(z.name, { direction: 'top', sticky: true });
+    poly.bindPopup(makeZonePopup(z), { maxWidth: 340 });
+    dangerAreaLayers.push(poly);
+  }
+}
+
+function drawMatzs() {
+  matzLayers.forEach(l => map.removeLayer(l));
+  matzLayers = [];
+  if (!map || !militaryZoneConfig.matz || !militaryZonesData) return;
+  for (const z of militaryZonesData.matzs) {
+    const circle = L.circle([z.lat, z.lon], {
+      radius: 5 * 1852,
+      color: '#e65100', weight: 2, dashArray: '7 5',
+      fillColor: '#e65100', fillOpacity: 0.07, interactive: true,
+    }).addTo(map);
+    circle.bindTooltip(z.name, { direction: 'top', sticky: true });
+    circle.bindPopup(makeZonePopup(z), { maxWidth: 340 });
+    matzLayers.push(circle);
+  }
+}
+
+function drawLfas() {
+  lfaLayers.forEach(l => map.removeLayer(l));
+  lfaLayers = [];
+  if (!map || !militaryZoneConfig.lfa || !militaryZonesData) return;
+  for (const z of militaryZonesData.lfas) {
+    const poly = L.polygon(z.polygon, {
+      color: '#4a148c', weight: 2, dashArray: '10 6',
+      fillColor: '#4a148c', fillOpacity: 0.04, interactive: true,
+    }).addTo(map);
+    poly.bindTooltip(z.name, { direction: 'top', sticky: true });
+    poly.bindPopup(makeZonePopup(z), { maxWidth: 340 });
+    lfaLayers.push(poly);
+  }
+}
+
+document.getElementById('showDangerAreas').checked = militaryZoneConfig.danger;
+document.getElementById('showMatzs').checked = militaryZoneConfig.matz;
+document.getElementById('showLfas').checked = militaryZoneConfig.lfa;
+
+async function onMilitaryConfigChange() {
+  militaryZoneConfig.danger = document.getElementById('showDangerAreas').checked;
+  militaryZoneConfig.matz   = document.getElementById('showMatzs').checked;
+  militaryZoneConfig.lfa    = document.getElementById('showLfas').checked;
+  saveMilitaryZoneConfig();
+  await loadMilitaryZones();
+  drawDangerAreas();
+  drawMatzs();
+  drawLfas();
+}
 
 // --- Zones on map ---
 function drawZonesOnMap() {

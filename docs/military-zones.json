@@ -1,0 +1,108 @@
+{
+  "dangerAreas": [
+    {
+      "id": "EG D323",
+      "name": "Spadeadam EW Range",
+      "description": "UK's largest electronic warfare (EW) tactics range covering 9,000 acres of Cumbrian moorland. Fast jets from NATO nations train in low-level EW and SEAD (Suppression of Enemy Air Defences) missions against simulated radar and surface-to-air missile systems. The only mainland UK location where practice bombs can still be dropped. Also used for joint forward air controller training and drone swarm trials.",
+      "aircraft": "Typhoon, F-35, NATO allied fast jets",
+      "nearestTowns": "Brampton (8mi SE), Haltwhistle (9mi SE), Carlisle (18mi SW)",
+      "polygon": [[55.04,-2.67],[55.04,-2.52],[55.00,-2.52],[55.00,-2.67]]
+    },
+    {
+      "id": "EG D201",
+      "name": "Otterburn Training Area",
+      "description": "UK's largest live-firing military training area covering 242 km² across the Cheviot Hills in Northumberland. Used by the British Army for live firing of AS-90 self-propelled artillery and M270 MLRS rocket systems — the only UK location where MLRS can be fired, requiring an 11-mile long range. Also used by fast jets for low-level tactical training sorties.",
+      "aircraft": "Fast jets (low-level transit), Army artillery, support helicopters",
+      "nearestTowns": "Otterburn (2mi), Bellingham (8mi W), Hexham (15mi SE)",
+      "polygon": [[55.47,-2.52],[55.47,-2.10],[55.25,-2.10],[55.25,-2.52]]
+    },
+    {
+      "id": "EG D004",
+      "name": "Donna Nook Air Weapons Range",
+      "description": "Active RAF air-to-ground weapons range on the Lincolnshire coast, managed by RAF Donna Nook detachment. Used for live bombing and strafing practice by fast jets, primarily from RAF Coningsby and RAF Waddington. The range extends offshore into The Wash. A grey seal colony on the beach is internationally significant and the public can visit the beach outside active firing periods.",
+      "aircraft": "Typhoon, Hawk T1/T2, historically Tornado GR4",
+      "nearestTowns": "Louth (8mi SW), Alford (11mi SW), Mablethorpe (5mi S)",
+      "polygon": [[53.53,-0.01],[53.53,0.25],[53.43,0.25],[53.43,-0.01]]
+    },
+    {
+      "id": "EG D129",
+      "name": "Holbeach Air Weapons Range",
+      "description": "Air-to-ground weapons range on the southern portion of The Wash estuary. One of the UK's principal bombing and gunnery ranges, used extensively for live weapons training by fast jets. Located largely offshore, the range is adjacent to the Wainfleet range further north. Used heavily by aircraft from RAF Coningsby and visiting units.",
+      "aircraft": "Typhoon, Hawk, various RAF and NATO aircraft",
+      "nearestTowns": "Holbeach (6mi S), Spalding (12mi SW), King's Lynn (12mi SE)",
+      "polygon": [[52.95,0.10],[52.95,0.38],[52.78,0.38],[52.78,0.10]]
+    }
+  ],
+  "matzs": [
+    {
+      "id": "EGXE",
+      "name": "RAF Leeming MATZ",
+      "description": "Active flying training base in North Yorkshire hosting No. 6 Flying Training School and Qatar Emiri Air Force advanced jet training on Hawk Mk.167 aircraft. Also home to Northumbrian and Yorkshire Universities Air Squadrons. Generates significant circuit training traffic throughout the day. The base is surrounded by the Vale of York, with training routes extending into the Yorkshire Dales and Pennines.",
+      "aircraft": "Hawk T1/Mk.167, Grob Prefect T1, Tutor T1",
+      "nearestTowns": "Northallerton (4mi N), Bedale (3mi SE), Leyburn (8mi W)",
+      "lat": 54.2925,
+      "lon": -1.5356
+    },
+    {
+      "id": "EGXC",
+      "name": "RAF Coningsby MATZ",
+      "description": "Primary UK fast jet base hosting three front-line Typhoon squadrons and maintaining QRA (Quick Reaction Alert) South 24/7, year-round. One of the RAF's busiest stations with constant supersonic-capable jet activity. Training sorties regularly use the Lincolnshire Wolds, The Wash, and Donna Nook range. Also home to the Battle of Britain Memorial Flight operating historic Spitfire, Hurricane, Lancaster, and Dakota aircraft.",
+      "aircraft": "Typhoon (Eurofighter), BBMF Spitfire/Hurricane/Lancaster/Dakota",
+      "nearestTowns": "Woodhall Spa (3mi W), Horncastle (8mi NE), Spilsby (14mi NE)",
+      "lat": 53.0931,
+      "lon": -0.1661
+    },
+    {
+      "id": "EGYM",
+      "name": "RAF Marham MATZ",
+      "description": "UK's primary F-35B Lightning base, home to RAF 617 'Dambusters' Squadron, 207 Squadron, and the Royal Navy's 809 Naval Air Squadron. All three units operate the F-35B stealth fighter. High-tempo operations with regular sorties over East Anglia, the North Sea, and beyond. The F-35B Lightning is the RAF's most capable — and loudest on approach — combat aircraft.",
+      "aircraft": "F-35B Lightning II (RAF 617 Sqn, 207 Sqn; RN 809 NAS)",
+      "nearestTowns": "Swaffham (8mi E), King's Lynn (10mi N), Downham Market (7mi S)",
+      "lat": 52.6483,
+      "lon": 0.5506
+    },
+    {
+      "id": "EGXW",
+      "name": "RAF Waddington MATZ",
+      "description": "RAF Intelligence, Surveillance, Targeting and Reconnaissance (ISTAR) hub. Operates the E-7A Wedgetail Airborne Early Warning aircraft, RC-135W Rivet Joint electronic surveillance aircraft, and Protector RG Mk1 remotely piloted aircraft. Lower noise intensity than fast jet bases but regular large aircraft movements.",
+      "aircraft": "E-7A Wedgetail AEW, RC-135W Rivet Joint, Protector RG Mk1",
+      "nearestTowns": "Lincoln (4mi S), Waddington village (1mi), Newark-on-Trent (14mi S)",
+      "lat": 53.1725,
+      "lon": -0.5308
+    },
+    {
+      "id": "EGYD",
+      "name": "RAF Cranwell MATZ",
+      "description": "Home of the RAF College and Initial Officer Training. One of the RAF's busiest training establishments with constant circuit and cross-country training activity from student pilots. Flying training uses Grob Prefect and Tutor aircraft across Lincolnshire and the East Midlands.",
+      "aircraft": "Grob Prefect T1, Tutor T1",
+      "nearestTowns": "Sleaford (4mi SE), Cranwell village (1mi), Donington (10mi SW)",
+      "lat": 53.0303,
+      "lon": -0.4833
+    },
+    {
+      "id": "EGUL",
+      "name": "RAF Lakenheath MATZ (USAF 48th Fighter Wing)",
+      "description": "Largest USAF base in the UK and one of the most active fast jet bases in Europe, home to the 48th Fighter Wing 'Liberty Wing'. Operates F-35A Lightning II (493rd and 495th Fighter Squadrons) alongside F-15E Strike Eagles (492nd and 494th FS). Regular fast jet activity over East Anglia, the North Sea, and UK low flying areas. Jets from here have occasionally been deployed to conflict zones at short notice.",
+      "aircraft": "F-35A Lightning II, F-15E Strike Eagle (USAF)",
+      "nearestTowns": "Brandon (3mi N), Mildenhall (5mi SW), Thetford (8mi SE)",
+      "lat": 52.4095,
+      "lon": 0.5612
+    }
+  ],
+  "lfas": [
+    {
+      "id": "LFA17",
+      "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+      "description": "One of the UK's most active low flying areas, covering the Lake District National Park, most of Cumbria, and extending into north Lancashire and the Yorkshire Dales. Military aircraft may fly at altitudes down to 250ft AGL across the area, with even lower altitudes permitted in designated sub-zones. Used extensively by fast jets from RAF Coningsby, RAF Leeming, and visiting NATO aircraft conducting terrain-following, low-level navigation, and tactical formation training. Aircraft spotters regularly see fast jet transits through Wensleydale, Swaledale, and over the fells near Hawes, Kirkby Stephen and Sedbergh.",
+      "aircraft": "Typhoon, F-35, Hawk, NATO fast jets, support helicopters",
+      "polygon": [[54.70,-3.40],[54.70,-1.70],[53.85,-1.70],[53.85,-3.40]]
+    },
+    {
+      "id": "LFA20T",
+      "name": "Low Flying Area 20(T) — Anglo-Scottish Border (Tactical Training Area)",
+      "description": "A Tactical Training Area (TTA) — the highest intensity category in the UK Low Flying System. Fast jets are permitted to fly at altitudes down to 100ft AGL, significantly lower than standard LFAs. Covers the Anglo-Scottish border, west Northumberland, and parts of the Scottish Borders. Activity frequently overlaps with the Spadeadam EW range to the SW and Otterburn training area to the SE, creating extended training corridors. Residents near Bellingham, Wooler, and Rothbury regularly experience fast jet transits at very low altitude.",
+      "aircraft": "Typhoon, F-35, NATO fast jets — low-level tactical sorties",
+      "polygon": [[55.30,-2.90],[55.30,-1.80],[54.85,-1.80],[54.85,-2.90]]
+    }
+  ]
+}

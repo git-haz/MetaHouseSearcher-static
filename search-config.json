@@ -34,7 +34,17 @@
     { "location": "Alston",               "postcode": "CA9 3RQ",  "county": "Cumbria",         "radius": 20, "rightmoveId": "REGION^31"    },
     { "location": "Bellingham",            "postcode": "NE48 2AW", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^3260"  },
     { "location": "Rothbury",             "postcode": "NE65 7TW", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^21129" },
-    { "location": "Wooler",               "postcode": "NE71 6DQ", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^1482"  }
+    { "location": "Wooler",               "postcode": "NE71 6DQ", "county": "Northumberland",  "radius": 20, "rightmoveId": "REGION^1482"  },
+    { "location": "Hawes",               "postcode": "DL8 3NT",  "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Leyburn",             "postcode": "DL8 5AE",  "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Middleham",           "postcode": "DL8 4PE",  "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Askrigg",             "postcode": "DL8 3HH",  "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Reeth",               "postcode": "DL11 6SP", "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Grassington",         "postcode": "BD23 5AA", "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Settle",              "postcode": "BD24 9EJ", "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Horton-in-Ribblesdale","postcode": "BD24 0HH","county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Pateley Bridge",      "postcode": "HG3 5AT",  "county": "North Yorkshire", "radius": 20, "rightmoveId": ""             },
+    { "location": "Sedbergh",            "postcode": "LA10 5BN", "county": "Cumbria",         "radius": 20, "rightmoveId": ""             }
   ],
   "rejectionReasons": ["house type", "neighbour vicinity", "solar panels", "A road vicinity", "B road vicinity"],
   "disabledPortals": ["rightmove"],

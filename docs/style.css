@@ -942,6 +942,15 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
   font-style: italic;
   margin-top: 2px;
 }
+.mc-zone-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.mc-military { min-width: 180px; }
+.leaflet-popup-content p { margin: 6px 0; }
 
 #map { z-index: 1; }
 
