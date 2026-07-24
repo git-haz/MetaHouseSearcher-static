@@ -10,8 +10,8 @@ function saveNeighbourStatus() { localStorage.setItem('neighbourStatus', JSON.st
 let propertyRejectionReasons = loadJSON('propertyRejectionReasons', {});
 function saveRejectionReasons() { localStorage.setItem('propertyRejectionReasons', JSON.stringify(propertyRejectionReasons)); }
 
-let excludeKeywords = loadJSON('excludeKeywords', []);
-function saveExcludeKeywords() { localStorage.setItem('excludeKeywords', JSON.stringify(excludeKeywords)); }
+let keywordFilters = loadJSON('keywordFilters', []);
+function saveKeywordFilters() { localStorage.setItem('keywordFilters', JSON.stringify(keywordFilters)); }
 
 let tagFilterMode = localStorage.getItem('tagFilterMode') || 'hide';
 let selectedTags  = loadJSON('selectedTags', ['rejected']);
@@ -137,7 +137,20 @@ function updateStatusBar() {
     : '';
   document.getElementById('lastUpdated').textContent = `Updated ${dateStr} · ${total} results${loading}`;
   const lcEl = document.getElementById('loadingCounter');
-  if (lcEl) lcEl.style.display = 'none'; // folded into lastUpdated
+  if (lcEl) lcEl.style.display = 'none';
+
+  // Progress banner
+  const banner = document.getElementById('build-progress-banner');
+  const fill   = document.getElementById('build-progress-fill');
+  const text   = document.getElementById('build-progress-text');
+  if (banner && idx && !idx.complete) {
+    const pct = idx.totalLocations > 0 ? Math.round((idx.completedLocations / idx.totalLocations) * 100) : 0;
+    if (text) text.textContent = `Scanning locations… ${idx.completedLocations}/${idx.totalLocations} (${pct}%)`;
+    if (fill) fill.style.width = pct + '%';
+    banner.style.display = 'block';
+  } else if (banner) {
+    banner.style.display = 'none';
+  }
 }
 
 
@@ -279,13 +292,60 @@ async function init() {
       tagFilterMode = 'showonly'; saveTagFilter(); applyModeButtons(); renderResults(currentResults);
     });
 
-    // Restore exclude keywords textarea
-    const ekInput = document.getElementById('excludeKeywordsInput');
-    if (ekInput) {
-      ekInput.value = excludeKeywords.join('\n');
-      ekInput.addEventListener('input', () => {
-        excludeKeywords = ekInput.value.split('\n').map(s => s.trim()).filter(Boolean);
-        saveExcludeKeywords();
+    // Keyword chip system
+    renderKeywordChips();
+    const kwInput = document.getElementById('keywordInput');
+    if (kwInput) {
+      kwInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ',') {
+          e.preventDefault();
+          const val = kwInput.value.trim().replace(/,$/, '');
+          if (val) {
+            keywordFilters.push({ text: val, mode: 'exclude' });
+            saveKeywordFilters();
+            kwInput.value = '';
+            renderKeywordChips();
+            renderResults(currentResults);
+          }
+        }
+      });
+    }
+
+    // Tags section collapse toggle
+    const tagsCollapseBtn = document.getElementById('tagsCollapseBtn');
+    const tagsBody = document.getElementById('tagsBody');
+    const tagsCollapsed = localStorage.getItem('tagsCollapsed') === 'true';
+    if (tagsBody && tagsCollapsed) { tagsBody.classList.add('collapsed'); if (tagsCollapseBtn) tagsCollapseBtn.textContent = '▸'; }
+    if (tagsCollapseBtn) {
+      tagsCollapseBtn.addEventListener('click', () => {
+        const collapsed = tagsBody.classList.toggle('collapsed');
+        tagsCollapseBtn.textContent = collapsed ? '▸' : '▾';
+        localStorage.setItem('tagsCollapsed', collapsed);
+      });
+    }
+
+    // Restore collapsed notice state
+    ['noticeRightmove', 'noticeML'].forEach(id => {
+      if (localStorage.getItem('noticeCollapsed_' + id) === 'true') {
+        const el = document.getElementById(id);
+        if (el) el.classList.add('notice-collapsed');
+      }
+    });
+
+    // Mobile tags select — sync with unified checkboxes
+    const mobileSelect = document.getElementById('unifiedTagsSelect');
+    if (mobileSelect && unifiedContainer) {
+      // Populate options
+      const allTagOpts = [...unifiedContainer.querySelectorAll('input')];
+      mobileSelect.innerHTML = allTagOpts.map(cb => {
+        const label = cb.parentElement.textContent.trim();
+        return `<option value="${cb.value}" ${selectedTags.includes(cb.value) ? 'selected' : ''}>${label}</option>`;
+      }).join('');
+      mobileSelect.addEventListener('change', () => {
+        selectedTags = [...mobileSelect.selectedOptions].map(o => o.value);
+        // sync desktop checkboxes
+        allTagOpts.forEach(cb => { cb.checked = selectedTags.includes(cb.value); });
+        saveTagFilter();
         renderResults(currentResults);
       });
     }
@@ -461,11 +521,15 @@ function applyFilters(results) {
     });
   }
 
-  // Exclude keywords — hide property if ANY term found anywhere in its data
-  if (excludeKeywords.length > 0) {
+  // Keyword chips — include (+) and exclude (−) filters
+  if (keywordFilters.length > 0) {
+    const includes = keywordFilters.filter(f => f.mode === 'include').map(f => f.text.toLowerCase());
+    const excludes = keywordFilters.filter(f => f.mode === 'exclude').map(f => f.text.toLowerCase());
     filtered = filtered.filter(r => {
       const text = `${r.title} ${r.description} ${r.address} ${r.type} ${r.agent} ${(r.sources||[]).map(s=>s.portal).join(' ')}`.toLowerCase();
-      return !excludeKeywords.some(kw => kw && text.includes(kw.toLowerCase()));
+      if (excludes.some(kw => text.includes(kw))) return false;
+      if (includes.length && !includes.every(kw => text.includes(kw))) return false;
+      return true;
     });
   }
 
@@ -621,8 +685,11 @@ function renderCard(p, context) {
     }
     if (t === 'recommended') {
       const sc = p.recommendedScore;
-      const tip = sc ? `Rural: ${sc.rural}% · Detached/garden: ${sc.detached}% · Town: ${p.nearestTownMiles}mi` : '';
-      return `<span class="tag-badge tag-badge-recommended" title="${tip}">⭐ Recommended</span>`;
+      const popupId = `rec-popup-${key}`;
+      const popupHtml = sc
+        ? `<div class="info-popup" id="${popupId}" style="display:none"><b>Why recommended?</b><br>Rural/quiet: ${sc.rural}%<br>Detached/garden: ${sc.detached}%<br>Combined: ${sc.combined}%<br>Nearest town: ${p.nearestTownMiles != null ? p.nearestTownMiles + ' mi' : 'n/a'}${sc.townCentre ? '<br>⚠ Town-centre language detected' : ''}</div>`
+        : '';
+      return `<span class="tag-badge tag-badge-recommended kw-info-btn" onclick="toggleInfoPopup('${popupId}',event)">⭐ Recommended ℹ</span>${popupHtml}`;
     }
     return `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t] || t}</span>`;
   }).join('')}</div>` : '';
@@ -647,16 +714,29 @@ function renderCard(p, context) {
 
   const fd = p.flyoverRef || p.flyover;
   const flyoverMonthly = fd?.monthly ? fd.monthly.filter(m => m.hours > 0) : [];
-  const flyoverHtml = fd ? `
-    <div class="card-flyover">
-      ✈ <span class="flyover-rate">${fd.flightsPerDay} flights/day</span> est.
-      ${fd.location ? `<span style="font-size:11px;color:var(--text-muted);">(ref: ${fd.location})</span>` : ''}
+  const approxFlyover = p.geoAccuracy === 'area';
+  const flyoverPopupId = `fly-popup-${key}`;
+  const flyoverHtml = fd ? (() => {
+    const rateDisplay = approxFlyover
+      ? `<span class="flyover-rate flyover-approx" title="Approximate — location could not be geocoded precisely">~${fd.flightsPerDay} flights/day ⚠</span>`
+      : `<span class="flyover-rate">${fd.flightsPerDay} flights/day</span>`;
+    const popupLines = [
+      `<b>Flyover estimate</b>`,
+      `Reference station: ${fd.location || 'unknown'}`,
+      `Rate: ${fd.flightsPerDay} flights/day`,
+      fd.seasonalFlag ? `Seasonal pattern: ${fd.seasonalFlag.replace(/_/g,' ')}` : '',
+      approxFlyover ? `⚠ Location accuracy: area estimate only — flyover figure may be inaccurate for the exact property` : `Location accuracy: ${p.geoAccuracy || 'unknown'}`,
+      flyoverMonthly.length > 0 ? flyoverMonthly.map(m => `${m.month}: ${m.flightsPerDay}/day`).join(', ') : '',
+    ].filter(Boolean).join('<br>');
+    return `<div class="card-flyover">
+      ✈ <span class="kw-info-btn" onclick="toggleInfoPopup('${flyoverPopupId}',event)">${rateDisplay} ℹ</span>
       ${fd.seasonalFlag === 'high_variance' ? '<span class="flyover-seasonal-high"> — seasonal variance</span>' : ''}
       ${fd.seasonalFlag === 'very_high_variance' ? '<span class="flyover-seasonal-high"> — high seasonal variance</span>' : ''}
       ${fd.seasonalFlag === 'stable' ? '<span class="flyover-seasonal-stable"> — stable</span>' : ''}
       ${fd.seasonalFlag === 'low_traffic' ? '<span class="flyover-seasonal-stable"> — low traffic</span>' : ''}
-      ${flyoverMonthly.length > 0 ? `<br><span style="font-size:11px;color:var(--text-muted);">${flyoverMonthly.map(m => m.month + ': ' + m.flightsPerDay + '/day').join(' · ')}</span>` : ''}
-    </div>` : '';
+      <div class="info-popup" id="${flyoverPopupId}" style="display:none">${popupLines}</div>
+    </div>`;
+  })() : '';
 
   return `<div class="property-card${p.isManual ? ' property-card-manual' : ''}" data-key="${key}">
     ${carouselHtml}
@@ -698,6 +778,59 @@ function renderCard(p, context) {
     </div>
   </div>`;
 }
+
+// --- Keyword chips ---
+function renderKeywordChips() {
+  const container = document.getElementById('keywordChips');
+  if (!container) return;
+  container.innerHTML = keywordFilters.map((f, i) => {
+    const modeLabel = f.mode === 'include' ? '+' : '−';
+    const modeClass = f.mode === 'include' ? 'kw-chip-include' : 'kw-chip-exclude';
+    return `<span class="kw-chip ${modeClass}">
+      <button class="kw-chip-mode" onclick="toggleKeywordMode(${i})" title="Toggle include/exclude">${modeLabel}</button>
+      <span class="kw-chip-text">${f.text.replace(/</g,'&lt;')}</span>
+      <button class="kw-chip-remove" onclick="removeKeyword(${i})" title="Remove">×</button>
+    </span>`;
+  }).join('');
+}
+
+window.toggleKeywordMode = function(i) {
+  if (!keywordFilters[i]) return;
+  keywordFilters[i].mode = keywordFilters[i].mode === 'include' ? 'exclude' : 'include';
+  saveKeywordFilters();
+  renderKeywordChips();
+  renderResults(currentResults);
+};
+
+window.removeKeyword = function(i) {
+  keywordFilters.splice(i, 1);
+  saveKeywordFilters();
+  renderKeywordChips();
+  renderResults(currentResults);
+};
+
+// --- Info popup toggle ---
+window.toggleInfoPopup = function(id, e) {
+  if (e) e.stopPropagation();
+  const el = document.getElementById(id);
+  if (!el) return;
+  const isVisible = el.style.display !== 'none';
+  // Close all open popups first
+  document.querySelectorAll('.info-popup').forEach(p => { p.style.display = 'none'; });
+  if (!isVisible) el.style.display = 'block';
+};
+// Close popups on outside click
+document.addEventListener('click', () => {
+  document.querySelectorAll('.info-popup').forEach(p => { p.style.display = 'none'; });
+});
+
+// --- Collapsible notices ---
+window.toggleNotice = function(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.classList.toggle('notice-collapsed');
+  localStorage.setItem('noticeCollapsed_' + id, el.classList.contains('notice-collapsed'));
+};
 
 // --- Carousel ---
 window.carouselNav = function(cid, dir) {
@@ -1536,7 +1669,7 @@ document.getElementById('saveAddPropertyBtn').addEventListener('click', async ()
 document.getElementById('addPropertyBtn').addEventListener('click', openAddPropertyModal);
 
 // --- Export / Import user data ---
-const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties', 'propertyRejectionReasons', 'excludeKeywords', 'selectedTags', 'hiddenProperties'];
+const USER_DATA_KEYS = ['propertyLists', 'propertyNotes', 'neighbourStatus', 'exclusionZones', 'dismissedDupes', 'notDuplicates', 'airportCircleConfig', 'manualProperties', 'propertyRejectionReasons', 'keywordFilters', 'selectedTags', 'hiddenProperties'];
 
 function exportUserData() {
   const data = {};
@@ -1574,12 +1707,13 @@ function importUserData() {
         exclusionZones = loadJSON('exclusionZones', []);
         manualProperties = loadJSON('manualProperties', []);
         propertyRejectionReasons = loadJSON('propertyRejectionReasons', {});
-        excludeKeywords = loadJSON('excludeKeywords', []);
+        keywordFilters  = loadJSON('keywordFilters', []);
         selectedTags    = loadJSON('selectedTags', ['rejected']);
         hiddenProperties = loadJSON('hiddenProperties', {});
         // Re-merge manual props into currentResults
         currentResults = currentResults.filter(p => !p.isManual);
         for (const mp of manualProperties) { mp.isManual = true; currentResults.push(mp); }
+        renderKeywordChips();
         renderResults(currentResults);
         if (document.getElementById('lists-page').classList.contains('active')) renderListPage();
         alert(`User data imported from ${file.name}`);

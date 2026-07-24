@@ -123,11 +123,17 @@
         <span id="lastUpdated"></span>
         <span id="loadingCounter" style="display:none;"></span>
       </div>
-      <div class="portal-notice">
-        ⚠️ Rightmove is currently excluded from search results due to access restrictions.
+      <div id="build-progress-banner" class="build-progress-banner" style="display:none;">
+        <span id="build-progress-text">Scanning locations…</span>
+        <div class="build-progress-bar"><div id="build-progress-fill"></div></div>
       </div>
-      <div class="portal-notice portal-notice--info">
-        ℹ️ Recommended properties are selected based on distance from towns (≥10mi), airports (≥15mi) and helipads (≥15mi), plus an ML model scoring for rural character and detached property type. Distances reduce iteratively until at least one result is found per location (floor: 5mi).
+      <div class="portal-notice collapsible-notice" id="noticeRightmove">
+        <span class="notice-body">⚠️ Rightmove is currently excluded from search results due to access restrictions.</span>
+        <button class="notice-toggle" onclick="toggleNotice('noticeRightmove')" title="Collapse">✕</button>
+      </div>
+      <div class="portal-notice portal-notice--info collapsible-notice" id="noticeML">
+        <span class="notice-body">ℹ️ Recommended properties are selected based on distance from towns (≥10mi), airports (≥15mi) and helipads (≥15mi), plus an ML model scoring for rural character and detached property type. Town-centre descriptions are excluded. Distances reduce iteratively until at least one result is found per location (floor: 5mi).</span>
+        <button class="notice-toggle" onclick="toggleNotice('noticeML')" title="Collapse">✕</button>
       </div>
     </div>
 
@@ -183,18 +189,25 @@
       <div class="hide-tags-filter">
         <div class="tag-filter-header">
           <label class="tag-filter-label">Tags:</label>
+          <button class="collapse-btn" id="tagsCollapseBtn" title="Collapse tag filters">▾</button>
           <span class="tag-mode-toggle">
             <button class="tag-mode-btn" id="tagModeHide">Hide</button>
             <button class="tag-mode-btn" id="tagModeShowOnly">Show only</button>
           </span>
         </div>
-        <div class="hide-tags-checks" id="unifiedTagsChecks">
-          <!-- populated by app.js after data loads -->
+        <div class="hide-tags-body" id="tagsBody">
+          <select id="unifiedTagsSelect" class="tags-mobile-select" multiple></select>
+          <div class="hide-tags-checks" id="unifiedTagsChecks">
+            <!-- populated by app.js after data loads -->
+          </div>
         </div>
       </div>
-      <div class="text-filter" style="align-items:flex-start;margin-top:4px;">
-        <label class="tag-filter-label" style="padding-top:6px;">Exclude keywords:</label>
-        <textarea id="excludeKeywordsInput" rows="2" placeholder="One per line — property hidden if any term found in its data"></textarea>
+      <div class="keyword-filter-area">
+        <label class="tag-filter-label">Keywords:</label>
+        <div class="keyword-input-row">
+          <input type="text" id="keywordInput" placeholder="Type keyword + Enter (defaults to exclude −)">
+        </div>
+        <div id="keywordChips" class="keyword-chips"></div>
       </div>
       <div class="hide-tags-filter">
         <label class="tag-filter-label">Show on cards:</label>

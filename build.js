@@ -287,7 +287,7 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
       5 // always fetch down to the adaptive floor
     );
     await enrichWithDetails(_page, results, ukTowns, minMiles);
-    await _page.close();
+    try { await _page.close(); } catch (_) {}
 
     let recommended = 0;
     for (const r of results) {
