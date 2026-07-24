@@ -100,7 +100,8 @@
         "great-views": 96,
         "far-from-roads": 61
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -196,7 +197,8 @@
         "great-views": 87,
         "far-from-roads": 30
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "undefined",
@@ -292,7 +294,8 @@
         "great-views": 91,
         "far-from-roads": 38
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "3 bed semi-detached for sale",
@@ -373,7 +376,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "2 bed property for sale",
@@ -467,7 +471,8 @@
         "great-views": 98,
         "far-from-roads": 62
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "2 bed property for sale",
@@ -548,7 +553,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "2 bed property for sale",
@@ -629,7 +635,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "4 bed property for sale",
@@ -722,7 +729,8 @@
         "great-views": 81,
         "far-from-roads": 32
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "5 bed property for sale",
@@ -782,8 +790,8 @@
       },
       "minAirportDistanceMiles": 1.5515113132288605,
       "flyoverRef": {
-        "location": "London Stansted Area",
-        "flightsPerDay": 516.3,
+        "location": "Diss",
+        "flightsPerDay": 3.2,
         "seasonalFlag": "stable",
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -797,13 +805,14 @@
         "airportsDiff": -4,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 516.3,
-        "flightsDiffPct": 512
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "3 bed property for sale",
@@ -883,7 +892,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Horton-in-Ribblesdale"
     },
     {
       "title": "4 bed property for sale",
@@ -963,7 +973,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Horton-in-Ribblesdale"
     }
   ],
   "portalLinks": [
@@ -1010,5 +1021,6 @@
     "minAirport": 5,
     "minHelipad": 5
   },
-  "autoTaggedAt": "2026-07-24T23:07:47.182Z"
+  "autoTaggedAt": "2026-07-24T23:07:47.182Z",
+  "flyoverRescoredAt": "2026-07-24T23:39:58.564Z"
 }
