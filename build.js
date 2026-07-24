@@ -40,6 +40,9 @@ const ALL_PORTALS = [
 
 const portalArg = process.argv.find(a => a.startsWith('--portals='));
 const portalFilter = portalArg ? portalArg.split('=')[1].split(',').map(s => s.trim().toLowerCase()) : null;
+
+const locationArg = process.argv.find(a => a.startsWith('--locations='));
+const locationFilter = locationArg ? locationArg.split('=')[1].split(',').map(s => s.trim().toLowerCase()) : null;
 function getPortals(config) {
   const disabled = (config.disabledPortals || []).map(s => s.toLowerCase());
   let portals = ALL_PORTALS.filter(p => !disabled.includes(p.id));
@@ -804,17 +807,41 @@ async function main() {
     rmLocations[s.location.toLowerCase()] = s.rightmoveId;
   }
 
-  // Write initial empty index so app can detect a build is in progress
-  writeIndex(resultsDir, config, baselineData, [], false, null, []);
+  // Load existing index when doing a partial (--locations=) build so old results are preserved
+  let existingSlugs        = [];
+  let existingTotalResults = 0;
+  let existingPortalLinks  = [];
+  const indexPath = path.join(resultsDir, 'index.json');
+  if (locationFilter && fs.existsSync(indexPath)) {
+    try {
+      const existing       = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+      existingSlugs        = existing.available        || [];
+      existingTotalResults = existing.totalResults     || 0;
+      existingPortalLinks  = existing.portalLinks      || [];
+      console.log(`Partial build: preserving ${existingSlugs.length} existing locations`);
+    } catch {}
+  }
+
+  // Filter searches to only the requested locations
+  const activeSearches = locationFilter
+    ? config.searches.filter(s =>
+        locationFilter.includes(s.location.toLowerCase()) ||
+        locationFilter.includes(slugify(s.location))
+      )
+    : config.searches;
+  if (locationFilter) console.log(`Location filter: ${activeSearches.map(s => s.location).join(', ')}`);
+
+  // Write initial index keeping existing results visible while new ones build
+  writeIndex(resultsDir, config, baselineData, existingSlugs, existingSlugs.length > 0, existingSlugs.length > 0 ? existingTotalResults : null, existingPortalLinks);
 
   const allPortalLinks  = [];
   const completedSlugs  = [];
 
-  for (let si = 0; si < config.searches.length; si++) {
-    const search   = config.searches[si];
+  for (let si = 0; si < activeSearches.length; si++) {
+    const search   = activeSearches[si];
     const slug     = slugify(search.location);
     const queryLoc = search.postcode || search.location;
-    console.log(`\n=== [${si + 1}/${config.searches.length}] ${search.location}${search.postcode ? ` (${search.postcode})` : ''} ===`);
+    console.log(`\n=== [${si + 1}/${activeSearches.length}] ${search.location}${search.postcode ? ` (${search.postcode})` : ''} ===`);
 
     const criteria = {
       locations:     queryLoc,
@@ -893,8 +920,8 @@ async function main() {
     await processLocation(search, locationResults, locationPortalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns);
     completedSlugs.push(slug);
 
-    // Update index so app can see the new location
-    writeIndex(resultsDir, config, baselineData, completedSlugs, false, null, allPortalLinks);
+    // Update index so app can see the new location (merged with existing)
+    writeIndex(resultsDir, config, baselineData, [...new Set([...existingSlugs, ...completedSlugs])], false, null, [...existingPortalLinks, ...allPortalLinks]);
 
     // Auto push every N locations
     if (PUSH_EVERY > 0 && (si + 1) % PUSH_EVERY === 0) {
@@ -919,8 +946,9 @@ async function main() {
     console.log(`Recommendation: ${totalRecommended} recommended (town≥${minTown}mi, airport≥${minAirport}mi, helipad≥${minHelipad}mi)`);
   }
 
-  // Write complete index
-  writeIndex(resultsDir, config, baselineData, completedSlugs, true, totalResults, allPortalLinks);
+  // Write complete index (merge new slugs with existing)
+  const allSlugs = [...new Set([...existingSlugs, ...completedSlugs])];
+  writeIndex(resultsDir, config, baselineData, allSlugs, true, (totalResults || 0) + existingTotalResults, [...existingPortalLinks, ...allPortalLinks]);
   console.log('\nBuild complete!');
 
   // Final git push

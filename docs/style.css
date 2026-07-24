@@ -684,6 +684,14 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 @media (prefers-color-scheme: dark) {
   .portal-notice { background: #2d2207; color: #f0c060; border-color: #5c4400; }
 }
+.portal-notice--info {
+  color: #1e40af;
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+@media (prefers-color-scheme: dark) {
+  .portal-notice--info { background: #0d1f3c; color: #93c5fd; border-color: #1e3a6e; }
+}
 
 /* Status bar (one-liner on Results page) */
 .status-bar {
