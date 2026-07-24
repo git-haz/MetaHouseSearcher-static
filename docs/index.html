@@ -132,17 +132,13 @@
         <button class="notice-toggle" onclick="toggleNotice('noticeRightmove')" title="Collapse">✕</button>
       </div>
       <div class="portal-notice portal-notice--info collapsible-notice" id="noticeML">
-        <span class="notice-body">ℹ️ Recommended properties are selected based on distance from towns (≥10mi), airports (≥15mi) and helipads (≥15mi), plus an ML model scoring for rural character and detached property type. Town-centre descriptions are excluded. Distances reduce iteratively until at least one result is found per location (floor: 5mi).</span>
+        <span class="notice-body">ℹ️ Auto-tags are applied to properties that pass distance criteria (≥10mi from towns ≥15k pop, ≥15mi from airports/helipads, ≥5mi from airstrips). An ML model then classifies each property for: rural, quiet, hillside, large-outdoors, great-views, far-from-roads. Confidence threshold starts at 80%; reduces to 70% then 60% per location if fewer than 10 properties are tagged.</span>
         <button class="notice-toggle" onclick="toggleNotice('noticeML')" title="Collapse">✕</button>
       </div>
     </div>
 
     <!-- Filters -->
     <div class="result-filters" id="resultFilters">
-      <div class="text-filter">
-        <label class="tag-filter-label">Filter:</label>
-        <input type="text" id="textFilter" placeholder="e.g. garden, cottage (all must match)">
-      </div>
       <div class="filter-row">
         <div class="filter-group">
           <label>Price</label>

@@ -48,13 +48,14 @@
   ],
   "rejectionReasons": ["house type", "neighbour vicinity", "solar panels", "A road vicinity", "B road vicinity"],
   "disabledPortals": ["rightmove"],
-  "recommend": {
+  "autoTag": {
     "enabled": true,
     "minTownPopulation": 15000,
     "minDistanceToTownMiles": 10,
     "minDistanceToAirportMiles": 15,
+    "minDistanceToAirstripMiles": 5,
     "minDistanceToHelipadMiles": 15,
-    "confidenceThreshold": 0.4
+    "confidenceThreshold": 0.8
   },
   "autoReject": {
     "titlePatterns": [

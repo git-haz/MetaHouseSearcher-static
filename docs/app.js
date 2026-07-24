@@ -88,7 +88,7 @@ function getPropertyTags(p) {
   else if (p.neighbourDetected) tags.push('neighbour');
   const rr = propertyRejectionReasons[key];
   if (rr && rr.reasons) { for (const r of rr.reasons) tags.push('reason:' + r); }
-  if (p.recommended) tags.push('recommended');
+  for (const at of (p.autoTags || [])) tags.push('autotag:' + at);
   return tags;
 }
 
@@ -109,7 +109,6 @@ function saveManualProperties() { localStorage.setItem('manualProperties', JSON.
 // --- State ---
 let allData = null;
 let currentResults = [];
-let textFilterKeywords = [];
 // hiddenTags removed — replaced by selectedTags + tagFilterMode
 let showFlyover = true;
 let showNeighbour = true;
@@ -257,8 +256,18 @@ async function init() {
     const rejectionReasons = allData.searchConfig?.rejectionReasons || ['house type', 'neighbour vicinity', 'solar panels', 'A road vicinity', 'B road vicinity'];
     const unifiedContainer = document.getElementById('unifiedTagsChecks');
     if (unifiedContainer) {
-      const allTagOptions = [
-        { value: 'recommended', label: '⭐ Recommended'    },
+      // Collect all auto-tags present in loaded results
+    const allAutoTags = [...new Set(currentResults.flatMap(r => r.autoTags || []))].sort();
+    const AUTO_TAG_LABELS = {
+      'rural':          '🌿 Rural',
+      'quiet':          '🔇 Quiet',
+      'hillside':       '⛰ Hillside',
+      'large-outdoors': '🌳 Large Outdoors',
+      'great-views':    '🌄 Great Views',
+      'far-from-roads': '🛤 Far from Roads',
+    };
+    const allTagOptions = [
+        ...allAutoTags.map(t => ({ value: 'autotag:' + t, label: AUTO_TAG_LABELS[t] || ('🏷 ' + t) })),
         { value: 'favorite',    label: '★ Favorites'     },
         { value: 'seen',        label: 'Seen'             },
         { value: 'view',        label: 'To View'          },
@@ -464,10 +473,6 @@ document.querySelectorAll('header nav a').forEach(link => {
 });
 
 // --- Filters ---
-document.getElementById('textFilter').addEventListener('input', e => {
-  textFilterKeywords = e.target.value ? e.target.value.split(',').map(k => k.trim().toLowerCase()).filter(Boolean) : [];
-  renderResults(currentResults);
-});
 
 
 // Display toggles
@@ -512,13 +517,6 @@ function applyFilters(results) {
     } else {
       filtered = filtered.filter(r => !selectedTags.some(t => getPropertyTags(r).includes(t)));
     }
-  }
-
-  if (textFilterKeywords.length > 0) {
-    filtered = filtered.filter(r => {
-      const text = `${r.title} ${r.description} ${r.address} ${r.type}`.toLowerCase();
-      return textFilterKeywords.every(kw => text.includes(kw));
-    });
   }
 
   // Keyword chips — include (+) and exclude (−) filters
@@ -683,13 +681,15 @@ function renderCard(p, context) {
       const note = rr?.note ? `<span class="tag-badge-rr-note" title="${rr.note.replace(/"/g,'&quot;')}"> 📝</span>` : '';
       return `<span class="tag-badge tag-badge-rejected">✕ Rejected${reasons}</span>${note}`;
     }
-    if (t === 'recommended') {
-      const sc = p.recommendedScore;
-      const popupId = `rec-popup-${key}`;
-      const popupHtml = sc
-        ? `<div class="info-popup" id="${popupId}" style="display:none"><b>Why recommended?</b><br>Rural/quiet: ${sc.rural}%<br>Detached/garden: ${sc.detached}%<br>Combined: ${sc.combined}%<br>Nearest town: ${p.nearestTownMiles != null ? p.nearestTownMiles + ' mi' : 'n/a'}${sc.townCentre ? '<br>⚠ Town-centre language detected' : ''}</div>`
-        : '';
-      return `<span class="tag-badge tag-badge-recommended kw-info-btn" onclick="toggleInfoPopup('${popupId}',event)">⭐ Recommended ℹ</span>${popupHtml}`;
+    if (t.startsWith('autotag:')) {
+      const tagName = t.slice(8);
+      const sc = p.autoTagScores?.[tagName];
+      const popupId = `at-popup-${key}-${tagName}`;
+      const AUTO_TAG_LABELS = { 'rural':'🌿 Rural','quiet':'🔇 Quiet','hillside':'⛰ Hillside','large-outdoors':'🌳 Large Outdoors','great-views':'🌄 Great Views','far-from-roads':'🛤 Far from Roads' };
+      const label = AUTO_TAG_LABELS[tagName] || ('🏷 ' + tagName);
+      const threshold = p.autoTagThreshold ?? '—';
+      const popupHtml = `<div class="info-popup" id="${popupId}" style="display:none"><b>${label}</b><br>Score: ${sc != null ? sc + '%' : 'n/a'}<br>Threshold: ${threshold}%<br>Distance gate passed ✓</div>`;
+      return `<span class="tag-badge tag-badge-autotag tag-badge-autotag-${tagName.replace(/[^a-z]/g,'-')} kw-info-btn" onclick="toggleInfoPopup('${popupId}',event)">${label} ℹ</span>${popupHtml}`;
     }
     return `<span class="tag-badge tag-badge-${t}">${LIST_LABELS[t] || t}</span>`;
   }).join('')}</div>` : '';

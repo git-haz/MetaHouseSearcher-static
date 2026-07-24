@@ -12,7 +12,7 @@ const { geocodeResults } = require(path.join(mainDir, 'geocode'));
 const { buildUrls } = require(path.join(mainDir, 'portals'));
 const { analyzeProperties } = require(path.join(mainDir, 'imageAnalyzer'));
 const { attachFlyoverData } = require(path.join(mainDir, 'flyovers'));
-const { initML, assessProperty } = require(path.join(mainDir, 'recommend'));
+const { initML, autoTagLocation } = require(path.join(mainDir, 'autotag'));
 const seedData = require(path.join(mainDir, 'seedData'));
 const zooplaParser = require(path.join(mainDir, 'parsers', 'zoopla'));
 const otmParser = require(path.join(mainDir, 'parsers', 'onthemarket'));
@@ -53,7 +53,7 @@ function getPortals(config) {
 
 const pushEveryArg = process.argv.find(a => a.startsWith('--push-every='));
 const PUSH_EVERY   = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
-const USE_ML       = process.argv.includes('--ml-recommend');
+const USE_ML       = process.argv.includes('--ml-recommend') || process.argv.includes('--ml');
 
 // ---- Utilities ----
 const https = require('https');
@@ -274,29 +274,11 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
     }
   }
 
-  // 9. Recommendation assessment (--recommend or config.recommend.enabled)
-  const recommendEnabled = process.argv.includes('--recommend') || process.argv.includes('--ml-recommend') || config.recommend?.enabled;
-  if (recommendEnabled && ukTowns && ukTowns.length > 0) {
-    // Fetch detail pages for properties that could pass the distance gate
-    const _browser = await getBrowser();
-    const _page = await _browser.newPage();
-    const minMiles = Math.min(
-      config.recommend?.minDistanceToTownMiles    ?? 15,
-      config.recommend?.minDistanceToAirportMiles ?? 15,
-      config.recommend?.minDistanceToHelipadMiles ?? 15,
-      5 // always fetch down to the adaptive floor
-    );
-    await enrichWithDetails(_page, results, ukTowns, minMiles);
-    try { await _page.close(); } catch (_) {}
-
-    let recommended = 0;
-    for (const r of results) {
-      if (r.lat == null) continue;
-      const assessment = await assessProperty(r, ukTowns, config);
-      Object.assign(r, assessment);
-      if (r.recommended) recommended++;
-    }
-    console.log(`  Recommended: ${recommended}/${results.length}`);
+  // 9. Auto-tag (distance gate + ML classification)
+  const autoTagEnabled = (config.autoTag || config.recommend)?.enabled !== false;
+  if (autoTagEnabled && ukTowns && ukTowns.length > 0) {
+    const { chosenThreshold, totalTagged, eligibleCount } = await autoTagLocation(results, ukTowns, config);
+    console.log(`  Auto-tagged: ${totalTagged}/${eligibleCount} eligible (threshold: ${Math.round(chosenThreshold * 100)}%)`);
   }
 
   // 10. Baseline comparison
@@ -576,11 +558,7 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
     attachAutoReject(props);
     attachBaselineComparison(props, airportsArr, baselineData);
     if (ukTowns.length > 0) {
-      for (const r of props) {
-        if (r.lat == null) continue;
-        const assessment = await assessProperty(r, ukTowns, config);
-        Object.assign(r, assessment);
-      }
+      await autoTagLocation(props, ukTowns, config);
     }
 
     // Build portal links
@@ -611,90 +589,28 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
   console.log('\nBuild complete!');
 }
 
-// ---- Adaptive recommendation scoring across all location files ----
-// Starts at config distances, reduces by 1 mile per iteration until ≥1 result or floor (5mi) is reached.
-async function adaptiveRescore(resultsDir, ukTowns, config, slugs, page) {
-  const rec      = config.recommend || {};
-  const MIN_FLOOR = 5;
-
-  let minTown    = rec.minDistanceToTownMiles    ?? 15;
-  let minAirport = rec.minDistanceToAirportMiles ?? 15;
-  let minHelipad = rec.minDistanceToHelipadMiles ?? 15;
-
-  // Pre-fetch detail pages once (for all props that could pass even the most lenient gate).
-  // Stores result in property.fullDescription so assessProperty picks it up automatically.
-  if (page) {
-    console.log('  Fetching detail pages for distance-eligible properties…');
-    for (const slug of slugs) {
-      const filePath = path.join(resultsDir, `${slug}.json`);
-      if (!fs.existsSync(filePath)) continue;
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      const before = data.properties.filter(p => p.fullDescription).length;
-      await enrichWithDetails(page, data.properties, ukTowns, MIN_FLOOR);
-      const after = data.properties.filter(p => p.fullDescription).length;
-      if (after > before) {
-        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-        console.log(`    ${slug}: fetched ${after - before} detail page(s)`);
-      }
-    }
-  }
-
-  let finalData  = null;
-  let finalCount = 0;
-  let effectiveMins = { minTown, minAirport, minHelipad };
-
-  while (true) {
-    const iterConfig = {
-      ...config,
-      recommend: { ...rec, minDistanceToTownMiles: minTown, minDistanceToAirportMiles: minAirport, minDistanceToHelipadMiles: minHelipad },
-    };
-
-    let totalRecommended = 0;
-    const iteration = [];
-    for (const slug of slugs) {
-      const filePath = path.join(resultsDir, `${slug}.json`);
-      if (!fs.existsSync(filePath)) continue;
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      let recommended = 0;
-      for (const r of data.properties) {
-        if (r.lat == null) continue;
-        const assessment = await assessProperty(r, ukTowns, iterConfig);
-        Object.assign(r, assessment);
-        if (r.recommended) recommended++;
-      }
-      totalRecommended += recommended;
-      iteration.push({ filePath, data, recommended });
-    }
-
-    const atFloor = minTown <= MIN_FLOOR && minAirport <= MIN_FLOOR && minHelipad <= MIN_FLOOR;
-    console.log(`  town≥${minTown}mi airport≥${minAirport}mi helipad≥${minHelipad}mi → ${totalRecommended} recommended`);
-
-    if (totalRecommended > 0 || atFloor) {
-      finalData  = iteration;
-      finalCount = totalRecommended;
-      effectiveMins = { minTown, minAirport, minHelipad };
-      break;
-    }
-
-    minTown    = Math.max(MIN_FLOOR, minTown    - 1);
-    minAirport = Math.max(MIN_FLOOR, minAirport - 1);
-    minHelipad = Math.max(MIN_FLOOR, minHelipad - 1);
-  }
-
+// ---- Auto-tag all location files (replaces adaptive recommend pass) ----
+async function autoTagAllLocations(resultsDir, ukTowns, config, slugs) {
   const ts = new Date().toISOString();
+  let totalTagged = 0;
   let totalProperties = 0;
-  for (const { filePath, data, recommended } of finalData) {
-    data.rescoredAt = ts;
-    data.effectiveRecommendConfig = effectiveMins;
+
+  for (const slug of slugs) {
+    const filePath = path.join(resultsDir, `${slug}.json`);
+    if (!fs.existsSync(filePath)) continue;
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const { chosenThreshold, totalTagged: tagged, eligibleCount } = await autoTagLocation(data.properties, ukTowns, config);
+    data.autoTaggedAt = ts;
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    console.log(`  ${data.location}: ${recommended}/${data.properties.length} recommended`);
+    console.log(`  ${data.location}: ${tagged}/${eligibleCount} tagged (threshold: ${Math.round(chosenThreshold * 100)}%)`);
+    totalTagged     += tagged;
     totalProperties += data.properties.length;
   }
 
-  return { totalRecommended: finalCount, totalProperties, slugs: finalData.map(d => d.filePath), ...effectiveMins };
+  return { totalTagged, totalProperties };
 }
 
-// ---- --rescore: re-run recommendation on existing docs/results/ files ----
+// ---- --rescore: re-run auto-tag on all existing docs/results/ files ----
 async function rescoreResults(config, resultsDir, ukTowns) {
   const indexPath = path.join(resultsDir, 'index.json');
   if (!fs.existsSync(indexPath)) {
@@ -702,8 +618,6 @@ async function rescoreResults(config, resultsDir, ukTowns) {
     process.exit(1);
   }
   const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-  // Prefer index.available, but fall back to scanning the directory so --rescore
-  // works even when a previous build crashed before writing the final index.
   let slugs = index.available || [];
   if (slugs.length === 0) {
     slugs = fs.readdirSync(resultsDir)
@@ -711,25 +625,17 @@ async function rescoreResults(config, resultsDir, ukTowns) {
       .map(f => f.replace(/\.json$/, ''));
     if (slugs.length > 0) console.log(`index.available was empty — found ${slugs.length} file(s) by directory scan`);
   }
-  console.log(`\nRescoring ${slugs.length} location file(s) with adaptive distance reduction…`);
+  console.log(`\nAuto-tagging ${slugs.length} location file(s)…`);
 
-  const browser = await getBrowser();
-  const page    = await browser.newPage();
-  await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-GB,en;q=0.9' });
+  const { totalTagged, totalProperties } = await autoTagAllLocations(resultsDir, ukTowns, config, slugs);
 
-  const { totalRecommended, totalProperties, minTown, minAirport, minHelipad } =
-    await adaptiveRescore(resultsDir, ukTowns, config, slugs, page);
-
-  await closeBrowser();
-
-  // Rebuild index with correct available list and complete flag
   index.available          = slugs;
   index.complete           = true;
   index.completedLocations = slugs.length;
   index.totalResults       = totalProperties;
   index.rescoredAt         = new Date().toISOString();
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
-  console.log(`\nDone. ${totalRecommended}/${totalProperties} recommended (town≥${minTown}mi, airport≥${minAirport}mi, helipad≥${minHelipad}mi)`);
+  console.log(`\nDone. ${totalTagged} properties auto-tagged across ${totalProperties} total.`);
 }
 
 // ---- main ----
@@ -760,19 +666,19 @@ async function main() {
   // Load airports array for countInRadius (baseline comparison)
   const airportsArr = JSON.parse(fs.readFileSync(path.join(docsDir, 'airports.json'), 'utf8')).airfields || [];
 
-  // Load UK towns for recommendation distance check
-  const recommendEnabled = process.argv.includes('--recommend') || process.argv.includes('--ml-recommend') || config.recommend?.enabled;
+  // Load UK towns for auto-tag distance gate
+  const autoTagCfg    = config.autoTag || config.recommend || {};
+  const autoTagEnabled = autoTagCfg.enabled !== false;
   let ukTowns = [];
-  if (recommendEnabled) {
+  if (autoTagEnabled) {
     if (!fs.existsSync(ukTownsSource)) {
       console.warn('⚠ uk-towns.json not found — run: node scripts/fetch-uk-towns.js');
-      console.warn('  Recommendation step will be skipped.');
+      console.warn('  Auto-tag step will be skipped.');
     } else {
       ukTowns = JSON.parse(fs.readFileSync(ukTownsSource, 'utf8'));
-      const minPop = config.recommend?.minTownPopulation ?? 10000;
-      if (minPop > 0) ukTowns = ukTowns.filter(t => t.pop >= minPop);
+      const minPop = autoTagCfg.minTownPopulation ?? 15000;
       fs.copyFileSync(ukTownsSource, path.join(docsDir, 'uk-towns.json'));
-      console.log(`Loaded ${ukTowns.length} UK towns (pop≥${minPop.toLocaleString()}) for recommendation checks`);
+      console.log(`Loaded ${ukTowns.length} UK towns (pop≥${minPop.toLocaleString()}) for auto-tag checks`);
       if (USE_ML) {
         try {
           const { pipeline, env } = require('@xenova/transformers');
@@ -934,16 +840,12 @@ async function main() {
   // Final cross-location pass (dupe detection + same-URL dedup)
   const totalResults = await finalPass(resultsDir, completedSlugs);
 
-  // Adaptive recommendation pass across all locations
-  if (recommendEnabled && ukTowns.length > 0) {
-    console.log('\nRunning adaptive recommendation pass…');
-    const _browser = await getBrowser();
-    const _page    = await _browser.newPage();
-    await _page.setExtraHTTPHeaders({ 'Accept-Language': 'en-GB,en;q=0.9' });
-    const { totalRecommended, minTown, minAirport, minHelipad } =
-      await adaptiveRescore(resultsDir, ukTowns, config, completedSlugs, _page);
-    await _page.close();
-    console.log(`Recommendation: ${totalRecommended} recommended (town≥${minTown}mi, airport≥${minAirport}mi, helipad≥${minHelipad}mi)`);
+  // Auto-tag pass across ALL location files (new + existing) — removes old recommend tags
+  if (autoTagEnabled && ukTowns.length > 0) {
+    const allSlugsForTag = [...new Set([...existingSlugs, ...completedSlugs])];
+    console.log(`\nRunning auto-tag pass on ${allSlugsForTag.length} location(s)…`);
+    const { totalTagged, totalProperties } = await autoTagAllLocations(resultsDir, ukTowns, config, allSlugsForTag);
+    console.log(`Auto-tag: ${totalTagged} properties tagged across ${totalProperties} total`);
   }
 
   // Write complete index (merge new slugs with existing)
