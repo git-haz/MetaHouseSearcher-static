@@ -590,10 +590,11 @@ async function buildFromSeed(config, resultsDir, airportsArr, flyoverSource, bas
 }
 
 // ---- Auto-tag all location files (replaces adaptive recommend pass) ----
-async function autoTagAllLocations(resultsDir, ukTowns, config, slugs) {
+async function autoTagAllLocations(resultsDir, ukTowns, config, slugs, pushEvery = 0) {
   const ts = new Date().toISOString();
   let totalTagged = 0;
   let totalProperties = 0;
+  let done = 0;
 
   for (const slug of slugs) {
     const filePath = path.join(resultsDir, `${slug}.json`);
@@ -605,6 +606,11 @@ async function autoTagAllLocations(resultsDir, ukTowns, config, slugs) {
     console.log(`  ${data.location}: ${tagged}/${eligibleCount} tagged (threshold: ${Math.round(chosenThreshold * 100)}%)`);
     totalTagged     += tagged;
     totalProperties += data.properties.length;
+    done++;
+
+    if (pushEvery > 0 && done % pushEvery === 0) {
+      autoPush(done, slugs.length, false);
+    }
   }
 
   return { totalTagged, totalProperties };
@@ -627,7 +633,7 @@ async function rescoreResults(config, resultsDir, ukTowns) {
   }
   console.log(`\nAuto-tagging ${slugs.length} location file(s)…`);
 
-  const { totalTagged, totalProperties } = await autoTagAllLocations(resultsDir, ukTowns, config, slugs);
+  const { totalTagged, totalProperties } = await autoTagAllLocations(resultsDir, ukTowns, config, slugs, PUSH_EVERY);
 
   index.available          = slugs;
   index.complete           = true;
@@ -636,6 +642,7 @@ async function rescoreResults(config, resultsDir, ukTowns) {
   index.rescoredAt         = new Date().toISOString();
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
   console.log(`\nDone. ${totalTagged} properties auto-tagged across ${totalProperties} total.`);
+  if (PUSH_EVERY > 0) autoPush(slugs.length, slugs.length, true);
 }
 
 // ---- main ----
