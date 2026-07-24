@@ -98,7 +98,8 @@
         "great-views": 80,
         "far-from-roads": 55
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "2 bedroom detached house for sale",
@@ -194,7 +195,8 @@
         "great-views": 73,
         "far-from-roads": 49
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "2 bedroom end of terrace house for sale",
@@ -290,7 +292,8 @@
         "great-views": 97,
         "far-from-roads": 32
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "3 bedroom property for sale",
@@ -388,7 +391,8 @@
         "great-views": 80,
         "far-from-roads": 62
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "undefined",
@@ -484,7 +488,8 @@
         "great-views": 79,
         "far-from-roads": 39
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "undefined",
@@ -579,7 +584,8 @@
         "great-views": 89,
         "far-from-roads": 46
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "undefined",
@@ -674,7 +680,8 @@
         "great-views": 89,
         "far-from-roads": 46
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "undefined",
@@ -770,7 +777,8 @@
         "great-views": 64,
         "far-from-roads": 47
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "undefined",
@@ -865,7 +873,8 @@
         "great-views": 58,
         "far-from-roads": 57
       },
-      "autoTagThreshold": 60
+      "autoTagThreshold": 60,
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "4 bed property for sale",
@@ -946,7 +955,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:18:28.264Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "4 bed property for sale",
@@ -1026,7 +1036,8 @@
       "isNew": true,
       "retrievedAt": "2026-07-24T22:18:28.264Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Askrigg"
     },
     {
       "title": "5 bed property for sale",
@@ -1086,8 +1097,8 @@
       },
       "minAirportDistanceMiles": 2.3252132145788478,
       "flyoverRef": {
-        "location": "London Luton Area",
-        "flightsPerDay": 360.2,
+        "location": "Diss",
+        "flightsPerDay": 3.2,
         "seasonalFlag": "stable",
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -1100,13 +1111,14 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 360.2,
-        "flightsDiffPct": 327
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -96
       },
       "isNew": true,
       "retrievedAt": "2026-07-24T22:18:28.264Z",
       "autoTags": [],
-      "autoTagScores": {}
+      "autoTagScores": {},
+      "sourceLocation": "Askrigg"
     }
   ],
   "portalLinks": [
@@ -1153,5 +1165,6 @@
     "minAirport": 5,
     "minHelipad": 5
   },
-  "autoTaggedAt": "2026-07-24T23:07:47.182Z"
+  "autoTaggedAt": "2026-07-24T23:07:47.182Z",
+  "flyoverRescoredAt": "2026-07-24T23:39:56.177Z"
 }
