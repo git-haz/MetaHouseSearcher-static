@@ -379,6 +379,13 @@ header nav a.active { opacity: 1; font-weight: 600; border-bottom: 2px solid #ff
 .card-meta-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 4px; }
 .card-retrieved { font-size: 10px; color: var(--text-muted); background: #f1f3f4; padding: 1px 8px; border-radius: 10px; }
 .card-new-badge { font-size: 10px; font-weight: 700; color: #fff; background: var(--primary); padding: 1px 8px; border-radius: 10px; }
+.card-updated-badge { font-size: 10px; font-weight: 700; color: #fff; background: #e67e00; padding: 1px 8px; border-radius: 10px; cursor: help; }
+.tag-badge-updated { background: #fff3e0; color: #b45309; border: 1px solid #f59e0b; }
+@media (prefers-color-scheme: dark) {
+  .tag-badge-updated { background: #3a2200; color: #fbbf24; border-color: #92400e; }
+}
+:root[data-theme="dark"] .tag-badge-updated { background: #3a2200; color: #fbbf24; border-color: #92400e; }
+:root[data-theme="light"] .tag-badge-updated { background: #fff3e0; color: #b45309; border-color: #f59e0b; }
 .card-dupe-btn {
   font-size: 11px; font-weight: 500; color: #e65100; background: #fff3e0;
   border: 1px solid #ffcc80; border-radius: 10px; padding: 1px 10px; cursor: pointer;

@@ -1,6 +1,6 @@
 // --- Persistent lists & notes ---
 const LIST_NAMES = ['favorite', 'seen', 'view', 'viewed', 'in_progress', 'rejected'];
-const LIST_LABELS = { favorite: 'Favorites', seen: 'Seen', view: 'To View', viewed: 'Viewed', in_progress: 'In Progress', rejected: 'Rejected', excluded: 'Exclusion Zone', neighbour: '⚠ Neighbour', neighbour_confirmed: '🏘 Neighbour Confirmed' };
+const LIST_LABELS = { favorite: 'Favorites', seen: 'Seen', view: 'To View', viewed: 'Viewed', in_progress: 'In Progress', rejected: 'Rejected', excluded: 'Exclusion Zone', neighbour: '⚠ Neighbour', neighbour_confirmed: '🏘 Neighbour Confirmed', updated: '🔄 Updated' };
 
 let propertyLists = loadJSON('propertyLists', {});
 let propertyNotes = loadJSON('propertyNotes', {});
@@ -89,6 +89,7 @@ function getPropertyTags(p) {
   const rr = propertyRejectionReasons[key];
   if (rr && rr.reasons) { for (const r of rr.reasons) tags.push('reason:' + r); }
   for (const at of (p.autoTags || [])) tags.push('autotag:' + at);
+  if (p.updated) tags.push('updated');
   return tags;
 }
 
@@ -276,6 +277,7 @@ async function init() {
         { value: 'rejected',    label: 'Rejected'         },
         { value: 'excluded',    label: 'Exclusion Zone'   },
         { value: 'neighbour',   label: '⚠ Neighbour'      },
+        { value: 'updated',     label: '🔄 Updated'        },
         ...rejectionReasons.map(r => ({ value: 'reason:' + r, label: '✕ ' + r })),
       ];
       unifiedContainer.innerHTML = allTagOptions.map(t =>
@@ -752,6 +754,7 @@ function renderCard(p, context) {
       <div class="card-meta-row">
         ${p.retrievedAt || p.seedAddedAt ? `<span class="card-retrieved" title="Retrieved ${new Date(p.retrievedAt || p.seedAddedAt).toISOString()}">${new Date(p.retrievedAt || p.seedAddedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short'})}</span>` : ''}
         ${p.isNew ? '<span class="card-new-badge">NEW</span>' : ''}
+        ${p.updated ? `<span class="card-updated-badge" title="Changed: ${(p.updatedFields||[]).join(', ')}${p.previousPrice ? ` (was £${p.previousPrice.toLocaleString()})` : ''}">UPDATED</span>` : ''}
         ${propertyHasDuplicates(p) ? `<button class="card-dupe-btn" onclick="showDuplicates('${ek}')">⚠ Duplicates — choose one</button>` : ''}
         ${!propertyHasDuplicates(p) && propertyHasPotentialDuplicates(p) ? `<button class="card-dupe-btn card-dupe-potential" onclick="showDuplicates('${ek}')">? Potential duplicate (${p.duplicateSimilarity || ''}% match) — confirm</button>` : ''}
       </div>
