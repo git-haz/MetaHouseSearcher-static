@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T13:53:47.300Z",
+  "generatedAt": "2026-07-25T14:04:28.241Z",
   "complete": false,
   "searchConfig": {
     "searches": [
@@ -414,7 +414,7 @@
     "Sedbergh"
   ],
   "totalLocations": 45,
-  "completedLocations": 35,
+  "completedLocations": 40,
   "totalResults": null,
   "available": [
     "launceston",
@@ -451,7 +451,12 @@
     "alston",
     "bellingham",
     "rothbury",
-    "wooler"
+    "wooler",
+    "hawes",
+    "leyburn",
+    "middleham",
+    "askrigg",
+    "reeth"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -1694,6 +1699,181 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=NE71%206DQ&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Wooler"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-3nt/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/dl8-3nt/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%203NT&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%203NT&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=DL8%203NT&minbeds=2&maxprice=450000",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%203NT&minBeds=2&maxPrice=450000",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%203NT&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Hawes"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-5ae/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/dl8-5ae/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%205AE&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%205AE&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=DL8%205AE&minbeds=2&maxprice=450000",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%205AE&minBeds=2&maxPrice=450000",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%205AE&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Leyburn"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-4pe/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/dl8-4pe/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%204PE&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%204PE&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=DL8%204PE&minbeds=2&maxprice=450000",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%204PE&minBeds=2&maxPrice=450000",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%204PE&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Middleham"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-3hh/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/dl8-3hh/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%203HH&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%203HH&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=DL8%203HH&minbeds=2&maxprice=450000",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%203HH&minBeds=2&maxPrice=450000",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%203HH&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Askrigg"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/dl11-6sp/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Reeth"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/dl11-6sp/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Reeth"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL11%206SP&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Reeth"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL11%206SP&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Reeth"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=DL11%206SP&minbeds=2&maxprice=450000",
+      "searchLocation": "Reeth"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL11%206SP&minBeds=2&maxPrice=450000",
+      "searchLocation": "Reeth"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=DL11%206SP&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Reeth"
     }
   ]
 }
