@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T22:48:07.323Z",
-  "complete": true,
+  "generatedAt": "2026-07-25T12:45:48.253Z",
+  "complete": false,
   "searchConfig": {
     "searches": [
       {
@@ -329,13 +329,14 @@
     "disabledPortals": [
       "rightmove"
     ],
-    "recommend": {
+    "autoTag": {
       "enabled": true,
       "minTownPopulation": 15000,
       "minDistanceToTownMiles": 10,
       "minDistanceToAirportMiles": 15,
+      "minDistanceToAirstripMiles": 5,
       "minDistanceToHelipadMiles": 15,
-      "confidenceThreshold": 0.4
+      "confidenceThreshold": 0.8
     },
     "autoReject": {
       "titlePatterns": [
@@ -413,54 +414,14 @@
     "Sedbergh"
   ],
   "totalLocations": 45,
-  "completedLocations": 45,
-  "totalResults": 1617,
+  "completedLocations": 5,
+  "totalResults": null,
   "available": [
-    "alford",
-    "alston",
-    "appleby-in-westmorland",
-    "aylsham",
-    "bellingham",
-    "bude",
-    "burnham-on-crouch",
-    "burwell",
-    "debenham",
-    "diss",
-    "donington",
-    "eye",
-    "framlingham",
-    "fressingfield",
-    "halesworth",
-    "harleston",
-    "helmsley",
-    "horncastle",
-    "hoxne",
-    "kirkby-stephen",
-    "kirkbymoorside",
     "launceston",
-    "laxfield",
-    "littleport",
-    "maldon",
-    "rothbury",
-    "sandwich",
-    "spilsby",
-    "swaffham",
-    "tenterden",
     "totnes",
-    "wenhaston",
-    "woodhall-spa",
-    "wooler",
-    "wye",
-    "hawes",
-    "leyburn",
-    "middleham",
-    "askrigg",
-    "reeth",
-    "grassington",
-    "settle",
-    "horton-in-ribblesdale",
-    "pateley-bridge",
-    "sedbergh"
+    "bude",
+    "fressingfield",
+    "laxfield"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -481,355 +442,178 @@
   "portalLinks": [
     {
       "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-3nt/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Hawes"
+      "url": "https://www.zoopla.co.uk/for-sale/property/pl15-8ae/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/dl8-3nt/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Hawes"
+      "url": "https://www.onthemarket.com/for-sale/property/pl15-8ae/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%203NT&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Hawes"
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=PL15%208AE&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%203NT&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Hawes"
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=PL15%208AE&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=DL8%203NT&minbeds=2&maxprice=450000",
-      "searchLocation": "Hawes"
+      "url": "https://www.struttandparker.com/find-a-property?search=PL15%208AE&minbeds=2&maxprice=450000",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%203NT&minBeds=2&maxPrice=450000",
-      "searchLocation": "Hawes"
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=PL15%208AE&minBeds=2&maxPrice=450000",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%203NT&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Hawes"
+      "url": "https://www.winkworth.co.uk/properties?search_location=PL15%208AE&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Launceston"
     },
     {
       "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-5ae/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Leyburn"
+      "url": "https://www.zoopla.co.uk/for-sale/property/tq9-5hr/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/dl8-5ae/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Leyburn"
+      "url": "https://www.onthemarket.com/for-sale/property/tq9-5hr/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%205AE&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Leyburn"
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=TQ9%205HR&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%205AE&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Leyburn"
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=TQ9%205HR&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=DL8%205AE&minbeds=2&maxprice=450000",
-      "searchLocation": "Leyburn"
+      "url": "https://www.struttandparker.com/find-a-property?search=TQ9%205HR&minbeds=2&maxprice=450000",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%205AE&minBeds=2&maxPrice=450000",
-      "searchLocation": "Leyburn"
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=TQ9%205HR&minBeds=2&maxPrice=450000",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%205AE&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Leyburn"
+      "url": "https://www.winkworth.co.uk/properties?search_location=TQ9%205HR&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Totnes"
     },
     {
       "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-4pe/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Middleham"
+      "url": "https://www.zoopla.co.uk/for-sale/property/ex23-8lg/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Bude"
     },
     {
       "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/dl8-4pe/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Middleham"
+      "url": "https://www.onthemarket.com/for-sale/property/ex23-8lg/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Bude"
     },
     {
       "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%204PE&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Middleham"
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=EX23%208LG&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Bude"
     },
     {
       "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%204PE&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Middleham"
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=EX23%208LG&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Bude"
     },
     {
       "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=DL8%204PE&minbeds=2&maxprice=450000",
-      "searchLocation": "Middleham"
+      "url": "https://www.struttandparker.com/find-a-property?search=EX23%208LG&minbeds=2&maxprice=450000",
+      "searchLocation": "Bude"
     },
     {
       "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%204PE&minBeds=2&maxPrice=450000",
-      "searchLocation": "Middleham"
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=EX23%208LG&minBeds=2&maxPrice=450000",
+      "searchLocation": "Bude"
     },
     {
       "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%204PE&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Middleham"
+      "url": "https://www.winkworth.co.uk/properties?search_location=EX23%208LG&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Bude"
     },
     {
       "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/dl8-3hh/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Askrigg"
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip21-5ps/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/dl8-3hh/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Askrigg"
+      "url": "https://www.onthemarket.com/for-sale/property/ip21-5ps/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL8%203HH&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Askrigg"
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP21%205PS&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL8%203HH&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Askrigg"
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP21%205PS&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=DL8%203HH&minbeds=2&maxprice=450000",
-      "searchLocation": "Askrigg"
+      "url": "https://www.struttandparker.com/find-a-property?search=IP21%205PS&minbeds=2&maxprice=450000",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL8%203HH&minBeds=2&maxPrice=450000",
-      "searchLocation": "Askrigg"
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP21%205PS&minBeds=2&maxPrice=450000",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=DL8%203HH&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Askrigg"
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP21%205PS&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Fressingfield"
     },
     {
       "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/dl11-6sp/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Reeth"
+      "url": "https://www.zoopla.co.uk/for-sale/property/ip13-8dq/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Laxfield"
     },
     {
       "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/dl11-6sp/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Reeth"
+      "url": "https://www.onthemarket.com/for-sale/property/ip13-8dq/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Laxfield"
     },
     {
       "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=DL11%206SP&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Reeth"
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=IP13%208DQ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Laxfield"
     },
     {
       "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=DL11%206SP&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Reeth"
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=IP13%208DQ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Laxfield"
     },
     {
       "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=DL11%206SP&minbeds=2&maxprice=450000",
-      "searchLocation": "Reeth"
+      "url": "https://www.struttandparker.com/find-a-property?search=IP13%208DQ&minbeds=2&maxprice=450000",
+      "searchLocation": "Laxfield"
     },
     {
       "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=DL11%206SP&minBeds=2&maxPrice=450000",
-      "searchLocation": "Reeth"
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=IP13%208DQ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Laxfield"
     },
     {
       "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=DL11%206SP&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Reeth"
-    },
-    {
-      "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/bd23-5aa/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/bd23-5aa/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=BD23%205AA&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=BD23%205AA&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=BD23%205AA&minbeds=2&maxprice=450000",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=BD23%205AA&minBeds=2&maxPrice=450000",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=BD23%205AA&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Grassington"
-    },
-    {
-      "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/bd24-9ej/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/bd24-9ej/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=BD24%209EJ&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=BD24%209EJ&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=BD24%209EJ&minbeds=2&maxprice=450000",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=BD24%209EJ&minBeds=2&maxPrice=450000",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=BD24%209EJ&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Settle"
-    },
-    {
-      "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/bd24-0hh/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/bd24-0hh/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=BD24%200HH&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=BD24%200HH&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=BD24%200HH&minbeds=2&maxprice=450000",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=BD24%200HH&minBeds=2&maxPrice=450000",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=BD24%200HH&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Horton-in-Ribblesdale"
-    },
-    {
-      "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/hg3-5at/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/hg3-5at/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=HG3%205AT&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=HG3%205AT&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=HG3%205AT&minbeds=2&maxprice=450000",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=HG3%205AT&minBeds=2&maxPrice=450000",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=HG3%205AT&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Pateley Bridge"
-    },
-    {
-      "portal": "Zoopla",
-      "url": "https://www.zoopla.co.uk/for-sale/property/la10-5bn/?q=garden&price_max=450000&beds_min=2",
-      "searchLocation": "Sedbergh"
-    },
-    {
-      "portal": "OnTheMarket",
-      "url": "https://www.onthemarket.com/for-sale/property/la10-5bn/?q=garden&min-bedrooms=2&max-price=450000",
-      "searchLocation": "Sedbergh"
-    },
-    {
-      "portal": "Durrants",
-      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=LA10%205BN&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Sedbergh"
-    },
-    {
-      "portal": "Savills",
-      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=LA10%205BN&MinBedrooms=2&MaxPrice=450000",
-      "searchLocation": "Sedbergh"
-    },
-    {
-      "portal": "Strutt & Parker",
-      "url": "https://www.struttandparker.com/find-a-property?search=LA10%205BN&minbeds=2&maxprice=450000",
-      "searchLocation": "Sedbergh"
-    },
-    {
-      "portal": "Jackson-Stops",
-      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=LA10%205BN&minBeds=2&maxPrice=450000",
-      "searchLocation": "Sedbergh"
-    },
-    {
-      "portal": "Winkworth",
-      "url": "https://www.winkworth.co.uk/properties?search_location=LA10%205BN&min_beds=2&keywords=garden&max_price=450000",
-      "searchLocation": "Sedbergh"
+      "url": "https://www.winkworth.co.uk/properties?search_location=IP13%208DQ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Laxfield"
     }
-  ],
-  "rescoredAt": "2026-07-24T23:15:52.529Z",
-  "flyoverRescoredAt": "2026-07-24T23:51:36.316Z"
+  ]
 }
