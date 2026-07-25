@@ -485,12 +485,30 @@ document.getElementById('displayToggles').addEventListener('change', () => {
   renderResults(currentResults);
 });
 
-// Display filter inputs
+// Display filter inputs — persisted to localStorage, seeded with defaults on first visit
+const FILTER_DEFAULTS = {
+  filterMinPrice:    '350000',
+  filterMaxPrice:    '450000',
+  filterMinBeds:     '3',
+  filterMinBaths:    '1',
+  filterBlAirports:  '2',
+  filterBlHelipads:  '2',
+  filterBlFlights:   '80',
+};
+
 const displayFilterIds = ['filterMinPrice', 'filterMaxPrice', 'filterMinBeds', 'filterMaxBeds', 'filterMinBaths', 'filterMaxBaths', 'filterMinGarden',
   'filterBlFlights', 'filterBlAirports', 'filterBlAirstrips', 'filterBlHelipads'];
+
+// Restore persisted values (or defaults) before first render
 displayFilterIds.forEach(id => {
   const el = document.getElementById(id);
-  if (el) el.addEventListener('input', () => renderResults(currentResults));
+  if (!el) return;
+  const saved = localStorage.getItem('df_' + id);
+  el.value = saved !== null ? saved : (FILTER_DEFAULTS[id] || '');
+  el.addEventListener('input', () => {
+    localStorage.setItem('df_' + id, el.value);
+    renderResults(currentResults);
+  });
 });
 
 function getNum(id) { const v = Number(document.getElementById(id).value); return isNaN(v) || v === 0 ? null : v; }
