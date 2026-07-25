@@ -1,59 +1,60 @@
 {
   "location": "Helmsley",
   "slug": "helmsley",
-  "generatedAt": "2026-07-23T11:00:47.573Z",
-  "count": 26,
+  "generatedAt": "2026-07-25T13:39:32.305Z",
+  "count": 68,
   "properties": [
     {
-      "title": "2 bedroom semi-detached house for sale",
-      "price": 450000,
-      "address": "Ryegate, Helmsley, York, North Yorkshire, YO62",
-      "bedrooms": 2,
+      "title": "3 bedroom house for sale",
+      "price": 295000,
+      "address": "Paddock Close, Pottergate, Helmsley",
+      "bedrooms": 3,
       "bathrooms": null,
       "sqft": null,
       "postedDate": null,
-      "agent": "Savills - York, River House",
-      "agentPhone": "01904 595671",
-      "type": "Semi-detached house",
-      "description": "An attractive two bedroom, two bathroom period cottagePractical layout with charming period featuresA generous, private gardenSavills - York, River HouseAdded > 14 daysEmail01904 595671",
+      "agent": "BoultonCooper - Helmsley",
+      "agentPhone": "01439 318052",
+      "type": "House",
+      "description": "",
       "images": [
-        "https://media.onthemarket.com/properties/16198086/1587459953/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/16198086/1592851543/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/16198086/1587459953/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/16198086/1592851543/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/16198086/1592851543/image-4-480x320.jpg"
+        "https://media.onthemarket.com/properties/19777711/1623671619/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19777711/1623672331/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19777711/1623672331/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19777711/1623671619/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19777711/1623672331/image-4-480x320.jpg"
       ],
       "sources": [
         {
           "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/16198086/"
+          "url": "https://www.onthemarket.com/details/19777711/"
         }
       ],
-      "lat": 54.2445073,
-      "lon": -1.0582985,
+      "lat": 54.246172,
+      "lon": -1.0612597,
       "searchLocation": "Helmsley",
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": true,
-      "geoAccuracy": "address",
+      "geoAccuracy": "area",
       "nearestAirport": {
         "name": "RAF Topcliffe",
         "icao": null,
         "category": "airport",
         "usage": "military",
         "active": true,
-        "distanceKm": 21.40622063533532,
-        "distanceMiles": 13.301204722398943
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
       },
       "nearestAirstrip": {
-        "name": "Wombleton Airfield",
+        "name": "Lodge Field House Airstrip",
         "icao": null,
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 5.634912490247433,
-        "distanceMiles": 3.5013712089775377
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
       },
       "nearestHeliport": {
         "name": "RAF Fylingdales",
@@ -61,17 +62,19 @@
         "category": "heliport",
         "usage": "military",
         "active": true,
-        "distanceKm": 28.216471459774773,
-        "distanceMiles": 17.53289708743171
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
       },
-      "minAirportDistanceMiles": 3.5013712089775377,
+      "minAirportDistanceMiles": 3.61244839095057,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 236.3,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
-      "keywordsMatched": 1,
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -83,11 +86,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.4,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "3 bedroom end of terrace house for sale",
@@ -120,6 +119,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -157,6 +157,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -168,96 +170,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.4,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
-    },
-    {
-      "title": "3 bedroom house for sale",
-      "price": 295000,
-      "address": "Paddock Close, Pottergate, Helmsley",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "BoultonCooper - Helmsley",
-      "agentPhone": "01439 318052",
-      "type": "House",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/19777711/1623671619/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19777711/1623672331/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19777711/1623672331/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19777711/1623671619/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19777711/1623672331/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19777711/"
-        }
-      ],
-      "lat": 54.246172,
-      "lon": -1.0612597,
-      "searchLocation": "Helmsley",
-      "searchLocations": [
-        "Helmsley"
-      ],
-      "autoRejected": false,
-      "geoAccuracy": "area",
-      "nearestAirport": {
-        "name": "RAF Topcliffe",
-        "icao": null,
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 21.257592236207596,
-        "distanceMiles": 13.20885134540455
-      },
-      "nearestAirstrip": {
-        "name": "Lodge Field House Airstrip",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 5.813673941897143,
-        "distanceMiles": 3.61244839095057
-      },
-      "nearestHeliport": {
-        "name": "RAF Fylingdales",
-        "icao": null,
-        "category": "heliport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 28.308333261521163,
-        "distanceMiles": 17.589977347044666
-      },
-      "minAirportDistanceMiles": 3.61244839095057,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 236.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 2,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 2,
-        "helipadsDiff": -4,
-        "flightsPerDay": 236.3,
-        "flightsDiffPct": 180
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.3,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bedroom detached bungalow for sale",
@@ -290,6 +203,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -327,6 +241,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -338,12 +254,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.6,
-      "fullDescription": "An attractive, detached bungalow located within a well regarded and peaceful residential area, with superb accommodation and landscaped garden and grounds. 3 The Limes is an immaculate detached bungalow which offers completely refurbished and well-proportioned accommodation amounting to 837 square feet, presented to a fantastic standard throughout. Beautifully landscaped gardens lie to the rear, which is south facing and combines a raised terrace, lawned garden and a sheltered pagoda seating area. Attached single garage and off-street parking. The property has been recently renovated with work carried out includes a full re-wire, a revamped central heating system, a stylish fitted Wren kitchen and modern bathroom fittings. Fully redecorated and with new floor coverings throughout. The accommodation comprises entrance hallway, large living room with feature fire and a stylishly fitted kitchen by Wren with integrated appliances. Two double bedrooms with French windows which open out onto the south facing garden to the rear and a modern fitted bathroom. Helmsley is a very attractive market town situated on the southern fringe of the North York Moors National Park. With a weekly market, an eclectic range of smart shops, hostelries and restaurants and high-class delicatessens the town is a highly regarded tourist destination. The opportunities for outdoor recreation are endless, with the start of the Cleveland Way in the town and the Hambleton Hills to the north. The town has a wide range of amenities, including primary school, surgery, library, thriving arts centre and recreation ground.",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "3 bedroom terraced house for sale",
@@ -376,6 +287,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -413,6 +325,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -424,12 +338,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.3,
-      "fullDescription": "This delightfully charming three-storey town house dates from 1893 and is located in the very heart of Helmsley. Despite being less than 35 metres from the Market Place, it enjoys a perfectly peaceful and private setting. The house is constructed of solid brick under a clay pantile roof, which has been recovered within the last couple of years, retains some typical characteristics of the Victorian period, including high ceilings, tall windows and pine doors. The whole property is beautifully decorated throughout and benefits from gas central heating and uPvc double-glazing. The accommodation extends to over 800sq.ft and comprises entrance hall, open-plan kitchen/living room with living flame gas fire, first floor landing, two bedrooms and a shower room, whilst on the second floor there is a large third bedroom and a cloakroom. Directly in front of the house is a south-facing courtyard style garden, which is stone paved and ideal for dining outdoors, giving access to a good-sized stone outbuilding providing useful storage and laundry space. Helmsley is a very attractive, Georgian market town situated on the southern fringe of the North York Moors National Park. With a weekly market, an eclectic range of smart shops, hostelries and restaurants and high-class delicatessens the town is a highly regarded place to live. The opportunities for outdoor recreation are endless, with lovely walks in Duncombe Park to the south of the town and the Hambleton Hills to the north. The town has a wide range of amenities, including surgery, library, thriving arts centre and recreation ground.",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bedroom flat for sale",
@@ -462,7 +371,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "area",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -499,6 +409,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -510,11 +422,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.3,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bedroom terraced house for sale",
@@ -547,6 +455,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -584,6 +493,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -595,12 +506,175 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.4,
-      "fullDescription": "A mid terrace cottage, occupying a private, tucked away position off Bondgate, only an a short walk from the centre of Helmsley. Bondgate Mews is a small development of just 8 cottages, located within easy distance to the centre of the town. 2 Bondgate Mews comprises a mid-terrace cottage and provides 600 square feet of accommodation. The accommodation comprises the following: entrance hall, open plan living and dining kitchen and a ground floor cloakroom. Upstairs are two bedrooms and the re-fitted wet room. There is allocated off street parking and an attractive courtyard garden to the rear. There is private parking for each property, as well as additional guest parking. Helmsley is an attractive market town situated on the southern fringe of the North York Moors National Park. With a weekly market, an eclectic range of smart shops, hostelries and restaurants and high class delicatessens the town is a highly regarded tourist destination. The opportunities for outdoor recreation are endless, with the start of the Cleveland Way in the town and the Hambleton Hills to the north.",
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bedroom semi-detached house for sale",
+      "price": 450000,
+      "address": "Ryegate, Helmsley, York, North Yorkshire, YO62",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Savills - York, River House",
+      "agentPhone": "01904 595671",
+      "type": "Semi-detached house",
+      "description": "An attractive two bedroom, two bathroom period cottagePractical layout with charming period featuresA generous, private gardenSavills - York, River HouseAdded > 14 daysEmail01904 595671",
+      "images": [
+        "https://media.onthemarket.com/properties/16198086/1587459953/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16198086/1592851543/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16198086/1587459953/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16198086/1592851543/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16198086/1592851543/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16198086/"
+        }
+      ],
+      "lat": 54.2445073,
+      "lon": -1.0582985,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.40622063533532,
+        "distanceMiles": 13.301204722398943
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.634912490247433,
+        "distanceMiles": 3.5013712089775377
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.216471459774773,
+        "distanceMiles": 17.53289708743171
+      },
+      "minAirportDistanceMiles": 3.5013712089775377,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
       "autoTags": [],
       "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "undefined",
+      "price": 235000,
+      "address": "Con Owl Close, Helmsley, York",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Rounthwaite & Woodhead - Kirkbymoorside",
+      "agentPhone": "01751 481979",
+      "type": "Undefined",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19992094/1631443361/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19992094/1631443361/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19992094/1631443361/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19992094/1631443361/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19992094/1631443361/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19992094/"
+        }
+      ],
+      "lat": 54.2459092,
+      "lon": -1.0519932,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.83943213131962,
+        "distanceMiles": 13.570389782870203
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.286995175370338,
+        "distanceMiles": 3.285185479115042
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 27.780116836119145,
+        "distanceMiles": 17.26175897857619
+      },
+      "minAirportDistanceMiles": 3.285185479115042,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.1,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "undefined",
@@ -633,7 +707,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -670,6 +745,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -681,12 +758,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.1,
-      "fullDescription": "A nicely appointed ground floor apartment situated within a well regarded and sought after development for the over 50’s, only a short walk from the centre of Helmsley. 25 Castle Court has a bright and sunny aspect, being positioned on the southern edge of the development and has an open view towards Helmsley castle. The apartment has had a number of updates with an attractive modern kitchen and stylishly fitted shower room. In all 522 square feet and provides private entrance hallway, living room and the breakfast kitchen. Two bedrooms and a shower room. The property is fully double glazed and has electric central heating. Number 25 is situated on the approach to the development, and is surrounded on two sides by attractively landscaped grounds, with a number of nicely positioned seating areas. There is private parking allocated parking for the apartment. and additional guest parking within the development. Helmsley is a very attractive market town situated on the southern fringe of the North York Moors National Park. With a weekly market, an eclectic range of smart shops, hostelries and restaurants and high-class delicatessens the town is a highly regarded tourist destination. The opportunities for outdoor recreation are endless, with lovely walks in Duncombe Park to the south of the town and the Hambleton Hills to the north. The town has a wide range of amenities, including surgery, library, thriving arts centre and recreation ground.",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "undefined",
@@ -719,6 +791,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -756,6 +829,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -767,12 +842,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.1,
-      "fullDescription": "An exceptionally large first floor apartment which has just been comprehensively renovated and provides beautifully appointed and stylish accommodation, only a short walk from the centre of Helmsley. 14 Castle Court is a stylish double apartment, comprising both numbers 14 and 16, located in the sought after and highly regarded Castle Court development. The apartment has been subject to a thorough renovation (2023/2024), with attention not just given to ensuring a high-quality finish but to reconfigure the accommodation to suit a more modern way of living. The apartment has had new windows fitted, a new central heating system and new oak doors throughout with semi glazed to hallway and study. The kitchen has been newly fitted with a high-quality range of kitchen cabinets with integrated appliances and opened through to the adjoining rooms which has created a fantastic flow of space around the dining room to the living area. The main bedroom has been enhanced by the addition of a high quality en-suite shower room and bedroom two with a bespoke fitted dressing room Number 14 stretches across double the usual size of the apartments within the complex and in total the accommodation amounts to 1,109 square feet. The property faces south, flooding the majority of the rooms with light and with an attractive view towards Helmsley Castle to the front. In brief the accommodation comprises; entrance hall, open plan living dining kitchen, separate utility/cloakroom and study/potential third bedroom. Master bedroom with en-suite and a further double bedroom with dressing room. The complex is set within attractive communal grounds, 14 Castle Court has a beautifully landscaped area of ground to its immediate rear, hard paved with space for a dining table and chairs surrounded by herbaceous borders and offering a more private spot to sit out and enjoy the grounds. Outside is a private parking space and single garage along with a useful storeroom. Helmsley is a very attractive market town situated on the southern fringe of the North York Moors National Park. With a weekly market, an eclectic range of smart shops, hostelries and restaurants and high-class delicatessens the town is a highly regarded tourist destination. The opportunities for outdoor recreation are endless, with lovely walks in Duncombe Park to the south of the town and the Hambleton Hills to the north. The town has a wide range of amenities, including surgery, library, thriving arts centre and recreation ground.",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "undefined",
@@ -805,6 +875,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": false,
       "geoAccuracy": "area",
       "nearestAirport": {
@@ -842,6 +913,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -853,11 +926,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.3,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "undefined",
@@ -890,7 +959,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -927,6 +997,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 2,
@@ -938,12 +1010,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.7,
-      "fullDescription": "4 Storey Close is a surprisingly spacious, three-bedroom mid-terrace house occupying a cul de sac location on the south-eastern edge of Helmsley. The house benefits from uPvc double-glazing, cavity wall insulation and updated electric heating throughout. The overall accommodation amounts to a little over 750sq.ft and comprises entrance lobby, sitting room, dining kitchen with French doors onto the garden, first floor landing, three bedrooms (two doubles, one single) and a house bathroom. The property benefits from a good-sized back garden, further garden to the front and a driveway offering space to park two cars. The property is offered for sale on a 62% shared ownership basis, with the remaining 38% retained by the Rural Housing Trust on which a monthly rent is paid. Helmsley is a very attractive, Georgian market town situated on the southern fringe of the North York Moors National Park. With a weekly market, an eclectic range of smart shops, hotels, restaurants, the town is a highly regarded place to live. The opportunities for outdoor recreation are endless, with lovely walks in Duncombe Park to the south of the town and the Hambleton Hills to the north. The town has a wide range of amenities, including surgery, library, thriving arts centre and recreation ground. Storey Close is located off Riccall Drive and Number 4 is clearly identified by our ‘For Sale’ board.",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "undefined",
@@ -976,6 +1043,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1013,6 +1081,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 0,
@@ -1024,11 +1094,7 @@
         "flightsDiffPct": 196
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 3.1,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "undefined",
@@ -1061,7 +1127,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1098,6 +1165,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 2,
@@ -1109,11 +1178,7 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.7,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -1142,6 +1207,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1179,6 +1245,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -1190,33 +1258,27 @@
         "flightsDiffPct": 180
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "firstRetrievedAt": "2026-07-23T10:58:22.334Z",
-      "nearestTownMiles": 16.4,
-      "fullDescription": "A charming two bedroom cottage with generous garden, situated on a quiet residential street in the historic market town of HelmsleyDescription31 Ryegate is a charming traditional stone period home situated close to the centre of the historic market town of Helmsley.This delightful two bedroom cottage is deceivingly spacious, with a wonderful kitchen and dining area with separate sitting room and a sizeable garden. The property is brimming with charm and wonderful features including exposed stone walls, large mullioned windows and wide oak floor boards.The kitchen is adorned with wooden cabinetry and a Rangemaster cooker with space for a sizeable dining table and chairs, in addition there is a useful utility room just off from the kitchen.Continuing through the ground floor, the sitting room is most welcoming with wood flooring and an open fireplace. To the first floor are two bedrooms and a house bathroom, the principal bedroom at the rear benefits from an en suite shower room.The spacious garden is of particular note, with a patio close to the house, a couple of steps lead to the garden shed and lawned garden with mature shrubs and trees.LocationHelmsley is a fabulous town with a weekly market and an excellent selection of independent, local shops including clothes stores, a doctor’s surgery, delicatessens, cafes, restaurants, hotels, a spa and a local brewery.In addition there is an arts centre showing films and plays, as well as hosting yoga, exhibitions and concerts. Further attractions are the open air swimming pool, Helmsley Walled Garden, International Centre for Birds of Prey, Helmsley Castle and Duncombe Park.Further afield are the Michelin starred restaurants The Star at Harome (2.4 miles) and The Black Swan, Oldstead (8 miles).The town lies on the fringes of the North York Moors National Park and Howardian Hills Area of Outstanding National Beauty, and boasts considerable architectural character. The A170 from Helmsley links to Scarborough and the Yorkshire Coast.York is about 24 miles to the south and the A1(M) is about 22 miles to the west. Direct trains to London run regularly from Thirsk (14 miles) and York, some making the journey in under two hours.Helmsley has a primary school, and Ryedale secondary school is just under three miles to the east of the town. Ampleforth College is about four miles away.Please note all distances and travel times are approximate.Square Footage: 877 sq ftDirections///vampire.cleanser.rates The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern ",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
-      "title": "2 bed cottage for sale",
-      "price": 195000,
-      "address": "South View, East End, Ampleforth YO62",
-      "bedrooms": 2,
+      "title": "3 bed town house for sale",
+      "price": 275000,
+      "address": "Clothes Prop Alley, Bridge Street, Helmsley, York YO62",
+      "bedrooms": 3,
       "bathrooms": 1,
-      "sqft": 743,
-      "type": "cottage",
-      "description": "This mid terraced two bedroomed cottage situated in the popular village of Ampleforth is sure to appeal to either first time ...Listed on 18th Feb 2026",
+      "sqft": null,
+      "type": "town house",
+      "description": "A beautifully appointed three-storey town house offering stylish, three-bedroom accommodation with a south-facing courtyard ...Listed on 27th Mar 2026",
       "postedDate": null,
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/909b60e0fe1388350c61fb29cebe44d4d00d091c.jpg"
+        "https://lid.zoocdn.com/645/430/88435949b7b1d1ae05f85d3e12d42a2d2c9521bd.jpg"
       ],
       "sources": [
         {
           "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72458144/"
+          "url": "https://www.zoopla.co.uk/for-sale/details/72782393/"
         }
       ],
       "lat": 54.24617872391649,
@@ -1225,7 +1287,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1262,6 +1325,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 3,
@@ -1273,32 +1338,187 @@
         "flightsDiffPct": 178
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 18.8,
-      "fullDescription": "This mid terraced two bedroomed cottage situated in the popular village of Ampleforth is sure to appeal to either first time buyers or investors. Benefiting from central heating and extensive double glazing it comprises: Lounge, dining kitchen, utility room and to the first floor are two bedrooms and a bathroom. There is a garden to the rear and the property is offered with no onward chain. EPC rating E and Council Tax Band B. Apply Easingwold Office on .AmpleforthAmpleforth lies on the edge of the North York Moors and is renowned for its Abbey and College. The village offers a range of amenities, two public houses, and a post office/shop. A wider selection of facilities can be found in the nearby market towns of Helmsley, Malton, and Easingwold.LoungeAccessed via Upvc front door, window to front aspect, fireplace with beamed mantle, inset cast iron wood burning stove, wood effect flooring, radiatorDining KitchenFitted with a range of base and overhead units with matching preparation surfaces, inset belfast sink unit, electric cooker with extractor hood over, wood effect flooring, stairs to first floor, window to rear aspect, fully glazed door to rear aspect, opening to utility roomUtility RoomCupboard housing washing machine and tumble dryer, wood effect flooring, window to rear aspectFirst Floor LandingBedroom OneWindow to front aspect, radiatorBedroom TwoWindow to rear aspect, radiator, loft access pointBathroomFree standing cast iron bath, walk in shower cubicle with mains shower, low flush wc, vanity unit with inset wash basin, opaque window, radiator, recessed ceiling lightsOutsideTo the rear of the property there is a raised, steep sloping garden area accessed via steps. In addition, there is a shared paved patio area.Anti Money Laundering RegulationsBy law, we are required to conduct anti-money laundering checks on all potential buyers and sellers, and we take this responsibility very seriously. In line with hmrc guidelines, our trusted partner, Coadjute, will securely manage these checks on our behalf. Once an offer is accepted (subject to contract), Coadjute will send a secure link for you to complete the biometric checks electronically. A non-refundable fee of £45 + VAT per person will apply for these checks, and Coadjute will handle the payment for this service. These anti-money laundering checks must be completed before we can send the memorandum of sale to the solicitors to confirm the sale. Please contact the office if you have any questions in relation to this.DisclaimerThese particulars are intended to give a fair and reliable description of the property but no responsibility for any inaccuracy or error can be accepted and do not constitute an offer or contract. We have not tested any services or appliances (including central heating if fitted) referred to in these particulars and the purchasers are advised to satisfy themselves as to the working order and condition. If a property is unoccupied at any time there may be reconnecti",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed cottage for sale",
-      "price": 169950,
-      "address": "East End, Ampleforth, York YO62",
+      "price": 235000,
+      "address": "Bondgate Mews, Helmsley YO62",
       "bedrooms": 2,
       "bathrooms": 1,
       "sqft": null,
       "type": "cottage",
-      "description": "An attractive mid terrace stone-built cottage offering two-bedroom accommodation with a surprisingly large rear garden in a ...Listed on 25th Jun 2026",
+      "description": "A mid terrace cottage, occupying a private, tucked away position off Bondgate, only an a short walk from the centre of ...Listed on 29th Jan 2026",
       "postedDate": null,
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/cee5fcc288c67e0c8cca0547ffa13614736364e0.jpg"
+        "https://lid.zoocdn.com/645/430/5bba7a9687700cf90aa4789a7c852d67fd4c8abf.jpg"
       ],
       "sources": [
         {
           "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73544786/"
+          "url": "https://www.zoopla.co.uk/for-sale/details/69596384/"
+        }
+      ],
+      "lat": 54.2478072,
+      "lon": -1.056706,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.586237291677453,
+        "distanceMiles": 13.41306185216691
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.644511425944455,
+        "distanceMiles": 3.5073357092505324
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 27.962899949262574,
+        "distanceMiles": 17.375335104373235
+      },
+      "minAirportDistanceMiles": 3.5073357092505324,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.2,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 369500,
+      "address": "High Street, York YO62",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/2b288943472ed7b43a0c38fffd64c351daad6b47.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72641504/"
+        }
+      ],
+      "lat": 54.0085895,
+      "lon": -1.4667678,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 20.314423578819895,
+        "distanceMiles": 12.622793693594897
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.380132205474759,
+        "distanceMiles": 5.828542128648056
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 19.348220816557802,
+        "distanceMiles": 12.022423317005337
+      },
+      "minAirportDistanceMiles": 5.828542128648056,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 249.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 249.6,
+        "flightsDiffPct": 196
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 110900,
+      "address": "torey Close, Helmsley, York YO62",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "A surprisingly spacious, three-bedroom mid-terrace house with good-sized rear garden & driveway parking – offered for sale on ...Listed on 14th Jan 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/a1624f8f6fe2e273869ef485b875c7ec7f570a5b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72173561/"
         }
       ],
       "lat": 54.24617872391649,
@@ -1307,7 +1527,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1344,6 +1565,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 3,
@@ -1355,32 +1578,352 @@
         "flightsDiffPct": 178
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 18.8,
-      "fullDescription": "An attractive mid terrace stone-built cottage offering two-bedroom accommodation with a surprisingly large rear garden in a sought-after village.South View is an attractive row of six stone-built cottages, positioned at the eastern end of Ampleforth village and Number 2 offers well-appointed two-bedroom accommodation together with a surprisingly large rear garden.The cottage enjoys some attractive views towards the open countryside to the south of the village and benefits from upvc double-glazing and recently installed electric heating. The accommodation amounts to almost 690ft2 and comprises sitting room with open fire, fitted kitchen with walk-in pantry, first floor landing, two bedrooms and a house bathroom.In addition to a small front garden, there is a small rear yard with coal store and steps leading up to a lengthy garden which enjoys some terrific views from the upper end.Ampleforth is one of North Yorkshire’s best-loved villages. Nestled into a hillside, it sits within particularly attractive countryside between the North York Moors National Park and the Howardian Hills Area of Outstanding Natural Beauty. The village features an attractive mix of period, stone houses and benefits from a surprising number of amenities including village shop and post office, a popular pub, a coffee shop, sports centre, Doctor’s surgery, two primary schools and Ampleforth College. The Georgian market town of Helmsley is only 4 miles away and benefits from a wide range of facilities. The other three Ryedale market towns are all within an easy drive and the City of York is some 19 miles south.Sitting Room (13' 1'' x 11' 6'' (4.0m x 3.5m))Open fire with tiled surround and hearth. Telephone point. Television point. Casement window to the front. Wall-mounted electric radiator.Kitchen (10' 10'' x 9' 2'' (3.3m x 2.8m) (min))Range of shaker style kitchen cabinets incorporating a stainless steel, single drainer sink unit. Four ring ceramic hob with extractor hood above. Electric, fan-assisted oven. Space for fridge freezer. Automatic washing machine point. Staircase to the first floor. Cupboard housing the electric meter and fuse box. Door and casement window to the rear.Pantry (5' 3'' x 2' 11'' (1.6m x 0.9m))Casement window to the side.First FloorLandingLoft hatch. Airing cupboard housing the hot water cylinder.Bedroom One (13' 1'' x 11' 6'' (4.0m x 3.5m))Fitted cupboard. Period fireplace. Casement window to the front. Wall-mounted electric radiator.Bedroom Two (10' 10'' x 8' 2'' (3.3m x 2.5m))Casement window to the rear. Wall-mounted electric radiator.Bathroom & WC (6' 11'' x 5' 3'' (2.1m x 1.6m))White suite comprising bath with shower over, wash basin and low flush WC. Extractor fan. Casement window to the rear. Electric heated towel rail.OutsideThe cottage is set behind a small front garden with path leading to the front door. Immediately behind the cottage is a yard area with coal store and steps leading up to a long rear garden, which enjoys superb views acros",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
-      "title": "2 bed cottage for sale",
-      "price": 225000,
-      "address": "East End, Ampleforth, York YO62",
+      "title": "2 bed property for sale",
+      "price": 205000,
+      "address": "Castle Court, Helmsley YO62",
       "bedrooms": 2,
       "bathrooms": 1,
       "sqft": null,
-      "type": "cottage",
-      "description": "Situated in the popular village of Ampleforth this period mid terrace two bedroomed cottage is full of character and charm ...Listed on 2nd Jul 2026",
-      "postedDate": null,
+      "type": "Property",
+      "description": "A nicely appointed ground floor apartment situated within a well regarded and sought after development for the over 50’s, ...Listed on 19th May 2026",
+      "postedDate": "Reduced",
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/d7ab36ed229fc0dd744f1c73c6436585d5de13d3.jpg"
+        "https://lid.zoocdn.com/645/430/29cc5222ea1e3f797c0de6efb9b374caee8207cb.jpg"
       ],
       "sources": [
         {
           "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73605574/"
+          "url": "https://www.zoopla.co.uk/for-sale/details/73234925/"
+        }
+      ],
+      "lat": 54.2470385,
+      "lon": -1.0652642,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.025188974930444,
+        "distanceMiles": 13.064442698541505
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.89881961708208,
+        "distanceMiles": 3.6653554442859093
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.501582695404988,
+        "distanceMiles": 17.710056941026494
+      },
+      "minAirportDistanceMiles": 3.6653554442859093,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.4,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z",
+      "updated": true,
+      "updatedFields": [
+        "price"
+      ],
+      "previousPrice": 340000
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 19990,
+      "address": "Gale Lane, Nawton, York YO62",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "a Retreat – The Victory Brambles** Embrace a lifestyle of ...Listed on 24th Jun 2026Call",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/fe1df35f95c9a8637841b3fae87025af2ea712e7.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73535465/"
+        }
+      ],
+      "lat": 54.2433781,
+      "lon": -0.9940082,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 25.486047544738263,
+        "distanceMiles": 15.836290848921559
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.8524196956452335,
+        "distanceMiles": 1.1510398787027745
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 24.60210579936289,
+        "distanceMiles": 15.287035082655917
+      },
+      "minAirportDistanceMiles": 1.1510398787027745,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 234.6,
+        "flightsDiffPct": 178
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 78890,
+      "address": "Gale Lane, Nawton, York YO62",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "a Luxury Lodge for a Fraction of the Cost Discover a lifestyle of elegance, tranquillity, and ...Listed on 26th Jun 2026Call",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/5c58fbd11025232a6093a384315dae557e2ae9c9.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73565391/"
+        }
+      ],
+      "lat": 54.2433781,
+      "lon": -0.9940082,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 25.486047544738263,
+        "distanceMiles": 15.836290848921559
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.8524196956452335,
+        "distanceMiles": 1.1510398787027745
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 24.60210579936289,
+        "distanceMiles": 15.287035082655917
+      },
+      "minAirportDistanceMiles": 1.1510398787027745,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 234.6,
+        "flightsDiffPct": 178
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 45980,
+      "address": "Gale Lane, Nawton, York YO62",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "a Retreat – Embrace a lifestyle of relaxation and ...Listed on 1st Jul 2026Call",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/46c915b24c959bc2a3100b9c10197ce780b56b2b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73592337/"
+        }
+      ],
+      "lat": 54.2433781,
+      "lon": -0.9940082,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 25.486047544738263,
+        "distanceMiles": 15.836290848921559
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.8524196956452335,
+        "distanceMiles": 1.1510398787027745
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 24.60210579936289,
+        "distanceMiles": 15.287035082655917
+      },
+      "minAirportDistanceMiles": 1.1510398787027745,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 234.6,
+        "flightsDiffPct": 178
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 200000,
+      "address": "The Green Nawton, North Yorkshire YO62",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "with Versatile Loft Room, Generous Reception Space and Exciting Scope for your own touch in the Heart ...Listed on 17th Feb 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/f63e9b1579b69bc73cb0a46da40fbf1ad5ccbc0b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72444929/"
         }
       ],
       "lat": 54.24617872391649,
@@ -1389,7 +1932,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1426,6 +1970,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 3,
@@ -1437,12 +1983,247 @@
         "flightsDiffPct": 178
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 18.8,
-      "fullDescription": "Situated in the popular village of Ampleforth this period mid terrace two bedroomed cottage is full of character and charm and is offered with no onward chain. Benefiting from electric heating it briefly comprises: Lounge, kitchen, utility/2nd kitchen area and to the first floor are two bedrooms and a bathroom. There are gardens front and rear. EPC rating E and Council Tax Band C. Apply Easingwold Office on .AmpleforthAmpleforth lies on the edge of the North York Moors and is renowned for its Abbey and College. The village offers a range of amenities, two public houses, and a post office/shop. A wider selection of facilities can be found in the nearby market towns of Helmsley, Malton, and Easingwold.LoungeAccessed via timber front door, feature stone fireplace with open fire, stairs to first floor, window to front aspect, electric storage heater, exposed beamsKitchen AreaRange of base and wall mounted units with matching preparation surfaces, inset single drainer stainless steel sink unit, plumbing for washing machine, walk in pantry, exposed beamsUtility (Kitchen Area 2)Range of base units with matching preparation surfaces, electric cooker point, windows to rear aspect, fully glazed door to rear gardenFirst Floor LandingExposed beams, storage areaBedroom OneExposed beams, feature cast iron fireplace, window to front aspect, loft access pointBedroom TwoWindow to rear aspect, airing cupboardBathroomSuite comprising panelled bath with electric shower over, fitted screen, low flush wc, pedestal wash basin, exposed beams, extractor fanOutsideTo the front of the property is an enclosed garden laid mainly to lawn with borders of shrubs and trees. The rear garden has a patio area and steps lead up to a raised area of garden laid mainly to lawnAnti Money Laundering RegulationsBy law, we are required to conduct anti-money laundering checks on all potential buyers and sellers, and we take this responsibility very seriously. In line with hmrc guidelines, our trusted partner, Coadjute, will securely manage these checks on our behalf. Once an offer is accepted (subject to contract), Coadjute will send a secure link for you to complete the biometric checks electronically. A non-refundable fee of £45 + VAT per person will apply for these checks, and Coadjute will handle the payment for this service. These anti-money laundering checks must be completed before we can send the memorandum of sale to the solicitors to confirm the sale. Please contact the office if you have any questions in relation to this.DisclaimerThese particulars are intended to give a fair and reliable description of the property but no responsibility for any inaccuracy or error can be accepted and do not constitute an offer or contract. We have not tested any services or appliances (including central heating if fitted) referred to in these particulars and the purchasers are advised to satisfy themselves as to the working order and condition. If a property is unoccupied at any time there may b",
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed cottage for sale",
+      "price": 195000,
+      "address": "South View, East End, Ampleforth YO62",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 743,
+      "type": "cottage",
+      "description": "This mid terraced two bedroomed cottage situated in the popular village of Ampleforth is sure to appeal to either first time ...Listed on 18th Feb 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/909b60e0fe1388350c61fb29cebe44d4d00d091c.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72458144/"
+        }
+      ],
+      "lat": 54.24617872391649,
+      "lon": -0.9938654622792948,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 25.54951966685238,
+        "distanceMiles": 15.87573058491173
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.086182636896695,
+        "distanceMiles": 1.2962933912711363
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 24.43634374103865,
+        "distanceMiles": 15.184035346712928
+      },
+      "minAirportDistanceMiles": 1.2962933912711363,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [],
       "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 234.6,
+        "flightsDiffPct": 178
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed cottage for sale",
+      "price": 169950,
+      "address": "East End, Ampleforth, York YO62",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "cottage",
+      "description": "An attractive mid terrace stone-built cottage offering two-bedroom accommodation with a surprisingly large rear garden in a ...Listed on 25th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/cee5fcc288c67e0c8cca0547ffa13614736364e0.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73544786/"
+        }
+      ],
+      "lat": 54.24617872391649,
+      "lon": -0.9938654622792948,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 25.54951966685238,
+        "distanceMiles": 15.87573058491173
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.086182636896695,
+        "distanceMiles": 1.2962933912711363
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 24.43634374103865,
+        "distanceMiles": 15.184035346712928
+      },
+      "minAirportDistanceMiles": 1.2962933912711363,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 234.6,
+        "flightsDiffPct": 178
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed cottage for sale",
+      "price": 225000,
+      "address": "East End, Ampleforth, York YO62",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "cottage",
+      "description": "Situated in the popular village of Ampleforth this period mid terrace two bedroomed cottage is full of character and charm ...Listed on 2nd Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/d7ab36ed229fc0dd744f1c73c6436585d5de13d3.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73605574/"
+        }
+      ],
+      "lat": 54.24617872391649,
+      "lon": -0.9938654622792948,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 25.54951966685238,
+        "distanceMiles": 15.87573058491173
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.086182636896695,
+        "distanceMiles": 1.2962933912711363
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 24.43634374103865,
+        "distanceMiles": 15.184035346712928
+      },
+      "minAirportDistanceMiles": 1.2962933912711363,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 234.6,
+        "flightsDiffPct": 178
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed bungalow for sale",
@@ -1471,7 +2252,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1508,6 +2290,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 2,
@@ -1519,12 +2303,167 @@
         "flightsDiffPct": 182
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 16.3,
-      "fullDescription": "A deceptively spacious two/three-bedroom dormerbungalow enjoying a pleasant position backing onto open fields, within thispopular and well-served village, together with gardens, ample parking & a largegarage.This semi-detached dormer bungalow offers considerably more accommodation than you might expect from a passing glance, a substantial loft conversion adding additional space and versatility. The property enjoys a pleasant position on Millway and benefits from gardens, ample parking and a large garage. The property is offered for sale with vacant possession and has both oil-fired central heating and uPvc double-glazing.The living accommodation totals almost 920sq.ft and comprises of a kitchen, sitting room with open fire, inner hall, bedroom two, dining room/bedroom three, first floor landing, a huge master bedroom with en-suite shower room and a house bathroom. The main bedroom has been designed in such a way that it could be easily subdivided to create an extra bedroom, if required.Externally there are gardens to both the front and rear, which are laid to lawn for ease of maintenance, along with a stone paved patio. The back garden enjoys a south-westerly aspect and borders open fields. A gravelled driveway runs alongside the property and leads to a larger than average detached garage.Ampleforth is one of North Yorkshire’s best-loved villages. Nestled into a hillside, it sits within particularly attractive countryside between the North York Moors National Park and the Howardian Hills Area of Outstanding Natural Beauty. The village benefits from a surprising number of amenities including village shop and post office, two good pubs, a coffee shop, Doctor’s surgery and primary school. The Georgian market town of Helmsley is only 4 miles away and benefits from a wide range of facilities. The other three Ryedale market towns are all within an easy drive and the City of York is some 19 miles south. Millway is located in the southern half of the village and Number 35 is located towards the very top of the street, backing onto open fields.Kitchen (13' 5'' x 6' 11'' (4.1m x 2.1m))Range of kitchen units incorporating a stainless steel, single drainer sink unit. Electric oven and four ring ceramic hob with extractor hood. Automatic washing machine point. Tiled floor. Coving. Recessed spotlights. Telephone point. Casement window to the side. Radiator.Sitting Room (17' 5'' x 10' 6'' (5.3m x 3.2m) (max))Open fire with oak surround, stone insert and hearth. Coving. Television point. Telephone point. Casement window to the front. Two radiators.Inner HallStaircase to the first floor. Understairs cupboard housing the oil-fired central heating boiler. Coving. Thermostat. Radiator.Dining Room / Bedroom Three (11' 10'' x 9' 2'' (3.6m x 2.8m))Coving. Sliding patio doors to the rear garden. Radiator.Bedroom Two (8' 10'' x 8' 6'' (2.7m x 2.6m))Coving. Television point. Casement window to the rear. Radiator.First FloorLandingCasement window to the side. Access to lof",
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed semi-detached for sale",
+      "price": 170000,
+      "address": "Keld Head Orchard, Kirkbymoorside YO62",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "semi-detached",
+      "description": "a semi-detached, brick-built property which stands in a pleasant, elevated position at the head ...Listed on 31st Mar 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/1957de17c17921e5aa3921f84130f09f3d5bee8f.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72801754/"
+        }
+      ],
+      "lat": 54.2735685,
+      "lon": -0.940047,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 29.630804826449065,
+        "distanceMiles": 18.41172282581548
+      },
+      "nearestAirstrip": {
+        "name": "Boon Hill Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.430607485080806,
+        "distanceMiles": 2.7530510036121454
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 19.904194741650837,
+        "distanceMiles": 12.367889390814323
+      },
+      "minAirportDistanceMiles": 2.7530510036121454,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 233.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [],
       "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -3,
+        "flightsPerDay": 233.1,
+        "flightsDiffPct": 176
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 210000,
+      "address": "Kirkbymoorside, York YO62",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "a comfortable and attractively presented home. Improvements include ...Listed on 15th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/87b35c554ec6ad36aa8e56cdedf699a233c6c51d.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72237709/"
+        }
+      ],
+      "lat": 54.262097,
+      "lon": -0.9193133,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 30.64409146701381,
+        "distanceMiles": 19.04134975894984
+      },
+      "nearestAirstrip": {
+        "name": "Wombleton Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.977162812267143,
+        "distanceMiles": 3.092664633821247
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 19.379637662756032,
+        "distanceMiles": 12.04194483414438
+      },
+      "minAirportDistanceMiles": 3.092664633821247,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 232.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -3,
+        "flightsPerDay": 232.6,
+        "flightsDiffPct": 176
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -1553,6 +2492,7 @@
       "searchLocations": [
         "Helmsley"
       ],
+      "sourceLocation": "Helmsley",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1590,6 +2530,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1601,12 +2543,7 @@
         "flightsDiffPct": 185
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 12,
-      "fullDescription": "One to view is this well presented and deceptively spacious two bedroom stone built cottage situated in the pretty hamlet of Brandsby on the edge of the Howardian Hills. Enjoying glorious views over the surrounding countryside it is offered with no onward chain and comprises: Entrance lobby, kitchen, dining room, lounge, snug/family room and to the first floor are two bedrooms and a bathroom. Outside are beautiful gardens and there is off street parking and a single garage. The property also benefits from extensive double glazing and oil fired central heating. A viewing is highly recommended to appreciate this lovely home. Council Tax Band E and EPC rating D. Apply Easingwold Office on .Superb cottage full of character and charm with glorious views over the surrounding countryside - EPC rating DEntrance LobbyAccessed via timber front door, quarry tiled floor, stairs to first floorKitchen (3.71 x 3.81)Fitted with a range of base and wall mounted units with matching granite worktops, inset sink unit, integrated electric oven, induction hob and hood, plumbing for dishwasher and washing machine, feature brick fireplace with beamed mantle, window to front aspect, radiator, quarry tiled floor, ceiling spotlights, beamed ceilingDining Room (3.43 x 4.44)Cupboard housing floor mounted central heating boiler and having space for a tumble dryer, window and fully glazed door to rear aspect, radiator, vinyl flooring.Lounge (3.66 x 3.78)Brick fireplace with beamed mantle, stone hearth and inset cast iron wood burning stove, window to front aspect, radiator, beamed ceiling, understairs storage cupboardSnug/Family Room (3.05 x 3.53)Fully glazed french doors to rear aspect, radiatorFirst Floor LandingWindow to rear aspect, radiator, loft access pointBedroom One (3.48 x 3.78)Fitted wardrobe, windows to front and rear aspects, radiatorBedroom Two (2.46 x 3.81)Fitted wardrobe, window to front aspect, radiatorBathroomSuite comprising panelled bath with electric shower over, vanity unit with inset wash basin, low flush wc, radiator, opaque window to front aspectOutsideTo the front of the property is a lawned area and a border of mature shrubs and plants. To the rear of the property there is a larger than average garden. It has a raised paved patio area affording glorious views over the surrounding countryside. Steps lead down to the garden which is laid mainly to lawn with will stocked flower beds, a number of fruit trees, a further patio area and two sheds, There is also an outside garden room/office.GarageA driveway with room for off road parking leads to a single garage located within a block.ViewsThe rear of the property enjoys glorious open views over the surrounding countrysideAdditional Notes- We have been advised that the mains water is from the village spring and costs £100 per year- The property is on a septic tank - this is shared with all of the cottages and the cost is approx £60 a year.- The garden room was installed in 2022Anti Money Laundering Regulati",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -1635,7 +2572,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1672,6 +2610,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1683,12 +2623,7 @@
         "flightsDiffPct": 185
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 12,
-      "fullDescription": "A charming period cottage thoughtfully upgraded, with far reaching elevated views, A handsome period terraced cottage which has been sensitively improved and upgraded to create A beautifully presented village home with modern fixtures and fittings, two generous double bedrooms both with ensuite shower rooms and A versatile loft room enjoying superb elevated views and benefits from off street parking, cottage style gardens and A quiet position within the highly regarded and sought after village of husthwaite.Milegage – Mileages: Easingwold – 4 miles, Thirsk – 9 miles, York – 18 miles (Distances Approximate)Ground Floor: Reception Lobby, Sitting Room, Kitchen/Dining Room, Utility Area, Inner LobbyFirst Floor: Principal Bedroom with Ensuite Shower Room, Bedroom Two with Ensuite Shower RoomSecond Floor: Loft RoomOutside: Driveway with Off Street Parking, Front Garden, Courtyard Rear Garden and External Store.Approached by an out built pitched timber porch double timber entrance doors open into a reception lobby with an inner frosted and glazed PVC door leading through to;sitting room a well proportioned and inviting reception space with a PVC double glazed window overlooking the front garden and driveway. A feature open fireplace with timber mantle forms an attractive focal point, complemented by a fitted, shelved alcove cupboard. A four panel door leads through to the;kitchen/ dining room comprehensive fitted with a range of modern gloss fronted wall and base units, including part glazed cabinetry. Features include a stainless steel sink with side drainer beneath a window to the side, fitted electric oven, induction hob with deep pan drawers below and chimney style extractor above. There is useful under the stairs storage, together with a dedicated dining area enjoying a pleasant outlook over the rear courtyard garden.To the rear is a further open utility area with space and plumbing for white goods, including a washing machine, and an additional PVC window to the side flanked by a rear door to the courtyard.From the dining area a four panel door opens to an inner lobby with a straight staircase rising to the first floor landing, with handrail to the side.To the rear is the principal bedroom a superb double room with feature fireplace and dual aspect PVC windows to the side and rear framing countryside view with the White Horse to the distant. A door to the rear opens to;ensuite shower room is well appointed, fitted with a corner mains plumbed shower incorporating body jets, rainfall head and handheld attachment, vanity mounted wash hand basin with gloss fronted drawers, tiled splash back, low suite WC, frosted window to the side and chrome towel radiator.Bedroom two lies to the front. This is also a generous double bedroom with feature fireplace and a PVC double glazed window offering elevated views across the front aspect. A door to the side leads to;ensuite shower room comprising a corner shower surrounded by aqua panelling, thermostatic shower, ",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1717,7 +2652,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1754,6 +2690,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 1,
@@ -1765,12 +2703,7 @@
         "flightsDiffPct": 185
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 13.8,
-      "fullDescription": "Reference: #7534The affordable Westfield has been a popular choice with leisure parks for many years.Now better than ever with a lovely relaxed colour scheme of soft natural tones, the Westfield incorporates plenty of practical storage with a walk-in wardrobe to the master bedroom and coat area by the main entrance.Fitted with a full compliment of kitchen appliances the Westfield includes everything you could want for the perfect break away with Omar’s hallmark of luxury and quality throughout.Relax and unwind in the picturesque Howardian countryside. At Thornton Lodge Country Retreats, we boast a small number of luxury holiday LodgesSituated in the heart of an abundant Yorkshire landscape featuring natural flora and wildlife, Thornton Lodge Country Retreats, provides you with a truly relaxing and rejuvenating experience.Go on one of many scenic walks around the area, Fly fishing in one of our Stunning lakes, To traveling to Nearby market towns such as Easingwold York or Thirsk Which are all within 20 Minutes of the park or simply relax in your very own wood fired hot tub. However you like to holiday, Here we have you covered.En-Suite ShowerExclusive DevelopmentFully FurnishedLake ViewsCouncil Tax: Business Rates May be ApplicableTenure: Holiday LicenseYears Remaining:Ground Rent/Service Charges:Charge Period: Per yearParkmove are passionate about your park lifestyle. Whether you're looking for a park home, a second home or an investment for holidays we would love to help you find your dream home on the perfect park. Use our Portal to help get your search started!Please note: Parkmove & Rightpark are web portals and all enquiries received will be sent directly to the seller or park that is advertising the home through our websites.Parkmove Ltd. Uses the Parkmove website to advertise properties that are of potential interest to its customers. Liability is not accepted for the purchasing or renting of such properties and due diligence should be taken on behalf of the customer to make full, comprehensive and reasonable inquiries into the aforementioned properties to assess suitability and size, amongst other factors. Parkmove Ltd does not accept responsibility for the property sale or lease whatsoever, and previous owners and/or agents should be contacted for further information in relation to the property.Parkmove Ltd. Retains customers’ Personal Information for professional purposes in relation to market relevant properties of interest. Further information on retention of Personal Information can be found within our Privacy Policy. Please note that Parkmove will send your details directly to the park you are enquiring about. By submitting this form, you confirm that you agree to our website terms and conditions, privacy policy and consent to cookies being stored on your computer.Important: Parks may use manufacturer images for homes that aren't yet available on site, but are available to order off-plan. Please note external and internal images may",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1799,7 +2732,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1836,6 +2770,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 1,
@@ -1847,12 +2783,7 @@
         "flightsDiffPct": 185
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 13.8,
-      "fullDescription": "Reference: #8627Introducing the Kahlo, Experience a truly exceptional getaway like never before, featuring a groundbreaking addition to our portfolio – the striking mono pitch roof. The Kahlo is the epitome of luxury and style. With exceptional design and a standout exterior, it creates a lasting impression. The spacious interior provides ample storage and comfortable bedrooms, ensuring a tranquil stay. Indulge in the luxury bath with a rainfall shower and enjoy modern amenities such as blackout curtains, usb plugs, and smart TV space. Lake ViewsNew Build PropertyOver 50s DevelopmentRiver FrontageStorage ShedWatersideCouncil Tax:Tenure: Leisure LicenceYears Remaining:Ground Rent/Service Charges:Charge Period: Per yearParkmove are passionate about your park lifestyle. Whether you're looking for a park home, a second home or an investment for holidays we would love to help you find your dream home on the perfect park. Use our Portal to help get your search started!Please note: Parkmove & Rightpark are web portals and all enquiries received will be sent directly to the seller or park that is advertising the home through our websites.Parkmove Ltd. Uses the Parkmove website to advertise properties that are of potential interest to its customers. Liability is not accepted for the purchasing or renting of such properties and due diligence should be taken on behalf of the customer to make full, comprehensive and reasonable inquiries into the aforementioned properties to assess suitability and size, amongst other factors. Parkmove Ltd does not accept responsibility for the property sale or lease whatsoever, and previous owners and/or agents should be contacted for further information in relation to the property.Parkmove Ltd. Retains customers’ Personal Information for professional purposes in relation to market relevant properties of interest. Further information on retention of Personal Information can be found within our Privacy Policy. Please note that Parkmove will send your details directly to the park you are enquiring about. By submitting this form, you confirm that you agree to our website terms and conditions, privacy policy and consent to cookies being stored on your computer.Important: Parks may use manufacturer images for homes that aren't yet available on site, but are available to order off-plan. Please note external and internal images may show different exterior locations to the park mentioned. Off-plan homes may use other computer generated images. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases ",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1881,7 +2812,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -1918,6 +2850,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 1,
@@ -1929,12 +2863,7 @@
         "flightsDiffPct": 185
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 13.8,
-      "fullDescription": "Reference: #8628The all new Waterside Development, All lodges have Great Panoramic views of open countryside and stunning Lakes Most Lodges are 2 Bedroom. This Holiday home comes with every appliance you can think of to suit those who are looking to spend extensive amounts of time on park all our lodges come with Built in Appliances like dishwashers and Washing Machines all Lodges comes with the highest bs:3632 residential specification.En-Suite BathroomExclusive DevelopmentFully FurnishedLake ViewsOver 50s DevelopmentPatio AreaRiver FrontageStorage ShedUtility RoomWatersideCouncil Tax:Tenure: Leisure LicenceYears Remaining:Ground Rent/Service Charges:Charge Period: Per yearParkmove are passionate about your park lifestyle. Whether you're looking for a park home, a second home or an investment for holidays we would love to help you find your dream home on the perfect park. Use our Portal to help get your search started!Please note: Parkmove & Rightpark are web portals and all enquiries received will be sent directly to the seller or park that is advertising the home through our websites.Parkmove Ltd. Uses the Parkmove website to advertise properties that are of potential interest to its customers. Liability is not accepted for the purchasing or renting of such properties and due diligence should be taken on behalf of the customer to make full, comprehensive and reasonable inquiries into the aforementioned properties to assess suitability and size, amongst other factors. Parkmove Ltd does not accept responsibility for the property sale or lease whatsoever, and previous owners and/or agents should be contacted for further information in relation to the property.Parkmove Ltd. Retains customers’ Personal Information for professional purposes in relation to market relevant properties of interest. Further information on retention of Personal Information can be found within our Privacy Policy. Please note that Parkmove will send your details directly to the park you are enquiring about. By submitting this form, you confirm that you agree to our website terms and conditions, privacy policy and consent to cookies being stored on your computer.Important: Parks may use manufacturer images for homes that aren't yet available on site, but are available to order off-plan. Please note external and internal images may show different exterior locations to the park mentioned. Off-plan homes may use other computer generated images. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the late",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1963,7 +2892,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -2000,6 +2930,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 2,
         "airstripsCount": 1,
@@ -2011,12 +2943,7 @@
         "flightsDiffPct": 185
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 13.8,
-      "fullDescription": "Reference: #11368The all new Countryside lodge, the lodge has a lovely country feel about it with its oak tops and patterned fabrics. The bedroom has had a make over and now boasts additional storage and features headboard light. The home comes with every appliance you can think of and even has a utility room to suit those who are looking to spend a week at a time in the home. All of the Delta Lodge range comes with the highest bs:3632 residential spec. Available Now!En-Suite BathroomEn-Suite ShowerExclusive DevelopmentFully FurnishedLake ViewsUtility RoomCouncil Tax:Tenure: Leisure LicenceYears Remaining:Ground Rent/Service Charges: 3.000Charge Period: Per yearParkmove are passionate about your park lifestyle. Whether you're looking for a park home, a second home or an investment for holidays we would love to help you find your dream home on the perfect park. Use our Portal to help get your search started!Please note: Parkmove & Rightpark are web portals and all enquiries received will be sent directly to the seller or park that is advertising the home through our websites.Parkmove Ltd. Uses the Parkmove website to advertise properties that are of potential interest to its customers. Liability is not accepted for the purchasing or renting of such properties and due diligence should be taken on behalf of the customer to make full, comprehensive and reasonable inquiries into the aforementioned properties to assess suitability and size, amongst other factors. Parkmove Ltd does not accept responsibility for the property sale or lease whatsoever, and previous owners and/or agents should be contacted for further information in relation to the property.Parkmove Ltd. Retains customers’ Personal Information for professional purposes in relation to market relevant properties of interest. Further information on retention of Personal Information can be found within our Privacy Policy. Please note that Parkmove will send your details directly to the park you are enquiring about. By submitting this form, you confirm that you agree to our website terms and conditions, privacy policy and consent to cookies being stored on your computer.Important: Parks may use manufacturer images for homes that aren't yet available on site, but are available to order off-plan. Please note external and internal images may show different exterior locations to the park mentioned. Off-plan homes may use other computer generated images. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the latest stamp duty",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2045,7 +2972,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -2082,6 +3010,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 2,
@@ -2093,12 +3023,7 @@
         "flightsDiffPct": 189
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 8.6,
-      "fullDescription": "3 Bedroom Prestige Grand Symphony Bespoke Lodge 52ft x 22ftHoliday Home Description:3 Bed Luxury Holiday Lodge, Located on a 5 Star Site with 12 Month Holiday Licence in North Yorkshire.A large (52'x22') luxury bespoke lodge, totally unique and based on the Prestige Grand Symphony, with 3 double bedrooms and 3 en-suite shower rooms.Each bedroom has fitted wardrobes, the Master benefitting from a large L-shaped walk-in wardrobe.Open plan lounge, kitchen & dining area. The lounge area has a 5 seater corner settee, coffee table, side tables and a separate morning area with 2 tub chairs and coffee/storage table. There is built-in media wall with electric fire and fittings for 65\" TV and sound bar (sold by separate negotiation).The dining area includes a 6 seater dining table. Ultra modern kitchen with quartz worktops and island breakfast bar with 4 large pan draws and 2 utensil draws above. There is an extensive range of base and wall units with integrated washer/drier and dish washer. Double electric oven with 5 burner gas hob with extractor above. There is a large American style fridge/freezer plumbed for chilled water and ice cubes. Wine rack above fridge. Under-cupboard downlights with electric plinth heater.The Lodge entrance has a built-in cloaks cupboard. Integrated sound system with ceiling speakers in lounge and Master bedroom.There are 3 double bedroom, as above, Master with king-sized bed, each with their own fully tiled en-suite shower rooms and fitted vanity units and remote controlled Velux-style roof lights. All bedroom furniture included. The 3rd bedroom doubles as a fully equipped office utilising a \"Study Bed\" which converts a wide office desk into a full sized, fully made-up double bed in seconds without disturbing the office equipment.Fully carpeted throughout with Amtico flooring to kitchen and entrance areas.Mains gas central heating radiators to all rooms.Double patio doors lead off the lounge area onto the fabulous wooden decking.The lodge is sited on a very large individual plot, well away from the other lodges and surrounded on 3 sides by high hedging giving a very high degree of privacy which is almost unique on this type of holiday site.To the outside we have extra large wooden decking to the front and one side and 2 separate stone patio areas allowing the owner to enjoy a morning coffee taking in the sunrise over the adjacent Hambleton Hills, to the last glass of wine at sunset whilst indulging in al fresco dining from your gas BBQ.An 8x6 wooden shed is included.This is a private sale, please ensure you book your viewings throughLeisure Estate Agents Ltd, we will put you in touch with the owners directly to ensureyou receive the best service possible. Local Rate Call)Holiday Park Description:The Park itself is a separate fully enclosed park comprising of 36 privately owned luxury lodges, all within Yorkhouse Holiday Park, with the entrance via electric wrought iron gates to which only lodge owners have access, giving a hi",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2127,7 +3052,8 @@
       "searchLocations": [
         "Helmsley"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Topcliffe",
@@ -2164,6 +3090,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 2,
@@ -2175,12 +3103,2407 @@
         "flightsDiffPct": 189
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T11:00:47.573Z",
-      "nearestTownMiles": 8.6,
-      "fullDescription": "An impeccably presented, fully furnished and beautifully decorated 2 bedroomed 50' X 22' holiday lodge offering in excess of 1,000 sq ft of accommodation on this well regarded development at the heart on north yorkshire and close to the highly popular and well served town of thirskOpen plan living/kitchen/dining roomprincipal bedroom with fitted wardrobes and ensuite, second bedroom, bathroom, utility roombarrier controlled, gardens to 3 sides, with off road parking and raised terraceNo 11 arguably resides in the most desirable positions boasting a well presented two double bedroom holiday lodge set on a delightful plot within this well regarded park. Featuring spacious well presented accommodation, outside space, parking for a number of vehicles and pleasant pond views. An excellent base for a holiday home, ideally located within easy reach of York, Harrogate, and the Yorkshire coast. Perfect for exploring the region’s historic towns, charming villages, and stunning countryside.Reception Hall, Open Plan Living/ Kitchen and Dining Room.Principal Bedroom with EnSuite Shower Room, Second Double Bedroom, Bathroom, Utility Room.Secure Gated Cul de Sac, Gardens to 3 sides, Off Road Parking and PatioAn Internal Viewing is Highly Recommended to Fully AppreciateApproached beneath a timber storm porch, a composite part glazed entrance door opens into a reception hall finished with woodgrain effect flooring and practical storage, including a useful cloaks cupboard, and an airing cupboard with heater and linen shelving. Loft hatch access.The wood grain flooring continues through to an open plan kitchen, living and dining room extending to approximately 25 feet with impressive, vaulted ceiling and complimented by twin French doors that open onto a raised veranda enjoying picturesque views over a green and tranquil pond beyond.The kitchen is comprehensively appointed with a stylish range of modern grey gloss with fronted cupboards and drawer chrome handles, complemented by oak effect work surfaces and matching upstands with downlighters. High quality integrated appliances include a broad Neff induction hob with chimney style extractor above, Neff oven with microwave above, fridge/freezer and full size dishwasher. A composite sink with chrome mixer tap sits beneath a PVC double glazed side window.To one side, the kitchen breakfast area features an island with matching oak effect worktop, storage and an extended breakfast bar for informal dining.Adjacent to the kitchen is a defined dining area, enhanced by two windows overlooking the pleasant side garden.To the front of the lodge, the sitting area enjoys an electric wall mounted fire and pleasant views across the green and pond.From the hallway, a well equipped utility room mirrors the kitchen’s units and worksurfaces, incorporating an integrated Neff washing machine, separate Miele tumble dryer, composite sink with mixer tap beneath a PVC window, and further storage.To the rear lies the principal bedroom, with",
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 147000,
+      "address": "Abbots Green, Balk YO7",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "An impressive high specification three bedroom holiday lodge, impeccably presented and fully furnished, offering contemporary ...Listed on 18th Apr 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/e1f7e1f3df591f899751d48179c5b79cae75c1b7.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72967418/"
+        }
+      ],
+      "lat": 54.22402922187822,
+      "lon": -1.352566346749227,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 2.8542242984506103,
+        "distanceMiles": 1.7735322065525543
+      },
+      "nearestAirstrip": {
+        "name": "Bagby Thirsk Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.161778188164711,
+        "distanceMiles": 2.586008274558095
+      },
+      "nearestHeliport": {
+        "name": "Yorkshire Air Museum Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 41.590801397493465,
+        "distanceMiles": 25.843317855161914
+      },
+      "minAirportDistanceMiles": 1.7735322065525543,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 243.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [],
       "autoTagScores": {},
-      "sourceLocation": "Helmsley"
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 243.9,
+        "flightsDiffPct": 189
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 250000,
+      "address": "Whelp Street,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A development plot with an occupa……A development plot with anoccupancy restriction…Proposed - Four bedrooms…Proposed - Four bedrooms…Existing footings for outbuildings…Existing footings for outbuildings",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbiprsips260194"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 310000,
+      "address": "Gibraltar - Sir William Jackson Grove,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 80,
+      "type": "Property",
+      "description": "an MonteroSavills Gibraltar+350 200 666 33+350 200 666 33Contact nowFlat / Apartment715.80 sq ft (66.50 sq m)3Bedrooms1Bathrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsss0711812"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 299000,
+      "address": "Gibraltar - Marina Bay,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 83,
+      "type": "Property",
+      "description": "a Bay…Ocean Village645.83 sq ft(60 sq m)Guide price £299,000(€349,784)Private Parking…Private Parking…Fully Furnished…Fully Furnished…Communal pool…Communal pool…Good condition…Good condition…Aidan Mont",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsssmb29"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 325000,
+      "address": "Hermitage Place, Bath Road,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 847,
+      "type": "Property",
+      "description": "a Homes…Selection of newly built and beautif……Selection of newly built andbeautifully refurbished homes…Landscaped communal gardens wit……Landscaped communal gardenswith direct private gated access to……B",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsurdsnd250078"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 185000,
+      "address": "Greengate,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 463,
+      "type": "Property",
+      "description": "an GriffinManchester+44 (0)161 711 0990+44 (0)161 711 0990Contact nowFlat / Apartment463 sq ft (43.01 sq m)1Bedrooms1Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbmgrsmns250124"
+        }
+      ],
+      "lat": 53.6349772,
+      "lon": -2.1246196,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.36981916174358,
+        "distanceMiles": 20.73503790235177
+      },
+      "nearestAirstrip": {
+        "name": "Middlebank Top Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.103865141349578,
+        "distanceMiles": 8.142361786745528
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 29.507989131500604,
+        "distanceMiles": 18.33540871462966
+      },
+      "minAirportDistanceMiles": 8.142361786745528,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 276.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 276.2,
+        "flightsDiffPct": 227
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 295000,
+      "address": "Northwood Street,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 699,
+      "type": "Property",
+      "description": "two bedroom……Flat 40 - South facing two bedroomduplex apartment…Primary bedroom with French doors……Primary bedroom with French doorsleading to balcony…Development rich in heritage & char……Development rich",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbmrdbrx250521"
+        }
+      ],
+      "lat": 52.4852649,
+      "lon": -1.9093057,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Birmingham Airport",
+        "icao": "EGBB",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 11.467727099743609,
+        "distanceMiles": 7.125713055694786
+      },
+      "nearestAirstrip": {
+        "name": "Woods Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 11.243573144669979,
+        "distanceMiles": 6.986430288476729
+      },
+      "nearestHeliport": {
+        "name": "Queen Elizabeth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.3383113915154015,
+        "distanceMiles": 2.6957008876573165
+      },
+      "minAirportDistanceMiles": 2.6957008876573165,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 350.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 350.2,
+        "flightsDiffPct": 315
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 350000,
+      "address": "Ontario Tower,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 590,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcwrsclv265943"
+        }
+      ],
+      "lat": 51.5068026,
+      "lon": -0.0046094,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 4.14825409280226,
+        "distanceMiles": 2.577604793898633
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.41649740533111,
+        "distanceMiles": 10.200735409247997
+      },
+      "nearestHeliport": {
+        "name": "Vanguard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.3024710678511697,
+        "distanceMiles": 1.430688749901749
+      },
+      "minAirportDistanceMiles": 1.430688749901749,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 147.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 147.1,
+        "flightsDiffPct": 74
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 300000,
+      "address": "Chelmsford Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1065,
+      "type": "Property",
+      "description": "two houses - U……Planning granted for two houses -UTT/25/2100/FUL…Cleared site in a semi rural location…Cleared site in a semi rural location…Each house about 1065 sqft (99sqm……Each house about 1065 sqft(9",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbchrschs260153"
+        }
+      ],
+      "lat": 51.5989158,
+      "lon": 0.0166597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 10.746704495935806,
+        "distanceMiles": 6.677690519344128
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.104948124677939,
+        "distanceMiles": 3.793437721179256
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.397255407044751,
+        "distanceMiles": 6.460552989530804
+      },
+      "minAirportDistanceMiles": 3.793437721179256,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 207.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 207.7,
+        "flightsDiffPct": 146
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1250000,
+      "address": "Gedges Hill,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 2228,
+      "type": "Property",
+      "description": "Spacious layout with four bedrooms and two bath/shower rooms and generous reception space…Spacious layout with four bedrooms and two bath/shower rooms and generous reception space…Set in beautiful established",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtwrstus250233"
+        }
+      ],
+      "lat": 51.1635749,
+      "lon": 0.3806156,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Biggin Hill Airport",
+        "icao": "EGKB",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 30.542625034884576,
+        "distanceMiles": 18.978301460551265
+      },
+      "nearestAirstrip": {
+        "name": "Old Hay Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.5632104931953257,
+        "distanceMiles": 2.214075667367273
+      },
+      "nearestHeliport": {
+        "name": "Tunbridge Wells Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.319190357687031,
+        "distanceMiles": 3.305190631746348
+      },
+      "minAirportDistanceMiles": 2.214075667367273,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 410.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -2,
+        "flightsPerDay": 410.8,
+        "flightsDiffPct": 387
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 475000,
+      "address": "Willow House,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2822,
+      "type": "Property",
+      "description": "Two well-proportioned reception rooms, providing ample space in which to relax…Two well-proportioned reception rooms, providing ample space in which to relax…Open-plan kitchen and dining room with stylish",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gblnscclv751405"
+        }
+      ],
+      "lat": 53.3207551,
+      "lon": 0.2068374,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 35.46753730421096,
+        "distanceMiles": 22.038499122254866
+      },
+      "nearestAirstrip": {
+        "name": "Strubby Airfield",
+        "icao": "EGCG",
+        "category": "airstrip",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 2.496916195362932,
+        "distanceMiles": 1.5515113132288605
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 98.54496602528141,
+        "distanceMiles": 61.232984084095136
+      },
+      "minAirportDistanceMiles": 1.5515113132288605,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 175.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 175.6,
+        "flightsDiffPct": 108
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1750000,
+      "address": "The Ridgeway,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2667,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcorscbs190119"
+        }
+      ],
+      "lat": 51.6677779,
+      "lon": -0.1109682,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 21.408708698975737,
+        "distanceMiles": 13.302750732991253
+      },
+      "nearestAirstrip": {
+        "name": "Dysons Osiers Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.394837381013602,
+        "distanceMiles": 2.109453498277803
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.061019687365306,
+        "distanceMiles": 10.601222864157867
+      },
+      "minAirportDistanceMiles": 2.109453498277803,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 312.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 312.4,
+        "flightsDiffPct": 270
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 423132,
+      "address": "Piazza Francia,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 501261335,
+      "type": "Property",
+      "description": "a Francia…Florence, Italy, 501261,335 sq ft(124.03 sq m)Asking price €495,000(£423,132)Sold in July 2026…Sold in July 2026…Quiet and well connected residential area…Quiet and well connected residential",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbflssroe260022"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1225000,
+      "address": "Fellowes Rise,",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 1748,
+      "type": "Property",
+      "description": "two vehicles…Secure garage parking for two vehicles…Roof terrace with outstanding views…Roof terrace with outstanding views…Sunroom…Sunroom…Robert TottleWinchester+44 (0) 1962 841 842+44 (0) 1962 841 842C",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwnrswns250477"
+        }
+      ],
+      "lat": 51.0634957,
+      "lon": -1.3252011,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Southampton Airport",
+        "icao": "EGHI",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.77970181436037,
+        "distanceMiles": 7.940936096090918
+      },
+      "nearestAirstrip": {
+        "name": "South Longwood Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.545141410219944,
+        "distanceMiles": 4.066961063209777
+      },
+      "nearestHeliport": {
+        "name": "Lainston House Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.6640781554729216,
+        "distanceMiles": 2.276751907544365
+      },
+      "minAirportDistanceMiles": 2.276751907544365,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 528.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 3,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -1,
+        "flightsPerDay": 528.3,
+        "flightsDiffPct": 526
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1295000,
+      "address": "Pentney Road,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1413,
+      "type": "Property",
+      "description": "a including Henry Cavendish…Good selection of schools in the area including Henry Cavendish…Superb garden…Superb garden…Four bedrooms…Four bedrooms…Helen HammondClapham+44 (0) 20 8673 4111+44 (0) 20 867",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcmrscps260095"
+        }
+      ],
+      "lat": 51.4431318,
+      "lon": -0.1420517,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.315719260881714,
+        "distanceMiles": 9.516743792853331
+      },
+      "nearestAirstrip": {
+        "name": "Kenley Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.642555627330708,
+        "distanceMiles": 9.71983043271011
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 3.9520448705731503,
+        "distanceMiles": 2.455686073272909
+      },
+      "minAirportDistanceMiles": 2.455686073272909,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 207.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 207.7,
+        "flightsDiffPct": 146
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 955000,
+      "address": "Pecketts Close,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2550,
+      "type": "Property",
+      "description": "Spacious five-bedroom family residence with three contemporary bathrooms…Spacious five-bedroom family residence with three contemporary bathrooms…Impeccably presented, high-quality modern home finished to an e",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbyorscli246668"
+        }
+      ],
+      "lat": 54.0889263,
+      "lon": -0.995834,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.12341754406659,
+        "distanceMiles": 17.4750760827742
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 12.572040713065238,
+        "distanceMiles": 7.81190150991806
+      },
+      "nearestHeliport": {
+        "name": "Yorkshire Air Museum Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 18.190049877054825,
+        "distanceMiles": 11.302769482155433
+      },
+      "minAirportDistanceMiles": 7.81190150991806,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 235.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 235.4,
+        "flightsDiffPct": 179
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1100000,
+      "address": "Hobgate,",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "sqft": 2425,
+      "type": "Property",
+      "description": "a superb principal suite…Five bedrooms including a superb principal suite…Versatile living accommodation with multiple reception rooms…Versatile living accommodation with multiple reception rooms…Tanya",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbyorsyos260055"
+        }
+      ],
+      "lat": 53.9539871,
+      "lon": -1.1185636,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds East Airport",
+        "icao": "EGCM",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 14.165872231757893,
+        "distanceMiles": 8.802262194519633
+      },
+      "nearestAirstrip": {
+        "name": "Rufforth East Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.6914491145588966,
+        "distanceMiles": 2.293759427762576
+      },
+      "nearestHeliport": {
+        "name": "Yorkshire Air Museum Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.39926912967484,
+        "distanceMiles": 6.461804258375185
+      },
+      "minAirportDistanceMiles": 2.293759427762576,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 240.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -3,
+        "flightsPerDay": 240.3,
+        "flightsDiffPct": 185
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 950000,
+      "address": "Santos Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1409,
+      "type": "Property",
+      "description": "a HeardPutney+44 (0) 20 8780 9900+44 (0) 20 8780 9900Contact nowCharles TalbuttPutney+44 (0) 20 8780 9900+44 (0) 20 8780 9900Contact nowFlat / Apartment1,409 sq ft (130.90 sq m)3Bedrooms2Bathrooms3Recep",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbpursclv259398"
+        }
+      ],
+      "lat": 51.4582902,
+      "lon": -0.2010209,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Heathrow Airport",
+        "icao": "EGLL",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 17.98771262437933,
+        "distanceMiles": 11.17704298112321
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.670682130007519,
+        "distanceMiles": 9.737307425804902
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 1.9715784257593827,
+        "distanceMiles": 1.2250816579925334
+      },
+      "minAirportDistanceMiles": 1.2250816579925334,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 260.5,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 5,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 1,
+        "flightsPerDay": 260.5,
+        "flightsDiffPct": 209
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 418858,
+      "address": "Via Aldo Ballarin,",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1421711,
+      "type": "Property",
+      "description": "a Aldo Ballarin…Rome, 001421,711 sq ft(158.96 sq m)Asking price €490,000(£418,858)Sold in July 2026…Sold in July 2026…Contemporary layout and designer interiors…Contemporary layout and designer interior",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250173"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 235074,
+      "address": "Via Mario de Renzi,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1631119,
+      "type": "Property",
+      "description": "a Mario de Renzi…Rome, Italy, 001631,119 sq ft(103.96 sq m)Asking price €275,000(£235,074)Sold in July 2026…Sold in July 2026…Spacious living room with dining and relaxation areas opening onto a balcony",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250234"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 252170,
+      "address": "Via dei Lincei,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 147710,
+      "type": "Property",
+      "description": "a dei Lincei…Rome, Italy, 00147710 sq ft(65.96 sq m)Asking price €295,000(£252,170)Sold in July 2026…Sold in July 2026…Bright living room with large windows…Bright living room with large windows…Modern",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe260007"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 2850000,
+      "address": "Grange Road,",
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "sqft": 3601,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcsrscis220103"
+        }
+      ],
+      "lat": 52.2083011,
+      "lon": 0.1062003,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cambridge City Airport",
+        "icao": "EGSC",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 4.702476516597532,
+        "distanceMiles": 2.921982535594725
+      },
+      "nearestAirstrip": {
+        "name": "Little Shelford Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.610185975875144,
+        "distanceMiles": 5.350119870015514
+      },
+      "nearestHeliport": {
+        "name": "Addenbrooke's Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.754284680879752,
+        "distanceMiles": 2.9541746264429323
+      },
+      "minAirportDistanceMiles": 2.921982535594725,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 296.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 3,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -1,
+        "flightsPerDay": 296.9,
+        "flightsDiffPct": 252
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1250000,
+      "address": "Tredova Crescent,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2262,
+      "type": "Property",
+      "description": "a Crescent…Falmouth, Cornwall, TR11 4EQ2,262 sq ft(210.15 sq m)Guide price £1,250,000Sold in July 2026…Sold in July 2026…Sea & Coastal Views…Sea & Coastal Views…Close to Gyllyngvase Beach and Maenporth",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtrrstrs240194"
+        }
+      ],
+      "lat": 50.1435588,
+      "lon": -5.0729828,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RNAS Culdrose",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.511296404308178,
+        "distanceMiles": 9.016898758041377
+      },
+      "nearestAirstrip": {
+        "name": "Bonnallack Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.521158845868737,
+        "distanceMiles": 5.916171993216302
+      },
+      "nearestHeliport": {
+        "name": "Penzance Heliport",
+        "icao": "EGHK",
+        "category": "heliport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 31.461960952374522,
+        "distanceMiles": 19.54955013893791
+      },
+      "minAirportDistanceMiles": 5.916171993216302,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 355.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 355.6,
+        "flightsDiffPct": 321
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1250000,
+      "address": "bury Road,",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 3635,
+      "type": "Property",
+      "description": "Beautiful grounds…Beautiful grounds…Claire DwyerNewbury+44 (0) 1635 277 700+44 (0) 1635 277 700Contact nowHouse3,635 sq ft (337.70 sq m)5Bedrooms2Bathrooms3Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwbrsnes090102"
+        }
+      ],
+      "lat": 51.6386046,
+      "lon": 0.0127322,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.111731071102943,
+        "distanceMiles": 9.389991447382307
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.7191539439090753,
+        "distanceMiles": 1.068232405280726
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.295470944132237,
+        "distanceMiles": 8.882791076026393
+      },
+      "minAirportDistanceMiles": 1.068232405280726,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 253.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 253.9,
+        "flightsDiffPct": 201
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 299185,
+      "address": "Via Adolfo Consolini,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1421453,
+      "type": "Property",
+      "description": "a Adolfo Consolini…Rome, Italy, 001421,453 sq ft(134.99 sq m)Asking price €350,000(£299,185)Sold in July 2026…Sold in July 2026…Building with lift, recently renovated…Building with lift, recently renova",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250254"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 252.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 252.2,
+        "flightsDiffPct": 199
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 54.246172,
+      "lon": -1.0612597,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.257592236207596,
+        "distanceMiles": 13.20885134540455
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.813673941897143,
+        "distanceMiles": 3.61244839095057
+      },
+      "nearestHeliport": {
+        "name": "RAF Fylingdales",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.308333261521163,
+        "distanceMiles": 17.589977347044666
+      },
+      "minAirportDistanceMiles": 3.61244839095057,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 236.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 236.3,
+        "flightsDiffPct": 180
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1050000,
+      "address": "Aldwick Avenue, Aldwick, Bognor Regis, West Sussex, PO21",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47945/8319/450x_/CHI260067_02.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21965372/sales/chichester"
+        }
+      ],
+      "lat": 50.78517861037041,
+      "lon": -0.699575658518519,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 28.821097316081435,
+        "distanceMiles": 17.908594060390836
+      },
+      "nearestAirstrip": {
+        "name": "Bognor Regis Lec Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.5081444069375354,
+        "distanceMiles": 2.179859198283183
+      },
+      "nearestHeliport": {
+        "name": "Avisford Park Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.266488468403939,
+        "distanceMiles": 5.757927206100624
+      },
+      "minAirportDistanceMiles": 2.179859198283183,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 532.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -2,
+        "flightsPerDay": 532.3,
+        "flightsDiffPct": 531
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2311407,
+      "lon": -2.3028105,
+      "searchLocation": "Helmsley",
+      "searchLocations": [
+        "Helmsley"
+      ],
+      "sourceLocation": "Helmsley",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 13.237875919087834,
+        "distanceMiles": 8.225632197719527
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.249136051807922,
+        "distanceMiles": 2.6402899176479404
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.509893417265335,
+        "distanceMiles": 10.880139982579578
+      },
+      "minAirportDistanceMiles": 2.6402899176479404,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 297.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 297.8,
+        "flightsDiffPct": 253
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:39:32.305Z"
     }
   ],
   "portalLinks": [
@@ -2197,11 +5520,6 @@
     {
       "portal": "Durrants",
       "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=YO62%205AA&radius=20&minimum_bedrooms=2&maximum_price=450000",
-      "searchLocation": "Helmsley"
-    },
-    {
-      "portal": "Rightmove",
-      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E12324&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
       "searchLocation": "Helmsley"
     },
     {
@@ -2224,14 +5542,5 @@
       "url": "https://www.winkworth.co.uk/properties?search_location=YO62%205AA&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Helmsley"
     }
-  ],
-  "dupePassAt": "2026-07-23T11:15:19.093Z",
-  "rescoredAt": "2026-07-23T15:14:30.658Z",
-  "effectiveRecommendConfig": {
-    "minTown": 10,
-    "minAirport": 15,
-    "minHelipad": 15
-  },
-  "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:51:15.689Z"
+  ]
 }
