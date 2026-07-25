@@ -1,8 +1,8 @@
 {
   "location": "Settle",
   "slug": "settle",
-  "generatedAt": "2026-07-24T22:31:42.139Z",
-  "count": 27,
+  "generatedAt": "2026-07-25T14:08:25.752Z",
+  "count": 40,
   "properties": [
     {
       "title": "3 bedroom detached bungalow for sale",
@@ -35,6 +35,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -72,19 +73,6 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "nearestTownMiles": 15,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
       "autoTags": [
         "hillside",
         "great-views"
@@ -98,7 +86,18 @@
         "far-from-roads": 46
       },
       "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bedroom semi-detached house for sale",
@@ -131,6 +130,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -168,8 +168,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "4 TOWNHEAD RISE, SETTLE, BD24 9RT Well appointed two bedroom modern semi detached house located in a superb position approximately a quarter of a mile from the centre of town. One of four properties constructed by reputable local builders on a small cul de sac development. Decorated to a good standard, ready for immediate occupation with upvc double glazed windows, solar panels, gas fired central heating plus under floor heating to the ground floor. Ideal property for retired buyer, first time buyer, second home or investment property. Well worthy of internal inspection to appreciate the size and condition plus exteral inspection to appreciate the garden and convenient position. Settle is a busy and popular market town situated within stunning countryside on the edge of The Yorkshire Dales National Parks. The town has a wide range of independent shops, public houses, cafes, recreational facilities and churches. There are transport links via a bus service to Skipton and Kirkby Lonsdale. Train links are via the railway station at Settle on the famous Settle to Carlisle line or from Giggleswick Station to Lancaster and Morecambe. ACCOMMODATION COMPRISES: Ground Floor Entrance Porch, Lounge, Kitchen First Floor Landing, 2 Bedrooms, Bathroom Outside Fore Garden, Enclosed Rear Garden, 2 Parking Spaces ACCOMMODATION: GROUND FLOOR: Entrance Porch: 5’2” x 3’7” (1.58 x 1.09) Part glazed external entrance door and canopy over. Cloakroom: 3’4” x 6’5” (1.02 x 1.96) Low flush WC, vanity wash hand basin. Lounge: 8’4” x 15’7” (2.54 x 4.75) Two upvc double glazed windows and glazed door to the kitchen. Kitchen: 9’4” x 15’9” (2.85 x 4.80) Range of modern kitchen base units with complementary work surfaces, wall units, 1½ bowl sink with mixer taps, built-in electric oven, gas hob, built-in fridge/freezer, gas-fired central heating boiler, upvc double glazed window, ½ glazed upvc external entrance door, staircase to the first floor, recessed spotlights. FIRST FLOOR: Landing: 7’1” x 3’10” (2.16 x 1.17) Access to 2 bedrooms, and bathroom. Bedroom 1: 8’9” x 12’0” (2.66 x 3.65) Double bedroom, 2 upvc double glazed windows, radiator, bulkhead store cupboards. Bedroom 2: 8’3” x 10’6” (2.54 x 3.20) Upvc double glazed window, radiator, loft access with ladder top boarded loft with light. Bathroom: 5’6” x 7’0” (1.67 x 2.13) 3 piece white bathroom suite comprising bath with drencher shower over, vanity wash hand basin, low flush WC, upvc double glazed window, tiled walls to dado. OUTSIDE: Front: Walled foregarden, paved paths, gravel. Rear: Enclosed rear garden fenced boundaries, decked area, shed, 2 parking spaces. Directions: Leave the Settle office through the market square onto Church Street, at the church, turn right onto Townhead, proceed left onto Townhead Way and left again after the health centre onto Townhead Rise, number 4 is on the left hand side, a for sale board is erected. Tenure: Freehold with vacant possession on completion Services: All Mains services are co",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 4,
+        "quiet": 13,
+        "hillside": 96,
+        "large-outdoors": 9,
+        "great-views": 94,
+        "far-from-roads": 57
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -181,21 +192,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 3,
-        "quiet": 44,
-        "hillside": 96,
-        "large-outdoors": 45,
-        "great-views": 84,
-        "far-from-roads": 56
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bedroom cottage for sale",
@@ -228,6 +225,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -265,8 +263,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "Charming, stone built, double fronted character cottage located in a superb position in the popular Upper Settle area of town. The cottage is located approximately 400 yards from the market square and the town’s amenities. Much loved cottage with many interesting features evident throughout. Two ground floor reception rooms with central staircase plus kitchen to the ground floor. Useful landing area, two bedrooms and a bathroom to the first floor. Barn style internal doors throughout. Small yard to the front and unrestricted parking close by. Gas fired central heating is installed. Ideal cottage for first time buyer, second home, holiday cottage or investment. Well worthy of internal inspection to fully appreciate the size and character. Settle is a busy and sought after Market Town set amid outstanding countryside with local amenities including independent shops, cafes, public houses, recreational and education facilities and transport links to Leeds, Lancaster and Skipton. ACCOMMODATION COMPRISES: Ground Floor Entrance Lobby, Lounge, Dining Room, Kitchen First Floor Landing, 2 Bedrooms, Lobby Area, Bathroom Outside Small yard area. ACCOMMODATION: GROUND FLOOR: Entrance Lobby: 3’2” x 4’2” (0.96 X 1.27) Half glazed external entrance door, staircase to first floor, mat well, barn style doors to kitchen and lounge. Lounge: 13’9” x 11’10” (4.19 X 3.60) Good sized room full of character, single glazed window and window seat, recessed fireplace with gas stove, wooden beam, raised hearth, beamed ceiling, radiator with shelf, feature timbers on the wall. Dining Room: 7’7” x 13’5” (2.31 x 4.08) Electric stove in recessed fireplace with wood mantle, raised hearth, two single glazed windows, window seat, under stairs store room, tiled flooring, brick recess, radiator. Kitchen: 7’7” x 7’3” (2.31 x 2.21) Small kitchen off the dining room with part glazed external entrance door, wooden base units, wooden worksurfaces, wall units, plate rack, stainless sink, electric oven, gas hob, gas boiler, tiled flooring. FIRST FLOOR: Landing: 5’10” x 6’4” (1.77 x 1.93) Access to 2 bedrooms and bathroom, Velux roof light, boarded wall to dado. Bedroom 1: 12’3” x 11’0” (3.73 x 3.35) Double bedroom, single glazed window, boarded flooring, Velux roof light, radiator with shelf. Lobby Area: 5’1” x 5’7” (1.54 x 1.70) Access to two bedrooms, bulkhead store cupboard, single glazed window. Bedroom 2: 7’5” x 8’5” (2.26 x 2.56) Single bedroom, single glazed window, radiator. Bathroom: 8’4” x 4’9” (2.54 x 1.44) 3-piece white bathroom suite comprises cast iron bath with shower over, WC, pedestal wash hand basin, Velux roof light, radiator. OUTSIDE: Small yard area, unrestricted parking close by. Directions: Leave the Settle office up the High Street onto Victoria Street, number 34 is on the left-hand side, a for sale board is erected. Tenure: Freehold with vacant possession on completion Services: All Mains services are connected to the property. Age: 1850 Viewing: Strictly by prior a",
-      "nearestTownMiles": 15.1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 3,
+        "quiet": 21,
+        "hillside": 99,
+        "large-outdoors": 32,
+        "great-views": 94,
+        "far-from-roads": 39
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -278,21 +287,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 8,
-        "quiet": 36,
-        "hillside": 94,
-        "large-outdoors": 44,
-        "great-views": 94,
-        "far-from-roads": 43
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -319,12 +314,13 @@
           "url": "https://www.onthemarket.com/details/18127726/"
         }
       ],
-      "lat": 54.0719987,
-      "lon": -2.2811404,
+      "lat": 54.0714972,
+      "lon": -2.2802163,
       "searchLocation": "Settle",
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -333,8 +329,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 46.61251396006951,
-        "distanceMiles": 28.963664411882355
+        "distanceKm": 46.532681459692576,
+        "distanceMiles": 28.914058811290637
       },
       "nearestAirstrip": {
         "name": "Chipping Airfield",
@@ -342,8 +338,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 30.425085321107048,
-        "distanceMiles": 18.905265691061608
+        "distanceKm": 30.431314906037798,
+        "distanceMiles": 18.909136574479614
       },
       "nearestHeliport": {
         "name": "Royal Lancaster Infirmary Heliport",
@@ -351,10 +347,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 34.081864224998405,
-        "distanceMiles": 21.177482055351483
+        "distanceKm": 34.13669314614554,
+        "distanceMiles": 21.2115511569136
       },
-      "minAirportDistanceMiles": 18.905265691061608,
+      "minAirportDistanceMiles": 18.909136574479614,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 266.9,
@@ -362,8 +358,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A unique three bedroomed semi-detached stone built house, located in a superb position, a level walk from the market square within this popular market town. A well loved home which has been in the same family for 55 years is now available for its next chapter. Well maintained and presented throughout with quality fixture and fittings plus upvc double glazed external doors and windows with gas fired central heating. Recently installed kitchen units and appliances by H & M Kitchens of Ingleton and modern house shower room. Two good sized reception rooms, spacious hallway with feature return staircase and side porch extension. Three good sized double bedrooms, one with views towards Castleberg. Pleasant tended foregarden, side parking for several vehicles, a detached garage and useful under house storage area. A real gem of a family home, with prominent stance and accessible to the town amenities. Well worthy of internal and external inspection to fully appreciate the size, layout, condition, and position. Available for immediate occupation with no onward chain. Settle is a busy market town set amid outstanding countryside on the edge of The Yorkshire Dales National Park. The town has all local amenities such as independent shops, cafes, public houses, Booth's supermarket, educational and recreational facilities and transport links to Leeds, Lancaster and Skipton. ACCOMMODATION COMPRISES: Ground Floor Entrance Porch, Entrance Hall, Lounge, Shower Room, Dining Room, Kitchen, Side Porch First Floor Landing, WC, 3 Bedrooms Outside Pleasant, Fore garden, Rear Yard, Garage, Driveway ACCOMMODATION: GROUND FLOOR: Entrance Porch: 6'4\" x 3'0\" (1.93 x 0.91) Upvc double glazed external entrance door, upvc double glazed windows, boarded ceiling. Entrance Hall: 11'10\" x 7'8\" (3.60 x 2.33) Part stained glass internal door with leaded lights, single glazed leaded stained glass window, return staircase to the first floor, picture rail, radiator and understairs cupboard. Lounge: 12'0\" x 11'0\" (3.65 x 3.35) Good sized square room, upvc double glazed window, flame effect electric fire with wood fire surround with tiled inset, picture rail and radiator. Dining Room: 14'0\" x 12'0\" (4.26 x 3.65) Upvc double glazed window, fire effect electric fire, picture rail, radiator and wall lights. Kitchen: 9'2\" x 8'10\" (2.79 x 2.69) Range of recently installed units by H & M Kitchens of Ingleton comprising base units with complementary worksurfaces, wall units, built in AEG electric oven, electric hob, extraction hood, 1 ½ bowl sink with mixer taps, ½ glazed door to the side porch, plumbing for washing machine, radiator, AEG slim line dishwasher and recessed spotlights. Side Porch: 3'6\" x 7'3\" (1.06 x 2.21) Two half glazed upvc external doors, upvc double glazed window, glazed roof. Shower Room: 4'4\" x 8'9\" (1.32 x 2.66) Off the hallway, shower enclosure with shower off the gas boiler, vanity wash hand basin, WC, tiled walls to dado, upvc double glazed window, recessed spotlights.",
-      "nearestTownMiles": 15.5,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 6,
+        "quiet": 4,
+        "hillside": 98,
+        "large-outdoors": 48,
+        "great-views": 94,
+        "far-from-roads": 63
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -375,21 +382,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 5,
-        "quiet": 29,
-        "hillside": 91,
-        "large-outdoors": 60,
-        "great-views": 93,
-        "far-from-roads": 25
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bedroom detached bungalow for sale",
@@ -416,12 +409,13 @@
           "url": "https://www.onthemarket.com/details/16783065/"
         }
       ],
-      "lat": 54.0719987,
-      "lon": -2.2811404,
+      "lat": 54.0714972,
+      "lon": -2.2802163,
       "searchLocation": "Settle",
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -430,8 +424,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 46.61251396006951,
-        "distanceMiles": 28.963664411882355
+        "distanceKm": 46.532681459692576,
+        "distanceMiles": 28.914058811290637
       },
       "nearestAirstrip": {
         "name": "Chipping Airfield",
@@ -439,8 +433,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 30.425085321107048,
-        "distanceMiles": 18.905265691061608
+        "distanceKm": 30.431314906037798,
+        "distanceMiles": 18.909136574479614
       },
       "nearestHeliport": {
         "name": "Royal Lancaster Infirmary Heliport",
@@ -448,10 +442,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 34.081864224998405,
-        "distanceMiles": 21.177482055351483
+        "distanceKm": 34.13669314614554,
+        "distanceMiles": 21.2115511569136
       },
-      "minAirportDistanceMiles": 18.905265691061608,
+      "minAirportDistanceMiles": 18.909136574479614,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 266.9,
@@ -459,8 +453,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "Superb two double bedroomed detached bungalow located in a very convenient position near to the centre of town, standing within manageable gardens with private off-street parking. Well presented and quite spacious accommodation comprising pleasant central hallway with covered entrance, lounge with dual aspect, large breakfast kitchen, plus two double bedrooms and modern shower room. Decorated to a good standard with upvc double glazed window and gas fired central heating. Ideal property for retired buyers, people wanting to downsize and enjoy the convenience of being so close to the town's amenities or second home/investment. Outside mature tended garden with garage/outbuilding, tarmac drive edge boundary. Well worthy of internal inspection to fully appreciate the size, layout and position a real gem of a property. Settle is a busy and popular market town set amid stunning countryside on the edge of the Yorkshire Dales National Park. The town has independent shops, cafes, bus and rail links to Leeds, Carlisle, Skipton and Lancaster. ACCOMMODATION COMPRISES: Ground Floor Entrance Hall, Lounge, Breakfast Kitchen, 2 Bedrooms, Shower Room. Outside Manageable gardens, driveway, Outbuilding, Additional Store. ACCOMMODATION: GROUND FLOOR: Entrance Hall: 6'10\" x 9'7\" (2.08 x 2.92) plus 3'0\" x 4'9\" (0.91 x 1.44) Covered entrance, part glazed upvc external door with side fanlight screen, wide hallway with access to principal rooms, picture rail, radiator. Lounge: 12'0\" x 13'4\" (3.65 x 4.06) Dual aspect, two upvc double glazed windows, coved ceiling, radiator. Breakfast Kitchen: 15'10\" x 12'0\" (4.82 x 3.65) Range of kitchen base units with complementary worksurfaces, wall units, stainless steel sink with mixer taps, cooker point with hood, two upvc double glazed windows, ½ glazed upvc external door, space for table, cylinder cupboard, radiator. Bedroom 1: 12'5\" x 13'5\" (3.78 x 4.08) Double bedroom, upvc double glazed window, two built in wardrobes, radiator, coved ceiling. Bedroom 2: to the rear 12'0\" x 12'0\" (3.65 x 3.65) Double bedroom, upvc double glazed window, radiator, coved ceiling. Shower Room: 4'10\" x 8'6\" (1.47 x 2.59) Shower enclosure with shower off the system, WC, pedestal wash hand basin, radiator, tiled walls to dado, upvc double window. OUTSIDE: Manageable gardens with mature shrubs, paths, patio area. Tarmac driveway/ parking. Outbuilding: 16'3\" x 10'0\" (4.95 x 3.04) With power and light. Additional Store: 4'0\" x 3'0\" (1.21 x 0.91) Housing gas fired central heating boiler. Rear Washhouse: 5'0\" x 3'1\" (1.52 x 0.94) Directions: Leave the Settle office across the Market Square and turn right on to Church Street go straight down go under the railway bridge, and the property is located on the left-hand side. A For Sale board is erected. Tenure: Freehold with vacant possession on completion Services: All Mains services are connected to the property. Viewing: Strictly by prior arrangement with and accompanied by a member of the selling agents, Nei",
-      "nearestTownMiles": 15.5,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 37,
+        "quiet": 5,
+        "hillside": 99,
+        "large-outdoors": 5,
+        "great-views": 91,
+        "far-from-roads": 75
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -472,22 +477,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 1,
-        "quiet": 71,
-        "hillside": 94,
-        "large-outdoors": 87,
-        "great-views": 92,
-        "far-from-roads": 39
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -520,6 +510,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -557,8 +548,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "Two bedroom first floor apartment situated within this well presented complex in the centre of Settle conveniently positioned close to the market Square and the town's amenities but away from the crowds. Easily managed accommodation comprising spacious open plan lounge/kitchen. Double bedroom, single bedroom and bathroom. Gas fired central heating and double glazed timber windows. Ideal property for first time buyer, second home or investment purposes. Well worthy of internal inspection to fully appreciate the size and location. ACCOMMODATION COMPRISES: Ground Floor Entrance Hall First Floor Inner Hallway, Lounge/Kitchen, 2 Bedrooms, Bathroom. ACCOMMODATION: GROUND FLOOR: Entrance Hall: Shared area with part glazed external door with entry system, communal hallway and staircase to apartments, solid entrance door to the apartment on the first floor. FIRST FLOOR: Inner Hallway: 5'1\" x 4'7\" (1.54 x 1.39) plus 2'11\" x 5'8\" (0.88 x 1.72) Access to the lounge/kitchen, 2 bedrooms and bathroom, radiator, coat hooks. Lounge/Kitchen: ? Kitchen Side: 9'0\" x 8'0\" (2.74 x 2.43) Good size open plan room with kitchen to one side comprising range of base units with complementary worksurfaces, wall units, built in electric cooker, gas hob with extractor hood over, stainless steel sink with mixer taps, dishwasher, built in fridge freezer. Lounge Side: 10'11\" x 18'3\" (3.32 x 5.56) With space for 3 piece suite and dining table, double glazed window, radiator, cupboard housing gas fired central heating boiler, deep cupboard with shelves. Bedroom 1: 9'2\" x 12'1\" (2.79 x 3.68) Double bedroom, double glazed window, radiator. ? Bedroom 2: to the rear 9'1\" x 6'3\" (2.76 x 1.90) Single bedroom, double glazed window, radiator. Bathroom: 5'10\" x 10'10\" (1.77 x 3.30) 4 piece white bathroom suite comprising bath with shower over off the taps, shower enclosure with shower off the system, low flush WC, pedestal wash hand basin, heated towel rail. Directions: Leave the Settle office across the market square, go behind The Naked Man Café, Dawsons Court is facing, a for sale board is erected. Floor Area: 518 ft 2 Tenure: Leasehold on 999 year lease Services: All Mains services are connected to the property. Internet/Mobile Coverage: The Ofcom website shows that Internet is available, and mobile coverage. Flooding: Check for flooding in England - GOV.UK shows that the risk of flooding is very low. Viewing: Strictly by prior arrangement with and accompanied by a member of the selling agents, Neil Wright Associates Ltd. Purchase Procedure: If you would like to make an offer on this property, then please make an appointment with Neil Wright Associates so that a formal offer can be submitted to the Vendors. Marketing: Should you be interested in this property but have a house to sell, then we would be pleased to come and give you a free market valuation. N.B. YOUR HOME MAY BE AT RISK IF YOU DO NOT KEEP UP PAYMENTS ON YOUR MORTGAGE OR ANY OTHER LOAN SECURED AGAINST IT. N.B. No electrical/",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 6,
+        "quiet": 5,
+        "hillside": 99,
+        "large-outdoors": 9,
+        "great-views": 98,
+        "far-from-roads": 40
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -570,20 +572,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside"
-      ],
-      "autoTagScores": {
-        "rural": 20,
-        "quiet": 56,
-        "hillside": 95,
-        "large-outdoors": 45,
-        "great-views": 75,
-        "far-from-roads": 42
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -610,672 +599,13 @@
           "url": "https://www.onthemarket.com/details/19435235/"
         }
       ],
-      "lat": 54.069028,
-      "lon": -2.280793,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": false,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 46.43241034396937,
-        "distanceMiles": 28.851753247842595
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.217644790144263,
-        "distanceMiles": 18.77636816089673
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 34.07492714175399,
-        "distanceMiles": 21.173171552998816
-      },
-      "minAirportDistanceMiles": 18.77636816089673,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "nearestTownMiles": 15.3,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 6,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 9,
-        "great-views": 98,
-        "far-from-roads": 40
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "2 bedroom house for sale",
-      "price": 265000,
-      "address": "Mains View, Settle, North Yorkshire, BD24",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Dacre, Son & Hartley - Settle",
-      "agentPhone": "01729 543985",
-      "type": "House",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/19111392/1603721240/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19111392/1608993592/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19111392/1608993592/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19111392/1608993592/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19111392/1608993592/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19111392/"
-        }
-      ],
-      "lat": 54.0712276,
-      "lon": -2.2785162,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": true,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 46.421223369275204,
-        "distanceMiles": 28.844801986189903
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.492480167966225,
-        "distanceMiles": 18.947142894449343
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 34.244398903539555,
-        "distanceMiles": 21.278476391091278
-      },
-      "minAirportDistanceMiles": 18.947142894449343,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "nearestTownMiles": 15.5,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 10,
-        "quiet": 7,
-        "hillside": 97,
-        "large-outdoors": 8,
-        "great-views": 91,
-        "far-from-roads": 53
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "2 bedroom cottage for sale",
-      "price": 160000,
-      "address": "Bowskills Yard, Settle BD24",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Neil Wright Estate Agents - Settle",
-      "agentPhone": "01729 543575",
-      "type": "Cottage",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/17946749/1624308954/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/17946749/1624308954/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/17946749/1624308954/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/17946749/1624308954/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/17946749/1624308954/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/17946749/"
-        }
-      ],
-      "lat": 54.0798299198813,
-      "lon": -2.284219029673591,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 47.217270987680706,
-        "distanceMiles": 29.339442890886147
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.881285087636165,
-        "distanceMiles": 19.18873499618957
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 33.97549387377844,
-        "distanceMiles": 21.111386603843584
-      },
-      "minAirportDistanceMiles": 19.18873499618957,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "fullDescription": "Two bedroomed stone built mid terraced cottage located in a superb, elevated position near to the centre of Settle, offering characterful accommodation laid over two floors. Ground floor, entrance porch leading to open plan lounge/kitchen with newly installed kitchen units, first floor, landing, two bedrooms and wet room with pleasant views to the front. Enclosed raised rear garden/patio area and small outbuilding. Ideal property for single person or couple. Subject to a 106 local occupancy clause (ask agent for details). With double glazed windows and gas fired central heating. Ready for immediate occupation with no onward chain. Settle is a busy market town with a wide range of independent shops and local amenities plus transport links to Skipton, Leeds and Carlisle. Pretty cottage well worthy of internal inspection to fully appreciate. ACCOMMODATION COMPRISES: Ground Floor Entrance Porch, Living Kitchen First Floor Landing, 2 Bedrooms, Wet Room Outside Rear Elevated Garden, Outbuilding ACCOMMODATION: GROUND FLOOR: Entrance Porch: Living Kitchen: 17'10\" x 13'1\" (5.43 x 3.98) Good sized through room, staircase to the first floor, open fire grate with canopy, exposed stone wall, beamed ceiling, double glazed doors to the rear, ½ glazed door to the porch, wood flooring, wall lights and cupboard. FIRST FLOOR: Landing: Access to 2 bedrooms and wet room, loft access. Bedroom 1: (front) 13'6\" x 9'5\" (4.11 x 2.87) Double bedroom, upvc double glazed window and views, bulkhead store cupboard, radiator, recessed spotlights. Bedroom 2/Study: 8'4\" x 7'0\" (2.54 x 2.13) Upvc double glazed window, radiator, Velux rooflight, gas fired central heating boiler in store cupboard. Wet Room: 6'3\" x 4'0\" (1.90 x 1.21) With floor drain, shower over off the system, screen, wall mounted wash hand basin, WC with hidden cistern, tiled walls, tiled floor, heated towel rail, double glazed window. OUTSIDE: Small fore garden. External rear steps up to raised garden areas. Directions: Leave the Settle office to the rear, up Castle Hill. At the top of Castle Hill bear right on to Castlebergh Lane and Bowskills Yard is just off to the left. Tenure: Freehold with vacant possession on completion Services: All Mains services are connected to the property. Internet/Mobile Coverage: The Ofcom website shows that Internet is available, and mobile coverage. Flooding: Check for flooding in England - GOV.UK shows that the risk of flooding is very low. Viewing: Strictly by prior arrangement with and accompanied by a member of the selling agents, Neil Wright Associates Ltd. Purchase Procedure: If you would like to make an offer on this property, then please make an appointment with Neil Wright Associates so that a formal offer can be submitted to the Vendors. Marketing: Should you be interested in this property but have a house to sell, then we would be pleased to come and give you a free market valuation. N.B. YOUR HOME MAY BE AT RISK IF YOU DO NOT KEEP UP PAYMENTS ON YOUR MORTGAGE OR ANY O",
-      "nearestTownMiles": 16.1,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 12,
-        "quiet": 40,
-        "hillside": 95,
-        "large-outdoors": 40,
-        "great-views": 92,
-        "far-from-roads": 35
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "2 bedroom apartment for sale",
-      "price": 395000,
-      "address": "Duke Street, Settle BD24",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Neil Wright Estate Agents - Settle",
-      "agentPhone": "01729 543575",
-      "type": "Apartment",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/17458716/1596697397/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/17458716/1596697397/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/17458716/1596697397/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/17458716/1596697397/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/17458716/1596697397/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/17458716/"
-        }
-      ],
-      "lat": 54.067894,
-      "lon": -2.2773107,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 46.17254455171731,
-        "distanceMiles": 28.690280180645136
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.301101793344422,
-        "distanceMiles": 18.828225922432217
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 34.290992367056845,
-        "distanceMiles": 21.307428218110477
-      },
-      "minAirportDistanceMiles": 18.828225922432217,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "fullDescription": "Spectacular two bedroom contemporary style second floor apartment located within this historic listed building which is situated near to the centre of town. The apartment offers spacious accommodation with quality fixtures and fittings throughout. Entrance is via a shared entrance lobby at ground floor level with feature return staircase up to the second floor apartment. Access to principal rooms, large open plan lounge, dining room and kitchen with open ceiling and exposed roof timbers, bi folding doors leading to fantastic balcony having stunning views over Settle towards Castleberg. Well equipped modern kitchen area with integral appliances, central hallway, master bedroom with 4 Velux roof lights, steps down to well appointed ensuite bathroom, second double bedroom, large 3 piece house bathroom. Outside, 2 allocated parking spaces, and second floor balcony. Double glazed windows throughout, gas fired central heating, decorated and presented to a very high specification and standard, ready for immediate occupation. Ideal property for professional couple, family, holiday let or investment purposes. The property is currently operated as a holiday let which could be continued by the eventual purchaser if required. Viewing is strongly recommended to fully appreciate the whole building and the apartment's spaciousness and contemporary style. Located in a convenient position near to the centre of town which offers all local amenities and facilities including a range of independent shops, cafes, public houses, recreational facilities including the famous Victoria Hall and transport links to major centres via the famous Settle to Carlisle railway to Skipton, Leeds and Carlisle. ACCOMMODATION COMPRISES: GROUND FLOOR/FIRST FLOOR/SECOND FLOOR Communal Entrance Hall with intercom entry and Feature Staircase, external doors to the front and Rear and access to the Lower Ground Floor Storage Area. ACCOMMODATION: SECOND FLOOR: Entrance Hall: 4'4\" x 4'3\" (1.32 x 1.29) plus 3'3\" x 14'0\" (0.99 x 4.26) Access to the kitchen/lounge, 2 bedrooms and house bathroom, open ceiling, exposed timbers, radiator. ? Kitchen/Lounge/Dining Room: 17'5\" x 28'7\" (5.30 x 8.71) plus 12'2\" x 10'3\" max (3.70 x 3.12) Very spacious open plan room with exposed roof truss and purlins, 2 sets of bi folding doors with access to the balcony, superb views towards Castleberg, double glazed gable window, 3 Velux roof lights, 3 radiators, part wood flooring, part carpeted. Kitchen Area: Extensive range of modern kitchen base units with complementary solid quartz worksurfaces, breakfast bar, 1 ½ bowl sink with mixer tap, NEFF induction hob, NEFF built in double oven, NEFF dishwasher, Fridge/Freezer. Bedroom 1: 9'6\" x 18'0\" (2.89 x 5.48) Fantastic double bedroom, exposed roof truss, reduced eaves,4 Velux roof lights, radiator, eaves storage, large cupboard housing gas fired combination boiler, steps to en suite bathroom. Ensuite Bathroom: 8'1\" x 11'3\" (2.46 x 3.42) Large bathroom with 4 piece whi",
-      "nearestTownMiles": 15.2,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 3,
-        "quiet": 25,
-        "hillside": 92,
-        "large-outdoors": 43,
-        "great-views": 88,
-        "far-from-roads": 21
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "2 bedroom cottage for sale",
-      "price": 224950,
-      "address": "High Hill Grove, Settle BD24",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Neil Wright Estate Agents - Settle",
-      "agentPhone": "01729 543575",
-      "type": "Cottage",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/17237661/1615395128/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/17237661/1615395128/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/17237661/1615395128/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/17237661/1615395128/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/17237661/1615395128/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/17237661/"
-        }
-      ],
-      "lat": 54.0798299198813,
-      "lon": -2.284219029673591,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 47.217270987680706,
-        "distanceMiles": 29.339442890886147
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.881285087636165,
-        "distanceMiles": 19.18873499618957
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 33.97549387377844,
-        "distanceMiles": 21.111386603843584
-      },
-      "minAirportDistanceMiles": 19.18873499618957,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "fullDescription": "Well presented, two bedroom cottage located in a superb position near to the centre of town. The property provides manageable accommodation comprising ground floor kitchen and bedroom with first floor lounge bedroom and bathroom. Outstanding views from the lounge over Settle and the hills. Decorated and presented to a high standard ready for immediate occupation with no onward chain. Currently utilised as a holiday cottage which could continue or ideal for first time buyer and investor. Upvc double glazed windows and gas fired central heating are installed. Small garden/sitting area adjacent to the cottage plus unrestricted street parking nearby. Settle is a busy and popular market town situated on the edge of The Yorkshire Dales National Park, set amid outstanding countryside. The town offers all local amenities such as independent shops, public houses and cafes, recreational facilities and transport links to Skipton, 16 miles, Kendal, 30 miles and Leeds, 50 miles. Pleasant cottage, well worthy of internal inspection to fully appreciate the size and finish. ACCOMMODATION COMPRISES: Ground Floor Entrance Hall, Bedroom 2, Kitchen. First Floor Lounge, Bedroom 1, Bathroom. Outside Enclosed small garden area with access for adjoining property. ACCOMMODATION: GROUND FLOOR: Entrance Hall: 2'8\" x 8'2\" Part glazed external entrance door, access to bedroom and kitchen. Bedroom 2: 10'0\" x 7'3\" Two upvc double glazed windows, vertical radiator, cupboard housing Baxi gas fired combination boiler. Kitchen: 14'1\" x 10'1\" Range of kitchen base units with complementary wood worksurfaces, dual fuel stove, ceramic sink with mixer tap, space for table, recessed spotlights, vertical radiator, 2 upvc double glazed windows, staircase to first floor. FIRST FLOOR: Split staircase with access to lounge, bedroom 1 and bathroom. ? Lounge: 13'2\" x 12'8\" Large bay window with views, 2 gable windows, wood floor, vertical radiator. Bedroom 1: 9'5\" x 8'10\" Double bedroom, vertical radiator, upvc double glazed window. Bathroom: 3 piece white bathroom suite comprising bath with shower over off the system, WC with high cistern, pedestal wash hand basin, bulkhead cupboard, part tiled walls, heated towel rail. OUTSIDE: Enclosed small garden area with access over for adjoining property. Directions: Leave the Settle office down Cheapside, turn left onto Duke Street, go past the Garage on your left, take the next left turn down High Hill Grove Street, go down and take the next left on to High Hill Grove, Roundabout Cottage is on the left hand side at the end of the street. Tenure: Freehold with vacant possession on completion Tenure: The property was converted/split off from 41 Duke Street in the 1990s. Services: All Mains services are connected to the property. Viewing: Strictly by prior arrangement with and accompanied by a member of the selling agents, Neil Wright Associates Ltd. Purchase Procedure: If you would like to make an offer on this property, then please make an appointment",
-      "nearestTownMiles": 16.1,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 2,
-        "quiet": 15,
-        "hillside": 97,
-        "large-outdoors": 29,
-        "great-views": 97,
-        "far-from-roads": 35
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "2 bedroom apartment for sale",
-      "price": 159250,
-      "address": "Dawsons Court, Settle BD24",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Neil Wright Estate Agents - Settle",
-      "agentPhone": "01729 543575",
-      "type": "Apartment",
-      "description": "Spacious 2 Bedroom Second Floor ApartmentChain-freeNeil Wright Estate Agents - SettleAdded > 14 daysEmail01729 543575",
-      "images": [
-        "https://media.onthemarket.com/properties/16445193/1586756094/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/16445193/1586756094/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/16445193/1586756094/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/16445193/1586756094/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/16445193/1586756094/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/16445193/"
-        }
-      ],
-      "lat": 54.0798299198813,
-      "lon": -2.284219029673591,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 47.217270987680706,
-        "distanceMiles": 29.339442890886147
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.881285087636165,
-        "distanceMiles": 19.18873499618957
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 33.97549387377844,
-        "distanceMiles": 21.111386603843584
-      },
-      "minAirportDistanceMiles": 19.18873499618957,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "fullDescription": "Very well appointed two bedroom, second floor apartment located within a converted block of similar properties, situated in a convenient position in the centre of Settle within easy access of the local amenities. Access is via a private shared staircase and entrance to the apartment. Internally there are two good sized bedrooms, large open plan lounge/kitchen area with open ceiling and house bathroom. Ideal property for first time buyer, investor, or second home. Double glazed windows and gas fired central heating are installed. Decorated and presented throughout to a high standard, ready for immediate occupation with no onward chain. Well worthy of internal inspection to appreciate the size, quality and presentation, and also to appreciate the property's convenience. ACCOMMODATION COMPRISES: Ground Floor Communal Entrance and Staircase to Second Floor Second Floor Hallway, Lounge/Kitchen, 2 Bedrooms, Shower Room ACCOMMODATION: SECOND FLOOR: Inner Hallway: 3'9\" x 12'2\" 1.14 x 3.70 Access to the lounge/kitchen, 2 bedrooms and bathroom, oak flooring, radiator. Lounge/Kitchen: 13'1\" x 18'4\" (3.98 x 5.58) plus 8'8\" x 7'10\" (2.64 x 2.38) Open plan room with lounge to one side and kitchen to the other side. Open ceiling with exposed roof truss, 2 Velux roof lights, timber double glazed window, oak flooring, radiator, new gas fired central heating boiler in cupboard. Kitchen Side: Range of modern kitchen base units with complementary worksurfaces, stainless steel sink with mixer taps, built in appliances including Firenzi electric oven, gas hob, fridge freezer, extractor hood and washing machine. Bedroom 1: 9'5\" x 9'9\" (2.87 x 2.97) Double bedroom, double glazed timber window, radiator, Velux window, exposed roof truss/beams. Bedroom 2: 9'0\" x 6'7\" (2.74 x 2.00) Single bedroom, Velux roof light, radiator, purlins. Bathroom: 5'6\" x 9'8\" (1.67 x 2.94) 4 piece white bathroom suite comprising shower enclosure with shower off the system, low flush WC, pedestal wash hand basin, Velux roof light. Directions: Leave the Settle office across the Market Square, walk behind the Naked Man Café, and in the far right hand corner there is a gate, Dawson's Court is on the right hand side. A For Sale Board is erected. Tenure: Leasehold 999 years from 2003, service charge of £138.00 per month. Services: All Mains services are connected to the property. Viewing: Strictly by prior arrangement with and accompanied by a member of the selling agents, Neil Wright Associates Ltd. Purchase Procedure: If you would like to make an offer on this property, then please make an appointment with Neil Wright Associates so that a formal offer can be submitted to the Vendors. Marketing: Should you be interested in this property but have a house to sell, then we would be pleased to come and give you a free market valuation. N.B. YOUR HOME MAY BE AT RISK IF YOU DO NOT KEEP UP PAYMENTS ON YOUR MORTGAGE OR ANY OTHER LOAN SECURED AGAINST IT. N.B. No electrical/gas appliances have been checked t",
-      "nearestTownMiles": 16.1,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 4,
-        "quiet": 31,
-        "hillside": 95,
-        "large-outdoors": 43,
-        "great-views": 83,
-        "far-from-roads": 66
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "3 bed property for sale",
-      "price": 349950,
-      "address": "House BD24",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "type": "Property",
-      "description": "Situated in the heart of Settle market town ...Listed on 18th May 2026",
-      "postedDate": "Reduced",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/1372afea402b4d88dd19c996a88da2a8076b3ca9.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73224416/"
-        }
-      ],
-      "lat": 53.4384539,
-      "lon": -2.2135821,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Manchester Airport",
-        "icao": "EGCC",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 10.827162232231704,
-        "distanceMiles": 6.727684623404046
-      },
-      "nearestAirstrip": {
-        "name": "Manchester Barton Aerodrome",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 12.23418368111303,
-        "distanceMiles": 7.6019669481168854
-      },
-      "nearestHeliport": {
-        "name": "Wythenshawe Hospital Helipad",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 7.507691590916253,
-        "distanceMiles": 4.665061831539223
-      },
-      "minAirportDistanceMiles": 4.665061831539223,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 286,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "nearestTownMiles": 1.4,
-      "baselineComparison": {
-        "airportsCount": 1,
-        "airstripsCount": 0,
-        "helipadsCount": 2,
-        "airportsDiff": -3,
-        "airstripsDiff": 0,
-        "helipadsDiff": -2,
-        "flightsPerDay": 286,
-        "flightsDiffPct": 239
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Settle"
-    },
-    {
-      "title": "2 bed property for sale",
-      "price": 345000,
-      "address": "The Wickets, Kirkgate, Settle BD24",
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "Property",
-      "description": "A very well presented bright and airy north facing two bedroom apartment located on the ground floor of this popular McCarthy ...Listed on 8th May 2026Retirement",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/1d9b195430ba461b77aa88df32f079a03e25e157.jpg",
-        "https://lid.zoocdn.com/645/430/0d1c185a82a2df4fa93b2b1b6f3bd7abbc8b05f8.jpg",
-        "https://lid.zoocdn.com/645/430/72cd78fd6bf5e8526f58aa8c34080dd24c1b8395.jpg",
-        "https://lid.zoocdn.com/645/430/c8c2fe6fab4b54b65e56ef3b7e4ab1357e57a08b.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73138288/"
-        }
-      ],
       "lat": 54.0690634,
       "lon": -2.2807323,
       "searchLocation": "Settle",
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1313,8 +643,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A very well presented bright and airy north facing two bedroom apartment located on the ground floor of this popular McCarthy Stone Retirement Living development for the over 60's. This energy efficient apartment has a private patio, with a good sized kitchen and with two shower rooms it must be seen to be appreciated. It's also pet friendly!The WicketsThe Wickets was purpose built by McCarthy Stone for independent retirement living for those over the age of 60. Completed in 2018 the development consists of 22, one and two-bedroom retirement apartments. The development includes a communal lounge and a rooftop terrace with wonderful views over the cricket pitch and the Dales beyond. There is a guest suite available for visitors who wish to stay (additional charges apply). The Wickets has a House Manager who is on hand during office hours and for your peace of mind there are a number of security features, including a 24-Hour emergency call system in each apartment. The development features a camera door entry system linked to your TV, so that you can see who's calling for you before letting them in. The apartment also has the benefit of illuminated light switches, smoke and heat detectors and Vent Axia unit. Outside are well maintained communal gardens with patio seating area and access to a communal motor scooter/buggy store with charging points for electric scooters.The large comfortable communal lounge provides a social hub where owners can meet, this can be informally or organised events adding to the sense of community at The Wickets. There is a communal kitchen adjoining the lounge to help facilitate these.Local AreaSettle is a bustling market town found in the foothills of the Pennines and on the edge of the picturesque Yorkshire Dales National Park and the Forest of Bowland. The Wickets is located a short walk from the town centre with easy access to local supermarkets and independent shops and facilities. Settle has excellent transport links, and the railway station sees the very popular steam trains passing through on the famous Settle to Carlisle route. Settle hosts a weekly market and is a town with plenty of charm and historic character. Settle is situated on the A65 and B6480 with the A65 connecting West to the M6 motorway and via the A59 East to the A1.Entrance HallFront door with spy hole leads to the large entrance hall, where the 24-hour Tunstall emergency response unit with security door entry and emergency push button is located. With airing/store cupboard housing the hot water boiler washing machine and separate dryerLoungeA spacious lounge with door access to the patio area. The room has large windows allowing a lot of natural light in and has ample space for dining table and chairs. With a modern fire surround and \"Living Flame\" style electric fire, The lounge has TV and telephone points, fitted carpets, ample raised electric power sockets.KitchenFully fitted kitchen with a range of modern cream gloss base and wall units with",
-      "nearestTownMiles": 15.3,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 6,
+        "quiet": 5,
+        "hillside": 99,
+        "large-outdoors": 9,
+        "great-views": 98,
+        "far-from-roads": 40
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1326,41 +667,31 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 10,
-        "quiet": 40,
-        "hillside": 92,
-        "large-outdoors": 41,
-        "great-views": 85,
-        "far-from-roads": 48
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
-      "title": "2 bed property for sale",
+      "title": "2 bedroom house for sale",
       "price": 265000,
-      "address": "Mains View, Settle, North Yorkshire BD24",
+      "address": "Mains View, Settle, North Yorkshire, BD24",
       "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": 1102,
-      "type": "Property",
-      "description": "A two bedroom mid terrace located a short level walk away from the market place. The property offers spacious living ...Listed on 25th Mar 2026",
-      "postedDate": "Reduced",
-      "agent": null,
-      "agentPhone": null,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Dacre, Son & Hartley - Settle",
+      "agentPhone": "01729 543985",
+      "type": "House",
+      "description": "",
       "images": [
-        "https://lid.zoocdn.com/645/430/e8974b8b83290001f3310424f75ca8e71ceb4c9b.jpg"
+        "https://media.onthemarket.com/properties/19111392/1603721240/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19111392/1608993592/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19111392/1608993592/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19111392/1608993592/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19111392/1608993592/image-4-480x320.jpg"
       ],
       "sources": [
         {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72757642/"
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19111392/"
         }
       ],
       "lat": 54.0712276,
@@ -1369,6 +700,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1406,8 +738,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A two bedroom mid terrace located a short level walk away from the market place. The property offers spacious living accommodation over three floors and a West facing garden to front. Viewing highly advised.Entering to the rear of the home is a spacious dining kitchen with hardwood floor. The kitchen has a good selection of base units, complimentary worktop and a ceramic bowl sink with mixer tap. Appliances include a five ring gas hob, electric oven and integrated under counter fridge and dishwasher. Space and plumbing are available to house a washing machine. There is ample space for a large dining table and chairs and a handy downstairs cloakroom that’s perfect for guest use. The living room faces the front of the home and has a feature fireplace to centre with Aga multi fuel stove insert. Upstairs, on the first floor, is a good size double bedroom and the house bathroom which comprises a freestanding bath, walk in shower, vanity wash hand basin, heated towel rail and wc. The master bedroom located on the second floor, is generous in size and light and airy due to there being four Velux windows.Outside to the front is a west facing garden with patio seating area, artificial lawn and summerhouse. The front garden can be accessed off the living room or via a shared pathway to side. To the rear is a small fore garden with enough space to store wheelie bins.The market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college, as well as a highly regarded public school in the neighbouring village of Giggleswick. Settle has a medical centre, swimming pool, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains electricity, gas, drainage and water are installed. Domestic heating is from a gas fired boiler.ParkingNo allocated parking.TenureFreehold.Council TaxBand BFrom the Settle office enter the market place and then take a right on to Church Street. Immediately after the viaduct, make a right on to Mains View where number 9 can be seen on your left. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the latest stamp duty news ",
-      "nearestTownMiles": 15.5,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 10,
+        "quiet": 7,
+        "hillside": 97,
+        "large-outdoors": 8,
+        "great-views": 91,
+        "far-from-roads": 53
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1419,21 +762,652 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bedroom cottage for sale",
+      "price": 160000,
+      "address": "Bowskills Yard, Settle BD24",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Neil Wright Estate Agents - Settle",
+      "agentPhone": "01729 543575",
+      "type": "Cottage",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17946749/1624308954/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17946749/1624308954/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17946749/1624308954/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17946749/1624308954/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17946749/1624308954/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17946749/"
+        }
+      ],
+      "lat": 54.0798299198813,
+      "lon": -2.284219029673591,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 47.217270987680706,
+        "distanceMiles": 29.339442890886147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.881285087636165,
+        "distanceMiles": 19.18873499618957
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 33.97549387377844,
+        "distanceMiles": 21.111386603843584
+      },
+      "minAirportDistanceMiles": 19.18873499618957,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 28,
+        "quiet": 4,
+        "hillside": 98,
+        "large-outdoors": 16,
+        "great-views": 92,
+        "far-from-roads": 38
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.8,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bedroom apartment for sale",
+      "price": 395000,
+      "address": "Duke Street, Settle BD24",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Neil Wright Estate Agents - Settle",
+      "agentPhone": "01729 543575",
+      "type": "Apartment",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17458716/1596697397/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17458716/1596697397/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17458716/1596697397/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17458716/1596697397/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17458716/1596697397/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17458716/"
+        }
+      ],
+      "lat": 54.0652491,
+      "lon": -2.2798121,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.174787407029555,
+        "distanceMiles": 28.69167382589336
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 29.98319630147472,
+        "distanceMiles": 18.63068866904365
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.105836239512286,
+        "distanceMiles": 21.19237756998199
+      },
+      "minAirportDistanceMiles": 18.63068866904365,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 267,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 6,
+        "quiet": 5,
+        "hillside": 99,
+        "large-outdoors": 9,
+        "great-views": 98,
+        "far-from-roads": 40
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 267,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bedroom cottage for sale",
+      "price": 224950,
+      "address": "High Hill Grove, Settle BD24",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Neil Wright Estate Agents - Settle",
+      "agentPhone": "01729 543575",
+      "type": "Cottage",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/17237661/1615395128/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17237661/1615395128/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17237661/1615395128/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17237661/1615395128/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17237661/1615395128/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17237661/"
+        }
+      ],
+      "lat": 54.0798299198813,
+      "lon": -2.284219029673591,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 47.217270987680706,
+        "distanceMiles": 29.339442890886147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.881285087636165,
+        "distanceMiles": 19.18873499618957
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 33.97549387377844,
+        "distanceMiles": 21.111386603843584
+      },
+      "minAirportDistanceMiles": 19.18873499618957,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 28,
+        "quiet": 4,
+        "hillside": 98,
+        "large-outdoors": 16,
+        "great-views": 92,
+        "far-from-roads": 38
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.8,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bedroom apartment for sale",
+      "price": 159250,
+      "address": "Dawsons Court, Settle BD24",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Neil Wright Estate Agents - Settle",
+      "agentPhone": "01729 543575",
+      "type": "Apartment",
+      "description": "Spacious 2 Bedroom Second Floor ApartmentChain-freeNeil Wright Estate Agents - SettleAdded > 14 daysEmail01729 543575",
+      "images": [
+        "https://media.onthemarket.com/properties/16445193/1586756094/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16445193/1586756094/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16445193/1586756094/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16445193/1586756094/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16445193/1586756094/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16445193/"
+        }
+      ],
+      "lat": 54.0798299198813,
+      "lon": -2.284219029673591,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 47.217270987680706,
+        "distanceMiles": 29.339442890886147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.881285087636165,
+        "distanceMiles": 19.18873499618957
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 33.97549387377844,
+        "distanceMiles": 21.111386603843584
+      },
+      "minAirportDistanceMiles": 19.18873499618957,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [
         "hillside",
         "great-views"
       ],
       "autoTagScores": {
         "rural": 4,
-        "quiet": 57,
-        "hillside": 91,
-        "large-outdoors": 79,
-        "great-views": 87,
-        "far-from-roads": 55
+        "quiet": 22,
+        "hillside": 98,
+        "large-outdoors": 25,
+        "great-views": 99,
+        "far-from-roads": 52
       },
       "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.8,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 349950,
+      "address": "House BD24",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "Situated in the heart of Settle market town ...Listed on 18th May 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/1372afea402b4d88dd19c996a88da2a8076b3ca9.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73224416/"
+        }
+      ],
+      "lat": 53.4384539,
+      "lon": -2.2135821,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 10.827162232231704,
+        "distanceMiles": 6.727684623404046
+      },
+      "nearestAirstrip": {
+        "name": "Manchester Barton Aerodrome",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 12.23418368111303,
+        "distanceMiles": 7.6019669481168854
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.507691590916253,
+        "distanceMiles": 4.665061831539223
+      },
+      "minAirportDistanceMiles": 4.665061831539223,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 286,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -2,
+        "flightsPerDay": 286,
+        "flightsDiffPct": 239
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 345000,
+      "address": "The Wickets, Kirkgate, Settle BD24",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "A very well presented bright and airy north facing two bedroom apartment located on the ground floor of this popular McCarthy ...Listed on 8th May 2026Retirement",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/1d9b195430ba461b77aa88df32f079a03e25e157.jpg",
+        "https://lid.zoocdn.com/645/430/0d1c185a82a2df4fa93b2b1b6f3bd7abbc8b05f8.jpg",
+        "https://lid.zoocdn.com/645/430/72cd78fd6bf5e8526f58aa8c34080dd24c1b8395.jpg",
+        "https://lid.zoocdn.com/645/430/c8c2fe6fab4b54b65e56ef3b7e4ab1357e57a08b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73138288/"
+        }
+      ],
+      "lat": 54.0798299198813,
+      "lon": -2.284219029673591,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 47.217270987680706,
+        "distanceMiles": 29.339442890886147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.881285087636165,
+        "distanceMiles": 19.18873499618957
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 33.97549387377844,
+        "distanceMiles": 21.111386603843584
+      },
+      "minAirportDistanceMiles": 19.18873499618957,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 2,
+        "quiet": 37,
+        "hillside": 85,
+        "large-outdoors": 34,
+        "great-views": 98,
+        "far-from-roads": 67
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.8,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 265000,
+      "address": "Mains View, Settle, North Yorkshire BD24",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1102,
+      "type": "Property",
+      "description": "A two bedroom mid terrace located a short level walk away from the market place. The property offers spacious living ...Listed on 25th Mar 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/e8974b8b83290001f3310424f75ca8e71ceb4c9b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72757642/"
+        }
+      ],
+      "lat": 54.0712276,
+      "lon": -2.2785162,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.421223369275204,
+        "distanceMiles": 28.844801986189903
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.492480167966225,
+        "distanceMiles": 18.947142894449343
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.244398903539555,
+        "distanceMiles": 21.278476391091278
+      },
+      "minAirportDistanceMiles": 18.947142894449343,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 1,
+        "quiet": 46,
+        "hillside": 96,
+        "large-outdoors": 52,
+        "great-views": 92,
+        "far-from-roads": 66
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1462,6 +1436,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1499,8 +1474,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "Set in the charming market town of Settle, this delightful detached bungalow on Albert Hill offers a unique opportunity to enjoy the stunning vistas of the Yorkshire Dales.With an elevated position, the property boasts breathtaking views from its principal rooms, making it a perfect retreat for those who appreciate natural beauty.The bungalow features a spacious living room with stunning views, and a family / music room, providing ample space for relaxation and entertaining. There are three bedrooms, ensuring comfort for family and guests alike. The re-fitted dining-kitchen is a highlight, complete with sliding doors that open onto the gardens, seamlessly blending indoor and outdoor living, and a bathroom with shower over bath. Next to the bathroom, a utility cupboard with space and plumbing for a washing machine.The property has scope for extending and modernising. And the steel frame construction is visible in the attic rooms, and in excellent condition. Buyers should note that mortgages are available on steel and timber frame properties. Your choice of lenders may be a little more limited. A Civil and Structural Engineer inspected the property on 7 July 2026 on behalf of the vendor and concluded that the property is in good condition. The report found no structural concerns and does not anticipate any major structural issues in the near future, provided the property continues to receive routine maintenance. A copy of the full report is available on request at offer stage.The gardens are a delight with terraced well planned terraced gardens to the front with fine views, gardens to either side laid to lawn, and a long driveway across the back leading to the single garage.Parking is a breeze with space for up to four vehicles, in addition to a single garage, making this property both practical and convenient. Located just a five-minute walk from the town centre, train station, and local shops, you will find everything you need within easy reach.With no forward chain, this bungalow is ready for you to make it your own. Whether you are looking for a peaceful home or a project to enhance, this property in Settle is a rare find that combines comfort, potential, and stunning surroundings.A Civil and Structural Engineer inspected the property on 7 July 2026 on behalf of the vendor and concluded that the property is in good condition. The report found no structural concerns and does not anticipate any major structural issues in the near future, provided the property continues to receive routine maintenance. A copy of the full report is available on request at offer stage.Buyer & Seller Anti Money Laundering ChecksWe are required by hmrc to undertake Anti Money Laundering checks for all buyers and sellers to the contract. These checks are carried out through hipla, and we make a charge of £30.00 + VAT per buyer. We will also need to see proof of funding. We cannot mark a property Sold Subject to Contract until the checks have been satisfactorily complete",
-      "nearestTownMiles": 15,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 5,
+        "quiet": 61,
+        "hillside": 100,
+        "large-outdoors": 48,
+        "great-views": 99,
+        "far-from-roads": 51
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1512,22 +1498,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 29,
-        "quiet": 66,
-        "hillside": 100,
-        "large-outdoors": 96,
-        "great-views": 99,
-        "far-from-roads": 72
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bed detached for sale",
@@ -1556,6 +1527,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1593,8 +1565,21 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A detached two-bedroom bungalow, offering spacious accommodation including two double bedrooms, living room, dining room and kitchen, with private driveway and garage; requiring full modernisation and presenting an excellent opportunity to create a bespoke home.Situated in a highly regarded residential area of Settle, this two-bedroom detached bungalow offers a fantastic opportunity for buyers seeking a property to modernise and create a home tailored to their own tastes and requirements.The accommodation is well-proportioned throughout and briefly comprises: An entrance hallway, two generous double bedrooms, a spacious living room, a separate dining room, and a kitchen. The layout provides a flexible footprint with scope for reconfiguration, subject to the necessary consents.Externally, the property benefits from a private driveway leading to a detached garage, offering ample off-street parking and storage. The surrounding plot presents further potential for landscaping and enhancement.Requiring full modernisation, this property represents an ideal project for investors, downsizers, or those looking to create a bespoke home in a desirable location within easy reach of Settle’s amenities and transport links.The market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college, as well as a highly regarded public school in the neighbouring village of Giggleswick. Settle has a medical centre, swimming pool, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains electricity, water and drainage are installed.ParkingPrivate off street parking and garageTenureFreeholdCouncil TaxBand DFrom Dacre Son & Hartley Settle office proceed through the market square and onto Church Street. After passing the petrol station take the left hand turn onto Marshfield Road. Proceed down to the end of the road and the bungalow can be found on the right hand side. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the latest stamp duty news This calculation is intended as a guide only. We are unable to provide financial advice, so it's important to c",
-      "nearestTownMiles": 15.4,
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views",
+        "far-from-roads"
+      ],
+      "autoTagScores": {
+        "rural": 3,
+        "quiet": 52,
+        "hillside": 95,
+        "large-outdoors": 87,
+        "great-views": 92,
+        "far-from-roads": 84
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1606,22 +1591,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 1,
-        "quiet": 19,
-        "hillside": 98,
-        "large-outdoors": 96,
-        "great-views": 94,
-        "far-from-roads": 57
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1644,12 +1614,13 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/67259066/"
         }
       ],
-      "lat": 54.0673487,
-      "lon": -2.2791871,
+      "lat": 54.0672517,
+      "lon": -2.280943,
       "searchLocation": "Settle",
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1658,8 +1629,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 46.25065219057289,
-        "distanceMiles": 28.73881400230847
+        "distanceKm": 46.34599984831158,
+        "distanceMiles": 28.798060271745214
       },
       "nearestAirstrip": {
         "name": "Chipping Airfield",
@@ -1667,8 +1638,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 30.16956544356838,
-        "distanceMiles": 18.74649304923553
+        "distanceKm": 30.07737240671209,
+        "distanceMiles": 18.6892069697311
       },
       "nearestHeliport": {
         "name": "Royal Lancaster Infirmary Heliport",
@@ -1676,10 +1647,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 34.16411848028173,
-        "distanceMiles": 21.22859246421114
+        "distanceKm": 34.04904707513712,
+        "distanceMiles": 21.157090430125027
       },
-      "minAirportDistanceMiles": 18.74649304923553,
+      "minAirportDistanceMiles": 18.6892069697311,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 267,
@@ -1687,8 +1658,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A modern two bedroom upper floor apartment with off street parking and within easy reach of Settle town centre.This attractive small development at Goldielands was built in 2001 and the location is conveniently close to the centre of this pleasant Dales market town. This is an upper floor apartment that has some fine views.The apartment has an entrance from ground floor level at the rear of the building with a security intercom to the door. The accommodation comprises: - Internal entrance door through to good sized hallway with useful airing cupboard and access to all rooms. The lounge is spacious and opens into the kitchen. The kitchen area is well equipped with wall and base cupboards, space for fridge, worktop area with inset sink, built-in electric oven and gas hob with extractor hood, wall mounted boiler, and useful cupboard. There is also space and plumbing for a washing machine. There are two bedrooms and fully tiled bathroom fitted with pedestal basin, low flush wc and panelled bath with mixer shower off the system. The apartment is in good decorative order with features including gas central heating and double glazing throughout as well as a loft area for storage.Externally there is a useful store and a designated parking space. Briefly, a well-designed and equipped residential unit, ideal for first time buyers, downsizers or investors.The market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Schools include a primary and college, as well as a highly regarded public school in the neighbouring village of Giggleswick. Settle has a medical centre, swimming pool, gym, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains electricity, gas, water and drainage are installed. Domestic heating is from a gas fired combination boiler.ParkingAllocated parking spaceTenureLeasehold - The lease is 999 years from 1st day of January 2000. No service charge or ground rent is currently paid.Council TaxBand BInternet & Mobile CoverageInformation obtained from the Ofcom website indicates that an internet connection is available from at least one provider. Outdoor mobile coverage (excluding 5G) is also available from at least one of the UKs four leading providers. Results are predictions and not a guarantee. Actual services may be different depending on particular circumstances and the precise location of the user and may be affected by network outages.Leave the centre of town via Station Road, pass under the railway and Goldielands is 150 metres on the left. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full app",
-      "nearestTownMiles": 15.2,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 2,
+        "quiet": 32,
+        "hillside": 92,
+        "large-outdoors": 67,
+        "great-views": 97,
+        "far-from-roads": 49
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1700,21 +1682,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 2,
-        "quiet": 8,
-        "hillside": 100,
-        "large-outdoors": 43,
-        "great-views": 99,
-        "far-from-roads": 34
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1743,6 +1711,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1780,8 +1749,21 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A two bedroom terraced property which offers spacious accommodation throughout. This home boasts off street parking and a generous rear garden. Early inspection is advised.A two bedroom property situated in an excellent central location just a few minutes’ walk from Settle town centre. The property briefly comprises of; entrance vestibule with ample storage for coats and shoes, a spacious dual aspect living room, kitchen fitted with a range of base and wall units including space for electric cooker, fridge, freezer and washing machine. There is also a useful understairs cupboard for storage. To the first floor there is a good-sized double bedroom with fitted storage cupboards. The original main bedroom has been split into two rooms and is currently used as a hobby room and study but could easily been turned back into the main bedroom if desired. There is a house bathroom with shower over bath, pedestal wash hand basin and wc.Externally there is a generous garden to the rear with lawn and pebbled areas. There is a useful shed for storage. To the front is off street parking and access to a store room. This excellent property will certainly appeal to a range of buying groups.The market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college, as well as a highly regarded public school in the neighbouring village of Giggleswick. Settle has a medical centre, building society, swimming pool, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains electricity, water, drainage and gas are installed. Domestic heating is from a gas fired boiler.ParkingPrivate drivewayTenureFreeholdCouncil TaxBand BLeave the Settle office through the Market Square, down Church Street, turn right at Bridge End. Proceed approximately 200 yards, turn right onto Northfields and take next right onto Northfield Avenue. The property is on the left-hand side. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the latest stamp duty news This calculation is intended as a guide only. We are unable to provide financial advice, so it's important to consult with an",
-      "nearestTownMiles": 15.5,
+      "autoTags": [
+        "quiet",
+        "hillside",
+        "large-outdoors",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 1,
+        "quiet": 83,
+        "hillside": 98,
+        "large-outdoors": 95,
+        "great-views": 98,
+        "far-from-roads": 59
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1793,22 +1775,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 0,
-        "quiet": 74,
-        "hillside": 98,
-        "large-outdoors": 95,
-        "great-views": 96,
-        "far-from-roads": 43
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1837,6 +1804,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -1874,8 +1842,20 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A superb three bedroom Victorian terrace house located overlooking the river close to Settle town centre. The property provides extremely spacious accommodation and has long distance views towards Pen-y-Ghent from the front. Early inspection is advised.3 Ribble Terrace provides extremely spacious family living accommodation. The property is a large Victorian terrace overlooking the river at Giggleswick and is in easy walking distance of the town centre. Briefly comprising entrance hall, living area open to dining area and kitchen to the rear. There is also a useful wc on the ground floor. At first floor there are two double bedrooms of generous proportions together with a generous house bathroom. At the second floor is the master bedroom with Velux windows to one roof pitch providing long distance views up the valley towards Pen-y-Ghent and across to Giggleswick. In the basement are two good size cellar rooms together with a coal store and outside is a good size rear yard with paved flags, to the front is an enclosed fore garden with pleasant views across the park to the river. Rarely does a house of this type come to the market in Settle and inspection is advised to fully appreciate the size of this property.The market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college, as well as a highly regarded public school in the neighbouring village of Giggleswick. Settle has a medical centre, swimming pool, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains electricity, water, drainage and gas are installed. Domestic heating is from a gas fired boiler.ParkingNo allocated parkingTenureFreeholdCouncil TaxBand DFrom Dacre Son & Hartley Settle office proceed down the centre of the market square and proceed in the direction of Giggleswick, past the petrol station, under the railway bridge where Ribble Terrace can be found on the left hand side at the junction with Craven Terrace directly before crossing the river bridge. A 'For Sale' board is erected. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the latest stamp duty ne",
-      "nearestTownMiles": 15.5,
+      "autoTags": [
+        "hillside",
+        "great-views",
+        "far-from-roads"
+      ],
+      "autoTagScores": {
+        "rural": 2,
+        "quiet": 60,
+        "hillside": 99,
+        "large-outdoors": 71,
+        "great-views": 99,
+        "far-from-roads": 85
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1887,21 +1867,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 5,
-        "quiet": 22,
-        "hillside": 99,
-        "large-outdoors": 73,
-        "great-views": 99,
-        "far-from-roads": 33
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1930,6 +1896,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1967,8 +1934,20 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "fullDescription": "A detached bungalow in the Dales village of Giggleswick. The property sits on a generous plot with lawn garden to front, drive to side and a double garage. Internal viewing highly advised.Entering through the part glazed front door is the main hallway. To your right is a light and airy living dining room with fitted carpet, stone fireplace, gas fire, window to side and bay window to front. Off the kitchen is an inner hallway providing access to the kitchen and study. The kitchen has a good range of wall and base units, worktop and a 1 1/2 bowl sink with mixer tap. Appliances include a Neff four ring gas hob and single oven. Space and plumbing are available to house a fridge/freezer and washing machine. Bedrooms one and two are both good size doubles with window to either front or rear. The house shower room comprises part tiled walls, shower cubicle, wash hand basin, wc and a frosted window to side.Externally, to the front, there is an established lawn garden with flowerbed to side and path to front door. To the side and rear of the property there is a good size drive leading to a double garage. There is also a shed allowing for storage needs.The picturesque Dales village of Giggleswick has its own village Church, two public houses, primary school and Giggleswick Public School. The nearby market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college. Settle has a medical centre, swimming pool, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains Gas, Electricity, Water and Drainage are installed. Domestic heating from a gas fired boiler.ParkingDrive to side plus double garage.TenureFreeholdCouncil TaxBand EInternet & Mobile CoverageThe Ofcom website shows internet available from at least 1 provider. Outdoor mobile coverage (excl 5G) likely from at least 1 of the UK’s 4 main providers. Results are predictions not a guarantee & may differ subject to circumstances, exact location & network outages.FloodingCheck for flooding in England - indicate the long term flood risks for this property are: - Surface Water - Very low; Rivers & the Sea - High; Groundwater - Flooding from groundwater is unlikely in this area; Reservoir - Flooding from reservoirs is unlikely in this area.From Dacres Settle office enter the marketplace and turn left onto Duke Street. Take the next right onto Station Road, proceed past the railway station and follow the road past the Land Rover Garage and over the river bridge. The property can be seen on the right hand side identified by our for sale board. The monthly repayments ",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 15,
+        "quiet": 35,
+        "hillside": 99,
+        "large-outdoors": 99,
+        "great-views": 91,
+        "far-from-roads": 65
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1980,21 +1959,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 23,
-        "quiet": 33,
-        "hillside": 98,
-        "large-outdoors": 48,
-        "great-views": 91,
-        "far-from-roads": 50
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2023,6 +1988,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2060,8 +2026,20 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A spacious three bedroom mid terrace located in the picturesque Dales village of Giggleswick. Internal viewing highly advised to appreciate the size and quality fixtures and fittings on offer. No onward chain.The property briefly consists of, on the ground floor, a semi open plan living dining kitchen. The two areas are divided by a load bearing wall with a large archway, bringing the rooms together - a great family room that’s perfect for entertaining in. The kitchen features a tile floor with under floor heating, a good selection of contrasting wall and base units with island to centre, quartz worktop and a Belfast sink with Quooker mixer tap that complement the look. Quality integrated Neff appliances include an electric oven with slide and hide door and combination Microwave oven, electric hob with built in fan, fridge, freezer and dishwasher. Off the kitchen, via a glazed door, is the utility room. The room features a terracotta tile floor, fitted base units, complimentary worktop and a sink with mixer tap. Space and plumbing can be found to house a washing machine. It’s a very handy room, offering plenty of storage and features a stable door leading out to the patio garden. The living room has a windows to the front and rear, allowing plenty of natural light, a fitted carpet and a stone fireplace with wood burning stove to centre - a lovely focal point and great for those cooler months. Feature stone steps that later turn carpet lead the way to upstairs. The first floor features two bedrooms, a walk in dressing room with fitted wardrobes and a family bathroom. Both bedrooms face the front of the property, are good size doubles and have fitted carpets. The bathroom comprises a tiled floor, heated towel rail, freestanding bath, his and hers wash hand basins, wc and a frosted window to rear. Up on the second floor is a further double bedroom, shower room and walk in dressing room. The top floor makes for a great master bedroom, with only a small landing separating the adjoining shower room which comprises a tiled floor, heated towel rail, walk in shower, wall hung wash hand basin and wc, along with a velux window. The patio garden is located to the rear. A low maintenance patio garden with raised bed incorporating a seat. There is enough space for further outside seating and plant tubs to provide colour. On street parking can be found nearby.The picturesque Dales village of Giggleswick has its own village Church, two public houses, primary school and Giggleswick Public School. The nearby market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college. Settle ",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "great-views",
+        "far-from-roads"
+      ],
+      "autoTagScores": {
+        "rural": 3,
+        "quiet": 36,
+        "hillside": 98,
+        "large-outdoors": 79,
+        "great-views": 99,
+        "far-from-roads": 81
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2073,21 +2051,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 14,
-        "quiet": 24,
-        "hillside": 86,
-        "large-outdoors": 33,
-        "great-views": 91,
-        "far-from-roads": 56
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed cottage for sale",
@@ -2116,6 +2080,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2153,8 +2118,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A three bedroom detached cottage located in the picturesque Dales village of Giggleswick. The property has been finished to a high standard with quality fixtures and fittings installed. Internal viewing highly recommended.A superb three bedroom detached cottage in the Dales village of Giggleswick. The cottage has been well maintained by the current vendors with the addition of a sun room being added in recent years. The property offers spacious living accommodation, gas central heating, double glazing, off road parking and low maintenance patio garden. Internal viewing highly recommended.The property briefly comprises, on the ground floor, a light and airy sun room with Velux roof windows, mullion windows to front and glazed internal door to dining kitchen. The kitchen has a range of wall and base units, complementary worktop and a 1 1/2 bowl sink with mixer tap. Appliances include an electric aga with induction hob, hotplate and three capacity ovens below. There is also an integrated AEG dishwasher and space for a Hotpoint larder style fridge freezer. Off the kitchen, is a handy utility room with space and plumbing for white goods, along with a wc, wash hand basin and extractor fan. The living room is located at the far end of the cottage and comes with fitted carpets, multi fuel stove, wooden mantel, stone hearth, under stair storage, two windows to front and one window to the rear.Up on the first floor, is the landing which provides access to all three bedrooms and also a boarded out loft via a pull down ladder. Two of the bedrooms are doubles which benefit from having ensuites, whilst the third is a good size single. The master ensuite comprises bath with shower over, wash hand basin, wc and a frosted window to side. The second ensuite comprises a shower, wash hand basin, wc and extractor fan.Externally there is a low maintenance garden with a selection of plants and shrubs, shed, patio seating area and hardstanding for two vehicles to park. Adjacent to the property is a stone outbuilding for storage.The picturesque Dales village of Giggleswick has its own village Church, two public houses, primary school and Giggleswick Public School. The nearby market town of Settle borders the Yorkshire Dales National Park and offers a varied range of amenities including a Market Place with a colourful ‘Tuesday’ market. A railway station on the famous Settle to Carlisle line offers commuter links to Leeds and Bradford. Settle is also well located for commuting to North and West Yorkshire, and the East Lancashire business centres as well as the northern motorway network. Schools include a primary and college. Settle has a medical centre, swimming pool, library, golf club and a wide range of recreational facilities, lovely open countryside is on the doorstep.ServicesMains Gas, Electricity, Water and Drainage are installed. Gas fired central heating & Multi fuel stoveParkingAllocated ParkingTenureFreeholdCouncil TaxBand DFrom the Market Place proceed along Ch",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 4,
+        "quiet": 40,
+        "hillside": 98,
+        "large-outdoors": 60,
+        "great-views": 99,
+        "far-from-roads": 77
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2166,21 +2142,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 20,
-        "quiet": 30,
-        "hillside": 91,
-        "large-outdoors": 77,
-        "great-views": 83,
-        "far-from-roads": 55
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -2209,6 +2171,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2246,8 +2209,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "fullDescription": "A charming traditional cottage enjoying a delightful setting in the centre of the village. Deceptively spacious accommodation with many character features and a quirky layout – This property should appeal to a range of purchasers.This property offers a great deal of charm and character and is likely to impress the discerning buyer. The quirky internal layout offers surprisingly spacious accommodation that has an element of flexibility.Briefly comprising; spacious living room with feature stone fireplace housing a multi-fuel stove and stairs off to split-levels. To the rear of the property is a modern breakfast kitchen fitted with a range of base and wall cupboard units in cream with solid oak work surfaces, gas hob with stainless steel oven below and glass and stainless steel canopy over. There is a useful breakfast bar along with integrated appliances. Stairs from the kitchen lead to a first floor double bedroom. A second staircase from the living room leads to a further double bedroom and house bathroom comprising:- bath with thermostatic shower and screen over, pedestal wash basin with tiled splashback and wc. To the second floor is a useful attic/hobby room with Velux windows and ample eaves storage. The property benefits from gas fired central heating and double-glazed windows.Externally to the front street parking is available, to the rear is a pleasant courtyard garden with shared usage (land unadopted). This impressive home is likely to offer wide market appeal, either as a permanent residence or as a holiday home.The picturesque Dales village of Giggleswick has its own village Church, two public houses, primary school and Giggleswick Public School. There are two local railway stations, both are within approximately 15 minutes walk from the property and which offer connections to the business centres of West Yorkshire and East Coast Line in addition to Lancaster and the main West coast line. The neighbouring market town of Settle offers a wide range of facilities and amenities including a bustling market place with a 'Tuesday' market, railway station on the famous Settle to Carlisle line, schools including primary, high school/college which is in the top 5% in the country for gcse grades. Settle also has a medical centre, swimming pool, gym, library and golf club and other sports facilities. There are also cafes, pubs, restaurants, shops and a post office.ServicesMains electricity, gas, drainage and water are installed. Domestic heating is from a gas fired boiler.ParkingNo allocated parking.TenureFreehold ( Located in a conservation area )Council TaxN/ALeaving the town of Settle via Church Street towards Giggleswick proceed over the river bridge and past Settle College on the left. On reaching the brow of the hill turn left down Belle Hill to the 'T' junction at the bottom. Turn right and the property will be seen on the right. Just before the entrance to the Church grounds. The monthly repayments and interest rates provided are indicativ",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 6,
+        "quiet": 79,
+        "hillside": 97,
+        "large-outdoors": 54,
+        "great-views": 96,
+        "far-from-roads": 55
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2259,21 +2233,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 0,
-        "quiet": 5,
-        "hillside": 100,
-        "large-outdoors": 68,
-        "great-views": 97,
-        "far-from-roads": 29
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed town house for sale",
@@ -2305,6 +2265,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2342,8 +2303,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "fullDescription": "A deceptively spacious three bedroom town house, located in Giggleswick and within easy walking distance of all local amenities. An internal inspection is strongly advised to fully appreciate this excellent property.A three bed semi detached home, in the popular Dales Village of Giggleswick. The property was built in 2012 and comes with living room, fitted kitchen, downstairs cloakroom and house bathroom. Situated on a small development the property benefits from gas central heating and double glazed windows. Internal viewing highly recommended.A well presented stone faced property located in the beautiful village of Giggleswick and within easy walking distance of Settle town centre. Internally from the rear door the property briefly comprises; entrance hall with useful cloak room leading to an L-shaped living room which provides access to the first floor, understairs cupboard and kitchen/diner to the front. The kitchen is fitted with a range of base and wall units with complementary worktops, splash back, stainless steel 1 1⁄2 sink/drainer and numerous built in appliances including gas hob, electric oven, dishwasher and washing machine.To the first floor are three good sized bedrooms together with an attractive house bathroom comprising of a contemporary three piece white suite with shower over bath.Externally the walled rear garden is mainly laid to lawn with a small flagged area and path along with access to the off street parking spaces. To the front of the property is an enclosed patio area.The picturesque Dales village of Giggleswick has its own village Church, two public houses, primary school and Giggleswick Public School. There is also a small railway station on the outskirts of the village which offer connections to the business centres of West Yorkshire and beyond in addition to Lancaster and the main West coast line. The neighbouring town of Settle offers a wide range of facilities and amenities including a bustling market place with a 'Tuesday' market, railway station on the famous Settle to Carlisle line, schools including primary, high school/college. Settle also has a swimming pool, library and golf club and other sports facilities.ServicesMains electricity, water, drainage and gas are installed.ParkingTwo private parking spacesTenureFreeholdLocated within a Conservation areaCouncil TaxBand CInternet and Mobile Coverage Information obtained from the Ofcom website indicates that an internet connection is available from at least one provider. Mobile coverage (outdoors), is also available from at least one of the UKs four leading providers.From Settle proceed along Church Street. Cross over the river bridge, follow the road past the middle and high school. On reaching the brow of the hill, bear off left to Giggleswick turning right at the 'T' junction at the bottom of Belle Hill. Follow the road past the Black Horse public house, Church and village school. Take the next turn left into Raines Road then turn left into Raines Garth. Fol",
-      "nearestTownMiles": 16.1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 2,
+        "quiet": 29,
+        "hillside": 98,
+        "large-outdoors": 61,
+        "great-views": 98,
+        "far-from-roads": 47
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2355,21 +2327,7 @@
         "flightsDiffPct": 216
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 5,
-        "quiet": 9,
-        "hillside": 90,
-        "large-outdoors": 70,
-        "great-views": 88,
-        "far-from-roads": 39
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "3 bed semi-detached for sale",
@@ -2398,6 +2356,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2435,8 +2394,22 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "fullDescription": "A well-presented three bedroom semi-detached home enjoying superb countryside views, generous rear garden and private off street parking to the front.Occupying a delightful position within the highly sought-after village of Long Preston, Greystones is a spacious and attractively appointed three bedroom semi-detached property offering practical living space together with attractive gardens, private driveway parking and far-reaching rural views.The accommodation is described in brief below; A welcoming entrance vestibule, leading into a well-proportioned living room which features an open fireplace. To the rear, the spacious kitchen diner is fitted with a range of wall and base units together with integrated appliances comprising an electric oven, electric hob and integrated fridge and freezer. There is additional space and plumbing for both a washing machine and tumble dryer, whilst the dining area provides ample space for family dining with pleasant views over the rear garden. Off the kitchen is a rear hallway providing access to the understairs cupboard, a useful downstairs W.C. And rear porch.The first floor landing leads to three well-planned bedrooms. There are two generous double bedrooms, both benefiting from fitted wardrobes, together with a good-sized single bedroom ideal for a child’s room, home office or guest accommodation. The house shower room includes a walk-in shower, wash hand basin and W.C.Externally to the front of the property there is a private driveway providing off-road parking together with a low maintenance fore garden. A particular feature of Greystones is the impressive rear garden which enjoys a high degree of privacy together with superb open views across the surrounding countryside. The garden includes a lawned area, raised planting beds and a useful storage shed, creating an excellent outdoor space for both relaxation and gardening enthusiasts.Long Preston is a highly regarded North Yorkshire village offering an excellent range of local amenities including a village shop, public house, church and railway station providing links to Skipton, Leeds and Carlisle. The area is renowned for its beautiful surrounding countryside and excellent access to the Yorkshire Dales National Park.ServicesMains electricity, drainage and gas are installed. Long Preston private water supply. Domestic heating is from a gas fired boiler.ParkingPrivate drivewayTenureFreeholdLocated within the Yorkshire Dales National ParkCouncil TaxBand CFrom Settle town centre proceed southbound on the A65 in the direction of Skipton. Continue for approximately 5 miles into the village of Long Preston. Upon entering the village, the property can be identified on the right hand side by the agent’s 'For Sale' board. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a",
-      "nearestTownMiles": 10.4,
+      "autoTags": [
+        "quiet",
+        "hillside",
+        "large-outdoors",
+        "great-views",
+        "far-from-roads"
+      ],
+      "autoTagScores": {
+        "rural": 65,
+        "quiet": 85,
+        "hillside": 100,
+        "large-outdoors": 99,
+        "great-views": 99,
+        "far-from-roads": 87
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 0,
@@ -2448,35 +2421,18 @@
         "flightsDiffPct": 213
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
-      "autoTags": [
-        "rural",
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
-      "autoTagScores": {
-        "rural": 84,
-        "quiet": 79,
-        "hillside": 100,
-        "large-outdoors": 99,
-        "great-views": 94,
-        "far-from-roads": 93
-      },
-      "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     },
     {
       "title": "2 bed property for sale",
-      "price": 189950,
+      "price": 179950,
       "address": "Station Road, Long Preston, Skipton, North Yorkshire BD23",
       "bedrooms": 2,
       "bathrooms": 1,
       "sqft": 765,
       "type": "Property",
       "description": "A stone faced two bedroom property with parking and easily maintained patio garden in this sought after village of Long ...Listed on 12th Mar 2026",
-      "postedDate": null,
+      "postedDate": "Reduced",
       "agent": null,
       "agentPhone": null,
       "images": [
@@ -2494,6 +2450,7 @@
       "searchLocations": [
         "Settle"
       ],
+      "sourceLocation": "Settle",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2531,8 +2488,19 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "fullDescription": "A stone faced two bedroom property with parking and easily maintained patio garden in this sought after village of Long Preston. No onward chain.An excellent stone faced property with off street parking and patio to the rear. It briefly comprises to the ground floor an entrance porch leading into the spacious sitting room with inset electric fire in surround. To the rear is a kitchen diner fitted with a range of base and wall units with complementary worktops, stainless steel sink unit, under counter space for fridge and washing machine and a free standing electric Smeg cooker. Off the kitchen is a rear porch ideal for coats and boots. To the first floor are two generous bedrooms, with one having fitted wardrobes, together with the bathroom with three piece suite including panelled bath having thermostatic shower over, w.c. And wash basin. Outside to the front of the property is a small fore garden, to the rear is a low maintenance flagged patio and two designated parking spaces. The property benefits from electric storage heaters, double glazing and water from a shared borehole.Long Preston is a very active village community centred around the village hall, other amenities include a primary school, general store, church, pub and a railway station with services operating between Leeds, Carlisle and Lancaster. The market town of Settle is within approximately four miles and offers a wide range of shops and schools catering for all age groups. The larger market town of Skipton is some eleven miles to the south. Both West Yorkshire and East Lancashire business centres are within reasonable commuting distance and there is access to the motorway network at Preston. Part of Long Preston is within the Yorkshire Dales National Park and is surrounded by scenic countryside with immediate access to a variety of walks.ServicesMains electricity and drainage are connected. Private water supply from a shared borehole ( £13 per month ). Domestic heating is from electric storage heaters.ParkingAllocated parking to the rearTenureFreeholdLocated within the Yorkshire Dales National ParkCouncil TaxBand COn entering Long Preston from Settle drive through the village passing the Maypole Inn on your left. After passing the post office on your right, make a right onto Station Road. The property can then be seen on your right, identified by our for sale board. The monthly repayments and interest rates provided are indicative and should be used as a guide only. The actual amount you can borrow and your final rate will depend on your personal financial situation and is subject to a full application. For a more precise estimate, please use the Lloyds mortgage calculator. Your home or property may be repossessed if you do not keep up repayments on your mortgage. Our instant calculator helps you understand how much stamp duty is due on property purchases in England & Northern Ireland. Read the latest stamp duty news This calculation is intended as a guide only. We are unable t",
-      "nearestTownMiles": 10.4,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 26,
+        "quiet": 13,
+        "hillside": 97,
+        "large-outdoors": 9,
+        "great-views": 96,
+        "far-from-roads": 58
+      },
+      "autoTagThreshold": 80,
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 0,
@@ -2544,21 +2512,1124 @@
         "flightsDiffPct": 213
       },
       "isNew": true,
-      "retrievedAt": "2026-07-24T22:31:42.139Z",
+      "retrievedAt": "2026-07-25T14:08:25.752Z",
+      "updated": true,
+      "updatedFields": [
+        "price"
+      ],
+      "previousPrice": 189950
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 250000,
+      "address": "Whelp Street,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A development plot with an occupa……A development plot with anoccupancy restriction…Proposed - Four bedrooms…Proposed - Four bedrooms…Existing footings for outbuildings…Existing footings for outbuildings",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbiprsips260194"
+        }
+      ],
+      "lat": 54.0690631,
+      "lon": -2.2763604,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.18120410052633,
+        "distanceMiles": 28.695660973148147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.43422339807589,
+        "distanceMiles": 18.910943827085813
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.3634575899721,
+        "distanceMiles": 21.352456006138553
+      },
+      "minAirportDistanceMiles": 18.910943827085813,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 5,
+        "quiet": 21,
+        "hillside": 98,
+        "large-outdoors": 47,
+        "great-views": 96,
+        "far-from-roads": 35
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 310000,
+      "address": "Gibraltar - Sir William Jackson Grove,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 80,
+      "type": "Property",
+      "description": "an MonteroSavills Gibraltar+350 200 666 33+350 200 666 33Contact nowFlat / Apartment715.80 sq ft (66.50 sq m)3Bedrooms1Bathrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsss0711812"
+        }
+      ],
+      "lat": 54.0690631,
+      "lon": -2.2763604,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.18120410052633,
+        "distanceMiles": 28.695660973148147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.43422339807589,
+        "distanceMiles": 18.910943827085813
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.3634575899721,
+        "distanceMiles": 21.352456006138553
+      },
+      "minAirportDistanceMiles": 18.910943827085813,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [
         "hillside",
         "great-views"
       ],
       "autoTagScores": {
         "rural": 3,
-        "quiet": 14,
-        "hillside": 95,
-        "large-outdoors": 14,
-        "great-views": 94,
-        "far-from-roads": 63
+        "quiet": 16,
+        "hillside": 94,
+        "large-outdoors": 29,
+        "great-views": 86,
+        "far-from-roads": 57
       },
       "autoTagThreshold": 80,
-      "sourceLocation": "Settle"
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 299000,
+      "address": "Gibraltar - Marina Bay,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 83,
+      "type": "Property",
+      "description": "a Bay…Ocean Village645.83 sq ft(60 sq m)Guide price £299,000(€349,784)Private Parking…Private Parking…Fully Furnished…Fully Furnished…Communal pool…Communal pool…Good condition…Good condition…Aidan Mont",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsssmb29"
+        }
+      ],
+      "lat": 54.0690631,
+      "lon": -2.2763604,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.18120410052633,
+        "distanceMiles": 28.695660973148147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.43422339807589,
+        "distanceMiles": 18.910943827085813
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.3634575899721,
+        "distanceMiles": 21.352456006138553
+      },
+      "minAirportDistanceMiles": 18.910943827085813,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 8,
+        "quiet": 13,
+        "hillside": 100,
+        "large-outdoors": 86,
+        "great-views": 98,
+        "far-from-roads": 43
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 325000,
+      "address": "Hermitage Place, Bath Road,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 847,
+      "type": "Property",
+      "description": "a Homes…Selection of newly built and beautif……Selection of newly built andbeautifully refurbished homes…Landscaped communal gardens wit……Landscaped communal gardenswith direct private gated access to……B",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsurdsnd250078"
+        }
+      ],
+      "lat": 54.0690631,
+      "lon": -2.2763604,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.18120410052633,
+        "distanceMiles": 28.695660973148147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.43422339807589,
+        "distanceMiles": 18.910943827085813
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.3634575899721,
+        "distanceMiles": 21.352456006138553
+      },
+      "minAirportDistanceMiles": 18.910943827085813,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [
+        "hillside",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 2,
+        "quiet": 2,
+        "hillside": 99,
+        "large-outdoors": 54,
+        "great-views": 95,
+        "far-from-roads": 37
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 185000,
+      "address": "Greengate,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 463,
+      "type": "Property",
+      "description": "an GriffinManchester+44 (0)161 711 0990+44 (0)161 711 0990Contact nowFlat / Apartment463 sq ft (43.01 sq m)1Bedrooms1Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbmgrsmns250124"
+        }
+      ],
+      "lat": 53.6349772,
+      "lon": -2.1246196,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.36981916174358,
+        "distanceMiles": 20.73503790235177
+      },
+      "nearestAirstrip": {
+        "name": "Middlebank Top Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.103865141349578,
+        "distanceMiles": 8.142361786745528
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 29.507989131500604,
+        "distanceMiles": 18.33540871462966
+      },
+      "minAirportDistanceMiles": 8.142361786745528,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 276.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 276.2,
+        "flightsDiffPct": 227
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 295000,
+      "address": "Northwood Street,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 699,
+      "type": "Property",
+      "description": "two bedroom……Flat 40 - South facing two bedroomduplex apartment…Primary bedroom with French doors……Primary bedroom with French doorsleading to balcony…Development rich in heritage & char……Development rich",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbmrdbrx250521"
+        }
+      ],
+      "lat": 52.4852649,
+      "lon": -1.9093057,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Birmingham Airport",
+        "icao": "EGBB",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 11.467727099743609,
+        "distanceMiles": 7.125713055694786
+      },
+      "nearestAirstrip": {
+        "name": "Woods Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 11.243573144669979,
+        "distanceMiles": 6.986430288476729
+      },
+      "nearestHeliport": {
+        "name": "Queen Elizabeth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.3383113915154015,
+        "distanceMiles": 2.6957008876573165
+      },
+      "minAirportDistanceMiles": 2.6957008876573165,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 350.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 350.2,
+        "flightsDiffPct": 315
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 350000,
+      "address": "Ontario Tower,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 590,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcwrsclv265943"
+        }
+      ],
+      "lat": 51.5068026,
+      "lon": -0.0046094,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 4.14825409280226,
+        "distanceMiles": 2.577604793898633
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.41649740533111,
+        "distanceMiles": 10.200735409247997
+      },
+      "nearestHeliport": {
+        "name": "Vanguard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.3024710678511697,
+        "distanceMiles": 1.430688749901749
+      },
+      "minAirportDistanceMiles": 1.430688749901749,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 147.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 147.1,
+        "flightsDiffPct": 74
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 300000,
+      "address": "Chelmsford Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1065,
+      "type": "Property",
+      "description": "two houses - U……Planning granted for two houses -UTT/25/2100/FUL…Cleared site in a semi rural location…Cleared site in a semi rural location…Each house about 1065 sqft (99sqm……Each house about 1065 sqft(9",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbchrschs260153"
+        }
+      ],
+      "lat": 51.5989158,
+      "lon": 0.0166597,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 10.746704495935806,
+        "distanceMiles": 6.677690519344128
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.104948124677939,
+        "distanceMiles": 3.793437721179256
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.397255407044751,
+        "distanceMiles": 6.460552989530804
+      },
+      "minAirportDistanceMiles": 3.793437721179256,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 207.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 207.7,
+        "flightsDiffPct": 146
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 252.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 252.2,
+        "flightsDiffPct": 199
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 54.0690631,
+      "lon": -2.2763604,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.18120410052633,
+        "distanceMiles": 28.695660973148147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.43422339807589,
+        "distanceMiles": 18.910943827085813
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.3634575899721,
+        "distanceMiles": 21.352456006138553
+      },
+      "minAirportDistanceMiles": 18.910943827085813,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "hillside",
+        "large-outdoors",
+        "great-views"
+      ],
+      "autoTagScores": {
+        "rural": 8,
+        "quiet": 33,
+        "hillside": 99,
+        "large-outdoors": 93,
+        "great-views": 94,
+        "far-from-roads": 59
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 54.0690631,
+      "lon": -2.2763604,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.18120410052633,
+        "distanceMiles": 28.695660973148147
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.43422339807589,
+        "distanceMiles": 18.910943827085813
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.3634575899721,
+        "distanceMiles": 21.352456006138553
+      },
+      "minAirportDistanceMiles": 18.910943827085813,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [
+        "rural",
+        "quiet",
+        "hillside",
+        "large-outdoors",
+        "great-views",
+        "far-from-roads"
+      ],
+      "autoTagScores": {
+        "rural": 80,
+        "quiet": 81,
+        "hillside": 99,
+        "large-outdoors": 88,
+        "great-views": 99,
+        "far-from-roads": 86
+      },
+      "autoTagThreshold": 80,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1050000,
+      "address": "Aldwick Avenue, Aldwick, Bognor Regis, West Sussex, PO21",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47945/8319/450x_/CHI260067_02.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21965372/sales/chichester"
+        }
+      ],
+      "lat": 50.78517861037041,
+      "lon": -0.699575658518519,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 28.821097316081435,
+        "distanceMiles": 17.908594060390836
+      },
+      "nearestAirstrip": {
+        "name": "Bognor Regis Lec Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.5081444069375354,
+        "distanceMiles": 2.179859198283183
+      },
+      "nearestHeliport": {
+        "name": "Avisford Park Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.266488468403939,
+        "distanceMiles": 5.757927206100624
+      },
+      "minAirportDistanceMiles": 2.179859198283183,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 532.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -2,
+        "flightsPerDay": 532.3,
+        "flightsDiffPct": 531
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2311407,
+      "lon": -2.3028105,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 13.237875919087834,
+        "distanceMiles": 8.225632197719527
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.249136051807922,
+        "distanceMiles": 2.6402899176479404
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.509893417265335,
+        "distanceMiles": 10.880139982579578
+      },
+      "minAirportDistanceMiles": 2.6402899176479404,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 297.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 297.8,
+        "flightsDiffPct": 253
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     }
   ],
   "portalLinks": [
@@ -2597,14 +3668,5 @@
       "url": "https://www.winkworth.co.uk/properties?search_location=BD24%209EJ&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Settle"
     }
-  ],
-  "dupePassAt": "2026-07-24T22:46:09.383Z",
-  "rescoredAt": "2026-07-24T22:48:07.202Z",
-  "effectiveRecommendConfig": {
-    "minTown": 5,
-    "minAirport": 5,
-    "minHelipad": 5
-  },
-  "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:51:33.569Z"
+  ]
 }
