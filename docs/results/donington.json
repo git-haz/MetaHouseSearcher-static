@@ -1,8 +1,8 @@
 {
   "location": "Donington",
   "slug": "donington",
-  "generatedAt": "2026-07-23T10:46:31.539Z",
-  "count": 41,
+  "generatedAt": "2026-07-25T13:25:29.633Z",
+  "count": 71,
   "properties": [
     {
       "title": "undefined",
@@ -35,6 +35,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "area",
       "nearestAirport": {
@@ -72,6 +73,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 2,
@@ -83,11 +86,7 @@
         "flightsDiffPct": 153
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 8.4,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -120,6 +119,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -157,6 +157,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 0,
@@ -168,11 +170,7 @@
         "flightsDiffPct": 152
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 6.7,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -205,6 +203,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -242,6 +241,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -253,11 +254,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -290,6 +287,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "area",
       "nearestAirport": {
@@ -327,6 +325,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 2,
@@ -338,11 +338,7 @@
         "flightsDiffPct": 153
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 8.4,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -375,7 +371,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Coningsby",
@@ -412,6 +409,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 0,
@@ -423,11 +422,7 @@
         "flightsDiffPct": 152
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 6.9,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -460,7 +455,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Coningsby",
@@ -497,6 +493,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -508,12 +506,7 @@
         "flightsDiffPct": 153
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 6.7,
-      "fullDescription": "This very spacious four bedroom detached bungalow located within the village of Quadring offers the ideal location for nearby villages and towns as well as providing easy reach for local/nearby primary and secondary schools. This wonderful and versatile space offers approx 2304sqft of property and benefits from porch with entrance to a large hallway, the left hand side of the property offers a very generous lounge and dining area which offers plenty of light from the bay window and patio doors, the recently updated Kitchen has some integrated appliances with the addition of a plinth heater and separate breakfast room, Utility area and WC. To the right side of the bungalow there are four double bedrooms and a sizeable four piece bathroom suite. Outside to the rear, the enclosed garden can be easily maintained, with flower boarder and lawn area as well as a patio area for enjoying the sunshine. There is personnel door access to the double garage/workshop area. To the front the property is accessed via a shared driveway and provides further lawn area and ample off road parking.",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -546,6 +539,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "address",
       "nearestAirport": {
@@ -583,6 +577,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -594,11 +590,7 @@
         "flightsDiffPct": 151
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 7.8,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -631,7 +623,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "address",
       "nearestAirport": {
         "name": "RAF Coningsby",
@@ -668,6 +661,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -679,11 +674,7 @@
         "flightsDiffPct": 152
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 8.4,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -716,6 +707,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "area",
       "nearestAirport": {
@@ -753,6 +745,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 2,
@@ -764,11 +758,7 @@
         "flightsDiffPct": 153
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 8.4,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -801,6 +791,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -838,6 +829,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -849,11 +842,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -886,6 +875,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -923,6 +913,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -934,11 +926,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -971,6 +959,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1008,6 +997,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1019,11 +1010,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -1056,6 +1043,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1093,6 +1081,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1104,11 +1094,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -1141,6 +1127,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1178,6 +1165,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1189,11 +1178,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -1226,6 +1211,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1263,6 +1249,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1274,11 +1262,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "undefined",
@@ -1311,6 +1295,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1348,6 +1333,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1359,11 +1346,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1395,6 +1378,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1432,6 +1416,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1443,11 +1429,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "4 bed detached house for sale",
@@ -1476,7 +1458,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Wittering",
@@ -1513,6 +1496,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1524,11 +1509,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "2 bed bungalow for sale",
@@ -1557,7 +1538,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Wittering",
@@ -1594,6 +1576,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1605,11 +1589,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1641,6 +1621,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1678,6 +1659,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1689,11 +1672,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "6 bed detached for sale",
@@ -1722,6 +1701,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "area",
       "nearestAirport": {
@@ -1759,6 +1739,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 2,
@@ -1770,12 +1752,7 @@
         "flightsDiffPct": 153
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 8.4,
-      "fullDescription": "Spacious detached 1920s chalet bungalow offering over 2,000 sqft of versatile family accommodation full of character and charm. Sought-after village location in Donington, within walking distance of the secondary school and local amenities. Welcoming family lounge with open fireplace, separate dining room overlooking the gardens, and a traditional breakfast kitchen with pantry and excellent storage. Four generously sized ground floor bedrooms, including a guest bedroom with en-suite, alongside a family bathroom. Hidden staircase leading to two additional double bedrooms, formerly used as the maid's quarters, adding unique historical charm. Mature wrap-around gardens set on approximately 0.22 acres, featuring established trees, shrubs, planting and a patio seating area ideal for outdoor enjoyment. This wonderfully spacious detached chalet bungalow offers in excess of 2,000sqft of versatile accommodation and is bursting with character and charm. Originally built in the 1920s, the property retains many authentic features including high ceilings and generous proportions throughout, creating a warm and inviting family home. Ideally situated within the sought-after village of Donington, the property is conveniently located within walking distance of the secondary school and a range of local amenities.The accommodation briefly comprises an entrance hallway leading to a welcoming family lounge featuring an open fireplace, alongside a separate dining room which enjoys lovely views over the garden and provides the perfect space for entertaining. The traditional breakfast kitchen offers a wealth of storage, a useful walk-in pantry and further access through to the utility area. There are four well-proportioned ground floor bedrooms, including a guest bedroom benefitting from its own en-suite, together with a family bathroom. A hidden staircase leads to two further double bedrooms, historically used as the maid's quarters, adding further charm and versatility to the home.Externally, the property occupies a mature plot of approximately 0.22 acres, with established gardens wrapping around the home and featuring an array of plants, trees and shrubs, creating several private areas to relax and enjoy. A patio seating area provides the ideal spot for morning coffee or outdoor entertaining, whilst a generous driveway offers ample off-road parking and leads to a triple garage.Early viewing is highly recommended to appreciate the size, character and fantastic village location this unique family home has to offer.Entrance Hall3.96m x 2.16m - 12'12” x 7'1”Lounge5.4m x 4m - 17'9” x 13'1”Dining Room5.37m x 4.27m - 17'7” x 14'0”Kitchen/Dining Room3.95m x 4.3m - 12'12” x 14'1”Pantry1.84m x 2.49m - 6'0” x 8'2”PorchUtility2.15m x 2.79m - 7'1” x 9'2”Bedroom 13.47m x 2.62m - 11'5” x 8'7”Dressing Room2.4m x 1.91m - 7'10” x 6'3”En-Suite Shower RoomBedroom 23.92m x 4.54m - 12'10” x 14'11”Bedroom 33.96m x 3.7m - 12'12” x 12'2”Bedroom 43.51m x 3.71m - 11'6” x 12'2”Bathroom2.41m x 2",
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "2 bed detached for sale",
@@ -1804,6 +1781,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1841,6 +1819,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1852,11 +1832,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1885,6 +1861,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -1922,6 +1899,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -1933,11 +1912,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1966,6 +1941,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2003,6 +1979,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2014,11 +1992,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "2 bed detached for sale",
@@ -2047,6 +2021,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2084,6 +2059,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2095,11 +2072,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -2131,6 +2104,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2168,6 +2142,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2179,11 +2155,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "4 bed detached for sale",
@@ -2212,6 +2184,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2249,6 +2222,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2260,11 +2235,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -2293,6 +2264,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2330,6 +2302,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2341,11 +2315,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -2374,6 +2344,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2411,6 +2382,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2422,11 +2395,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2455,6 +2424,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2492,6 +2462,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2503,11 +2475,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2536,6 +2504,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2573,6 +2542,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2584,11 +2555,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "4 bed property for sale",
@@ -2617,7 +2584,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Wittering",
@@ -2654,6 +2622,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2665,11 +2635,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "4 bed detached for sale",
@@ -2701,6 +2667,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2738,6 +2705,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2749,11 +2718,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed semi-detached house for sale",
@@ -2782,6 +2747,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2819,6 +2785,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2830,11 +2798,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2863,87 +2827,7 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Wittering",
-        "icao": "EGXT",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 30.04366865795531,
-        "distanceMiles": 18.668264437662348
-      },
-      "nearestAirstrip": {
-        "name": "Cowbit Airstrip",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 5.850688012104972,
-        "distanceMiles": 3.6354478607696787
-      },
-      "nearestHeliport": {
-        "name": "RAF Molesworth",
-        "icao": null,
-        "category": "heliport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 49.89627940736731,
-        "distanceMiles": 31.004101031635233
-      },
-      "minAirportDistanceMiles": 3.6354478607696787,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 215,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "baselineComparison": {
-        "airportsCount": 3,
-        "airstripsCount": 1,
-        "helipadsCount": 0,
-        "airportsDiff": -1,
-        "airstripsDiff": 1,
-        "helipadsDiff": -4,
-        "flightsPerDay": 215,
-        "flightsDiffPct": 155
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
-    },
-    {
-      "title": "2 bed semi-detached for sale",
-      "price": 175000,
-      "address": "Canterbury Mews, Donington, Spalding PE11",
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "semi-detached",
-      "description": "with no chain. Lounge & kitchen diner. ...Listed on 9th Jul 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/7d4ee348384c86d1d747beccb83b408a147ba9f2.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73672604/"
-        }
-      ],
-      "lat": 52.807231337527746,
-      "lon": -0.1671289666913395,
-      "searchLocation": "Donington",
-      "searchLocations": [
-        "Donington"
-      ],
+      "sourceLocation": "Donington",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -2981,6 +2865,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -2992,11 +2878,87 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "2 bed semi-detached for sale",
+      "price": 175000,
+      "address": "Canterbury Mews, Donington, Spalding PE11",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "semi-detached",
+      "description": "with no chain. Lounge & kitchen diner. ...Listed on 9th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/7d4ee348384c86d1d747beccb83b408a147ba9f2.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73672604/"
+        }
+      ],
+      "lat": 52.807231337527746,
+      "lon": -0.1671289666913395,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Wittering",
+        "icao": "EGXT",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 30.04366865795531,
+        "distanceMiles": 18.668264437662348
+      },
+      "nearestAirstrip": {
+        "name": "Cowbit Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.850688012104972,
+        "distanceMiles": 3.6354478607696787
+      },
+      "nearestHeliport": {
+        "name": "RAF Molesworth",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 49.89627940736731,
+        "distanceMiles": 31.004101031635233
+      },
+      "minAirportDistanceMiles": 3.6354478607696787,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 215,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [],
       "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 215,
+        "flightsDiffPct": 155
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "2 bed semi-detached for sale",
@@ -3025,6 +2987,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -3062,6 +3025,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -3073,11 +3038,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "5 bed detached for sale",
@@ -3106,6 +3067,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -3143,6 +3105,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -3154,11 +3118,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "4 bed property for sale",
@@ -3187,6 +3147,7 @@
       "searchLocations": [
         "Donington"
       ],
+      "sourceLocation": "Donington",
       "autoRejected": false,
       "geoAccuracy": "postcode",
       "nearestAirport": {
@@ -3224,6 +3185,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -3235,11 +3198,7 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
-      "autoTags": [],
-      "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -3268,7 +3227,8 @@
       "searchLocations": [
         "Donington"
       ],
-      "autoRejected": false,
+      "sourceLocation": "Donington",
+      "autoRejected": true,
       "geoAccuracy": "postcode",
       "nearestAirport": {
         "name": "RAF Wittering",
@@ -3305,6 +3265,8 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 3,
         "airstripsCount": 1,
@@ -3316,11 +3278,2407 @@
         "flightsDiffPct": 155
       },
       "isNew": true,
-      "retrievedAt": "2026-07-23T10:46:31.539Z",
-      "nearestTownMiles": 1.5,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "2 bed semi-detached for sale",
+      "price": 43750,
+      "address": "Arnhem Way, Donington, Spalding PE11",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "semi-detached",
+      "description": "A 25% shared ownership. Lounge & kitchen. Family bathroom & downstairs ...Listed on 26th Dec 2025",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/9618ff2f897d7a5d28880e3812c448edde9e6b2b.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72064465/"
+        }
+      ],
+      "lat": 52.807231337527746,
+      "lon": -0.1671289666913395,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Wittering",
+        "icao": "EGXT",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 30.04366865795531,
+        "distanceMiles": 18.668264437662348
+      },
+      "nearestAirstrip": {
+        "name": "Cowbit Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.850688012104972,
+        "distanceMiles": 3.6354478607696787
+      },
+      "nearestHeliport": {
+        "name": "RAF Molesworth",
+        "icao": null,
+        "category": "heliport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 49.89627940736731,
+        "distanceMiles": 31.004101031635233
+      },
+      "minAirportDistanceMiles": 3.6354478607696787,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 215,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
       "autoTags": [],
       "autoTagScores": {},
-      "sourceLocation": "Donington"
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 215,
+        "flightsDiffPct": 155
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 250000,
+      "address": "Whelp Street,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A development plot with an occupancy rest……A development plot with an occupancyrestriction…Proposed - Four bedrooms…Proposed - Four bedrooms…Existing footings for outbuildings…Existing footings for outb",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbiprsips260194"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 310000,
+      "address": "Gibraltar - Sir William Jackson Grove,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 80,
+      "type": "Property",
+      "description": "an MonteroSavills Gibraltar+350 200 666 33+350 200 666 33Contact nowFlat / Apartment715.80 sq ft (66.50 sq m)3Bedrooms1Bathrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsss0711812"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 299000,
+      "address": "Gibraltar - Marina Bay,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 83,
+      "type": "Property",
+      "description": "a Bay…Ocean Village645.83 sq ft(60 sq m)Guide price £299,000(€349,784)Private Parking…Private Parking…Fully Furnished…Fully Furnished…Communal pool…Communal pool…Good condition…Good condition…Aidan Mont",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsssmb29"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 325000,
+      "address": "Hermitage Place, Bath Road,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 847,
+      "type": "Property",
+      "description": "a Homes…Selection of newly built and beautifully refu……Selection of newly built and beautifullyrefurbished homes…Landscaped communal gardens with direct……Landscaped communal gardens with directprivate g",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsurdsnd250078"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 185000,
+      "address": "Greengate,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 463,
+      "type": "Property",
+      "description": "an GriffinManchester+44 (0)161 711 0990+44 (0)161 711 0990Contact nowFlat / Apartment463 sq ft (43.01 sq m)1Bedrooms1Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbmgrsmns250124"
+        }
+      ],
+      "lat": 53.6349772,
+      "lon": -2.1246196,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 33.36981916174358,
+        "distanceMiles": 20.73503790235177
+      },
+      "nearestAirstrip": {
+        "name": "Middlebank Top Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.103865141349578,
+        "distanceMiles": 8.142361786745528
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 29.507989131500604,
+        "distanceMiles": 18.33540871462966
+      },
+      "minAirportDistanceMiles": 8.142361786745528,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 276.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 276.2,
+        "flightsDiffPct": 227
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 295000,
+      "address": "Northwood Street,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 699,
+      "type": "Property",
+      "description": "two bedroom duplex ……Flat 40 - South facing two bedroom duplexapartment…Primary bedroom with French doors leadin……Primary bedroom with French doorsleading to balcony…Development rich in heritage & charact",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbmrdbrx250521"
+        }
+      ],
+      "lat": 52.4852649,
+      "lon": -1.9093057,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Birmingham Airport",
+        "icao": "EGBB",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 11.467727099743609,
+        "distanceMiles": 7.125713055694786
+      },
+      "nearestAirstrip": {
+        "name": "Woods Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 11.243573144669979,
+        "distanceMiles": 6.986430288476729
+      },
+      "nearestHeliport": {
+        "name": "Queen Elizabeth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.3383113915154015,
+        "distanceMiles": 2.6957008876573165
+      },
+      "minAirportDistanceMiles": 2.6957008876573165,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 350.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 350.2,
+        "flightsDiffPct": 315
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 350000,
+      "address": "Ontario Tower,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 590,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcwrsclv265943"
+        }
+      ],
+      "lat": 51.5068026,
+      "lon": -0.0046094,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 4.14825409280226,
+        "distanceMiles": 2.577604793898633
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.41649740533111,
+        "distanceMiles": 10.200735409247997
+      },
+      "nearestHeliport": {
+        "name": "Vanguard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.3024710678511697,
+        "distanceMiles": 1.430688749901749
+      },
+      "minAirportDistanceMiles": 1.430688749901749,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 147.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 147.1,
+        "flightsDiffPct": 74
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 300000,
+      "address": "Chelmsford Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1065,
+      "type": "Property",
+      "description": "two houses - UTT/25/……Planning granted for two houses -UTT/25/2100/FUL…Cleared site in a semi rural location…Cleared site in a semi rural location…Each house about 1065 sqft (99sqm)…Each house about 1065",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbchrschs260153"
+        }
+      ],
+      "lat": 51.5989158,
+      "lon": 0.0166597,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 10.746704495935806,
+        "distanceMiles": 6.677690519344128
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.104948124677939,
+        "distanceMiles": 3.793437721179256
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.397255407044751,
+        "distanceMiles": 6.460552989530804
+      },
+      "minAirportDistanceMiles": 3.793437721179256,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 207.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 207.7,
+        "flightsDiffPct": 146
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1250000,
+      "address": "Gedges Hill,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 2228,
+      "type": "Property",
+      "description": "Spacious layout with four bedrooms and two bath/shower rooms and generous reception space…Spacious layout with four bedrooms and two bath/shower rooms and generous reception space…Set in beautiful established",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtwrstus250233"
+        }
+      ],
+      "lat": 51.1635749,
+      "lon": 0.3806156,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Biggin Hill Airport",
+        "icao": "EGKB",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 30.542625034884576,
+        "distanceMiles": 18.978301460551265
+      },
+      "nearestAirstrip": {
+        "name": "Old Hay Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.5632104931953257,
+        "distanceMiles": 2.214075667367273
+      },
+      "nearestHeliport": {
+        "name": "Tunbridge Wells Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.319190357687031,
+        "distanceMiles": 3.305190631746348
+      },
+      "minAirportDistanceMiles": 2.214075667367273,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 410.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -2,
+        "flightsPerDay": 410.8,
+        "flightsDiffPct": 387
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 475000,
+      "address": "Willow House,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2822,
+      "type": "Property",
+      "description": "Two well-proportioned reception rooms, providing ample space in which to relax…Two well-proportioned reception rooms, providing ample space in which to relax…Open-plan kitchen and dining room with stylish",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gblnscclv751405"
+        }
+      ],
+      "lat": 53.3207551,
+      "lon": 0.2068374,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 35.46753730421096,
+        "distanceMiles": 22.038499122254866
+      },
+      "nearestAirstrip": {
+        "name": "Strubby Airfield",
+        "icao": "EGCG",
+        "category": "airstrip",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 2.496916195362932,
+        "distanceMiles": 1.5515113132288605
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 98.54496602528141,
+        "distanceMiles": 61.232984084095136
+      },
+      "minAirportDistanceMiles": 1.5515113132288605,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 175.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 175.6,
+        "flightsDiffPct": 108
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1750000,
+      "address": "The Ridgeway,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2667,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcorscbs190119"
+        }
+      ],
+      "lat": 51.6677779,
+      "lon": -0.1109682,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 21.408708698975737,
+        "distanceMiles": 13.302750732991253
+      },
+      "nearestAirstrip": {
+        "name": "Dysons Osiers Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.394837381013602,
+        "distanceMiles": 2.109453498277803
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.061019687365306,
+        "distanceMiles": 10.601222864157867
+      },
+      "minAirportDistanceMiles": 2.109453498277803,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 312.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 312.4,
+        "flightsDiffPct": 270
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 423132,
+      "address": "Piazza Francia,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 501261335,
+      "type": "Property",
+      "description": "a Francia…Florence, Italy, 501261,335 sq ft(124.03 sq m)Asking price €495,000(£423,132)Sold in July 2026…Sold in July 2026…Quiet and well connected residential area…Quiet and well connected residential",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbflssroe260022"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1225000,
+      "address": "Fellowes Rise,",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 1748,
+      "type": "Property",
+      "description": "two vehicles…Secure garage parking for two vehicles…Roof terrace with outstanding views…Roof terrace with outstanding views…Sunroom…Sunroom…Robert TottleWinchester+44 (0) 1962 841 842+44 (0) 1962 841 842C",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwnrswns250477"
+        }
+      ],
+      "lat": 51.0634957,
+      "lon": -1.3252011,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Southampton Airport",
+        "icao": "EGHI",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.77970181436037,
+        "distanceMiles": 7.940936096090918
+      },
+      "nearestAirstrip": {
+        "name": "South Longwood Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.545141410219944,
+        "distanceMiles": 4.066961063209777
+      },
+      "nearestHeliport": {
+        "name": "Lainston House Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.6640781554729216,
+        "distanceMiles": 2.276751907544365
+      },
+      "minAirportDistanceMiles": 2.276751907544365,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 528.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 3,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -1,
+        "flightsPerDay": 528.3,
+        "flightsDiffPct": 526
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1295000,
+      "address": "Pentney Road,",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1413,
+      "type": "Property",
+      "description": "a including Henry Cavendish…Good selection of schools in the area including Henry Cavendish…Superb garden…Superb garden…Four bedrooms…Four bedrooms…Helen HammondClapham+44 (0) 20 8673 4111+44 (0) 20 867",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcmrscps260095"
+        }
+      ],
+      "lat": 51.4431318,
+      "lon": -0.1420517,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.315719260881714,
+        "distanceMiles": 9.516743792853331
+      },
+      "nearestAirstrip": {
+        "name": "Kenley Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.642555627330708,
+        "distanceMiles": 9.71983043271011
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 3.9520448705731503,
+        "distanceMiles": 2.455686073272909
+      },
+      "minAirportDistanceMiles": 2.455686073272909,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 207.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 207.7,
+        "flightsDiffPct": 146
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 955000,
+      "address": "Pecketts Close,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2550,
+      "type": "Property",
+      "description": "Spacious five-bedroom family residence with three contemporary bathrooms…Spacious five-bedroom family residence with three contemporary bathrooms…Impeccably presented, high-quality modern home finished to an e",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbyorscli246668"
+        }
+      ],
+      "lat": 54.0889263,
+      "lon": -0.995834,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Topcliffe",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 28.12341754406659,
+        "distanceMiles": 17.4750760827742
+      },
+      "nearestAirstrip": {
+        "name": "Lodge Field House Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 12.572040713065238,
+        "distanceMiles": 7.81190150991806
+      },
+      "nearestHeliport": {
+        "name": "Yorkshire Air Museum Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 18.190049877054825,
+        "distanceMiles": 11.302769482155433
+      },
+      "minAirportDistanceMiles": 7.81190150991806,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 235.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 235.4,
+        "flightsDiffPct": 179
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1100000,
+      "address": "Hobgate,",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "sqft": 2425,
+      "type": "Property",
+      "description": "a superb principal suite…Five bedrooms including a superb principal suite…Versatile living accommodation with multiple reception rooms…Versatile living accommodation with multiple reception rooms…Tanya",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbyorsyos260055"
+        }
+      ],
+      "lat": 53.9539871,
+      "lon": -1.1185636,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds East Airport",
+        "icao": "EGCM",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 14.165872231757893,
+        "distanceMiles": 8.802262194519633
+      },
+      "nearestAirstrip": {
+        "name": "Rufforth East Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.6914491145588966,
+        "distanceMiles": 2.293759427762576
+      },
+      "nearestHeliport": {
+        "name": "Yorkshire Air Museum Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.39926912967484,
+        "distanceMiles": 6.461804258375185
+      },
+      "minAirportDistanceMiles": 2.293759427762576,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 240.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -3,
+        "flightsPerDay": 240.3,
+        "flightsDiffPct": 185
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 950000,
+      "address": "Santos Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1409,
+      "type": "Property",
+      "description": "a HeardPutney+44 (0) 20 8780 9900+44 (0) 20 8780 9900Contact nowCharles TalbuttPutney+44 (0) 20 8780 9900+44 (0) 20 8780 9900Contact nowFlat / Apartment1,409 sq ft (130.90 sq m)3Bedrooms2Bathrooms3Recep",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbpursclv259398"
+        }
+      ],
+      "lat": 51.4582902,
+      "lon": -0.2010209,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Heathrow Airport",
+        "icao": "EGLL",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 17.98771262437933,
+        "distanceMiles": 11.17704298112321
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.670682130007519,
+        "distanceMiles": 9.737307425804902
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 1.9715784257593827,
+        "distanceMiles": 1.2250816579925334
+      },
+      "minAirportDistanceMiles": 1.2250816579925334,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 260.5,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 5,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 1,
+        "flightsPerDay": 260.5,
+        "flightsDiffPct": 209
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 418858,
+      "address": "Via Aldo Ballarin,",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1421711,
+      "type": "Property",
+      "description": "a Aldo Ballarin…Rome, 001421,711 sq ft(158.96 sq m)Asking price €490,000(£418,858)Sold in July 2026…Sold in July 2026…Contemporary layout and designer interiors…Contemporary layout and designer interior",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250173"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 235074,
+      "address": "Via Mario de Renzi,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1631119,
+      "type": "Property",
+      "description": "a Mario de Renzi…Rome, Italy, 001631,119 sq ft(103.96 sq m)Asking price €275,000(£235,074)Sold in July 2026…Sold in July 2026…Spacious living room with dining and relaxation areas opening onto a balcony",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250234"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 252170,
+      "address": "Via dei Lincei,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 147710,
+      "type": "Property",
+      "description": "a dei Lincei…Rome, Italy, 00147710 sq ft(65.96 sq m)Asking price €295,000(£252,170)Sold in July 2026…Sold in July 2026…Bright living room with large windows…Bright living room with large windows…Modern",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe260007"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 2850000,
+      "address": "Grange Road,",
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "sqft": 3601,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcsrscis220103"
+        }
+      ],
+      "lat": 52.2083011,
+      "lon": 0.1062003,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cambridge City Airport",
+        "icao": "EGSC",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 4.702476516597532,
+        "distanceMiles": 2.921982535594725
+      },
+      "nearestAirstrip": {
+        "name": "Little Shelford Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.610185975875144,
+        "distanceMiles": 5.350119870015514
+      },
+      "nearestHeliport": {
+        "name": "Addenbrooke's Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.754284680879752,
+        "distanceMiles": 2.9541746264429323
+      },
+      "minAirportDistanceMiles": 2.921982535594725,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 296.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 3,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -1,
+        "flightsPerDay": 296.9,
+        "flightsDiffPct": 252
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1250000,
+      "address": "Tredova Crescent,",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2262,
+      "type": "Property",
+      "description": "a Crescent…Falmouth, Cornwall, TR11 4EQ2,262 sq ft(210.15 sq m)Guide price £1,250,000Sold in July 2026…Sold in July 2026…Sea & Coastal Views…Sea & Coastal Views…Close to Gyllyngvase Beach and Maenporth",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbtrrstrs240194"
+        }
+      ],
+      "lat": 50.1435588,
+      "lon": -5.0729828,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RNAS Culdrose",
+        "icao": null,
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.511296404308178,
+        "distanceMiles": 9.016898758041377
+      },
+      "nearestAirstrip": {
+        "name": "Bonnallack Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.521158845868737,
+        "distanceMiles": 5.916171993216302
+      },
+      "nearestHeliport": {
+        "name": "Penzance Heliport",
+        "icao": "EGHK",
+        "category": "heliport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 31.461960952374522,
+        "distanceMiles": 19.54955013893791
+      },
+      "minAirportDistanceMiles": 5.916171993216302,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 355.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 355.6,
+        "flightsDiffPct": 321
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 1250000,
+      "address": "bury Road,",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 3635,
+      "type": "Property",
+      "description": "Beautiful grounds…Beautiful grounds…Claire DwyerNewbury+44 (0) 1635 277 700+44 (0) 1635 277 700Contact nowHouse3,635 sq ft (337.70 sq m)5Bedrooms2Bathrooms3Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwbrsnes090102"
+        }
+      ],
+      "lat": 51.6386046,
+      "lon": 0.0127322,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.111731071102943,
+        "distanceMiles": 9.389991447382307
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.7191539439090753,
+        "distanceMiles": 1.068232405280726
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.295470944132237,
+        "distanceMiles": 8.882791076026393
+      },
+      "minAirportDistanceMiles": 1.068232405280726,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 253.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 4,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": 0,
+        "flightsPerDay": 253.9,
+        "flightsDiffPct": 201
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 299185,
+      "address": "Via Adolfo Consolini,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1421453,
+      "type": "Property",
+      "description": "a Adolfo Consolini…Rome, Italy, 001421,453 sq ft(134.99 sq m)Asking price €350,000(£299,185)Sold in July 2026…Sold in July 2026…Building with lift, recently renovated…Building with lift, recently renova",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250254"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 252.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 252.2,
+        "flightsDiffPct": 199
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 52.9046401,
+      "lon": -0.206098,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 21.115629724562467,
+        "distanceMiles": 13.120639957581105
+      },
+      "nearestAirstrip": {
+        "name": "South View Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.150641888482766,
+        "distanceMiles": 3.821830500888425
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 55.87803505831907,
+        "distanceMiles": 34.72099052222278
+      },
+      "minAirportDistanceMiles": 3.821830500888425,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 213.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 2,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 2,
+        "helipadsDiff": -4,
+        "flightsPerDay": 213.4,
+        "flightsDiffPct": 153
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1050000,
+      "address": "Aldwick Avenue, Aldwick, Bognor Regis, West Sussex, PO21",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47945/8319/450x_/CHI260067_02.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21965372/sales/chichester"
+        }
+      ],
+      "lat": 50.78517861037041,
+      "lon": -0.699575658518519,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 28.821097316081435,
+        "distanceMiles": 17.908594060390836
+      },
+      "nearestAirstrip": {
+        "name": "Bognor Regis Lec Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.5081444069375354,
+        "distanceMiles": 2.179859198283183
+      },
+      "nearestHeliport": {
+        "name": "Avisford Park Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.266488468403939,
+        "distanceMiles": 5.757927206100624
+      },
+      "minAirportDistanceMiles": 2.179859198283183,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 532.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 3,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 3,
+        "helipadsDiff": -2,
+        "flightsPerDay": 532.3,
+        "flightsDiffPct": 531
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2311407,
+      "lon": -2.3028105,
+      "searchLocation": "Donington",
+      "searchLocations": [
+        "Donington"
+      ],
+      "sourceLocation": "Donington",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 13.237875919087834,
+        "distanceMiles": 8.225632197719527
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.249136051807922,
+        "distanceMiles": 2.6402899176479404
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.509893417265335,
+        "distanceMiles": 10.880139982579578
+      },
+      "minAirportDistanceMiles": 2.6402899176479404,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 297.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 297.8,
+        "flightsDiffPct": 253
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-25T13:25:29.633Z"
     },
     {
       "title": "3 bed property for sale",
@@ -3396,7 +5754,7 @@
         "flightsPerDay": 215,
         "flightsDiffPct": 155
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-23T10:46:31.539Z",
       "nearestTownMiles": 1.5,
       "autoTags": [],
@@ -3421,11 +5779,6 @@
       "searchLocation": "Donington"
     },
     {
-      "portal": "Rightmove",
-      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E8296&radius=40.0&keywords=garden&maxPrice=450000&minBedrooms=2&includeSSTC=false",
-      "searchLocation": "Donington"
-    },
-    {
       "portal": "Savills",
       "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=PE11%204SL&MinBedrooms=2&MaxPrice=450000",
       "searchLocation": "Donington"
@@ -3445,14 +5798,5 @@
       "url": "https://www.winkworth.co.uk/properties?search_location=PE11%204SL&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Donington"
     }
-  ],
-  "dupePassAt": "2026-07-23T11:15:19.081Z",
-  "rescoredAt": "2026-07-23T15:14:30.658Z",
-  "effectiveRecommendConfig": {
-    "minTown": 10,
-    "minAirport": 15,
-    "minHelipad": 15
-  },
-  "autoTaggedAt": "2026-07-24T23:07:47.182Z",
-  "flyoverRescoredAt": "2026-07-24T23:51:10.706Z"
+  ]
 }
