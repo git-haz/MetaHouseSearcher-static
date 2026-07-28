@@ -1,12 +1,206 @@
 {
   "location": "Launceston",
   "slug": "launceston",
-  "generatedAt": "2026-07-25T12:34:57.076Z",
-  "count": 68,
+  "generatedAt": "2026-07-28T08:40:16.202Z",
+  "count": 77,
   "properties": [
     {
+      "title": "4 bedroom end of terrace house for sale",
+      "price": 260000,
+      "address": "St. Thomas Road, Launceston, Cornwall",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Bond Oxborough Phillips - Tavistock",
+      "agentPhone": "01822 367468",
+      "type": "End of terrace house",
+      "description": "a central locationGround-floor retail premises with large display windowsFlexible live/work opportunity with mixed-use accommodationBond Oxborough Phillips - TavistockAdded < 7 daysEmail01822 367468",
+      "images": [
+        "https://media.onthemarket.com/properties/19991364/1631424321/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19991364/1631424321/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19991364/1631424321/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19991364/1631424321/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19991364/1631424321/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19991364/"
+        }
+      ],
+      "lat": 50.6410018,
+      "lon": -4.3644961,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.8434404588495,
+        "distanceMiles": 30.97126844135577
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.37995690031524,
+        "distanceMiles": 10.17803019910578
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 25.293147810389645,
+        "distanceMiles": 15.716428548089624
+      },
+      "minAirportDistanceMiles": 10.17803019910578,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.6,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
+    },
+    {
+      "title": "3 bedroom terraced house for sale",
+      "price": 179000,
+      "address": "Exeter Street, Launceston, Cornwall, PL15",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Webbers - Launceston",
+      "agentPhone": "01566 339973",
+      "type": "Terraced house",
+      "description": "A modern three bedroom house arranged over three storeys.Refurbished throughout with a clean modern finish.Stylish open plan first floor kitchen/dining/living area with breakfast bar and brand new kitchen.Webbers - LauncestonReduced todayEmail01566 339",
+      "images": [
+        "https://media.onthemarket.com/properties/19676682/1620461796/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19676682/1620461796/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19676682/1628610202/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19676682/1628610202/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19676682/1632409119/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19676682/"
+        }
+      ],
+      "lat": 50.636727,
+      "lon": -4.3583619,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 50.02435281104326,
+        "distanceMiles": 31.08368213055076
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.818408988550662,
+        "distanceMiles": 9.829100611624714
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.85980072008042,
+        "distanceMiles": 15.44715923323709
+      },
+      "minAirportDistanceMiles": 9.829100611624714,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z",
+      "updated": true,
+      "updatedFields": [
+        "price",
+        "description"
+      ],
+      "previousPrice": 185000
+    },
+    {
       "title": "3 bedroom detached house for sale",
-      "price": 350000,
+      "price": 325000,
       "address": "Angel Hill, Launceston, Cornwall",
       "bedrooms": 3,
       "bathrooms": null,
@@ -15,13 +209,13 @@
       "agent": "Bond Oxborough Phillips - Tavistock",
       "agentPhone": "01822 367468",
       "type": "Detached house",
-      "description": "an kitchen/dining with integrated appliances and central islandBond Oxborough Phillips - TavistockAdded > 14 daysEmail01822 367468",
+      "description": "",
       "images": [
         "https://media.onthemarket.com/properties/18736378/1623855813/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/18736378/1594203352/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/18736378/1594203352/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/18736378/1594203352/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/18736378/1594203352/image-4-480x320.jpg"
+        "https://media.onthemarket.com/properties/18736378/1632367183/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/18736378/1632367183/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/18736378/1632367183/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/18736378/1632367183/image-4-480x320.jpg"
       ],
       "sources": [
         {
@@ -73,20 +267,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 9,
-        "quiet": 20,
-        "hillside": 98,
-        "large-outdoors": 74,
-        "great-views": 94,
-        "far-from-roads": 82
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -95,10 +285,15 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z",
+      "updated": true,
+      "updatedFields": [
+        "price"
+      ],
+      "previousPrice": 350000
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -169,19 +364,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 48,
-        "great-views": 94,
-        "far-from-roads": 63
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -190,15 +382,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
-      ],
-      "previousPrice": 229950
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -211,7 +398,7 @@
       "agent": "Webbers - Launceston",
       "agentPhone": "01566 339973",
       "type": "Semi-detached house",
-      "description": "situated very close to the town centre.Three first floor bedrooms.Separate lounge enjoying a bay window and a wood burning stove.Webbers - LauncestonAdded todayEmail01566 339973",
+      "description": "situated very close to the town centre.Three first floor bedrooms.Separate lounge enjoying a bay window and a wood burning stove.Webbers - LauncestonAdded < 7 daysEmail01566 339973",
       "images": [
         "https://media.onthemarket.com/properties/20005598/1631856754/image-0-480x320.jpg",
         "https://media.onthemarket.com/properties/20005598/1631856754/image-1-480x320.jpg",
@@ -269,19 +456,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 1,
-        "quiet": 1,
-        "hillside": 95,
-        "large-outdoors": 24,
-        "great-views": 93,
-        "far-from-roads": 14
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -290,10 +474,14 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
     },
     {
       "title": "2 bedroom terraced house for sale",
@@ -364,120 +552,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 2,
-        "quiet": 6,
-        "hillside": 97,
-        "large-outdoors": 38,
-        "great-views": 88,
-        "far-from-roads": 69
-      },
-      "autoTagThreshold": 80,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z",
-      "updated": true,
-      "updatedFields": [
-        "price",
-        "description"
-      ],
-      "previousPrice": 350000
-    },
-    {
-      "title": "4 bedroom end of terrace house for sale",
-      "price": 260000,
-      "address": "St. Thomas Road, Launceston, Cornwall",
-      "bedrooms": 4,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Bond Oxborough Phillips - Tavistock",
-      "agentPhone": "01822 367468",
-      "type": "End of terrace house",
-      "description": "a central locationStudyBond Oxborough Phillips - TavistockAdded < 7 daysEmail01822 367468",
-      "images": [
-        "https://media.onthemarket.com/properties/19991364/1631424321/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19991364/1631424321/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19991364/1631424321/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19991364/1631424321/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19991364/1631424321/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19991364/"
-        }
-      ],
-      "lat": 50.6410018,
-      "lon": -4.3644961,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": true,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Cornwall Airport Newquay",
-        "icao": "EGHQ",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 49.8434404588495,
-        "distanceMiles": 30.97126844135577
-      },
-      "nearestAirstrip": {
-        "name": "Brent Tor Glider Field",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 16.37995690031524,
-        "distanceMiles": 10.17803019910578
-      },
-      "nearestHeliport": {
-        "name": "Liskeard Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 25.293147810389645,
-        "distanceMiles": 15.716428548089624
-      },
-      "minAirportDistanceMiles": 10.17803019910578,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
         "rural": 0,
-        "quiet": 39,
-        "hillside": 97,
-        "large-outdoors": 9,
-        "great-views": 95,
-        "far-from-roads": 48
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -486,10 +570,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom cottage for sale",
@@ -560,19 +644,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 28,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 16,
-        "great-views": 92,
-        "far-from-roads": 38
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -581,10 +662,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom end of terrace house for sale",
@@ -655,19 +736,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 12,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 10,
-        "great-views": 97,
-        "far-from-roads": 50
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -676,10 +754,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom semi-detached house for sale",
@@ -750,19 +828,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 13,
-        "hillside": 96,
-        "large-outdoors": 9,
-        "great-views": 94,
-        "far-from-roads": 57
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -771,10 +846,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom end of terrace house for sale",
@@ -787,7 +862,7 @@
       "agent": "Auction House London - Hampstead",
       "agentPhone": null,
       "type": "End of terrace house",
-      "description": "a Road, Launceston, Cornwall, PL15 8BJEnd of terrace house2Tenure: Leasehold (88 years remaining)AuctionNearest school 0.3mi.Auction House London - HampsteadAdded < 14 daysEmail020 8022 1911",
+      "description": "a Road, Launceston, Cornwall, PL15 8BJEnd of terrace house2Tenure: Leasehold (88 years remaining)AuctionNearest school 0.3mi.Auction House London - HampsteadAdded > 14 daysEmail020 8022 1911",
       "images": [
         "https://media.onthemarket.com/properties/19921030/1630561238/image-0-480x320.jpg",
         "https://media.onthemarket.com/properties/19921030/1630561238/image-1-480x320.jpg",
@@ -845,19 +920,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 1,
-        "quiet": 19,
-        "hillside": 97,
-        "large-outdoors": 23,
-        "great-views": 92,
-        "far-from-roads": 62
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -866,10 +938,14 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
     },
     {
       "title": "4 bedroom detached house for sale",
@@ -940,19 +1016,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 23,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 62,
-        "great-views": 98,
-        "far-from-roads": 47
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -961,10 +1034,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom cottage for sale",
@@ -1035,19 +1108,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 28,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 16,
-        "great-views": 92,
-        "far-from-roads": 38
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1056,10 +1126,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom retirement property for sale",
@@ -1086,8 +1156,8 @@
           "url": "https://www.onthemarket.com/details/19299449/"
         }
       ],
-      "lat": 50.6372542,
-      "lon": -4.3577579,
+      "lat": 50.6343642,
+      "lon": -4.3540045,
       "searchLocation": "Launceston",
       "searchLocations": [
         "Launceston"
@@ -1101,8 +1171,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 50.08810853683139,
-        "distanceMiles": 31.12329808963946
+        "distanceKm": 50.18934570182526,
+        "distanceMiles": 31.186203928088865
       },
       "nearestAirstrip": {
         "name": "Brent Tor Glider Field",
@@ -1110,8 +1180,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 15.796200391277548,
-        "distanceMiles": 9.815300833328521
+        "distanceKm": 15.44564088556663,
+        "distanceMiles": 9.597473322705422
       },
       "nearestHeliport": {
         "name": "Liskeard Heliport",
@@ -1119,30 +1189,27 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 24.922483672192847,
-        "distanceMiles": 15.486108601874141
+        "distanceKm": 24.63199496226112,
+        "distanceMiles": 15.305607341695156
       },
-      "minAirportDistanceMiles": 9.815300833328521,
+      "minAirportDistanceMiles": 9.597473322705422,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 368.7,
+        "flightsPerDay": 368.8,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 36,
-        "quiet": 16,
-        "hillside": 97,
-        "large-outdoors": 29,
-        "great-views": 95,
-        "far-from-roads": 35
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1150,106 +1217,11 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsPerDay": 368.8,
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
-    },
-    {
-      "title": "3 bedroom terraced house for sale",
-      "price": 185000,
-      "address": "Exeter Street, Launceston, Cornwall, PL15",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Webbers - Launceston",
-      "agentPhone": "01566 339973",
-      "type": "Terraced house",
-      "description": "A modern three bedroom house arranged over three storeys.Refurbished throughout with a clean modern finish.Stylish open plan first floor kitchen/dining/living area with breakfast bar and brand new kitchen.Webbers - LauncestonAdded > 14 daysEmail01566 3",
-      "images": [
-        "https://media.onthemarket.com/properties/19676682/1620461796/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19676682/1620461796/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19676682/1628610202/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19676682/1628610202/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19676682/1628610202/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19676682/"
-        }
-      ],
-      "lat": 50.636727,
-      "lon": -4.3583619,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": true,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Cornwall Airport Newquay",
-        "icao": "EGHQ",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 50.02435281104326,
-        "distanceMiles": 31.08368213055076
-      },
-      "nearestAirstrip": {
-        "name": "Brent Tor Glider Field",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 15.818408988550662,
-        "distanceMiles": 9.829100611624714
-      },
-      "nearestHeliport": {
-        "name": "Liskeard Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 24.85980072008042,
-        "distanceMiles": 15.44715923323709
-      },
-      "minAirportDistanceMiles": 9.829100611624714,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 2,
-        "quiet": 34,
-        "hillside": 99,
-        "large-outdoors": 57,
-        "great-views": 96,
-        "far-from-roads": 49
-      },
-      "autoTagThreshold": 80,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bedroom cottage for sale",
@@ -1276,8 +1248,8 @@
           "url": "https://www.onthemarket.com/details/19670346/"
         }
       ],
-      "lat": 50.6365062,
-      "lon": -4.3604432,
+      "lat": 50.6367744,
+      "lon": -4.3607794,
       "searchLocation": "Launceston",
       "searchLocations": [
         "Launceston"
@@ -1291,8 +1263,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 49.88138947280611,
-        "distanceMiles": 30.99484885810701
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
       },
       "nearestAirstrip": {
         "name": "Brent Tor Glider Field",
@@ -1300,8 +1272,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 15.950531926140084,
-        "distanceMiles": 9.91119797347759
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
       },
       "nearestHeliport": {
         "name": "Liskeard Heliport",
@@ -1309,10 +1281,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 24.820841089332703,
-        "distanceMiles": 15.42295084851975
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
       },
-      "minAirportDistanceMiles": 9.91119797347759,
+      "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 368.7,
@@ -1320,19 +1292,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 34,
-        "quiet": 4,
-        "hillside": 99,
-        "large-outdoors": 70,
-        "great-views": 93,
-        "far-from-roads": 45
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1341,105 +1310,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
-    },
-    {
-      "title": "4 bedroom end of terrace house for sale",
-      "price": 265000,
-      "address": "Westgate Street, Launceston, Cornwall, PL15",
-      "bedrooms": 4,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Webbers - Launceston",
-      "agentPhone": "01566 339973",
-      "type": "End of terrace house",
-      "description": "A deceptively spacious and well presented town property situated close to many of the local amenities.This end-terrace home is laid out over three floors benefiting from four double bedrooms.Family size lounge/dining room with character fireplace and w",
-      "images": [
-        "https://media.onthemarket.com/properties/17787078/1621269521/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/17787078/1621269521/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/17787078/1621269521/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/17787078/1621269521/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/17787078/1621269521/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/17787078/"
-        }
-      ],
-      "lat": 50.6355364,
-      "lon": -4.3621778,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": true,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Cornwall Airport Newquay",
-        "icao": "EGHQ",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 49.72445304221366,
-        "distanceMiles": 30.897333111293346
-      },
-      "nearestAirstrip": {
-        "name": "Brent Tor Glider Field",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 16.03470016781018,
-        "distanceMiles": 9.963497677972379
-      },
-      "nearestHeliport": {
-        "name": "Liskeard Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 24.702001180158213,
-        "distanceMiles": 15.349107175316089
-      },
-      "minAirportDistanceMiles": 9.963497677972379,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 2,
-        "quiet": 23,
-        "hillside": 96,
-        "large-outdoors": 68,
-        "great-views": 93,
-        "far-from-roads": 26
-      },
-      "autoTagThreshold": 80,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "4 bedroom terraced house for sale",
@@ -1510,19 +1384,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 8,
-        "quiet": 8,
-        "hillside": 99,
-        "large-outdoors": 35,
-        "great-views": 98,
-        "far-from-roads": 19
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1531,10 +1402,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bedroom detached house for sale",
@@ -1561,8 +1432,8 @@
           "url": "https://www.onthemarket.com/details/19452674/"
         }
       ],
-      "lat": 50.6387745,
-      "lon": -4.3639674,
+      "lat": 50.6387103,
+      "lon": -4.3650332,
       "searchLocation": "Launceston",
       "searchLocations": [
         "Launceston"
@@ -1576,8 +1447,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 49.76765412524198,
-        "distanceMiles": 30.924177011455736
+        "distanceKm": 49.69699492512469,
+        "distanceMiles": 30.880271433619654
       },
       "nearestAirstrip": {
         "name": "Brent Tor Glider Field",
@@ -1585,8 +1456,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 16.26504684410318,
-        "distanceMiles": 10.106628422567237
+        "distanceKm": 16.334162909308898,
+        "distanceMiles": 10.149575141120179
       },
       "nearestHeliport": {
         "name": "Liskeard Heliport",
@@ -1594,10 +1465,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 25.049495544872624,
-        "distanceMiles": 15.565030096213047
+        "distanceKm": 25.03608672234051,
+        "distanceMiles": 15.556698242747446
       },
-      "minAirportDistanceMiles": 10.106628422567237,
+      "minAirportDistanceMiles": 10.149575141120179,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 368.6,
@@ -1605,20 +1476,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 14,
-        "hillside": 99,
-        "large-outdoors": 25,
-        "great-views": 86,
-        "far-from-roads": 89
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1627,10 +1494,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -1657,8 +1524,8 @@
           "url": "https://www.onthemarket.com/details/19445411/"
         }
       ],
-      "lat": 50.6365062,
-      "lon": -4.3604432,
+      "lat": 50.6367744,
+      "lon": -4.3607794,
       "searchLocation": "Launceston",
       "searchLocations": [
         "Launceston"
@@ -1672,8 +1539,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 49.88138947280611,
-        "distanceMiles": 30.99484885810701
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
       },
       "nearestAirstrip": {
         "name": "Brent Tor Glider Field",
@@ -1681,8 +1548,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 15.950531926140084,
-        "distanceMiles": 9.91119797347759
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
       },
       "nearestHeliport": {
         "name": "Liskeard Heliport",
@@ -1690,10 +1557,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 24.820841089332703,
-        "distanceMiles": 15.42295084851975
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
       },
-      "minAirportDistanceMiles": 9.91119797347759,
+      "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 368.7,
@@ -1701,19 +1568,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 8,
-        "quiet": 6,
-        "hillside": 100,
-        "large-outdoors": 74,
-        "great-views": 90,
-        "far-from-roads": 59
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1722,10 +1586,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "5 bedroom semi-detached house for sale",
@@ -1796,19 +1660,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 7,
-        "quiet": 19,
-        "hillside": 97,
-        "large-outdoors": 56,
-        "great-views": 94,
-        "far-from-roads": 37
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1817,10 +1678,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "4 bedroom terraced house for sale",
@@ -1891,19 +1752,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 20,
-        "hillside": 97,
-        "large-outdoors": 48,
-        "great-views": 85,
-        "far-from-roads": 34
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1912,10 +1770,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom semi-detached bungalow for sale",
@@ -1986,19 +1844,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 5,
-        "quiet": 35,
-        "hillside": 91,
-        "large-outdoors": 2,
-        "great-views": 94,
-        "far-from-roads": 47
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2007,10 +1862,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom terraced house for sale",
@@ -2081,19 +1936,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 8,
-        "quiet": 26,
-        "hillside": 97,
-        "large-outdoors": 3,
-        "great-views": 97,
-        "far-from-roads": 62
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2102,10 +1954,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bedroom bungalow for sale",
@@ -2184,19 +2036,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 10,
-        "hillside": 99,
-        "large-outdoors": 68,
-        "great-views": 95,
-        "far-from-roads": 55
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2205,10 +2054,102 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "4 bedroom end of terrace house for sale",
+      "price": 265000,
+      "address": "Westgate Street, Launceston, Cornwall, PL15",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Webbers - Launceston",
+      "agentPhone": "01566 339973",
+      "type": "End of terrace house",
+      "description": "A deceptively spacious and well presented town property situated close to many of the local amenities.This end-terrace home is laid out over three floors benefiting from four double bedrooms.Family size lounge/dining room with character fireplace and w",
+      "images": [
+        "https://media.onthemarket.com/properties/17787078/1632030308/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17787078/1632030308/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17787078/1632030308/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17787078/1632030308/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17787078/1632030308/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17787078/"
+        }
+      ],
+      "lat": 50.6355364,
+      "lon": -4.3621778,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.72445304221366,
+        "distanceMiles": 30.897333111293346
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.03470016781018,
+        "distanceMiles": 9.963497677972379
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.702001180158213,
+        "distanceMiles": 15.349107175316089
+      },
+      "minAirportDistanceMiles": 9.963497677972379,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.6,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom property for sale",
@@ -2279,19 +2220,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 7,
-        "quiet": 15,
-        "hillside": 96,
-        "large-outdoors": 14,
-        "great-views": 89,
-        "far-from-roads": 19
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2300,10 +2238,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom flat for sale",
@@ -2374,20 +2312,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 18,
-        "hillside": 99,
-        "large-outdoors": 27,
-        "great-views": 92,
-        "far-from-roads": 95
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2396,10 +2330,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bedroom maisonette for sale",
@@ -2470,19 +2404,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 14,
-        "hillside": 99,
-        "large-outdoors": 23,
-        "great-views": 91,
-        "far-from-roads": 80
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2491,10 +2422,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2561,19 +2492,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 14,
-        "quiet": 6,
-        "hillside": 93,
-        "large-outdoors": 25,
-        "great-views": 91,
-        "far-from-roads": 22
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2582,10 +2510,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2652,19 +2580,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 1,
+        "rural": 0,
         "quiet": 0,
-        "hillside": 98,
-        "large-outdoors": 31,
-        "great-views": 87,
-        "far-from-roads": 8
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2673,14 +2598,14 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed detached for sale",
-      "price": 350000,
+      "price": 325000,
       "address": "Angel Hill, Launceston, Cornwall PL15",
       "bedrooms": 3,
       "bathrooms": 1,
@@ -2743,19 +2668,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 18,
-        "quiet": 65,
-        "hillside": 97,
-        "large-outdoors": 49,
-        "great-views": 94,
-        "far-from-roads": 55
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2764,10 +2686,15 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z",
+      "updated": true,
+      "updatedFields": [
+        "price"
+      ],
+      "previousPrice": 350000
     },
     {
       "title": "2 bed property for sale",
@@ -2834,19 +2761,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 3,
-        "quiet": 25,
-        "hillside": 97,
-        "large-outdoors": 7,
-        "great-views": 87,
-        "far-from-roads": 37
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2855,10 +2779,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2925,19 +2849,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 23,
-        "hillside": 89,
-        "large-outdoors": 30,
-        "great-views": 95,
-        "far-from-roads": 53
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2946,10 +2867,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed end of terrace for sale",
@@ -3016,20 +2937,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "quiet",
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 5,
-        "quiet": 85,
-        "hillside": 100,
-        "large-outdoors": 62,
-        "great-views": 99,
-        "far-from-roads": 67
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3038,10 +2955,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "4 bed property for sale",
@@ -3108,19 +3025,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
         "rural": 0,
-        "quiet": 52,
-        "hillside": 82,
-        "large-outdoors": 73,
-        "great-views": 94,
-        "far-from-roads": 25
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3129,10 +3043,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "5 bed detached for sale",
@@ -3199,21 +3113,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 47,
-        "quiet": 51,
-        "hillside": 100,
-        "large-outdoors": 83,
-        "great-views": 92,
-        "far-from-roads": 86
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3222,10 +3131,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed flat for sale",
@@ -3240,15 +3149,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/419351c47f51d1dc35249cb288cccf2768307f68.jpg",
-        "https://lid.zoocdn.com/645/430/9ca64868d1f913c4173e4fccecc99bf0ddf084c6.jpg",
-        "https://lid.zoocdn.com/645/430/f2fc9978d4e91ddffa33202c383a2c4fb5259571.jpg",
-        "https://lid.zoocdn.com/645/430/e01100c2253d0cb8a97b4afe5a3088f39313d3d6.jpg",
-        "https://lid.zoocdn.com/645/430/04882fde93b0cb423837a0aefba376b630bbb744.jpg",
-        "https://lid.zoocdn.com/645/430/f8f379a309959350ad6cf60b3b4d6d8bef57bb0d.jpg",
-        "https://lid.zoocdn.com/645/430/70707168ccf222ccea68f87f3e711114cf2c55a5.jpg",
-        "https://lid.zoocdn.com/645/430/e46356e73450f6f76ff77e6da71ff57b95dc7ef2.jpg",
-        "https://lid.zoocdn.com/645/430/eb5ee385ae0916b0cfbc8d4487e1c896fca1212a.jpg"
+        "https://lid.zoocdn.com/645/430/04882fde93b0cb423837a0aefba376b630bbb744.jpg"
       ],
       "sources": [
         {
@@ -3300,19 +3201,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 5,
-        "quiet": 26,
-        "hillside": 92,
-        "large-outdoors": 24,
-        "great-views": 96,
-        "far-from-roads": 64
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3321,10 +3219,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -3335,24 +3233,11 @@
       "sqft": 840,
       "type": "Property",
       "description": "a Road, Launceston PL15Well presented Grade II listed 3-storey terrace near Launceston centre. Open plan living, 2 / 3 bedrooms, bathroom, small ...Listed on 23rd Jul 2026",
-      "postedDate": "Just added",
+      "postedDate": null,
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/3863b470d8c4f106b59dacfd9ec63518db612abc.jpg",
-        "https://lid.zoocdn.com/645/430/fc03e4320361b7d794727931131e3defe5b1e014.jpg",
-        "https://lid.zoocdn.com/645/430/6a693b70743d6b29abbf679e15aa92d66ededed0.jpg",
-        "https://lid.zoocdn.com/645/430/5b50cab54eaef8c7ad157c11f07eedde334a023b.jpg",
-        "https://lid.zoocdn.com/645/430/63743e62052578f8272a7b418c43512a5747a838.jpg",
-        "https://lid.zoocdn.com/645/430/5e373ded382042208da5777ed08a7b99a7d460ac.jpg",
-        "https://lid.zoocdn.com/645/430/60db1ed24ae45e59b36f16156f6fa294bc85aac6.jpg",
-        "https://lid.zoocdn.com/645/430/3db7fa3fff492ef5a1719136f314d2af9a0603ea.jpg",
-        "https://lid.zoocdn.com/645/430/10e8eb2c7ac82e39447772fe3ccbb8db4c152041.jpg",
-        "https://lid.zoocdn.com/645/430/28d2d4a8ead33eb9bd2d260f75a607698b37db1f.jpg",
-        "https://lid.zoocdn.com/645/430/c4ecf34a8fb143110754ae8617304dabc66628c9.jpg",
-        "https://lid.zoocdn.com/645/430/5252a142dd92366b38fb2b40a621a2ba3bd94278.jpg",
-        "https://lid.zoocdn.com/645/430/e635e367b2f3f68abc9f6e06b176261ec994d031.jpg",
-        "https://lid.zoocdn.com/645/430/dec52485f70bafebcb324c5d3a5fda25ab9529fa.jpg"
+        "https://lid.zoocdn.com/645/430/3db7fa3fff492ef5a1719136f314d2af9a0603ea.jpg"
       ],
       "sources": [
         {
@@ -3404,19 +3289,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
         "rural": 0,
-        "quiet": 44,
-        "hillside": 95,
-        "large-outdoors": 58,
-        "great-views": 94,
-        "far-from-roads": 35
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3425,16 +3307,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z",
-      "updated": true,
-      "updatedFields": [
-        "price",
-        "description"
-      ],
-      "previousPrice": 350000
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "4 bed cottage for sale",
@@ -3449,19 +3325,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/3bb4737d98753b18612454d8104701746ff6a5b9.jpg",
-        "https://lid.zoocdn.com/645/430/4a7a2dd613e659c797966b9bc64a15e0aac02441.jpg",
-        "https://lid.zoocdn.com/645/430/3827a3a372d5ff0130a077f8b0323fdce72a0220.jpg",
-        "https://lid.zoocdn.com/645/430/6d2961ca37a9203427ba9633ecccebceeaef7071.jpg",
-        "https://lid.zoocdn.com/645/430/1bbd03942e2710026aed439bf1b0e57c97175379.jpg",
-        "https://lid.zoocdn.com/645/430/3265a0bbee15152a5d54933f8c4adc0d533582e5.jpg",
-        "https://lid.zoocdn.com/645/430/e5c7778b52db8749eb910238af8ab8f1ef54a229.jpg",
-        "https://lid.zoocdn.com/645/430/1056c7565a0de95063c51d3e233624551d617196.jpg",
-        "https://lid.zoocdn.com/645/430/63a81004fe1a777541b23fca6ac50358cc92c52e.jpg",
-        "https://lid.zoocdn.com/645/430/e6821bcc56c62fd3615b0ea3ad65d528f786bd3e.jpg",
-        "https://lid.zoocdn.com/645/430/b6c9d620cda26f6b7b7986381927491d2af9c799.jpg",
-        "https://lid.zoocdn.com/645/430/2d37d64029cc3b7cf1b85f0c759e5d961e32229b.jpg",
-        "https://lid.zoocdn.com/645/430/8ed6bd5dc5519640fa70d950ea808e52d65d95da.jpg"
+        "https://lid.zoocdn.com/645/430/e5c7778b52db8749eb910238af8ab8f1ef54a229.jpg"
       ],
       "sources": [
         {
@@ -3513,19 +3377,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 19,
-        "hillside": 91,
-        "large-outdoors": 49,
-        "great-views": 82,
-        "far-from-roads": 72
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3534,10 +3395,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed maisonette for sale",
@@ -3552,20 +3413,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/cc24ad70799ed0e14a1972ee2b6726a359655858.jpg",
-        "https://lid.zoocdn.com/645/430/6eab4406ed042ae67e075128d7f75751b910505b.jpg",
-        "https://lid.zoocdn.com/645/430/d3bfa067e0670f1e63158f8ad2ee90608aec1208.jpg",
-        "https://lid.zoocdn.com/645/430/530420dd6d83f51033940d641e9de74ca0aa530d.jpg",
-        "https://lid.zoocdn.com/645/430/6976d2f14a5edc971055e189aaa53a32ee089133.jpg",
-        "https://lid.zoocdn.com/645/430/bda9edd3c04623cb7b86ef53d9e6d06e86316ed0.jpg",
-        "https://lid.zoocdn.com/645/430/2631640e398b52e0322f4b328026b3c01de1e5e1.jpg",
-        "https://lid.zoocdn.com/645/430/63d7a2f2bf8750338c74e4de39b29d17b76832be.jpg",
-        "https://lid.zoocdn.com/645/430/1cb3638b7f463279c5eca1171361677e1b4bc804.jpg",
-        "https://lid.zoocdn.com/645/430/cce1e77731c85004ff2e476cfd7f6bf09b3a5d00.jpg",
-        "https://lid.zoocdn.com/645/430/1e6d5538896b0a0f5cd1fbb5c6abddba7a3270ef.jpg",
-        "https://lid.zoocdn.com/645/430/b2d8469d0e6c72b59f9caf64de02920f4756f991.jpg",
-        "https://lid.zoocdn.com/645/430/bc6e9a43495eb654d1cd14ac6ae922a34b1f991d.jpg",
-        "https://lid.zoocdn.com/645/430/a73c9489fb57aa826bc10b06bfebbae425dcfded.jpg"
+        "https://lid.zoocdn.com/645/430/63d7a2f2bf8750338c74e4de39b29d17b76832be.jpg"
       ],
       "sources": [
         {
@@ -3617,20 +3465,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
         "rural": 0,
-        "quiet": 70,
-        "hillside": 99,
-        "large-outdoors": 88,
-        "great-views": 98,
-        "far-from-roads": 40
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3639,10 +3483,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -3657,20 +3501,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/a5ae258a2c9408f56d36f91de0cfc2e5e85d03d1.jpg",
-        "https://lid.zoocdn.com/645/430/3028cdf4c5419692f744b1ed3ca752b21157affb.jpg",
-        "https://lid.zoocdn.com/645/430/34da9b647fd84e678dfc1820e4ce35f9b6b6d86a.jpg",
-        "https://lid.zoocdn.com/645/430/70e90470f1491e8c126a5ac006717754e362a8f2.jpg",
-        "https://lid.zoocdn.com/645/430/1639bd756dcc5954f25f2c55ade900983064c539.jpg",
-        "https://lid.zoocdn.com/645/430/c7e17b73dd941a784b5770233b524a205b3d566d.jpg",
-        "https://lid.zoocdn.com/645/430/351ac54a367514ac9a90ed8f3ffec10c0e9f15d0.jpg",
-        "https://lid.zoocdn.com/645/430/2084c917621814cc5078015c67b90549f9b1248d.jpg",
-        "https://lid.zoocdn.com/645/430/41cc667baf16f0bf65e0292f2fea074bd9330992.jpg",
-        "https://lid.zoocdn.com/645/430/8e5624959271bdcebb24f5b7e9d2bbc16afb81a0.jpg",
-        "https://lid.zoocdn.com/645/430/7f7ef2826bf554faeb58b1a9db68181b9549a538.jpg",
-        "https://lid.zoocdn.com/645/430/11096bc489dbb6eb4838146caeb8998459c7dc21.jpg",
-        "https://lid.zoocdn.com/645/430/39886c20b5f2d2c098127057e07ecea65c0e483c.jpg",
-        "https://lid.zoocdn.com/645/430/57caa30c77a3850baaa6676429c9e4da93ca0aae.jpg"
+        "https://lid.zoocdn.com/645/430/2084c917621814cc5078015c67b90549f9b1248d.jpg"
       ],
       "sources": [
         {
@@ -3722,19 +3553,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 9,
-        "quiet": 14,
-        "hillside": 83,
-        "large-outdoors": 24,
-        "great-views": 81,
-        "far-from-roads": 35
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3743,10 +3571,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -3813,21 +3641,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 3,
-        "quiet": 15,
-        "hillside": 94,
-        "large-outdoors": 84,
-        "great-views": 96,
-        "far-from-roads": 89
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3836,14 +3659,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z",
-      "updated": true,
-      "updatedFields": [
-        "description"
-      ]
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed semi-detached for sale",
@@ -3910,20 +3729,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
         "rural": 0,
-        "quiet": 61,
-        "hillside": 91,
-        "large-outdoors": 49,
-        "great-views": 96,
-        "far-from-roads": 90
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3932,10 +3747,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -4002,19 +3817,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 14,
-        "quiet": 6,
-        "hillside": 93,
-        "large-outdoors": 25,
-        "great-views": 91,
-        "far-from-roads": 22
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4023,10 +3835,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 370,
-        "flightsDiffPct": 338
+        "flightsDiffPct": 76
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed property for sale",
@@ -4093,20 +3905,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
         "rural": 0,
-        "quiet": 25,
-        "hillside": 98,
-        "large-outdoors": 88,
-        "great-views": 98,
-        "far-from-roads": 23
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4115,10 +3923,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "4 bed property for sale",
@@ -4129,7 +3937,7 @@
       "sqft": null,
       "type": "Property",
       "description": "a highly visible and sought-after position, this impressive Grade II listed townhouse offers extensive and versatile ...Listed on 23rd Jul 2026",
-      "postedDate": "Just added",
+      "postedDate": null,
       "agent": null,
       "agentPhone": null,
       "images": [
@@ -4185,20 +3993,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 1,
-        "quiet": 4,
-        "hillside": 95,
-        "large-outdoors": 88,
-        "great-views": 98,
-        "far-from-roads": 29
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4207,10 +4011,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -4277,18 +4081,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 25,
-        "hillside": 98,
-        "large-outdoors": 43,
-        "great-views": 74,
-        "far-from-roads": 36
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4297,10 +4099,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -4367,19 +4169,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 3,
-        "hillside": 96,
-        "large-outdoors": 37,
-        "great-views": 96,
-        "far-from-roads": 34
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4388,10 +4187,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.8,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed property for sale",
@@ -4458,19 +4257,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 41,
-        "hillside": 96,
-        "large-outdoors": 61,
-        "great-views": 96,
-        "far-from-roads": 43
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4479,15 +4275,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
-      ],
-      "previousPrice": 229950
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -4554,20 +4345,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "quiet",
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 12,
-        "quiet": 85,
-        "hillside": 96,
-        "large-outdoors": 34,
-        "great-views": 95,
-        "far-from-roads": 75
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4576,10 +4363,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.5,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "2 bed property for sale",
@@ -4646,19 +4433,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 8,
-        "quiet": 26,
-        "hillside": 92,
-        "large-outdoors": 47,
-        "great-views": 92,
-        "far-from-roads": 66
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4667,10 +4451,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed property for sale",
@@ -4685,7 +4469,11 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/3664a414ca475cc6c3417db8b2d521d64989148b.jpg"
+        "https://lid.zoocdn.com/645/430/dfb1bf9586c5ab4036379353cdb8be0e6a9efbb5.jpg",
+        "https://lid.zoocdn.com/645/430/580c1465b9c312ffd0fa93d8ea491b6353666224.jpg",
+        "https://lid.zoocdn.com/645/430/3664a414ca475cc6c3417db8b2d521d64989148b.jpg",
+        "https://lid.zoocdn.com/645/430/4957b18d4b8b5f9ce810c539f293c44603f9d2c7.jpg",
+        "https://lid.zoocdn.com/645/430/fbb36cc167443d2d982b6f4989f827738896218b.jpg"
       ],
       "sources": [
         {
@@ -4737,19 +4525,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 37,
-        "quiet": 9,
-        "hillside": 91,
-        "large-outdoors": 57,
-        "great-views": 94,
-        "far-from-roads": 46
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4758,10 +4543,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "3 bed property for sale",
@@ -4776,7 +4561,13 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/6c10b01a027861a601f18c4b18fb82f21787ad40.jpg"
+        "https://lid.zoocdn.com/645/430/47465bc0ccd400cec1793589ebb4ad58826d0bd6.jpg",
+        "https://lid.zoocdn.com/645/430/f26df414c01becad433a56b02f15bc469cd47e16.jpg",
+        "https://lid.zoocdn.com/645/430/580c1465b9c312ffd0fa93d8ea491b6353666224.jpg",
+        "https://lid.zoocdn.com/645/430/6c10b01a027861a601f18c4b18fb82f21787ad40.jpg",
+        "https://lid.zoocdn.com/645/430/f634946c56836aa8911763c9d67dbddb31334229.jpg",
+        "https://lid.zoocdn.com/645/430/9ed53830046c6316d8997d311070ae24bf7233cd.jpg",
+        "https://lid.zoocdn.com/645/430/1a60b828b4b6ba6de77e8b70df17953346ed6e46.jpg"
       ],
       "sources": [
         {
@@ -4828,19 +4619,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 37,
-        "quiet": 9,
-        "hillside": 91,
-        "large-outdoors": 57,
-        "great-views": 94,
-        "far-from-roads": 46
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -4849,10 +4637,1114 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 368.6,
-        "flightsDiffPct": 337
+        "flightsDiffPct": 75
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 325000,
+      "address": "Hermitage Place, Bath Road,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 847,
+      "type": "Property",
+      "description": "a Homes…Selection of newly built and beautif……Selection of newly built andbeautifully refurbished homes…Landscaped communal gardens wit……Landscaped communal gardenswith direct private gated access to……B",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBSURDSND250078/SND250078_26_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsurdsnd250078"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 310000,
+      "address": "Gibraltar - Sir William Jackson Grove,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 80,
+      "type": "Property",
+      "description": "an MonteroSavills Gibraltar+350 200 666 33+350 200 666 33Contact nowFlat / Apartment715.80 sq ft (66.50 sq m)3Bedrooms1Bathrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsss0711812"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 299000,
+      "address": "Gibraltar - Marina Bay,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 83,
+      "type": "Property",
+      "description": "a Bay…Ocean Village645.83 sq ft(60 sq m)Guide price £299,000(€349,734)Private Parking…Private Parking…Fully Furnished…Fully Furnished…Communal pool…Communal pool…Good condition…Good condition…Aidan Mont",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsssmb29"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 210000,
+      "address": "Canal,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 635,
+      "type": "Property",
+      "description": "Situated over 3 floors…Situated over 3 floors…In the heart of Salisbury…In the heart of Salisbury…Next to local shops & facilities…Next to local shops & facilities…Daniel TarrantSouth Coast New Homes+44 (0) 23",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbslrswnd250010"
+        }
+      ],
+      "lat": 50.5107741,
+      "lon": -4.1921368,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 57.37644240973055,
+        "distanceMiles": 35.65205739657668
+      },
+      "nearestAirstrip": {
+        "name": "Tinnel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.373823842696542,
+        "distanceMiles": 3.9605092949601928
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.872291211506674,
+        "distanceMiles": 11.105323462385114
+      },
+      "minAirportDistanceMiles": 3.9605092949601928,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 371.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 371.8,
+        "flightsDiffPct": 76
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 335000,
+      "address": "Apartment 3 Bosq House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 31,
+      "type": "Property",
+      "description": "A well rounded 1 bedroom apartme……A well rounded 1 bedroomapartment.…Part of the highly regarded Royal Te……Part of the highly regarded RoyalTerrace development.…Situated in the heart of town.…Situated i",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbguesgue260105"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 345000,
+      "address": "Apartment 2 Fermoy House,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 31,
+      "type": "Property",
+      "description": "two bedroom apartment…Top floor, two bedroom apartment…Secure underground parking space…Secure underground parking space…Situated in a block with only one ot……Situated in a block with only oneother apartm",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbguesgue260131"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 265000,
+      "address": "Winterbrook Meadows,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 630,
+      "type": "Property",
+      "description": "a t……Apartments and family homes in athriving Oxfordshire community…Walk to Wallingford town centre via ……Walk to Wallingford town centre viaa direct pedestrian route…Moments from the River Thames an……M",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbswrdsud240091"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 270000,
+      "address": "Cleve Way,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 794,
+      "type": "Property",
+      "description": "Two bedroom terraced home…Two bedroom terraced home…Ideal first time purchase…Ideal first time purchase…Potential to modernise…Potential to modernise…David VawdreyPetworth+44 (0) 1798 345 980+44 (0) 1798",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbpwrspsg260104"
+        }
+      ],
+      "lat": 51.0194787,
+      "lon": -0.4504652,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 23.0954150566574,
+        "distanceMiles": 14.350821149170267
+      },
+      "nearestAirstrip": {
+        "name": "Fowler's Field Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.1166158553612084,
+        "distanceMiles": 1.3152037106616494
+      },
+      "nearestHeliport": {
+        "name": "Avisford Park Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 22.145437174572542,
+        "distanceMiles": 13.760532442601315
+      },
+      "minAirportDistanceMiles": 1.3152037106616494,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 610.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 5,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 5,
+        "helipadsDiff": -3,
+        "flightsPerDay": 610.2,
+        "flightsDiffPct": 190
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 252.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 252.2,
+        "flightsDiffPct": 20
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 50.6367744,
+      "lon": -4.3607794,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 49.87293822310102,
+        "distanceMiles": 30.989597496626505
+      },
+      "nearestAirstrip": {
+        "name": "Brent Tor Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.982230915703711,
+        "distanceMiles": 9.930894806321731
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 24.848261494023237,
+        "distanceMiles": 15.439989092802714
+      },
+      "minAirportDistanceMiles": 9.930894806321731,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 368.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 14,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 13,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 368.7,
+        "flightsDiffPct": 75
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 950000,
+      "address": "Martins Lane, Birdham, Chichester, West Sussex, PO20",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr0.homeflow-assets.co.uk/files/photo/image/47952/7898/450x_/CHI250213_03.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21967894/sales/chichester"
+        }
+      ],
+      "lat": 50.7963656,
+      "lon": -0.8290702,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 37.61845176042956,
+        "distanceMiles": 23.375014988829875
+      },
+      "nearestAirstrip": {
+        "name": "North Honer Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.603805931885797,
+        "distanceMiles": 3.4820424957018097
+      },
+      "nearestHeliport": {
+        "name": "Goodwood Racecourse Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.178886604176556,
+        "distanceMiles": 8.18897794812379
+      },
+      "minAirportDistanceMiles": 3.4820424957018097,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 528.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 2,
+        "helipadsCount": 4,
+        "airportsDiff": -4,
+        "airstripsDiff": 2,
+        "helipadsDiff": 0,
+        "flightsPerDay": 528.6,
+        "flightsDiffPct": 151
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2370037,
+      "lon": -2.2967325,
+      "searchLocation": "Launceston",
+      "searchLocations": [
+        "Launceston"
+      ],
+      "sourceLocation": "Launceston",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.54737313961276,
+        "distanceMiles": 7.796573795134321
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.403410650617062,
+        "distanceMiles": 2.7361516793845744
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.842662120410782,
+        "distanceMiles": 10.465541804421768
+      },
+      "minAirportDistanceMiles": 2.7361516793845744,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 297.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 297.4,
+        "flightsDiffPct": 41
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T08:40:16.202Z"
     },
     {
       "title": "1 bed property for sale",
@@ -4931,7 +5823,7 @@
         "flightsPerDay": 258.4,
         "flightsDiffPct": 206
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5022,7 +5914,7 @@
         "flightsPerDay": 368.7,
         "flightsDiffPct": 337
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5102,7 +5994,7 @@
         "flightsPerDay": 276.2,
         "flightsDiffPct": 227
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5182,7 +6074,7 @@
         "flightsPerDay": 147.1,
         "flightsDiffPct": 74
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5262,7 +6154,7 @@
         "flightsPerDay": 283.2,
         "flightsDiffPct": 236
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5342,7 +6234,7 @@
         "flightsPerDay": 218.8,
         "flightsDiffPct": 159
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5422,274 +6314,7 @@
         "flightsPerDay": 56.3,
         "flightsDiffPct": -33
       },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
-    },
-    {
-      "title": "6 bed property for sale",
-      "price": 1050000,
-      "address": "York Road, Harrogate, North Yorkshire",
-      "bedrooms": 6,
-      "bathrooms": 4,
-      "sqft": null,
-      "type": "Property",
-      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
-      "postedDate": null,
-      "agent": "Strutt & Parker",
-      "agentPhone": null,
-      "images": [
-        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Strutt & Parker",
-          "url": "https://www.struttandparker.com/properties/york-road-7"
-        }
-      ],
-      "lat": 53.993729,
-      "lon": -1.5510292,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 15.920828214700807,
-        "distanceMiles": 9.892740948596854
-      },
-      "nearestAirstrip": {
-        "name": "North Rigton Private Airstrip",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 5.88249201607922,
-        "distanceMiles": 3.655209946523161
-      },
-      "nearestHeliport": {
-        "name": "Leeds Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 14.775601711776206,
-        "distanceMiles": 9.181130411248093
-      },
-      "minAirportDistanceMiles": 3.655209946523161,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 3,
-        "airstripsCount": 1,
-        "helipadsCount": 1,
-        "airportsDiff": -1,
-        "airstripsDiff": 1,
-        "helipadsDiff": -3,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 199
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
-    },
-    {
-      "title": "5 bed property for sale",
-      "price": 2000000,
-      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "sqft": null,
-      "type": "Property",
-      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
-      "postedDate": null,
-      "agent": "Strutt & Parker",
-      "agentPhone": null,
-      "images": [
-        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Strutt & Parker",
-          "url": "https://www.struttandparker.com/properties/church-lane-163"
-        }
-      ],
-      "lat": 50.6365062,
-      "lon": -4.3604432,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": false,
-      "geoAccuracy": "area",
-      "nearestAirport": {
-        "name": "Cornwall Airport Newquay",
-        "icao": "EGHQ",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 49.88138947280611,
-        "distanceMiles": 30.99484885810701
-      },
-      "nearestAirstrip": {
-        "name": "Brent Tor Glider Field",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 15.950531926140084,
-        "distanceMiles": 9.91119797347759
-      },
-      "nearestHeliport": {
-        "name": "Liskeard Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 24.820841089332703,
-        "distanceMiles": 15.42295084851975
-      },
-      "minAirportDistanceMiles": 9.91119797347759,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
-      "autoTagScores": {
-        "rural": 8,
-        "quiet": 33,
-        "hillside": 99,
-        "large-outdoors": 93,
-        "great-views": 94,
-        "far-from-roads": 59
-      },
-      "autoTagThreshold": 80,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
-    },
-    {
-      "title": "6 bed property for sale",
-      "price": 4500000,
-      "address": "The Street, Stour Provost, Gillingham, Dorset",
-      "bedrooms": 6,
-      "bathrooms": 4,
-      "sqft": null,
-      "type": "Property",
-      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
-      "postedDate": null,
-      "agent": "Strutt & Parker",
-      "agentPhone": null,
-      "images": [
-        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
-      ],
-      "sources": [
-        {
-          "portal": "Strutt & Parker",
-          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
-        }
-      ],
-      "lat": 50.6365062,
-      "lon": -4.3604432,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": false,
-      "geoAccuracy": "area",
-      "nearestAirport": {
-        "name": "Cornwall Airport Newquay",
-        "icao": "EGHQ",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 49.88138947280611,
-        "distanceMiles": 30.99484885810701
-      },
-      "nearestAirstrip": {
-        "name": "Brent Tor Glider Field",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 15.950531926140084,
-        "distanceMiles": 9.91119797347759
-      },
-      "nearestHeliport": {
-        "name": "Liskeard Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 24.820841089332703,
-        "distanceMiles": 15.42295084851975
-      },
-      "minAirportDistanceMiles": 9.91119797347759,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "rural",
-        "quiet",
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
-      "autoTagScores": {
-        "rural": 80,
-        "quiet": 81,
-        "hillside": 99,
-        "large-outdoors": 88,
-        "great-views": 99,
-        "far-from-roads": 86
-      },
-      "autoTagThreshold": 80,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
-      },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -5769,87 +6394,7 @@
         "flightsPerDay": 162.3,
         "flightsDiffPct": 92
       },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T12:34:57.076Z"
-    },
-    {
-      "title": "property for sale",
-      "price": 25000000,
-      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
-      "bedrooms": null,
-      "bathrooms": null,
-      "sqft": null,
-      "type": "Property",
-      "description": "",
-      "postedDate": "Guide price",
-      "agent": "Jackson-Stops",
-      "agentPhone": null,
-      "images": [
-        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Jackson-Stops",
-          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
-        }
-      ],
-      "lat": 53.2311407,
-      "lon": -2.3028105,
-      "searchLocation": "Launceston",
-      "searchLocations": [
-        "Launceston"
-      ],
-      "sourceLocation": "Launceston",
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Manchester Airport",
-        "icao": "EGCC",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 13.237875919087834,
-        "distanceMiles": 8.225632197719527
-      },
-      "nearestAirstrip": {
-        "name": "Fern Farm Airstrip UL",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 4.249136051807922,
-        "distanceMiles": 2.6402899176479404
-      },
-      "nearestHeliport": {
-        "name": "Wythenshawe Hospital Helipad",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 17.509893417265335,
-        "distanceMiles": 10.880139982579578
-      },
-      "minAirportDistanceMiles": 2.6402899176479404,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 297.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 1,
-        "airstripsCount": 2,
-        "helipadsCount": 2,
-        "airportsDiff": -3,
-        "airstripsDiff": 2,
-        "helipadsDiff": -2,
-        "flightsPerDay": 297.8,
-        "flightsDiffPct": 253
-      },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
     },
     {
@@ -6349,7 +6894,5 @@
       "url": "https://www.winkworth.co.uk/properties?search_location=PL15%208AE&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Launceston"
     }
-  ],
-  "dupePassAt": "2026-07-25T14:16:23.640Z",
-  "autoTaggedAt": "2026-07-25T14:16:23.726Z"
+  ]
 }
