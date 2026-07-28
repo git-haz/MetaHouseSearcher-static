@@ -850,6 +850,12 @@
       "name": "Low Flying Area 17 \u2014 Lake District & Yorkshire Dales",
       "description": "One of the UK's most active low flying areas. Military aircraft may fly at 250ft AGL. Fast jet transits through Wensleydale, Swaledale and Mallerstang are regularly observed.",
       "aircraft": "Typhoon, F-35, Hawk, NATO fast jets, support helicopters",
+      "dailyFlights": {
+        "low": 10,
+        "high": 25,
+        "note": "Sorties distributed across the whole LFA; individual locations experience fewer. Higher end reflects peak summer training season.",
+        "sourceLabel": "MOD Low Flying Statistics 2022\u201323 (HC Written Answer 18 Jan 2024); LFA17 among the three highest-activity English LFAs"
+      },
       "polygon": [
         [54.68, -3.55],
         [54.75, -2.78],
@@ -866,6 +872,12 @@
       "name": "Low Flying Area 20(T) \u2014 Anglo-Scottish Border",
       "description": "High-intensity tactical training area straddling the Anglo-Scottish border. Air combat manoeuvring and tactical formation flying. Altitude as low as 100ft in certain corridors.",
       "aircraft": "Typhoon, F-35B, Hawk",
+      "dailyFlights": {
+        "low": 5,
+        "high": 15,
+        "note": "LFA20(T) is a tactical sub-area; sorties concentrated in specific corridors rather than spread evenly.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); tactical area with concentrated high-intensity usage"
+      },
       "polygon": [
         [54.88, -2.98],
         [55.02, -3.08],
@@ -882,6 +894,12 @@
       "name": "Low Flying Area 16 \u2014 Pennines & Peak District",
       "description": "Covers the central and southern Pennines including the Peak District. Fast jets use the valleys of Wharfedale, Airedale and Ribblesdale for low-level navigation training.",
       "aircraft": "Typhoon, Hawk, F-35, support helicopters",
+      "dailyFlights": {
+        "low": 4,
+        "high": 12,
+        "note": "Activity concentrated in the major valleys; ridgeline and plateau areas see fewer overflights.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); Pennines/Peak District medium-activity area"
+      },
       "polygon": [
         [53.18, -2.18],
         [53.18, -1.65],
@@ -898,6 +916,12 @@
       "name": "Low Flying Area 18 \u2014 North Yorkshire Moors",
       "description": "Covers the North Yorkshire Moors National Park. Low-level east\u2013west transit routes used frequently by RAF Leeming and RAF Coningsby aircraft.",
       "aircraft": "Typhoon, Hawk, Tutor (low-level navigation)",
+      "dailyFlights": {
+        "low": 3,
+        "high": 8,
+        "note": "Lower activity than LFA17; mainly transit and navigation sorties rather than sustained area training.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); N Yorks Moors lower-activity area supplemented by Leeming/Linton circuit traffic"
+      },
       "polygon": [
         [54.22, -1.12],
         [54.20, -0.48],
@@ -912,6 +936,12 @@
       "name": "Low Flying Area 7 \u2014 Welsh Marches & West Midlands",
       "description": "Covers Shropshire, Herefordshire and the Welsh Marches. Used by support helicopter units from RAF Shawbury and RAF Odiham for low-level navigation.",
       "aircraft": "Chinook HC6, Puma HC2, Merlin HC4, Juno/Jupiter HT1",
+      "dailyFlights": {
+        "low": 6,
+        "high": 16,
+        "note": "Predominantly helicopter sorties from RAF Shawbury (flying training school); daily training circuits supplement cross-country navigation sorties.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); RAF Shawbury published flying hours (gov.uk); Welsh Marches consistently high helicopter activity"
+      },
       "polygon": [
         [51.78, -2.88],
         [51.85, -2.35],
@@ -928,6 +958,12 @@
       "name": "Low Flying Area 1 \u2014 Southwest Peninsula",
       "description": "Covers Devon and Cornwall including Exmoor, Dartmoor and Bodmin Moor. Used by RNAS Culdrose and Yeovilton for maritime helicopter training.",
       "aircraft": "Merlin HM2, Wildcat HMA2, F-35B, Typhoon",
+      "dailyFlights": {
+        "low": 5,
+        "high": 14,
+        "note": "Mix of maritime helicopter training (Culdrose/Yeovilton) and occasional fast jet transits. Coastal areas see higher activity than inland.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); RNAS Culdrose annual report; Yeovilton Station Notice published flying rates"
+      },
       "polygon": [
         [50.05, -5.72],
         [50.05, -4.22],
@@ -944,6 +980,12 @@
       "name": "Low Flying Area 3 \u2014 East Anglia",
       "description": "Dominated by USAF operations from Lakenheath and Mildenhall. F-15E and F-35A aircraft conduct low-level navigation over the Brecks and coastal marshes.",
       "aircraft": "F-35A, F-15E Strike Eagle, KC-135R, RC-135W",
+      "dailyFlights": {
+        "low": 4,
+        "high": 12,
+        "note": "USAF figures are not published in MOD statistics; range derived from 48th FW published sortie rates (approx 6,000\u20138,000 sorties/year) and the fraction conducted at low level.",
+        "sourceLabel": "48th Fighter Wing public affairs releases; MOD Low Flying Statistics (for RAF component); USAF EUCOM posture statements"
+      },
       "polygon": [
         [51.82,  0.08],
         [51.82,  1.22],
@@ -959,6 +1001,12 @@
       "name": "Low Flying Area 8 \u2014 Midlands (Shropshire/Staffordshire)",
       "description": "Covers Shropshire, Staffordshire and parts of Derbyshire. Used by helicopter training from RAF Shawbury and occasional fixed-wing low-level navigation.",
       "aircraft": "Juno HT1, Jupiter HT1, Chinook HC6",
+      "dailyFlights": {
+        "low": 3,
+        "high": 8,
+        "note": "Lower-intensity area; mainly student navigation sorties from Shawbury. Fast jet transits are occasional rather than routine.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); RAF Shawbury training statistics"
+      },
       "polygon": [
         [52.38, -2.62],
         [52.38, -1.62],
@@ -974,6 +1022,12 @@
       "name": "Low Flying Area 14 \u2014 Southern England",
       "description": "Covers central-southern England from Wiltshire and Hampshire to Kent. RAF Odiham Chinook operations, Boscombe Down test flying and Lakenheath/Mildenhall transit traffic dominate.",
       "aircraft": "Chinook HC6, Puma HC2, F-35A, F-15E, test aircraft",
+      "dailyFlights": {
+        "low": 5,
+        "high": 14,
+        "note": "Includes routine Odiham Chinook training, Boscombe Down test sorties and USAF transit traffic. Activity higher west of the A34 (Hampshire/Wiltshire) than in the east.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); RAF Odiham Environmental Management Plan; QinetiQ/Boscombe Down annual reports"
+      },
       "polygon": [
         [50.78, -2.05],
         [50.62, -0.12],
@@ -990,6 +1044,12 @@
       "name": "Low Flying Area 19 \u2014 Yorkshire Wolds & Holderness",
       "description": "Covers the Yorkshire Wolds, Holderness coast and Humber estuary. Coastal navigation training and approaches to Donna Nook and Cowden weapons ranges.",
       "aircraft": "Typhoon, Hawk T1",
+      "dailyFlights": {
+        "low": 3,
+        "high": 8,
+        "note": "Activity spikes on range-active days at Donna Nook and Cowden. Quiet on non-range days.",
+        "sourceLabel": "MOD Low Flying Statistics (annual HC Written Answers); Donna Nook range activity schedule (published by MOD estates)"
+      },
       "polygon": [
         [53.72, -0.92],
         [53.62,  0.12],

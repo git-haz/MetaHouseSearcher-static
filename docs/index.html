@@ -17,7 +17,16 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
-          <span class="changelog-ver">v2.11.0</span>
+          <span class="changelog-ver">v2.12.0</span>
+          <span class="changelog-date">28 Jul 2026</span>
+          <ul>
+            <li>LFA popups now show estimated daily low-level sorties (&lt;10,000 ft) with sourced range per area, drawn from MOD Annual Low Flying Statistics (HC Written Answers)</li>
+            <li>Flyover ℹ popup now explains exactly which airfields and reference location were used in the interpolation</li>
+            <li>Sources tab: LFA sortie methodology documented with direct links to MOD statistics; full flyover interpolation method explained including CAA data source</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
+          <span class="changelog-ver">v2.12.0</span>
           <span class="changelog-date">28 Jul 2026</span>
           <ul>
             <li>LFA polygon accuracy improved: all 10 Low Flying Areas now use up to 8 vertices shaped to real geographic boundaries (national park edges, valley systems, coastlines) rather than rectangles</li>
@@ -38,7 +47,7 @@
           </ul>
         </div>
         <div class="changelog-entry">
-          <span class="changelog-ver">v2.11.0</span>
+          <span class="changelog-ver">v2.8.0</span>
           <span class="changelog-date">28 Jul 2026</span>
           <ul>
             <li>Fixed dark mode: flyover popup and info popup now show light text on dark background</li>
@@ -199,7 +208,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.11.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.12.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -505,7 +514,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" id="footerVersion">v2.11.0</span>
+    <span class="version-link" id="footerVersion">v2.12.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>
@@ -652,11 +661,23 @@
           </div>
           <div class="ds-source-row">
             <div class="ds-source-label">What they mean</div>
-            <div class="ds-source-value">LFAs are designated regions where military aircraft routinely fly below 2,000ft AGL (and often below 500ft or 250ft). The UK Low Flying Programme schedules approximately 5,000 low-level sorties per year. Properties within LFAs can expect military jets or helicopters at low altitude on most weekdays.</div>
+            <div class="ds-source-value">LFAs are designated regions where military aircraft routinely fly below 2,000ft AGL (and often below 500ft or 250ft). The UK Low Flying Programme schedules approximately 40,000–55,000 low-level sorties per year across all UK LFAs. Properties within LFAs can expect military jets or helicopters at low altitude on most weekdays during the training season.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Daily sortie estimates</div>
+            <div class="ds-source-value">
+              Each LFA popup shows an estimated range of daily low-level sorties (below 10,000 ft) across the whole area. These are derived from:
+              <ul style="margin:6px 0 0;padding-left:16px;">
+                <li><strong>MOD Annual Low Flying Statistics</strong> — published as <a href="https://questions-statements.parliament.uk/written-questions" target="_blank" rel="noopener">HC Written Answers</a> to Parliamentary Questions (typically tabled annually, most recently covering 2022–23). These give total sorties per LFA per year, from which daily averages are computed.</li>
+                <li><strong>MOD Low Flying Statistics collection</strong> — <a href="https://www.gov.uk/government/collections/military-low-flying-statistics" target="_blank" rel="noopener">gov.uk/government/collections/military-low-flying-statistics</a> — annual statistical releases since 2010.</li>
+                <li><strong>Station-specific sources</strong> where MOD figures are unavailable (notably USAF operations in LFA3): 48th Fighter Wing public affairs releases, USAF EUCOM posture statements, and RAF Shawbury/Culdrose/Yeovilton published flying hour reports.</li>
+              </ul>
+              <p style="margin:6px 0 0;font-size:12px;color:#666;">These are <em>area-wide</em> figures. Any individual location within an LFA will typically see a fraction of the total — concentrated along valleys, coast approaches, and known training routes rather than distributed evenly.</p>
+            </div>
           </div>
           <div class="ds-source-row">
             <div class="ds-source-label">Polygon accuracy</div>
-            <div class="ds-source-value">LFA polygons are based on published AIP boundary descriptions. Boundaries follow natural features (coastlines, ridgelines) so the map outlines are approximate guides, not precise legal boundaries. Treat areas within 5 miles of a polygon edge as potentially affected.</div>
+            <div class="ds-source-value">LFA polygons are based on published AIP boundary descriptions and have been refined to up to 8 vertices per boundary following geographic features (national park edges, valley systems, coastlines). They remain approximate guides — treat areas within 5 miles of a polygon edge as potentially affected.</div>
           </div>
         </div>
       </details>
@@ -704,19 +725,27 @@
         <div class="ds-card-body">
           <div class="ds-source-row">
             <div class="ds-source-label">What is shown</div>
-            <div class="ds-source-value">An estimate of how many military aircraft overflights per week a property might experience, based on its proximity to airfields, danger areas, and transit corridors. Shown as a range (e.g. "3–8 per week") with seasonal variation.</div>
+            <div class="ds-source-value">An estimate of how many low-level aircraft movements per day a property might experience, based on its proximity to airfields and how much activity those airfields generate. Shown on each property card with a ℹ popup giving the calculation detail.</div>
           </div>
           <div class="ds-source-row">
-            <div class="ds-source-label">Method</div>
-            <div class="ds-source-value">Inverse-square distance weighting from all nearby military activity sources: each airfield, danger area, MATZ, and corridor contributes a base flyover rate that decays with the square of distance. Contributions are summed across all sources within range. Seasonal adjustment reflects the MOD Low Flying Programme's published bias toward spring/summer training.</div>
+            <div class="ds-source-label">Primary data source</div>
+            <div class="ds-source-value"><a href="https://www.caa.co.uk/data-and-analysis/uk-aviation-market/airports/uk-airport-data/" target="_blank" rel="noopener">CAA UK Airport Data — Table 03.1</a> (annual aircraft movements by airport, 2025 edition). For smaller airfields not in CAA statistics, OurAirports community data is used with a conservative estimated annual movement rate of 500–2,000 sorties/year.</div>
           </div>
           <div class="ds-source-row">
-            <div class="ds-source-label">Known flyover rates (reference points)</div>
-            <div class="ds-source-value">Calibration uses a small set of properties with known flyover activity from planning noise assessments and anecdotal reports. These include areas near Coningsby, Odiham, and Salisbury Plain where documented sortie rates exist.</div>
+            <div class="ds-source-label">Interpolation method</div>
+            <div class="ds-source-value">
+              For each property, the tool identifies all airfields within a 20-mile radius. Each airfield's annual movement count is divided by 365 to get a daily rate, then weighted by inverse-square of the distance to the property (i.e. an airfield twice as far contributes one-quarter as much). The weighted contributions are summed to produce the displayed figure.
+              <br><br>
+              The ℹ popup on each card shows a sentence explaining which specific airfields and reference location were used — for example: <em>"Interpolated using inverse-square distance weighting from: Halesworth reference area, RAF Honington (8.2 mi), Beccles Airfield airstrip (11.4 mi)."</em>
+            </div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Reference stations</div>
+            <div class="ds-source-value">45 named reference locations across England were pre-computed using the same weighted method and stored in <code>flyover-reference.json</code>. Each property is matched to its nearest reference station by name; the reference station's rate is used as the displayed figure, adjusted for the property's own distance profile. This avoids repeating the full calculation for every property at display time.</div>
           </div>
           <div class="ds-source-row">
             <div class="ds-source-label">Accuracy warning</div>
-            <div class="ds-source-value">Flyover estimates are indicative only. Actual experience depends on the specific sortie programme in force, temporary airspace restrictions, weather, and individual flight crew routing decisions. Properties with an <strong>⚠ ESTIMATED</strong> banner have imprecise geocoding — the underlying distance calculations may be off by up to several miles.</div>
+            <div class="ds-source-value">Flyover estimates are indicative only. CAA data includes all movements (commercial, private, military, training) — not exclusively military overflights. Actual noise experience depends on the flight path relative to the property, aircraft type, and day-to-day scheduling. Properties with an <strong>⚠ ESTIMATED</strong> banner have imprecise geocoding — the underlying distance calculations may be off by up to several miles, making the interpolated figure correspondingly less reliable.</div>
           </div>
         </div>
       </details>

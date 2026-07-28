@@ -754,11 +754,23 @@ function renderCard(p, context) {
     const approxBanner = approxFlyover
       ? `<div class="flyover-approx-banner flyover-approx-banner-${approxLevel}" title="${approxReasons[geoAccuracy] || approxReasons['null']}">⚠ ESTIMATED — inexact location</div>`
       : '';
+    const interpParts = [];
+    if (fd.location) interpParts.push(fd.location + ' reference area');
+    if (p.nearestAirport?.name) interpParts.push(`${p.nearestAirport.name} (${p.nearestAirport.distanceMiles?.toFixed(1)} mi)`);
+    if (p.nearestAirstrip?.name && p.nearestAirstrip.name !== p.nearestAirport?.name)
+      interpParts.push(`${p.nearestAirstrip.name} airstrip (${p.nearestAirstrip.distanceMiles?.toFixed(1)} mi)`);
+    if (p.nearestHeliport?.name && p.nearestHeliport.name !== p.nearestAirport?.name && p.nearestHeliport.name !== p.nearestAirstrip?.name)
+      interpParts.push(`${p.nearestHeliport.name} heliport (${p.nearestHeliport.distanceMiles?.toFixed(1)} mi)`);
+    const interpSentence = interpParts.length > 1
+      ? `Interpolated using inverse-square distance weighting from: ${interpParts.join(', ')}.`
+      : interpParts.length === 1
+        ? `Derived from ${interpParts[0]} using distance-weighted movement data.`
+        : '';
     const popupLines = [
       `<b>Flyover estimate</b>`,
-      `Reference station: ${fd.location || 'unknown'}`,
       `Rate: ${fd.flightsPerDay} flights/day`,
       fd.seasonalFlag ? `Seasonal pattern: ${fd.seasonalFlag.replace(/_/g,' ')}` : '',
+      interpSentence ? `<span style="font-size:11px;color:#666;">${interpSentence}</span>` : '',
       approxFlyover
         ? `<span class="flyover-popup-warning">⚠ ESTIMATED — ${approxReasons[geoAccuracy] || approxReasons['null']}. Do not rely on this figure for precise comparisons.</span>`
         : `Location accuracy: address-level (reliable)`,
@@ -1180,6 +1192,15 @@ function makeZonePopup(z) {
   if (z.description) html += `<p style="margin:6px 0 4px;font-size:12px;line-height:1.45">${z.description}</p>`;
   if (z.aircraft) html += `<div style="font-size:12px"><strong>Aircraft:</strong> ${z.aircraft}</div>`;
   if (z.nearestTowns) html += `<div style="font-size:12px;margin-top:3px"><strong>Nearest towns:</strong> ${z.nearestTowns}</div>`;
+  if (z.dailyFlights) {
+    const df = z.dailyFlights;
+    html += `<div style="margin-top:8px;padding-top:7px;border-top:1px solid #e0e0e0;">
+      <div style="font-size:12px;font-weight:700;margin-bottom:3px;">✈ Estimated low-level sorties (&lt;10,000 ft)</div>
+      <div style="font-size:13px;font-weight:700;color:#4a148c;">${df.low}–${df.high} per day <span style="font-size:11px;font-weight:400;color:#777;">(area-wide)</span></div>
+      <div style="font-size:11px;color:#666;margin-top:3px;line-height:1.4;">${df.note}</div>
+      <div style="font-size:10px;color:#999;margin-top:4px;font-style:italic;">Source: ${df.sourceLabel}</div>
+    </div>`;
+  }
   return html;
 }
 
