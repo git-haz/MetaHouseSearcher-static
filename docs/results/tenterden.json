@@ -1,9 +1,93 @@
 {
   "location": "Tenterden",
   "slug": "tenterden",
-  "generatedAt": "2026-07-25T13:05:28.153Z",
-  "count": 43,
+  "generatedAt": "2026-07-28T09:09:09.927Z",
+  "count": 70,
   "properties": [
+    {
+      "title": "2 bedroom retirement property for sale",
+      "price": 130000,
+      "address": "Cedar Court, Woodbury lane, Tenterden",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Rush Witt & Wilson - Tenterden",
+      "agentPhone": "01580 468935",
+      "type": "Retirement property",
+      "description": "a tucked away yet highly convenient location in the heart of Tenterden.Entrance hallway, living/dining room with adjoining kitchen, two bedrooms and bathroom.Rush Witt & Wilson - TenterdenAdded > 14 daysEmail01580 468935",
+      "images": [
+        "https://media.onthemarket.com/properties/16113509/1607817200/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16113509/1607817200/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16113509/1607817200/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16113509/1607817200/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16113509/1607817200/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16113509/"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
     {
       "title": "3 bedroom ground floor flat for sale",
       "price": 400000,
@@ -29,8 +113,8 @@
           "url": "https://www.onthemarket.com/details/19539427/"
         }
       ],
-      "lat": 51.0665274,
-      "lon": 0.6815113,
+      "lat": 51.0661955,
+      "lon": 0.6801057,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -44,8 +128,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.7959111534762,
-        "distanceMiles": 13.54334710934666
+        "distanceKm": 21.856665685000017,
+        "distanceMiles": 13.581098213354146
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -53,8 +137,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.3729340305847275,
-        "distanceMiles": 2.717214391518463
+        "distanceKm": 4.477848284090267,
+        "distanceMiles": 2.782405066133453
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -62,13 +146,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.08580184486918,
-        "distanceMiles": 16.830331778148206
+        "distanceKm": 27.06822736923576,
+        "distanceMiles": 16.819411508649395
       },
-      "minAirportDistanceMiles": 2.717214391518463,
+      "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 376.5,
+        "flightsPerDay": 376.8,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -77,111 +161,16 @@
       "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
-        "airstripsCount": 4,
+        "airstripsCount": 5,
         "helipadsCount": 0,
         "airportsDiff": -3,
-        "airstripsDiff": 4,
+        "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.5,
-        "flightsDiffPct": 346
+        "flightsPerDay": 376.8,
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
-      ],
-      "previousPrice": 450000
-    },
-    {
-      "title": "3 bedroom ground floor flat for sale",
-      "price": 264000,
-      "address": "Westbourne House, Tenterden TN30",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Homewise- Southeast",
-      "agentPhone": "01939 336598",
-      "type": "Ground floor flat",
-      "description": "a Lifetime Lease)SAVINGS against the full price of this property typically range from 20% to 50% for a Lifetime LeaseRetirementHomewise- SoutheastReduced < 7 daysEmail01939 336598",
-      "images": [
-        "https://media.onthemarket.com/properties/19539428/1623360216/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19539428/1630301537/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19539428/1625031308/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19539428/1623360216/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19539428/1629830405/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19539428/"
-        }
-      ],
-      "lat": 51.06275661757106,
-      "lon": 0.696640025839794,
-      "searchLocation": "Tenterden",
-      "searchLocations": [
-        "Tenterden"
-      ],
-      "sourceLocation": "Tenterden",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "Lydd London Ashford Airport",
-        "icao": "EGMD",
-        "category": "airport",
-        "usage": "private",
-        "active": true,
-        "distanceKm": 20.68707158315914,
-        "distanceMiles": 12.854346356699176
-      },
-      "nearestAirstrip": {
-        "name": "Little Robhurst Airstrip",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 3.5997809673529795,
-        "distanceMiles": 2.2367994994650884
-      },
-      "nearestHeliport": {
-        "name": "Maidstone Hospital Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 27.99044413650733,
-        "distanceMiles": 17.392450263545697
-      },
-      "minAirportDistanceMiles": 2.2367994994650884,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 1,
-        "airstripsCount": 4,
-        "helipadsCount": 0,
-        "airportsDiff": -3,
-        "airstripsDiff": 4,
-        "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z",
-      "updated": true,
-      "updatedFields": [
-        "price",
-        "description"
-      ],
-      "previousPrice": 297000
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bedroom retirement property for sale",
@@ -262,10 +251,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.1,
-        "flightsDiffPct": 343
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "4 bedroom detached house for sale",
@@ -278,12 +267,12 @@
       "agent": "Homewise- Southeast",
       "agentPhone": "01939 336598",
       "type": "Detached house",
-      "description": "a Lifetime Lease)SAVINGS against the full price of this property typically range from 20% to 50% for a Lifetime LeaseRetirementChain-freeHomewise- SoutheastAdded < 14 daysEmail01939 336598",
+      "description": "THIS SATURDAY (1 ST AUG) - by appointment onlyONLY OVER 60s are eligible for the Home for Life from Homewise (incorporating a Lifetime Lease)SAVINGS against the full price of this property typically range from 20% to 50% for a Lifetime LeaseRetirementChai",
       "images": [
-        "https://media.onthemarket.com/properties/19942626/1630529065/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19942626/1630529065/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19942626/1630529065/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19942626/1630529065/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19942626/1629764342/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19942626/1629764342/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19942626/1629764342/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19942626/1629764342/image-3-480x320.jpg",
         "https://media.onthemarket.com/properties/19942626/1629756661/image-4-480x320.jpg"
       ],
       "sources": [
@@ -346,10 +335,14 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.9,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
     },
     {
       "title": "2 bedroom semi-detached house for sale",
@@ -430,10 +423,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.3,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bedroom flat for sale",
@@ -460,8 +453,8 @@
           "url": "https://www.onthemarket.com/details/19877051/"
         }
       ],
-      "lat": 51.0659639,
-      "lon": 0.6841725,
+      "lat": 51.0660822,
+      "lon": 0.683338,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -475,8 +468,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.606896825769564,
-        "distanceMiles": 13.42589908752526
+        "distanceKm": 21.66250151617586,
+        "distanceMiles": 13.460450229607709
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -484,8 +477,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.220961250230422,
-        "distanceMiles": 2.622782913016928
+        "distanceKm": 4.270552750851228,
+        "distanceMiles": 2.6535976333491784
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -493,13 +486,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.23412452155074,
-        "distanceMiles": 16.922495188080504
+        "distanceKm": 27.193142444549583,
+        "distanceMiles": 16.89703011391222
       },
-      "minAirportDistanceMiles": 2.622782913016928,
+      "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 376.2,
+        "flightsPerDay": 376.3,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -513,11 +506,11 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.2,
-        "flightsDiffPct": 346
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bedroom flat for sale",
@@ -598,10 +591,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -682,10 +675,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.8,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -766,10 +759,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.8,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "4 bedroom semi-detached house for sale",
@@ -850,10 +843,100 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.6,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "3 bedroom ground floor flat for sale",
+      "price": 264500,
+      "address": "Westbourne House, Tenterden TN30",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Homewise- Southeast",
+      "agentPhone": "01939 336598",
+      "type": "Ground floor flat",
+      "description": "a Lifetime Lease)SAVINGS against the full price of this property typically range from 20% to 50% for a Lifetime LeaseRetirementHomewise- SoutheastAdded > 14 daysEmail01939 336598",
+      "images": [
+        "https://media.onthemarket.com/properties/19539428/1625031308/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19539428/1625031308/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19539428/1632169463/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19539428/1628878113/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19539428/1629830405/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19539428/"
+        }
+      ],
+      "lat": 51.06275661757106,
+      "lon": 0.696640025839794,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.68707158315914,
+        "distanceMiles": 12.854346356699176
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.5997809673529795,
+        "distanceMiles": 2.2367994994650884
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.99044413650733,
+        "distanceMiles": 17.392450263545697
+      },
+      "minAirportDistanceMiles": 2.2367994994650884,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.7,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z",
+      "updated": true,
+      "updatedFields": [
+        "price",
+        "description"
+      ],
+      "previousPrice": 264000
     },
     {
       "title": "2 bedroom end of terrace house for sale",
@@ -934,10 +1017,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 376.3,
-        "flightsDiffPct": 346
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "5 bedroom maisonette for sale",
@@ -964,8 +1047,8 @@
           "url": "https://www.onthemarket.com/details/19176595/"
         }
       ],
-      "lat": 51.0694206,
-      "lon": 0.6896622,
+      "lat": 51.0693541,
+      "lon": 0.6897928,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -979,8 +1062,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.513047145278772,
-        "distanceMiles": 13.367583617709016
+        "distanceKm": 21.501321589225256,
+        "distanceMiles": 13.360297697218487
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -988,8 +1071,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 3.7297042939017233,
-        "distanceMiles": 2.317530086806008
+        "distanceKm": 3.723342599140223,
+        "distanceMiles": 2.3135771141703594
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -997,10 +1080,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.10375637347801,
-        "distanceMiles": 16.841488201544404
+        "distanceKm": 27.11484448411687,
+        "distanceMiles": 16.848378031940182
       },
-      "minAirportDistanceMiles": 2.317530086806008,
+      "minAirportDistanceMiles": 2.3135771141703594,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 374.8,
@@ -1018,10 +1101,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.8,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -1048,8 +1131,8 @@
           "url": "https://www.onthemarket.com/details/18154479/"
         }
       ],
-      "lat": 51.0677487,
-      "lon": 0.6857171,
+      "lat": 51.0678475,
+      "lon": 0.6858166,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -1063,8 +1146,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.630656985276932,
-        "distanceMiles": 13.440662961598512
+        "distanceKm": 21.631238615351055,
+        "distanceMiles": 13.441024369659301
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -1072,8 +1155,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.0505202603470325,
-        "distanceMiles": 2.516875824692096
+        "distanceKm": 4.040321257830797,
+        "distanceMiles": 2.51053846029958
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -1081,10 +1164,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.118980437366492,
-        "distanceMiles": 16.850947993346853
+        "distanceKm": 27.113151384076115,
+        "distanceMiles": 16.84732598867476
       },
-      "minAirportDistanceMiles": 2.516875824692096,
+      "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 375.7,
@@ -1102,10 +1185,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.7,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bedroom terraced house for sale",
@@ -1132,8 +1215,8 @@
           "url": "https://www.onthemarket.com/details/18139669/"
         }
       ],
-      "lat": 51.0677487,
-      "lon": 0.6857171,
+      "lat": 51.0679547,
+      "lon": 0.6864188,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -1147,8 +1230,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.630656985276932,
-        "distanceMiles": 13.440662961598512
+        "distanceKm": 21.603579854861437,
+        "distanceMiles": 13.423838017995106
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -1156,8 +1239,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.0505202603470325,
-        "distanceMiles": 2.516875824692096
+        "distanceKm": 3.9966679135309655,
+        "distanceMiles": 2.4834135380986497
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -1165,13 +1248,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.118980437366492,
-        "distanceMiles": 16.850947993346853
+        "distanceKm": 27.124673057579265,
+        "distanceMiles": 16.854485222461086
       },
-      "minAirportDistanceMiles": 2.516875824692096,
+      "minAirportDistanceMiles": 2.4834135380986497,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 375.7,
+        "flightsPerDay": 375.5,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -1185,11 +1268,11 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.7,
-        "flightsDiffPct": 345
+        "flightsPerDay": 375.5,
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bedroom terraced house for sale",
@@ -1270,10 +1353,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.4,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bedroom semi-detached house for sale",
@@ -1354,94 +1437,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.8,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
-    },
-    {
-      "title": "2 bedroom retirement property for sale",
-      "price": 130000,
-      "address": "Cedar Court, Woodbury lane, Tenterden",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Rush Witt & Wilson - Tenterden",
-      "agentPhone": "01580 468935",
-      "type": "Retirement property",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/16113509/1607817200/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/16113509/1607817200/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/16113509/1607817200/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/16113509/1607817200/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/16113509/1607817200/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/16113509/"
-        }
-      ],
-      "lat": 51.0637215,
-      "lon": 0.6991989,
-      "searchLocation": "Tenterden",
-      "searchLocations": [
-        "Tenterden"
-      ],
-      "sourceLocation": "Tenterden",
-      "autoRejected": true,
-      "geoAccuracy": "area",
-      "nearestAirport": {
-        "name": "Lydd London Ashford Airport",
-        "icao": "EGMD",
-        "category": "airport",
-        "usage": "private",
-        "active": true,
-        "distanceKm": 20.602449968410006,
-        "distanceMiles": 12.801764939320893
-      },
-      "nearestAirstrip": {
-        "name": "Little Robhurst Airstrip",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 3.391271822895757,
-        "distanceMiles": 2.1072379638645593
-      },
-      "nearestHeliport": {
-        "name": "Maidstone Hospital Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 27.994142666737307,
-        "distanceMiles": 17.394748422973226
-      },
-      "minAirportDistanceMiles": 2.1072379638645593,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 1,
-        "airstripsCount": 4,
-        "helipadsCount": 0,
-        "airportsDiff": -3,
-        "airstripsDiff": 4,
-        "helipadsDiff": -4,
-        "flightsPerDay": 374.1,
-        "flightsDiffPct": 343
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bedroom retirement property for sale",
@@ -1522,10 +1521,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.1,
-        "flightsDiffPct": 343
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -1602,10 +1601,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.3,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -1628,8 +1627,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/73364505/"
         }
       ],
-      "lat": 51.0677487,
-      "lon": 0.6857171,
+      "lat": 51.0678475,
+      "lon": 0.6858166,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -1643,8 +1642,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.630656985276932,
-        "distanceMiles": 13.440662961598512
+        "distanceKm": 21.631238615351055,
+        "distanceMiles": 13.441024369659301
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -1652,8 +1651,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.0505202603470325,
-        "distanceMiles": 2.516875824692096
+        "distanceKm": 4.040321257830797,
+        "distanceMiles": 2.51053846029958
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -1661,10 +1660,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.118980437366492,
-        "distanceMiles": 16.850947993346853
+        "distanceKm": 27.113151384076115,
+        "distanceMiles": 16.84732598867476
       },
-      "minAirportDistanceMiles": 2.516875824692096,
+      "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 375.7,
@@ -1682,10 +1681,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.7,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1762,10 +1761,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 376.3,
-        "flightsDiffPct": 346
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1780,7 +1779,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/ccebf3d980193a3627f6bf768921787858edd1d3.jpg"
+        "https://lid.zoocdn.com/645/430/63b4e4be7da6d55f18e55e76b930c49a68cfdb4b.jpg"
       ],
       "sources": [
         {
@@ -1788,8 +1787,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/73650922/"
         }
       ],
-      "lat": 51.0659639,
-      "lon": 0.6841725,
+      "lat": 51.0665179,
+      "lon": 0.6827541,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -1803,8 +1802,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.606896825769564,
-        "distanceMiles": 13.42589908752526
+        "distanceKm": 21.723491506683878,
+        "distanceMiles": 13.498347640999668
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -1812,8 +1811,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.220961250230422,
-        "distanceMiles": 2.622782913016928
+        "distanceKm": 4.291692095269954,
+        "distanceMiles": 2.6667330089299868
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -1821,13 +1820,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.23412452155074,
-        "distanceMiles": 16.922495188080504
+        "distanceKm": 27.130688146270405,
+        "distanceMiles": 16.858222824136188
       },
-      "minAirportDistanceMiles": 2.622782913016928,
+      "minAirportDistanceMiles": 2.6667330089299868,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 376.2,
+        "flightsPerDay": 376.3,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -1841,11 +1840,11 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.2,
-        "flightsDiffPct": 346
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1860,7 +1859,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/ccebf3d980193a3627f6bf768921787858edd1d3.jpg"
+        "https://lid.zoocdn.com/645/430/63b4e4be7da6d55f18e55e76b930c49a68cfdb4b.jpg"
       ],
       "sources": [
         {
@@ -1868,8 +1867,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/73651268/"
         }
       ],
-      "lat": 51.0659639,
-      "lon": 0.6841725,
+      "lat": 51.0665179,
+      "lon": 0.6827541,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -1883,8 +1882,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.606896825769564,
-        "distanceMiles": 13.42589908752526
+        "distanceKm": 21.723491506683878,
+        "distanceMiles": 13.498347640999668
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -1892,8 +1891,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.220961250230422,
-        "distanceMiles": 2.622782913016928
+        "distanceKm": 4.291692095269954,
+        "distanceMiles": 2.6667330089299868
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -1901,13 +1900,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.23412452155074,
-        "distanceMiles": 16.922495188080504
+        "distanceKm": 27.130688146270405,
+        "distanceMiles": 16.858222824136188
       },
-      "minAirportDistanceMiles": 2.622782913016928,
+      "minAirportDistanceMiles": 2.6667330089299868,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 376.2,
+        "flightsPerDay": 376.3,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -1921,11 +1920,11 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.2,
-        "flightsDiffPct": 346
+        "flightsPerDay": 376.3,
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed cottage for sale",
@@ -2002,10 +2001,10 @@
         "airstripsDiff": 1,
         "helipadsDiff": -2,
         "flightsPerDay": 355.5,
-        "flightsDiffPct": 321
+        "flightsDiffPct": 69
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "4 bed property for sale",
@@ -2082,10 +2081,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 376.1,
-        "flightsDiffPct": 346
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2108,8 +2107,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/73257206/"
         }
       ],
-      "lat": 51.0665274,
-      "lon": 0.6815113,
+      "lat": 51.0661955,
+      "lon": 0.6801057,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -2123,8 +2122,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.7959111534762,
-        "distanceMiles": 13.54334710934666
+        "distanceKm": 21.856665685000017,
+        "distanceMiles": 13.581098213354146
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -2132,8 +2131,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.3729340305847275,
-        "distanceMiles": 2.717214391518463
+        "distanceKm": 4.477848284090267,
+        "distanceMiles": 2.782405066133453
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -2141,13 +2140,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.08580184486918,
-        "distanceMiles": 16.830331778148206
+        "distanceKm": 27.06822736923576,
+        "distanceMiles": 16.819411508649395
       },
-      "minAirportDistanceMiles": 2.717214391518463,
+      "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 376.5,
+        "flightsPerDay": 376.8,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -2156,21 +2155,16 @@
       "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
-        "airstripsCount": 4,
+        "airstripsCount": 5,
         "helipadsCount": 0,
         "airportsDiff": -3,
-        "airstripsDiff": 4,
+        "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.5,
-        "flightsDiffPct": 346
+        "flightsPerDay": 376.8,
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
-      ],
-      "previousPrice": 297000
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2193,8 +2187,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/73258136/"
         }
       ],
-      "lat": 51.0665274,
-      "lon": 0.6815113,
+      "lat": 51.0661955,
+      "lon": 0.6801057,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -2208,8 +2202,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.7959111534762,
-        "distanceMiles": 13.54334710934666
+        "distanceKm": 21.856665685000017,
+        "distanceMiles": 13.581098213354146
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -2217,8 +2211,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 4.3729340305847275,
-        "distanceMiles": 2.717214391518463
+        "distanceKm": 4.477848284090267,
+        "distanceMiles": 2.782405066133453
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -2226,13 +2220,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.08580184486918,
-        "distanceMiles": 16.830331778148206
+        "distanceKm": 27.06822736923576,
+        "distanceMiles": 16.819411508649395
       },
-      "minAirportDistanceMiles": 2.717214391518463,
+      "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 376.5,
+        "flightsPerDay": 376.8,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -2241,22 +2235,16 @@
       "autoTagScores": {},
       "baselineComparison": {
         "airportsCount": 1,
-        "airstripsCount": 4,
+        "airstripsCount": 5,
         "helipadsCount": 0,
         "airportsDiff": -3,
-        "airstripsDiff": 4,
+        "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.5,
-        "flightsDiffPct": 346
+        "flightsPerDay": 376.8,
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z",
-      "updated": true,
-      "updatedFields": [
-        "price",
-        "description"
-      ],
-      "previousPrice": 450000
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "4 bed property for sale",
@@ -2279,8 +2267,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/72181329/"
         }
       ],
-      "lat": 51.0647351,
-      "lon": 0.6887248,
+      "lat": 51.0649246,
+      "lon": 0.6886558,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -2294,8 +2282,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 21.26718965775861,
-        "distanceMiles": 13.214814904831126
+        "distanceKm": 21.283093155485776,
+        "distanceMiles": 13.224696877117353
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -2303,8 +2291,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 3.9823252457886884,
-        "distanceMiles": 2.474501420300963
+        "distanceKm": 3.977861334686934,
+        "distanceMiles": 2.471727675395755
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -2312,13 +2300,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.514463916961287,
-        "distanceMiles": 17.09668995854615
+        "distanceKm": 27.493923805050017,
+        "distanceMiles": 17.083926928667733
       },
-      "minAirportDistanceMiles": 2.474501420300963,
+      "minAirportDistanceMiles": 2.471727675395755,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 375.7,
+        "flightsPerDay": 375.6,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -2332,22 +2320,22 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.7,
-        "flightsDiffPct": 345
+        "flightsPerDay": 375.6,
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
-      "price": 264500,
+      "price": 264000,
       "address": "Eastwell Barn Mews, Tenterden, Kent TN30",
       "bedrooms": 3,
       "bathrooms": 1,
       "sqft": null,
       "type": "Property",
       "description": "a Home for Life Lifetime Lease for over 60s tailored to your personal circumstances and requirements. Your ...Listed on 1st Jul 2026Retirement",
-      "postedDate": null,
+      "postedDate": "Reduced",
       "agent": null,
       "agentPhone": null,
       "images": [
@@ -2413,10 +2401,15 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.8,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z",
+      "updated": true,
+      "updatedFields": [
+        "price"
+      ],
+      "previousPrice": 264500
     },
     {
       "title": "3 bed property for sale",
@@ -2493,10 +2486,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.8,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed semi-detached for sale",
@@ -2573,10 +2566,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.1,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "4 bed property for sale",
@@ -2591,7 +2584,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/bc7d53413d5b4be58d7dd7f3635f6f1fbebf8552.jpg"
+        "https://lid.zoocdn.com/645/430/c630cacf9a41900543b6f208538b9b7edc131ae9.jpg"
       ],
       "sources": [
         {
@@ -2653,15 +2646,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 375.6,
-        "flightsDiffPct": 345
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
-      ],
-      "previousPrice": 445500
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "4 bed property for sale",
@@ -2738,10 +2726,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed cottage for sale",
@@ -2818,10 +2806,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2836,7 +2824,7 @@
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/05751bee2386a3832dcb1295db9c3c529825c4fb.jpg"
+        "https://lid.zoocdn.com/645/430/0f00d3c21482e256612ed773e5ce25a2341f4079.jpg"
       ],
       "sources": [
         {
@@ -2898,10 +2886,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 377.4,
-        "flightsDiffPct": 347
+        "flightsDiffPct": 79
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2978,10 +2966,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 373.5,
-        "flightsDiffPct": 343
+        "flightsDiffPct": 77
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "5 bed property for sale",
@@ -3004,8 +2992,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/73586059/"
         }
       ],
-      "lat": 51.0678734,
-      "lon": 0.6990368,
+      "lat": 51.068145,
+      "lon": 0.6982512,
       "searchLocation": "Tenterden",
       "searchLocations": [
         "Tenterden"
@@ -3019,8 +3007,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 20.882149573640678,
-        "distanceMiles": 12.975562162722682
+        "distanceKm": 20.94425960509225,
+        "distanceMiles": 13.014155535075776
       },
       "nearestAirstrip": {
         "name": "Little Robhurst Airstrip",
@@ -3028,8 +3016,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 3.1818192336769777,
-        "distanceMiles": 1.9770901990490974
+        "distanceKm": 3.2194401170571134,
+        "distanceMiles": 2.0004667249758956
       },
       "nearestHeliport": {
         "name": "Maidstone Hospital Heliport",
@@ -3037,13 +3025,13 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 27.598424330344425,
-        "distanceMiles": 17.148860524570445
+        "distanceKm": 27.5433795324541,
+        "distanceMiles": 17.114657283460538
       },
-      "minAirportDistanceMiles": 1.9770901990490974,
+      "minAirportDistanceMiles": 2.0004667249758956,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 373.6,
+        "flightsPerDay": 373.7,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
@@ -3057,17 +3045,11 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 373.6,
-        "flightsDiffPct": 343
+        "flightsPerDay": 373.7,
+        "flightsDiffPct": 77
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z",
-      "updated": true,
-      "updatedFields": [
-        "price",
-        "description"
-      ],
-      "previousPrice": 330500
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
@@ -3144,10 +3126,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
@@ -3224,10 +3206,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "3 bed property for sale",
@@ -3304,10 +3286,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 374.7,
-        "flightsDiffPct": 344
+        "flightsDiffPct": 78
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed detached for sale",
@@ -3384,10 +3366,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 373.2,
-        "flightsDiffPct": 342
+        "flightsDiffPct": 77
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed property for sale",
@@ -3464,10 +3446,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 373.5,
-        "flightsDiffPct": 343
+        "flightsDiffPct": 77
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     },
     {
       "title": "2 bed property for sale",
@@ -3544,10 +3526,2170 @@
         "airstripsDiff": 4,
         "helipadsDiff": -4,
         "flightsPerDay": 373.5,
-        "flightsDiffPct": 343
+        "flightsDiffPct": 77
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:05:28.153Z"
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 325000,
+      "address": "Hermitage Place, Bath Road,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 847,
+      "type": "Property",
+      "description": "a Homes…Selection of newly built and beautif……Selection of newly built andbeautifully refurbished homes…Landscaped communal gardens wit……Landscaped communal gardenswith direct private gated access to……B",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBSURDSND250078/SND250078_26_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsurdsnd250078"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 310000,
+      "address": "Gibraltar - Sir William Jackson Grove,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 80,
+      "type": "Property",
+      "description": "an MonteroSavills Gibraltar+350 200 666 33+350 200 666 33Contact nowFlat / Apartment715.80 sq ft (66.50 sq m)3Bedrooms1Bathrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsss0711812"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 299000,
+      "address": "Gibraltar - Marina Bay,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 83,
+      "type": "Property",
+      "description": "a Bay…Ocean Village645.83 sq ft(60 sq m)Guide price £299,000(€349,734)Private Parking…Private Parking…Fully Furnished…Fully Furnished…Communal pool…Communal pool…Good condition…Good condition…Aidan Mont",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsssmb29"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 210000,
+      "address": "Canal,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 635,
+      "type": "Property",
+      "description": "Situated over 3 floors…Situated over 3 floors…In the heart of Salisbury…In the heart of Salisbury…Next to local shops & facilities…Next to local shops & facilities…Daniel TarrantSouth Coast New Homes+44 (0) 23",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbslrswnd250010"
+        }
+      ],
+      "lat": 50.5107741,
+      "lon": -4.1921368,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 57.37644240973055,
+        "distanceMiles": 35.65205739657668
+      },
+      "nearestAirstrip": {
+        "name": "Tinnel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.373823842696542,
+        "distanceMiles": 3.9605092949601928
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.872291211506674,
+        "distanceMiles": 11.105323462385114
+      },
+      "minAirportDistanceMiles": 3.9605092949601928,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 371.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 371.8,
+        "flightsDiffPct": 76
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 335000,
+      "address": "Apartment 3 Bosq House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 31,
+      "type": "Property",
+      "description": "A well rounded 1 bedroom apartme……A well rounded 1 bedroomapartment.…Part of the highly regarded Royal Te……Part of the highly regarded RoyalTerrace development.…Situated in the heart of town.…Situated i",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbguesgue260105"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 345000,
+      "address": "Apartment 2 Fermoy House,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 31,
+      "type": "Property",
+      "description": "two bedroom apartment…Top floor, two bedroom apartment…Secure underground parking space…Secure underground parking space…Situated in a block with only one ot……Situated in a block with only oneother apartm",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbguesgue260131"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 265000,
+      "address": "Winterbrook Meadows,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 630,
+      "type": "Property",
+      "description": "a t……Apartments and family homes in athriving Oxfordshire community…Walk to Wallingford town centre via ……Walk to Wallingford town centre viaa direct pedestrian route…Moments from the River Thames an……M",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbswrdsud240091"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 270000,
+      "address": "Cleve Way,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 794,
+      "type": "Property",
+      "description": "Two bedroom terraced home…Two bedroom terraced home…Ideal first time purchase…Ideal first time purchase…Potential to modernise…Potential to modernise…David VawdreyPetworth+44 (0) 1798 345 980+44 (0) 1798",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbpwrspsg260104"
+        }
+      ],
+      "lat": 51.0194787,
+      "lon": -0.4504652,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 23.0954150566574,
+        "distanceMiles": 14.350821149170267
+      },
+      "nearestAirstrip": {
+        "name": "Fowler's Field Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.1166158553612084,
+        "distanceMiles": 1.3152037106616494
+      },
+      "nearestHeliport": {
+        "name": "Avisford Park Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 22.145437174572542,
+        "distanceMiles": 13.760532442601315
+      },
+      "minAirportDistanceMiles": 1.3152037106616494,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 610.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 5,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 5,
+        "helipadsDiff": -3,
+        "flightsPerDay": 610.2,
+        "flightsDiffPct": 190
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 581356,
+      "address": "Via Aurelia,",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1651399,
+      "type": "Property",
+      "description": "a Aurelia…Rome, Italy, 001651,399 sq ft(129.97 sq m)Asking price €680,000(£581,356)Sold in July 2026…Sold in July 2026…Spacious panoramic terrace with pergola…Spacious panoramic terrace with pergola…Ful",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250231"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 725000,
+      "address": "Garrick Close,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 844,
+      "type": "Property",
+      "description": "A generous sized garden…A generous sized garden…Ideally positioned for local amenities…Ideally positioned for local amenities…Property is being offered chain free…Property is being offered chain free…Be",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwarsclv756739"
+        }
+      ],
+      "lat": 51.4603075,
+      "lon": -0.1807346,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 17.091629194794248,
+        "distanceMiles": 10.620242724398496
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.607784028255416,
+        "distanceMiles": 10.319595369421096
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 1.0720706680643728,
+        "distanceMiles": 0.6661536230858274
+      },
+      "minAirportDistanceMiles": 0.6661536230858274,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 209.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 5,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 1,
+        "flightsPerDay": 209.9,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 1450000,
+      "address": "Cornwall Gardens Court,",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1138,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbecrsecs260064"
+        }
+      ],
+      "lat": 51.4972791,
+      "lon": -0.1887038,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.911577727502358,
+        "distanceMiles": 10.508363964115867
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 19.899579688773965,
+        "distanceMiles": 12.365021730793167
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 3.1076951885157347,
+        "distanceMiles": 1.9310316669832106
+      },
+      "minAirportDistanceMiles": 1.9310316669832106,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 152.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 6,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 2,
+        "flightsPerDay": 152.7,
+        "flightsDiffPct": -28
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 2250000,
+      "address": "Sewardstone Road,",
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "sqft": 6910,
+      "type": "Property",
+      "description": "Three two bedroom flats…Three two bedroom flats…About two acres of mature grounds…About two acres of mature grounds…David BloomfieldLoughton+44 (0) 20 8498 6600+44 (0) 20 8498 6600Contact nowFelicity Walker",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhtrslus230216"
+        }
+      ],
+      "lat": 51.5333753,
+      "lon": -0.049702,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 7.9061730627462055,
+        "distanceMiles": 4.912666662171673
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.166920324383335,
+        "distanceMiles": 8.802913448882398
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.8250169130524203,
+        "distanceMiles": 1.1340125842802955
+      },
+      "minAirportDistanceMiles": 1.1340125842802955,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 146,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 146,
+        "flightsDiffPct": -31
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1750000,
+      "address": "Robins Lane,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2506,
+      "type": "Property",
+      "description": "Four bedrooms, three bath/shower rooms…Four bedrooms, three bath/shower rooms…Two reception rooms and study…Two reception rooms and study…Double detached garage…Double detached garage…David BloomfieldLough",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhtrslus260018"
+        }
+      ],
+      "lat": 51.41408,
+      "lon": -3.2571276,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cardiff International Airport",
+        "icao": "EGFF",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 6.283834053394301,
+        "distanceMiles": 3.9045922495916705
+      },
+      "nearestAirstrip": {
+        "name": "Croes Carn Einion Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 21.325057231388943,
+        "distanceMiles": 13.250772136925379
+      },
+      "nearestHeliport": {
+        "name": "Cardiff Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.199533180723208,
+        "distanceMiles": 6.33769413203916
+      },
+      "minAirportDistanceMiles": 3.9045922495916705,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 391.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 3,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -1,
+        "flightsPerDay": 391.3,
+        "flightsDiffPct": 86
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2500000,
+      "address": "Martello Road,",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 5051,
+      "type": "Property",
+      "description": "Four car garage with office space above…Four car garage with office space above…Oliver ShrubsoleCanford Cliffs+44 (0) 1202 708 888+44 (0) 1202 708 888Contact nowHouse5,051 sq ft (469.25 sq m)5Bedrooms4Bath",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbccrscfs250108"
+        }
+      ],
+      "lat": 50.7104033,
+      "lon": -1.9197559,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Bournemouth Airport",
+        "icao": "EGHH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 9.62027097294384,
+        "distanceMiles": 5.977757394729087
+      },
+      "nearestAirstrip": {
+        "name": "Newton Peveril Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.599120366506174,
+        "distanceMiles": 9.692841021256308
+      },
+      "nearestHeliport": {
+        "name": "Royal Bournemouth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.104672273849797,
+        "distanceMiles": 5.036008315474322
+      },
+      "minAirportDistanceMiles": 5.036008315474322,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 453.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 453.6,
+        "flightsDiffPct": 115
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 2495000,
+      "address": "Preston Crowmarsh,",
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "sqft": 6585,
+      "type": "Property",
+      "description": "a KnightHenley+44 (0) 1491 843 000+44 (0) 1491 843 000Contact nowHouse6,585 sq ft (611.77 sq m)6Bedrooms3Bathrooms6Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhersclv747875"
+        }
+      ],
+      "lat": 51.6133936,
+      "lon": -1.1108054,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Benson",
+        "icao": "EGUB",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 1.028594244660503,
+        "distanceMiles": 0.6391386343989414
+      },
+      "nearestAirstrip": {
+        "name": "North Moreton Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.146155843616464,
+        "distanceMiles": 3.197672002703806
+      },
+      "nearestHeliport": {
+        "name": "Chequers Helicopter Landing Ground",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 26.824543774911547,
+        "distanceMiles": 16.667993589960563
+      },
+      "minAirportDistanceMiles": 0.6391386343989414,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 555.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 555.1,
+        "flightsDiffPct": 163
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 375000,
+      "address": "Constable House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 541,
+      "type": "Property",
+      "description": "a first time buyer/investor…Excellent opportunity for a first time buyer/investor…Fully equipped gymnasium…Fully equipped gymnasium…Indoor heated pool…Indoor heated pool…Antony CherrimanCanary Wharf+44",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcwrscns260029"
+        }
+      ],
+      "lat": 51.5441731,
+      "lon": -0.1564853,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.274778300813662,
+        "distanceMiles": 9.491304267554886
+      },
+      "nearestAirstrip": {
+        "name": "Elstree Airfield",
+        "icao": "EGTR",
+        "category": "airstrip",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 17.055094865923373,
+        "distanceMiles": 10.597541351933671
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.392144784096516,
+        "distanceMiles": 4.593264396638836
+      },
+      "minAirportDistanceMiles": 4.593264396638836,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 140.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 6,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 2,
+        "flightsPerDay": 140.8,
+        "flightsDiffPct": -33
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 3950000,
+      "address": "Albert Embankment,",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 2050,
+      "type": "Property",
+      "description": "Three double bedrooms…Three double bedrooms…Aileen McCarthyBattersea Park+44 (0) 203 402 1900+44 (0) 203 402 1900Contact nowFlat / Apartment2,050 sq ft (190.45 sq m)3Bedrooms3Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbqrscli234454"
+        }
+      ],
+      "lat": 51.486612,
+      "lon": -0.1236881,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.56225596023314,
+        "distanceMiles": 7.805821548266026
+      },
+      "nearestAirstrip": {
+        "name": "Kenley Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 20.238286206488567,
+        "distanceMiles": 12.575484138412008
+      },
+      "nearestHeliport": {
+        "name": "King's College Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.0297591701553532,
+        "distanceMiles": 1.882604485318602
+      },
+      "minAirportDistanceMiles": 1.882604485318602,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 100.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 100.7,
+        "flightsDiffPct": -52
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1200000,
+      "address": "Manville Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1508,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcmrscps260089"
+        }
+      ],
+      "lat": 51.4365083,
+      "lon": -0.1513973,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.230749789334933,
+        "distanceMiles": 10.085317227348837
+      },
+      "nearestAirstrip": {
+        "name": "Kenley Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.07486374565289,
+        "distanceMiles": 9.367083160500082
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 4.195825401847747,
+        "distanceMiles": 2.6071642257715366
+      },
+      "minAirportDistanceMiles": 2.6071642257715366,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.5,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 5,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 1,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 234.5,
+        "flightsDiffPct": 11
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1350000,
+      "address": "Rendham,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbiprsips240279"
+        }
+      ],
+      "lat": 52.231344,
+      "lon": 1.4384055,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.84970156895181,
+        "distanceMiles": 21.654593913601154
+      },
+      "nearestAirstrip": {
+        "name": "Yoxford Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.122135389099593,
+        "distanceMiles": 4.425488388860203
+      },
+      "nearestHeliport": {
+        "name": "Sealand Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 37.58265186797948,
+        "distanceMiles": 23.352769973858276
+      },
+      "minAirportDistanceMiles": 4.425488388860203,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 13.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 13.4,
+        "flightsDiffPct": -94
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Promenade,",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "sqft": 10304,
+      "type": "Property",
+      "description": "an kitchen/dining room designed for family living and entertaining…Magnificent 40 ft reception rooms and open plan kitchen/dining room designed for family living and entertaining…Principal bedroom suite",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbclrscos250223"
+        }
+      ],
+      "lat": 50.5907403,
+      "lon": -1.981828,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Bournemouth Airport",
+        "icao": "EGHH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 23.357601612464904,
+        "distanceMiles": 14.51373627153893
+      },
+      "nearestAirstrip": {
+        "name": "Dorset Gliding Club (Eyres Field)",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 21.295652578429436,
+        "distanceMiles": 13.232500938311277
+      },
+      "nearestHeliport": {
+        "name": "Royal Bournemouth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 20.76590180146269,
+        "distanceMiles": 12.903329168276674
+      },
+      "minAirportDistanceMiles": 12.903329168276674,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 444,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 444,
+        "flightsDiffPct": 111
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1625000,
+      "address": "Staplefield Road,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 3503,
+      "type": "Property",
+      "description": "a rare and exciting opportunity…First time to market in nearly 40 years - a rare and exciting opportunity…Set in a glorious semi-rural position between Cuckfield and Staplefield villages…Set in a glorio",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhhrshys250198"
+        }
+      ],
+      "lat": 51.0492611,
+      "lon": -0.1969908,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Gatwick Airport",
+        "icao": "EGKK",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 11.08986076548716,
+        "distanceMiles": 6.890917873711522
+      },
+      "nearestAirstrip": {
+        "name": "OaklandS Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.418046292705633,
+        "distanceMiles": 5.852100842944791
+      },
+      "nearestHeliport": {
+        "name": "Royal Surrey County Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 35.662070745399866,
+        "distanceMiles": 22.15937656113986
+      },
+      "minAirportDistanceMiles": 5.852100842944791,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 649.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 649.2,
+        "flightsDiffPct": 208
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 360000,
+      "address": "Carlyle Road,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 819,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbeersels250310"
+        }
+      ],
+      "lat": 51.5059121,
+      "lon": 0.116419,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 4.232237141279852,
+        "distanceMiles": 2.629789424714203
+      },
+      "nearestAirstrip": {
+        "name": "Gerpins Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.424755130655091,
+        "distanceMiles": 5.234898520290285
+      },
+      "nearestHeliport": {
+        "name": "Vanguard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.961366560577398,
+        "distanceMiles": 6.189704301112538
+      },
+      "minAirportDistanceMiles": 2.629789424714203,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 150.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 150.6,
+        "flightsDiffPct": -29
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 252.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 252.2,
+        "flightsDiffPct": 20
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 51.0637215,
+      "lon": 0.6991989,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Lydd London Ashford Airport",
+        "icao": "EGMD",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 20.602449968410006,
+        "distanceMiles": 12.801764939320893
+      },
+      "nearestAirstrip": {
+        "name": "Little Robhurst Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.391271822895757,
+        "distanceMiles": 2.1072379638645593
+      },
+      "nearestHeliport": {
+        "name": "Maidstone Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 27.994142666737307,
+        "distanceMiles": 17.394748422973226
+      },
+      "minAirportDistanceMiles": 2.1072379638645593,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 374.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 4,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 4,
+        "helipadsDiff": -4,
+        "flightsPerDay": 374.1,
+        "flightsDiffPct": 78
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 950000,
+      "address": "Martins Lane, Birdham, Chichester, West Sussex, PO20",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr0.homeflow-assets.co.uk/files/photo/image/47952/7898/450x_/CHI250213_03.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21967894/sales/chichester"
+        }
+      ],
+      "lat": 50.7963656,
+      "lon": -0.8290702,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 37.61845176042956,
+        "distanceMiles": 23.375014988829875
+      },
+      "nearestAirstrip": {
+        "name": "North Honer Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.603805931885797,
+        "distanceMiles": 3.4820424957018097
+      },
+      "nearestHeliport": {
+        "name": "Goodwood Racecourse Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.178886604176556,
+        "distanceMiles": 8.18897794812379
+      },
+      "minAirportDistanceMiles": 3.4820424957018097,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 528.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 2,
+        "helipadsCount": 4,
+        "airportsDiff": -4,
+        "airstripsDiff": 2,
+        "helipadsDiff": 0,
+        "flightsPerDay": 528.6,
+        "flightsDiffPct": 151
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2370037,
+      "lon": -2.2967325,
+      "searchLocation": "Tenterden",
+      "searchLocations": [
+        "Tenterden"
+      ],
+      "sourceLocation": "Tenterden",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.54737313961276,
+        "distanceMiles": 7.796573795134321
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.403410650617062,
+        "distanceMiles": 2.7361516793845744
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.842662120410782,
+        "distanceMiles": 10.465541804421768
+      },
+      "minAirportDistanceMiles": 2.7361516793845744,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 297.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 297.4,
+        "flightsDiffPct": 41
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:09:09.927Z"
     }
   ],
   "portalLinks": [
@@ -3586,7 +5728,5 @@
       "url": "https://www.winkworth.co.uk/properties?search_location=TN30%206BD&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Tenterden"
     }
-  ],
-  "dupePassAt": "2026-07-25T14:16:23.670Z",
-  "autoTaggedAt": "2026-07-25T14:16:23.726Z"
+  ]
 }
