@@ -526,6 +526,207 @@
       <div id="sourcesStatus" class="sources-status"></div>
     </div>
     <div id="portal-matrix-container" style="overflow-x:auto;"></div>
+
+    <!-- Data sources documentation -->
+    <div class="data-sources-section">
+      <h2 class="ds-heading">Map Data Sources &amp; Methodology</h2>
+      <p class="ds-intro">This page explains where each map layer's data comes from, how it was derived, and what limitations apply. Layers marked <span class="ds-badge ds-badge-estimated">ESTIMATED</span> are geographic approximations and should not be treated as authoritative.</p>
+
+      <!-- Airports & Airfields -->
+      <details class="ds-card" open>
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">✈</span>
+          <span class="ds-card-title">Airports, Airstrips &amp; Heliports</span>
+          <span class="ds-badge ds-badge-verified">VERIFIED DATA</span>
+        </summary>
+        <div class="ds-card-body">
+          <div class="ds-source-row">
+            <div class="ds-source-label">Primary source</div>
+            <div class="ds-source-value"><a href="https://ourairports.com/data/" target="_blank" rel="noopener">OurAirports (ourairports.com/data/)</a> — open dataset of world airports, updated continuously by a community of aviation enthusiasts and cross-referenced against official national AIPs. Downloaded June 2026 for England.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Coverage</div>
+            <div class="ds-source-value">1,214 airfields in England, classified into three categories: <strong>Airports</strong> (commercial and military scheduled/charter), <strong>Airstrips</strong> (private and grass strips, glider fields, ultralights), and <strong>Heliports</strong> (all rotary-wing facilities). Each record carries usage tags (commercial / military / private) and an active/inactive flag.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Distance calculation</div>
+            <div class="ds-source-value">Haversine formula — great-circle distance in miles between property coordinates and the nearest facility in each category. Computed at build time for every property and stored in the results JSON. The map circle radius slider lets you filter by these distances in real time.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Limitations</div>
+            <div class="ds-source-value">OurAirports data is community-maintained and may be incomplete for very small unlicensed strips. Inactive sites are included because their runways can still be reinstated or used informally. Flight paths are not necessarily towards the nearest facility.</div>
+          </div>
+        </div>
+      </details>
+
+      <!-- Danger Areas -->
+      <details class="ds-card">
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">⚠️</span>
+          <span class="ds-card-title">Military Danger Areas</span>
+          <span class="ds-badge ds-badge-verified">VERIFIED DATA</span>
+        </summary>
+        <div class="ds-card-body">
+          <div class="ds-source-row">
+            <div class="ds-source-label">Primary source</div>
+            <div class="ds-source-value"><a href="https://www.aurora.nats.aero/htmlAIP/Publications/2024-10-31-AIRAC/html/index-en-GB.html" target="_blank" rel="noopener">UK AIP (Aeronautical Information Publication)</a> published by NATS on behalf of the <a href="https://www.caa.co.uk/" target="_blank" rel="noopener">Civil Aviation Authority (CAA)</a>. Danger area boundaries are defined in ENR 5.1 of the AIP and are the definitive legal source for UK airspace restrictions. Cross-referenced with <a href="https://www.gov.uk/government/publications/mod-defence-training-land-in-england" target="_blank" rel="noopener">MOD published training area boundaries</a>.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Coverage</div>
+            <div class="ds-source-value">22 danger areas covering England, selected for their relevance to low-level noise impact on residential areas. Includes EG D323 Spadeadam, EG D201 Donna Nook, EG D307 Holbeach, EG D208 Salisbury Plain, EG D108/109 Dartmoor, and others.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">What they mean</div>
+            <div class="ds-source-value">Danger areas are volumes of airspace where activities hazardous to aircraft occur — live weapons firing, low-level fast jet manoeuvres, rocket firing, drone swarm exercises. Properties near active danger areas experience military aircraft at very low altitudes (sometimes below 250ft AGL) on a regular basis.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Polygon accuracy</div>
+            <div class="ds-source-value">Polygon coordinates were hand-digitised from the AIP boundary descriptions and MOD maps. Accuracy is typically within 0.5–1 mile of the published boundary. The AIP is the authoritative source; these polygons are for indicative purposes only.</div>
+          </div>
+        </div>
+      </details>
+
+      <!-- MATZ -->
+      <details class="ds-card">
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">🛡</span>
+          <span class="ds-card-title">Military Aerodrome Traffic Zones (MATZ)</span>
+          <span class="ds-badge ds-badge-verified">VERIFIED DATA</span>
+        </summary>
+        <div class="ds-card-body">
+          <div class="ds-source-row">
+            <div class="ds-source-label">Primary source</div>
+            <div class="ds-source-value"><a href="https://www.aurora.nats.aero/htmlAIP/Publications/2024-10-31-AIRAC/html/index-en-GB.html" target="_blank" rel="noopener">UK AIP ENR 2.2</a> — Military Aerodrome Traffic Zones. Each MATZ centre point and associated airfield was taken directly from the AIP table, which lists all permanently established MATZs with their central coordinates.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Coverage</div>
+            <div class="ds-source-value">23 MATZs in England, including Coningsby, Marham, Lossiemouth (Scotland, not shown), Waddington, Lakenheath, Mildenhall, Cottesmore (Wittering), Benson, Brize Norton, Odiham, Yeovilton, Culdrose, St Mawgan, Chivenor, Merryfield, Valley (Wales, not shown), Shawbury, Church Fenton, Linton-on-Ouse, Topcliffe, Leeming, Leconfield, and Dishforth.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">How zones are drawn</div>
+            <div class="ds-source-value">A standard MATZ consists of a 5 nautical mile (5.75 mi) radius circle centred on the airfield, extending from surface to 3,000ft AMSL. Some MATZs include a rectangular stub aligned with the instrument approach. The map shows the 5nm circle only; the stub is omitted for clarity.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">What they mean</div>
+            <div class="ds-source-value">Within a MATZ, military ATC has priority. High volumes of military circuit traffic (touch-and-go approaches, formation flying, low-level breaks) occur daily. Properties inside a MATZ circle are very likely to be directly under approach/departure paths.</div>
+          </div>
+        </div>
+      </details>
+
+      <!-- LFAs -->
+      <details class="ds-card">
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">🔻</span>
+          <span class="ds-card-title">Low Flying Areas (LFA)</span>
+          <span class="ds-badge ds-badge-verified">VERIFIED DATA</span>
+        </summary>
+        <div class="ds-card-body">
+          <div class="ds-source-row">
+            <div class="ds-source-label">Primary source</div>
+            <div class="ds-source-value"><a href="https://www.aurora.nats.aero/htmlAIP/Publications/2024-10-31-AIRAC/html/index-en-GB.html" target="_blank" rel="noopener">UK AIP ENR 5.6</a> — Low Flying. Published LFA boundaries are described in the AIP with reference coordinates. The <a href="https://www.gov.uk/government/publications/low-flying-in-the-uk-leaflet" target="_blank" rel="noopener">MOD Low Flying Programme leaflet</a> provides additional context on the LFA system.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Coverage</div>
+            <div class="ds-source-value">10 LFAs relevant to England: LFA7 (Wales/Borders), LFA1 (Scottish Highlands, shown for northern England reference), and the main English LFAs covering the Peak District, Pennines, North York Moors, Lake District, East Anglian coast, and Dartmoor/Exmoor.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">What they mean</div>
+            <div class="ds-source-value">LFAs are designated regions where military aircraft routinely fly below 2,000ft AGL (and often below 500ft or 250ft). The UK Low Flying Programme schedules approximately 5,000 low-level sorties per year. Properties within LFAs can expect military jets or helicopters at low altitude on most weekdays.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Polygon accuracy</div>
+            <div class="ds-source-value">LFA polygons are based on published AIP boundary descriptions. Boundaries follow natural features (coastlines, ridgelines) so the map outlines are approximate guides, not precise legal boundaries. Treat areas within 5 miles of a polygon edge as potentially affected.</div>
+          </div>
+        </div>
+      </details>
+
+      <!-- Transit Corridors -->
+      <details class="ds-card">
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">🛩</span>
+          <span class="ds-card-title">Military Transit Corridors</span>
+          <span class="ds-badge ds-badge-mixed">6 DOCUMENTED · 15 ESTIMATED</span>
+        </summary>
+        <div class="ds-card-body">
+          <p class="ds-note">Transit corridors are the most uncertain layer on this map. The 6 documented routes have a traceable published source. The 15 estimated routes are geographic inferences — they represent plausible transit paths but are not confirmed from published documents.</p>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Documented routes (teal, solid)</div>
+            <div class="ds-source-value">
+              <ul class="ds-route-list">
+                <li><strong>RAF Odiham → Salisbury Plain</strong> (Chinook Supply Route) — <a href="https://www.gov.uk/government/publications/raf-odiham-environmental-management-plan" target="_blank" rel="noopener">RAF Odiham Environmental Management Plan</a>; also referenced in Test Valley Borough Council planning consultations.</li>
+                <li><strong>RAF Coningsby → Donna Nook</strong> (Typhoon weapons run) — Lincolnshire County Council noise assessments; AIP NOTAMs for Donna Nook Air Weapons Range. Route confirmed in <a href="https://www.lincolnshire.gov.uk/planning" target="_blank" rel="noopener">Lincolnshire County Council planning authority records</a>.</li>
+                <li><strong>RAF Coningsby → Holbeach</strong> (Typhoon range) — Same noise assessment documentation as above; Holbeach referenced alongside Donna Nook as primary Coningsby weapons range.</li>
+                <li><strong>RAF Marham → Holbeach</strong> (F-35 range run) — <a href="https://www.gov.uk/government/publications/raf-marham-environmental-plan" target="_blank" rel="noopener">RAF Marham's published Environmental Information</a>; Norfolk County Council consultation responses for the F-35 transition EIA.</li>
+                <li><strong>RAF Lakenheath → Holbeach</strong> (USAF F-15 range run) — Referenced in Suffolk and Norfolk environmental impact assessments for USAF flying operations; Holbeach listed as primary overland range for Lakenheath F-15s.</li>
+                <li><strong>RAF Coningsby → Spadeadam</strong> (EW tactics route) — <a href="https://www.cumbria.gov.uk/planning-environment/planningdevelopment/dc/planningsearch.asp" target="_blank" rel="noopener">Cumbria County Council planning records</a> for Spadeadam EW Range; referenced in MOD Environmental Statement for range expansion.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Estimated routes (grey, dashed)</div>
+            <div class="ds-source-value">15 routes inferred from known origin/destination pairs (airfield to training zone) where no published route description was found. Routes follow the most direct geographic path, offset to avoid major urban centres where an operational reason to do so exists. <strong>These routes may be wrong.</strong> Actual routes depend on ATC instructions, NOTAMs, airspace restrictions, and standing orders not publicly available.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Corridor width calculation</div>
+            <div class="ds-source-value">Widths reflect realistic navigation tolerance for each aircraft type: fast jets (Typhoon, F-35, F-15) — 5–6 miles either side of centreline; heavy helicopters (Chinook) — 4 miles; light helicopters (Puma, Merlin) — 3 miles. Polygons are computed using a perpendicular offset algorithm: for each waypoint, the bearing is averaged from adjacent segments, then a lateral offset point is computed at 90° to that bearing at the specified half-width.</div>
+          </div>
+        </div>
+      </details>
+
+      <!-- Flyover estimates -->
+      <details class="ds-card">
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">📊</span>
+          <span class="ds-card-title">Flyover Rate Estimates</span>
+          <span class="ds-badge ds-badge-estimated">ESTIMATED</span>
+        </summary>
+        <div class="ds-card-body">
+          <div class="ds-source-row">
+            <div class="ds-source-label">What is shown</div>
+            <div class="ds-source-value">An estimate of how many military aircraft overflights per week a property might experience, based on its proximity to airfields, danger areas, and transit corridors. Shown as a range (e.g. "3–8 per week") with seasonal variation.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Method</div>
+            <div class="ds-source-value">Inverse-square distance weighting from all nearby military activity sources: each airfield, danger area, MATZ, and corridor contributes a base flyover rate that decays with the square of distance. Contributions are summed across all sources within range. Seasonal adjustment reflects the MOD Low Flying Programme's published bias toward spring/summer training.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Known flyover rates (reference points)</div>
+            <div class="ds-source-value">Calibration uses a small set of properties with known flyover activity from planning noise assessments and anecdotal reports. These include areas near Coningsby, Odiham, and Salisbury Plain where documented sortie rates exist.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Accuracy warning</div>
+            <div class="ds-source-value">Flyover estimates are indicative only. Actual experience depends on the specific sortie programme in force, temporary airspace restrictions, weather, and individual flight crew routing decisions. Properties with an <strong>⚠ ESTIMATED</strong> banner have imprecise geocoding — the underlying distance calculations may be off by up to several miles.</div>
+          </div>
+        </div>
+      </details>
+
+      <!-- Property geocoding -->
+      <details class="ds-card">
+        <summary class="ds-card-summary">
+          <span class="ds-card-icon">📍</span>
+          <span class="ds-card-title">Property Geocoding</span>
+          <span class="ds-badge ds-badge-mixed">ADDRESS · POSTCODE · AREA</span>
+        </summary>
+        <div class="ds-card-body">
+          <div class="ds-source-row">
+            <div class="ds-source-label">Primary source</div>
+            <div class="ds-source-value"><a href="https://postcodes.io/" target="_blank" rel="noopener">Postcodes.io</a> — open-source UK postcode API backed by ONS data. Used for postcode-level geocoding when a full address geocode is unavailable.</div>
+          </div>
+          <div class="ds-source-row">
+            <div class="ds-source-label">Geocoding levels</div>
+            <div class="ds-source-value">
+              <ul style="margin:4px 0 0 0;padding-left:16px;">
+                <li><strong>Address</strong> — precise coordinates from full address lookup. All distance calculations are accurate.</li>
+                <li><strong>Postcode</strong> — centroid of the postcode area. May be up to ~1 mile from the actual property. Flagged with an amber ⚠ ESTIMATED banner.</li>
+                <li><strong>Area</strong> — centroid of a town or region. May be several miles off. Flagged with a stronger warning.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <p class="ds-footer-note">Data was last compiled June–July 2026. Military airspace and training areas change over time — always verify with official sources before making any property decision based on this information. This tool is for indicative research only.</p>
+    </div>
   </div>
 
   <script src="app.js"></script>
