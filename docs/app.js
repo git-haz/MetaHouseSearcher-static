@@ -964,7 +964,7 @@ function pinIcon(key) {
 }
 
 function renderMap(results) {
-  const filtered = applyFilters(results).filter(p => !isPinSuppressedByCircles(p));
+  const filtered = applyFilters(results).filter(p => !hideZonePins || !isPinSuppressedByCircles(p));
   if (!map) {
     map = L.map('map').setView([52.5, 0.5], 10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors', maxZoom: 18 }).addTo(map);
@@ -1014,6 +1014,7 @@ const DEFAULT_TOWN_CONFIG = { show: false, radius: 5 };
 
 let airportCircleConfig = loadJSON('airportCircleConfig', DEFAULT_AIRPORT_CONFIG);
 let townCircleConfig = loadJSON('townCircleConfig', DEFAULT_TOWN_CONFIG);
+let hideZonePins = loadJSON('hideZonePins', false);
 
 // Migrate old flat config shape to new nested shape
 if (typeof airportCircleConfig.airport !== 'object') {
@@ -1124,6 +1125,7 @@ document.getElementById('radiusAirstrip').value = airportCircleConfig.airstrip.r
 document.getElementById('radiusHelipad').value = airportCircleConfig.heliport.radius;
 document.getElementById('showTownCircles').checked = townCircleConfig.show;
 document.getElementById('radiusTown').value = townCircleConfig.radius;
+document.getElementById('hideZonePins').checked = hideZonePins;
 
 function updateTownPopLabel() {
   const minPop = (allData && allData.searchConfig && allData.searchConfig.recommend && allData.searchConfig.recommend.minTownPopulation) || 10000;
@@ -1149,6 +1151,12 @@ async function onAirportConfigChange() {
   );
   if (anyEnabled) { map.off('moveend', drawAirportCircles); map.on('moveend', drawAirportCircles); }
   else { map.off('moveend', drawAirportCircles); }
+  if (activeView === 'map') renderMap(currentResults);
+}
+
+function onHideZonePinsChange() {
+  hideZonePins = document.getElementById('hideZonePins').checked;
+  localStorage.setItem('hideZonePins', JSON.stringify(hideZonePins));
   if (activeView === 'map') renderMap(currentResults);
 }
 
