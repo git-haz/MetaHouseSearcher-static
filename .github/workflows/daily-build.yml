@@ -2,7 +2,7 @@ name: Daily Build
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # 05:00 UTC every day
+    - cron: '0 5 * * 1,3,5'   # 05:00 UTC Mon, Wed, Fri
   workflow_dispatch:        # allows manual trigger from GitHub UI
 
 permissions:
