@@ -14,84 +14,42 @@ jobs:
     timeout-minutes: 150    # 2.5h safety limit; build typically takes ~90 min
 
     steps:
-      # ── Checkout this repo (MetaHouseSearcher-static) ───────────────────────
-      - name: Checkout MetaHouseSearcher-static
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ── Checkout the server/scraper code into the expected relative path ─────
-      # build.js does: path.join(__dirname, '..', 'property-search', 'server')
-      # On the runner __dirname is $GITHUB_WORKSPACE, so the second repo must
-      # live one level up at ../property-search relative to the workspace.
-      - name: Checkout MetaHouseSearcher (server code + seed)
-        uses: actions/checkout@v4
-        with:
-          repository: git-haz/MetaHouseSearcher
-          path: ../property-search
-          token: ${{ secrets.GH_PAT }}
-
-      # ── Node.js setup ────────────────────────────────────────────────────────
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # Cache npm packages for both repos to speed up future runs
       - name: Cache npm packages
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.npm
-            ${{ github.workspace }}/node_modules
-            ${{ github.workspace }}/../property-search/node_modules
-          key: npm-${{ runner.os }}-${{ hashFiles('package.json', '../property-search/package.json') }}
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: npm-${{ runner.os }}-
 
-      # ── Install dependencies ─────────────────────────────────────────────────
-      - name: Install static repo dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: Install server/scraper dependencies
-        working-directory: ${{ github.workspace }}/../property-search
-        run: npm install
-
-      # Puppeteer v25 may need the browser binary downloaded separately
       - name: Ensure Puppeteer Chrome binary is present
         run: npx puppeteer browsers install chrome
-        continue-on-error: true   # non-fatal: browser.js uses --no-sandbox which is CI-compatible
+        continue-on-error: true
 
-      # ── Git identity for commits ─────────────────────────────────────────────
       - name: Configure git identity
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-      # ── Run the build ────────────────────────────────────────────────────────
       - name: Run build
         run: node build.js
 
-      # ── Push results to MetaHouseSearcher-static ─────────────────────────────
-      - name: Commit and push results
+      - name: Commit and push results + seed
         run: |
-          git add docs/results/ docs/index.json 2>/dev/null || true
+          git add docs/results/ docs/index.json seed-data.json 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No result changes to commit."
+            echo "No changes to commit."
           else
             git commit -m "Daily build: $(date -u '+%Y-%m-%d')"
-            git push
-          fi
-
-      # ── Push updated seed back to MetaHouseSearcher ──────────────────────────
-      # The seed accumulates property history across builds; pushing it back
-      # ensures each run picks up where the last one left off.
-      - name: Commit and push seed data
-        working-directory: ${{ github.workspace }}/../property-search
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add seed-data.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No seed changes to commit."
-          else
-            git commit -m "Seed update: $(date -u '+%Y-%m-%d')"
             git push
           fi

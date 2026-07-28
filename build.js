@@ -4,7 +4,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 // Reuse modules from the main project
-const mainDir = path.join(__dirname, '..', 'property-search', 'server');
+const mainDir = path.join(__dirname, 'server');
 const { getBrowser, closeBrowser } = require(path.join(mainDir, 'browser'));
 const { deduplicate, normalizeAddress, descriptionSimilarity, getUrl } = require(path.join(mainDir, 'dedup'));
 const { findNearestByCategory } = require(path.join(mainDir, 'airports'));
