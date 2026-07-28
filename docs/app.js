@@ -738,21 +738,34 @@ function renderCard(p, context) {
 
   const fd = p.flyoverRef || p.flyover;
   const flyoverMonthly = fd?.monthly ? fd.monthly.filter(m => m.hours > 0) : [];
-  const approxFlyover = p.geoAccuracy === 'area';
+  const geoAccuracy = p.geoAccuracy || null;
+  const approxFlyover = fd && geoAccuracy !== 'address';
+  const approxLevel = geoAccuracy === 'area' ? 'high' : geoAccuracy === 'postcode' ? 'medium' : (approxFlyover ? 'high' : null);
+  const approxReasons = {
+    area:     'Property could only be geocoded to an area — coordinates may be several miles off',
+    postcode: 'Property could only be geocoded to a postcode centroid — coordinates may be up to 1 mile off',
+    null:     'Property location is unknown — flyover figure is a rough area estimate only',
+  };
   const flyoverPopupId = `fly-popup-${key}`;
   const flyoverHtml = fd ? (() => {
     const rateDisplay = approxFlyover
-      ? `<span class="flyover-rate flyover-approx" title="Approximate — location could not be geocoded precisely">~${fd.flightsPerDay} flights/day ⚠</span>`
+      ? `<span class="flyover-rate flyover-approx flyover-approx-${approxLevel}">~${fd.flightsPerDay} flights/day</span>`
       : `<span class="flyover-rate">${fd.flightsPerDay} flights/day</span>`;
+    const approxBanner = approxFlyover
+      ? `<div class="flyover-approx-banner flyover-approx-banner-${approxLevel}" title="${approxReasons[geoAccuracy] || approxReasons['null']}">⚠ ESTIMATED — inexact location</div>`
+      : '';
     const popupLines = [
       `<b>Flyover estimate</b>`,
       `Reference station: ${fd.location || 'unknown'}`,
       `Rate: ${fd.flightsPerDay} flights/day`,
       fd.seasonalFlag ? `Seasonal pattern: ${fd.seasonalFlag.replace(/_/g,' ')}` : '',
-      approxFlyover ? `⚠ Location accuracy: area estimate only — flyover figure may be inaccurate for the exact property` : `Location accuracy: ${p.geoAccuracy || 'unknown'}`,
+      approxFlyover
+        ? `<span style="color:#c0392b;font-weight:600;">⚠ ESTIMATED — ${approxReasons[geoAccuracy] || approxReasons['null']}. Do not rely on this figure for precise comparisons.</span>`
+        : `Location accuracy: address-level (reliable)`,
       flyoverMonthly.length > 0 ? flyoverMonthly.map(m => `${m.month}: ${m.flightsPerDay}/day`).join(', ') : '',
     ].filter(Boolean).join('<br>');
-    return `<div class="card-flyover">
+    return `<div class="card-flyover${approxFlyover ? ' card-flyover-approx' : ''}">
+      ${approxBanner}
       ✈ <span class="kw-info-btn" onclick="toggleInfoPopup('${flyoverPopupId}',event)">${rateDisplay} ℹ</span>
       ${fd.seasonalFlag === 'high_variance' ? '<span class="flyover-seasonal-high"> — seasonal variance</span>' : ''}
       ${fd.seasonalFlag === 'very_high_variance' ? '<span class="flyover-seasonal-high"> — high seasonal variance</span>' : ''}

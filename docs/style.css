@@ -896,7 +896,39 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
   margin-bottom: 8px;
   border-left: 3px solid var(--primary);
 }
+.card-flyover-approx {
+  background: #fff8e1;
+  border-left: 3px solid #e67e00;
+}
 .card-flyover .flyover-rate { font-weight: 700; color: var(--primary); }
+.card-flyover-approx .flyover-rate { color: #b45309; }
+.flyover-approx-banner {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.flyover-approx-banner-medium {
+  background: #fff3cd;
+  color: #7a4f00;
+  border: 1px solid #f5c542;
+}
+.flyover-approx-banner-high {
+  background: #fde8d8;
+  color: #922b00;
+  border: 1px solid #f5a073;
+}
+@media (prefers-color-scheme: dark) {
+  .card-flyover { background: #1a2540; }
+  .card-flyover-approx { background: #2a1f00; border-left-color: #e67e00; }
+  .card-flyover-approx .flyover-rate { color: #f5a623; }
+  .flyover-approx-banner-medium { background: #3a2e00; color: #f5cc50; border-color: #7a5e00; }
+  .flyover-approx-banner-high { background: #3d1500; color: #f5a073; border-color: #8a3000; }
+}
 .flyover-seasonal-high { color: var(--danger); font-weight: 600; }
 .flyover-seasonal-stable { color: var(--success); }
 
@@ -1269,8 +1301,8 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
 .kw-info-btn { cursor: pointer; user-select: none; }
 .card-tag-badges { position: relative; }
 
-/* Approximate flyover indicator */
-.flyover-approx { color: var(--warning); }
+/* flyover-approx class retained for legacy compat */
+.flyover-approx { color: #b45309; }
 
 /* Auto-tag badges */
 .tag-badge-autotag { font-size: 12px; border-radius: 12px; padding: 2px 8px; cursor: pointer; }

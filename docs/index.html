@@ -17,6 +17,15 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
+          <span class="changelog-ver">v2.5.0</span>
+          <span class="changelog-date">28 Jul 2026</span>
+          <ul>
+            <li>Flyover figures that are based on imprecise property location (postcode centroid or area estimate) now show a prominent "ESTIMATED — inexact location" warning banner</li>
+            <li>The card background and border switch to amber when the flyover is an estimate, making it unmistakeable at a glance</li>
+            <li>Info popup explains the specific reason (postcode vs area) and warns against relying on the figure for precise comparisons</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
           <span class="changelog-ver">v2.4.0</span>
           <span class="changelog-date">28 Jul 2026</span>
           <ul>
@@ -139,7 +148,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.4.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.5.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -444,7 +453,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" id="footerVersion">v2.4.0</span>
+    <span class="version-link" id="footerVersion">v2.5.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>
