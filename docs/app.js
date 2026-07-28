@@ -1131,7 +1131,7 @@ async function onTownConfigChange() {
 }
 
 const TOWN_IDS = new Set(['showTownCircles', 'radiusTown']);
-const MILITARY_IDS = new Set(['showDangerAreas', 'showMatzs', 'showLfas']);
+const MILITARY_IDS = new Set(['showDangerAreas', 'showMatzs', 'showLfas', 'showCorridors']);
 document.querySelectorAll('.map-controls input').forEach(el => {
   const handler = TOWN_IDS.has(el.id) ? onTownConfigChange : MILITARY_IDS.has(el.id) ? onMilitaryConfigChange : onAirportConfigChange;
   el.addEventListener('change', handler);
@@ -1143,7 +1143,8 @@ let militaryZonesData = null;
 let dangerAreaLayers = [];
 let matzLayers = [];
 let lfaLayers = [];
-let militaryZoneConfig = loadJSON('militaryZoneConfig', { danger: false, matz: false, lfa: false });
+let corridorLayers = [];
+let militaryZoneConfig = loadJSON('militaryZoneConfig', { danger: false, matz: false, lfa: false, corridors: false });
 function saveMilitaryZoneConfig() { localStorage.setItem('militaryZoneConfig', JSON.stringify(militaryZoneConfig)); }
 
 async function loadMilitaryZones() {
@@ -1151,7 +1152,7 @@ async function loadMilitaryZones() {
   try {
     const res = await fetch('military-zones.json');
     militaryZonesData = await res.json();
-  } catch { militaryZonesData = { dangerAreas: [], matzs: [], lfas: [] }; }
+  } catch { militaryZonesData = { dangerAreas: [], matzs: [], lfas: [], corridors: [] }; }
   return militaryZonesData;
 }
 
@@ -1210,19 +1211,49 @@ function drawLfas() {
   }
 }
 
+function drawCorridors() {
+  corridorLayers.forEach(l => map.removeLayer(l));
+  corridorLayers = [];
+  if (!map || !militaryZoneConfig.corridors || !militaryZonesData) return;
+  for (const z of (militaryZonesData.corridors || [])) {
+    const color    = z.verified ? '#006064' : '#37474f';
+    const dashArr  = z.verified ? null : '8 5';
+    const fillOpacity = z.verified ? 0.12 : 0.07;
+    const poly = L.polygon(z.polygon, {
+      color, weight: 2, dashArray: dashArr,
+      fillColor: color, fillOpacity, interactive: true,
+    }).addTo(map);
+    const label = (z.verified ? '✈ ' : '✈ ~') + z.name;
+    poly.bindTooltip(label, { direction: 'top', sticky: true });
+    const verifiedBadge = z.verified
+      ? `<span style="display:inline-block;font-size:10px;font-weight:700;background:#006064;color:#fff;padding:1px 6px;border-radius:3px;margin-bottom:4px;">DOCUMENTED ROUTE</span>`
+      : `<span style="display:inline-block;font-size:10px;font-weight:700;background:#546e7a;color:#fff;padding:1px 6px;border-radius:3px;margin-bottom:4px;">ESTIMATED ROUTE</span>`;
+    let html = `${verifiedBadge}<br><strong>${z.name}</strong>`;
+    if (z.id) html += `<br><em style="font-size:11px;color:#888">${z.id}</em>`;
+    if (z.description) html += `<p style="margin:6px 0 4px;font-size:12px;line-height:1.45">${z.description}</p>`;
+    if (z.aircraft) html += `<div style="font-size:12px"><strong>Aircraft:</strong> ${z.aircraft}</div>`;
+    if (!z.verified) html += `<div style="font-size:11px;color:#777;margin-top:5px;font-style:italic;">Width and exact path are estimates based on geographic logic. Not from a published source.</div>`;
+    poly.bindPopup(html, { maxWidth: 360 });
+    corridorLayers.push(poly);
+  }
+}
+
 document.getElementById('showDangerAreas').checked = militaryZoneConfig.danger;
 document.getElementById('showMatzs').checked = militaryZoneConfig.matz;
 document.getElementById('showLfas').checked = militaryZoneConfig.lfa;
+document.getElementById('showCorridors').checked = militaryZoneConfig.corridors;
 
 async function onMilitaryConfigChange() {
-  militaryZoneConfig.danger = document.getElementById('showDangerAreas').checked;
-  militaryZoneConfig.matz   = document.getElementById('showMatzs').checked;
-  militaryZoneConfig.lfa    = document.getElementById('showLfas').checked;
+  militaryZoneConfig.danger    = document.getElementById('showDangerAreas').checked;
+  militaryZoneConfig.matz      = document.getElementById('showMatzs').checked;
+  militaryZoneConfig.lfa       = document.getElementById('showLfas').checked;
+  militaryZoneConfig.corridors = document.getElementById('showCorridors').checked;
   saveMilitaryZoneConfig();
   await loadMilitaryZones();
   drawDangerAreas();
   drawMatzs();
   drawLfas();
+  drawCorridors();
 }
 
 // --- Zones on map ---
