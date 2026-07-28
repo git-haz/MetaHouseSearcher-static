@@ -890,8 +890,38 @@ window.carouselNav = function(cid, dir) {
 };
 
 // --- Map ---
+function isPinSuppressedByCircles(p) {
+  if (p.lat == null) return false;
+
+  const anyOf = (cat, keys) => keys.some(k => airportCircleConfig[cat][k]);
+
+  if (anyOf('airport', ['commercial','military','private','inactive']) &&
+      p.nearestAirport?.distanceMiles != null &&
+      p.nearestAirport.distanceMiles < airportCircleConfig.airport.radius) return true;
+
+  if (anyOf('airstrip', ['commercial','military','private','inactive']) &&
+      p.nearestAirstrip?.distanceMiles != null &&
+      p.nearestAirstrip.distanceMiles < airportCircleConfig.airstrip.radius) return true;
+
+  if (anyOf('heliport', ['commercial','military','private','inactive']) &&
+      p.nearestHeliport?.distanceMiles != null &&
+      p.nearestHeliport.distanceMiles < airportCircleConfig.heliport.radius) return true;
+
+  if (townCircleConfig.show && townData) {
+    const minPop = (allData?.searchConfig?.recommend?.minTownPopulation) || 10000;
+    for (const t of townData) {
+      if (t.pop < minPop) continue;
+      if (haversineDistMiles(p.lat, p.lon, t.lat, t.lon) < townCircleConfig.radius) return true;
+    }
+  }
+
+  if (exclusionZones.some(z => !z.hidden && pointInPolygon(p.lat, p.lon, z.points))) return true;
+
+  return false;
+}
+
 function renderMap(results) {
-  const filtered = applyFilters(results);
+  const filtered = applyFilters(results).filter(p => !isPinSuppressedByCircles(p));
   if (!map) {
     map = L.map('map').setView([52.5, 0.5], 10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors', maxZoom: 18 }).addTo(map);
@@ -1076,6 +1106,7 @@ async function onAirportConfigChange() {
   );
   if (anyEnabled) { map.off('moveend', drawAirportCircles); map.on('moveend', drawAirportCircles); }
   else { map.off('moveend', drawAirportCircles); }
+  if (activeView === 'map') renderMap(currentResults);
 }
 
 async function onTownConfigChange() {
@@ -1083,6 +1114,7 @@ async function onTownConfigChange() {
   townCircleConfig.radius = parseInt(document.getElementById('radiusTown').value) || 5;
   saveTownCircleConfig();
   await drawTownCircles();
+  if (activeView === 'map') renderMap(currentResults);
 }
 
 const TOWN_IDS = new Set(['showTownCircles', 'radiusTown']);

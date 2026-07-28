@@ -17,6 +17,15 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
+          <span class="changelog-ver">v2.4.0</span>
+          <span class="changelog-date">28 Jul 2026</span>
+          <ul>
+            <li>Map layers panel consolidated into a single collapsible section (airports, airstrips, helipads, towns, military, exclusion zones)</li>
+            <li>Property pins on the map are automatically hidden when they fall inside any visible circle — updates live as you change radius or toggle layers</li>
+            <li>Exclusion zones moved into the map layers panel</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
           <span class="changelog-ver">v2.3.0</span>
           <span class="changelog-date">25 Jul 2026</span>
           <ul>
@@ -130,7 +139,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.3.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.4.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -247,58 +256,62 @@
     </div>
 
     <div id="map-area" style="display:none;">
-      <div class="map-controls">
-        <div class="mc-group">
-          <div class="mc-group-title">✈ Airports <input type="number" id="radiusAirport" value="20" min="1" max="100" class="mc-radius"> mi</div>
-          <div class="mc-checks">
-            <label class="mc-check"><input type="checkbox" id="airport-commercial" checked> Commercial</label>
-            <label class="mc-check"><input type="checkbox" id="airport-military" checked> Military/RAF</label>
-            <label class="mc-check"><input type="checkbox" id="airport-private" checked> Private</label>
-            <label class="mc-check"><input type="checkbox" id="airport-inactive"> Inactives</label>
+      <details class="map-layers-panel" open>
+        <summary class="map-layers-summary">Map Layers &amp; Visibility</summary>
+        <div class="map-controls">
+          <div class="mc-group">
+            <div class="mc-group-title">✈ Airports <input type="number" id="radiusAirport" value="20" min="1" max="100" class="mc-radius"> mi</div>
+            <div class="mc-checks">
+              <label class="mc-check"><input type="checkbox" id="airport-commercial" checked> Commercial</label>
+              <label class="mc-check"><input type="checkbox" id="airport-military" checked> Military/RAF</label>
+              <label class="mc-check"><input type="checkbox" id="airport-private" checked> Private</label>
+              <label class="mc-check"><input type="checkbox" id="airport-inactive"> Inactives</label>
+            </div>
+          </div>
+          <div class="mc-group">
+            <div class="mc-group-title">🛩 Airstrips <input type="number" id="radiusAirstrip" value="15" min="1" max="100" class="mc-radius"> mi</div>
+            <div class="mc-checks">
+              <label class="mc-check"><input type="checkbox" id="airstrip-commercial"> Commercial</label>
+              <label class="mc-check"><input type="checkbox" id="airstrip-military"> Military/RAF</label>
+              <label class="mc-check"><input type="checkbox" id="airstrip-private"> Private</label>
+              <label class="mc-check"><input type="checkbox" id="airstrip-inactive"> Inactives</label>
+            </div>
+          </div>
+          <div class="mc-group">
+            <div class="mc-group-title">🚁 Helipads <input type="number" id="radiusHelipad" value="20" min="1" max="100" class="mc-radius"> mi</div>
+            <div class="mc-checks">
+              <label class="mc-check"><input type="checkbox" id="heliport-commercial" checked> Commercial</label>
+              <label class="mc-check"><input type="checkbox" id="heliport-military" checked> Military/RAF</label>
+              <label class="mc-check"><input type="checkbox" id="heliport-private" checked> Private</label>
+              <label class="mc-check"><input type="checkbox" id="heliport-inactive"> Inactives</label>
+            </div>
+          </div>
+          <div class="mc-group">
+            <div class="mc-group-title">🏘 Towns <input type="number" id="radiusTown" value="5" min="1" max="100" class="mc-radius"> mi</div>
+            <div class="mc-checks">
+              <label class="mc-check"><input type="checkbox" id="showTownCircles"> Show circles</label>
+              <span class="mc-pop-label" id="townPopLabel"></span>
+            </div>
+          </div>
+          <div class="mc-group mc-military">
+            <div class="mc-group-title">⚠️ Military</div>
+            <div class="mc-checks">
+              <label class="mc-check"><input type="checkbox" id="showDangerAreas"> <span class="mc-zone-dot" style="background:#b71c1c"></span> Danger Areas</label>
+              <label class="mc-check"><input type="checkbox" id="showMatzs"> <span class="mc-zone-dot" style="background:#e65100"></span> Airfield Zones (MATZ)</label>
+              <label class="mc-check"><input type="checkbox" id="showLfas"> <span class="mc-zone-dot" style="background:#4a148c"></span> Low Flying Areas (LFA)</label>
+            </div>
+          </div>
+          <div class="mc-group mc-exclusion-zones">
+            <div class="mc-group-title">🚫 Exclusion Zones</div>
+            <div class="mc-checks" style="flex-direction:column;align-items:flex-start;gap:6px;">
+              <button class="btn btn-primary btn-sm" id="startDrawZone">+ Draw Zone</button>
+              <div id="zoneList"></div>
+            </div>
           </div>
         </div>
-        <div class="mc-group">
-          <div class="mc-group-title">🛩 Airstrips <input type="number" id="radiusAirstrip" value="15" min="1" max="100" class="mc-radius"> mi</div>
-          <div class="mc-checks">
-            <label class="mc-check"><input type="checkbox" id="airstrip-commercial"> Commercial</label>
-            <label class="mc-check"><input type="checkbox" id="airstrip-military"> Military/RAF</label>
-            <label class="mc-check"><input type="checkbox" id="airstrip-private"> Private</label>
-            <label class="mc-check"><input type="checkbox" id="airstrip-inactive"> Inactives</label>
-          </div>
-        </div>
-        <div class="mc-group">
-          <div class="mc-group-title">🚁 Helipads <input type="number" id="radiusHelipad" value="20" min="1" max="100" class="mc-radius"> mi</div>
-          <div class="mc-checks">
-            <label class="mc-check"><input type="checkbox" id="heliport-commercial" checked> Commercial</label>
-            <label class="mc-check"><input type="checkbox" id="heliport-military" checked> Military/RAF</label>
-            <label class="mc-check"><input type="checkbox" id="heliport-private" checked> Private</label>
-            <label class="mc-check"><input type="checkbox" id="heliport-inactive"> Inactives</label>
-          </div>
-        </div>
-        <div class="mc-group">
-          <div class="mc-group-title">🏘 Towns <input type="number" id="radiusTown" value="5" min="1" max="100" class="mc-radius"> mi</div>
-          <div class="mc-checks">
-            <label class="mc-check"><input type="checkbox" id="showTownCircles"> Show circles</label>
-            <span class="mc-pop-label" id="townPopLabel"></span>
-          </div>
-        </div>
-        <div class="mc-group mc-military">
-          <div class="mc-group-title">⚠️ Military</div>
-          <div class="mc-checks">
-            <label class="mc-check"><input type="checkbox" id="showDangerAreas"> <span class="mc-zone-dot" style="background:#b71c1c"></span> Danger Areas</label>
-            <label class="mc-check"><input type="checkbox" id="showMatzs"> <span class="mc-zone-dot" style="background:#e65100"></span> Airfield Zones (MATZ)</label>
-            <label class="mc-check"><input type="checkbox" id="showLfas"> <span class="mc-zone-dot" style="background:#4a148c"></span> Low Flying Areas (LFA)</label>
-          </div>
-        </div>
-      </div>
+        <div class="map-layers-note">Pins inside visible circles are hidden automatically. Circles and pins update live when you change radius or toggle layers.</div>
+      </details>
       <div id="map" style="height:600px;border-radius:8px;"></div>
-      <div class="zone-panel" id="zonePanel">
-        <div class="zone-header">
-          <strong>Exclusion Zones</strong>
-          <button class="btn btn-primary btn-sm" id="startDrawZone">+ Draw Zone</button>
-        </div>
-        <div id="zoneList"></div>
-      </div>
     </div>
 
     <div id="results-area"></div>
@@ -431,7 +444,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" id="footerVersion">v2.3.0</span>
+    <span class="version-link" id="footerVersion">v2.4.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>
