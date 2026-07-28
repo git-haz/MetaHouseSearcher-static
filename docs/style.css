@@ -890,18 +890,20 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
 
 .card-flyover {
   font-size: 12px;
-  background: #f3f8ff;
+  background: #e8f0fe;
+  color: #1a1a2e;
   border-radius: 6px;
   padding: 6px 10px;
   margin-bottom: 8px;
   border-left: 3px solid var(--primary);
 }
 .card-flyover-approx {
-  background: #fff8e1;
+  background: #fff3e0;
+  color: #3e1f00;
   border-left: 3px solid #e67e00;
 }
-.card-flyover .flyover-rate { font-weight: 700; color: var(--primary); }
-.card-flyover-approx .flyover-rate { color: #b45309; }
+.card-flyover .flyover-rate { font-weight: 700; color: #1557b0; }
+.card-flyover-approx .flyover-rate { color: #8a3800; }
 .flyover-approx-banner {
   font-size: 11px;
   font-weight: 700;
@@ -913,21 +915,35 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
   display: inline-block;
 }
 .flyover-approx-banner-medium {
-  background: #fff3cd;
-  color: #7a4f00;
-  border: 1px solid #f5c542;
+  background: #fde68a;
+  color: #5a3700;
+  border: 1px solid #d4a017;
 }
 .flyover-approx-banner-high {
-  background: #fde8d8;
-  color: #922b00;
-  border: 1px solid #f5a073;
+  background: #fdba74;
+  color: #5a1800;
+  border: 1px solid #c2410c;
+}
+.flyover-popup-warning {
+  color: #b91c1c;
+  font-weight: 600;
 }
 @media (prefers-color-scheme: dark) {
-  .card-flyover { background: #1a2540; }
-  .card-flyover-approx { background: #2a1f00; border-left-color: #e67e00; }
-  .card-flyover-approx .flyover-rate { color: #f5a623; }
-  .flyover-approx-banner-medium { background: #3a2e00; color: #f5cc50; border-color: #7a5e00; }
-  .flyover-approx-banner-high { background: #3d1500; color: #f5a073; border-color: #8a3000; }
+  .card-flyover {
+    background: #1e3358;
+    color: #c8d8f8;
+    border-left-color: #6ba3f5;
+  }
+  .card-flyover .flyover-rate { color: #93c5fd; }
+  .card-flyover-approx {
+    background: #2d1c00;
+    color: #fcd9a0;
+    border-left-color: #f59e0b;
+  }
+  .card-flyover-approx .flyover-rate { color: #fbbf24; }
+  .flyover-approx-banner-medium { background: #78350f; color: #fde68a; border-color: #b45309; }
+  .flyover-approx-banner-high   { background: #7c1d0a; color: #fed7aa; border-color: #ea580c; }
+  .flyover-popup-warning { color: #fca5a5; }
 }
 .flyover-seasonal-high { color: var(--danger); font-weight: 600; }
 .flyover-seasonal-stable { color: var(--success); }
@@ -1296,7 +1312,7 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
   color: var(--text);
 }
 @media (prefers-color-scheme: dark) {
-  .info-popup { background: #2a2a2a; border-color: #444; }
+  .info-popup { background: #2a2a2a; border-color: #555; color: #e8eaed; }
 }
 .kw-info-btn { cursor: pointer; user-select: none; }
 .card-tag-badges { position: relative; }

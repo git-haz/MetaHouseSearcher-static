@@ -760,7 +760,7 @@ function renderCard(p, context) {
       `Rate: ${fd.flightsPerDay} flights/day`,
       fd.seasonalFlag ? `Seasonal pattern: ${fd.seasonalFlag.replace(/_/g,' ')}` : '',
       approxFlyover
-        ? `<span style="color:#c0392b;font-weight:600;">⚠ ESTIMATED — ${approxReasons[geoAccuracy] || approxReasons['null']}. Do not rely on this figure for precise comparisons.</span>`
+        ? `<span class="flyover-popup-warning">⚠ ESTIMATED — ${approxReasons[geoAccuracy] || approxReasons['null']}. Do not rely on this figure for precise comparisons.</span>`
         : `Location accuracy: address-level (reliable)`,
       flyoverMonthly.length > 0 ? flyoverMonthly.map(m => `${m.month}: ${m.flightsPerDay}/day`).join(', ') : '',
     ].filter(Boolean).join('<br>');
