@@ -1,9 +1,97 @@
 {
   "location": "Sedbergh",
   "slug": "sedbergh",
-  "generatedAt": "2026-07-25T14:15:13.045Z",
-  "count": 36,
+  "generatedAt": "2026-07-28T10:15:48.591Z",
+  "count": 37,
   "properties": [
+    {
+      "title": "2 bedroom house for sale",
+      "price": 2350005,
+      "address": "5 Weaver's Yard, Sedbergh",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Cobble Country - Sedbergh",
+      "agentPhone": "01539 291945",
+      "type": "House",
+      "description": "spacious bedroomsCentral Sedbergh locationFeature sash windowsCobble Country - SedberghAdded > 14 daysEmail01539 291945",
+      "images": [
+        "https://media.onthemarket.com/properties/19797755/1624300274/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19797755/1624300274/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19797755/1624300274/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19797755/1624300274/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19797755/1624300274/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19797755/"
+        }
+      ],
+      "lat": 54.3235203,
+      "lon": -2.5274932,
+      "searchLocation": "Sedbergh",
+      "searchLocations": [
+        "Sedbergh"
+      ],
+      "sourceLocation": "Sedbergh",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Barrow Walney Island Airport",
+        "icao": "EGNL",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 52.75950796540084,
+        "distanceMiles": 32.78322822396909
+      },
+      "nearestAirstrip": {
+        "name": "Bedlands Gate Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 29.024398131326656,
+        "distanceMiles": 18.034919291260575
+      },
+      "nearestHeliport": {
+        "name": "Broadoaks Country House Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 26.73029247905454,
+        "distanceMiles": 16.6094285680026
+      },
+      "minAirportDistanceMiles": 16.6094285680026,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.1,
+        "flightsDiffPct": 26
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T10:15:48.591Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
+    },
     {
       "title": "2 bedroom apartment for sale",
       "price": 16000011,
@@ -15,7 +103,7 @@
       "agent": "Hackney & Leigh - Kirkby Lonsdale",
       "agentPhone": null,
       "type": "Apartment",
-      "description": "Situated Within the Yorkshire Dales National ParkAllocated & Visitor Road ParkingWell-Appointed First Floor ApartmentTwo Bedrooms & One BathroomHackney & Leigh - Kirkby LonsdaleAdded > 14 daysEmail015242 32985",
+      "description": "Situated Within the Yorkshire Dales National ParkAllocated & Visitor Road ParkingChain-freeStudyHackney & Leigh - Kirkby LonsdaleAdded > 14 daysEmail015242 32985",
       "images": [
         "https://media.onthemarket.com/properties/16930372/1623532771/image-0-480x320.jpg",
         "https://media.onthemarket.com/properties/16930372/1623532771/image-1-480x320.jpg",
@@ -83,14 +171,98 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.2,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z",
+      "retrievedAt": "2026-07-28T10:15:48.591Z",
       "updated": true,
       "updatedFields": [
         "description"
       ]
+    },
+    {
+      "title": "2 bedroom end of terrace house for sale",
+      "price": 2700005,
+      "address": "5 Mountain View, Sedbergh LA10 5SE",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Hackney & Leigh - Kirkby Lonsdale",
+      "agentPhone": null,
+      "type": "End of terrace house",
+      "description": "built houseTwo bedrooms with loft conversionChain-freeStudyHackney & Leigh - Kirkby LonsdaleAdded < 7 daysEmail015242 32985",
+      "images": [
+        "https://media.onthemarket.com/properties/20007545/1631985463/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/20007545/1631985463/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/20007545/1631985463/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/20007545/1631985463/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/20007545/1631985463/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/20007545/"
+        }
+      ],
+      "lat": 54.320883,
+      "lon": -2.526642,
+      "searchLocation": "Sedbergh",
+      "searchLocations": [
+        "Sedbergh"
+      ],
+      "sourceLocation": "Sedbergh",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Barrow Walney Island Airport",
+        "icao": "EGNL",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 52.69169727232992,
+        "distanceMiles": 32.74109262580492
+      },
+      "nearestAirstrip": {
+        "name": "Bedlands Gate Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 29.319970518613758,
+        "distanceMiles": 18.21857940112155
+      },
+      "nearestHeliport": {
+        "name": "Broadoaks Country House Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 26.8797085879999,
+        "distanceMiles": 16.702271405034086
+      },
+      "minAirportDistanceMiles": 16.702271405034086,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.1,
+        "flightsDiffPct": 26
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bedroom house for sale",
@@ -171,10 +343,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -255,10 +427,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.2,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "4 bedroom terraced house for sale",
@@ -339,10 +511,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -2,
         "flightsPerDay": 311.9,
-        "flightsDiffPct": 270
+        "flightsDiffPct": 48
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "4 bedroom terraced house for sale",
@@ -423,94 +595,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
-    },
-    {
-      "title": "2 bedroom house for sale",
-      "price": 2350005,
-      "address": "5 Weaver's Yard, Sedbergh",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Cobble Country - Sedbergh",
-      "agentPhone": "01539 291945",
-      "type": "House",
-      "description": "spacious bedroomsChain-freeCobble Country - SedberghAdded > 14 daysEmail01539 291945",
-      "images": [
-        "https://media.onthemarket.com/properties/19797755/1624300274/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19797755/1624300274/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19797755/1624300274/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19797755/1624300274/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19797755/1624300274/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19797755/"
-        }
-      ],
-      "lat": 54.3235203,
-      "lon": -2.5274932,
-      "searchLocation": "Sedbergh",
-      "searchLocations": [
-        "Sedbergh"
-      ],
-      "sourceLocation": "Sedbergh",
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Barrow Walney Island Airport",
-        "icao": "EGNL",
-        "category": "airport",
-        "usage": "private",
-        "active": true,
-        "distanceKm": 52.75950796540084,
-        "distanceMiles": 32.78322822396909
-      },
-      "nearestAirstrip": {
-        "name": "Bedlands Gate Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 29.024398131326656,
-        "distanceMiles": 18.034919291260575
-      },
-      "nearestHeliport": {
-        "name": "Broadoaks Country House Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 26.73029247905454,
-        "distanceMiles": 16.6094285680026
-      },
-      "minAirportDistanceMiles": 16.6094285680026,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bedroom terraced house for sale",
@@ -591,10 +679,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -675,14 +763,10 @@
         "airstripsDiff": 4,
         "helipadsDiff": -3,
         "flightsPerDay": 469.9,
-        "flightsDiffPct": 457
+        "flightsDiffPct": 123
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z",
-      "updated": true,
-      "updatedFields": [
-        "description"
-      ]
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bedroom end of terrace house for sale",
@@ -763,10 +847,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.2,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bedroom house for sale",
@@ -847,10 +931,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bedroom terraced house for sale",
@@ -931,10 +1015,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bedroom terraced house for sale",
@@ -1015,10 +1099,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1095,10 +1179,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "4 bed property for sale",
@@ -1175,10 +1259,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1255,10 +1339,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1335,10 +1419,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1349,7 +1433,7 @@
       "sqft": 614,
       "type": "Property",
       "description": "with two bedrooms, open plan living, a spacious bathroom, communal gardens and parking, ...Listed on 22nd Jul 2026Share of",
-      "postedDate": "Just added",
+      "postedDate": null,
       "agent": null,
       "agentPhone": null,
       "images": [
@@ -1415,10 +1499,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.2,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed detached for sale",
@@ -1495,10 +1579,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.2,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1509,7 +1593,7 @@
       "sqft": null,
       "type": "Property",
       "description": "a unique opportunity for those seeking a renovation project with immense potential. This historic ...Listed on 23rd Jul 2026",
-      "postedDate": "Just added",
+      "postedDate": null,
       "agent": null,
       "agentPhone": null,
       "images": [
@@ -1575,10 +1659,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1645,18 +1729,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 8,
-        "quiet": 32,
-        "hillside": 79,
-        "large-outdoors": 57,
-        "great-views": 94,
-        "far-from-roads": 36
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1665,10 +1747,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1691,8 +1773,8 @@
           "url": "https://www.zoopla.co.uk/for-sale/details/72832409/"
         }
       ],
-      "lat": 54.3237073,
-      "lon": -2.5271714,
+      "lat": 54.3235469,
+      "lon": -2.5287461,
       "searchLocation": "Sedbergh",
       "searchLocations": [
         "Sedbergh"
@@ -1706,8 +1788,8 @@
         "category": "airport",
         "usage": "private",
         "active": true,
-        "distanceKm": 52.787022348165145,
-        "distanceMiles": 32.80032486350172
+        "distanceKm": 52.68646871235604,
+        "distanceMiles": 32.737843750265384
       },
       "nearestAirstrip": {
         "name": "Bedlands Gate Airfield",
@@ -1715,8 +1797,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 29.01135974102262,
-        "distanceMiles": 18.026817613638965
+        "distanceKm": 28.995776134187203,
+        "distanceMiles": 18.017134412276036
       },
       "nearestHeliport": {
         "name": "Broadoaks Country House Heliport",
@@ -1724,10 +1806,10 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 26.74321665043045,
-        "distanceMiles": 16.61745927329462
+        "distanceKm": 26.65256192740337,
+        "distanceMiles": 16.56112905739256
       },
-      "minAirportDistanceMiles": 16.61745927329462,
+      "minAirportDistanceMiles": 16.56112905739256,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 266.1,
@@ -1745,10 +1827,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.1,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "4 bed property for sale",
@@ -1825,10 +1907,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.3,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1905,10 +1987,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.3,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1985,10 +2067,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.3,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -2065,10 +2147,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "3 bed cottage for sale",
@@ -2135,19 +2217,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 11,
-        "quiet": 65,
-        "hillside": 98,
-        "large-outdoors": 63,
-        "great-views": 97,
-        "far-from-roads": 65
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2156,10 +2235,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2226,22 +2305,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "rural",
-        "quiet",
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 94,
-        "quiet": 89,
-        "hillside": 93,
-        "large-outdoors": 30,
-        "great-views": 99,
-        "far-from-roads": 88
+        "rural": 14,
+        "quiet": 15,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2250,10 +2323,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2320,19 +2393,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 16,
-        "quiet": 17,
-        "hillside": 99,
-        "large-outdoors": 63,
-        "great-views": 97,
-        "far-from-roads": 66
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2341,10 +2411,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2411,19 +2481,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 16,
-        "quiet": 17,
-        "hillside": 99,
-        "large-outdoors": 63,
-        "great-views": 97,
-        "far-from-roads": 66
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2432,10 +2499,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2502,19 +2569,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 16,
-        "quiet": 17,
-        "hillside": 99,
-        "large-outdoors": 63,
-        "great-views": 97,
-        "far-from-roads": 66
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2523,10 +2587,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2593,19 +2657,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 16,
-        "quiet": 17,
-        "hillside": 99,
-        "large-outdoors": 63,
-        "great-views": 97,
-        "far-from-roads": 66
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2614,30 +2675,30 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed property for sale",
-      "price": 39995,
+      "price": 119995,
       "address": "Garsdale Road, Sedbergh LA10",
       "bedrooms": 2,
       "bathrooms": null,
       "sqft": null,
       "type": "Property",
-      "description": "an Park!** Discover the exceptional ...Listed on 27th Mar 2026RetirementCall",
-      "postedDate": null,
+      "description": "A lodge built to a different standard This is not an off-the-shelf holiday home. Commissioned as a bespoke ...Listed on 27th Jul 2026Call",
+      "postedDate": "Just added",
       "agent": null,
       "agentPhone": null,
       "images": [
-        "https://lid.zoocdn.com/645/430/1ccf167713fc530dadf76ac3cd530b69129e8a44.jpg"
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
       ],
       "sources": [
         {
           "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72780217/"
+          "url": "https://www.zoopla.co.uk/for-sale/details/73818329/"
         }
       ],
       "lat": 54.3137381809955,
@@ -2684,19 +2745,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 5,
-        "quiet": 3,
-        "hillside": 97,
-        "large-outdoors": 30,
-        "great-views": 91,
-        "far-from-roads": 39
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2705,10 +2763,16 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z",
+      "updated": true,
+      "updatedFields": [
+        "price",
+        "description"
+      ],
+      "previousPrice": 39995
     },
     {
       "title": "2 bed property for sale",
@@ -2775,19 +2839,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 49,
-        "quiet": 19,
-        "hillside": 99,
-        "large-outdoors": 63,
-        "great-views": 99,
-        "far-from-roads": 75
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2796,10 +2857,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265,
-        "flightsDiffPct": 214
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "6 bed property for sale",
@@ -2866,21 +2927,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 44,
-        "quiet": 80,
-        "hillside": 97,
-        "large-outdoors": 97,
-        "great-views": 99,
-        "far-from-roads": 93
+        "rural": 14,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2889,10 +2945,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -2959,19 +3015,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 26,
-        "quiet": 76,
-        "hillside": 100,
-        "large-outdoors": 55,
-        "great-views": 99,
-        "far-from-roads": 60
+        "rural": 14,
+        "quiet": 15,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2980,10 +3033,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -3050,20 +3103,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 28,
-        "quiet": 37,
-        "hillside": 98,
-        "large-outdoors": 31,
-        "great-views": 98,
-        "far-from-roads": 82
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -3072,10 +3121,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.7,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:15:13.045Z"
+      "retrievedAt": "2026-07-28T10:15:48.591Z"
     }
   ],
   "portalLinks": [
@@ -3115,6 +3164,6 @@
       "searchLocation": "Sedbergh"
     }
   ],
-  "dupePassAt": "2026-07-25T14:16:23.724Z",
-  "autoTaggedAt": "2026-07-25T14:16:23.726Z"
+  "dupePassAt": "2026-07-28T10:16:38.376Z",
+  "autoTaggedAt": "2026-07-28T10:16:38.377Z"
 }

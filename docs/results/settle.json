@@ -1,8 +1,8 @@
 {
   "location": "Settle",
   "slug": "settle",
-  "generatedAt": "2026-07-25T14:08:25.752Z",
-  "count": 27,
+  "generatedAt": "2026-07-28T10:09:38.838Z",
+  "count": 29,
   "properties": [
     {
       "title": "3 bedroom detached bungalow for sale",
@@ -73,19 +73,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 44,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 28,
-        "great-views": 97,
-        "far-from-roads": 46
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -94,10 +91,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom semi-detached house for sale",
@@ -168,19 +165,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 13,
-        "hillside": 96,
-        "large-outdoors": 9,
-        "great-views": 94,
-        "far-from-roads": 57
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -189,10 +183,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom cottage for sale",
@@ -205,7 +199,7 @@
       "agent": "Neil Wright Estate Agents - Settle",
       "agentPhone": "01729 543575",
       "type": "Cottage",
-      "description": "a Street, Settle BD24Cottage21Tenure: FreeholdDouble Fronted 2 Bedroomed Character CottageChain-freeNeil Wright Estate Agents - SettleAdded < 14 daysEmail01729 543575",
+      "description": "a Street, Settle BD24Cottage21Tenure: FreeholdDouble Fronted 2 Bedroomed Character CottageChain-freeNeil Wright Estate Agents - SettleAdded > 14 daysEmail01729 543575",
       "images": [
         "https://media.onthemarket.com/properties/19927424/1629236331/image-0-480x320.jpg",
         "https://media.onthemarket.com/properties/19927424/1629236331/image-1-480x320.jpg",
@@ -263,19 +257,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 3,
-        "quiet": 21,
-        "hillside": 99,
-        "large-outdoors": 32,
-        "great-views": 94,
-        "far-from-roads": 39
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -284,10 +275,14 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -358,19 +353,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 48,
-        "great-views": 94,
-        "far-from-roads": 63
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -379,10 +371,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom detached bungalow for sale",
@@ -453,19 +445,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 37,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 5,
-        "great-views": 91,
-        "far-from-roads": 75
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -474,10 +463,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -548,19 +537,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 9,
-        "great-views": 98,
-        "far-from-roads": 40
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -569,10 +555,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -643,19 +629,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 9,
-        "great-views": 98,
-        "far-from-roads": 40
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -664,10 +647,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom house for sale",
@@ -738,19 +721,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 10,
-        "quiet": 7,
-        "hillside": 97,
-        "large-outdoors": 8,
-        "great-views": 91,
-        "far-from-roads": 53
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -759,10 +739,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom cottage for sale",
@@ -833,19 +813,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 28,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 16,
-        "great-views": 92,
-        "far-from-roads": 38
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -854,10 +831,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -884,8 +861,8 @@
           "url": "https://www.onthemarket.com/details/17458716/"
         }
       ],
-      "lat": 54.0652491,
-      "lon": -2.2798121,
+      "lat": 54.0622491,
+      "lon": -2.2825756,
       "searchLocation": "Settle",
       "searchLocations": [
         "Settle"
@@ -899,8 +876,8 @@
         "category": "airport",
         "usage": "commercial",
         "active": true,
-        "distanceKm": 46.174787407029555,
-        "distanceMiles": 28.69167382589336
+        "distanceKm": 46.17607207540333,
+        "distanceMiles": 28.692472081565445
       },
       "nearestAirstrip": {
         "name": "Chipping Airfield",
@@ -908,8 +885,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 29.98319630147472,
-        "distanceMiles": 18.63068866904365
+        "distanceKm": 29.62668929556638,
+        "distanceMiles": 18.409165554275376
       },
       "nearestHeliport": {
         "name": "Royal Lancaster Infirmary Heliport",
@@ -917,30 +894,27 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 34.105836239512286,
-        "distanceMiles": 21.19237756998199
+        "distanceKm": 33.903414851113,
+        "distanceMiles": 21.066598789450936
       },
-      "minAirportDistanceMiles": 18.63068866904365,
+      "minAirportDistanceMiles": 18.409165554275376,
       "flyoverRef": {
         "location": "interpolated",
-        "flightsPerDay": 267,
+        "flightsPerDay": 267.1,
         "interpolated": true,
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 5,
-        "hillside": 99,
-        "large-outdoors": 9,
-        "great-views": 98,
-        "far-from-roads": 40
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -948,11 +922,11 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 267,
-        "flightsDiffPct": 216
+        "flightsPerDay": 267.1,
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom cottage for sale",
@@ -1023,19 +997,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 28,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 16,
-        "great-views": 92,
-        "far-from-roads": 38
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1044,10 +1015,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bedroom apartment for sale",
@@ -1118,19 +1089,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 22,
-        "hillside": 98,
-        "large-outdoors": 25,
-        "great-views": 99,
-        "far-from-roads": 52
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1139,10 +1107,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1219,10 +1187,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -2,
         "flightsPerDay": 286,
-        "flightsDiffPct": 239
+        "flightsDiffPct": 36
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1292,19 +1260,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 37,
-        "hillside": 85,
-        "large-outdoors": 34,
-        "great-views": 98,
-        "far-from-roads": 67
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1313,10 +1278,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1383,19 +1348,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 1,
-        "quiet": 46,
-        "hillside": 96,
-        "large-outdoors": 52,
-        "great-views": 92,
-        "far-from-roads": 66
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1404,10 +1366,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1474,19 +1436,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 5,
-        "quiet": 61,
-        "hillside": 100,
-        "large-outdoors": 48,
-        "great-views": 99,
-        "far-from-roads": 51
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1495,103 +1454,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
-    },
-    {
-      "title": "2 bed detached for sale",
-      "price": 195000,
-      "address": "Marshfield Road, Settle, North Yorkshire BD24",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": 891,
-      "type": "detached",
-      "description": "A detached two-bedroom bungalow, offering spacious accommodation including two double bedrooms, living room, dining room and ...Listed on 6th May 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/5f9589edb1cb8ea30653014ee4e315fe88d9dbd1.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73119237/"
-        }
-      ],
-      "lat": 54.0704573,
-      "lon": -2.2803036,
-      "searchLocation": "Settle",
-      "searchLocations": [
-        "Settle"
-      ],
-      "sourceLocation": "Settle",
-      "autoRejected": true,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 46.48140241487585,
-        "distanceMiles": 28.88219549993382
-      },
-      "nearestAirstrip": {
-        "name": "Chipping Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 30.348668124245894,
-        "distanceMiles": 18.857782261030795
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 34.120530939483324,
-        "distanceMiles": 21.20150843039769
-      },
-      "minAirportDistanceMiles": 18.857782261030795,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
-      "autoTagScores": {
-        "rural": 3,
-        "quiet": 52,
-        "hillside": 95,
-        "large-outdoors": 87,
-        "great-views": 92,
-        "far-from-roads": 84
-      },
-      "autoTagThreshold": 80,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1658,19 +1524,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 32,
-        "hillside": 92,
-        "large-outdoors": 67,
-        "great-views": 97,
-        "far-from-roads": 49
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1679,10 +1542,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 267,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bed property for sale",
@@ -1749,21 +1612,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "quiet",
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 1,
-        "quiet": 83,
-        "hillside": 98,
-        "large-outdoors": 95,
-        "great-views": 98,
-        "far-from-roads": 59
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1772,10 +1630,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed property for sale",
@@ -1842,20 +1700,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 60,
-        "hillside": 99,
-        "large-outdoors": 71,
-        "great-views": 99,
-        "far-from-roads": 85
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1864,10 +1718,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.9,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed detached for sale",
@@ -1934,20 +1788,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "hillside",
-        "large-outdoors",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 15,
-        "quiet": 35,
-        "hillside": 99,
-        "large-outdoors": 99,
-        "great-views": 91,
-        "far-from-roads": 65
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 11,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -1956,10 +1806,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed property for sale",
@@ -2026,20 +1876,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 3,
-        "quiet": 36,
-        "hillside": 98,
-        "large-outdoors": 79,
-        "great-views": 99,
-        "far-from-roads": 81
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2048,10 +1894,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed cottage for sale",
@@ -2118,19 +1964,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 40,
-        "hillside": 98,
-        "large-outdoors": 60,
-        "great-views": 99,
-        "far-from-roads": 77
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2139,10 +1982,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bed cottage for sale",
@@ -2209,19 +2052,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 79,
-        "hillside": 97,
-        "large-outdoors": 54,
-        "great-views": 96,
-        "far-from-roads": 55
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2230,10 +2070,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed town house for sale",
@@ -2303,19 +2143,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 2,
-        "quiet": 29,
-        "hillside": 98,
-        "large-outdoors": 61,
-        "great-views": 98,
-        "far-from-roads": 47
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 0,
         "airstripsCount": 0,
@@ -2324,10 +2161,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 266.8,
-        "flightsDiffPct": 216
+        "flightsDiffPct": 27
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "3 bed semi-detached for sale",
@@ -2394,22 +2231,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "quiet",
-        "hillside",
-        "large-outdoors",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 65,
-        "quiet": 85,
-        "hillside": 100,
-        "large-outdoors": 99,
-        "great-views": 99,
-        "far-from-roads": 87
+        "rural": 14,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 13,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 0,
@@ -2418,10 +2249,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 264.2,
-        "flightsDiffPct": 213
+        "flightsDiffPct": 25
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
     },
     {
       "title": "2 bed property for sale",
@@ -2488,19 +2319,16 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 1,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 26,
-        "quiet": 13,
-        "hillside": 97,
-        "large-outdoors": 9,
-        "great-views": 96,
-        "far-from-roads": 58
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
-      "autoTagThreshold": 80,
+      "autoTagThreshold": 60,
       "baselineComparison": {
         "airportsCount": 1,
         "airstripsCount": 0,
@@ -2509,15 +2337,266 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 264.2,
-        "flightsDiffPct": 213
+        "flightsDiffPct": 25
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:08:25.752Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 160000,
+      "address": "Ribblesdale Court Long Preston, Skipton BD23",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "An ideal first home, offering generously proportioned accommodation, excellent transport connections and a stylish ...Listed on 1st Jun 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/2b21da7797a0fb7edbc2579266e9d64dd6b4014d.jpg"
       ],
-      "previousPrice": 189950
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73342892/"
+        }
+      ],
+      "lat": 53.99278429606629,
+      "lon": -2.056242750172534,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 29.49761138275442,
+        "distanceMiles": 18.3289602825135
+      },
+      "nearestAirstrip": {
+        "name": "Oxenhope Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 21.465714726500675,
+        "distanceMiles": 13.338172625320452
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 28.754181271945583,
+        "distanceMiles": 17.8670143711301
+      },
+      "minAirportDistanceMiles": 13.338172625320452,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 264.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 264.2,
+        "flightsDiffPct": 25
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 975000,
+      "address": "Kensington Avenue, Cheltenham, Gloucestershire, GL50",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr3.homeflow-assets.co.uk/files/photo/image/47955/5350/450x_/CHL260048_11.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21968847/sales/cheltenham"
+        }
+      ],
+      "lat": 51.896255,
+      "lon": -2.0993809,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Gloucestershire Airport",
+        "icao": "EGBJ",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 4.660630890964646,
+        "distanceMiles": 2.895980877349593
+      },
+      "nearestAirstrip": {
+        "name": "Willington Court Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.889865099780078,
+        "distanceMiles": 6.145275366915447
+      },
+      "nearestHeliport": {
+        "name": "Cheltenham Racecourse Heliport",
+        "icao": "EGBC",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 4.495204364331719,
+        "distanceMiles": 2.7931896310691644
+      },
+      "minAirportDistanceMiles": 2.7931896310691644,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 412,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 412,
+        "flightsDiffPct": 96
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T10:09:38.838Z"
+    },
+    {
+      "title": "2 bed detached for sale",
+      "price": 195000,
+      "address": "Marshfield Road, Settle, North Yorkshire BD24",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 891,
+      "type": "detached",
+      "description": "A detached two-bedroom bungalow, offering spacious accommodation including two double bedrooms, living room, dining room and ...Listed on 6th May 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/5f9589edb1cb8ea30653014ee4e315fe88d9dbd1.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73119237/"
+        }
+      ],
+      "lat": 54.0704573,
+      "lon": -2.2803036,
+      "searchLocation": "Settle",
+      "searchLocations": [
+        "Settle"
+      ],
+      "sourceLocation": "Settle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 46.48140241487585,
+        "distanceMiles": 28.88219549993382
+      },
+      "nearestAirstrip": {
+        "name": "Chipping Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 30.348668124245894,
+        "distanceMiles": 18.857782261030795
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.120530939483324,
+        "distanceMiles": 21.20150843039769
+      },
+      "minAirportDistanceMiles": 18.857782261030795,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 266.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 266.9,
+        "flightsDiffPct": 216
+      },
+      "isNew": false,
+      "retrievedAt": "2026-07-25T14:08:25.752Z"
     }
   ],
   "portalLinks": [
@@ -2557,6 +2636,6 @@
       "searchLocation": "Settle"
     }
   ],
-  "dupePassAt": "2026-07-25T14:16:23.719Z",
-  "autoTaggedAt": "2026-07-25T14:16:23.726Z"
+  "dupePassAt": "2026-07-28T10:16:38.368Z",
+  "autoTaggedAt": "2026-07-28T10:16:38.377Z"
 }

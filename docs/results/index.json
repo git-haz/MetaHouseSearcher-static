@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T10:05:57.318Z",
-  "complete": false,
+  "generatedAt": "2026-07-28T10:16:38.610Z",
+  "complete": true,
   "searchConfig": {
     "searches": [
       {
@@ -414,8 +414,8 @@
     "Sedbergh"
   ],
   "totalLocations": 45,
-  "completedLocations": 40,
-  "totalResults": null,
+  "completedLocations": 45,
+  "totalResults": 1721,
   "available": [
     "launceston",
     "totnes",
@@ -456,7 +456,12 @@
     "leyburn",
     "middleham",
     "askrigg",
-    "reeth"
+    "reeth",
+    "grassington",
+    "settle",
+    "horton-in-ribblesdale",
+    "pateley-bridge",
+    "sedbergh"
   ],
   "baseline": {
     "name": "Tottenham",
@@ -1874,6 +1879,181 @@
       "portal": "Winkworth",
       "url": "https://www.winkworth.co.uk/properties?search_location=DL11%206SP&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Reeth"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/bd23-5aa/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/bd23-5aa/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=BD23%205AA&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=BD23%205AA&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=BD23%205AA&minbeds=2&maxprice=450000",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=BD23%205AA&minBeds=2&maxPrice=450000",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=BD23%205AA&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Grassington"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/bd24-9ej/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/bd24-9ej/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=BD24%209EJ&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=BD24%209EJ&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=BD24%209EJ&minbeds=2&maxprice=450000",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=BD24%209EJ&minBeds=2&maxPrice=450000",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=BD24%209EJ&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Settle"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/bd24-0hh/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/bd24-0hh/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=BD24%200HH&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=BD24%200HH&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=BD24%200HH&minbeds=2&maxprice=450000",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=BD24%200HH&minBeds=2&maxPrice=450000",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=BD24%200HH&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Horton-in-Ribblesdale"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/hg3-5at/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/hg3-5at/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=HG3%205AT&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=HG3%205AT&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=HG3%205AT&minbeds=2&maxprice=450000",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=HG3%205AT&minBeds=2&maxPrice=450000",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=HG3%205AT&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Pateley Bridge"
+    },
+    {
+      "portal": "Zoopla",
+      "url": "https://www.zoopla.co.uk/for-sale/property/la10-5bn/?q=garden&price_max=450000&beds_min=2",
+      "searchLocation": "Sedbergh"
+    },
+    {
+      "portal": "OnTheMarket",
+      "url": "https://www.onthemarket.com/for-sale/property/la10-5bn/?q=garden&min-bedrooms=2&max-price=450000",
+      "searchLocation": "Sedbergh"
+    },
+    {
+      "portal": "Durrants",
+      "url": "https://durrants.com/properties/?department=residential-sales&view=list&address_keyword=LA10%205BN&radius=20&minimum_bedrooms=2&maximum_price=450000",
+      "searchLocation": "Sedbergh"
+    },
+    {
+      "portal": "Savills",
+      "url": "https://search.savills.com/list?SearchList=Id_5201+Category_SBuy&Tenure=GRS_T_B&SortOrder=SO_PCDD&SearchLocation=LA10%205BN&MinBedrooms=2&MaxPrice=450000",
+      "searchLocation": "Sedbergh"
+    },
+    {
+      "portal": "Strutt & Parker",
+      "url": "https://www.struttandparker.com/find-a-property?search=LA10%205BN&minbeds=2&maxprice=450000",
+      "searchLocation": "Sedbergh"
+    },
+    {
+      "portal": "Jackson-Stops",
+      "url": "https://www.jackson-stops.co.uk/properties/search?channel=sales&locations[0]=LA10%205BN&minBeds=2&maxPrice=450000",
+      "searchLocation": "Sedbergh"
+    },
+    {
+      "portal": "Winkworth",
+      "url": "https://www.winkworth.co.uk/properties?search_location=LA10%205BN&min_beds=2&keywords=garden&max_price=450000",
+      "searchLocation": "Sedbergh"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "location": "Horton-in-Ribblesdale",
   "slug": "horton-in-ribblesdale",
-  "generatedAt": "2026-07-25T14:10:53.935Z",
+  "generatedAt": "2026-07-28T10:11:48.660Z",
   "count": 8,
   "properties": [
     {
@@ -73,17 +73,14 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 15,
-        "quiet": 21,
-        "hillside": 93,
-        "large-outdoors": 57,
-        "great-views": 96,
-        "far-from-roads": 56
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
       "autoTagThreshold": 60,
       "baselineComparison": {
@@ -94,10 +91,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.5,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:10:53.935Z"
+      "retrievedAt": "2026-07-28T10:11:48.660Z"
     },
     {
       "title": "3 bedroom semi-detached house for sale",
@@ -168,18 +165,14 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 6,
-        "quiet": 4,
-        "hillside": 98,
-        "large-outdoors": 48,
-        "great-views": 94,
-        "far-from-roads": 63
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
       "autoTagThreshold": 60,
       "baselineComparison": {
@@ -190,10 +183,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.5,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:10:53.935Z"
+      "retrievedAt": "2026-07-28T10:11:48.660Z"
     },
     {
       "title": "undefined",
@@ -264,17 +257,14 @@
         "generatedAt": "2026-06-26T12:59:20.862Z"
       },
       "keywordsMatched": 0,
-      "autoTags": [
-        "hillside",
-        "great-views"
-      ],
+      "autoTags": [],
       "autoTagScores": {
-        "rural": 4,
-        "quiet": 21,
-        "hillside": 90,
-        "large-outdoors": 23,
-        "great-views": 79,
-        "far-from-roads": 44
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
       },
       "autoTagThreshold": 60,
       "baselineComparison": {
@@ -285,10 +275,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 265.8,
-        "flightsDiffPct": 215
+        "flightsDiffPct": 26
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:10:53.935Z"
+      "retrievedAt": "2026-07-28T10:11:48.660Z"
     },
     {
       "title": "3 bed semi-detached for sale",
@@ -365,103 +355,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -3,
         "flightsPerDay": 273.7,
-        "flightsDiffPct": 224
+        "flightsDiffPct": 30
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:10:53.935Z"
-    },
-    {
-      "title": "2 bed property for sale",
-      "price": 84950,
-      "address": "room lodge showcases impressive features and state of the art interior",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "type": "Property",
-      "description": "this divine 2 bedroom lodge showcases impressive features and state of the art interior ...Listed on 22nd Aug 2025Call",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/e91aa8a5cf1d075d10349e86b539b64b0a02e494.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/71121171/"
-        }
-      ],
-      "lat": 54.1455978,
-      "lon": -2.2928539,
-      "searchLocation": "Horton-in-Ribblesdale",
-      "searchLocations": [
-        "Horton-in-Ribblesdale"
-      ],
-      "sourceLocation": "Horton-in-Ribblesdale",
-      "autoRejected": true,
-      "geoAccuracy": "area",
-      "nearestAirport": {
-        "name": "Leeds Bradford Airport",
-        "icao": "EGNM",
-        "category": "airport",
-        "usage": "commercial",
-        "active": true,
-        "distanceKm": 51.71612453458646,
-        "distanceMiles": 32.134900018180524
-      },
-      "nearestAirstrip": {
-        "name": "Park Farm Airstrip",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 33.89281718379696,
-        "distanceMiles": 21.0600137063131
-      },
-      "nearestHeliport": {
-        "name": "Royal Lancaster Infirmary Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 35.06994594477363,
-        "distanceMiles": 21.791447381649935
-      },
-      "minAirportDistanceMiles": 21.0600137063131,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [
-        "quiet",
-        "hillside",
-        "great-views",
-        "far-from-roads"
-      ],
-      "autoTagScores": {
-        "rural": 5,
-        "quiet": 74,
-        "hillside": 96,
-        "large-outdoors": 47,
-        "great-views": 99,
-        "far-from-roads": 78
-      },
-      "autoTagThreshold": 60,
-      "baselineComparison": {
-        "airportsCount": 0,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -4,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 265.5,
-        "flightsDiffPct": 215
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T14:10:53.935Z"
+      "retrievedAt": "2026-07-28T10:11:48.660Z"
     },
     {
       "title": "2 bed property for sale",
@@ -538,10 +435,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -3,
         "flightsPerDay": 273.7,
-        "flightsDiffPct": 224
+        "flightsDiffPct": 30
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T14:10:53.935Z"
+      "retrievedAt": "2026-07-28T10:11:48.660Z"
     },
     {
       "title": "2 bed property for sale",
@@ -551,8 +448,8 @@
       "bathrooms": null,
       "sqft": null,
       "type": "Property",
-      "description": "Step into a slower pace of life with the Yorkshire Dales Retreat ...Listed on 7th Jan 2026Call",
-      "postedDate": null,
+      "description": "Step into a slower pace of life with the Yorkshire Dales Retreat ...Listed on 27th Jul 2026Call",
+      "postedDate": "Just added",
       "agent": null,
       "agentPhone": null,
       "images": [
@@ -561,7 +458,7 @@
       "sources": [
         {
           "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72128538/"
+          "url": "https://www.zoopla.co.uk/for-sale/details/73824644/"
         }
       ],
       "lat": 54.06599771124613,
@@ -618,9 +515,101 @@
         "airstripsDiff": 0,
         "helipadsDiff": -3,
         "flightsPerDay": 273.7,
-        "flightsDiffPct": 224
+        "flightsDiffPct": 30
       },
       "isNew": true,
+      "retrievedAt": "2026-07-28T10:11:48.660Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 84950,
+      "address": "room lodge showcases impressive features and state of the art interior",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "this divine 2 bedroom lodge showcases impressive features and state of the art interior ...Listed on 22nd Aug 2025Call",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/e91aa8a5cf1d075d10349e86b539b64b0a02e494.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/71121171/"
+        }
+      ],
+      "lat": 54.1455978,
+      "lon": -2.2928539,
+      "searchLocation": "Horton-in-Ribblesdale",
+      "searchLocations": [
+        "Horton-in-Ribblesdale"
+      ],
+      "sourceLocation": "Horton-in-Ribblesdale",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 51.71612453458646,
+        "distanceMiles": 32.134900018180524
+      },
+      "nearestAirstrip": {
+        "name": "Park Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 33.89281718379696,
+        "distanceMiles": 21.0600137063131
+      },
+      "nearestHeliport": {
+        "name": "Royal Lancaster Infirmary Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 35.06994594477363,
+        "distanceMiles": 21.791447381649935
+      },
+      "minAirportDistanceMiles": 21.0600137063131,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 265.5,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {
+        "rural": 0,
+        "quiet": 0,
+        "hillside": 0,
+        "large-outdoors": 0,
+        "great-views": 0,
+        "far-from-roads": 0
+      },
+      "autoTagThreshold": 60,
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 265.5,
+        "flightsDiffPct": 215
+      },
+      "isNew": false,
       "retrievedAt": "2026-07-25T14:10:53.935Z"
     },
     {
@@ -742,6 +731,6 @@
       "searchLocation": "Horton-in-Ribblesdale"
     }
   ],
-  "dupePassAt": "2026-07-25T14:16:23.720Z",
-  "autoTaggedAt": "2026-07-25T14:16:23.726Z"
+  "dupePassAt": "2026-07-28T10:16:38.371Z",
+  "autoTaggedAt": "2026-07-28T10:16:38.377Z"
 }
