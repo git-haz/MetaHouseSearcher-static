@@ -1,9 +1,93 @@
 {
   "location": "Horncastle",
   "slug": "horncastle",
-  "generatedAt": "2026-07-25T13:30:32.515Z",
-  "count": 36,
+  "generatedAt": "2026-07-28T09:33:57.674Z",
+  "count": 67,
   "properties": [
+    {
+      "title": "2 bedroom end of terrace house for sale",
+      "price": 175000,
+      "address": "Hamerton Lane, Horncastle",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Robert Bell & Company - Horncastle",
+      "agentPhone": "01507 311044",
+      "type": "End of terrace house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/20014645/1632319299/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/20014645/1632319299/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/20014645/1632319299/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/20014645/1632319299/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/20014645/1632319299/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/20014645/"
+        }
+      ],
+      "lat": 53.2075398,
+      "lon": -0.1132879,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.21277823070925,
+        "distanceMiles": 8.210037221994037
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.357419645360762,
+        "distanceMiles": 5.814429202457462
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.82998041003671,
+        "distanceMiles": 45.87580875736492
+      },
+      "minAirportDistanceMiles": 5.814429202457462,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.6,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
     {
       "title": "2 bedroom terraced house for sale",
       "price": 1750004,
@@ -15,13 +99,13 @@
       "agent": "Robert Bell & Company - Horncastle",
       "agentPhone": "01507 311044",
       "type": "Terraced house",
-      "description": "an Court, HorncastleTerraced house21No onward chain!Well-presented two bedroom propertyChain-freeRobert Bell & Company - HorncastleAdded yesterdayEmail01507 311044",
+      "description": "an Court, HorncastleTerraced house21Tenure: FreeholdNo onward chain!Chain-freeRobert Bell & Company - HorncastleAdded < 7 daysEmail01507 311044",
       "images": [
         "https://media.onthemarket.com/properties/19998328/1631648216/image-0-480x320.jpg",
         "https://media.onthemarket.com/properties/19998328/1631648216/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19998328/1631648216/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19998328/1631648179/image-2-480x320.jpg",
         "https://media.onthemarket.com/properties/19998328/1631648216/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19998328/1631648216/image-4-480x320.jpg"
+        "https://media.onthemarket.com/properties/19998328/1631648179/image-4-480x320.jpg"
       ],
       "sources": [
         {
@@ -83,10 +167,14 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.8,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
     },
     {
       "title": "3 bedroom house for sale",
@@ -167,10 +255,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "2 bedroom house for sale",
@@ -183,7 +271,7 @@
       "agent": "Robert Bell & Company - Horncastle",
       "agentPhone": "01507 311044",
       "type": "House",
-      "description": "a West Street, HorncastleHouse21Tenure: FreeholdCharming Two Bedroom CottageChain-freeRobert Bell & Company - HorncastleReduced < 7 daysEmail01507 311044",
+      "description": "a West Street, HorncastleHouse21Tenure: FreeholdCharming Two Bedroom CottageChain-freeRobert Bell & Company - HorncastleReduced < 14 daysEmail01507 311044",
       "images": [
         "https://media.onthemarket.com/properties/19149442/1630827275/image-0-480x320.jpg",
         "https://media.onthemarket.com/properties/19149442/1630827275/image-1-480x320.jpg",
@@ -251,10 +339,14 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.8,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z",
+      "updated": true,
+      "updatedFields": [
+        "description"
+      ]
     },
     {
       "title": "3 bedroom house for sale",
@@ -335,10 +427,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "3 bedroom detached house for sale",
@@ -419,10 +511,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "3 bedroom terraced house for sale",
@@ -503,10 +595,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.5,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "2 bedroom terraced house for sale",
@@ -587,10 +679,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 198.1,
-        "flightsDiffPct": 135
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "5 bedroom house for sale",
@@ -671,10 +763,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.8,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "3 bedroom end of terrace house for sale",
@@ -755,10 +847,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 198.1,
-        "flightsDiffPct": 135
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "4 bedroom end of terrace house for sale",
@@ -839,10 +931,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "4 bedroom detached house for sale",
@@ -923,10 +1015,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 198,
-        "flightsDiffPct": 135
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "2 bedroom detached bungalow for sale",
@@ -1007,10 +1099,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 198,
-        "flightsDiffPct": 135
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "3 bedroom house for sale",
@@ -1091,10 +1183,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "2 bedroom house for sale",
@@ -1175,10 +1267,10 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "2 bedroom house for sale",
@@ -1205,8 +1297,8 @@
           "url": "https://www.onthemarket.com/details/19369656/"
         }
       ],
-      "lat": 53.2108403,
-      "lon": -0.1150876,
+      "lat": 53.2089222,
+      "lon": -0.1367123,
       "searchLocation": "Horncastle",
       "searchLocations": [
         "Horncastle"
@@ -1220,8 +1312,8 @@
         "category": "airport",
         "usage": "military",
         "active": true,
-        "distanceKm": 13.536255497995093,
-        "distanceMiles": 8.41103661504471
+        "distanceKm": 13.037328870316646,
+        "distanceMiles": 8.101018077477525
       },
       "nearestAirstrip": {
         "name": "Bucknall Airfield",
@@ -1229,8 +1321,8 @@
         "category": "airstrip",
         "usage": "private",
         "active": false,
-        "distanceKm": 9.278000573891342,
-        "distanceMiles": 5.765080494599437
+        "distanceKm": 7.822520331405181,
+        "distanceMiles": 4.8606872808455694
       },
       "nearestHeliport": {
         "name": "Nottingham Heliport",
@@ -1238,10 +1330,430 @@
         "category": "heliport",
         "usage": "private",
         "active": false,
-        "distanceKm": 73.93255160490874,
-        "distanceMiles": 45.93954352329375
+        "distanceKm": 72.61822010102875,
+        "distanceMiles": 45.122856042396336
       },
-      "minAirportDistanceMiles": 5.765080494599437,
+      "minAirportDistanceMiles": 4.8606872808455694,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 199.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 199.4,
+        "flightsDiffPct": -5
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bedroom terraced house for sale",
+      "price": 289950,
+      "address": "West Street, Horncastle, LN9",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Newton Fallowell - Spilsby",
+      "agentPhone": "01790 243987",
+      "type": "Terraced house",
+      "description": "an town houseNewton Fallowell - SpilsbyAdded > 14 daysEmail01790 243987",
+      "images": [
+        "https://media.onthemarket.com/properties/17131122/1601643932/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/17131122/1601643932/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/17131122/1601643932/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/17131122/1601643932/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/17131122/1601643932/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/17131122/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bedroom terraced house for sale",
+      "price": 11000025,
+      "address": "25 Prospect Street, Horncastle",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Robert Bell & Company - Horncastle",
+      "agentPhone": "01507 311044",
+      "type": "Terraced house",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/16748862/1617666252/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16748862/1617666149/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16748862/1617666149/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16748862/1617666149/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16748862/1617666149/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16748862/"
+        }
+      ],
+      "lat": 53.2114252,
+      "lon": -0.1195743,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.52760967574273,
+        "distanceMiles": 8.405664351825935
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.990645761058383,
+        "distanceMiles": 5.586526547194609
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.72016565886756,
+        "distanceMiles": 45.807573055616196
+      },
+      "minAirportDistanceMiles": 5.586526547194609,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 198,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 198,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bedroom detached house for sale",
+      "price": 23500042,
+      "address": "42 South Street, Horncastle",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Robert Bell & Company - Horncastle",
+      "agentPhone": "01507 311044",
+      "type": "Detached house",
+      "description": "Beautiful three bedroom detached homeRobert Bell & Company - HorncastleAdded > 14 daysEmail01507 311044",
+      "images": [
+        "https://media.onthemarket.com/properties/16478465/1609244212/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/16478465/1609244212/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/16478465/1609244212/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/16478465/1609244212/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/16478465/1609244212/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/16478465/"
+        }
+      ],
+      "lat": 53.2062643,
+      "lon": -0.1146261,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.052418395297325,
+        "distanceMiles": 8.110394270704294
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.257110522424796,
+        "distanceMiles": 5.752100022429618
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.67759949143148,
+        "distanceMiles": 45.78112367359027
+      },
+      "minAirportDistanceMiles": 5.752100022429618,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -1,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.7,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bedroom terraced house for sale",
+      "price": 239950,
+      "address": "Georgian House, 32 East Street, Horncastle",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "Robert Bell & Company - Horncastle",
+      "agentPhone": "01507 311044",
+      "type": "Terraced house",
+      "description": "an House, 32 East Street, HorncastleTerraced house32Tenure: FreeholdGrade II Listed Town Centre Family HomeRobert Bell & Company - HorncastleAdded > 14 daysEmail01507 311044",
+      "images": [
+        "https://media.onthemarket.com/properties/14564526/1609244335/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/14564526/1609244335/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/14564526/1609244335/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/14564526/1609244335/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/14564526/1609244335/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/14564526/"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bedroom townhouse for sale",
+      "price": 13500010,
+      "address": "10 Bull Ring Horncastle LN9 5HU",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "postedDate": null,
+      "agent": "John Taylors - Louth",
+      "agentPhone": null,
+      "type": "Townhouse",
+      "description": "",
+      "images": [
+        "https://media.onthemarket.com/properties/19081947/1602897654/image-0-480x320.jpg",
+        "https://media.onthemarket.com/properties/19081947/1602897654/image-1-480x320.jpg",
+        "https://media.onthemarket.com/properties/19081947/1602897654/image-2-480x320.jpg",
+        "https://media.onthemarket.com/properties/19081947/1602897654/image-3-480x320.jpg",
+        "https://media.onthemarket.com/properties/19081947/1602897654/image-4-480x320.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "OnTheMarket",
+          "url": "https://www.onthemarket.com/details/19081947/"
+        }
+      ],
+      "lat": 53.2085083,
+      "lon": -0.1147948,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.290429116618414,
+        "distanceMiles": 8.258287230622301
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.26767271334672,
+        "distanceMiles": 5.758663061564965
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.80549428332887,
+        "distanceMiles": 45.86059378832634
+      },
+      "minAirportDistanceMiles": 5.758663061564965,
       "flyoverRef": {
         "location": "interpolated",
         "flightsPerDay": 197.7,
@@ -1259,15 +1771,3624 @@
         "airstripsDiff": 0,
         "helipadsDiff": -4,
         "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
+        "flightsDiffPct": -6
       },
       "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z",
-      "updated": true,
-      "updatedFields": [
-        "price"
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed detached for sale",
+      "price": 135000,
+      "address": "Prospect Street, Horncastle LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "detached",
+      "description": "with no chain, this 2 bedroom semi detached property is neatly located close to the town centre and briefly offers ...Listed on 9th Apr 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/ec609d81362681a10ecf4c7d2d14cb03e4481283.jpg",
+        "https://lid.zoocdn.com/645/430/51aeb16543452fdc5eebd7da81535a05ab702ccb.jpg",
+        "https://lid.zoocdn.com/645/430/9f1726f4802d5c1b1a907cfb57bc7eb33e871c56.jpg",
+        "https://lid.zoocdn.com/645/430/254db8666713e02655daca629243c1bce76f86d9.jpg"
       ],
-      "previousPrice": 1240009
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72885322/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed town house for sale",
+      "price": 289950,
+      "address": "West Street, Horncastle LN9",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "town house",
+      "description": "A beautifully updated three bedroom Georgian period town house built circa 1746 convenient for the town centre and nearby ...Listed on 19th May 2025",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/83e36f43716349f8343f0f480d3b5959ff69a493.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72685042/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 200000,
+      "address": "East Street, Horncastle LN9",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "a highly convenient position ...Listed on 17th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/16e36ffea8f296966f412a028aef990467f56c35.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73738262/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 170000,
+      "address": "Bells Yard Close, Horncastle LN9",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "A well presented 3 bed mid terrace home on a quiet no-through road in Horncastle. Short walk to the Georgian town centre & ...Listed on 17th Jun 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/ea82b96eff41ab83a822f0694285c0827ad78715.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73475832/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 375000,
+      "address": "Osborne Way, Horncastle LN9",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "a secluded and enviable plot within a modern development, Osborne Way is an impressive four-bedroom family home ...Listed on 1st Apr 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/615fc21b9cde4368bf1e63ad64d367d2cf891a8f.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72819080/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed detached for sale",
+      "price": 205000,
+      "address": "Spilsby Road, Horncastle LN9",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "detached",
+      "description": "This substantial four-bedroom detached home offers a rare and exciting opportunity for buyers looking for a project ...Listed on 17th Jun 2026AuctionCall",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/2c3a9e9ccb89e2264197dbe741c6bbdcc2fce90e.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73477967/"
+        },
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73471477/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed semi-detached for sale",
+      "price": 225000,
+      "address": "Baggaley Drive, Horncastle LN9",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "semi-detached",
+      "description": "this modern, immaculately presented semi-detached home. Built in 2009 by the ...Listed on 9th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/60653a5cf907e6ab681c66c32d3b4b15225cb068.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73669433/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed detached for sale",
+      "price": 220000,
+      "address": "Baggaley Drive, Horncastle LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 633,
+      "type": "detached",
+      "description": "An attractive detached bungalow occupying a generous larger-than-average plot in a sought-after position within the historic ...Listed on 14th May 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/3c0e95b442a064da723e4a7e76cd179e8f6fa627.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73192938/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed detached for sale",
+      "price": 280000,
+      "address": "Hemingby Way, Horncastle LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 840,
+      "type": "detached",
+      "description": "Situated in a sought-after residential location on the edge of the charming market town of Horncastle, this detached bungalow ...Listed on 3rd Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/e625959753e8555771786a6dd60e16c8eaa0ac76.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73622587/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 195000,
+      "address": "Malsters Drive, Horncastle LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 786,
+      "type": "Property",
+      "description": "Built in 2025 and enjoying a prime position on a sought-after new development in the thriving market town of Horncastle, on ...Listed on 19th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/d94121033eef0017e2c1189eaf9b5ede235e1d7e.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73494964/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 165000,
+      "address": "Malsters Drive, Horncastle, Lincolnshire LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "Situated on the ever-popular Malsters Drive development in Horncastle, this beautifully presented two bedroom home offers ...Listed on 17th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/33937b536af5c6897e9505f0bd27fa7be785ed12.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73746511/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 370000,
+      "address": "Malt Kiln Crescent, Horncastle LN9",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "this Chrysolite design family home ...Listed on 24th Oct 2025",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/e2fcd29077db28749131f62f6fa5f9964f170a08.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72687783/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 40000,
+      "address": "Malsters Drive, Horncastle LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "type": "Property",
+      "description": "This fantastic brand new 2 bedroom mid terrace property at the highly desirable development in Horncastle. Available on a ...Listed on 24th Jul 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/a5af1ec3e7ce760564ad22168db4d69aa267bf55.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73802883/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed detached for sale",
+      "price": 230000,
+      "address": "Thornton Crescent, Horncastle LN9",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1625,
+      "type": "detached",
+      "description": "with no chain, this detached bungalow occupies a pleasant position on the outskirts of the popular market ...Listed on 27th Jul 2026",
+      "postedDate": "Just added",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/beb7e1a8060b7c6dcf611f922e575328c3198fa6.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73817841/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed detached for sale",
+      "price": 325000,
+      "address": "Whelpton Close, Horncastle LN9",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "detached",
+      "description": "A spacious four-bedroom detached bungalow situated in the popular market town of Horncastle. Offering generous living ...Listed on 16th Jun 2026",
+      "postedDate": null,
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/934f1e4be96803d64fc08d0b314a3f40abd61331.jpg",
+        "https://lid.zoocdn.com/645/430/b6a3192cf012d89a9a93cfcb26160eeadb69eb7f.jpg",
+        "https://lid.zoocdn.com/645/430/ebb430f3ac3f12302e8f80a50ea3cdf669442d3b.jpg",
+        "https://lid.zoocdn.com/645/430/e933bf9721b24076ecff82eb58b37b83c4aeaf30.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73470174/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed semi-detached for sale",
+      "price": 180000,
+      "address": "Tennyson Gardens, Horncastle LN9",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 829,
+      "type": "semi-detached",
+      "description": "with no chain, this semi-detached home enjoys a convenient location close to Horncastle town centre and ...Listed on 23rd Jul 2026",
+      "postedDate": "Reduced",
+      "agent": null,
+      "agentPhone": null,
+      "images": [
+        "https://lid.zoocdn.com/645/430/bf5f6c75f455fd83d9eaeb1cb1c5b8985df5a10e.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/73795630/"
+        },
+        {
+          "portal": "Zoopla",
+          "url": "https://www.zoopla.co.uk/for-sale/details/72957416/"
+        }
+      ],
+      "lat": 53.21727617326728,
+      "lon": -0.11168763366336633,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "postcode",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 14.285870806926022,
+        "distanceMiles": 8.876825829170429
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.618525984628674,
+        "distanceMiles": 5.976673109594704
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 74.51892741991693,
+        "distanceMiles": 46.30390044984121
+      },
+      "minAirportDistanceMiles": 5.976673109594704,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.4,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 225000,
+      "address": "Axis Tower,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 617,
+      "type": "Property",
+      "description": "an GriffinManchester+44 (0)161 711 0990+44 (0)161 711 0990Contact nowCameron CresswellManchester Lettings+44 (0) 161 711 0990+44 (0) 161 711 0990Contact nowFlat / Apartment617 sq ft (57.32 sq m)2Bedrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://assets.savills.com/properties/GBMGRSMNS250411/MNS250411_13_l_lis.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbmgrsmns250411"
+        }
+      ],
+      "lat": 53.4746241,
+      "lon": -2.2485561,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 14.077466989574456,
+        "distanceMiles": 8.74732974077887
+      },
+      "nearestAirstrip": {
+        "name": "Manchester Barton Aerodrome",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.348328437920594,
+        "distanceMiles": 5.808780189799157
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.964892430806106,
+        "distanceMiles": 6.191895174622421
+      },
+      "minAirportDistanceMiles": 5.808780189799157,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 285.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -2,
+        "flightsPerDay": 285.1,
+        "flightsDiffPct": 35
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 325000,
+      "address": "Hermitage Place, Bath Road,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 847,
+      "type": "Property",
+      "description": "a Homes…Selection of newly built and beautif……Selection of newly built andbeautifully refurbished homes…Landscaped communal gardens wit……Landscaped communal gardenswith direct private gated access to……B",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsurdsnd250078"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 310000,
+      "address": "Gibraltar - Sir William Jackson Grove,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 80,
+      "type": "Property",
+      "description": "an MonteroSavills Gibraltar+350 200 666 33+350 200 666 33Contact nowFlat / Apartment715.80 sq ft (66.50 sq m)3Bedrooms1Bathrooms",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsss0711812"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 299000,
+      "address": "Gibraltar - Marina Bay,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 83,
+      "type": "Property",
+      "description": "a Bay…Ocean Village645.83 sq ft(60 sq m)Guide price £299,000(€349,734)Private Parking…Private Parking…Fully Furnished…Fully Furnished…Communal pool…Communal pool…Good condition…Good condition…Aidan Mont",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gigirsssmb29"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 210000,
+      "address": "Canal,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 635,
+      "type": "Property",
+      "description": "Situated over 3 floors…Situated over 3 floors…In the heart of Salisbury…In the heart of Salisbury…Next to local shops & facilities…Next to local shops & facilities…Daniel TarrantSouth Coast New Homes+44 (0) 23",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbslrswnd250010"
+        }
+      ],
+      "lat": 50.5107741,
+      "lon": -4.1921368,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cornwall Airport Newquay",
+        "icao": "EGHQ",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 57.37644240973055,
+        "distanceMiles": 35.65205739657668
+      },
+      "nearestAirstrip": {
+        "name": "Tinnel Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 6.373823842696542,
+        "distanceMiles": 3.9605092949601928
+      },
+      "nearestHeliport": {
+        "name": "Liskeard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 17.872291211506674,
+        "distanceMiles": 11.105323462385114
+      },
+      "minAirportDistanceMiles": 3.9605092949601928,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 371.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 371.8,
+        "flightsDiffPct": 76
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 335000,
+      "address": "Apartment 3 Bosq House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 31,
+      "type": "Property",
+      "description": "A well rounded 1 bedroom apartme……A well rounded 1 bedroomapartment.…Part of the highly regarded Royal Te……Part of the highly regarded RoyalTerrace development.…Situated in the heart of town.…Situated i",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbguesgue260105"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 345000,
+      "address": "Apartment 2 Fermoy House,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 31,
+      "type": "Property",
+      "description": "two bedroom apartment…Top floor, two bedroom apartment…Secure underground parking space…Secure underground parking space…Situated in a block with only one ot……Situated in a block with only oneother apartm",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbguesgue260131"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 265000,
+      "address": "Winterbrook Meadows,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 630,
+      "type": "Property",
+      "description": "a t……Apartments and family homes in athriving Oxfordshire community…Walk to Wallingford town centre via ……Walk to Wallingford town centre viaa direct pedestrian route…Moments from the River Thames an……M",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbswrdsud240091"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 270000,
+      "address": "Cleve Way,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 794,
+      "type": "Property",
+      "description": "Two bedroom terraced home…Two bedroom terraced home…Ideal first time purchase…Ideal first time purchase…Potential to modernise…Potential to modernise…David VawdreyPetworth+44 (0) 1798 345 980+44 (0) 1798",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbpwrspsg260104"
+        }
+      ],
+      "lat": 51.0194787,
+      "lon": -0.4504652,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": true,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 23.0954150566574,
+        "distanceMiles": 14.350821149170267
+      },
+      "nearestAirstrip": {
+        "name": "Fowler's Field Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 2.1166158553612084,
+        "distanceMiles": 1.3152037106616494
+      },
+      "nearestHeliport": {
+        "name": "Avisford Park Hotel Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 22.145437174572542,
+        "distanceMiles": 13.760532442601315
+      },
+      "minAirportDistanceMiles": 1.3152037106616494,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 610.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 5,
+        "helipadsCount": 1,
+        "airportsDiff": -2,
+        "airstripsDiff": 5,
+        "helipadsDiff": -3,
+        "flightsPerDay": 610.2,
+        "flightsDiffPct": 190
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 530060,
+      "address": "Via Alberto Litta Modignani,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1442153,
+      "type": "Property",
+      "description": "a Alberto Litta Modignani…Rome, Italy, 001442,153 sq ft(200.02 sq m)Asking price €620,000(£530,060)Sold in July 2026…Sold in July 2026…Bright double living room with flexible layout…Bright double living",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250209"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 581356,
+      "address": "Via Aurelia,",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1651399,
+      "type": "Property",
+      "description": "a Aurelia…Rome, Italy, 001651,399 sq ft(129.97 sq m)Asking price €680,000(£581,356)Sold in July 2026…Sold in July 2026…Spacious panoramic terrace with pergola…Spacious panoramic terrace with pergola…Ful",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbsroeroe250231"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 725000,
+      "address": "Garrick Close,",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 844,
+      "type": "Property",
+      "description": "A generous sized garden…A generous sized garden…Ideally positioned for local amenities…Ideally positioned for local amenities…Property is being offered chain free…Property is being offered chain free…Be",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbwarsclv756739"
+        }
+      ],
+      "lat": 51.4603075,
+      "lon": -0.1807346,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 17.091629194794248,
+        "distanceMiles": 10.620242724398496
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.607784028255416,
+        "distanceMiles": 10.319595369421096
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 1.0720706680643728,
+        "distanceMiles": 0.6661536230858274
+      },
+      "minAirportDistanceMiles": 0.6661536230858274,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 209.9,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 5,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 1,
+        "flightsPerDay": 209.9,
+        "flightsDiffPct": 0
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "2 bed property for sale",
+      "price": 1450000,
+      "address": "Cornwall Gardens Court,",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1138,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbecrsecs260064"
+        }
+      ],
+      "lat": 51.4972791,
+      "lon": -0.1887038,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.911577727502358,
+        "distanceMiles": 10.508363964115867
+      },
+      "nearestAirstrip": {
+        "name": "Rushett Farm",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 19.899579688773965,
+        "distanceMiles": 12.365021730793167
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 3.1076951885157347,
+        "distanceMiles": 1.9310316669832106
+      },
+      "minAirportDistanceMiles": 1.9310316669832106,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 152.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 1,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 6,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 2,
+        "flightsPerDay": 152.7,
+        "flightsDiffPct": -28
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 2250000,
+      "address": "Sewardstone Road,",
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "sqft": 6910,
+      "type": "Property",
+      "description": "Three two bedroom flats…Three two bedroom flats…About two acres of mature grounds…About two acres of mature grounds…David BloomfieldLoughton+44 (0) 20 8498 6600+44 (0) 20 8498 6600Contact nowFelicity Walker",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhtrslus230216"
+        }
+      ],
+      "lat": 51.5333753,
+      "lon": -0.049702,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 7.9061730627462055,
+        "distanceMiles": 4.912666662171673
+      },
+      "nearestAirstrip": {
+        "name": "Metropolitan Police Air Support Unit Lippitts Hill",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.166920324383335,
+        "distanceMiles": 8.802913448882398
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 1.8250169130524203,
+        "distanceMiles": 1.1340125842802955
+      },
+      "minAirportDistanceMiles": 1.1340125842802955,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 146,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 146,
+        "flightsDiffPct": -31
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1750000,
+      "address": "Robins Lane,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2506,
+      "type": "Property",
+      "description": "Four bedrooms, three bath/shower rooms…Four bedrooms, three bath/shower rooms…Two reception rooms and study…Two reception rooms and study…Double detached garage…Double detached garage…David BloomfieldLough",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhtrslus260018"
+        }
+      ],
+      "lat": 51.41408,
+      "lon": -3.2571276,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Cardiff International Airport",
+        "icao": "EGFF",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 6.283834053394301,
+        "distanceMiles": 3.9045922495916705
+      },
+      "nearestAirstrip": {
+        "name": "Croes Carn Einion Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 21.325057231388943,
+        "distanceMiles": 13.250772136925379
+      },
+      "nearestHeliport": {
+        "name": "Cardiff Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 10.199533180723208,
+        "distanceMiles": 6.33769413203916
+      },
+      "minAirportDistanceMiles": 3.9045922495916705,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 391.3,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 3,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -1,
+        "flightsPerDay": 391.3,
+        "flightsDiffPct": 86
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2500000,
+      "address": "Martello Road,",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 5051,
+      "type": "Property",
+      "description": "Four car garage with office space above…Four car garage with office space above…Oliver ShrubsoleCanford Cliffs+44 (0) 1202 708 888+44 (0) 1202 708 888Contact nowHouse5,051 sq ft (469.25 sq m)5Bedrooms4Bath",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbccrscfs250108"
+        }
+      ],
+      "lat": 50.7104033,
+      "lon": -1.9197559,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Bournemouth Airport",
+        "icao": "EGHH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 9.62027097294384,
+        "distanceMiles": 5.977757394729087
+      },
+      "nearestAirstrip": {
+        "name": "Newton Peveril Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.599120366506174,
+        "distanceMiles": 9.692841021256308
+      },
+      "nearestHeliport": {
+        "name": "Royal Bournemouth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.104672273849797,
+        "distanceMiles": 5.036008315474322
+      },
+      "minAirportDistanceMiles": 5.036008315474322,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 453.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 453.6,
+        "flightsDiffPct": 115
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 2495000,
+      "address": "Preston Crowmarsh,",
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "sqft": 6585,
+      "type": "Property",
+      "description": "a KnightHenley+44 (0) 1491 843 000+44 (0) 1491 843 000Contact nowHouse6,585 sq ft (611.77 sq m)6Bedrooms3Bathrooms6Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhersclv747875"
+        }
+      ],
+      "lat": 51.6133936,
+      "lon": -1.1108054,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "RAF Benson",
+        "icao": "EGUB",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 1.028594244660503,
+        "distanceMiles": 0.6391386343989414
+      },
+      "nearestAirstrip": {
+        "name": "North Moreton Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.146155843616464,
+        "distanceMiles": 3.197672002703806
+      },
+      "nearestHeliport": {
+        "name": "Chequers Helicopter Landing Ground",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 26.824543774911547,
+        "distanceMiles": 16.667993589960563
+      },
+      "minAirportDistanceMiles": 0.6391386343989414,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 555.1,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 3,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 3,
+        "helipadsDiff": -4,
+        "flightsPerDay": 555.1,
+        "flightsDiffPct": 163
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "1 bed property for sale",
+      "price": 375000,
+      "address": "Constable House,",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 541,
+      "type": "Property",
+      "description": "a first time buyer/investor…Excellent opportunity for a first time buyer/investor…Fully equipped gymnasium…Fully equipped gymnasium…Indoor heated pool…Indoor heated pool…Antony CherrimanCanary Wharf+44",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcwrscns260029"
+        }
+      ],
+      "lat": 51.5441731,
+      "lon": -0.1564853,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.274778300813662,
+        "distanceMiles": 9.491304267554886
+      },
+      "nearestAirstrip": {
+        "name": "Elstree Airfield",
+        "icao": "EGTR",
+        "category": "airstrip",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 17.055094865923373,
+        "distanceMiles": 10.597541351933671
+      },
+      "nearestHeliport": {
+        "name": "The Royal London Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.392144784096516,
+        "distanceMiles": 4.593264396638836
+      },
+      "minAirportDistanceMiles": 4.593264396638836,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 140.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 6,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 2,
+        "flightsPerDay": 140.8,
+        "flightsDiffPct": -33
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 3950000,
+      "address": "Albert Embankment,",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 2050,
+      "type": "Property",
+      "description": "Three double bedrooms…Three double bedrooms…Aileen McCarthyBattersea Park+44 (0) 203 402 1900+44 (0) 203 402 1900Contact nowFlat / Apartment2,050 sq ft (190.45 sq m)3Bedrooms3Bathrooms1Receptions",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbbqrscli234454"
+        }
+      ],
+      "lat": 51.486612,
+      "lon": -0.1236881,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.56225596023314,
+        "distanceMiles": 7.805821548266026
+      },
+      "nearestAirstrip": {
+        "name": "Kenley Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 20.238286206488567,
+        "distanceMiles": 12.575484138412008
+      },
+      "nearestHeliport": {
+        "name": "King's College Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 3.0297591701553532,
+        "distanceMiles": 1.882604485318602
+      },
+      "minAirportDistanceMiles": 1.882604485318602,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 100.7,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 4,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 0,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 100.7,
+        "flightsDiffPct": -52
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 1200000,
+      "address": "Manville Road,",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1508,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbcmrscps260089"
+        }
+      ],
+      "lat": 51.4365083,
+      "lon": -0.1513973,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 16.230749789334933,
+        "distanceMiles": 10.085317227348837
+      },
+      "nearestAirstrip": {
+        "name": "Kenley Glider Field",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 15.07486374565289,
+        "distanceMiles": 9.367083160500082
+      },
+      "nearestHeliport": {
+        "name": "London Heliport",
+        "icao": "EGLW",
+        "category": "heliport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 4.195825401847747,
+        "distanceMiles": 2.6071642257715366
+      },
+      "minAirportDistanceMiles": 2.6071642257715366,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 234.5,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 5,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": 1,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 234.5,
+        "flightsDiffPct": 11
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1350000,
+      "address": "Rendham,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbiprsips240279"
+        }
+      ],
+      "lat": 52.231344,
+      "lon": 1.4384055,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Wattisham Airfield",
+        "icao": null,
+        "category": "airport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 34.84970156895181,
+        "distanceMiles": 21.654593913601154
+      },
+      "nearestAirstrip": {
+        "name": "Yoxford Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 7.122135389099593,
+        "distanceMiles": 4.425488388860203
+      },
+      "nearestHeliport": {
+        "name": "Sealand Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 37.58265186797948,
+        "distanceMiles": 23.352769973858276
+      },
+      "minAirportDistanceMiles": 4.425488388860203,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 13.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 1,
+        "helipadsCount": 0,
+        "airportsDiff": -4,
+        "airstripsDiff": 1,
+        "helipadsDiff": -4,
+        "flightsPerDay": 13.4,
+        "flightsDiffPct": -94
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Promenade,",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "sqft": 10304,
+      "type": "Property",
+      "description": "an kitchen/dining room designed for family living and entertaining…Magnificent 40 ft reception rooms and open plan kitchen/dining room designed for family living and entertaining…Principal bedroom suite",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbclrscos250223"
+        }
+      ],
+      "lat": 50.5907403,
+      "lon": -1.981828,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Bournemouth Airport",
+        "icao": "EGHH",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 23.357601612464904,
+        "distanceMiles": 14.51373627153893
+      },
+      "nearestAirstrip": {
+        "name": "Dorset Gliding Club (Eyres Field)",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 21.295652578429436,
+        "distanceMiles": 13.232500938311277
+      },
+      "nearestHeliport": {
+        "name": "Royal Bournemouth Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 20.76590180146269,
+        "distanceMiles": 12.903329168276674
+      },
+      "minAirportDistanceMiles": 12.903329168276674,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 444,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 0,
+        "helipadsCount": 1,
+        "airportsDiff": -3,
+        "airstripsDiff": 0,
+        "helipadsDiff": -3,
+        "flightsPerDay": 444,
+        "flightsDiffPct": 111
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "4 bed property for sale",
+      "price": 1625000,
+      "address": "Staplefield Road,",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 3503,
+      "type": "Property",
+      "description": "a rare and exciting opportunity…First time to market in nearly 40 years - a rare and exciting opportunity…Set in a glorious semi-rural position between Cuckfield and Staplefield villages…Set in a glorio",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbhhrshys250198"
+        }
+      ],
+      "lat": 51.0492611,
+      "lon": -0.1969908,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London Gatwick Airport",
+        "icao": "EGKK",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 11.08986076548716,
+        "distanceMiles": 6.890917873711522
+      },
+      "nearestAirstrip": {
+        "name": "OaklandS Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.418046292705633,
+        "distanceMiles": 5.852100842944791
+      },
+      "nearestHeliport": {
+        "name": "Royal Surrey County Hospital Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 35.662070745399866,
+        "distanceMiles": 22.15937656113986
+      },
+      "minAirportDistanceMiles": 5.852100842944791,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 649.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 649.2,
+        "flightsDiffPct": 208
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 360000,
+      "address": "Carlyle Road,",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 819,
+      "type": "Property",
+      "description": "",
+      "postedDate": null,
+      "agent": "Savills",
+      "agentPhone": null,
+      "images": [
+        "https://placehold.co/400x300/e0e0e0/999?text=No+Image"
+      ],
+      "sources": [
+        {
+          "portal": "Savills",
+          "url": "https://search.savills.com/property-detail/gbeersels250310"
+        }
+      ],
+      "lat": 51.5059121,
+      "lon": 0.116419,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "London City Airport",
+        "icao": "EGLC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 4.232237141279852,
+        "distanceMiles": 2.629789424714203
+      },
+      "nearestAirstrip": {
+        "name": "Gerpins Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 8.424755130655091,
+        "distanceMiles": 5.234898520290285
+      },
+      "nearestHeliport": {
+        "name": "Vanguard Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.961366560577398,
+        "distanceMiles": 6.189704301112538
+      },
+      "minAirportDistanceMiles": 2.629789424714203,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 150.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 4,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": 0,
+        "flightsPerDay": 150.6,
+        "flightsDiffPct": -29
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 1050000,
+      "address": "York Road, Harrogate, North Yorkshire",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A beautifully appointed stone-built period townhouse, set in a prime central location\n            \n\n            \n                    Guide Price\n                     £1,050,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116576/banner/980x550_CSD243753_25.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/york-road-7"
+        }
+      ],
+      "lat": 53.993729,
+      "lon": -1.5510292,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Leeds Bradford Airport",
+        "icao": "EGNM",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 15.920828214700807,
+        "distanceMiles": 9.892740948596854
+      },
+      "nearestAirstrip": {
+        "name": "North Rigton Private Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.88249201607922,
+        "distanceMiles": 3.655209946523161
+      },
+      "nearestHeliport": {
+        "name": "Leeds Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 14.775601711776206,
+        "distanceMiles": 9.181130411248093
+      },
+      "minAirportDistanceMiles": 3.655209946523161,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 252.2,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 3,
+        "airstripsCount": 1,
+        "helipadsCount": 1,
+        "airportsDiff": -1,
+        "airstripsDiff": 1,
+        "helipadsDiff": -3,
+        "flightsPerDay": 252.2,
+        "flightsDiffPct": 20
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "5 bed property for sale",
+      "price": 2000000,
+      "address": "Church Lane, Martin Hussingtree, Worcester, Worcestershire",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": null,
+      "type": "Property",
+      "description": "A considerable Grade II Listed residence with land, in the picturesque village of Martin Hussingtree\n            \n\n            \n                    Guide Price\n                     £2,000,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/116308/banner/980x550_CSD243283_17.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/church-lane-163"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "6 bed property for sale",
+      "price": 4500000,
+      "address": "The Street, Stour Provost, Gillingham, Dorset",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "sqft": null,
+      "type": "Property",
+      "description": "A significant, late-Georgian country house, with uninterrupted countryside views\n            \n\n            \n                    Guide Price\n                     £4,500,000",
+      "postedDate": null,
+      "agent": "Strutt & Parker",
+      "agentPhone": null,
+      "images": [
+        "https://a474e529956d3f647bbe-176bf680c52b8eef039a9b1f404db0cb.ssl.cf3.rackcdn.com/production/112942/banner/980x550_CSD232781_01.jpg#2023-11-03T09%3A04%3A17Z"
+      ],
+      "sources": [
+        {
+          "portal": "Strutt & Parker",
+          "url": "https://www.struttandparker.com/properties/the-street-stour-provost-gillingham-dorset-sp8"
+        }
+      ],
+      "lat": 53.2087265,
+      "lon": -0.1169525,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "area",
+      "nearestAirport": {
+        "name": "RAF Coningsby",
+        "icao": "EGXC",
+        "category": "airport",
+        "usage": "military",
+        "active": true,
+        "distanceKm": 13.277692211221405,
+        "distanceMiles": 8.250372886978855
+      },
+      "nearestAirstrip": {
+        "name": "Bucknall Airfield",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 9.12723241889025,
+        "distanceMiles": 5.6713975353582535
+      },
+      "nearestHeliport": {
+        "name": "Nottingham Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 73.69906453076992,
+        "distanceMiles": 45.794461426549034
+      },
+      "minAirportDistanceMiles": 5.6713975353582535,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 197.8,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 2,
+        "airstripsCount": 0,
+        "helipadsCount": 0,
+        "airportsDiff": -2,
+        "airstripsDiff": 0,
+        "helipadsDiff": -4,
+        "flightsPerDay": 197.8,
+        "flightsDiffPct": -6
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "3 bed property for sale",
+      "price": 950000,
+      "address": "Martins Lane, Birdham, Chichester, West Sussex, PO20",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr0.homeflow-assets.co.uk/files/photo/image/47952/7898/450x_/CHI250213_03.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21967894/sales/chichester"
+        }
+      ],
+      "lat": 50.7963656,
+      "lon": -0.8290702,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Brighton City Airport",
+        "icao": "EGKA",
+        "category": "airport",
+        "usage": "private",
+        "active": true,
+        "distanceKm": 37.61845176042956,
+        "distanceMiles": 23.375014988829875
+      },
+      "nearestAirstrip": {
+        "name": "North Honer Farm Airstrip",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 5.603805931885797,
+        "distanceMiles": 3.4820424957018097
+      },
+      "nearestHeliport": {
+        "name": "Goodwood Racecourse Heliport",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 13.178886604176556,
+        "distanceMiles": 8.18897794812379
+      },
+      "minAirportDistanceMiles": 3.4820424957018097,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 528.6,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 0,
+        "airstripsCount": 2,
+        "helipadsCount": 4,
+        "airportsDiff": -4,
+        "airstripsDiff": 2,
+        "helipadsDiff": 0,
+        "flightsPerDay": 528.6,
+        "flightsDiffPct": 151
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
+    },
+    {
+      "title": "property for sale",
+      "price": 25000000,
+      "address": "Holmes Chapel Road, Lower Withington, Cheshire, SK11",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "type": "Property",
+      "description": "",
+      "postedDate": "Guide price",
+      "agent": "Jackson-Stops",
+      "agentPhone": null,
+      "images": [
+        "https://mr1.homeflow-assets.co.uk/files/photo/image/47857/1613/450x_/WIL190051_24.jpg"
+      ],
+      "sources": [
+        {
+          "portal": "Jackson-Stops",
+          "url": "https://www.jackson-stops.co.uk/properties/21930677/sales/alderleyedge"
+        }
+      ],
+      "lat": 53.2370037,
+      "lon": -2.2967325,
+      "searchLocation": "Horncastle",
+      "searchLocations": [
+        "Horncastle"
+      ],
+      "sourceLocation": "Horncastle",
+      "autoRejected": false,
+      "geoAccuracy": "address",
+      "nearestAirport": {
+        "name": "Manchester Airport",
+        "icao": "EGCC",
+        "category": "airport",
+        "usage": "commercial",
+        "active": true,
+        "distanceKm": 12.54737313961276,
+        "distanceMiles": 7.796573795134321
+      },
+      "nearestAirstrip": {
+        "name": "Fern Farm Airstrip UL",
+        "icao": null,
+        "category": "airstrip",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 4.403410650617062,
+        "distanceMiles": 2.7361516793845744
+      },
+      "nearestHeliport": {
+        "name": "Wythenshawe Hospital Helipad",
+        "icao": null,
+        "category": "heliport",
+        "usage": "private",
+        "active": false,
+        "distanceKm": 16.842662120410782,
+        "distanceMiles": 10.465541804421768
+      },
+      "minAirportDistanceMiles": 2.7361516793845744,
+      "flyoverRef": {
+        "location": "interpolated",
+        "flightsPerDay": 297.4,
+        "interpolated": true,
+        "generatedAt": "2026-06-26T12:59:20.862Z"
+      },
+      "keywordsMatched": 0,
+      "autoTags": [],
+      "autoTagScores": {},
+      "baselineComparison": {
+        "airportsCount": 1,
+        "airstripsCount": 2,
+        "helipadsCount": 2,
+        "airportsDiff": -3,
+        "airstripsDiff": 2,
+        "helipadsDiff": -2,
+        "flightsPerDay": 297.4,
+        "flightsDiffPct": 41
+      },
+      "isNew": true,
+      "retrievedAt": "2026-07-28T09:33:57.674Z"
     },
     {
       "title": "3 bedroom end of terrace house for sale",
@@ -1350,1650 +5471,8 @@
         "flightsPerDay": 197.8,
         "flightsDiffPct": 134
       },
-      "isNew": true,
+      "isNew": false,
       "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bedroom terraced house for sale",
-      "price": 289950,
-      "address": "West Street, Horncastle, LN9",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Newton Fallowell - Spilsby",
-      "agentPhone": "01790 243987",
-      "type": "Terraced house",
-      "description": "an town houseNewton Fallowell - SpilsbyAdded > 14 daysEmail01790 243987",
-      "images": [
-        "https://media.onthemarket.com/properties/17131122/1601643932/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/17131122/1601643932/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/17131122/1601643932/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/17131122/1601643932/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/17131122/1601643932/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/17131122/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bedroom terraced house for sale",
-      "price": 11000025,
-      "address": "25 Prospect Street, Horncastle",
-      "bedrooms": 2,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Robert Bell & Company - Horncastle",
-      "agentPhone": "01507 311044",
-      "type": "Terraced house",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/16748862/1617666252/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/16748862/1617666149/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/16748862/1617666149/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/16748862/1617666149/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/16748862/1617666149/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/16748862/"
-        }
-      ],
-      "lat": 53.2114252,
-      "lon": -0.1195743,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 13.52760967574273,
-        "distanceMiles": 8.405664351825935
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 8.990645761058383,
-        "distanceMiles": 5.586526547194609
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 73.72016565886756,
-        "distanceMiles": 45.807573055616196
-      },
-      "minAirportDistanceMiles": 5.586526547194609,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 198,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 198,
-        "flightsDiffPct": 135
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bedroom detached house for sale",
-      "price": 23500042,
-      "address": "42 South Street, Horncastle",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Robert Bell & Company - Horncastle",
-      "agentPhone": "01507 311044",
-      "type": "Detached house",
-      "description": "Beautiful three bedroom detached homeRobert Bell & Company - HorncastleAdded > 14 daysEmail01507 311044",
-      "images": [
-        "https://media.onthemarket.com/properties/16478465/1609244212/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/16478465/1609244212/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/16478465/1609244212/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/16478465/1609244212/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/16478465/1609244212/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/16478465/"
-        }
-      ],
-      "lat": 53.2062643,
-      "lon": -0.1146261,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 13.052418395297325,
-        "distanceMiles": 8.110394270704294
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.257110522424796,
-        "distanceMiles": 5.752100022429618
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 73.67759949143148,
-        "distanceMiles": 45.78112367359027
-      },
-      "minAirportDistanceMiles": 5.752100022429618,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 3,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -1,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bedroom terraced house for sale",
-      "price": 239950,
-      "address": "Georgian House, 32 East Street, Horncastle",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "Robert Bell & Company - Horncastle",
-      "agentPhone": "01507 311044",
-      "type": "Terraced house",
-      "description": "an House, 32 East Street, HorncastleTerraced house32Tenure: FreeholdGrade II Listed Town Centre Family HomeRobert Bell & Company - HorncastleAdded > 14 daysEmail01507 311044",
-      "images": [
-        "https://media.onthemarket.com/properties/14564526/1609244335/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/14564526/1609244335/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/14564526/1609244335/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/14564526/1609244335/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/14564526/1609244335/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/14564526/"
-        }
-      ],
-      "lat": 53.2087265,
-      "lon": -0.1169525,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "area",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 13.277692211221405,
-        "distanceMiles": 8.250372886978855
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.12723241889025,
-        "distanceMiles": 5.6713975353582535
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 73.69906453076992,
-        "distanceMiles": 45.794461426549034
-      },
-      "minAirportDistanceMiles": 5.6713975353582535,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.8,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bedroom townhouse for sale",
-      "price": 13500010,
-      "address": "10 Bull Ring Horncastle LN9 5HU",
-      "bedrooms": 3,
-      "bathrooms": null,
-      "sqft": null,
-      "postedDate": null,
-      "agent": "John Taylors - Louth",
-      "agentPhone": null,
-      "type": "Townhouse",
-      "description": "",
-      "images": [
-        "https://media.onthemarket.com/properties/19081947/1602897654/image-0-480x320.jpg",
-        "https://media.onthemarket.com/properties/19081947/1602897654/image-1-480x320.jpg",
-        "https://media.onthemarket.com/properties/19081947/1602897654/image-2-480x320.jpg",
-        "https://media.onthemarket.com/properties/19081947/1602897654/image-3-480x320.jpg",
-        "https://media.onthemarket.com/properties/19081947/1602897654/image-4-480x320.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "OnTheMarket",
-          "url": "https://www.onthemarket.com/details/19081947/"
-        }
-      ],
-      "lat": 53.2085083,
-      "lon": -0.1147948,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": false,
-      "geoAccuracy": "address",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 13.290429116618414,
-        "distanceMiles": 8.258287230622301
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.26767271334672,
-        "distanceMiles": 5.758663061564965
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 73.80549428332887,
-        "distanceMiles": 45.86059378832634
-      },
-      "minAirportDistanceMiles": 5.758663061564965,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bed detached for sale",
-      "price": 135000,
-      "address": "Prospect Street, Horncastle LN9",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": null,
-      "type": "detached",
-      "description": "with no chain, this 2 bedroom semi detached property is neatly located close to the town centre and briefly offers ...Listed on 9th Apr 2026",
-      "postedDate": "Reduced",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/ec609d81362681a10ecf4c7d2d14cb03e4481283.jpg",
-        "https://lid.zoocdn.com/645/430/51aeb16543452fdc5eebd7da81535a05ab702ccb.jpg",
-        "https://lid.zoocdn.com/645/430/9f1726f4802d5c1b1a907cfb57bc7eb33e871c56.jpg",
-        "https://lid.zoocdn.com/645/430/254db8666713e02655daca629243c1bce76f86d9.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72885322/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bed town house for sale",
-      "price": 289950,
-      "address": "West Street, Horncastle LN9",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "town house",
-      "description": "A beautifully updated three bedroom Georgian period town house built circa 1746 convenient for the town centre and nearby ...Listed on 19th May 2025",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/83e36f43716349f8343f0f480d3b5959ff69a493.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72685042/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bed property for sale",
-      "price": 200000,
-      "address": "East Street, Horncastle LN9",
-      "bedrooms": 3,
-      "bathrooms": 1,
-      "sqft": null,
-      "type": "Property",
-      "description": "a highly convenient position ...Listed on 17th Jul 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/16e36ffea8f296966f412a028aef990467f56c35.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73738262/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bed property for sale",
-      "price": 170000,
-      "address": "Bells Yard Close, Horncastle LN9",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "Property",
-      "description": "A well presented 3 bed mid terrace home on a quiet no-through road in Horncastle. Short walk to the Georgian town centre & ...Listed on 17th Jun 2026",
-      "postedDate": "Reduced",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/ea82b96eff41ab83a822f0694285c0827ad78715.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73475832/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "4 bed property for sale",
-      "price": 375000,
-      "address": "Osborne Way, Horncastle LN9",
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "Property",
-      "description": "a secluded and enviable plot within a modern development, Osborne Way is an impressive four-bedroom family home ...Listed on 1st Apr 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/615fc21b9cde4368bf1e63ad64d367d2cf891a8f.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72819080/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": false,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "4 bed detached for sale",
-      "price": 205000,
-      "address": "Spilsby Road, Horncastle LN9",
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "detached",
-      "description": "This substantial four-bedroom detached home offers a rare and exciting opportunity for buyers looking for a project ...Listed on 17th Jun 2026AuctionCall",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/2c3a9e9ccb89e2264197dbe741c6bbdcc2fce90e.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73477967/"
-        },
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73471477/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bed semi-detached for sale",
-      "price": 225000,
-      "address": "Baggaley Drive, Horncastle LN9",
-      "bedrooms": 3,
-      "bathrooms": 1,
-      "sqft": null,
-      "type": "semi-detached",
-      "description": "this modern, immaculately presented semi-detached home. Built in 2009 by the ...Listed on 9th Jul 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/60653a5cf907e6ab681c66c32d3b4b15225cb068.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73669433/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bed detached for sale",
-      "price": 220000,
-      "address": "Baggaley Drive, Horncastle LN9",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": 633,
-      "type": "detached",
-      "description": "An attractive detached bungalow occupying a generous larger-than-average plot in a sought-after position within the historic ...Listed on 14th May 2026",
-      "postedDate": "Reduced",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/3c0e95b442a064da723e4a7e76cd179e8f6fa627.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73192938/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bed detached for sale",
-      "price": 280000,
-      "address": "Hemingby Way, Horncastle LN9",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": 840,
-      "type": "detached",
-      "description": "Situated in a sought-after residential location on the edge of the charming market town of Horncastle, this detached bungalow ...Listed on 3rd Jul 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/e625959753e8555771786a6dd60e16c8eaa0ac76.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73622587/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bed property for sale",
-      "price": 195000,
-      "address": "Malsters Drive, Horncastle LN9",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": 786,
-      "type": "Property",
-      "description": "Built in 2025 and enjoying a prime position on a sought-after new development in the thriving market town of Horncastle, on ...Listed on 19th Jun 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/d94121033eef0017e2c1189eaf9b5ede235e1d7e.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73494964/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bed property for sale",
-      "price": 165000,
-      "address": "Malsters Drive, Horncastle, Lincolnshire LN9",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": null,
-      "type": "Property",
-      "description": "Situated on the ever-popular Malsters Drive development in Horncastle, this beautifully presented two bedroom home offers ...Listed on 17th Jul 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/33937b536af5c6897e9505f0bd27fa7be785ed12.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73746511/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "4 bed property for sale",
-      "price": 370000,
-      "address": "Malt Kiln Crescent, Horncastle LN9",
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "sqft": null,
-      "type": "Property",
-      "description": "this Chrysolite design family home ...Listed on 24th Oct 2025",
-      "postedDate": "Reduced",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/e2fcd29077db28749131f62f6fa5f9964f170a08.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72687783/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": false,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "2 bed property for sale",
-      "price": 40000,
-      "address": "Malsters Drive, Horncastle LN9",
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "sqft": null,
-      "type": "Property",
-      "description": "This fantastic brand new 2 bedroom mid terrace property at the highly desirable development in Horncastle. Available on a ...Listed on 24th Jul 2026",
-      "postedDate": "Just added",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/a5af1ec3e7ce760564ad22168db4d69aa267bf55.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73802883/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z",
-      "updated": true,
-      "updatedFields": [
-        "description"
-      ]
-    },
-    {
-      "title": "4 bed detached for sale",
-      "price": 325000,
-      "address": "Whelpton Close, Horncastle LN9",
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "sqft": null,
-      "type": "detached",
-      "description": "A spacious four-bedroom detached bungalow situated in the popular market town of Horncastle. Offering generous living ...Listed on 16th Jun 2026",
-      "postedDate": null,
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/934f1e4be96803d64fc08d0b314a3f40abd61331.jpg",
-        "https://lid.zoocdn.com/645/430/b6a3192cf012d89a9a93cfcb26160eeadb69eb7f.jpg",
-        "https://lid.zoocdn.com/645/430/ebb430f3ac3f12302e8f80a50ea3cdf669442d3b.jpg",
-        "https://lid.zoocdn.com/645/430/e933bf9721b24076ecff82eb58b37b83c4aeaf30.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73470174/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": false,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 0,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z"
-    },
-    {
-      "title": "3 bed semi-detached for sale",
-      "price": 180000,
-      "address": "Tennyson Gardens, Horncastle LN9",
-      "bedrooms": 3,
-      "bathrooms": 1,
-      "sqft": 829,
-      "type": "semi-detached",
-      "description": "with no chain, this semi-detached home enjoys a convenient location close to Horncastle town centre and ...Listed on 23rd Jul 2026",
-      "postedDate": "Just added",
-      "agent": null,
-      "agentPhone": null,
-      "images": [
-        "https://lid.zoocdn.com/645/430/bf5f6c75f455fd83d9eaeb1cb1c5b8985df5a10e.jpg"
-      ],
-      "sources": [
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/73795630/"
-        },
-        {
-          "portal": "Zoopla",
-          "url": "https://www.zoopla.co.uk/for-sale/details/72957416/"
-        }
-      ],
-      "lat": 53.21727617326728,
-      "lon": -0.11168763366336633,
-      "searchLocation": "Horncastle",
-      "searchLocations": [
-        "Horncastle"
-      ],
-      "sourceLocation": "Horncastle",
-      "autoRejected": true,
-      "geoAccuracy": "postcode",
-      "nearestAirport": {
-        "name": "RAF Coningsby",
-        "icao": "EGXC",
-        "category": "airport",
-        "usage": "military",
-        "active": true,
-        "distanceKm": 14.285870806926022,
-        "distanceMiles": 8.876825829170429
-      },
-      "nearestAirstrip": {
-        "name": "Bucknall Airfield",
-        "icao": null,
-        "category": "airstrip",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 9.618525984628674,
-        "distanceMiles": 5.976673109594704
-      },
-      "nearestHeliport": {
-        "name": "Nottingham Heliport",
-        "icao": null,
-        "category": "heliport",
-        "usage": "private",
-        "active": false,
-        "distanceKm": 74.51892741991693,
-        "distanceMiles": 46.30390044984121
-      },
-      "minAirportDistanceMiles": 5.976673109594704,
-      "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
-      },
-      "keywordsMatched": 1,
-      "autoTags": [],
-      "autoTagScores": {},
-      "baselineComparison": {
-        "airportsCount": 2,
-        "airstripsCount": 0,
-        "helipadsCount": 0,
-        "airportsDiff": -2,
-        "airstripsDiff": 0,
-        "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": 134
-      },
-      "isNew": true,
-      "retrievedAt": "2026-07-25T13:30:32.515Z",
-      "updated": true,
-      "updatedFields": [
-        "description"
-      ]
     }
   ],
   "portalLinks": [
@@ -3032,7 +5511,5 @@
       "url": "https://www.winkworth.co.uk/properties?search_location=LN9%205HF&min_beds=2&keywords=garden&max_price=450000",
       "searchLocation": "Horncastle"
     }
-  ],
-  "dupePassAt": "2026-07-25T14:16:23.694Z",
-  "autoTaggedAt": "2026-07-25T14:16:23.726Z"
+  ]
 }
