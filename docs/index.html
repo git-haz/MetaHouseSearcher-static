@@ -17,6 +17,14 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
+          <span class="changelog-ver">v2.13.0</span>
+          <span class="changelog-date">28 Jul 2026</span>
+          <ul>
+            <li>Baseline flyover (N17 9RS) now uses the same inverse-square distance-weighted interpolation across all reference stations as individual properties — was previously using nearest single reference station only (84.4 → 210.7 flights/day)</li>
+            <li>Danger area polygons updated with real AIP coordinates from the community YAIXM dataset (ahsparrow/airspace): Spadeadam, Holbeach, Salisbury Plain Imber, Tidworth/Bulford, Wembury, Harpur Hill, and others now follow precise AIP boundaries</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
           <span class="changelog-ver">v2.12.0</span>
           <span class="changelog-date">28 Jul 2026</span>
           <ul>
@@ -208,7 +216,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.12.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.13.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
@@ -514,7 +522,7 @@
   </div>
 
   <footer class="app-footer">
-    <span class="version-link" id="footerVersion">v2.12.0</span>
+    <span class="version-link" id="footerVersion">v2.13.0</span>
     <div class="footer-actions">
       <button class="btn btn-outline btn-sm" id="exportUserDataBtn">Export user data</button>
       <button class="btn btn-outline btn-sm" id="importUserDataBtn">Import user data</button>

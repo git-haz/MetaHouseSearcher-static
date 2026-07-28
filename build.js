@@ -157,13 +157,18 @@ async function geocodeBaseline(config, airportsArr, flyoverSource) {
     if (fs.existsSync(flyoverSource)) {
       const flyoverRef = JSON.parse(fs.readFileSync(flyoverSource, 'utf8'));
       const flyoverLocs = Array.isArray(flyoverRef.locations || flyoverRef) ? (flyoverRef.locations || flyoverRef) : Object.values(flyoverRef.locations || flyoverRef);
-      let nearestRef = null, nearestDist = Infinity;
+      let weightedSum = 0, totalWeight = 0;
       for (const loc of flyoverLocs) {
-        if (loc.lat == null) continue;
-        const d = haversineDistMilesBuild(blLat, blLon, loc.lat, loc.lon);
-        if (d < nearestDist) { nearestDist = d; nearestRef = loc; }
+        if (loc.lat == null || loc.flightsPerDay == null) continue;
+        const dist = Math.max(haversineDistMilesBuild(blLat, blLon, loc.lat, loc.lon), 0.5);
+        const w = 1 / (dist * dist);
+        weightedSum += w * loc.flightsPerDay;
+        totalWeight += w;
       }
-      if (nearestRef) { blFlightsPerDay = nearestRef.flightsPerDay; console.log(`  Flyover: ${nearestRef.location} (${nearestDist.toFixed(1)} mi) → ${blFlightsPerDay} flights/day`); }
+      if (totalWeight > 0) {
+        blFlightsPerDay = Math.round((weightedSum / totalWeight) * 10) / 10;
+        console.log(`  Flyover: interpolated (inverse-square weighted) → ${blFlightsPerDay} flights/day`);
+      }
     }
   }
 
@@ -247,10 +252,13 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
     r.searchLocations = [...(locationMap.get(key) || new Set([r.searchLocation]))];
   }
 
-  // 3. Auto-reject flag
+  // 3. Stamp source location (used by flyover lookup to avoid wrong-centroid assignment)
+  for (const r of results) r.sourceLocation = search.location;
+
+  // 4. Auto-reject flag
   attachAutoReject(results);
 
-  // 4. Geocode
+  // 5. Geocode
   await geocodeResults(results, [search.location]);
   console.log(`  Geocoded: ${results.filter(r => r.lat != null).length}/${results.length}`);
 
@@ -294,7 +302,63 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
     r.retrievedAt = r.seedAddedAt || now;
   }
 
-  // 12. Write location file
+  // 12. Merge with existing location file — preserve old entries, detect price/description changes
+  const existingFilePath = path.join(resultsDir, `${slug}.json`);
+  let preservedCount = 0, updatedCount = 0;
+  if (fs.existsSync(existingFilePath)) {
+    try {
+      const existingData = JSON.parse(fs.readFileSync(existingFilePath, 'utf8'));
+      const existingProps = existingData.properties || [];
+
+      // Build lookup maps: URL → existing property, normalizedAddr → existing property
+      const existingByUrl  = new Map();
+      const existingByAddr = new Map();
+      for (const ep of existingProps) {
+        const u = getUrl(ep);
+        if (u) existingByUrl.set(u, ep);
+        const a = normalizeAddress(ep.address || '');
+        if (a) existingByAddr.set(a, ep);
+      }
+
+      // Detect changes on freshly scraped results and record matched keys
+      const matchedUrls  = new Set();
+      const matchedAddrs = new Set();
+      for (const np of results) {
+        const u = getUrl(np);
+        const a = normalizeAddress(np.address || '');
+        const ep = (u && existingByUrl.get(u)) || (a && existingByAddr.get(a));
+        if (ep) {
+          const changedFields = [];
+          if (ep.price != null && np.price != null && ep.price !== np.price) changedFields.push('price');
+          if (ep.description && np.description && ep.description !== np.description) changedFields.push('description');
+          if (changedFields.length > 0) {
+            np.updated      = true;
+            np.updatedFields = changedFields;
+            if (changedFields.includes('price')) np.previousPrice = ep.price;
+            updatedCount++;
+          }
+          if (u) matchedUrls.add(u);
+          if (a) matchedAddrs.add(a);
+        }
+      }
+
+      // Append existing properties not found in new scrape (preserve them)
+      for (const ep of existingProps) {
+        const u = getUrl(ep);
+        const a = normalizeAddress(ep.address || '');
+        if ((u && matchedUrls.has(u)) || (a && matchedAddrs.has(a))) continue;
+        ep.isNew = false;
+        delete ep.updated; // stale update flag from previous run
+        results.push(ep);
+        preservedCount++;
+      }
+    } catch (err) {
+      console.warn(`  ⚠ Could not merge existing file: ${err.message}`);
+    }
+  }
+  console.log(`  Merge: ${updatedCount} updated, ${preservedCount} preserved from previous build`);
+
+  // 13. Write location file
   const output = {
     location: search.location,
     slug,
@@ -616,6 +680,59 @@ async function autoTagAllLocations(resultsDir, ukTowns, config, slugs, pushEvery
   return { totalTagged, totalProperties };
 }
 
+// ---- --rescore-flyover: stamp sourceLocation + re-attach flyover on all existing files ----
+async function rescoreFlyoverResults(config, resultsDir, airportsArr, baselineData) {
+  const indexPath = path.join(resultsDir, 'index.json');
+  if (!fs.existsSync(indexPath)) {
+    console.error('No docs/results/index.json found — run a full build first.');
+    process.exit(1);
+  }
+  const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+  let slugs = index.available || [];
+  if (slugs.length === 0) {
+    slugs = fs.readdirSync(resultsDir)
+      .filter(f => f.endsWith('.json') && f !== 'index.json')
+      .map(f => f.replace(/\.json$/, ''));
+  }
+  const flyoverSource = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
+  const searchLocations = config.searches.map(s => s.location);
+  console.log(`\nRe-attaching flyover data for ${slugs.length} location file(s)…`);
+  let done = 0;
+
+  for (const slug of slugs) {
+    const filePath = path.join(resultsDir, `${slug}.json`);
+    if (!fs.existsSync(filePath)) continue;
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    // Stamp sourceLocation from the file's own location field (fixes existing data)
+    for (const p of data.properties) {
+      if (!p.sourceLocation) p.sourceLocation = data.location;
+    }
+
+    // Re-attach flyover using corrected sourceLocation lookup
+    if (fs.existsSync(flyoverSource)) {
+      attachFlyoverData(data.properties, searchLocations);
+    }
+
+    // Re-attach baseline comparison (depends on flyoverRef.flightsPerDay)
+    attachBaselineComparison(data.properties, airportsArr, baselineData);
+
+    data.flyoverRescoredAt = new Date().toISOString();
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    done++;
+    console.log(`  ${data.location}: ${data.properties.length} properties re-scored`);
+
+    if (PUSH_EVERY > 0 && done % PUSH_EVERY === 0) {
+      autoPush(done, slugs.length, false);
+    }
+  }
+
+  index.flyoverRescoredAt = new Date().toISOString();
+  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
+  console.log(`\nDone. Flyover re-scored for ${done} locations.`);
+  if (PUSH_EVERY > 0) autoPush(slugs.length, slugs.length, true);
+}
+
 // ---- --rescore: re-run auto-tag on all existing docs/results/ files ----
 async function rescoreResults(config, resultsDir, ukTowns) {
   const indexPath = path.join(resultsDir, 'index.json');
@@ -654,7 +771,8 @@ async function main() {
   const timeout   = config.queryTimeoutMs || 10000;
   const concurrency = config.maxConcurrentPortals || 2;
   const fromSeed  = process.argv.includes('--from-seed');
-  const rescore   = process.argv.includes('--rescore');
+  const rescore         = process.argv.includes('--rescore');
+  const rescoreFlyover  = process.argv.includes('--rescore-flyover');
 
   // Ensure results/ directory exists
   if (!fs.existsSync(resultsDir)) fs.mkdirSync(resultsDir, { recursive: true });
@@ -708,6 +826,10 @@ async function main() {
 
   if (rescore) {
     return await rescoreResults(config, resultsDir, ukTowns);
+  }
+
+  if (rescoreFlyover) {
+    return await rescoreFlyoverResults(config, resultsDir, airportsArr, baselineData);
   }
 
   const PORTALS = getPortals(config);
