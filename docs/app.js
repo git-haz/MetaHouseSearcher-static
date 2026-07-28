@@ -933,6 +933,24 @@ function isPinSuppressedByCircles(p) {
   return false;
 }
 
+function pinIcon(key) {
+  const colors = {
+    favorite:    { fill: '#f59e0b', stroke: '#b45309', text: '#fff' },
+    view:        { fill: '#3b82f6', stroke: '#1d4ed8', text: '#fff' },
+    viewed:      { fill: '#6b7280', stroke: '#374151', text: '#fff' },
+    in_progress: { fill: '#8b5cf6', stroke: '#5b21b6', text: '#fff' },
+    rejected:    { fill: '#ef4444', stroke: '#b91c1c', text: '#fff' },
+  };
+  const status = ['favorite','view','viewed','in_progress','rejected'].find(s => isInList(s, key));
+  const c = status ? colors[status] : { fill: '#1a73e8', stroke: '#1558b0', text: '#fff' };
+  const label = status === 'favorite' ? '★' : status === 'rejected' ? '✕' : status === 'view' ? '👁' : status === 'viewed' ? '✓' : status === 'in_progress' ? '…' : '';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="38" viewBox="0 0 28 38">
+    <path d="M14 0C6.27 0 0 6.27 0 14c0 9.5 14 24 14 24S28 23.5 28 14C28 6.27 21.73 0 14 0z" fill="${c.fill}" stroke="${c.stroke}" stroke-width="1.5"/>
+    <text x="14" y="17" text-anchor="middle" dominant-baseline="middle" font-size="${label ? 11 : 0}" fill="${c.text}" font-family="sans-serif">${label}</text>
+  </svg>`;
+  return L.divIcon({ html: svg, className: '', iconSize: [28, 38], iconAnchor: [14, 38], popupAnchor: [0, -38] });
+}
+
 function renderMap(results) {
   const filtered = applyFilters(results).filter(p => !isPinSuppressedByCircles(p));
   if (!map) {
@@ -962,7 +980,7 @@ function renderMap(results) {
         <button class="action-btn" style="font-size:11px;padding:3px 8px;" onclick="mapOpenNote('${mk}')">📝 Note</button>
       </div>
     </div>`;
-    mapMarkers.push(L.marker([p.lat, p.lon]).addTo(map).bindPopup(popup, { maxWidth: 280 }));
+    mapMarkers.push(L.marker([p.lat, p.lon], { icon: pinIcon(mk) }).addTo(map).bindPopup(popup, { maxWidth: 280 }));
   }
   if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
   drawZonesOnMap();
