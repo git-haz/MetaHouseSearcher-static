@@ -851,30 +851,14 @@
       "description": "One of the UK's most active low flying areas. Military aircraft may fly at 250ft AGL. Fast jet transits through Wensleydale, Swaledale and Mallerstang are regularly observed.",
       "aircraft": "Typhoon, F-35, Hawk, NATO fast jets, support helicopters",
       "polygon": [
-        [
-          54.65,
-          -3.42
-        ],
-        [
-          54.72,
-          -2.88
-        ],
-        [
-          54.52,
-          -1.88
-        ],
-        [
-          53.9,
-          -1.88
-        ],
-        [
-          53.85,
-          -2.72
-        ],
-        [
-          54.22,
-          -3.38
-        ]
+        [54.68, -3.55],
+        [54.75, -2.78],
+        [54.55, -2.08],
+        [54.28, -1.85],
+        [53.92, -1.88],
+        [53.85, -2.42],
+        [54.05, -3.08],
+        [54.35, -3.50]
       ]
     },
     {
@@ -883,30 +867,14 @@
       "description": "High-intensity tactical training area straddling the Anglo-Scottish border. Air combat manoeuvring and tactical formation flying. Altitude as low as 100ft in certain corridors.",
       "aircraft": "Typhoon, F-35B, Hawk",
       "polygon": [
-        [
-          54.88,
-          -2.98
-        ],
-        [
-          55.1,
-          -3.02
-        ],
-        [
-          55.38,
-          -2.75
-        ],
-        [
-          55.4,
-          -1.92
-        ],
-        [
-          55.05,
-          -1.8
-        ],
-        [
-          54.88,
-          -2.1
-        ]
+        [54.88, -2.98],
+        [55.02, -3.08],
+        [55.28, -2.82],
+        [55.48, -2.40],
+        [55.42, -1.72],
+        [55.18, -1.62],
+        [54.95, -1.82],
+        [54.88, -2.28]
       ]
     },
     {
@@ -915,30 +883,14 @@
       "description": "Covers the central and southern Pennines including the Peak District. Fast jets use the valleys of Wharfedale, Airedale and Ribblesdale for low-level navigation training.",
       "aircraft": "Typhoon, Hawk, F-35, support helicopters",
       "polygon": [
-        [
-          53.22,
-          -2.18
-        ],
-        [
-          53.22,
-          -1.64
-        ],
-        [
-          53.68,
-          -1.62
-        ],
-        [
-          53.8,
-          -1.9
-        ],
-        [
-          53.68,
-          -2.2
-        ],
-        [
-          53.4,
-          -2.3
-        ]
+        [53.18, -2.18],
+        [53.18, -1.65],
+        [53.38, -1.55],
+        [53.65, -1.58],
+        [53.82, -1.65],
+        [53.85, -1.92],
+        [53.72, -2.22],
+        [53.42, -2.32]
       ]
     },
     {
@@ -947,22 +899,12 @@
       "description": "Covers the North Yorkshire Moors National Park. Low-level east\u2013west transit routes used frequently by RAF Leeming and RAF Coningsby aircraft.",
       "aircraft": "Typhoon, Hawk, Tutor (low-level navigation)",
       "polygon": [
-        [
-          54.25,
-          -1.08
-        ],
-        [
-          54.25,
-          -0.42
-        ],
-        [
-          54.58,
-          -0.38
-        ],
-        [
-          54.6,
-          -1.06
-        ]
+        [54.22, -1.12],
+        [54.20, -0.48],
+        [54.35,  0.05],
+        [54.58, -0.28],
+        [54.62, -0.88],
+        [54.45, -1.10]
       ]
     },
     {
@@ -971,34 +913,14 @@
       "description": "Covers Shropshire, Herefordshire and the Welsh Marches. Used by support helicopter units from RAF Shawbury and RAF Odiham for low-level navigation.",
       "aircraft": "Chinook HC6, Puma HC2, Merlin HC4, Juno/Jupiter HT1",
       "polygon": [
-        [
-          51.8,
-          -3.1
-        ],
-        [
-          51.8,
-          -2.5
-        ],
-        [
-          52.3,
-          -2.48
-        ],
-        [
-          52.82,
-          -2.7
-        ],
-        [
-          52.85,
-          -3.2
-        ],
-        [
-          52.4,
-          -3.5
-        ],
-        [
-          51.9,
-          -3.4
-        ]
+        [51.78, -2.88],
+        [51.85, -2.35],
+        [52.18, -2.28],
+        [52.42, -2.45],
+        [52.82, -2.65],
+        [52.90, -3.12],
+        [52.45, -3.45],
+        [52.00, -3.25]
       ]
     },
     {
@@ -1007,30 +929,14 @@
       "description": "Covers Devon and Cornwall including Exmoor, Dartmoor and Bodmin Moor. Used by RNAS Culdrose and Yeovilton for maritime helicopter training.",
       "aircraft": "Merlin HM2, Wildcat HMA2, F-35B, Typhoon",
       "polygon": [
-        [
-          50.1,
-          -5.7
-        ],
-        [
-          50.1,
-          -3.5
-        ],
-        [
-          51.1,
-          -3.48
-        ],
-        [
-          51.12,
-          -4.2
-        ],
-        [
-          50.6,
-          -5.0
-        ],
-        [
-          50.25,
-          -5.72
-        ]
+        [50.05, -5.72],
+        [50.05, -4.22],
+        [50.35, -3.55],
+        [50.68, -3.42],
+        [51.05, -3.45],
+        [51.18, -3.98],
+        [50.88, -4.75],
+        [50.38, -5.10]
       ]
     },
     {
@@ -1039,22 +945,13 @@
       "description": "Dominated by USAF operations from Lakenheath and Mildenhall. F-15E and F-35A aircraft conduct low-level navigation over the Brecks and coastal marshes.",
       "aircraft": "F-35A, F-15E Strike Eagle, KC-135R, RC-135W",
       "polygon": [
-        [
-          51.8,
-          0.08
-        ],
-        [
-          51.8,
-          1.82
-        ],
-        [
-          53.0,
-          1.8
-        ],
-        [
-          53.02,
-          0.1
-        ]
+        [51.82,  0.08],
+        [51.82,  1.22],
+        [52.08,  1.82],
+        [52.55,  1.78],
+        [52.98,  1.62],
+        [53.05,  0.52],
+        [52.62,  0.12]
       ]
     },
     {
@@ -1063,26 +960,13 @@
       "description": "Covers Shropshire, Staffordshire and parts of Derbyshire. Used by helicopter training from RAF Shawbury and occasional fixed-wing low-level navigation.",
       "aircraft": "Juno HT1, Jupiter HT1, Chinook HC6",
       "polygon": [
-        [
-          52.4,
-          -2.6
-        ],
-        [
-          52.4,
-          -1.6
-        ],
-        [
-          53.0,
-          -1.58
-        ],
-        [
-          53.02,
-          -2.58
-        ],
-        [
-          52.8,
-          -2.78
-        ]
+        [52.38, -2.62],
+        [52.38, -1.62],
+        [52.72, -1.55],
+        [53.05, -1.65],
+        [53.05, -2.45],
+        [52.88, -2.75],
+        [52.58, -2.82]
       ]
     },
     {
@@ -1091,22 +975,14 @@
       "description": "Covers central-southern England from Wiltshire and Hampshire to Kent. RAF Odiham Chinook operations, Boscombe Down test flying and Lakenheath/Mildenhall transit traffic dominate.",
       "aircraft": "Chinook HC6, Puma HC2, F-35A, F-15E, test aircraft",
       "polygon": [
-        [
-          50.8,
-          -2.0
-        ],
-        [
-          50.8,
-          1.2
-        ],
-        [
-          51.6,
-          1.18
-        ],
-        [
-          51.62,
-          -2.02
-        ]
+        [50.78, -2.05],
+        [50.62, -0.12],
+        [50.95,  1.18],
+        [51.48,  1.12],
+        [51.62,  0.42],
+        [51.72, -0.35],
+        [51.72, -1.22],
+        [51.38, -2.05]
       ]
     },
     {
@@ -1115,22 +991,13 @@
       "description": "Covers the Yorkshire Wolds, Holderness coast and Humber estuary. Coastal navigation training and approaches to Donna Nook and Cowden weapons ranges.",
       "aircraft": "Typhoon, Hawk T1",
       "polygon": [
-        [
-          53.7,
-          -0.92
-        ],
-        [
-          53.7,
-          0.28
-        ],
-        [
-          54.18,
-          0.26
-        ],
-        [
-          54.2,
-          -0.9
-        ]
+        [53.72, -0.92],
+        [53.62,  0.12],
+        [53.82,  0.32],
+        [54.10,  0.25],
+        [54.22, -0.08],
+        [54.20, -0.72],
+        [54.00, -0.90]
       ]
     }
   ],
