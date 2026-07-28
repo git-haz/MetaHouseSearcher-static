@@ -3,41 +3,643 @@
     {
       "id": "EG D323",
       "name": "Spadeadam EW Range",
-      "description": "UK's largest electronic warfare (EW) tactics range covering 9,000 acres of Cumbrian moorland. Fast jets from NATO nations train in low-level EW and SEAD (Suppression of Enemy Air Defences) missions against simulated radar and surface-to-air missile systems. The only mainland UK location where practice bombs can still be dropped. Also used for joint forward air controller training and drone swarm trials.",
+      "description": "UK's largest electronic warfare tactics range \u2014 9,000 acres of Cumbrian moorland. Fast jets from NATO nations train in low-level EW, SEAD and drone-swarm trials. The only mainland UK site where practice bombs can still be dropped.",
       "aircraft": "Typhoon, F-35, NATO allied fast jets",
       "nearestTowns": "Brampton (8mi SE), Haltwhistle (9mi SE), Carlisle (18mi SW)",
-      "polygon": [[54.98,-2.62],[54.97,-2.50],[55.01,-2.40],[55.07,-2.42],[55.09,-2.60],[55.06,-2.72]]
+      "polygon": [
+        [
+          54.98,
+          -2.62
+        ],
+        [
+          54.97,
+          -2.5
+        ],
+        [
+          55.01,
+          -2.4
+        ],
+        [
+          55.07,
+          -2.42
+        ],
+        [
+          55.09,
+          -2.6
+        ],
+        [
+          55.06,
+          -2.72
+        ]
+      ]
     },
     {
       "id": "EG D201",
       "name": "Otterburn Training Area",
-      "description": "UK's largest live-firing military training area covering 242 km² across the Cheviot Hills in Northumberland. Used by the British Army for live firing of AS-90 self-propelled artillery and M270 MLRS rocket systems — the only UK location where MLRS can be fired, requiring an 11-mile long range. Also used by fast jets for low-level tactical training sorties.",
-      "aircraft": "Fast jets (low-level transit), Army artillery, support helicopters",
-      "nearestTowns": "Otterburn (2mi), Bellingham (8mi W), Hexham (15mi SE)",
-      "polygon": [[55.22,-2.18],[55.27,-2.08],[55.43,-2.08],[55.48,-2.28],[55.45,-2.52],[55.28,-2.48]]
+      "description": "Largest army live-firing area in England \u2014 23,000 acres of Northumberland moorland. Artillery, mortar and armoured vehicle live firing. Also used for Joint Fires exercises with close air support coordination.",
+      "aircraft": "Apache, Wildcat, Chinook, Typhoon (CAS missions)",
+      "nearestTowns": "Otterburn (1mi S), Elsdon (4mi SE), Bellingham (8mi E)",
+      "polygon": [
+        [
+          55.18,
+          -2.28
+        ],
+        [
+          55.18,
+          -2.05
+        ],
+        [
+          55.3,
+          -2.03
+        ],
+        [
+          55.36,
+          -2.18
+        ],
+        [
+          55.32,
+          -2.42
+        ],
+        [
+          55.22,
+          -2.42
+        ]
+      ]
     },
     {
       "id": "EG D004",
       "name": "Donna Nook Air Weapons Range",
-      "description": "Active RAF air-to-ground weapons range on the Lincolnshire coast, managed by RAF Donna Nook detachment. Used for live bombing and strafing practice by fast jets, primarily from RAF Coningsby and RAF Waddington. The range extends offshore into The Wash. A grey seal colony on the beach is internationally significant and the public can visit the beach outside active firing periods.",
-      "aircraft": "Typhoon, Hawk T1/T2, historically Tornado GR4",
-      "nearestTowns": "Louth (8mi SW), Alford (11mi SW), Mablethorpe (5mi S)",
-      "polygon": [[53.53,-0.02],[53.53,0.20],[53.50,0.27],[53.44,0.24],[53.42,0.02],[53.44,-0.03]]
+      "description": "Lincolnshire coast air-to-ground weapons range. Used by RAF Coningsby and visiting NATO aircraft for live ordnance practice. Active mainly Mon\u2013Fri; marked by red flags and coastal warning systems during firing.",
+      "aircraft": "Typhoon, Hawk, Tornado (legacy)",
+      "nearestTowns": "North Somercotes (2mi SW), Louth (10mi W), Grimsby (16mi N)",
+      "polygon": [
+        [
+          53.42,
+          -0.14
+        ],
+        [
+          53.42,
+          0.12
+        ],
+        [
+          53.55,
+          0.1
+        ],
+        [
+          53.58,
+          -0.02
+        ],
+        [
+          53.52,
+          -0.18
+        ]
+      ]
     },
     {
       "id": "EG D129",
       "name": "Holbeach Air Weapons Range",
-      "description": "Air-to-ground weapons range on the southern portion of The Wash estuary. One of the UK's principal bombing and gunnery ranges, used extensively for live weapons training by fast jets. Located largely offshore, the range is adjacent to the Wainfleet range further north. Used heavily by aircraft from RAF Coningsby and visiting units.",
-      "aircraft": "Typhoon, Hawk, various RAF and NATO aircraft",
-      "nearestTowns": "Holbeach (6mi S), Spalding (12mi SW), King's Lynn (12mi SE)",
-      "polygon": [[52.97,0.10],[52.97,0.28],[52.93,0.42],[52.80,0.42],[52.78,0.22],[52.82,0.10]]
+      "description": "Air-to-ground range over The Wash foreshore. Low-level strafing and practice bomb delivery. One of the most active air weapons ranges in the UK, shared by RAF and USAF aircraft from Lakenheath and Mildenhall.",
+      "aircraft": "Typhoon, F-15, A-10, F-35",
+      "nearestTowns": "Holbeach (8mi SW), Long Sutton (7mi SW), Spalding (15mi W)",
+      "polygon": [
+        [
+          52.82,
+          0.08
+        ],
+        [
+          52.82,
+          0.38
+        ],
+        [
+          53.02,
+          0.36
+        ],
+        [
+          53.04,
+          0.12
+        ],
+        [
+          52.92,
+          -0.02
+        ]
+      ]
+    },
+    {
+      "id": "EG D307",
+      "name": "Salisbury Plain \u2014 Larkhill (North)",
+      "description": "Northern Salisbury Plain Training Area centred on Larkhill Garrison \u2014 home of the Royal School of Artillery. Continuous live artillery and mortar firing. Tank manoeuvre area for armoured formations. Largest military training estate in the UK at ~38,000 acres.",
+      "aircraft": "Apache, Wildcat, Lynx (HELARM/CAS), Army Air Corps fixed-wing",
+      "nearestTowns": "Amesbury (4mi SE), Tidworth (5mi E), Devizes (9mi NW)",
+      "polygon": [
+        [
+          51.17,
+          -1.99
+        ],
+        [
+          51.17,
+          -1.79
+        ],
+        [
+          51.27,
+          -1.77
+        ],
+        [
+          51.29,
+          -1.96
+        ],
+        [
+          51.24,
+          -2.04
+        ]
+      ]
+    },
+    {
+      "id": "EG D313",
+      "name": "Salisbury Plain \u2014 West (Imber)",
+      "description": "Imber village and western Plain \u2014 evacuated in 1943 and never returned to civilian use. Tanks and armoured vehicles manoeuvre over open downland. Significant noise from both artillery and armoured vehicle engines. Open to the public only on very limited bank holiday access days.",
+      "aircraft": "Apache, Lynx, Chinook",
+      "nearestTowns": "Warminster (3mi W), Westbury (4mi NW), Trowbridge (8mi NW)",
+      "polygon": [
+        [
+          51.14,
+          -2.11
+        ],
+        [
+          51.14,
+          -1.96
+        ],
+        [
+          51.2,
+          -1.95
+        ],
+        [
+          51.22,
+          -2.06
+        ],
+        [
+          51.18,
+          -2.14
+        ]
+      ]
+    },
+    {
+      "id": "EG D314",
+      "name": "Salisbury Plain \u2014 East (Tidworth/Ludgershall)",
+      "description": "Eastern training area around Tidworth Garrison \u2014 headquarters of 1st (UK) Division. Armoured and infantry combined-arms training. Frequent helicopter operations in support of ground manoeuvres.",
+      "aircraft": "Apache, Wildcat, Chinook",
+      "nearestTowns": "Tidworth (1mi N), Ludgershall (2mi SE), Andover (9mi SE)",
+      "polygon": [
+        [
+          51.15,
+          -1.77
+        ],
+        [
+          51.15,
+          -1.6
+        ],
+        [
+          51.23,
+          -1.58
+        ],
+        [
+          51.25,
+          -1.74
+        ],
+        [
+          51.2,
+          -1.8
+        ]
+      ]
+    },
+    {
+      "id": "EG D301",
+      "name": "Porton Down / Porton Ranges",
+      "description": "Science and Technology Laboratory (Dstl) and associated ranges east of Salisbury. Research into CBRN defence. The surrounding range area is used for outdoor field trials. Red flags indicate active use.",
+      "aircraft": "Surveillance and ISR drones, helicopter support",
+      "nearestTowns": "Amesbury (4mi W), Salisbury (6mi SW), Andover (12mi NE)",
+      "polygon": [
+        [
+          51.09,
+          -1.8
+        ],
+        [
+          51.09,
+          -1.65
+        ],
+        [
+          51.17,
+          -1.63
+        ],
+        [
+          51.18,
+          -1.78
+        ],
+        [
+          51.13,
+          -1.83
+        ]
+      ]
+    },
+    {
+      "id": "EG D315",
+      "name": "Dartmoor Training Area",
+      "description": "Okehampton Military Camp and Dartmoor firing ranges \u2014 used by infantry and Royal Marines for live firing and field exercises. Range walks closed when red flags fly. Significant low-level helicopter activity supporting ground forces.",
+      "aircraft": "Chinook, Merlin, Wildcat, Apache",
+      "nearestTowns": "Okehampton (2mi N), Tavistock (10mi SW), Exeter (20mi E)",
+      "polygon": [
+        [
+          50.6,
+          -4.1
+        ],
+        [
+          50.6,
+          -3.82
+        ],
+        [
+          50.72,
+          -3.78
+        ],
+        [
+          50.76,
+          -3.96
+        ],
+        [
+          50.68,
+          -4.15
+        ]
+      ]
+    },
+    {
+      "id": "EG D402",
+      "name": "Davidstow Moor / Bodmin Training Area",
+      "description": "Army training area on north Bodmin Moor around the former WWII airfield at Davidstow. Used for infantry manoeuvre and helicopter underslung-load training.",
+      "aircraft": "Merlin HC4, Chinook, Puma",
+      "nearestTowns": "Camelford (4mi W), Bodmin (12mi S), Launceston (9mi E)",
+      "polygon": [
+        [
+          50.61,
+          -4.7
+        ],
+        [
+          50.61,
+          -4.55
+        ],
+        [
+          50.67,
+          -4.53
+        ],
+        [
+          50.68,
+          -4.68
+        ]
+      ]
+    },
+    {
+      "id": "EG D702",
+      "name": "Plymouth Sound / Wembury Bay",
+      "description": "Naval firing range off Plymouth Sound and Wembury Bay. Used by HMNB Devonport surface ships and submarines for gunnery practice. Coastal areas closed during firing periods.",
+      "aircraft": "Royal Navy helicopters (Wildcat, Merlin)",
+      "nearestTowns": "Plymouth (3mi NW), Plymstock (2mi N), Modbury (6mi E)",
+      "polygon": [
+        [
+          50.3,
+          -4.2
+        ],
+        [
+          50.3,
+          -3.96
+        ],
+        [
+          50.38,
+          -3.94
+        ],
+        [
+          50.4,
+          -4.12
+        ],
+        [
+          50.35,
+          -4.24
+        ]
+      ]
+    },
+    {
+      "id": "EG D114",
+      "name": "Cowden Air Weapons Range",
+      "description": "Coastal Yorkshire air-to-ground range on the Holderness coast. Used for practice bomb delivery and strafing by RAF Coningsby aircraft. Sea targets offshore; red flags on cliff tops when active.",
+      "aircraft": "Typhoon, Hawk",
+      "nearestTowns": "Aldbrough (4mi S), Hornsea (5mi N), Beverley (15mi W)",
+      "polygon": [
+        [
+          53.88,
+          0.02
+        ],
+        [
+          53.88,
+          0.26
+        ],
+        [
+          54.04,
+          0.22
+        ],
+        [
+          54.06,
+          0.04
+        ]
+      ]
+    },
+    {
+      "id": "EG D208",
+      "name": "Catterick Training Area",
+      "description": "Catterick Garrison \u2014 one of the largest army bases in the world. Live firing on Feldom and Bellerby ranges on the moors west of Richmond. Used by infantry, armoured reconnaissance and signals units.",
+      "aircraft": "Apache, Wildcat, Chinook",
+      "nearestTowns": "Richmond (4mi E), Leyburn (6mi W), Catterick (5mi E)",
+      "polygon": [
+        [
+          54.32,
+          -1.96
+        ],
+        [
+          54.32,
+          -1.66
+        ],
+        [
+          54.42,
+          -1.64
+        ],
+        [
+          54.45,
+          -1.88
+        ],
+        [
+          54.39,
+          -2.0
+        ]
+      ]
+    },
+    {
+      "id": "EG D121",
+      "name": "Warcop Training Area",
+      "description": "Army live-firing range in the Eden Valley, Cumbria, used primarily by armoured and infantry units from the North of England. Artillery and mortar firing; significant noise impact in the Brough and Kirkby Stephen area.",
+      "aircraft": "Apache, Wildcat",
+      "nearestTowns": "Brough (3mi N), Appleby (5mi SW), Kirkby Stephen (7mi SE)",
+      "polygon": [
+        [
+          54.46,
+          -2.52
+        ],
+        [
+          54.46,
+          -2.22
+        ],
+        [
+          54.58,
+          -2.2
+        ],
+        [
+          54.6,
+          -2.48
+        ],
+        [
+          54.52,
+          -2.56
+        ]
+      ]
+    },
+    {
+      "id": "EG D206",
+      "name": "Stanford Training Area (STANTA)",
+      "description": "Stanford Training Area \u2014 30,000 acres of Breckland heath in Norfolk, one of the largest army training areas in England. Six abandoned villages were cleared in 1942. Used for live firing, synthetic FIBUA (fighting in built-up areas) training and brigade-level exercises.",
+      "aircraft": "Chinook, Merlin, Apache, Wildcat",
+      "nearestTowns": "Mundford (3mi E), Watton (8mi NE), Thetford (8mi SE)",
+      "polygon": [
+        [
+          52.44,
+          0.62
+        ],
+        [
+          52.44,
+          0.9
+        ],
+        [
+          52.58,
+          0.92
+        ],
+        [
+          52.6,
+          0.64
+        ],
+        [
+          52.52,
+          0.58
+        ]
+      ]
+    },
+    {
+      "id": "EG D126",
+      "name": "The Wash Danger Area",
+      "description": "Offshore danger area over The Wash \u2014 used as a weapons range by aircraft from RAF Marham and USAF Lakenheath/Mildenhall. Sea targets; active periods notified by NOTAM.",
+      "aircraft": "Typhoon, F-15E, F-35A",
+      "nearestTowns": "King's Lynn (8mi S), Hunstanton (10mi NW), Spalding (20mi SW)",
+      "polygon": [
+        [
+          52.78,
+          0.12
+        ],
+        [
+          52.78,
+          0.52
+        ],
+        [
+          53.06,
+          0.5
+        ],
+        [
+          53.08,
+          0.14
+        ]
+      ]
+    },
+    {
+      "id": "EG D308",
+      "name": "Lydd / Romney Marsh Ranges",
+      "description": "Lydd Army Training Centre on Romney Marsh \u2014 live small arms, medium machine gun and anti-tank weapons firing. Close to Dungeness nuclear power station. Shingle foreshore targets; red flags indicate live firing.",
+      "aircraft": "Army Air Corps light aircraft, occasional Wildcat",
+      "nearestTowns": "Lydd (1mi N), New Romney (4mi N), Rye (8mi SW)",
+      "polygon": [
+        [
+          50.92,
+          0.88
+        ],
+        [
+          50.92,
+          1.02
+        ],
+        [
+          50.99,
+          1.04
+        ],
+        [
+          51.01,
+          0.9
+        ],
+        [
+          50.96,
+          0.84
+        ]
+      ]
+    },
+    {
+      "id": "EG D309",
+      "name": "Hythe / Lympne Ranges",
+      "description": "Small Arms Ranges at Hythe \u2014 used by Army and Ministry of Defence Police for small arms qualification. Limited area; noise primarily from small calibre weapons.",
+      "aircraft": "Minimal aviation activity",
+      "nearestTowns": "Hythe (1mi E), Folkestone (5mi E), Ashford (10mi N)",
+      "polygon": [
+        [
+          51.04,
+          0.98
+        ],
+        [
+          51.04,
+          1.1
+        ],
+        [
+          51.1,
+          1.12
+        ],
+        [
+          51.12,
+          0.99
+        ],
+        [
+          51.08,
+          0.94
+        ]
+      ]
+    },
+    {
+      "id": "EG D401",
+      "name": "Orfordness / Shingle Street",
+      "description": "Former weapons development site on the Suffolk coast \u2014 Orfordness was used by AWE and DERA for weapons trials until 1993 and is now a National Trust nature reserve. Offshore shingle has residual ordnance from decades of test firings. Occasional naval gunnery trials offshore.",
+      "aircraft": "Surveillance aircraft, Royal Navy helicopters",
+      "nearestTowns": "Orford (2mi W), Woodbridge (12mi N), Aldeburgh (6mi N)",
+      "polygon": [
+        [
+          52.03,
+          1.52
+        ],
+        [
+          52.03,
+          1.65
+        ],
+        [
+          52.18,
+          1.64
+        ],
+        [
+          52.2,
+          1.5
+        ],
+        [
+          52.1,
+          1.46
+        ]
+      ]
+    },
+    {
+      "id": "EG D119",
+      "name": "Redesdale Training Area",
+      "description": "Army training area in the Redesdale valley, Northumberland. Artillery and small arms live firing; tank manoeuvres on Redesdale Common. Frequently used by units from Catterick and visiting NATO allies.",
+      "aircraft": "Chinook, Puma, Apache",
+      "nearestTowns": "Otterburn (2mi SE), Bellingham (8mi E), Jedburgh (16mi N)",
+      "polygon": [
+        [
+          55.2,
+          -2.45
+        ],
+        [
+          55.2,
+          -2.18
+        ],
+        [
+          55.32,
+          -2.16
+        ],
+        [
+          55.35,
+          -2.38
+        ],
+        [
+          55.28,
+          -2.5
+        ]
+      ]
+    },
+    {
+      "id": "EG D323B",
+      "name": "Nesscliffe Training Area",
+      "description": "Infantry training area in Shropshire, west of Shrewsbury, used by 143 (West Midlands) Brigade and the Army Reserve. Mainly dry training (no live firing of heavy weapons), but significant helicopter activity for air assault exercises.",
+      "aircraft": "Chinook, Puma, Merlin HC4",
+      "nearestTowns": "Nesscliffe (0.5mi E), Shrewsbury (9mi SE), Oswestry (8mi NW)",
+      "polygon": [
+        [
+          52.76,
+          -2.9
+        ],
+        [
+          52.76,
+          -2.78
+        ],
+        [
+          52.82,
+          -2.76
+        ],
+        [
+          52.84,
+          -2.87
+        ],
+        [
+          52.8,
+          -2.93
+        ]
+      ]
+    },
+    {
+      "id": "EG D404",
+      "name": "Eskmeals Proof & Experimental Establishment",
+      "description": "MOD Eskmeals \u2014 armament proof and experimental range on the Cumbrian coast. Used for propellant and explosive research, rocket motor testing and artillery ballistic measurement. Coastal foreshore range.",
+      "aircraft": "Range surveillance aircraft, drones",
+      "nearestTowns": "Waberthwaite (1mi N), Ravenglass (3mi N), Millom (5mi S)",
+      "polygon": [
+        [
+          54.3,
+          -3.44
+        ],
+        [
+          54.3,
+          -3.34
+        ],
+        [
+          54.36,
+          -3.32
+        ],
+        [
+          54.38,
+          -3.4
+        ],
+        [
+          54.33,
+          -3.46
+        ]
+      ]
     }
   ],
   "matzs": [
     {
       "id": "EGXE",
       "name": "RAF Leeming MATZ",
-      "description": "Active flying training base in North Yorkshire hosting No. 6 Flying Training School and Qatar Emiri Air Force advanced jet training on Hawk Mk.167 aircraft. Also home to Northumbrian and Yorkshire Universities Air Squadrons. Generates significant circuit training traffic throughout the day. Training routes extend into the Yorkshire Dales and Pennines.",
+      "description": "Active flying training base in North Yorkshire hosting No. 6 Flying Training School and Qatar Emiri Air Force advanced jet training on Hawk Mk.167. Generates significant circuit training traffic throughout the day.",
       "aircraft": "Hawk T1/Mk.167, Grob Prefect T1, Tutor T1",
       "nearestTowns": "Northallerton (4mi N), Bedale (3mi SE), Leyburn (8mi W)",
       "lat": 54.2925,
@@ -46,63 +648,490 @@
     {
       "id": "EGXC",
       "name": "RAF Coningsby MATZ",
-      "description": "Primary UK fast jet base hosting three front-line Typhoon squadrons and maintaining QRA (Quick Reaction Alert) South 24/7, year-round. One of the RAF's busiest stations with constant supersonic-capable jet activity. Training sorties regularly use the Lincolnshire Wolds, The Wash, and Donna Nook range. Also home to the Battle of Britain Memorial Flight.",
-      "aircraft": "Typhoon (Eurofighter), BBMF Spitfire/Hurricane/Lancaster/Dakota",
-      "nearestTowns": "Woodhall Spa (3mi W), Horncastle (8mi NE), Spilsby (14mi NE)",
-      "lat": 53.0931,
-      "lon": -0.1661
+      "description": "Primary Typhoon operating base and home of 29(R) Sqn (Typhoon OCU) and the Battle of Britain Memorial Flight. QRA (Quick Reaction Alert) intercept aircraft held at readiness 24/7. Very high jet tempo.",
+      "aircraft": "Typhoon FGR4, Spitfire, Hurricane, Lancaster (BBMF)",
+      "nearestTowns": "Coningsby (1mi W), Horncastle (5mi NE), Sleaford (12mi SW)",
+      "lat": 53.093,
+      "lon": -0.1664
     },
     {
       "id": "EGYM",
       "name": "RAF Marham MATZ",
-      "description": "UK's primary F-35B Lightning base, home to RAF 617 'Dambusters' Squadron, 207 Squadron, and the Royal Navy's 809 Naval Air Squadron. High-tempo operations with regular sorties over East Anglia and the North Sea. The F-35B Lightning is the RAF's most capable — and loudest on approach — combat aircraft.",
-      "aircraft": "F-35B Lightning II (RAF 617 Sqn, 207 Sqn; RN 809 NAS)",
-      "nearestTowns": "Swaffham (8mi E), King's Lynn (10mi N), Downham Market (7mi S)",
-      "lat": 52.6483,
-      "lon": 0.5506
+      "description": "Only operational RAF F-35B base in the UK. Generates intense jet traffic as the home of 617 Sqn (Dambusters) and 809 NAS (Fleet Air Arm). QRA-South responsibility. Loud supersonic boom potential on departure profiles.",
+      "aircraft": "F-35B Lightning II",
+      "nearestTowns": "Marham (1mi E), King's Lynn (16mi NE), Swaffham (8mi SE)",
+      "lat": 52.6484,
+      "lon": 0.5508
     },
     {
       "id": "EGXW",
       "name": "RAF Waddington MATZ",
-      "description": "RAF Intelligence, Surveillance, Targeting and Reconnaissance (ISTAR) hub. Operates the E-7A Wedgetail Airborne Early Warning aircraft, RC-135W Rivet Joint electronic surveillance aircraft, and Protector RG Mk1 remotely piloted aircraft. Lower noise intensity than fast jet bases but regular large aircraft movements.",
-      "aircraft": "E-7A Wedgetail AEW, RC-135W Rivet Joint, Protector RG Mk1",
-      "nearestTowns": "Lincoln (4mi S), Waddington village (1mi), Newark-on-Trent (14mi S)",
-      "lat": 53.1725,
-      "lon": -0.5308
+      "description": "Intelligence, Surveillance, Targeting and Reconnaissance (ISTAR) hub. Home of Sentinel R1, Rivet Joint RC-135 and E-3D Sentry (until retirement). Also houses RAF's Force Protection Wing and Red Arrows winter base.",
+      "aircraft": "RC-135W Rivet Joint, Sentinel R1, E-7A Wedgetail (incoming)",
+      "nearestTowns": "Waddington (0.5mi W), Lincoln (5mi N), Newark (20mi SE)",
+      "lat": 53.1662,
+      "lon": -0.5238
     },
     {
       "id": "EGYD",
       "name": "RAF Cranwell MATZ",
-      "description": "Home of the RAF College and Initial Officer Training. One of the RAF's busiest training establishments with constant circuit and cross-country training activity from student pilots across Lincolnshire and the East Midlands.",
-      "aircraft": "Grob Prefect T1, Tutor T1",
-      "nearestTowns": "Sleaford (4mi SE), Cranwell village (1mi), Donington (10mi SW)",
+      "description": "Home of the RAF College \u2014 initial officer training and advanced fixed-wing flying training. Grob Prefect and Tutor aircraft generate significant piston-engine circuit traffic throughout weekday training hours.",
+      "aircraft": "Grob G120TP Prefect T1, Grob Tutor T1",
+      "nearestTowns": "Cranwell (1mi NE), Sleaford (6mi SE), Grantham (12mi S)",
       "lat": 53.0303,
-      "lon": -0.4833
+      "lon": -0.4997
     },
     {
       "id": "EGUL",
-      "name": "RAF Lakenheath MATZ (USAF 48th Fighter Wing)",
-      "description": "Largest USAF base in the UK and one of the most active fast jet bases in Europe, home to the 48th Fighter Wing 'Liberty Wing'. Operates F-35A Lightning II and F-15E Strike Eagle squadrons. Significant fast jet activity over East Anglia, the North Sea, and UK low flying areas.",
-      "aircraft": "F-35A Lightning II, F-15E Strike Eagle (USAF)",
-      "nearestTowns": "Brandon (3mi N), Mildenhall (5mi SW), Thetford (8mi SE)",
-      "lat": 52.4095,
-      "lon": 0.5612
+      "name": "RAF Lakenheath MATZ (USAF 48th FW)",
+      "description": "Largest USAF base in the UK and home of the 48th Fighter Wing ('Liberty Wing'). F-15E Strike Eagles and F-35As generate constant jet traffic. Occasional supersonic operations over The Wash. Works with Mildenhall on departures.",
+      "aircraft": "F-35A Lightning II, F-15E Strike Eagle",
+      "nearestTowns": "Brandon (6mi S), Thetford (10mi SE), Ely (18mi S)",
+      "lat": 52.4093,
+      "lon": 0.5601
+    },
+    {
+      "id": "EGVN",
+      "name": "RAF Brize Norton MATZ",
+      "description": "UK's largest RAF station and primary strategic air transport hub. Air-to-Air Refuelling and strategic airlift for all operational theatres. C-17, A400M and Voyager KC2/KC3 generate continuous heavy transport traffic, often at low level on approach.",
+      "aircraft": "A400M Atlas, C-17A Globemaster III, Voyager KC2/KC3",
+      "nearestTowns": "Carterton (2mi NE), Witney (4mi E), Burford (4mi SE)",
+      "lat": 51.7519,
+      "lon": -1.5836
+    },
+    {
+      "id": "EGVO",
+      "name": "RAF Odiham MATZ",
+      "description": "Home of the Chinook Force \u2014 the RAF's entire Chinook HC6/6A fleet. Support helicopter operations for all UK and deployed operations. Frequent low-level Chinook transits across southern England.",
+      "aircraft": "Boeing Chinook HC6/HC6A",
+      "nearestTowns": "Hook (4mi N), Fleet (6mi NE), Basingstoke (8mi NW)",
+      "lat": 51.2341,
+      "lon": -0.9428
+    },
+    {
+      "id": "EGOS",
+      "name": "RAF Shawbury MATZ",
+      "description": "Defence Helicopter Flying School \u2014 trains all tri-service and some overseas military helicopter pilots. Constant helicopter circuit traffic including night flying. Also houses No. 1 Flying Training School.",
+      "aircraft": "Juno HT1 (H135), Jupiter HT1 (H145), Squirrel HT1 (legacy)",
+      "nearestTowns": "Shawbury (1mi E), Shrewsbury (9mi SW), Market Drayton (7mi NE)",
+      "lat": 52.7963,
+      "lon": -2.665
+    },
+    {
+      "id": "EGWU",
+      "name": "RAF Northolt MATZ",
+      "description": "RAF's London airfield and VIP/government transport hub. Handles Royal Family flights, government ministerial transport and visiting heads of state. Also used by 32 (The Royal) Squadron. Located within London TMA.",
+      "aircraft": "BAe 146 CC2, A109, EC145, King Air",
+      "nearestTowns": "Ruislip (2mi E), Uxbridge (2mi SE), Harrow (5mi NE)",
+      "lat": 51.553,
+      "lon": -0.4186
+    },
+    {
+      "id": "EGUB",
+      "name": "RAF Benson MATZ",
+      "description": "Home of No. 28 Squadron operating Puma HC2 helicopters and the Oxford University Air Squadron. Supports VIP transport for the Royal Household (based in proximity to Windsor). Frequent helicopter movements.",
+      "aircraft": "Puma HC2, Grob Tutor T1",
+      "nearestTowns": "Benson (1mi W), Wallingford (3mi N), Didcot (6mi N)",
+      "lat": 51.6163,
+      "lon": -1.0961
+    },
+    {
+      "id": "EGDY",
+      "name": "RNAS Yeovilton MATZ",
+      "description": "Royal Navy's primary fast jet and helicopter base. Home of 809 NAS (F-35B), 845/846 NAS Merlin Commando helicopters and the Fleet Air Arm's Wildcat HMA2 force. Very high helicopter tempo; fast jet operations when 809 NAS is embarked.",
+      "aircraft": "F-35B, AW159 Wildcat HMA2, Merlin HM2/HC4",
+      "nearestTowns": "Yeovil (6mi E), Ilchester (2mi NE), Taunton (12mi W)",
+      "lat": 51.0094,
+      "lon": -2.6388
+    },
+    {
+      "id": "EGDR",
+      "name": "RNAS Culdrose MATZ",
+      "description": "Largest helicopter base in Europe \u2014 home of 736, 820, 824 and 829 NAS and the Merlin HM2 anti-submarine force. Heavy helicopter traffic over the Lizard Peninsula and West Cornwall.",
+      "aircraft": "Merlin HM2, King Air B200T (observer training)",
+      "nearestTowns": "Helston (2mi N), Falmouth (8mi NE), Penzance (14mi W)",
+      "lat": 50.0853,
+      "lon": -5.2566
+    },
+    {
+      "id": "EGDM",
+      "name": "MoD Boscombe Down MATZ",
+      "description": "Home of the Air Accidents Investigation Branch (AAIB) and the Empire Test Pilots' School (ETPS). Experimental aircraft flights \u2014 almost any type may be encountered. Drones and UAVs tested regularly. Unusual flight profiles common.",
+      "aircraft": "Test aircraft of all types, UAVs",
+      "nearestTowns": "Amesbury (3mi NW), Salisbury (8mi SW), Andover (10mi N)",
+      "lat": 51.1522,
+      "lon": -1.7475
+    },
+    {
+      "id": "EGVA",
+      "name": "RAF Fairford MATZ",
+      "description": "Primary US Air Force Forward Operating Location in the UK \u2014 used by USAF B-2 Spirit and B-52H strategic bombers during exercises and deployments, and hosts the Royal International Air Tattoo (RIAT) annually. Normally quiet but periodically hosts very heavy bomber operations.",
+      "aircraft": "B-52H Stratofortress, B-2 Spirit, B-1B Lancer (deployed)",
+      "nearestTowns": "Fairford (1mi E), Lechlade (3mi E), Cirencester (8mi N)",
+      "lat": 51.6822,
+      "lon": -1.7902
+    },
+    {
+      "id": "EGXU",
+      "name": "RAF Linton-on-Ouse MATZ",
+      "description": "Former RAF flying training station now operating as Linton Gliding Club. Previously home of No. 1 FTS \u2014 closed as an RAF station in 2023. Residual light aviation and glider activity.",
+      "aircraft": "Gliders, light aircraft",
+      "nearestTowns": "Linton-on-Ouse (0.5mi E), Boroughbridge (5mi NE), York (10mi SE)",
+      "lat": 54.0489,
+      "lon": -1.2528
+    },
+    {
+      "id": "EGXT",
+      "name": "RAF Wittering MATZ",
+      "description": "Home of No. 1 Air Mobility Wing (support helicopters) and the Joint Helicopter Command. Puma HC2 and Chinook HC6 operations. Previous Harrier base \u2014 still associated with fast jet training heritage.",
+      "aircraft": "Chinook HC6, Puma HC2",
+      "nearestTowns": "Stamford (3mi N), Peterborough (9mi NE), Corby (14mi S)",
+      "lat": 52.6126,
+      "lon": -0.4764
+    },
+    {
+      "id": "EGUJ",
+      "name": "RAF Mildenhall MATZ (USAF 100th ARW)",
+      "description": "Home of the USAF 100th Air Refueling Wing \u2014 KC-135R Stratotankers supporting US operations across Europe and Africa. Also houses USAF Special Operations. Planned for closure/handover but still operational.",
+      "aircraft": "KC-135R Stratotanker, MC-130J, U-2S (visiting)",
+      "nearestTowns": "Mildenhall (1mi E), Bury St Edmunds (13mi SW), Thetford (12mi W)",
+      "lat": 52.3619,
+      "lon": 0.4864
+    },
+    {
+      "id": "EGXH",
+      "name": "RAF Honington MATZ",
+      "description": "Home of the RAF Regiment Depot and RAF Force Protection Wing. No fixed-wing flying training; primarily ground-based and helicopter force protection training. Occasional Chinook and Puma exercises.",
+      "aircraft": "Chinook HC6, Puma HC2 (visiting for exercises)",
+      "nearestTowns": "Honington (0.5mi S), Thetford (9mi E), Bury St Edmunds (9mi SE)",
+      "lat": 52.3425,
+      "lon": 0.7727
+    },
+    {
+      "id": "EGYD2",
+      "name": "RAF Digby MATZ",
+      "description": "RAF Intelligence / signals intelligence station, not a flying unit per se. Hosts elements of 591 Signals Unit and RAF communications activities. Occasional light aircraft; primarily a ground station.",
+      "aircraft": "Light aircraft, signals aircraft",
+      "nearestTowns": "Digby (0.5mi S), Sleaford (7mi W), Lincoln (14mi N)",
+      "lat": 53.0708,
+      "lon": -0.3817
+    },
+    {
+      "id": "EGYD3",
+      "name": "RAF Barkston Heath MATZ",
+      "description": "Satellite airfield of RAF Cranwell used for initial flying training and the annual Red Arrows display team work-up. Busy with piston-engine trainer aircraft on weekdays.",
+      "aircraft": "Grob Prefect T1, Grob Tutor T1",
+      "nearestTowns": "Cranwell (4mi NW), Grantham (6mi S), Sleaford (8mi W)",
+      "lat": 52.9586,
+      "lon": -0.5602
+    },
+    {
+      "id": "EGWN",
+      "name": "RAF Halton MATZ",
+      "description": "RAF Training Command administrative and technical training establishment. No regular flying operations; limited helicopter use for training exercises.",
+      "aircraft": "Light aircraft, helicopters (occasional)",
+      "nearestTowns": "Wendover (2mi S), Aylesbury (4mi E), Tring (4mi NE)",
+      "lat": 51.79,
+      "lon": -0.735
+    },
+    {
+      "id": "EGBP",
+      "name": "Kemble / Cotswold Airport MATZ",
+      "description": "Former RAF Kemble \u2014 now Cotswold Airport. Hosts the engineering division of Global Aviation, private operators, and the Cotswold Flying Club. Historically the Red Arrows' engineering base.",
+      "aircraft": "Light aircraft, business jets",
+      "nearestTowns": "Kemble (0.5mi N), Cirencester (4mi N), Tetbury (5mi SW)",
+      "lat": 51.6681,
+      "lon": -2.0561
     }
   ],
   "lfas": [
     {
       "id": "LFA17",
-      "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
-      "description": "One of the UK's most active low flying areas, covering the Lake District National Park, most of Cumbria, and extending into north Lancashire and the Yorkshire Dales. Military aircraft may fly at altitudes down to 250ft AGL. Used extensively by fast jets from RAF Coningsby, RAF Leeming, and visiting NATO aircraft conducting terrain-following, low-level navigation, and tactical formation training. Fast jet transits through Wensleydale, Swaledale, and over the fells near Hawes, Kirkby Stephen and Sedbergh are regularly observed.",
+      "name": "Low Flying Area 17 \u2014 Lake District & Yorkshire Dales",
+      "description": "One of the UK's most active low flying areas covering the Lake District National Park, most of Cumbria, and the Yorkshire Dales. Military aircraft may fly at altitudes down to 250ft AGL. Fast jet transits through Wensleydale, Swaledale, Mallerstang and over the Howgills are regularly observed. Used by Typhoons from RAF Coningsby and visiting NATO aircraft.",
       "aircraft": "Typhoon, F-35, Hawk, NATO fast jets, support helicopters",
-      "polygon": [[54.65,-3.42],[54.72,-2.88],[54.52,-1.88],[53.90,-1.88],[53.85,-2.72],[54.22,-3.38]]
+      "polygon": [
+        [
+          54.65,
+          -3.42
+        ],
+        [
+          54.72,
+          -2.88
+        ],
+        [
+          54.52,
+          -1.88
+        ],
+        [
+          53.9,
+          -1.88
+        ],
+        [
+          53.85,
+          -2.72
+        ],
+        [
+          54.22,
+          -3.38
+        ]
+      ]
     },
     {
       "id": "LFA20T",
-      "name": "Low Flying Area 20(T) — Anglo-Scottish Border (Tactical Training Area)",
-      "description": "A Tactical Training Area (TTA) — the highest intensity category in the UK Low Flying System. Fast jets are permitted to fly at altitudes down to 100ft AGL. Covers the Anglo-Scottish border, west Northumberland, and parts of the Scottish Borders. Activity frequently overlaps with the Spadeadam EW range to the SW and Otterburn training area to the SE, creating extended training corridors. Residents near Bellingham, Wooler, and Rothbury regularly experience fast jet transits at very low altitude.",
-      "aircraft": "Typhoon, F-35, NATO fast jets — low-level tactical sorties",
-      "polygon": [[54.88,-2.98],[55.10,-3.02],[55.38,-2.75],[55.40,-1.92],[55.05,-1.80],[54.88,-2.10]]
+      "name": "Low Flying Area 20(T) \u2014 Anglo-Scottish Border Tactical Training Area",
+      "description": "High-intensity tactical training area straddling the Anglo-Scottish border. Used for air combat manoeuvring (ACM) and tactical formation flying by fast jets. Altitude as low as 100ft in certain corridors.",
+      "aircraft": "Typhoon, F-35B, Hawk, Tornado (legacy)",
+      "polygon": [
+        [
+          54.88,
+          -2.98
+        ],
+        [
+          55.1,
+          -3.02
+        ],
+        [
+          55.38,
+          -2.75
+        ],
+        [
+          55.4,
+          -1.92
+        ],
+        [
+          55.05,
+          -1.8
+        ],
+        [
+          54.88,
+          -2.1
+        ]
+      ]
+    },
+    {
+      "id": "LFA16",
+      "name": "Low Flying Area 16 \u2014 Pennines & Peak District",
+      "description": "Covers the central and southern Pennines including the Peak District National Park, extending from the M62 corridor south to the Staffordshire Moorlands. Fast jets use the valleys of Wharfedale, Airedale and Ribblesdale for low-level navigation training. Minimum altitude 250ft AGL over open moorland.",
+      "aircraft": "Typhoon, Hawk, F-35, support helicopters",
+      "polygon": [
+        [
+          53.22,
+          -2.18
+        ],
+        [
+          53.22,
+          -1.64
+        ],
+        [
+          53.68,
+          -1.62
+        ],
+        [
+          53.8,
+          -1.9
+        ],
+        [
+          53.68,
+          -2.2
+        ],
+        [
+          53.4,
+          -2.3
+        ]
+      ]
+    },
+    {
+      "id": "LFA18",
+      "name": "Low Flying Area 18 \u2014 North Yorkshire Moors",
+      "description": "Covers the North Yorkshire Moors National Park and the Vale of Pickering. Low-level east\u2013west transit routes across the moors are used frequently by RAF Leeming and RAF Coningsby aircraft. Transits observed through Bilsdale, Rosedale and over Blakey Ridge.",
+      "aircraft": "Typhoon, Hawk, Tutor (low-level navigation exercises)",
+      "polygon": [
+        [
+          54.25,
+          -1.08
+        ],
+        [
+          54.25,
+          -0.42
+        ],
+        [
+          54.58,
+          -0.38
+        ],
+        [
+          54.6,
+          -1.06
+        ]
+      ]
+    },
+    {
+      "id": "LFA7",
+      "name": "Low Flying Area 7 \u2014 Welsh Marches & West Midlands",
+      "description": "Covers the Welsh Marches from Shropshire south to Herefordshire and into the Brecon Beacons foothills in the east of Wales. English portion includes the hills around Church Stretton, Long Mynd and Clun Forest. Used by support helicopter units from RAF Shawbury and RAF Odiham for low-level navigation.",
+      "aircraft": "Chinook HC6, Puma HC2, Merlin HC4, Juno/Jupiter HT1",
+      "polygon": [
+        [
+          51.8,
+          -3.1
+        ],
+        [
+          51.8,
+          -2.5
+        ],
+        [
+          52.3,
+          -2.48
+        ],
+        [
+          52.82,
+          -2.7
+        ],
+        [
+          52.85,
+          -3.2
+        ],
+        [
+          52.4,
+          -3.5
+        ],
+        [
+          51.9,
+          -3.4
+        ]
+      ]
+    },
+    {
+      "id": "LFA1",
+      "name": "Low Flying Area 1 \u2014 Southwest Peninsula",
+      "description": "Covers Devon and Cornwall including Exmoor, Dartmoor and Bodmin Moor. Used by RNAS Culdrose and RNAS Yeovilton for maritime helicopter low-level navigation and Merlin/Wildcat crew training. Fast jet overflights from QRA Coningsby and visiting USAF aircraft transiting to/from the Western Approaches.",
+      "aircraft": "Merlin HM2, Wildcat HMA2, AW101 (coastguard), F-35B, Typhoon",
+      "polygon": [
+        [
+          50.1,
+          -5.7
+        ],
+        [
+          50.1,
+          -3.5
+        ],
+        [
+          51.1,
+          -3.48
+        ],
+        [
+          51.12,
+          -4.2
+        ],
+        [
+          50.6,
+          -5.0
+        ],
+        [
+          50.25,
+          -5.72
+        ]
+      ]
+    },
+    {
+      "id": "LFA3",
+      "name": "Low Flying Area 3 \u2014 East Anglia",
+      "description": "Covers Norfolk, Suffolk and parts of Cambridgeshire \u2014 dominated by USAF operations from Lakenheath and Mildenhall. F-15E and F-35A aircraft conduct low-level navigation over the Brecks and coastal marshes. Intense activity during USAF exercises; noise impact significant across the Breckland area.",
+      "aircraft": "F-35A, F-15E Strike Eagle, KC-135R, RC-135W",
+      "polygon": [
+        [
+          51.8,
+          0.08
+        ],
+        [
+          51.8,
+          1.82
+        ],
+        [
+          53.0,
+          1.8
+        ],
+        [
+          53.02,
+          0.1
+        ]
+      ]
+    },
+    {
+      "id": "LFA8",
+      "name": "Low Flying Area 8 \u2014 Midlands (Shropshire / Staffordshire)",
+      "description": "Covers Shropshire, Staffordshire and parts of Derbyshire. Used by helicopter training from RAF Shawbury and occasional fixed-wing low-level navigation. Minimum altitude 250ft AGL over open country; lower in designated areas.",
+      "aircraft": "Juno HT1, Jupiter HT1, Chinook HC6, Wildcat HMA2 (training deployments)",
+      "polygon": [
+        [
+          52.4,
+          -2.6
+        ],
+        [
+          52.4,
+          -1.6
+        ],
+        [
+          53.0,
+          -1.58
+        ],
+        [
+          53.02,
+          -2.58
+        ],
+        [
+          52.8,
+          -2.78
+        ]
+      ]
+    },
+    {
+      "id": "LFA14",
+      "name": "Low Flying Area 14 \u2014 Southern England",
+      "description": "Covers central-southern England from Wiltshire and Hampshire across to Kent. Dominated by RAF Odiham Chinook operations, test flying from Boscombe Down, and Lakenheath/Mildenhall transit traffic. Salisbury Plain corridor heavily used for low-level air support exercises.",
+      "aircraft": "Chinook HC6, Puma HC2, F-35A, F-15E, test aircraft",
+      "polygon": [
+        [
+          50.8,
+          -2.0
+        ],
+        [
+          50.8,
+          1.2
+        ],
+        [
+          51.6,
+          1.18
+        ],
+        [
+          51.62,
+          -2.02
+        ]
+      ]
+    },
+    {
+      "id": "LFA19",
+      "name": "Low Flying Area 19 \u2014 Yorkshire Wolds & Holderness",
+      "description": "Covers the Yorkshire Wolds, Holderness coast and Humber estuary. Used for coastal navigation training and approaches to the Donna Nook and Cowden weapons ranges. Typhoon and Hawk transits from RAF Coningsby and RAF Leeming.",
+      "aircraft": "Typhoon, Hawk T1",
+      "polygon": [
+        [
+          53.7,
+          -0.92
+        ],
+        [
+          53.7,
+          0.28
+        ],
+        [
+          54.18,
+          0.26
+        ],
+        [
+          54.2,
+          -0.9
+        ]
+      ]
     }
   ]
 }
