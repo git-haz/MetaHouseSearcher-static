@@ -1,0 +1,832 @@
+{
+  "generatedAt": "2026-06-26T12:59:20.862Z",
+  "method": "CAA annual airport movement statistics (2025) + OurAirports database",
+  "dataYear": 2025,
+  "radiusMiles": 20,
+  "note": "flightsPerDay is distance-weighted: closer airports contribute more. Non-CAA airfields estimated at 500-2000 movements/year.",
+  "locations": {
+    "wenhaston": {
+      "location": "Wenhaston",
+      "lat": 52.3246257,
+      "lon": 1.5556976,
+      "radiusMiles": 20,
+      "flightsPerDay": 2.7,
+      "nearbyCAAAirports": [],
+      "nearbyAirfields": 18,
+      "nearbyActiveAirfields": 2,
+      "nonCaaActiveAirfields": 2,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "diss": {
+      "location": "Diss",
+      "lat": 52.3769148,
+      "lon": 1.1088804,
+      "radiusMiles": 20,
+      "flightsPerDay": 3.2,
+      "nearbyCAAAirports": [],
+      "nearbyAirfields": 32,
+      "nearbyActiveAirfields": 5,
+      "nonCaaActiveAirfields": 5,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "harleston": {
+      "location": "Harleston",
+      "lat": 52.2024214,
+      "lon": 0.9465453,
+      "radiusMiles": 20,
+      "flightsPerDay": 3.2,
+      "nearbyCAAAirports": [],
+      "nearbyAirfields": 37,
+      "nearbyActiveAirfields": 3,
+      "nonCaaActiveAirfields": 3,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "halesworth": {
+      "location": "Halesworth",
+      "lat": 52.3418147,
+      "lon": 1.5001649,
+      "radiusMiles": 20,
+      "flightsPerDay": 2.7,
+      "nearbyCAAAirports": [],
+      "nearbyAirfields": 20,
+      "nearbyActiveAirfields": 2,
+      "nonCaaActiveAirfields": 2,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "eye": {
+      "location": "Eye",
+      "lat": 52.3226292,
+      "lon": 1.1463709,
+      "radiusMiles": 20,
+      "flightsPerDay": 3.2,
+      "nearbyCAAAirports": [],
+      "nearbyAirfields": 31,
+      "nearbyActiveAirfields": 5,
+      "nonCaaActiveAirfields": 5,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "london central": {
+      "location": "London Central",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "radiusMiles": 20,
+      "flightsPerDay": 84.4,
+      "nearbyCAAAirports": [
+        {
+          "name": "LONDON HELIPORT",
+          "icao": "EGLW",
+          "distanceMiles": 3.4,
+          "annualMovements": 8976,
+          "dailyMovements": 24.6,
+          "transport": 2820,
+          "private": 2342,
+          "military": 64,
+          "aeroClub": 0,
+          "weight": 0.087
+        },
+        {
+          "name": "LONDON CITY",
+          "icao": "EGLC",
+          "distanceMiles": 7.9,
+          "annualMovements": 50992,
+          "dailyMovements": 139.7,
+          "transport": 50098,
+          "private": 0,
+          "military": 0,
+          "aeroClub": 0,
+          "weight": 0.016
+        },
+        {
+          "name": "BIGGIN HILL",
+          "icao": "EGKB",
+          "distanceMiles": 14,
+          "annualMovements": 36286,
+          "dailyMovements": 99.4,
+          "transport": 14580,
+          "private": 5600,
+          "military": 6,
+          "aeroClub": 3957,
+          "weight": 0.005
+        },
+        {
+          "name": "HEATHROW",
+          "icao": "EGLL",
+          "distanceMiles": 14.3,
+          "annualMovements": 479996,
+          "dailyMovements": 1315.1,
+          "transport": 477917,
+          "private": 310,
+          "military": 2,
+          "aeroClub": 0,
+          "weight": 0.005
+        }
+      ],
+      "nearbyAirfields": 30,
+      "nearbyActiveAirfields": 9,
+      "nonCaaActiveAirfields": 5,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "london heathrow area": {
+      "location": "London Heathrow Area",
+      "lat": 51.47,
+      "lon": -0.4543,
+      "radiusMiles": 20,
+      "flightsPerDay": 1228.3,
+      "nearbyCAAAirports": [
+        {
+          "name": "HEATHROW",
+          "icao": "EGLL",
+          "distanceMiles": 0,
+          "annualMovements": 479996,
+          "dailyMovements": 1315.1,
+          "transport": 477917,
+          "private": 310,
+          "military": 2,
+          "aeroClub": 0,
+          "weight": 1
+        },
+        {
+          "name": "LONDON HELIPORT",
+          "icao": "EGLW",
+          "distanceMiles": 11.9,
+          "annualMovements": 8976,
+          "dailyMovements": 24.6,
+          "transport": 2820,
+          "private": 2342,
+          "military": 64,
+          "aeroClub": 0,
+          "weight": 0.007
+        },
+        {
+          "name": "FARNBOROUGH",
+          "icao": "EGLF",
+          "distanceMiles": 19.3,
+          "annualMovements": 31316,
+          "dailyMovements": 85.8,
+          "transport": 15250,
+          "private": 103,
+          "military": 90,
+          "aeroClub": 378,
+          "weight": 0.003
+        }
+      ],
+      "nearbyAirfields": 31,
+      "nearbyActiveAirfields": 9,
+      "nonCaaActiveAirfields": 6,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "london gatwick area": {
+      "location": "London Gatwick Area",
+      "lat": 51.1481,
+      "lon": -0.1903,
+      "radiusMiles": 20,
+      "flightsPerDay": 688.1,
+      "nearbyCAAAirports": [
+        {
+          "name": "GATWICK",
+          "icao": "EGKK",
+          "distanceMiles": 0,
+          "annualMovements": 263113,
+          "dailyMovements": 720.9,
+          "transport": 259391,
+          "private": 0,
+          "military": 2,
+          "aeroClub": 0,
+          "weight": 1
+        },
+        {
+          "name": "BIGGIN HILL",
+          "icao": "EGKB",
+          "distanceMiles": 15.9,
+          "annualMovements": 36286,
+          "dailyMovements": 99.4,
+          "transport": 14580,
+          "private": 5600,
+          "military": 6,
+          "aeroClub": 3957,
+          "weight": 0.004
+        }
+      ],
+      "nearbyAirfields": 35,
+      "nearbyActiveAirfields": 4,
+      "nonCaaActiveAirfields": 2,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "london stansted area": {
+      "location": "London Stansted Area",
+      "lat": 51.885,
+      "lon": 0.235,
+      "radiusMiles": 20,
+      "flightsPerDay": 516.3,
+      "nearbyCAAAirports": [
+        {
+          "name": "STANSTED",
+          "icao": "EGSS",
+          "distanceMiles": 0,
+          "annualMovements": 194881,
+          "dailyMovements": 533.9,
+          "transport": 188351,
+          "private": 0,
+          "military": 37,
+          "aeroClub": 0,
+          "weight": 1
+        }
+      ],
+      "nearbyAirfields": 39,
+      "nearbyActiveAirfields": 7,
+      "nonCaaActiveAirfields": 6,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "london city area": {
+      "location": "London City Area",
+      "lat": 51.5053,
+      "lon": 0.0553,
+      "radiusMiles": 20,
+      "flightsPerDay": 133.9,
+      "nearbyCAAAirports": [
+        {
+          "name": "LONDON CITY",
+          "icao": "EGLC",
+          "distanceMiles": 0,
+          "annualMovements": 50992,
+          "dailyMovements": 139.7,
+          "transport": 50098,
+          "private": 0,
+          "military": 0,
+          "aeroClub": 0,
+          "weight": 1
+        },
+        {
+          "name": "LONDON HELIPORT",
+          "icao": "EGLW",
+          "distanceMiles": 10.4,
+          "annualMovements": 8976,
+          "dailyMovements": 24.6,
+          "transport": 2820,
+          "private": 2342,
+          "military": 64,
+          "aeroClub": 0,
+          "weight": 0.009
+        },
+        {
+          "name": "BIGGIN HILL",
+          "icao": "EGKB",
+          "distanceMiles": 12.1,
+          "annualMovements": 36286,
+          "dailyMovements": 99.4,
+          "transport": 14580,
+          "private": 5600,
+          "military": 6,
+          "aeroClub": 3957,
+          "weight": 0.007
+        }
+      ],
+      "nearbyAirfields": 27,
+      "nearbyActiveAirfields": 8,
+      "nonCaaActiveAirfields": 5,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    },
+    "london luton area": {
+      "location": "London Luton Area",
+      "lat": 51.8747,
+      "lon": -0.3683,
+      "radiusMiles": 20,
+      "flightsPerDay": 360.2,
+      "nearbyCAAAirports": [
+        {
+          "name": "LUTON",
+          "icao": "EGGW",
+          "distanceMiles": 0,
+          "annualMovements": 134763,
+          "dailyMovements": 369.2,
+          "transport": 105060,
+          "private": 110,
+          "military": 0,
+          "aeroClub": 0,
+          "weight": 1
+        }
+      ],
+      "nearbyAirfields": 37,
+      "nearbyActiveAirfields": 6,
+      "nonCaaActiveAirfields": 5,
+      "seasonalFlag": "stable",
+      "yearlyTrend": [
+        {
+          "year": 2015,
+          "movements": 36045
+        },
+        {
+          "year": 2016,
+          "movements": 37190
+        },
+        {
+          "year": 2017,
+          "movements": 37307
+        },
+        {
+          "year": 2018,
+          "movements": 34287
+        },
+        {
+          "year": 2019,
+          "movements": 35187
+        },
+        {
+          "year": 2020,
+          "movements": 24542
+        },
+        {
+          "year": 2021,
+          "movements": 30064
+        },
+        {
+          "year": 2022,
+          "movements": 31434
+        },
+        {
+          "year": 2023,
+          "movements": 28662
+        },
+        {
+          "year": 2024,
+          "movements": 30227
+        },
+        {
+          "year": 2025,
+          "movements": 26493
+        }
+      ],
+      "dataSource": "CAA Table 03.1 (2025 annual)"
+    }
+  }
+}

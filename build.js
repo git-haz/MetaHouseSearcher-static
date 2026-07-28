@@ -694,7 +694,7 @@ async function rescoreFlyoverResults(config, resultsDir, airportsArr, baselineDa
       .filter(f => f.endsWith('.json') && f !== 'index.json')
       .map(f => f.replace(/\.json$/, ''));
   }
-  const flyoverSource = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
+  const flyoverSource = path.join(__dirname, 'data', 'flyover-reference.json');
   const searchLocations = config.searches.map(s => s.location);
   console.log(`\nRe-attaching flyover data for ${slugs.length} location file(s)…`);
   let done = 0;
@@ -778,9 +778,9 @@ async function main() {
   if (!fs.existsSync(resultsDir)) fs.mkdirSync(resultsDir, { recursive: true });
 
   // Copy static assets
-  const airportsSource  = path.join(__dirname, '..', 'property-search', 'public', 'airports.json');
-  const flyoverSource   = path.join(__dirname, '..', 'property-search', 'public', 'flyover-reference.json');
-  const ukTownsSource   = path.join(__dirname, '..', 'property-search', 'public', 'uk-towns.json');
+  const airportsSource  = path.join(__dirname, 'data', 'airports.json');
+  const flyoverSource   = path.join(__dirname, 'data', 'flyover-reference.json');
+  const ukTownsSource   = path.join(__dirname, 'data', 'uk-towns.json');
   fs.copyFileSync(airportsSource, path.join(docsDir, 'airports.json'));
   console.log('Copied airports.json');
   if (fs.existsSync(flyoverSource)) {
