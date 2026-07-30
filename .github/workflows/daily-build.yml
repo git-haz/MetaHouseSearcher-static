@@ -3,15 +3,15 @@ name: Daily Build
 on:
   schedule:
     - cron: '0 5 * * 1,3,5'   # 05:00 UTC Mon, Wed, Fri
-  workflow_dispatch:        # allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 permissions:
-  contents: write           # needed to push results back to this repo
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 150    # 2.5h safety limit; build typically takes ~90 min
+    timeout-minutes: 150
 
     steps:
       - name: Checkout repository
@@ -26,15 +26,21 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.npm
-          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
+          key: npm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
           restore-keys: npm-${{ runner.os }}-
 
+      - name: Cache Puppeteer Chrome binary
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: puppeteer-${{ runner.os }}-
+
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Ensure Puppeteer Chrome binary is present
         run: npx puppeteer browsers install chrome
-        continue-on-error: true
 
       - name: Configure git identity
         run: |
@@ -45,8 +51,9 @@ jobs:
         run: node build.js
 
       - name: Commit and push results + seed
+        if: always()
         run: |
-          git add docs/results/ docs/index.json seed-data.json 2>/dev/null || true
+          git add docs/results/ seed-data.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
