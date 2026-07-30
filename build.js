@@ -778,6 +778,20 @@ async function main() {
   // Ensure results/ directory exists
   if (!fs.existsSync(resultsDir)) fs.mkdirSync(resultsDir, { recursive: true });
 
+  // Push any uncommitted results left over from a previous partial run before starting new queries
+  if (PUSH_EVERY > 0) {
+    try {
+      const status = execSync('git status --porcelain docs/results/ seed-data.json', { cwd: __dirname }).toString().trim();
+      if (status) {
+        console.log('\nUnpublished results found from previous run — pushing before starting new queries...');
+        execSync('git add docs/results/ seed-data.json && git diff --staged --quiet || (git commit -m "Push unpublished results before new build" && git push)', { cwd: __dirname, stdio: 'pipe' });
+        console.log('✓ Unpublished results pushed\n');
+      }
+    } catch (err) {
+      console.warn(`⚠ Pre-build push failed: ${(err.stderr || err.message || '').toString().slice(0, 120)}`);
+    }
+  }
+
   // Copy static assets
   const airportsSource  = path.join(__dirname, 'data', 'airports.json');
   const flyoverSource   = path.join(__dirname, 'data', 'flyover-reference.json');
