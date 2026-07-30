@@ -53,6 +53,7 @@ function getPortals(config) {
 
 const pushEveryArg = process.argv.find(a => a.startsWith('--push-every='));
 const PUSH_EVERY   = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
+const RESUME       = process.argv.includes('--resume');
 const USE_ML       = process.argv.includes('--ml-recommend') || process.argv.includes('--ml');
 
 // ---- Utilities ----
@@ -578,7 +579,7 @@ function autoPush(done, total, isFinal) {
     : `Build progress: ${done}/${total} locations`;
   console.log(`\n  → Git push: "${msg}"`);
   try {
-    execSync(`git add docs/results/ && git commit -m "${msg}" && git push`, {
+    execSync(`git add docs/results/ seed-data.json && git diff --staged --quiet || git commit -m "${msg}" && git push`, {
       cwd: __dirname,
       stdio: 'pipe',
     });
@@ -847,7 +848,7 @@ async function main() {
   let existingTotalResults = 0;
   let existingPortalLinks  = [];
   const indexPath = path.join(resultsDir, 'index.json');
-  if (locationFilter && fs.existsSync(indexPath)) {
+  if ((locationFilter || RESUME) && fs.existsSync(indexPath)) {
     try {
       const existing       = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
       existingSlugs        = existing.available        || [];
@@ -863,8 +864,11 @@ async function main() {
         locationFilter.includes(s.location.toLowerCase()) ||
         locationFilter.includes(slugify(s.location))
       )
+    : RESUME
+    ? config.searches.filter(s => !existingSlugs.includes(slugify(s.location)))
     : config.searches;
   if (locationFilter) console.log(`Location filter: ${activeSearches.map(s => s.location).join(', ')}`);
+  if (RESUME) console.log(`Resume: skipping ${existingSlugs.length} already-built locations, ${activeSearches.length} remaining`);
 
   // Write initial index keeping existing results visible while new ones build
   writeIndex(resultsDir, config, baselineData, existingSlugs, existingSlugs.length > 0, existingSlugs.length > 0 ? existingTotalResults : null, existingPortalLinks);

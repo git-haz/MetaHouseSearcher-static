@@ -48,15 +48,15 @@ jobs:
           git config user.name "github-actions[bot]"
 
       - name: Run build
-        run: node build.js
+        run: node build.js --push-every=5 --resume
 
-      - name: Commit and push results + seed
+      - name: Commit and push any remaining changes
         if: always()
         run: |
           git add docs/results/ seed-data.json 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "No unpushed changes remaining."
           else
-            git commit -m "Daily build: $(date -u '+%Y-%m-%d')"
+            git commit -m "Build remainder: $(date -u '+%Y-%m-%d')"
             git push
           fi
