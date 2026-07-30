@@ -60,3 +60,28 @@ jobs:
             git commit -m "Build remainder: $(date -u '+%Y-%m-%d')"
             git push
           fi
+
+      - name: Post build summary to issue #1
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          INDEX="docs/results/index.json"
+          if [ -f "$INDEX" ]; then
+            TOTAL=$(jq '.totalResults // "unknown"' "$INDEX")
+            COMPLETED=$(jq '.completedLocations // "unknown"' "$INDEX")
+            TOTAL_LOC=$(jq '.totalLocations // "unknown"' "$INDEX")
+            COMPLETE=$(jq '.complete' "$INDEX")
+            GENERATED=$(jq -r '.generatedAt' "$INDEX")
+            BODY="✅ **Build complete** — $GENERATED
+
+| | |
+|---|---|
+| Locations | $COMPLETED / $TOTAL_LOC |
+| Properties | $TOTAL |
+| Complete | $COMPLETE |
+| Run | [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) |"
+          else
+            BODY="✅ Build finished but index.json not found. [Run log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+          fi
+          gh issue comment 1 --repo ${{ github.repository }} --body "$BODY"
