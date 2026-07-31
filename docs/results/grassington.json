@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 16.140267080114,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -92,10 +92,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.705Z",
+        "generatedAt": "2026-07-31T14:08:08.166Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -116,8 +123,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -185,10 +192,10 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -210,10 +217,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.705Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -234,8 +248,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -303,10 +317,10 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -328,10 +342,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.705Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -352,8 +373,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -421,10 +442,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -439,10 +460,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.706Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -463,8 +491,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -532,10 +560,10 @@
       },
       "minAirportDistanceMiles": 16.320426356883726,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -557,10 +585,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.706Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -581,8 +616,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -649,10 +684,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -667,10 +702,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.706Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -691,8 +733,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -756,10 +798,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -774,10 +816,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.706Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -798,8 +847,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -863,10 +912,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -881,10 +930,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.707Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -905,8 +961,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -973,10 +1029,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -991,10 +1047,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.707Z",
+        "generatedAt": "2026-07-31T14:08:08.167Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1015,8 +1078,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1080,10 +1143,10 @@
       },
       "minAirportDistanceMiles": 13.089844770662078,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1105,10 +1168,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.707Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1129,8 +1199,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1197,10 +1267,10 @@
       },
       "minAirportDistanceMiles": 19.298562649967412,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1215,10 +1285,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.707Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1239,8 +1316,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1304,10 +1381,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1322,10 +1399,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.707Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1346,8 +1430,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1411,10 +1495,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1429,10 +1513,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.708Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1453,8 +1544,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1518,10 +1609,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1536,10 +1627,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.708Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1560,8 +1658,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1625,10 +1723,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1643,10 +1741,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.708Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1667,8 +1772,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1732,10 +1837,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1750,10 +1855,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.708Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1774,8 +1886,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1839,10 +1951,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1857,10 +1969,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.708Z",
+        "generatedAt": "2026-07-31T14:08:08.168Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1881,8 +2000,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -1946,10 +2065,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1964,10 +2083,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.708Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1988,8 +2114,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2056,10 +2182,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2074,10 +2200,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.709Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2098,8 +2231,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2163,10 +2296,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2181,10 +2314,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.709Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2205,8 +2345,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2270,10 +2410,10 @@
       },
       "minAirportDistanceMiles": 13.925639315537783,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2281,10 +2421,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 20.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.709Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2297,8 +2444,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2362,10 +2509,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2380,10 +2527,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.709Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2404,8 +2558,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2469,10 +2623,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2487,10 +2641,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.709Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2511,8 +2672,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2579,10 +2740,10 @@
       },
       "minAirportDistanceMiles": 10.780365048444787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2597,10 +2758,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.710Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2613,8 +2781,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2678,10 +2846,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2696,10 +2864,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.710Z",
+        "generatedAt": "2026-07-31T14:08:08.169Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2720,8 +2895,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2785,10 +2960,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2803,10 +2978,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.710Z",
+        "generatedAt": "2026-07-31T14:08:08.170Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2827,8 +3009,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2892,10 +3074,10 @@
       },
       "minAirportDistanceMiles": 13.648227983611175,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2903,10 +3085,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 19.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.710Z",
+        "generatedAt": "2026-07-31T14:08:08.170Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2919,8 +3108,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -2984,10 +3173,10 @@
       },
       "minAirportDistanceMiles": 10.83606617755195,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -2995,10 +3184,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 16
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.710Z",
+        "generatedAt": "2026-07-31T14:08:08.170Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3011,8 +3207,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:07:26.605Z"
@@ -3079,10 +3275,10 @@
       },
       "minAirportDistanceMiles": 11.202193994823467,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -3090,10 +3286,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 16.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.710Z",
+        "generatedAt": "2026-07-31T14:08:08.170Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3106,8 +3309,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T14:05:57.727Z"
@@ -3170,10 +3373,10 @@
       },
       "minAirportDistanceMiles": 4.549803713318438,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 5.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1,
+        "military": 5.2,
         "topFacilities": [
           {
             "name": "RAF Waddington",
@@ -3190,13 +3393,6 @@
             "distMiles": 14.2
           },
           {
-            "name": "Humberside Airport",
-            "icao": "EGNJ",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Coningsby",
             "icao": "EGXC",
             "category": "airport",
@@ -3204,15 +3400,29 @@
             "distMiles": 17.9
           },
           {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
+          },
+          {
             "name": "RAF Barkston Heath",
             "icao": "EGYE",
             "category": "airport",
             "usage": "military",
             "distMiles": 18.8
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.711Z",
+        "generatedAt": "2026-07-31T14:08:08.170Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3224,8 +3434,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:27:07.623Z",
@@ -3273,5 +3483,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.367Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.716Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:08.174Z"
 }

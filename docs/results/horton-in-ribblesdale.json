@@ -67,13 +67,21 @@
       },
       "minAirportDistanceMiles": 21.145568343717127,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.733Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -94,8 +102,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -163,13 +171,21 @@
       },
       "minAirportDistanceMiles": 21.145568343717127,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -190,8 +206,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -259,13 +275,21 @@
       },
       "minAirportDistanceMiles": 21.44708498590097,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -286,8 +310,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -351,10 +375,10 @@
       },
       "minAirportDistanceMiles": 5.5277789567094935,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Blackpool Airport",
@@ -376,10 +400,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 24.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -392,8 +423,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -457,10 +488,10 @@
       },
       "minAirportDistanceMiles": 5.5277789567094935,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Blackpool Airport",
@@ -482,10 +513,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 24.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -498,8 +536,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -563,10 +601,10 @@
       },
       "minAirportDistanceMiles": 5.5277789567094935,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Blackpool Airport",
@@ -588,10 +626,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 24.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -604,8 +649,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z",
@@ -673,13 +718,21 @@
       },
       "minAirportDistanceMiles": 21.0600137063131,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -700,8 +753,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T14:10:53.935Z"
@@ -764,10 +817,10 @@
       },
       "minAirportDistanceMiles": 0.6994870489986009,
       "flyoverRef": {
-        "flightsPerDay": 13.2,
+        "flightsPerDay": 18.2,
         "commercial": 11.8,
         "ga": 1,
-        "military": 0.4,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -803,10 +856,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 11.9
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.735Z",
+        "generatedAt": "2026-07-31T14:08:08.192Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -818,8 +878,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 13.2,
-        "flightsDiffPct": -94
+        "flightsPerDay": 18.2,
+        "flightsDiffPct": -91
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
@@ -867,5 +927,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.371Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.736Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:08.193Z"
 }
