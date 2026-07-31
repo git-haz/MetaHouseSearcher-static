@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -99,10 +99,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.303Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -115,8 +129,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -184,10 +198,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -216,10 +230,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.303Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -232,8 +260,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -301,10 +329,10 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -333,10 +361,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.303Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -349,8 +391,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -418,10 +460,10 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -450,10 +492,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -466,8 +522,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -535,10 +591,10 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -567,10 +623,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -583,8 +653,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -652,10 +722,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -684,10 +754,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -700,8 +784,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -769,10 +853,10 @@
       },
       "minAirportDistanceMiles": 13.634297655415123,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -801,10 +885,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.9
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -817,8 +915,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -886,10 +984,10 @@
       },
       "minAirportDistanceMiles": 13.00199397049518,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -918,10 +1016,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.586Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -934,8 +1046,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -999,10 +1111,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1031,10 +1143,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1047,8 +1173,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1112,10 +1238,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1144,10 +1270,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1160,8 +1300,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1225,10 +1365,10 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1257,10 +1397,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1273,8 +1427,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1338,10 +1492,10 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1370,10 +1524,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1386,8 +1554,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1451,10 +1619,10 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1483,10 +1651,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1499,8 +1681,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1564,10 +1746,10 @@
       },
       "minAirportDistanceMiles": 9.82912445535895,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1596,10 +1778,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 28.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.305Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1620,8 +1816,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1685,10 +1881,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1717,10 +1913,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.305Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1733,8 +1943,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1801,10 +2011,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1833,10 +2043,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.305Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1849,8 +2073,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1914,10 +2138,10 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1946,10 +2170,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 25.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1970,8 +2208,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2038,10 +2276,10 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2070,10 +2308,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 25.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2094,8 +2346,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2163,10 +2415,10 @@
       },
       "minAirportDistanceMiles": 9.95218726039329,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 10.3,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2195,10 +2447,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 26.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "generatedAt": "2026-07-31T14:08:05.587Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2219,8 +2485,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2284,10 +2550,10 @@
       },
       "minAirportDistanceMiles": 9.95218726039329,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 10.3,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2316,10 +2582,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 26.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2340,8 +2620,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2408,10 +2688,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2440,10 +2720,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2456,8 +2750,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2545,7 +2839,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2623,10 +2917,10 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2655,10 +2949,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 25.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2679,8 +2987,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2744,10 +3052,10 @@
       },
       "minAirportDistanceMiles": 5.19756057376943,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2776,10 +3084,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2800,8 +3122,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2865,10 +3187,10 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.5,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2897,10 +3219,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.9
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2913,8 +3249,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2981,10 +3317,10 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.5,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3013,10 +3349,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.9
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3029,8 +3379,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z",
@@ -3101,10 +3451,10 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3133,10 +3483,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 25.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3157,8 +3521,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -3225,10 +3589,10 @@
       },
       "minAirportDistanceMiles": 4.9743318022545715,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3257,10 +3621,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.6
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3273,8 +3651,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -3338,10 +3716,10 @@
       },
       "minAirportDistanceMiles": 4.518066761383429,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3370,10 +3748,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 15.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.588Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3386,8 +3778,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -3454,10 +3846,10 @@
       },
       "minAirportDistanceMiles": 4.518066761383429,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3486,10 +3878,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 15.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3502,8 +3908,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -3570,10 +3976,10 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.5,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3602,10 +4008,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.9
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3618,8 +4038,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -3683,10 +4103,10 @@
       },
       "minAirportDistanceMiles": 2.0201512861440074,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3715,10 +4135,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3731,8 +4165,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -3800,10 +4234,10 @@
       },
       "minAirportDistanceMiles": 2.6406918854555466,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.5,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3832,10 +4266,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3848,8 +4296,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -3916,10 +4364,10 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3948,10 +4396,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.309Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3964,8 +4426,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -4032,10 +4494,10 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 10.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -4064,10 +4526,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 25.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.309Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4088,8 +4564,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -4153,10 +4629,10 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 10.5,
         "commercial": 0.5,
         "ga": 0,
-        "military": 0.1,
+        "military": 10.1,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -4185,10 +4661,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.9
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.309Z",
+        "generatedAt": "2026-07-31T14:08:05.589Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4201,8 +4691,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -4247,5 +4737,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.352Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.312Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:05.592Z"
 }

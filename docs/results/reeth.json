@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 12.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 12.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -92,10 +92,31 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -116,8 +137,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 12.2,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -185,10 +206,10 @@
       },
       "minAirportDistanceMiles": 8.168914608116044,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 12.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 12.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -210,10 +231,31 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.1
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -234,8 +276,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 12.2,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -303,10 +345,10 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 12.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 12.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -328,10 +370,31 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -352,8 +415,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 12.2,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z",
@@ -425,10 +488,10 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 12.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 12.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -450,10 +513,31 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -474,8 +558,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 12.2,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -571,7 +655,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -653,10 +737,10 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 12.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 12.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -678,10 +762,31 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -702,8 +807,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 12.2,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -771,10 +876,10 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 12.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 12.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -796,10 +901,31 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.662Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -820,8 +946,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 12.2,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -913,7 +1039,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1019,7 +1145,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1125,7 +1251,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1202,10 +1328,10 @@
       },
       "minAirportDistanceMiles": 2.028986164956957,
       "flyoverRef": {
-        "flightsPerDay": 16.2,
+        "flightsPerDay": 21.2,
         "commercial": 15.2,
         "ga": 0.4,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -1241,10 +1367,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 12.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1256,8 +1389,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 16.2,
-        "flightsDiffPct": -92
+        "flightsPerDay": 21.2,
+        "flightsDiffPct": -90
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1323,10 +1456,10 @@
       },
       "minAirportDistanceMiles": 2.6342190529599114,
       "flyoverRef": {
-        "flightsPerDay": 12.8,
+        "flightsPerDay": 17.8,
         "commercial": 11.9,
         "ga": 0.3,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -1362,10 +1495,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 10.8
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1377,8 +1517,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 12.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 17.8,
+        "flightsDiffPct": -92
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1444,10 +1584,10 @@
       },
       "minAirportDistanceMiles": 1.750861906915464,
       "flyoverRef": {
-        "flightsPerDay": 15.5,
+        "flightsPerDay": 20.5,
         "commercial": 14.5,
         "ga": 0.5,
-        "military": 0.5,
+        "military": 5.5,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -1483,10 +1623,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 12.1
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1498,8 +1645,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 15.5,
-        "flightsDiffPct": -93
+        "flightsPerDay": 20.5,
+        "flightsDiffPct": -90
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1565,10 +1712,10 @@
       },
       "minAirportDistanceMiles": 1.9951651357661715,
       "flyoverRef": {
-        "flightsPerDay": 10.2,
+        "flightsPerDay": 15.2,
         "commercial": 9.5,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -1604,10 +1751,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1619,8 +1773,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 10.2,
-        "flightsDiffPct": -95
+        "flightsPerDay": 15.2,
+        "flightsDiffPct": -93
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1686,10 +1840,10 @@
       },
       "minAirportDistanceMiles": 4.620228722335489,
       "flyoverRef": {
-        "flightsPerDay": 9.3,
+        "flightsPerDay": 14.3,
         "commercial": 8.5,
         "ga": 0.2,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -1725,10 +1879,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 18.5
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.396Z",
+        "generatedAt": "2026-07-31T14:08:05.663Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1740,8 +1901,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 9.3,
-        "flightsDiffPct": -96
+        "flightsPerDay": 14.3,
+        "flightsDiffPct": -93
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1789,5 +1950,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.366Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.397Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:05.665Z"
 }

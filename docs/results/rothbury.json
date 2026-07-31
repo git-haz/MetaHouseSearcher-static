@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 4.922492204852221,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -85,10 +85,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.4
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -101,8 +108,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z",
@@ -175,10 +182,10 @@
       },
       "minAirportDistanceMiles": 5.174715515866463,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -193,10 +200,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -209,8 +223,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -278,10 +292,10 @@
       },
       "minAirportDistanceMiles": 4.849081065033166,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -296,10 +310,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -312,8 +333,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -381,10 +402,10 @@
       },
       "minAirportDistanceMiles": 4.961782242806729,
       "flyoverRef": {
-        "flightsPerDay": 1.7,
+        "flightsPerDay": 6.7,
         "commercial": 1.7,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -399,10 +420,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -415,8 +443,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.7,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -484,10 +512,10 @@
       },
       "minAirportDistanceMiles": 4.961782242806729,
       "flyoverRef": {
-        "flightsPerDay": 1.7,
+        "flightsPerDay": 6.7,
         "commercial": 1.7,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -502,10 +530,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -518,8 +553,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.7,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -587,10 +622,10 @@
       },
       "minAirportDistanceMiles": 5.340720112986391,
       "flyoverRef": {
-        "flightsPerDay": 1.9,
+        "flightsPerDay": 6.9,
         "commercial": 1.9,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -605,10 +640,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -621,8 +663,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.9,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.9,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -690,10 +732,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -708,10 +750,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -724,8 +773,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -793,10 +842,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -811,10 +860,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -827,8 +883,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -896,10 +952,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -914,10 +970,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -930,8 +993,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -999,10 +1062,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1017,10 +1080,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1033,8 +1103,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1102,10 +1172,10 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1120,10 +1190,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1136,8 +1213,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1205,10 +1282,10 @@
       },
       "minAirportDistanceMiles": 4.96110819004143,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1223,10 +1300,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1239,8 +1323,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1308,10 +1392,10 @@
       },
       "minAirportDistanceMiles": 4.545458907030729,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1326,10 +1410,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1342,8 +1433,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1411,10 +1502,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1429,10 +1520,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1445,8 +1543,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1514,10 +1612,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1532,10 +1630,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1548,8 +1653,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1617,10 +1722,10 @@
       },
       "minAirportDistanceMiles": 4.9894017877625485,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1635,10 +1740,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.4
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1651,8 +1763,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1716,10 +1828,10 @@
       },
       "minAirportDistanceMiles": 5.174715515866463,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1734,10 +1846,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1750,8 +1869,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1815,10 +1934,10 @@
       },
       "minAirportDistanceMiles": 5.174715515866463,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1833,10 +1952,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1849,8 +1975,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1914,10 +2040,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -1932,10 +2058,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1948,8 +2081,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z",
@@ -2018,10 +2151,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2036,10 +2169,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2052,8 +2192,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2117,10 +2257,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2135,10 +2275,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2151,8 +2298,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2216,10 +2363,10 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2234,10 +2381,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2250,8 +2404,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2315,10 +2469,10 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2333,10 +2487,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2349,8 +2510,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2414,10 +2575,10 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2432,10 +2593,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 14
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2448,8 +2616,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2513,10 +2681,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2531,10 +2699,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2547,8 +2722,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2615,10 +2790,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2633,10 +2808,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2649,8 +2831,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2714,10 +2896,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2732,10 +2914,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2748,8 +2937,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2816,10 +3005,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2834,10 +3023,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2850,8 +3046,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2918,10 +3114,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -2936,10 +3132,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2952,8 +3155,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -3017,10 +3220,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3035,10 +3238,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3051,8 +3261,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -3119,10 +3329,10 @@
       },
       "minAirportDistanceMiles": 1.2074879528253477,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3137,10 +3347,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 11.4
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "generatedAt": "2026-07-31T14:08:05.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3153,8 +3370,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -3218,10 +3435,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3236,10 +3453,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.319Z",
+        "generatedAt": "2026-07-31T14:08:05.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3252,8 +3476,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -3317,10 +3541,10 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Newcastle International Airport",
@@ -3335,10 +3559,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.2
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.319Z",
+        "generatedAt": "2026-07-31T14:08:05.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3351,8 +3582,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -3397,5 +3628,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.356Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.323Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:05.606Z"
 }

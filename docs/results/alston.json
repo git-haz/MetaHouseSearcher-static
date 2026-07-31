@@ -67,13 +67,21 @@
       },
       "minAirportDistanceMiles": 7.406048944161404,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "generatedAt": "2026-07-31T14:08:05.552Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -86,8 +94,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -155,10 +163,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -180,10 +188,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "generatedAt": "2026-07-31T14:08:05.552Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -196,8 +218,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -271,10 +293,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -296,10 +318,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "generatedAt": "2026-07-31T14:08:05.552Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -312,8 +348,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -387,10 +423,10 @@
       },
       "minAirportDistanceMiles": 0.9974434144111294,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0,
         "ga": 0.3,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -412,10 +448,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 19.4
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "generatedAt": "2026-07-31T14:08:05.553Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -428,8 +471,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -502,10 +545,10 @@
       },
       "minAirportDistanceMiles": 3.349733934728142,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Barrow Walney Island Airport",
@@ -513,10 +556,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 14.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "generatedAt": "2026-07-31T14:08:05.553Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -529,8 +579,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -598,10 +648,10 @@
       },
       "minAirportDistanceMiles": 5.620040236249213,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0,
         "ga": 0.2,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Barrow Walney Island Airport",
@@ -616,10 +666,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 29.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "generatedAt": "2026-07-31T14:08:05.553Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -632,8 +689,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -705,13 +762,21 @@
       },
       "minAirportDistanceMiles": 3.209766615376731,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "generatedAt": "2026-07-31T14:08:05.555Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -724,8 +789,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -793,10 +858,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -818,10 +883,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "generatedAt": "2026-07-31T14:08:05.555Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -834,8 +913,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -909,7 +988,7 @@
         "military": 0,
         "topFacilities": [],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "generatedAt": "2026-07-31T14:08:05.555Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -991,10 +1070,10 @@
       },
       "minAirportDistanceMiles": 11.087708209567927,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1002,10 +1081,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 23.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "generatedAt": "2026-07-31T14:08:05.555Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1026,8 +1112,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1123,7 +1209,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "generatedAt": "2026-07-31T14:08:05.555Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1233,7 +1319,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "generatedAt": "2026-07-31T14:08:05.556Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1315,10 +1401,10 @@
       },
       "minAirportDistanceMiles": 3.924365447256325,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1340,10 +1426,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 28.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "generatedAt": "2026-07-31T14:08:05.556Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1356,8 +1449,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1425,10 +1518,10 @@
       },
       "minAirportDistanceMiles": 3.924365447256325,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1450,10 +1543,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 28.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "generatedAt": "2026-07-31T14:08:05.556Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1466,8 +1566,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1535,10 +1635,10 @@
       },
       "minAirportDistanceMiles": 3.924365447256325,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1560,10 +1660,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 28.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "generatedAt": "2026-07-31T14:08:05.556Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1576,8 +1683,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1645,10 +1752,10 @@
       },
       "minAirportDistanceMiles": 5.129233664013018,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 5.5,
         "commercial": 0,
         "ga": 0.4,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1670,10 +1777,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 13.8
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "generatedAt": "2026-07-31T14:08:05.556Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1686,8 +1800,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1755,10 +1869,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -1780,10 +1894,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "generatedAt": "2026-07-31T14:08:05.556Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1796,8 +1924,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1865,10 +1993,10 @@
       },
       "minAirportDistanceMiles": 2.6110983183092262,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1883,10 +2011,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "generatedAt": "2026-07-31T14:08:05.557Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1899,8 +2034,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1996,7 +2131,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "generatedAt": "2026-07-31T14:08:05.557Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2078,10 +2213,10 @@
       },
       "minAirportDistanceMiles": 1.1875433285889794,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 5.4,
         "commercial": 0,
         "ga": 0.4,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2103,10 +2238,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "generatedAt": "2026-07-31T14:08:05.557Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2119,8 +2261,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.4,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2216,7 +2358,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "generatedAt": "2026-07-31T14:08:05.557Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2298,10 +2440,10 @@
       },
       "minAirportDistanceMiles": 4.850299530728371,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0,
         "ga": 0.4,
-        "military": 0.2,
+        "military": 5.2,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2323,10 +2465,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 9.5
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "generatedAt": "2026-07-31T14:08:05.557Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2339,8 +2488,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2408,10 +2557,10 @@
       },
       "minAirportDistanceMiles": 1.5517606003026188,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Barrow Walney Island Airport",
@@ -2419,10 +2568,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 22.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "generatedAt": "2026-07-31T14:08:05.558Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2435,8 +2591,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2504,13 +2660,35 @@
       },
       "minAirportDistanceMiles": 6.470056559909628,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 17,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 17,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.558Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2531,8 +2709,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 17,
+        "flightsDiffPct": -92
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2600,10 +2778,10 @@
       },
       "minAirportDistanceMiles": 2.857762186087377,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Barrow Walney Island Airport",
@@ -2618,10 +2796,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 29.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.558Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2634,8 +2819,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2703,10 +2888,10 @@
       },
       "minAirportDistanceMiles": 5.499357152617746,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2714,10 +2899,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.558Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2730,8 +2922,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2799,13 +2991,28 @@
       },
       "minAirportDistanceMiles": 8.603737910549762,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 14,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 14,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.559Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2826,8 +3033,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 14,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2895,10 +3102,10 @@
       },
       "minAirportDistanceMiles": 9.318126806845495,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2906,10 +3113,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 25.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.559Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2922,8 +3136,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2999,10 +3213,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3024,10 +3238,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.559Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3040,8 +3268,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3105,10 +3333,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3130,10 +3358,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "generatedAt": "2026-07-31T14:08:05.560Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3146,8 +3388,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3211,10 +3453,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3236,10 +3478,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.560Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3252,8 +3508,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3317,10 +3573,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3342,10 +3598,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.560Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3358,8 +3628,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3423,10 +3693,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3448,10 +3718,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.561Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3464,8 +3748,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3529,10 +3813,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3554,10 +3838,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.561Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3570,8 +3868,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3635,10 +3933,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3660,10 +3958,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.561Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3676,8 +3988,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3741,10 +4053,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3766,10 +4078,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.562Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3782,8 +4108,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3847,10 +4173,10 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3872,10 +4198,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.562Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3888,8 +4228,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3953,10 +4293,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -3978,10 +4318,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.562Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3994,8 +4348,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4059,10 +4413,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4084,10 +4438,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.563Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4100,8 +4468,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4165,10 +4533,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4190,10 +4558,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "generatedAt": "2026-07-31T14:08:05.563Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4206,8 +4588,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4274,10 +4656,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4299,10 +4681,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.563Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4315,8 +4711,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4380,10 +4776,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4405,10 +4801,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.563Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4421,8 +4831,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4486,10 +4896,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4511,10 +4921,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.564Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4527,8 +4951,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4592,10 +5016,10 @@
       },
       "minAirportDistanceMiles": 8.885509558622166,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 6,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4617,10 +5041,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 21
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.564Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4633,8 +5071,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4698,10 +5136,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4723,10 +5161,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.564Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4739,8 +5191,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4804,10 +5256,10 @@
       },
       "minAirportDistanceMiles": 8.885509558622166,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 6,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4829,10 +5281,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 21
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.565Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4845,8 +5311,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4910,10 +5376,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -4935,10 +5401,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.565Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4951,8 +5431,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -5016,10 +5496,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -5041,10 +5521,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.565Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5057,8 +5551,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -5122,10 +5616,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -5147,10 +5641,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.565Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5163,8 +5671,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -5228,10 +5736,10 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 6.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "RAF Spadeadam",
@@ -5253,10 +5761,24 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 18.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "generatedAt": "2026-07-31T14:08:05.566Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5269,8 +5791,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.1,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -5338,10 +5860,10 @@
       },
       "minAirportDistanceMiles": 5.403309351912273,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Barrow Walney Island Airport",
@@ -5349,10 +5871,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 17.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "generatedAt": "2026-07-31T14:08:05.566Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -5365,8 +5894,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:46:07.676Z"
@@ -5440,7 +5969,7 @@
         "military": 0,
         "topFacilities": [],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "generatedAt": "2026-07-31T14:08:05.567Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5522,10 +6051,10 @@
       },
       "minAirportDistanceMiles": 2.1833694426860624,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Barrow Walney Island Airport",
@@ -5533,10 +6062,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "generatedAt": "2026-07-31T14:08:05.567Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5549,8 +6085,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:46:07.676Z"
@@ -5617,10 +6153,10 @@
       },
       "minAirportDistanceMiles": 0.7632593649508859,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0,
         "ga": 0.2,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -5642,10 +6178,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 19.9
+          },
+          {
+            "name": "Low Flying Area 20(T) — Anglo-Scottish Border",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "generatedAt": "2026-07-31T14:08:05.567Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5656,8 +6199,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T11:07:35.685Z",
@@ -5734,7 +6277,7 @@
         "military": 0,
         "topFacilities": [],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "generatedAt": "2026-07-31T14:08:05.568Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5817,10 +6360,10 @@
       },
       "minAirportDistanceMiles": 1.4675536219748264,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 10.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -5842,10 +6385,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 30
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.289Z",
+        "generatedAt": "2026-07-31T14:08:05.568Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5856,8 +6406,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T11:07:35.685Z",
@@ -5906,5 +6456,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.350Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.299Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:05.577Z"
 }

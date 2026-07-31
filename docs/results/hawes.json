@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -78,10 +78,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.351Z",
+        "generatedAt": "2026-07-31T14:08:05.623Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -102,8 +116,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -171,10 +185,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -182,10 +196,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.351Z",
+        "generatedAt": "2026-07-31T14:08:05.623Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -206,8 +234,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -275,10 +303,10 @@
       },
       "minAirportDistanceMiles": 14.819269788650143,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -286,10 +314,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.351Z",
+        "generatedAt": "2026-07-31T14:08:05.623Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -310,8 +352,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -379,10 +421,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -390,10 +432,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.351Z",
+        "generatedAt": "2026-07-31T14:08:05.623Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -414,8 +470,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -483,10 +539,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -494,10 +550,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.351Z",
+        "generatedAt": "2026-07-31T14:08:05.623Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -518,8 +588,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -587,10 +657,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -598,10 +668,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.351Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -622,8 +706,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -691,10 +775,10 @@
       },
       "minAirportDistanceMiles": 14.819269788650143,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -702,10 +786,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -726,8 +824,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -795,10 +893,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -806,10 +904,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -830,8 +942,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -899,10 +1011,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -910,10 +1022,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -934,8 +1060,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z",
@@ -1007,10 +1133,10 @@
       },
       "minAirportDistanceMiles": 14.811349487690274,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1018,10 +1144,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1042,8 +1182,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1111,10 +1251,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1143,10 +1283,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1159,8 +1320,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1228,10 +1389,10 @@
       },
       "minAirportDistanceMiles": 14.761789554499822,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1239,10 +1400,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1263,8 +1438,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1332,10 +1507,10 @@
       },
       "minAirportDistanceMiles": 14.78335782215278,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1343,10 +1518,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1367,8 +1556,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1436,10 +1625,10 @@
       },
       "minAirportDistanceMiles": 14.330012496409122,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1447,10 +1636,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 26.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1471,8 +1674,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1540,10 +1743,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1572,10 +1775,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.624Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1588,8 +1812,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1653,10 +1877,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1685,10 +1909,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.352Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1701,8 +1946,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1766,10 +2011,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1798,10 +2043,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1814,8 +2080,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1879,10 +2145,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1911,10 +2177,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1927,8 +2214,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -1992,10 +2279,10 @@
       },
       "minAirportDistanceMiles": 10.589619205534792,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 22.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 22,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -2010,10 +2297,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 22.4
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2034,8 +2349,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 22.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2099,10 +2414,10 @@
       },
       "minAirportDistanceMiles": 10.589619205534792,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 22.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 22,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -2117,10 +2432,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 22.4
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2141,8 +2484,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 22.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2206,13 +2549,28 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2233,8 +2591,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2298,10 +2656,10 @@
       },
       "minAirportDistanceMiles": 10.068034216454711,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 22.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 22.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -2323,10 +2681,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Warcop (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2347,8 +2733,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 22.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2412,10 +2798,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -2444,10 +2830,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2460,8 +2867,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2525,10 +2932,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -2557,10 +2964,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2573,8 +3001,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2638,10 +3066,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -2670,10 +3098,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.353Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2686,8 +3135,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2751,10 +3200,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -2783,10 +3232,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.625Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2799,8 +3269,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2864,10 +3334,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -2896,10 +3366,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2912,8 +3403,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -2977,13 +3468,21 @@
       },
       "minAirportDistanceMiles": 21.02698345922847,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 10,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 10,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3004,8 +3503,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3072,10 +3571,10 @@
       },
       "minAirportDistanceMiles": 13.338172625320452,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 10.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 10,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -3090,10 +3589,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.7
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3114,8 +3620,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3179,13 +3685,28 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3206,8 +3727,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3271,13 +3792,28 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3298,8 +3834,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3363,13 +3899,28 @@
       },
       "minAirportDistanceMiles": 20.51014897216213,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3390,8 +3941,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3455,13 +4006,28 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3482,8 +4048,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3547,13 +4113,28 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3574,8 +4155,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3639,13 +4220,28 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
-        "topFacilities": [],
+        "military": 13,
+        "topFacilities": [
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          }
+        ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3666,8 +4262,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3731,10 +4327,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -3763,10 +4359,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.354Z",
+        "generatedAt": "2026-07-31T14:08:05.626Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3779,8 +4396,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3844,10 +4461,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -3876,10 +4493,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.355Z",
+        "generatedAt": "2026-07-31T14:08:05.627Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3892,8 +4530,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -3957,10 +4595,10 @@
       },
       "minAirportDistanceMiles": 1.985823908500243,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 15.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 15.2,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -3989,10 +4627,31 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.9
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.355Z",
+        "generatedAt": "2026-07-31T14:08:05.627Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4005,8 +4664,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:57:44.363Z"
@@ -4069,10 +4728,10 @@
       },
       "minAirportDistanceMiles": 1.717631312690845,
       "flyoverRef": {
-        "flightsPerDay": 31.6,
+        "flightsPerDay": 40.6,
         "commercial": 31.6,
         "ga": 0,
-        "military": 0,
+        "military": 9,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -4087,10 +4746,24 @@
             "category": "airstrip",
             "usage": "military",
             "distMiles": 25.9
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RNAS Yeovilton → Dartmoor (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.356Z",
+        "generatedAt": "2026-07-31T14:08:05.627Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4102,8 +4775,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 31.6,
-        "flightsDiffPct": -85
+        "flightsPerDay": 40.6,
+        "flightsDiffPct": -81
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:04:07.590Z",
@@ -4151,5 +4824,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.359Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.361Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:05.630Z"
 }

@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 10.257593445432962,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -92,10 +92,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.388Z",
+        "generatedAt": "2026-07-31T14:08:05.656Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -116,8 +144,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -185,10 +213,10 @@
       },
       "minAirportDistanceMiles": 10.28642013366666,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -210,10 +238,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.4
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.389Z",
+        "generatedAt": "2026-07-31T14:08:05.656Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -234,8 +290,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -303,10 +359,10 @@
       },
       "minAirportDistanceMiles": 10.239382729110964,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -328,10 +384,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.389Z",
+        "generatedAt": "2026-07-31T14:08:05.656Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -352,8 +436,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -421,10 +505,10 @@
       },
       "minAirportDistanceMiles": 10.131517170369756,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -446,10 +530,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.389Z",
+        "generatedAt": "2026-07-31T14:08:05.656Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -470,8 +582,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -539,10 +651,10 @@
       },
       "minAirportDistanceMiles": 10.239382729110964,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -564,10 +676,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.389Z",
+        "generatedAt": "2026-07-31T14:08:05.656Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -588,8 +728,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -657,10 +797,10 @@
       },
       "minAirportDistanceMiles": 10.239382729110964,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -682,10 +822,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.389Z",
+        "generatedAt": "2026-07-31T14:08:05.656Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -706,8 +874,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z",
@@ -781,10 +949,10 @@
       },
       "minAirportDistanceMiles": 10.239382729110964,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 21.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 21.1,
         "topFacilities": [
           {
             "name": "Teesside International Airport",
@@ -806,10 +974,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.390Z",
+        "generatedAt": "2026-07-31T14:08:05.657Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -830,8 +1026,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21.1,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -899,10 +1095,10 @@
       },
       "minAirportDistanceMiles": 11.069846482505067,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 21,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 21,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -910,10 +1106,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 22.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.390Z",
+        "generatedAt": "2026-07-31T14:08:05.657Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -934,8 +1158,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -1003,10 +1227,10 @@
       },
       "minAirportDistanceMiles": 11.107953534138186,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 21,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 21,
         "topFacilities": [
           {
             "name": "RAF Leeming",
@@ -1014,10 +1238,38 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 22.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Otterburn Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.390Z",
+        "generatedAt": "2026-07-31T14:08:05.657Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1038,8 +1290,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 21,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:03:56.030Z"
@@ -1131,7 +1383,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:31.390Z",
+        "generatedAt": "2026-07-31T14:08:05.657Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1190,5 +1442,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.365Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:31.391Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:05.658Z"
 }
