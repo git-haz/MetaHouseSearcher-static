@@ -2113,8 +2113,9 @@ function buildFlyoverDetail(p) {
   let facilitiesHtml = '';
   if (fd.topFacilities && fd.topFacilities.length) {
     const items = fd.topFacilities.map(f => {
-      const icon = f.category === 'heliport' ? '🚁' : f.category === 'airstrip' ? '🛩' : '✈';
-      return `<span>${icon} ${f.name}${f.icao ? ` (${f.icao})` : ''} · ${f.distMiles}mi</span>`;
+      const icon = f.category === 'LFA' ? '⚡' : f.category === 'corridor' ? '↗' : f.category === 'heliport' ? '🚁' : f.category === 'airstrip' ? '🛩' : '✈';
+      const dist = f.distMiles != null ? ` · ${f.distMiles}mi` : '';
+      return `<span>${icon} ${f.name}${f.icao ? ` (${f.icao})` : ''}${dist}</span>`;
     }).join('');
     facilitiesHtml = `<div class="detail-flyover-facilities">Top contributors: ${items}</div>`;
   }

@@ -44,7 +44,72 @@ const CAA_MOVEMENTS = {
   EGBK: 35000,  // Sywell (busy GA club)
   EGBP: 25000,  // Kemble/Cotswold
   EGSU: 28000,  // Duxford
+  // Military bases — from Environmental Impact Statements, HC Written Answers, published flying rates
+  EGXC: 25000,  // RAF Coningsby (Typhoon QRA + OCU)
+  EGYM: 20000,  // RAF Marham (F-35B Wing)
+  EGXW: 15000,  // RAF Waddington (ISR/Rivet Joint/Sentry)
+  EGXE: 20000,  // RAF Leeming (Hawk T1 FTS)
+  EGYD: 20000,  // RAF Cranwell (Prefect/Tutor FTS)
+  EGOS: 22000,  // RAF Shawbury (rotary FTS — high sortie rate)
+  EGOV: 25000,  // RAF Valley (Hawk advanced training)
+  EGVN: 15000,  // RAF Brize Norton (A400M/C-17/A330 tankers)
+  EGDY: 15000,  // RNAS Yeovilton (F-35B/Wildcat/Merlin)
+  EGDR: 15000,  // RNAS Culdrose (Merlin HM2 — ASW training)
+  EGUL: 18000,  // RAF Lakenheath (F-35A, USAF 48th FW)
+  EGVJ: 12000,  // RAF Wittering (Tucano/Prefect)
+  EGVO: 12000,  // RAF Odiham (Chinook Wing)
+  EGBE: 10000,  // Coventry (ex-RAF, now commercial/GA)
 };
+
+// Estimated daily transits per corridor (sorties that transit the full width)
+// Sources: published Environmental Management Plans, HC Written Answers, MOD EIS documents
+const CORRIDOR_DAILY_TRANSITS = {
+  'COR-V01': 6,  // Odiham→Salisbury Plain Chinook supply: daily support ops
+  'COR-V02': 8,  // Coningsby→Donna Nook range run: frequent Typhoon/Hawk weapons training
+  'COR-V03': 8,  // Coningsby→Holbeach range: Typhoon/F-15/F-35 weapons training
+  'COR-V04': 6,  // Marham→Holbeach F-35B: regular weapons and sensor training
+  'COR-V05': 4,  // Lakenheath→Holbeach USAF: F-35A/F-15E range transits
+  'COR-V06': 3,  // Coningsby→Spadeadam EW training: less frequent, long transit
+  'COR-E01': 3,  // Culdrose→Dartmoor: Merlin/Wildcat nav training
+  'COR-E02': 4,  // Yeovilton→Dartmoor: F-35B/Wildcat nav training
+  'COR-E03': 4,  // Yeovilton→Salisbury Plain: F-35B/helicopter support
+  'COR-E04': 3,  // Brize Norton→Salisbury Plain: Chinook/A400M support
+  'COR-E05': 4,  // Benson→Salisbury Plain: Puma daily ops
+  'COR-E06': 5,  // Leeming→Otterburn: Hawk training, Apache exercises
+  'COR-E07': 3,  // Leeming→Spadeadam: Hawk/Typhoon EW training
+  'COR-E08': 6,  // Shawbury→Nesscliffe: daily helicopter student nav sorties
+  'COR-E09': 4,  // Honington→Stanford STANTA: Chinook/Merlin army support
+  'COR-E10': 2,  // Lakenheath→Stanford STANTA (SOF): CV-22/HH-60, less frequent
+  'COR-E11': 3,  // Wittering→Catterick: Chinook/Puma support
+  'COR-E12': 4,  // Leeming→Warcop: Hawk training and Apache exercises
+  'COR-E13': 3,  // Culdrous→Plymouth Sound: Merlin/Wildcat maritime training
+  'COR-E14': 6,  // Coningsby→Cowden Range: Typhoon weapons training
+  'COR-E15': 2,  // Northolt→Salisbury Plain: VIP/admin flights
+};
+
+// Ray-casting point-in-polygon — polygon is [[lat,lon], ...]
+function pointInPolygon(lat, lon, polygon) {
+  let inside = false;
+  const n = polygon.length;
+  for (let i = 0, j = n - 1; i < n; j = i++) {
+    const [yi, xi] = polygon[i];
+    const [yj, xj] = polygon[j];
+    if (((yi > lat) !== (yj > lat)) &&
+        (lon < (xj - xi) * (lat - yi) / (yj - yi) + xi)) {
+      inside = !inside;
+    }
+  }
+  return inside;
+}
+
+const ZONES_PATH = path.join(__dirname, '..', 'docs', 'military-zones.json');
+let _zonesCache = null;
+function loadZones() {
+  if (_zonesCache) return _zonesCache;
+  try { _zonesCache = JSON.parse(fs.readFileSync(ZONES_PATH, 'utf8')); }
+  catch { _zonesCache = { lfas: [], corridors: [] }; }
+  return _zonesCache;
+}
 
 // Estimated annual movements for facility types without CAA data
 function facilityFlightsPerDay(facility) {
@@ -130,6 +195,31 @@ function computeFacilityFlyover(lat, lon, airportsArr) {
     }
   }
 
+  // Military Low Flying Areas — add LFA traffic for properties inside the polygon
+  // Use the published low-end daily flights estimate (conservative: individual locations
+  // see fewer sorties than the LFA-wide total).
+  const zones = loadZones();
+  const zoneContributions = [];
+
+  for (const lfa of (zones.lfas || [])) {
+    if (!lfa.polygon || !lfa.dailyFlights) continue;
+    if (!pointInPolygon(lat, lon, lfa.polygon)) continue;
+    const fpd = typeof lfa.dailyFlights === 'object'
+      ? lfa.dailyFlights.low        // conservative: low end of published range
+      : lfa.dailyFlights;
+    military += fpd;
+    zoneContributions.push({ name: lfa.name, id: lfa.id, type: 'LFA', fpd });
+  }
+
+  // Military corridors — property on a regular transit route sees the daily traffic
+  for (const cor of (zones.corridors || [])) {
+    if (!cor.polygon) continue;
+    if (!pointInPolygon(lat, lon, cor.polygon)) continue;
+    const fpd = CORRIDOR_DAILY_TRANSITS[cor.id] || 4; // default 4/day if unknown
+    military += fpd;
+    zoneContributions.push({ name: cor.name, id: cor.id, type: 'corridor', fpd });
+  }
+
   contributions.sort((a, b) => b.contribution - a.contribution);
 
   const round1 = v => Math.round(v * 10) / 10;
@@ -138,13 +228,14 @@ function computeFacilityFlyover(lat, lon, airportsArr) {
     commercial:    round1(commercial),
     ga:            round1(ga),
     military:      round1(military),
-    topFacilities: contributions.slice(0, 5).map(c => ({
-      name: c.name,
-      icao: c.icao,
-      category: c.category,
-      usage: c.usage,
-      distMiles: c.distMiles,
-    })),
+    topFacilities: [
+      ...contributions.slice(0, 5).map(c => ({
+        name: c.name, icao: c.icao, category: c.category, usage: c.usage, distMiles: c.distMiles,
+      })),
+      ...zoneContributions.map(z => ({
+        name: z.name, icao: null, category: z.type, usage: 'military', distMiles: null,
+      })),
+    ].slice(0, 7),
     method: 'facility-direct',
   };
 }
