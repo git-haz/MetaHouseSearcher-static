@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -78,10 +78,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.536Z",
+        "generatedAt": "2026-07-31T14:07:57.531Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -94,8 +101,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -163,10 +170,10 @@
       },
       "minAirportDistanceMiles": 3.9026318928996044,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -174,10 +181,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.536Z",
+        "generatedAt": "2026-07-31T14:07:57.532Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -190,8 +204,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -259,10 +273,10 @@
       },
       "minAirportDistanceMiles": 3.9417625967003893,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -270,10 +284,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.536Z",
+        "generatedAt": "2026-07-31T14:07:57.532Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -286,8 +307,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -355,10 +376,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -366,10 +387,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.532Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -382,8 +410,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -451,10 +479,10 @@
       },
       "minAirportDistanceMiles": 3.974204681484245,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -462,10 +490,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.532Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -478,8 +513,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -547,10 +582,10 @@
       },
       "minAirportDistanceMiles": 4.135054418536054,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -558,10 +593,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.533Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -574,8 +616,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -643,10 +685,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -654,10 +696,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.533Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -670,8 +719,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -739,10 +788,10 @@
       },
       "minAirportDistanceMiles": 3.943555882457024,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -750,10 +799,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.533Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -766,8 +822,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -835,10 +891,10 @@
       },
       "minAirportDistanceMiles": 4.135054418536054,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -846,10 +902,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.533Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -862,8 +925,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -931,10 +994,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -942,10 +1005,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.537Z",
+        "generatedAt": "2026-07-31T14:07:57.533Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -958,8 +1028,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1027,10 +1097,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1038,10 +1108,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.538Z",
+        "generatedAt": "2026-07-31T14:07:57.534Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1054,8 +1131,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1123,10 +1200,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1134,10 +1211,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.538Z",
+        "generatedAt": "2026-07-31T14:07:57.534Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1150,8 +1234,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1219,10 +1303,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1230,10 +1314,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.538Z",
+        "generatedAt": "2026-07-31T14:07:57.534Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1246,8 +1337,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1311,10 +1402,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1322,10 +1413,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.538Z",
+        "generatedAt": "2026-07-31T14:07:57.534Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1338,8 +1436,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1403,10 +1501,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1414,10 +1512,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.538Z",
+        "generatedAt": "2026-07-31T14:07:57.534Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1430,8 +1535,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1495,10 +1600,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1506,10 +1611,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.539Z",
+        "generatedAt": "2026-07-31T14:07:57.535Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1522,8 +1634,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1587,10 +1699,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1598,10 +1710,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.539Z",
+        "generatedAt": "2026-07-31T14:07:57.536Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1614,8 +1733,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1679,10 +1798,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1690,10 +1809,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.539Z",
+        "generatedAt": "2026-07-31T14:07:57.536Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1706,8 +1832,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1771,10 +1897,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1782,10 +1908,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.539Z",
+        "generatedAt": "2026-07-31T14:07:57.536Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1798,8 +1931,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1863,10 +1996,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1874,10 +2007,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.540Z",
+        "generatedAt": "2026-07-31T14:07:57.536Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1890,8 +2030,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1955,10 +2095,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -1966,10 +2106,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.540Z",
+        "generatedAt": "2026-07-31T14:07:57.536Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1982,8 +2129,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2047,10 +2194,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2058,10 +2205,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.540Z",
+        "generatedAt": "2026-07-31T14:07:57.537Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2074,8 +2228,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2139,10 +2293,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2150,10 +2304,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.541Z",
+        "generatedAt": "2026-07-31T14:07:57.537Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2166,8 +2327,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2231,10 +2392,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2242,10 +2403,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.541Z",
+        "generatedAt": "2026-07-31T14:07:57.537Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2258,8 +2426,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2323,10 +2491,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2334,10 +2502,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.541Z",
+        "generatedAt": "2026-07-31T14:07:57.537Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2350,8 +2525,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2415,10 +2590,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2426,10 +2601,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.541Z",
+        "generatedAt": "2026-07-31T14:07:57.538Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2442,8 +2624,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2507,10 +2689,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2518,10 +2700,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.542Z",
+        "generatedAt": "2026-07-31T14:07:57.538Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2534,8 +2723,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2599,10 +2788,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2610,10 +2799,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.542Z",
+        "generatedAt": "2026-07-31T14:07:57.538Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2626,8 +2822,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2691,10 +2887,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2702,10 +2898,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.542Z",
+        "generatedAt": "2026-07-31T14:07:57.539Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2718,8 +2921,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2783,10 +2986,10 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2794,10 +2997,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 25.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.542Z",
+        "generatedAt": "2026-07-31T14:07:57.539Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2810,8 +3020,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2875,10 +3085,10 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -2886,10 +3096,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.542Z",
+        "generatedAt": "2026-07-31T14:07:57.539Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2902,8 +3119,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2967,10 +3184,10 @@
       },
       "minAirportDistanceMiles": 0.6661536230858274,
       "flyoverRef": {
-        "flightsPerDay": 13,
+        "flightsPerDay": 18,
         "commercial": 11.5,
         "ga": 1.1,
-        "military": 0.4,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3006,10 +3223,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 12.1
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.543Z",
+        "generatedAt": "2026-07-31T14:07:57.540Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3022,8 +3246,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 13,
-        "flightsDiffPct": -94
+        "flightsPerDay": 18,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3087,10 +3311,10 @@
       },
       "minAirportDistanceMiles": 1.9310316669832106,
       "flyoverRef": {
-        "flightsPerDay": 12.5,
+        "flightsPerDay": 17.5,
         "commercial": 11.6,
         "ga": 0.4,
-        "military": 0.5,
+        "military": 5.5,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3126,10 +3350,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.543Z",
+        "generatedAt": "2026-07-31T14:07:57.540Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3142,8 +3373,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 12.5,
-        "flightsDiffPct": -94
+        "flightsPerDay": 17.5,
+        "flightsDiffPct": -92
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3207,10 +3438,10 @@
       },
       "minAirportDistanceMiles": 1.1340125842802955,
       "flyoverRef": {
-        "flightsPerDay": 8.7,
+        "flightsPerDay": 13.7,
         "commercial": 8.1,
         "ga": 0.3,
-        "military": 0.2,
+        "military": 5.2,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3246,10 +3477,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.543Z",
+        "generatedAt": "2026-07-31T14:07:57.541Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3262,8 +3500,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 8.7,
-        "flightsDiffPct": -96
+        "flightsPerDay": 13.7,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3355,7 +3593,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.543Z",
+        "generatedAt": "2026-07-31T14:07:57.541Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3461,7 +3699,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.544Z",
+        "generatedAt": "2026-07-31T14:07:57.541Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3539,10 +3777,10 @@
       },
       "minAirportDistanceMiles": 0.6391386343989414,
       "flyoverRef": {
-        "flightsPerDay": 43.5,
+        "flightsPerDay": 52.5,
         "commercial": 1.5,
         "ga": 0.2,
-        "military": 41.8,
+        "military": 50.8,
         "topFacilities": [
           {
             "name": "RAF Benson",
@@ -3566,6 +3804,13 @@
             "distMiles": 27.4
           },
           {
+            "name": "RAF Brize Norton",
+            "icao": "EGVN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.3
+          },
+          {
             "name": "RAF Abingdon",
             "icao": null,
             "category": "airstrip",
@@ -3573,15 +3818,22 @@
             "distMiles": 10.3
           },
           {
-            "name": "RAF Brize Norton",
-            "icao": "EGVN",
-            "category": "airport",
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 22.3
+            "distMiles": null
+          },
+          {
+            "name": "RAF Benson → Salisbury Plain (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.544Z",
+        "generatedAt": "2026-07-31T14:07:57.542Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3594,8 +3846,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 43.5,
-        "flightsDiffPct": -79
+        "flightsPerDay": 52.5,
+        "flightsDiffPct": -75
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3659,10 +3911,10 @@
       },
       "minAirportDistanceMiles": 4.593264396638836,
       "flyoverRef": {
-        "flightsPerDay": 10,
+        "flightsPerDay": 15,
         "commercial": 9.4,
         "ga": 0.2,
-        "military": 0.5,
+        "military": 5.5,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3698,10 +3950,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 28.9
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.545Z",
+        "generatedAt": "2026-07-31T14:07:57.542Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3714,8 +3973,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 10,
-        "flightsDiffPct": -95
+        "flightsPerDay": 15,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3779,10 +4038,10 @@
       },
       "minAirportDistanceMiles": 1.882604485318602,
       "flyoverRef": {
-        "flightsPerDay": 9.5,
+        "flightsPerDay": 14.5,
         "commercial": 8.8,
         "ga": 0.3,
-        "military": 0.3,
+        "military": 5.3,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3818,10 +4077,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 13.5
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.545Z",
+        "generatedAt": "2026-07-31T14:07:57.543Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3834,8 +4100,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 9.5,
-        "flightsDiffPct": -95
+        "flightsPerDay": 14.5,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3899,10 +4165,10 @@
       },
       "minAirportDistanceMiles": 2.6071642257715366,
       "flyoverRef": {
-        "flightsPerDay": 10.4,
+        "flightsPerDay": 15.4,
         "commercial": 9.6,
         "ga": 0.5,
-        "military": 0.3,
+        "military": 5.3,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3938,10 +4204,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 14
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.545Z",
+        "generatedAt": "2026-07-31T14:07:57.543Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3954,8 +4227,8 @@
         "airportsDiff": 1,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 10.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 15.4,
+        "flightsDiffPct": -93
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -4019,10 +4292,10 @@
       },
       "minAirportDistanceMiles": 4.425488388860203,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 4,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4058,10 +4331,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 22.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.545Z",
+        "generatedAt": "2026-07-31T14:07:57.543Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4074,8 +4354,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -4160,7 +4440,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.546Z",
+        "generatedAt": "2026-07-31T14:07:57.544Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4238,10 +4518,10 @@
       },
       "minAirportDistanceMiles": 5.852100842944791,
       "flyoverRef": {
-        "flightsPerDay": 16.4,
+        "flightsPerDay": 21.4,
         "commercial": 16.2,
         "ga": 0.2,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "London Gatwick Airport",
@@ -4277,10 +4557,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 11.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.546Z",
+        "generatedAt": "2026-07-31T14:07:57.544Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4293,8 +4580,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 16.4,
-        "flightsDiffPct": -92
+        "flightsPerDay": 21.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -4358,10 +4645,10 @@
       },
       "minAirportDistanceMiles": 2.629789424714203,
       "flyoverRef": {
-        "flightsPerDay": 11.5,
+        "flightsPerDay": 16.5,
         "commercial": 11,
         "ga": 0.3,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "London City Airport",
@@ -4397,10 +4684,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.546Z",
+        "generatedAt": "2026-07-31T14:07:57.544Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4413,8 +4707,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 11.5,
-        "flightsDiffPct": -95
+        "flightsPerDay": 16.5,
+        "flightsDiffPct": -92
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -4478,10 +4772,10 @@
       },
       "minAirportDistanceMiles": 2.214075667367273,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 6.5,
         "commercial": 1.3,
         "ga": 0.2,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "London Gatwick Airport",
@@ -4517,10 +4811,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.1
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.546Z",
+        "generatedAt": "2026-07-31T14:07:57.545Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4533,8 +4834,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -2,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.5,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4598,10 +4899,10 @@
       },
       "minAirportDistanceMiles": 1.5515113132288605,
       "flyoverRef": {
-        "flightsPerDay": 0.6,
+        "flightsPerDay": 0.7,
         "commercial": 0.1,
         "ga": 0.5,
-        "military": 0,
+        "military": 0.1,
         "topFacilities": [
           {
             "name": "Strubby Airfield",
@@ -4611,18 +4912,18 @@
             "distMiles": 1.6
           },
           {
-            "name": "Humberside Airport",
-            "icao": "EGNJ",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 28.9
-          },
-          {
             "name": "RAF Coningsby",
             "icao": "EGXC",
             "category": "airport",
             "usage": "military",
             "distMiles": 22
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.9
           },
           {
             "name": "Wickenby Aerodrome",
@@ -4633,7 +4934,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.547Z",
+        "generatedAt": "2026-07-31T14:07:57.545Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4646,7 +4947,7 @@
         "airportsDiff": -4,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.6,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": false,
@@ -4711,10 +5012,10 @@
       },
       "minAirportDistanceMiles": 2.109453498277803,
       "flyoverRef": {
-        "flightsPerDay": 5.9,
+        "flightsPerDay": 10.9,
         "commercial": 5.5,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 5.3,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -4750,10 +5051,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 15.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.547Z",
+        "generatedAt": "2026-07-31T14:07:57.546Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4766,8 +5074,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 5.9,
-        "flightsDiffPct": -97
+        "flightsPerDay": 10.9,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4831,10 +5139,10 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -4842,10 +5150,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.547Z",
+        "generatedAt": "2026-07-31T14:07:57.546Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4858,8 +5173,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4923,10 +5238,10 @@
       },
       "minAirportDistanceMiles": 2.276751907544365,
       "flyoverRef": {
-        "flightsPerDay": 1.6,
+        "flightsPerDay": 6.6,
         "commercial": 1.3,
         "ga": 0.2,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "Southampton Airport",
@@ -4943,6 +5258,13 @@
             "distMiles": 27.9
           },
           {
+            "name": "RAF Odiham",
+            "icao": "EGVO",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
             "name": "Bournemouth Airport",
             "icao": "EGHH",
             "category": "airport",
@@ -4957,15 +5279,15 @@
             "distMiles": 19.3
           },
           {
-            "name": "Lasham Airfield",
-            "icao": "EGHL",
-            "category": "airport",
-            "usage": "private",
-            "distMiles": 15.3
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.547Z",
+        "generatedAt": "2026-07-31T14:07:57.546Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4978,8 +5300,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -1,
-        "flightsPerDay": 1.6,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.6,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5043,10 +5365,10 @@
       },
       "minAirportDistanceMiles": 2.455686073272909,
       "flyoverRef": {
-        "flightsPerDay": 10.1,
+        "flightsPerDay": 15.1,
         "commercial": 9.3,
         "ga": 0.5,
-        "military": 0.3,
+        "military": 5.3,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -5082,10 +5404,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.548Z",
+        "generatedAt": "2026-07-31T14:07:57.547Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -5098,8 +5427,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 10.1,
-        "flightsDiffPct": -95
+        "flightsPerDay": 15.1,
+        "flightsDiffPct": -93
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5205,7 +5534,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.548Z",
+        "generatedAt": "2026-07-31T14:07:57.547Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5325,7 +5654,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.548Z",
+        "generatedAt": "2026-07-31T14:07:57.547Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5403,10 +5732,10 @@
       },
       "minAirportDistanceMiles": 1.2250816579925334,
       "flyoverRef": {
-        "flightsPerDay": 13.9,
+        "flightsPerDay": 18.9,
         "commercial": 12.9,
         "ga": 0.6,
-        "military": 0.4,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -5442,10 +5771,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 11.5
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.549Z",
+        "generatedAt": "2026-07-31T14:07:57.547Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5458,8 +5794,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 13.9,
-        "flightsDiffPct": -93
+        "flightsPerDay": 18.9,
+        "flightsDiffPct": -91
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5523,10 +5859,10 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -5534,10 +5870,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.549Z",
+        "generatedAt": "2026-07-31T14:07:57.548Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5550,8 +5893,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5615,10 +5958,10 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -5626,10 +5969,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.549Z",
+        "generatedAt": "2026-07-31T14:07:57.548Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5642,8 +5992,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5707,10 +6057,10 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -5718,10 +6068,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.549Z",
+        "generatedAt": "2026-07-31T14:07:57.548Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5734,8 +6091,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5799,10 +6156,10 @@
       },
       "minAirportDistanceMiles": 2.921982535594725,
       "flyoverRef": {
-        "flightsPerDay": 2.6,
+        "flightsPerDay": 6.6,
         "commercial": 0.9,
         "ga": 1.6,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "Cambridge City Airport",
@@ -5826,6 +6183,13 @@
             "distMiles": 8.2
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.7
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -5833,15 +6197,15 @@
             "distMiles": 19.3
           },
           {
-            "name": "RAF Wyton",
-            "icao": "EGUY",
-            "category": "airstrip",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.550Z",
+        "generatedAt": "2026-07-31T14:07:57.548Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5854,8 +6218,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 2.6,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.6,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -5919,10 +6283,10 @@
       },
       "minAirportDistanceMiles": 5.916171993216302,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 11.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 11.2,
         "topFacilities": [
           {
             "name": "RNAS Culdrose",
@@ -5958,10 +6322,24 @@
             "category": "airstrip",
             "usage": "commercial",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RNAS Culdrose → Dartmoor (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.550Z",
+        "generatedAt": "2026-07-31T14:07:57.549Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5974,8 +6352,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 11.3,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -6039,10 +6417,10 @@
       },
       "minAirportDistanceMiles": 1.068232405280726,
       "flyoverRef": {
-        "flightsPerDay": 5.2,
+        "flightsPerDay": 10.2,
         "commercial": 4.9,
         "ga": 0.2,
-        "military": 0.2,
+        "military": 5.2,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -6078,10 +6456,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.551Z",
+        "generatedAt": "2026-07-31T14:07:57.549Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6094,8 +6479,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 5.2,
-        "flightsDiffPct": -98
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -6159,10 +6544,10 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.2,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Exeter International Airport",
@@ -6170,10 +6555,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.551Z",
+        "generatedAt": "2026-07-31T14:07:57.549Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6186,8 +6578,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -6232,5 +6624,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.283Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:29.563Z"
+  "flyoverRescoredAt": "2026-07-31T14:07:57.563Z"
 }

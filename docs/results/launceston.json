@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 10.17803019910578,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -85,10 +85,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 26.9
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.464Z",
+        "generatedAt": "2026-07-31T14:07:57.433Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -109,8 +116,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -182,10 +189,10 @@
       },
       "minAirportDistanceMiles": 9.829100611624714,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -200,10 +207,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.467Z",
+        "generatedAt": "2026-07-31T14:07:57.453Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -224,8 +238,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -299,10 +313,10 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -317,10 +331,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.468Z",
+        "generatedAt": "2026-07-31T14:07:57.453Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -341,8 +362,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -415,10 +436,10 @@
       },
       "minAirportDistanceMiles": 10.164755283048741,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -433,10 +454,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.468Z",
+        "generatedAt": "2026-07-31T14:07:57.455Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -457,8 +485,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -526,10 +554,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -551,10 +579,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.469Z",
+        "generatedAt": "2026-07-31T14:07:57.456Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -575,8 +610,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -648,10 +683,10 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -666,10 +701,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.470Z",
+        "generatedAt": "2026-07-31T14:07:57.456Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -690,8 +732,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -759,10 +801,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -784,10 +826,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.471Z",
+        "generatedAt": "2026-07-31T14:07:57.457Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -808,8 +857,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -877,10 +926,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -902,10 +951,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.471Z",
+        "generatedAt": "2026-07-31T14:07:57.458Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -926,8 +982,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -995,10 +1051,10 @@
       },
       "minAirportDistanceMiles": 9.910252406358591,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1013,10 +1069,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.472Z",
+        "generatedAt": "2026-07-31T14:07:57.459Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1037,8 +1100,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1106,10 +1169,10 @@
       },
       "minAirportDistanceMiles": 10.084147824640196,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1124,10 +1187,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.473Z",
+        "generatedAt": "2026-07-31T14:07:57.460Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1148,8 +1218,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -1221,10 +1291,10 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1239,10 +1309,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.6
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.473Z",
+        "generatedAt": "2026-07-31T14:07:57.461Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1263,8 +1340,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1332,10 +1409,10 @@
       },
       "minAirportDistanceMiles": 10.100184990390153,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1350,10 +1427,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.474Z",
+        "generatedAt": "2026-07-31T14:07:57.461Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1374,8 +1458,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1443,10 +1527,10 @@
       },
       "minAirportDistanceMiles": 9.597473322705422,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1461,10 +1545,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.5
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.474Z",
+        "generatedAt": "2026-07-31T14:07:57.462Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1485,8 +1576,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1554,10 +1645,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1572,10 +1663,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.475Z",
+        "generatedAt": "2026-07-31T14:07:57.462Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1596,8 +1694,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1665,10 +1763,10 @@
       },
       "minAirportDistanceMiles": 9.963497677972379,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1683,10 +1781,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.475Z",
+        "generatedAt": "2026-07-31T14:07:57.463Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1707,8 +1812,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1776,10 +1881,10 @@
       },
       "minAirportDistanceMiles": 10.149575141120179,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1794,10 +1899,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.475Z",
+        "generatedAt": "2026-07-31T14:07:57.463Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1818,8 +1930,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1887,10 +1999,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -1905,10 +2017,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.476Z",
+        "generatedAt": "2026-07-31T14:07:57.464Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1929,8 +2048,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1998,10 +2117,10 @@
       },
       "minAirportDistanceMiles": 9.95212076434195,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2016,10 +2135,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.476Z",
+        "generatedAt": "2026-07-31T14:07:57.464Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2040,8 +2166,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2109,10 +2235,10 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2127,10 +2253,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.476Z",
+        "generatedAt": "2026-07-31T14:07:57.465Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2151,8 +2284,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2220,10 +2353,10 @@
       },
       "minAirportDistanceMiles": 9.782731935429327,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2238,10 +2371,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.4
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.476Z",
+        "generatedAt": "2026-07-31T14:07:57.465Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2262,8 +2402,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2331,10 +2471,10 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2349,10 +2489,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.476Z",
+        "generatedAt": "2026-07-31T14:07:57.466Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2373,8 +2520,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2450,10 +2597,10 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2468,10 +2615,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.6
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.477Z",
+        "generatedAt": "2026-07-31T14:07:57.468Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2492,8 +2646,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2561,10 +2715,10 @@
       },
       "minAirportDistanceMiles": 9.963497677972379,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2579,10 +2733,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.477Z",
+        "generatedAt": "2026-07-31T14:07:57.469Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2603,8 +2764,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2672,10 +2833,10 @@
       },
       "minAirportDistanceMiles": 9.925045666920688,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2690,10 +2851,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.477Z",
+        "generatedAt": "2026-07-31T14:07:57.469Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2714,8 +2882,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2783,10 +2951,10 @@
       },
       "minAirportDistanceMiles": 9.982815098890333,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2801,10 +2969,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.477Z",
+        "generatedAt": "2026-07-31T14:07:57.469Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2825,8 +3000,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2894,10 +3069,10 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -2912,10 +3087,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.477Z",
+        "generatedAt": "2026-07-31T14:07:57.469Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2936,8 +3118,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3001,10 +3183,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3026,10 +3208,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.478Z",
+        "generatedAt": "2026-07-31T14:07:57.470Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3050,8 +3239,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3115,10 +3304,10 @@
       },
       "minAirportDistanceMiles": 9.925045666920688,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3133,10 +3322,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.478Z",
+        "generatedAt": "2026-07-31T14:07:57.470Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3157,8 +3353,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3222,10 +3418,10 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3240,10 +3436,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.478Z",
+        "generatedAt": "2026-07-31T14:07:57.470Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3264,8 +3467,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -3334,10 +3537,10 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3352,10 +3555,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.479Z",
+        "generatedAt": "2026-07-31T14:07:57.470Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3376,8 +3586,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3441,10 +3651,10 @@
       },
       "minAirportDistanceMiles": 9.910252406358591,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3459,10 +3669,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.479Z",
+        "generatedAt": "2026-07-31T14:07:57.471Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3483,8 +3700,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3548,10 +3765,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3573,10 +3790,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.479Z",
+        "generatedAt": "2026-07-31T14:07:57.471Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3597,8 +3821,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3662,10 +3886,10 @@
       },
       "minAirportDistanceMiles": 9.963497677972379,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3680,10 +3904,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.480Z",
+        "generatedAt": "2026-07-31T14:07:57.471Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3704,8 +3935,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3769,10 +4000,10 @@
       },
       "minAirportDistanceMiles": 9.95212076434195,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3787,10 +4018,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.480Z",
+        "generatedAt": "2026-07-31T14:07:57.471Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3811,8 +4049,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3876,10 +4114,10 @@
       },
       "minAirportDistanceMiles": 9.982815098890333,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -3894,10 +4132,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.480Z",
+        "generatedAt": "2026-07-31T14:07:57.472Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3918,8 +4163,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3983,10 +4228,10 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4001,10 +4246,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.481Z",
+        "generatedAt": "2026-07-31T14:07:57.472Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4025,8 +4277,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4090,10 +4342,10 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4108,10 +4360,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.481Z",
+        "generatedAt": "2026-07-31T14:07:57.473Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4132,8 +4391,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4197,10 +4456,10 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4215,10 +4474,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.482Z",
+        "generatedAt": "2026-07-31T14:07:57.473Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4239,8 +4505,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4304,10 +4570,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4329,10 +4595,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.482Z",
+        "generatedAt": "2026-07-31T14:07:57.473Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4353,8 +4626,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4418,10 +4691,10 @@
       },
       "minAirportDistanceMiles": 10.106628422567237,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4436,10 +4709,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.482Z",
+        "generatedAt": "2026-07-31T14:07:57.473Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4460,8 +4740,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4525,10 +4805,10 @@
       },
       "minAirportDistanceMiles": 9.782731935429327,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4543,10 +4823,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.4
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.483Z",
+        "generatedAt": "2026-07-31T14:07:57.474Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4567,8 +4854,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4632,10 +4919,10 @@
       },
       "minAirportDistanceMiles": 7.6197890555342696,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 5,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4650,10 +4937,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.5
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.484Z",
+        "generatedAt": "2026-07-31T14:07:57.474Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4674,8 +4968,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4739,10 +5033,10 @@
       },
       "minAirportDistanceMiles": 9.728582147186149,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4757,10 +5051,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.5
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.485Z",
+        "generatedAt": "2026-07-31T14:07:57.475Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4781,8 +5082,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4846,10 +5147,10 @@
       },
       "minAirportDistanceMiles": 10.17803019910578,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4864,10 +5165,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 26.9
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.485Z",
+        "generatedAt": "2026-07-31T14:07:57.475Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4888,8 +5196,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4953,10 +5261,10 @@
       },
       "minAirportDistanceMiles": 10.100184990390153,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -4971,10 +5279,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.485Z",
+        "generatedAt": "2026-07-31T14:07:57.475Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4995,8 +5310,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5060,10 +5375,10 @@
       },
       "minAirportDistanceMiles": 9.597473322705422,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5078,10 +5393,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.5
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.486Z",
+        "generatedAt": "2026-07-31T14:07:57.476Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5102,8 +5424,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5167,10 +5489,10 @@
       },
       "minAirportDistanceMiles": 10.164755283048741,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5185,10 +5507,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.486Z",
+        "generatedAt": "2026-07-31T14:07:57.476Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5209,8 +5538,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5274,10 +5603,10 @@
       },
       "minAirportDistanceMiles": 10.56042954569038,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5292,10 +5621,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 26.5
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.486Z",
+        "generatedAt": "2026-07-31T14:07:57.476Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5316,8 +5652,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5381,10 +5717,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5406,10 +5742,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.487Z",
+        "generatedAt": "2026-07-31T14:07:57.477Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5430,8 +5773,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5499,10 +5842,10 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5517,10 +5860,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.6
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.487Z",
+        "generatedAt": "2026-07-31T14:07:57.477Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5541,8 +5891,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5612,10 +5962,10 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5630,10 +5980,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.6
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.488Z",
+        "generatedAt": "2026-07-31T14:07:57.477Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5654,8 +6011,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5719,10 +6076,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5737,10 +6094,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.488Z",
+        "generatedAt": "2026-07-31T14:07:57.478Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5761,8 +6125,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5826,10 +6190,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5844,10 +6208,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.488Z",
+        "generatedAt": "2026-07-31T14:07:57.478Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5868,8 +6239,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5933,10 +6304,10 @@
       },
       "minAirportDistanceMiles": 3.9605092949601928,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 5,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -5944,10 +6315,17 @@
             "category": "airstrip",
             "usage": "military",
             "distMiles": 20.4
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.489Z",
+        "generatedAt": "2026-07-31T14:07:57.479Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5960,8 +6338,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -6025,10 +6403,10 @@
       },
       "minAirportDistanceMiles": 1.3152037106616494,
       "flyoverRef": {
-        "flightsPerDay": 4,
+        "flightsPerDay": 9,
         "commercial": 3.6,
         "ga": 0.3,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "London Gatwick Airport",
@@ -6064,10 +6442,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 7.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.489Z",
+        "generatedAt": "2026-07-31T14:07:57.479Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6080,8 +6465,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 5,
         "helipadsDiff": -3,
-        "flightsPerDay": 4,
-        "flightsDiffPct": -98
+        "flightsPerDay": 9,
+        "flightsDiffPct": -96
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -6145,10 +6530,10 @@
       },
       "minAirportDistanceMiles": 3.655209946523161,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 3.7,
         "commercial": 0.5,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -6184,10 +6569,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.489Z",
+        "generatedAt": "2026-07-31T14:07:57.480Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6200,8 +6592,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.7,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -6265,10 +6657,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -6283,10 +6675,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.490Z",
+        "generatedAt": "2026-07-31T14:07:57.480Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6307,8 +6706,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -6372,10 +6771,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -6390,10 +6789,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.490Z",
+        "generatedAt": "2026-07-31T14:07:57.480Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6414,8 +6820,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -6479,10 +6885,10 @@
       },
       "minAirportDistanceMiles": 3.4820424957018097,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 5.2,
         "commercial": 0.1,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Southampton Airport",
@@ -6518,10 +6924,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.491Z",
+        "generatedAt": "2026-07-31T14:07:57.481Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6534,8 +6947,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": 0,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -6627,7 +7040,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.491Z",
+        "generatedAt": "2026-07-31T14:07:57.481Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6726,7 +7139,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.491Z",
+        "generatedAt": "2026-07-31T14:07:57.482Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6804,10 +7217,10 @@
       },
       "minAirportDistanceMiles": 9.91119797347759,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -6822,10 +7235,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.492Z",
+        "generatedAt": "2026-07-31T14:07:57.483Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6846,8 +7266,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -6911,10 +7331,10 @@
       },
       "minAirportDistanceMiles": 8.142361786745528,
       "flyoverRef": {
-        "flightsPerDay": 1.2,
+        "flightsPerDay": 5.2,
         "commercial": 1.2,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Manchester Airport",
@@ -6929,10 +7349,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 24.8
+          },
+          {
+            "name": "Low Flying Area 16 — Pennines & Peak District",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.492Z",
+        "generatedAt": "2026-07-31T14:07:57.484Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -6945,8 +7372,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.2,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -7010,10 +7437,10 @@
       },
       "minAirportDistanceMiles": 1.430688749901749,
       "flyoverRef": {
-        "flightsPerDay": 13.5,
+        "flightsPerDay": 18.5,
         "commercial": 13,
         "ga": 0.3,
-        "military": 0.2,
+        "military": 5.2,
         "topFacilities": [
           {
             "name": "London City Airport",
@@ -7049,10 +7476,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29.8
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.494Z",
+        "generatedAt": "2026-07-31T14:07:57.485Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7065,8 +7499,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 13.5,
-        "flightsDiffPct": -94
+        "flightsPerDay": 18.5,
+        "flightsDiffPct": -91
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -7130,10 +7564,10 @@
       },
       "minAirportDistanceMiles": 8.067072853842205,
       "flyoverRef": {
-        "flightsPerDay": 4.3,
+        "flightsPerDay": 8.3,
         "commercial": 4.3,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Manchester Airport",
@@ -7148,10 +7582,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 29
+          },
+          {
+            "name": "Low Flying Area 16 — Pennines & Peak District",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.495Z",
+        "generatedAt": "2026-07-31T14:07:57.486Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7164,8 +7605,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 4.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 8.3,
+        "flightsDiffPct": -96
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -7229,10 +7670,10 @@
       },
       "minAirportDistanceMiles": 5.847968017930194,
       "flyoverRef": {
-        "flightsPerDay": 6.9,
+        "flightsPerDay": 11.9,
         "commercial": 6.4,
         "ga": 0.2,
-        "military": 0.3,
+        "military": 5.3,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -7268,10 +7709,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 13.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.495Z",
+        "generatedAt": "2026-07-31T14:07:57.486Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7284,8 +7732,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 6.9,
-        "flightsDiffPct": -97
+        "flightsPerDay": 11.9,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -7349,10 +7797,10 @@
       },
       "minAirportDistanceMiles": 5.789443151911293,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 4.9,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.6,
+        "military": 4.8,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -7362,6 +7810,13 @@
             "distMiles": 6.8
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -7369,11 +7824,11 @@
             "distMiles": 12.3
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 12.7
+            "distMiles": 28.3
           },
           {
             "name": "Duxford Aerodrome",
@@ -7383,15 +7838,15 @@
             "distMiles": 27.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 28.3
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.496Z",
+        "generatedAt": "2026-07-31T14:07:57.487Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7404,8 +7859,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.9,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -7469,10 +7924,10 @@
       },
       "minAirportDistanceMiles": 1.0763247071266722,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.9,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -7508,10 +7963,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.496Z",
+        "generatedAt": "2026-07-31T14:07:57.487Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7524,8 +7986,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 7,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -7592,10 +8054,10 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -7610,10 +8072,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.497Z",
+        "generatedAt": "2026-07-31T14:07:57.491Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7624,8 +8093,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -7704,10 +8173,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -7729,10 +8198,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.497Z",
+        "generatedAt": "2026-07-31T14:07:57.492Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7743,8 +8219,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -7820,10 +8296,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -7845,10 +8321,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.498Z",
+        "generatedAt": "2026-07-31T14:07:57.492Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -7859,8 +8342,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -7936,10 +8419,10 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "RAF Davidstow Moor",
@@ -7961,10 +8444,17 @@
             "category": "heliport",
             "usage": "commercial",
             "distMiles": 27.2
+          },
+          {
+            "name": "Low Flying Area 1 — Southwest Peninsula",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.498Z",
+        "generatedAt": "2026-07-31T14:07:57.493Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -7975,8 +8465,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -8052,10 +8542,10 @@
       },
       "minAirportDistanceMiles": 2.122183551682229,
       "flyoverRef": {
-        "flightsPerDay": 1.8,
+        "flightsPerDay": 6.8,
         "commercial": 1.4,
         "ga": 0.3,
-        "military": 0,
+        "military": 5.1,
         "topFacilities": [
           {
             "name": "London Gatwick Airport",
@@ -8091,10 +8581,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 20
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.499Z",
+        "generatedAt": "2026-07-31T14:07:57.493Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -8105,8 +8602,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 1.8,
-        "flightsDiffPct": -99
+        "flightsPerDay": 6.8,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -8156,5 +8653,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.279Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:29.525Z"
+  "flyoverRescoredAt": "2026-07-31T14:07:57.520Z"
 }

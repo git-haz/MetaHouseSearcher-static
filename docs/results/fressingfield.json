@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -80,18 +80,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -106,10 +106,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.606Z",
+        "generatedAt": "2026-07-31T14:07:57.595Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,8 +129,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z",
@@ -195,10 +202,10 @@
       },
       "minAirportDistanceMiles": 2.0719823785530345,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -234,10 +241,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.607Z",
+        "generatedAt": "2026-07-31T14:07:57.596Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -250,8 +264,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -319,10 +333,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -358,10 +372,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.607Z",
+        "generatedAt": "2026-07-31T14:07:57.596Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -374,8 +395,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -443,10 +464,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -456,18 +477,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -482,10 +503,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.607Z",
+        "generatedAt": "2026-07-31T14:07:57.596Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -498,8 +526,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -567,10 +595,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -580,18 +608,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -606,10 +634,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.607Z",
+        "generatedAt": "2026-07-31T14:07:57.596Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -622,8 +657,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -691,10 +726,10 @@
       },
       "minAirportDistanceMiles": 2.1456599960730363,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -730,10 +765,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.608Z",
+        "generatedAt": "2026-07-31T14:07:57.596Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -746,8 +788,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -815,10 +857,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -828,18 +870,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -854,10 +896,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.608Z",
+        "generatedAt": "2026-07-31T14:07:57.597Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -870,8 +919,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -939,10 +988,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -952,18 +1001,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -978,10 +1027,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.609Z",
+        "generatedAt": "2026-07-31T14:07:57.597Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -994,8 +1050,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1067,10 +1123,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1080,18 +1136,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -1106,10 +1162,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.609Z",
+        "generatedAt": "2026-07-31T14:07:57.597Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1122,8 +1185,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z",
@@ -1196,10 +1259,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1235,10 +1298,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.597Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1251,8 +1321,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1320,10 +1390,10 @@
       },
       "minAirportDistanceMiles": 2.997815074285066,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1359,10 +1429,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.597Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1375,8 +1452,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1440,10 +1517,10 @@
       },
       "minAirportDistanceMiles": 2.0861754746566095,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1479,10 +1556,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.597Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1495,8 +1579,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1560,10 +1644,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1573,18 +1657,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -1599,10 +1683,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.598Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1615,8 +1706,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1680,10 +1771,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1693,18 +1784,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -1719,10 +1810,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.598Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1735,8 +1833,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1800,10 +1898,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1813,18 +1911,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -1839,10 +1937,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.598Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1855,8 +1960,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -1920,10 +2025,10 @@
       },
       "minAirportDistanceMiles": 0.945800277271993,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1959,10 +2064,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 13.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.598Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1975,8 +2087,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z",
@@ -2046,10 +2158,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2059,18 +2171,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -2085,10 +2197,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.598Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2101,8 +2220,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2166,10 +2285,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2179,18 +2298,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -2205,10 +2324,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2221,8 +2347,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2289,10 +2415,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2302,18 +2428,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -2328,10 +2454,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2344,8 +2477,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2409,10 +2542,10 @@
       },
       "minAirportDistanceMiles": 2.17658458207911,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2448,10 +2581,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 15.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.610Z",
+        "generatedAt": "2026-07-31T14:07:57.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2464,8 +2604,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2529,10 +2669,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2542,18 +2682,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -2568,10 +2708,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2584,8 +2731,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2649,10 +2796,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2688,10 +2835,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2704,8 +2858,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2769,10 +2923,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2782,18 +2936,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -2808,10 +2962,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.599Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2824,8 +2985,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -2889,10 +3050,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2902,18 +3063,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -2928,10 +3089,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2944,8 +3112,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3009,10 +3177,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3048,10 +3216,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3064,8 +3239,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3129,10 +3304,10 @@
       },
       "minAirportDistanceMiles": 2.1053734464617166,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3168,10 +3343,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 15.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3184,8 +3366,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z",
@@ -3255,10 +3437,10 @@
       },
       "minAirportDistanceMiles": 2.4992825239594345,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3294,10 +3476,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 15.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3310,8 +3499,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3375,10 +3564,10 @@
       },
       "minAirportDistanceMiles": 2.0160480162419683,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3414,10 +3603,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 15.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.600Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3430,8 +3626,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3495,10 +3691,10 @@
       },
       "minAirportDistanceMiles": 2.18795282650107,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3534,10 +3730,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 15.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3550,8 +3753,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3615,10 +3818,10 @@
       },
       "minAirportDistanceMiles": 2.6161637921925815,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3654,10 +3857,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 16
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.611Z",
+        "generatedAt": "2026-07-31T14:07:57.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3670,8 +3880,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3735,10 +3945,10 @@
       },
       "minAirportDistanceMiles": 7.7781255265492435,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3774,10 +3984,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 28.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3798,8 +4015,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3863,10 +4080,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3902,10 +4119,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.601Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3918,8 +4142,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -3983,10 +4207,10 @@
       },
       "minAirportDistanceMiles": 3.386525551447715,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.4,
+        "military": 4.5,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3996,6 +4220,13 @@
             "distMiles": 8.5
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.3
+          },
+          {
             "name": "Norwich Airport",
             "icao": "EGSH",
             "category": "airport",
@@ -4003,11 +4234,11 @@
             "distMiles": 23.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 16.3
+            "distMiles": 23.7
           },
           {
             "name": "RAF Mildenhall",
@@ -4017,15 +4248,15 @@
             "distMiles": 19.7
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 23.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4038,8 +4269,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.7,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4103,10 +4334,10 @@
       },
       "minAirportDistanceMiles": 0.6976530713032157,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.5,
         "commercial": 0.3,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4114,6 +4345,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 13.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.8
           },
           {
             "name": "RAF Honington",
@@ -4130,22 +4368,22 @@
             "distMiles": 7.7
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 28.8
-          },
-          {
             "name": "Seething Airfield",
             "icao": "EGSJ",
             "category": "airstrip",
             "usage": "private",
             "distMiles": 7.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4158,8 +4396,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.5,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4223,10 +4461,10 @@
       },
       "minAirportDistanceMiles": 1.9341189748064498,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 4.3,
         "commercial": 0.2,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4262,10 +4500,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.602Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4278,8 +4523,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4343,10 +4588,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4382,10 +4627,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4398,8 +4650,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4463,10 +4715,10 @@
       },
       "minAirportDistanceMiles": 6.860535587454407,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4502,10 +4754,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.602Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4518,8 +4777,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4583,10 +4842,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4622,10 +4881,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.602Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4638,8 +4904,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4703,10 +4969,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4742,10 +5008,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4758,8 +5031,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4823,10 +5096,10 @@
       },
       "minAirportDistanceMiles": 4.9116515607298785,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.6,
         "commercial": 0.1,
         "ga": 0.1,
-        "military": 0.2,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4843,13 +5116,6 @@
             "distMiles": 20.5
           },
           {
-            "name": "Old Buckenham Airfield",
-            "icao": "EGSV",
-            "category": "airstrip",
-            "usage": "private",
-            "distMiles": 4.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
@@ -4857,15 +5123,29 @@
             "distMiles": 18.4
           },
           {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 22.1
+            "distMiles": 23.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 4.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.612Z",
+        "generatedAt": "2026-07-31T14:07:57.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4878,8 +5158,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -4943,10 +5223,10 @@
       },
       "minAirportDistanceMiles": 7.923908468998686,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4982,10 +5262,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5006,8 +5293,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -5071,10 +5358,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5110,10 +5397,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5126,8 +5420,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -5191,10 +5485,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5230,10 +5524,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.603Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5246,8 +5547,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -5311,10 +5612,10 @@
       },
       "minAirportDistanceMiles": 1.5237225875288072,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.2,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5350,10 +5651,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 13.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.603Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -5366,8 +5674,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:47:31.182Z"
@@ -5435,10 +5743,10 @@
       },
       "minAirportDistanceMiles": 2.1816038508428433,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5474,10 +5782,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.604Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5490,8 +5805,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:42:50.925Z"
@@ -5555,10 +5870,10 @@
       },
       "minAirportDistanceMiles": 1.7582433080538595,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5568,18 +5883,18 @@
             "distMiles": 21.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.6
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
           },
           {
             "name": "Old Buckenham Airfield",
@@ -5594,10 +5909,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.604Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5610,8 +5932,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:42:50.925Z"
@@ -5674,10 +5996,10 @@
       },
       "minAirportDistanceMiles": 0.5773431882955831,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5713,10 +6035,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.1
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:29.613Z",
+        "generatedAt": "2026-07-31T14:07:57.604Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5727,8 +6056,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:01:56.251Z",
@@ -5778,5 +6107,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.287Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:29.619Z"
+  "flyoverRescoredAt": "2026-07-31T14:07:57.609Z"
 }
