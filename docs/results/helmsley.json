@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 3.4914464741433138,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -106,10 +106,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.924Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,8 +129,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -191,10 +198,10 @@
       },
       "minAirportDistanceMiles": 3.61244839095057,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -230,10 +237,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.924Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,8 +260,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -315,10 +329,10 @@
       },
       "minAirportDistanceMiles": 3.3222718639756676,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -354,10 +368,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.924Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,8 +391,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -439,10 +460,10 @@
       },
       "minAirportDistanceMiles": 3.5890630627393003,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -478,10 +499,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.924Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +522,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -563,10 +591,10 @@
       },
       "minAirportDistanceMiles": 3.61244839095057,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -602,10 +630,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.924Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,8 +653,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -687,10 +722,10 @@
       },
       "minAirportDistanceMiles": 3.5694307227286473,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -726,10 +761,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.5
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,8 +784,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -811,10 +853,10 @@
       },
       "minAirportDistanceMiles": 3.5013712089775377,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -850,10 +892,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.5
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.925Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -866,8 +915,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -935,10 +984,10 @@
       },
       "minAirportDistanceMiles": 3.285185479115042,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -974,10 +1023,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -990,8 +1046,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1059,10 +1115,10 @@
       },
       "minAirportDistanceMiles": 3.6653554442859093,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 3.2,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1098,10 +1154,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.7
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1114,8 +1177,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1183,10 +1246,10 @@
       },
       "minAirportDistanceMiles": 3.6653554442859093,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.2,
+        "military": 3.2,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1222,10 +1285,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.7
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1238,8 +1308,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1307,10 +1377,10 @@
       },
       "minAirportDistanceMiles": 3.61244839095057,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1346,10 +1416,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.6
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1362,8 +1439,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1431,10 +1508,10 @@
       },
       "minAirportDistanceMiles": 3.20964002421193,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1470,10 +1547,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1486,8 +1570,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1555,10 +1639,10 @@
       },
       "minAirportDistanceMiles": 5.828542128648056,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 6.5,
         "commercial": 0.3,
         "ga": 0,
-        "military": 0.1,
+        "military": 6.1,
         "topFacilities": [
           {
             "name": "Leeds Bradford Airport",
@@ -1594,10 +1678,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Wittering → Catterick Training Area (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1610,8 +1708,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 6.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1679,10 +1777,10 @@
       },
       "minAirportDistanceMiles": 3.20964002421193,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1718,10 +1816,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1734,8 +1839,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -1799,10 +1904,10 @@
       },
       "minAirportDistanceMiles": 3.5013712089775377,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1838,10 +1943,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 17.5
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.925Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1854,8 +1966,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z",
@@ -1920,10 +2032,10 @@
       },
       "minAirportDistanceMiles": 1.2962933912711363,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -1959,10 +2071,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 15.2
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1975,8 +2094,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -2040,10 +2159,10 @@
       },
       "minAirportDistanceMiles": 1.2962933912711363,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -2079,10 +2198,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 15.2
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.926Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2095,8 +2221,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -2160,10 +2286,10 @@
       },
       "minAirportDistanceMiles": 1.2962933912711363,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 3.2,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 3.1,
         "topFacilities": [
           {
             "name": "RAF Topcliffe",
@@ -2199,10 +2325,17 @@
             "category": "heliport",
             "usage": "military",
             "distMiles": 15.2
+          },
+          {
+            "name": "Low Flying Area 18 — North Yorkshire Moors",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2215,8 +2348,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 3.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:42:52.782Z"
@@ -2322,7 +2455,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2442,7 +2575,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2562,7 +2695,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2682,7 +2815,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2802,7 +2935,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2922,7 +3055,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3042,7 +3175,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3162,7 +3295,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.926Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3282,7 +3415,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.927Z",
+        "generatedAt": "2026-07-31T14:08:02.927Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3402,7 +3535,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.927Z",
+        "generatedAt": "2026-07-31T14:08:02.928Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3522,7 +3655,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.927Z",
+        "generatedAt": "2026-07-31T14:08:02.928Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3581,5 +3714,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.346Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.930Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:02.930Z"
 }

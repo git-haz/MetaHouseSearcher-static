@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 3.821830500888425,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -109,7 +109,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.820Z",
+        "generatedAt": "2026-07-31T14:08:02.836Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,7 +122,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -191,10 +191,10 @@
       },
       "minAirportDistanceMiles": 5.031685745541164,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.6,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.6,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -218,22 +218,22 @@
             "distMiles": 16.5
           },
           {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 22.3
-          },
-          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
             "usage": "military",
             "distMiles": 24.1
+          },
+          {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.3
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.820Z",
+        "generatedAt": "2026-07-31T14:08:02.836Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,7 +246,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.6,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -315,25 +315,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -349,6 +335,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -357,7 +357,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.820Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,7 +370,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -439,10 +439,10 @@
       },
       "minAirportDistanceMiles": 3.821830500888425,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -481,7 +481,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.820Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,7 +494,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -563,10 +563,10 @@
       },
       "minAirportDistanceMiles": 5.014842351688526,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.6,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.6,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -590,22 +590,22 @@
             "distMiles": 16.3
           },
           {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 22.4
-          },
-          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
             "usage": "military",
             "distMiles": 23.9
+          },
+          {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.4
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.820Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,7 +618,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.6,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -687,10 +687,10 @@
       },
       "minAirportDistanceMiles": 4.521506621397927,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.6,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.6,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -714,22 +714,22 @@
             "distMiles": 16.1
           },
           {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 21.8
-          },
-          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
             "usage": "military",
             "distMiles": 24
+          },
+          {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 21.8
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.821Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,7 +742,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.6,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -811,10 +811,10 @@
       },
       "minAirportDistanceMiles": 4.679947030070874,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -838,22 +838,22 @@
             "distMiles": 16
           },
           {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 23.1
-          },
-          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
             "usage": "military",
             "distMiles": 23.2
+          },
+          {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.822Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -866,7 +866,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -935,10 +935,10 @@
       },
       "minAirportDistanceMiles": 4.1305730748794085,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -977,7 +977,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.822Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -990,7 +990,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1059,10 +1059,10 @@
       },
       "minAirportDistanceMiles": 3.821830500888425,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1101,7 +1101,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.822Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1114,7 +1114,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1183,25 +1183,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1217,6 +1203,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1225,7 +1225,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.823Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1238,7 +1238,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1307,25 +1307,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1341,6 +1327,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1349,7 +1349,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.823Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1362,7 +1362,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1431,25 +1431,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1465,6 +1451,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1473,7 +1473,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.823Z",
+        "generatedAt": "2026-07-31T14:08:02.837Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1486,7 +1486,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1555,25 +1555,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1589,6 +1575,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1597,7 +1597,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.823Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1610,7 +1610,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1679,25 +1679,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1713,6 +1699,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1721,7 +1721,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.823Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1734,7 +1734,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1803,25 +1803,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1837,6 +1823,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1845,7 +1845,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.824Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1858,7 +1858,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -1927,25 +1927,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -1961,6 +1947,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -1969,7 +1969,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.824Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1982,7 +1982,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2047,25 +2047,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2081,6 +2067,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2089,7 +2089,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.824Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2102,7 +2102,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2167,25 +2167,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2201,6 +2187,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2209,7 +2209,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.824Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2222,7 +2222,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2287,25 +2287,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2321,6 +2307,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2329,7 +2329,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.824Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2342,7 +2342,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2410,25 +2410,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2444,6 +2430,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2452,7 +2452,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.824Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2465,7 +2465,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2530,10 +2530,10 @@
       },
       "minAirportDistanceMiles": 3.821830500888425,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "commercial": 0,
         "ga": 0,
-        "military": 0.3,
+        "military": 0.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2572,7 +2572,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.825Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2585,7 +2585,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 0.7,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2650,25 +2650,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2684,6 +2670,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2692,7 +2692,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.825Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2705,7 +2705,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2770,25 +2770,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2804,6 +2790,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2812,7 +2812,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.825Z",
+        "generatedAt": "2026-07-31T14:08:02.838Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2825,7 +2825,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -2890,25 +2890,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -2924,6 +2910,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -2932,7 +2932,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.825Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2945,7 +2945,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3010,25 +3010,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3044,6 +3030,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3052,7 +3052,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.825Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3065,7 +3065,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3133,25 +3133,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3167,6 +3153,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3175,7 +3175,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.826Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3188,7 +3188,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3253,25 +3253,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3287,6 +3273,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3295,7 +3295,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.826Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3308,7 +3308,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3373,25 +3373,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3407,6 +3393,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3415,7 +3415,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.826Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3428,7 +3428,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3493,25 +3493,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3527,6 +3513,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3535,7 +3535,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.826Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3548,7 +3548,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3613,25 +3613,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3647,6 +3633,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3655,7 +3655,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.826Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3668,7 +3668,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3733,25 +3733,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3767,6 +3753,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3775,7 +3775,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.826Z",
+        "generatedAt": "2026-07-31T14:08:02.839Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3788,7 +3788,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3853,25 +3853,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -3887,6 +3873,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -3895,7 +3895,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.827Z",
+        "generatedAt": "2026-07-31T14:08:02.840Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3908,7 +3908,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -3976,25 +3976,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4010,6 +3996,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4018,7 +4018,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.827Z",
+        "generatedAt": "2026-07-31T14:08:02.840Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4031,7 +4031,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4096,25 +4096,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4130,6 +4116,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4138,7 +4138,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.827Z",
+        "generatedAt": "2026-07-31T14:08:02.840Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4151,7 +4151,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4216,25 +4216,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4250,6 +4236,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4258,7 +4258,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.827Z",
+        "generatedAt": "2026-07-31T14:08:02.840Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4271,7 +4271,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4336,25 +4336,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4370,6 +4356,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4378,7 +4378,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.827Z",
+        "generatedAt": "2026-07-31T14:08:02.840Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4391,7 +4391,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4456,25 +4456,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4490,6 +4476,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4498,7 +4498,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.828Z",
+        "generatedAt": "2026-07-31T14:08:02.840Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4511,7 +4511,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4576,25 +4576,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4610,6 +4596,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4618,7 +4618,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.828Z",
+        "generatedAt": "2026-07-31T14:08:02.841Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4631,7 +4631,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4696,25 +4696,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4730,6 +4716,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4738,7 +4738,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.828Z",
+        "generatedAt": "2026-07-31T14:08:02.841Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4751,7 +4751,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4816,25 +4816,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4850,6 +4836,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4858,7 +4858,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.828Z",
+        "generatedAt": "2026-07-31T14:08:02.841Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4871,7 +4871,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -4936,25 +4936,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -4970,6 +4956,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -4978,7 +4978,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.828Z",
+        "generatedAt": "2026-07-31T14:08:02.841Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4991,7 +4991,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": true,
@@ -5055,25 +5055,11 @@
       },
       "minAirportDistanceMiles": 3.6354478607696787,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "commercial": 0,
         "ga": 0,
-        "military": 0.2,
+        "military": 0.4,
         "topFacilities": [
-          {
-            "name": "RAF Wittering",
-            "icao": "EGXT",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.7
-          },
-          {
-            "name": "RAF Barkston Heath",
-            "icao": "EGYE",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.5
-          },
           {
             "name": "RAF Coningsby",
             "icao": "EGXC",
@@ -5089,6 +5075,20 @@
             "distMiles": 20.4
           },
           {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
             "name": "RAF Waddington",
             "icao": "EGXW",
             "category": "airport",
@@ -5097,7 +5097,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.828Z",
+        "generatedAt": "2026-07-31T14:08:02.841Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5108,7 +5108,7 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 0.4,
         "flightsDiffPct": -100
       },
       "isNew": false,
@@ -5158,5 +5158,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.332Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.835Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:02.848Z"
 }

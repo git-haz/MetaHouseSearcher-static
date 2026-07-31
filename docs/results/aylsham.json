@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 4.944402009294765,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -106,10 +106,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.807Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -122,8 +129,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -191,10 +198,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -230,10 +237,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.807Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,8 +260,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -315,10 +329,10 @@
       },
       "minAirportDistanceMiles": 3.0715086927291297,
       "flyoverRef": {
-        "flightsPerDay": 5.1,
+        "flightsPerDay": 9.1,
         "commercial": 5.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -354,10 +368,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 15.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.807Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,8 +391,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 5.1,
-        "flightsDiffPct": -98
+        "flightsPerDay": 9.1,
+        "flightsDiffPct": -96
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -439,10 +460,10 @@
       },
       "minAirportDistanceMiles": 5.329304903976789,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -478,10 +499,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.1
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.807Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +522,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -563,10 +591,10 @@
       },
       "minAirportDistanceMiles": 5.041540446499705,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -602,10 +630,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.807Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,8 +653,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -687,10 +722,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -726,10 +761,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.807Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,8 +784,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z",
@@ -815,10 +857,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -854,10 +896,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -870,8 +919,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -939,10 +988,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -978,10 +1027,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.820Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -994,8 +1050,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z",
@@ -1067,10 +1123,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1106,10 +1162,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1122,8 +1185,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1191,10 +1254,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1230,10 +1293,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1246,8 +1316,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1315,10 +1385,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1354,10 +1424,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1370,8 +1447,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1439,10 +1516,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1478,10 +1555,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1494,8 +1578,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1563,10 +1647,10 @@
       },
       "minAirportDistanceMiles": 5.379315941814824,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1602,10 +1686,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1618,8 +1709,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1687,10 +1778,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1726,10 +1817,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1742,8 +1840,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1811,10 +1909,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1850,10 +1948,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1866,8 +1971,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -1939,10 +2044,10 @@
       },
       "minAirportDistanceMiles": 5.115271605447699,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -1978,10 +2083,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.1
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.808Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1994,8 +2106,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2067,10 +2179,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2106,10 +2218,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2122,8 +2241,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2191,10 +2310,10 @@
       },
       "minAirportDistanceMiles": 4.854880617679623,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.7,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2230,10 +2349,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.4
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2246,8 +2372,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2315,10 +2441,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2354,10 +2480,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.821Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2370,8 +2503,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2439,10 +2572,10 @@
       },
       "minAirportDistanceMiles": 5.234560400426336,
       "flyoverRef": {
-        "flightsPerDay": 0.9,
+        "flightsPerDay": 4.9,
         "commercial": 0.9,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2478,10 +2611,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 28.9
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2494,8 +2634,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.9,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.9,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2563,10 +2703,10 @@
       },
       "minAirportDistanceMiles": 5.093842533646304,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2602,10 +2742,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2618,8 +2765,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2687,10 +2834,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2726,10 +2873,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2742,8 +2896,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2807,10 +2961,10 @@
       },
       "minAirportDistanceMiles": 5.041540446499705,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2846,10 +3000,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2862,8 +3023,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -2927,10 +3088,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -2966,10 +3127,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2982,8 +3150,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3050,10 +3218,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3089,10 +3257,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3105,8 +3280,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3173,10 +3348,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3212,10 +3387,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3228,8 +3410,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3300,10 +3482,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3339,10 +3521,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.809Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3355,8 +3544,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3420,10 +3609,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3459,10 +3648,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3475,8 +3671,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3540,10 +3736,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3579,10 +3775,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.822Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3595,8 +3798,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3660,10 +3863,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3699,10 +3902,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3715,8 +3925,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3780,10 +3990,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3819,10 +4029,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3835,8 +4052,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -3900,10 +4117,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3939,10 +4156,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3955,8 +4179,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4023,10 +4247,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4062,10 +4286,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4078,8 +4309,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4146,10 +4377,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4185,10 +4416,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4201,8 +4439,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4266,10 +4504,10 @@
       },
       "minAirportDistanceMiles": 5.379315941814824,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4305,10 +4543,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4321,8 +4566,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4386,10 +4631,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4425,10 +4670,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4441,8 +4693,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4509,10 +4761,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4548,10 +4800,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4564,8 +4823,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4632,10 +4891,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4671,10 +4930,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.810Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4687,8 +4953,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4755,10 +5021,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4794,10 +5060,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.823Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4810,8 +5083,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4875,10 +5148,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -4914,10 +5187,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4930,8 +5210,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -4998,10 +5278,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5037,10 +5317,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5053,8 +5340,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -5121,10 +5408,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5160,10 +5447,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5176,8 +5470,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -5244,10 +5538,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5283,10 +5577,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5299,8 +5600,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -5364,10 +5665,10 @@
       },
       "minAirportDistanceMiles": 4.6869696125668785,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5403,10 +5704,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5419,8 +5727,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -5484,10 +5792,10 @@
       },
       "minAirportDistanceMiles": 4.6869696125668785,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5523,10 +5831,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5539,8 +5854,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -5607,10 +5922,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5646,10 +5961,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5662,8 +5984,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:26:31.746Z"
@@ -5730,10 +6052,10 @@
       },
       "minAirportDistanceMiles": 2.278174242289459,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.4,
         "commercial": 0.4,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5769,10 +6091,17 @@
             "category": "heliport",
             "usage": "private",
             "distMiles": 23.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5785,8 +6114,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.4,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:22:56.924Z"
@@ -5853,10 +6182,10 @@
       },
       "minAirportDistanceMiles": 5.116275257928378,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 4.8,
         "commercial": 0.8,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5892,10 +6221,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 29.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.811Z",
+        "generatedAt": "2026-07-31T14:08:02.824Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5906,8 +6242,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:43:37.311Z",
@@ -5956,5 +6292,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.330Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.816Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:02.829Z"
 }

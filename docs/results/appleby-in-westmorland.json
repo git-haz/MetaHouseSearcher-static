@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 7.280467440494025,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -78,10 +78,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.937Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -94,8 +108,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -163,10 +177,10 @@
       },
       "minAirportDistanceMiles": 7.404811925966811,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -174,10 +188,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.937Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -190,8 +218,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -259,10 +287,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -270,10 +298,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.937Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -286,8 +328,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -355,10 +397,10 @@
       },
       "minAirportDistanceMiles": 7.146905592300706,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -366,10 +408,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -382,8 +438,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -455,10 +511,10 @@
       },
       "minAirportDistanceMiles": 7.128908004024802,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -466,10 +522,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -482,8 +552,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -551,10 +621,10 @@
       },
       "minAirportDistanceMiles": 7.146905592300706,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -562,10 +632,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -578,8 +662,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -647,10 +731,10 @@
       },
       "minAirportDistanceMiles": 7.128908004024802,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -658,10 +742,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -674,8 +772,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -743,10 +841,10 @@
       },
       "minAirportDistanceMiles": 7.360173618614248,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -754,10 +852,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.934Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -770,8 +882,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -835,10 +947,10 @@
       },
       "minAirportDistanceMiles": 7.146905592300706,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -846,10 +958,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -862,8 +988,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -927,10 +1053,10 @@
       },
       "minAirportDistanceMiles": 7.146905592300706,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -938,10 +1064,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -954,8 +1094,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1019,10 +1159,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1030,10 +1170,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1046,8 +1200,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1111,10 +1265,10 @@
       },
       "minAirportDistanceMiles": 7.128908004024802,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1122,10 +1276,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.938Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1138,8 +1306,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1203,10 +1371,10 @@
       },
       "minAirportDistanceMiles": 7.404811925966811,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1214,10 +1382,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1230,8 +1412,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1297,10 +1479,10 @@
       },
       "minAirportDistanceMiles": 7.468587518211335,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1308,10 +1490,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1324,8 +1520,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1389,10 +1585,10 @@
       },
       "minAirportDistanceMiles": 7.468587518211335,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1400,10 +1596,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1416,8 +1626,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z",
@@ -1486,10 +1696,10 @@
       },
       "minAirportDistanceMiles": 7.475301585438229,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1497,10 +1707,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1513,8 +1737,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1578,10 +1802,10 @@
       },
       "minAirportDistanceMiles": 7.243740494846567,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1589,10 +1813,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1605,8 +1843,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1670,10 +1908,10 @@
       },
       "minAirportDistanceMiles": 7.150295174305373,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1681,10 +1919,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.935Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1697,8 +1949,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1762,10 +2014,10 @@
       },
       "minAirportDistanceMiles": 7.031239356242535,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1773,10 +2025,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.1
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1789,8 +2055,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -1854,10 +2120,10 @@
       },
       "minAirportDistanceMiles": 7.53890647485407,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1865,10 +2131,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1881,8 +2161,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z",
@@ -1951,10 +2231,10 @@
       },
       "minAirportDistanceMiles": 7.693753316547129,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -1962,10 +2242,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.4
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1978,8 +2272,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2043,10 +2337,10 @@
       },
       "minAirportDistanceMiles": 7.341301176676029,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2054,10 +2348,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.6
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.939Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2070,8 +2378,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2135,10 +2443,10 @@
       },
       "minAirportDistanceMiles": 7.5694112625687415,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2146,10 +2454,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2162,8 +2484,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2227,10 +2549,10 @@
       },
       "minAirportDistanceMiles": 7.124197378676764,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2238,10 +2560,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.3
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2254,8 +2590,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2319,10 +2655,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2330,10 +2666,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2346,8 +2696,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2411,10 +2761,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2422,10 +2772,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2438,8 +2802,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2503,10 +2867,10 @@
       },
       "minAirportDistanceMiles": 7.2303689656713255,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2514,10 +2878,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.9
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2530,8 +2908,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2595,10 +2973,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2606,10 +2984,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2622,8 +3014,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2687,10 +3079,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2698,10 +3090,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.936Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2714,8 +3120,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2779,10 +3185,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2790,10 +3196,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.937Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2806,8 +3226,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2871,10 +3291,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2882,10 +3302,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.937Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2898,8 +3332,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z"
@@ -2963,10 +3397,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -2974,10 +3408,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.937Z",
+        "generatedAt": "2026-07-31T14:08:02.940Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2990,8 +3438,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:44:47.581Z",
@@ -3060,10 +3508,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -3071,10 +3519,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.937Z",
+        "generatedAt": "2026-07-31T14:08:02.941Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3087,8 +3549,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:41:30.599Z"
@@ -3152,10 +3614,10 @@
       },
       "minAirportDistanceMiles": 7.477759952191369,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -3163,10 +3625,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 28.2
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.937Z",
+        "generatedAt": "2026-07-31T14:08:02.941Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3179,8 +3655,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:41:30.599Z"
@@ -3247,10 +3723,10 @@
       },
       "minAirportDistanceMiles": 7.15155757832664,
       "flyoverRef": {
-        "flightsPerDay": 0,
+        "flightsPerDay": 13,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 13,
         "topFacilities": [
           {
             "name": "Carlisle Lake District Airport",
@@ -3258,10 +3734,24 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 27.8
+          },
+          {
+            "name": "Low Flying Area 17 — Lake District & Yorkshire Dales",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Leeming → Spadeadam (Estimated)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.937Z",
+        "generatedAt": "2026-07-31T14:08:02.941Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3272,8 +3762,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 0,
-        "flightsDiffPct": -100
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T11:02:51.791Z",
@@ -3369,7 +3859,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.938Z",
+        "generatedAt": "2026-07-31T14:08:02.941Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3430,5 +3920,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.347Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.944Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:02.944Z"
 }

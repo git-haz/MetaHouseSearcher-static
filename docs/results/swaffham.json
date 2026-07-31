@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 2.1455104004905428,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -80,18 +80,18 @@
             "distMiles": 5.8
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25
           },
           {
             "name": "RAF Honington",
@@ -106,10 +106,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.784Z",
+        "generatedAt": "2026-07-31T14:08:02.808Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,8 +129,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -191,10 +198,10 @@
       },
       "minAirportDistanceMiles": 2.230247863768272,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -204,18 +211,18 @@
             "distMiles": 5.6
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.3
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 16.6
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.3
           },
           {
             "name": "RAF Honington",
@@ -230,10 +237,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 20.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.784Z",
+        "generatedAt": "2026-07-31T14:08:02.808Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,8 +260,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.9,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -315,10 +329,10 @@
       },
       "minAirportDistanceMiles": 2.1850826581737874,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -328,18 +342,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -354,10 +368,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.784Z",
+        "generatedAt": "2026-07-31T14:08:02.808Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,8 +391,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -439,10 +460,10 @@
       },
       "minAirportDistanceMiles": 1.9191871283579502,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -452,18 +473,18 @@
             "distMiles": 5.6
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
           },
           {
             "name": "RAF Honington",
@@ -478,10 +499,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.785Z",
+        "generatedAt": "2026-07-31T14:08:02.808Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +522,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -563,10 +591,10 @@
       },
       "minAirportDistanceMiles": 2.1850826581737874,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -576,18 +604,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -602,10 +630,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.785Z",
+        "generatedAt": "2026-07-31T14:08:02.808Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,8 +653,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z",
@@ -691,10 +726,10 @@
       },
       "minAirportDistanceMiles": 2.1850826581737874,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -704,18 +739,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -730,10 +765,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.785Z",
+        "generatedAt": "2026-07-31T14:08:02.808Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -746,8 +788,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -815,10 +857,10 @@
       },
       "minAirportDistanceMiles": 2.1850826581737874,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -828,18 +870,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -854,10 +896,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.785Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -870,8 +919,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -939,10 +988,10 @@
       },
       "minAirportDistanceMiles": 2.3170627620637902,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -952,18 +1001,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -978,10 +1027,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.785Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -994,8 +1050,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1063,10 +1119,10 @@
       },
       "minAirportDistanceMiles": 2.2349606991948536,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1076,18 +1132,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -1102,10 +1158,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.785Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1118,8 +1181,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1187,10 +1250,10 @@
       },
       "minAirportDistanceMiles": 2.1455104004905428,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1200,18 +1263,18 @@
             "distMiles": 5.8
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25
           },
           {
             "name": "RAF Honington",
@@ -1226,10 +1289,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.786Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1242,8 +1312,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1311,10 +1381,10 @@
       },
       "minAirportDistanceMiles": 1.7137956693438279,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.8,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1324,18 +1394,18 @@
             "distMiles": 5.4
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.4
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.2
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.4
           },
           {
             "name": "RAF Mildenhall",
@@ -1350,10 +1420,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.786Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1366,8 +1443,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.9,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1435,10 +1512,10 @@
       },
       "minAirportDistanceMiles": 2.042686825376654,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1448,18 +1525,18 @@
             "distMiles": 5.7
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.2
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
           },
           {
             "name": "RAF Honington",
@@ -1474,10 +1551,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.786Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1490,8 +1574,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1559,10 +1643,10 @@
       },
       "minAirportDistanceMiles": 2.1850826581737874,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1572,18 +1656,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -1598,10 +1682,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.786Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1614,8 +1705,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1683,10 +1774,10 @@
       },
       "minAirportDistanceMiles": 2.3170627620637902,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1696,18 +1787,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -1722,10 +1813,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.786Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1738,8 +1836,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1803,10 +1901,10 @@
       },
       "minAirportDistanceMiles": 2.7362659193052834,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.5,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1816,18 +1914,18 @@
             "distMiles": 6.3
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.5
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.5
           },
           {
             "name": "RAF Honington",
@@ -1842,10 +1940,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.787Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1858,8 +1963,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -1926,10 +2031,10 @@
       },
       "minAirportDistanceMiles": 2.3170627620637902,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -1939,18 +2044,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -1965,10 +2070,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.787Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1981,8 +2093,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2046,10 +2158,10 @@
       },
       "minAirportDistanceMiles": 2.1455104004905428,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2059,18 +2171,18 @@
             "distMiles": 5.8
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25
           },
           {
             "name": "RAF Honington",
@@ -2085,10 +2197,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.787Z",
+        "generatedAt": "2026-07-31T14:08:02.809Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2101,8 +2220,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2166,10 +2285,10 @@
       },
       "minAirportDistanceMiles": 2.046600731967318,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2179,18 +2298,18 @@
             "distMiles": 5.5
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.3
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 16.9
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.3
           },
           {
             "name": "RAF Honington",
@@ -2205,10 +2324,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.787Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2221,8 +2347,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.9,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2286,10 +2412,10 @@
       },
       "minAirportDistanceMiles": 2.042686825376654,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2299,18 +2425,18 @@
             "distMiles": 5.7
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.2
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
           },
           {
             "name": "RAF Honington",
@@ -2325,10 +2451,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.787Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2341,8 +2474,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2406,10 +2539,10 @@
       },
       "minAirportDistanceMiles": 2.7362659193052834,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.5,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2419,18 +2552,18 @@
             "distMiles": 6.3
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.5
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.5
           },
           {
             "name": "RAF Honington",
@@ -2445,10 +2578,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.788Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2461,8 +2601,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2526,10 +2666,10 @@
       },
       "minAirportDistanceMiles": 2.2349606991948536,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2539,18 +2679,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.3
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -2565,10 +2705,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.789Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2581,8 +2728,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2646,10 +2793,10 @@
       },
       "minAirportDistanceMiles": 2.7362659193052834,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.5,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2659,18 +2806,18 @@
             "distMiles": 6.3
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.5
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.5
           },
           {
             "name": "RAF Honington",
@@ -2685,10 +2832,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.790Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2701,8 +2855,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2766,10 +2920,10 @@
       },
       "minAirportDistanceMiles": 2.7362659193052834,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.5,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2779,18 +2933,18 @@
             "distMiles": 6.3
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.5
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.5
           },
           {
             "name": "RAF Honington",
@@ -2805,10 +2959,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.790Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2821,8 +2982,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -2886,10 +3047,10 @@
       },
       "minAirportDistanceMiles": 1.7137956693438279,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.8,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -2899,18 +3060,18 @@
             "distMiles": 5.4
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.4
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.2
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.4
           },
           {
             "name": "RAF Mildenhall",
@@ -2925,10 +3086,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.790Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2941,8 +3109,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.9,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -3006,10 +3174,10 @@
       },
       "minAirportDistanceMiles": 1.9191871283579502,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -3019,18 +3187,18 @@
             "distMiles": 5.6
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
           },
           {
             "name": "RAF Honington",
@@ -3045,10 +3213,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.790Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3061,8 +3236,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -3126,10 +3301,10 @@
       },
       "minAirportDistanceMiles": 2.7362659193052834,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.5,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.4,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -3139,18 +3314,18 @@
             "distMiles": 6.3
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.5
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.5
           },
           {
             "name": "RAF Honington",
@@ -3165,10 +3340,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.790Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3181,8 +3363,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.5,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -3246,10 +3428,10 @@
       },
       "minAirportDistanceMiles": 2.3170627620637902,
       "flyoverRef": {
-        "flightsPerDay": 0.7,
+        "flightsPerDay": 5.7,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.6,
+        "military": 5.6,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -3259,18 +3441,18 @@
             "distMiles": 5.9
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
           },
           {
             "name": "RAF Honington",
@@ -3285,10 +3467,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.790Z",
+        "generatedAt": "2026-07-31T14:08:02.810Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3301,8 +3490,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.7,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -3366,10 +3555,10 @@
       },
       "minAirportDistanceMiles": 0.9965052503749074,
       "flyoverRef": {
-        "flightsPerDay": 0.6,
+        "flightsPerDay": 4.7,
         "commercial": 0.3,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -3379,11 +3568,25 @@
             "distMiles": 12.6
           },
           {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.3
+          },
+          {
             "name": "Old Buckenham Airfield",
             "icao": "EGSV",
             "category": "airstrip",
             "usage": "private",
             "distMiles": 3.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
           },
           {
             "name": "RAF Honington",
@@ -3393,22 +3596,15 @@
             "distMiles": 18.9
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 22.3
-          },
-          {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 23.2
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.791Z",
+        "generatedAt": "2026-07-31T14:08:02.811Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3421,8 +3617,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 5,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.6,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.7,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:24:41.321Z"
@@ -3485,10 +3681,10 @@
       },
       "minAirportDistanceMiles": 1.8718850850785254,
       "flyoverRef": {
-        "flightsPerDay": 0.8,
+        "flightsPerDay": 5.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.7,
+        "military": 5.7,
         "topFacilities": [
           {
             "name": "RAF Marham",
@@ -3498,18 +3694,18 @@
             "distMiles": 5.6
           },
           {
-            "name": "Norwich Airport",
-            "icao": "EGSH",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 25.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 17.4
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
           },
           {
             "name": "RAF Honington",
@@ -3524,10 +3720,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.791Z",
+        "generatedAt": "2026-07-31T14:08:02.811Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3538,8 +3741,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.8,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:41:33.327Z",
@@ -3589,5 +3792,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.328Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.802Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:02.814Z"
 }

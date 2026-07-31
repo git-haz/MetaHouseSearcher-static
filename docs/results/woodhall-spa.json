@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 3.759344378328196,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.3,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -80,18 +80,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 13.2
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.8
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.2
           },
           {
             "name": "Humberside Airport",
@@ -106,10 +106,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.9
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.874Z",
+        "generatedAt": "2026-07-31T14:08:02.884Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,8 +136,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -191,10 +205,10 @@
       },
       "minAirportDistanceMiles": 3.950387160873689,
       "flyoverRef": {
-        "flightsPerDay": 1.2,
+        "flightsPerDay": 20.7,
         "commercial": 0,
         "ga": 0,
-        "military": 1.2,
+        "military": 20.6,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -204,18 +218,18 @@
             "distMiles": 4.3
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "RAF Barkston Heath",
@@ -230,10 +244,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.9
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.874Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,8 +274,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.2,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.7,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -315,10 +343,10 @@
       },
       "minAirportDistanceMiles": 3.735516891725102,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.4,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -328,18 +356,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -354,10 +382,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.874Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,8 +412,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -439,10 +481,10 @@
       },
       "minAirportDistanceMiles": 3.9395350485338048,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.3,
         "commercial": 0,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.3,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -452,18 +494,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 11.9
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 13.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
           },
           {
             "name": "RAF Barkston Heath",
@@ -478,10 +520,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.8
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.874Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +550,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.3,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -563,10 +619,10 @@
       },
       "minAirportDistanceMiles": 3.633608265906397,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1,
+        "military": 20.2,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -576,18 +632,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.6
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.6
           },
           {
             "name": "Humberside Airport",
@@ -602,10 +658,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,8 +688,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.3,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -687,10 +757,10 @@
       },
       "minAirportDistanceMiles": 3.6047621289813305,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1,
+        "military": 20.2,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -700,18 +770,18 @@
             "distMiles": 4.7
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.6
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.6
           },
           {
             "name": "Humberside Airport",
@@ -726,10 +796,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.2
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,8 +826,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.3,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -811,10 +895,10 @@
       },
       "minAirportDistanceMiles": 3.735516891725102,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.4,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -824,18 +908,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -850,10 +934,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -866,8 +964,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -935,10 +1033,10 @@
       },
       "minAirportDistanceMiles": 3.6604659927300314,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1,
+        "military": 20.3,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -948,18 +1046,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -974,10 +1072,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.4
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -990,8 +1102,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.3,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -1059,10 +1171,10 @@
       },
       "minAirportDistanceMiles": 3.633608265906397,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1,
+        "military": 20.2,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1072,18 +1184,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.6
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.6
           },
           {
             "name": "Humberside Airport",
@@ -1098,10 +1210,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1114,8 +1240,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.3,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -1183,10 +1309,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1196,18 +1322,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -1222,10 +1348,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1238,8 +1378,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -1303,10 +1443,10 @@
       },
       "minAirportDistanceMiles": 3.1602376708176387,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1316,18 +1456,18 @@
             "distMiles": 5.1
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.5
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.5
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.5
           },
           {
             "name": "Humberside Airport",
@@ -1342,10 +1482,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.6
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.886Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1358,8 +1512,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z",
@@ -1426,10 +1580,10 @@
       },
       "minAirportDistanceMiles": 3.1602376708176387,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1439,18 +1593,18 @@
             "distMiles": 5.1
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.5
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.5
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.5
           },
           {
             "name": "Humberside Airport",
@@ -1465,10 +1619,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.6
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1481,8 +1649,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -1546,10 +1714,10 @@
       },
       "minAirportDistanceMiles": 3.1602376708176387,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1559,18 +1727,18 @@
             "distMiles": 5.1
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.5
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.5
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.5
           },
           {
             "name": "Humberside Airport",
@@ -1585,10 +1753,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.6
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1601,8 +1783,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -1666,10 +1848,10 @@
       },
       "minAirportDistanceMiles": 3.1602376708176387,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1679,18 +1861,18 @@
             "distMiles": 5.1
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.5
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.5
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.5
           },
           {
             "name": "Humberside Airport",
@@ -1705,10 +1887,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.6
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1721,8 +1917,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -1786,10 +1982,10 @@
       },
       "minAirportDistanceMiles": 3.1602376708176387,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1799,18 +1995,18 @@
             "distMiles": 5.1
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.5
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.5
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.5
           },
           {
             "name": "Humberside Airport",
@@ -1825,10 +2021,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.6
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.875Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1841,8 +2051,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z",
@@ -1909,10 +2119,10 @@
       },
       "minAirportDistanceMiles": 3.1602376708176387,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.8,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -1922,18 +2132,18 @@
             "distMiles": 5.1
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.5
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.5
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.5
           },
           {
             "name": "Humberside Airport",
@@ -1948,10 +2158,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.6
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1964,8 +2188,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.8,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2029,10 +2253,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2042,18 +2266,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -2068,10 +2292,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2084,8 +2322,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2149,10 +2387,10 @@
       },
       "minAirportDistanceMiles": 3.735516891725102,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.4,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2162,18 +2400,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -2188,10 +2426,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2204,8 +2456,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2269,10 +2521,10 @@
       },
       "minAirportDistanceMiles": 3.735516891725102,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.4,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2282,18 +2534,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -2308,10 +2560,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.3
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2324,8 +2590,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2392,10 +2658,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2405,18 +2671,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -2431,10 +2697,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2447,8 +2727,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2512,10 +2792,10 @@
       },
       "minAirportDistanceMiles": 5.4040720147799775,
       "flyoverRef": {
-        "flightsPerDay": 0.6,
+        "flightsPerDay": 4.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.5,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Waddington",
@@ -2525,18 +2805,25 @@
             "distMiles": 7.2
           },
           {
-            "name": "Humberside Airport",
-            "icao": "EGNJ",
-            "category": "airport",
-            "usage": "commercial",
-            "distMiles": 24
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 16.7
+          },
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 21.2
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24
           },
           {
             "name": "RAF Barkston Heath",
@@ -2546,15 +2833,15 @@
             "distMiles": 20.8
           },
           {
-            "name": "RAF Coningsby",
-            "icao": "EGXC",
-            "category": "airport",
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
             "usage": "military",
-            "distMiles": 21.2
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.887Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2567,8 +2854,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.6,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2635,10 +2922,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2648,18 +2935,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -2674,10 +2961,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2690,8 +2991,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2758,10 +3059,10 @@
       },
       "minAirportDistanceMiles": 4.014923000300719,
       "flyoverRef": {
-        "flightsPerDay": 1.2,
+        "flightsPerDay": 20.8,
         "commercial": 0,
         "ga": 0,
-        "military": 1.2,
+        "military": 20.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2771,18 +3072,18 @@
             "distMiles": 4.2
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.8
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
           },
           {
             "name": "RAF Barkston Heath",
@@ -2797,10 +3098,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 13
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2813,8 +3128,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.2,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.8,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -2881,10 +3196,10 @@
       },
       "minAirportDistanceMiles": 4.014923000300719,
       "flyoverRef": {
-        "flightsPerDay": 1.2,
+        "flightsPerDay": 20.8,
         "commercial": 0,
         "ga": 0,
-        "military": 1.2,
+        "military": 20.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -2894,18 +3209,18 @@
             "distMiles": 4.2
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.8
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
           },
           {
             "name": "RAF Barkston Heath",
@@ -2920,10 +3235,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 13
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2936,8 +3265,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.2,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.8,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -3001,10 +3330,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -3014,18 +3343,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -3040,10 +3369,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.876Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3056,8 +3399,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -3124,10 +3467,10 @@
       },
       "minAirportDistanceMiles": 4.014923000300719,
       "flyoverRef": {
-        "flightsPerDay": 1.2,
+        "flightsPerDay": 20.8,
         "commercial": 0,
         "ga": 0,
-        "military": 1.2,
+        "military": 20.7,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -3137,18 +3480,18 @@
             "distMiles": 4.2
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.8
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
           },
           {
             "name": "RAF Barkston Heath",
@@ -3163,10 +3506,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 13
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3179,8 +3536,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.2,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.8,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -3244,10 +3601,10 @@
       },
       "minAirportDistanceMiles": 3.794269824407569,
       "flyoverRef": {
-        "flightsPerDay": 1.1,
+        "flightsPerDay": 20.4,
         "commercial": 0.1,
         "ga": 0,
-        "military": 1.1,
+        "military": 20.3,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -3257,18 +3614,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 13.3
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.8
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.3
           },
           {
             "name": "Humberside Airport",
@@ -3283,10 +3640,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.9
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3299,8 +3670,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.1,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.4,
+        "flightsDiffPct": -90
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -3364,10 +3735,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -3377,18 +3748,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -3403,10 +3774,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3419,8 +3804,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -3484,10 +3869,10 @@
       },
       "minAirportDistanceMiles": 3.2370612784409234,
       "flyoverRef": {
-        "flightsPerDay": 1,
+        "flightsPerDay": 19.9,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.9,
+        "military": 19.8,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -3497,18 +3882,18 @@
             "distMiles": 5
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "Humberside Airport",
@@ -3523,10 +3908,24 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 19.7
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3539,8 +3938,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 19.9,
+        "flightsDiffPct": -91
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:36:17.790Z"
@@ -3604,10 +4003,10 @@
       },
       "minAirportDistanceMiles": 3.950387160873689,
       "flyoverRef": {
-        "flightsPerDay": 1.2,
+        "flightsPerDay": 20.7,
         "commercial": 0,
         "ga": 0,
-        "military": 1.2,
+        "military": 20.6,
         "topFacilities": [
           {
             "name": "RAF Coningsby",
@@ -3617,18 +4016,18 @@
             "distMiles": 4.3
           },
           {
-            "name": "RAF Waddington",
-            "icao": "EGXW",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 12.7
-          },
-          {
             "name": "RAF Cranwell",
             "icao": "EGYD",
             "category": "airport",
             "usage": "military",
             "distMiles": 14.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
           },
           {
             "name": "RAF Barkston Heath",
@@ -3643,10 +4042,24 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.9
+          },
+          {
+            "name": "RAF Coningsby → Donna Nook (Weapons Range Run)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
+          },
+          {
+            "name": "RAF Coningsby → Spadeadam (EW Training Transit)",
+            "icao": null,
+            "category": "corridor",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3659,8 +4072,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 1.2,
-        "flightsDiffPct": -99
+        "flightsPerDay": 20.7,
+        "flightsDiffPct": -90
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:32:51.088Z",
@@ -3725,10 +4138,10 @@
       },
       "minAirportDistanceMiles": 2.6957008876573165,
       "flyoverRef": {
-        "flightsPerDay": 5.5,
+        "flightsPerDay": 8.5,
         "commercial": 5.4,
         "ga": 0,
-        "military": 0,
+        "military": 3,
         "topFacilities": [
           {
             "name": "Birmingham Airport",
@@ -3764,10 +4177,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 28.6
+          },
+          {
+            "name": "Low Flying Area 8 — Midlands (Shropshire/Staffordshire)",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3780,8 +4200,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 5.5,
-        "flightsDiffPct": -97
+        "flightsPerDay": 8.5,
+        "flightsDiffPct": -96
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:32:51.088Z",
@@ -3846,10 +4266,10 @@
       },
       "minAirportDistanceMiles": 3.793437721179256,
       "flyoverRef": {
-        "flightsPerDay": 5.7,
+        "flightsPerDay": 10.7,
         "commercial": 5.3,
         "ga": 0.2,
-        "military": 0.2,
+        "military": 5.2,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -3885,10 +4305,17 @@
             "category": "airport",
             "usage": "military",
             "distMiles": 18.9
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.877Z",
+        "generatedAt": "2026-07-31T14:08:02.888Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3901,8 +4328,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 5.7,
-        "flightsDiffPct": -97
+        "flightsPerDay": 10.7,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:32:51.088Z",
@@ -3948,5 +4375,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.338Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.880Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:02.892Z"
 }
