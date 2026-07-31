@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -80,18 +80,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -106,10 +106,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.319Z",
+        "generatedAt": "2026-07-31T14:08:00.233Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -122,8 +129,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -191,10 +198,10 @@
       },
       "minAirportDistanceMiles": 2.2928743003976013,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -204,18 +211,18 @@
             "distMiles": 4.7
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.9
           },
           {
             "name": "Elmsett Airfield",
@@ -230,10 +237,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.319Z",
+        "generatedAt": "2026-07-31T14:08:00.233Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,8 +260,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -315,10 +329,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -328,18 +342,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -354,10 +368,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.319Z",
+        "generatedAt": "2026-07-31T14:08:00.233Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,8 +391,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -439,10 +460,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -452,18 +473,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -478,10 +499,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.319Z",
+        "generatedAt": "2026-07-31T14:08:00.233Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +522,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -563,10 +591,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -602,10 +630,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.320Z",
+        "generatedAt": "2026-07-31T14:08:00.233Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -618,8 +653,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -687,10 +722,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -700,18 +735,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -726,10 +761,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.320Z",
+        "generatedAt": "2026-07-31T14:08:00.233Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,8 +784,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -811,10 +853,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -850,10 +892,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.320Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -866,8 +915,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -935,10 +984,10 @@
       },
       "minAirportDistanceMiles": 2.2928743003976013,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -948,18 +997,18 @@
             "distMiles": 4.7
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.9
           },
           {
             "name": "Elmsett Airfield",
@@ -974,10 +1023,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.322Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -990,8 +1046,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1059,10 +1115,10 @@
       },
       "minAirportDistanceMiles": 2.435316044644014,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1072,18 +1128,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -1098,10 +1154,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.323Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1114,8 +1177,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1183,10 +1246,10 @@
       },
       "minAirportDistanceMiles": 2.2928743003976013,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1196,18 +1259,18 @@
             "distMiles": 4.7
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.9
           },
           {
             "name": "Elmsett Airfield",
@@ -1222,10 +1285,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.324Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1238,8 +1308,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1307,10 +1377,10 @@
       },
       "minAirportDistanceMiles": 2.5576335523991607,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1320,18 +1390,18 @@
             "distMiles": 4.9
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -1346,10 +1416,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.4
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.325Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1362,8 +1439,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1431,10 +1508,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1444,18 +1521,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -1470,10 +1547,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.325Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1486,8 +1570,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1555,10 +1639,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1568,18 +1652,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -1594,10 +1678,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.325Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1610,8 +1701,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1679,10 +1770,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1692,18 +1783,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -1718,10 +1809,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.325Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1734,8 +1832,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1799,10 +1897,10 @@
       },
       "minAirportDistanceMiles": 2.435316044644014,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1812,18 +1910,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -1838,10 +1936,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.326Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1854,8 +1959,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -1919,10 +2024,10 @@
       },
       "minAirportDistanceMiles": 2.3507394542049576,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -1932,18 +2037,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19
           },
           {
             "name": "Elmsett Airfield",
@@ -1958,10 +2063,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.326Z",
+        "generatedAt": "2026-07-31T14:08:00.234Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -1974,8 +2086,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2042,10 +2154,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -2081,10 +2193,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.326Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2097,8 +2216,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2162,10 +2281,10 @@
       },
       "minAirportDistanceMiles": 2.2928743003976013,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -2175,18 +2294,18 @@
             "distMiles": 4.7
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.9
           },
           {
             "name": "Elmsett Airfield",
@@ -2201,10 +2320,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.326Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2217,8 +2343,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2282,10 +2408,10 @@
       },
       "minAirportDistanceMiles": 2.2928743003976013,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -2295,18 +2421,18 @@
             "distMiles": 4.7
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.9
           },
           {
             "name": "Elmsett Airfield",
@@ -2321,10 +2447,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.326Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2337,8 +2470,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2402,10 +2535,10 @@
       },
       "minAirportDistanceMiles": 2.3507394542049576,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -2415,18 +2548,18 @@
             "distMiles": 4.5
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19
           },
           {
             "name": "Elmsett Airfield",
@@ -2441,10 +2574,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.327Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2457,8 +2597,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2525,10 +2665,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -2564,10 +2704,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.327Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2580,8 +2727,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2645,10 +2792,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -2684,10 +2831,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.327Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2700,8 +2854,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2765,10 +2919,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -2804,10 +2958,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.327Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2820,8 +2981,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -2885,10 +3046,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -2924,10 +3085,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.327Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2940,8 +3108,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3008,10 +3176,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3047,10 +3215,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.328Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3063,8 +3238,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3128,10 +3303,10 @@
       },
       "minAirportDistanceMiles": 3.4932938723376727,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3167,10 +3342,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.328Z",
+        "generatedAt": "2026-07-31T14:08:00.235Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3183,8 +3365,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3248,10 +3430,10 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3287,10 +3469,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 22.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.328Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3303,8 +3492,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3368,10 +3557,10 @@
       },
       "minAirportDistanceMiles": 2.001270083327489,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.5,
         "commercial": 0,
         "ga": 0.3,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -3381,18 +3570,18 @@
             "distMiles": 2
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 18
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 28
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18
           },
           {
             "name": "RAF Mildenhall",
@@ -3407,10 +3596,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 10.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.328Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3423,8 +3619,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.5,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3488,10 +3684,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3527,10 +3723,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.328Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3543,8 +3746,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3608,10 +3811,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3647,10 +3850,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.328Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3663,8 +3873,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3731,10 +3941,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -3770,10 +3980,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.329Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3786,8 +4003,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3854,10 +4071,10 @@
       },
       "minAirportDistanceMiles": 2.7788859106086528,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.2,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -3893,10 +4110,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 24
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.329Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3909,8 +4133,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -3977,10 +4201,10 @@
       },
       "minAirportDistanceMiles": 1.5829667954357993,
       "flyoverRef": {
-        "flightsPerDay": 0.6,
+        "flightsPerDay": 4.7,
         "commercial": 0,
         "ga": 0.5,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -4016,10 +4240,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.329Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4032,8 +4263,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.6,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.7,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4097,10 +4328,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4136,10 +4367,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.329Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4152,8 +4390,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4217,10 +4455,10 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4256,10 +4494,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 22.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.329Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4272,8 +4517,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4337,10 +4582,10 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4376,10 +4621,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 22.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.329Z",
+        "generatedAt": "2026-07-31T14:08:00.236Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4392,8 +4644,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4457,10 +4709,10 @@
       },
       "minAirportDistanceMiles": 2.1810013856574972,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4470,18 +4722,18 @@
             "distMiles": 14.6
           },
           {
-            "name": "Crowfield Airfield",
-            "icao": "EGSO",
-            "category": "airstrip",
-            "usage": "private",
-            "distMiles": 5.4
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 24.7
+          },
+          {
+            "name": "Crowfield Airfield",
+            "icao": "EGSO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 5.4
           },
           {
             "name": "RAF Mildenhall",
@@ -4496,10 +4748,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.8
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.330Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4512,8 +4771,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4577,10 +4836,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4616,10 +4875,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.330Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4632,8 +4898,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4697,10 +4963,10 @@
       },
       "minAirportDistanceMiles": 4.114893290350408,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.3,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4736,10 +5002,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.330Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4752,8 +5025,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:20:37.106Z"
@@ -4816,10 +5089,10 @@
       },
       "minAirportDistanceMiles": 2.963424345139423,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4855,10 +5128,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 22.6
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.330Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4869,8 +5149,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:36:34.454Z",
@@ -4938,10 +5218,10 @@
       },
       "minAirportDistanceMiles": 2.189814472099827,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.2,
         "topFacilities": [
           {
             "name": "RAF Honington",
@@ -4951,18 +5231,18 @@
             "distMiles": 14.6
           },
           {
-            "name": "Crowfield Airfield",
-            "icao": "EGSO",
-            "category": "airstrip",
-            "usage": "private",
-            "distMiles": 5.3
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 24.7
+          },
+          {
+            "name": "Crowfield Airfield",
+            "icao": "EGSO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 5.3
           },
           {
             "name": "RAF Mildenhall",
@@ -4977,10 +5257,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 12.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.330Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4991,8 +5278,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:36:34.454Z",
@@ -5060,10 +5347,10 @@
       },
       "minAirportDistanceMiles": 2.457994952213508,
       "flyoverRef": {
-        "flightsPerDay": 0.2,
+        "flightsPerDay": 4.2,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Crowfield Airfield",
@@ -5073,18 +5360,18 @@
             "distMiles": 4.6
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 19.1
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 29.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.1
           },
           {
             "name": "Elmsett Airfield",
@@ -5099,10 +5386,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 19.7
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.330Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -5113,8 +5407,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.2,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:36:34.454Z",
@@ -5182,10 +5476,10 @@
       },
       "minAirportDistanceMiles": 4.446958372706562,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 4.1,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5221,10 +5515,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 22.2
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.331Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -5235,8 +5536,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:36:34.454Z",
@@ -5304,10 +5605,10 @@
       },
       "minAirportDistanceMiles": 2.8113175755687765,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 4.3,
         "commercial": 0.1,
         "ga": 0,
-        "military": 0.1,
+        "military": 4.1,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5317,18 +5618,18 @@
             "distMiles": 20.2
           },
           {
-            "name": "RAF Honington",
-            "icao": "EGXH",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 17.9
-          },
-          {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 26.5
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.9
           },
           {
             "name": "RAF Mildenhall",
@@ -5343,10 +5644,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 9.5
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.331Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5357,8 +5665,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:36:34.454Z",
@@ -5426,10 +5734,10 @@
       },
       "minAirportDistanceMiles": 2.817235126834974,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.5,
         "commercial": 0.4,
         "ga": 0.1,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Norwich Airport",
@@ -5465,10 +5773,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 14.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.331Z",
+        "generatedAt": "2026-07-31T14:08:00.237Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5479,8 +5794,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.5,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:36:34.454Z",
@@ -5530,5 +5845,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.321Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.335Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:00.241Z"
 }

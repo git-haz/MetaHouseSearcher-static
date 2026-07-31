@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -87,6 +87,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -101,15 +108,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.254Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,8 +129,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -191,10 +198,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -211,6 +218,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -225,15 +239,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.254Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -246,8 +260,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -315,10 +329,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -335,6 +349,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -349,15 +370,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.255Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -370,8 +391,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -439,10 +460,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -459,6 +480,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -473,15 +501,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.255Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +522,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -563,10 +591,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -583,6 +611,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -597,15 +632,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.255Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,8 +653,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -687,10 +722,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -707,6 +742,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -721,15 +763,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.255Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,8 +784,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z",
@@ -815,10 +857,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -835,6 +877,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -849,15 +898,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.255Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -870,8 +919,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -939,10 +988,10 @@
       },
       "minAirportDistanceMiles": 2.019417154239683,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -950,6 +999,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
           },
           {
             "name": "RAF Mildenhall",
@@ -973,15 +1029,15 @@
             "distMiles": 3
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.5
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.256Z",
+        "generatedAt": "2026-07-31T14:08:00.202Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -994,8 +1050,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1063,10 +1119,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1083,6 +1139,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -1097,15 +1160,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.256Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1118,8 +1181,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1187,10 +1250,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1207,6 +1270,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -1221,15 +1291,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.256Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1242,8 +1312,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1311,10 +1381,10 @@
       },
       "minAirportDistanceMiles": 2.0910247820122922,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1322,6 +1392,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.6
           },
           {
             "name": "RAF Mildenhall",
@@ -1345,15 +1422,15 @@
             "distMiles": 2.8
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.256Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1366,8 +1443,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1435,10 +1512,10 @@
       },
       "minAirportDistanceMiles": 2.4548073068229668,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.6,
         "ga": 0.5,
-        "military": 0.4,
+        "military": 4.5,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1446,6 +1523,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 26.6
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.1
           },
           {
             "name": "Newmarket Heath Airfield",
@@ -1469,15 +1553,15 @@
             "distMiles": 7.6
           },
           {
-            "name": "Duxford Aerodrome",
-            "icao": "EGSU",
-            "category": "airstrip",
-            "usage": "private",
-            "distMiles": 14.6
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.256Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1490,8 +1574,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1555,10 +1639,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1575,6 +1659,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -1589,15 +1680,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.257Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1610,8 +1701,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1675,10 +1766,10 @@
       },
       "minAirportDistanceMiles": 2.227958600373638,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.5,
-        "military": 0.4,
+        "military": 4.5,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1686,6 +1777,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 26.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.8
           },
           {
             "name": "RAF Mildenhall",
@@ -1709,15 +1807,15 @@
             "distMiles": 7.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.8
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.257Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1730,8 +1828,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1795,10 +1893,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1815,6 +1913,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -1829,15 +1934,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.257Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1850,8 +1955,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1915,10 +2020,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -1935,6 +2040,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -1949,15 +2061,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.257Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1970,8 +2082,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2035,10 +2147,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2055,6 +2167,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -2069,15 +2188,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.257Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2090,8 +2209,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2155,10 +2274,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2175,6 +2294,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -2189,15 +2315,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.257Z",
+        "generatedAt": "2026-07-31T14:08:00.203Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2210,8 +2336,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2277,10 +2403,10 @@
       },
       "minAirportDistanceMiles": 1.9764923748450667,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.6,
         "ga": 0.5,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2288,6 +2414,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 26.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
           },
           {
             "name": "RAF Mildenhall",
@@ -2311,15 +2444,15 @@
             "distMiles": 8.2
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.5
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.258Z",
+        "generatedAt": "2026-07-31T14:08:00.204Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2332,8 +2465,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z",
@@ -2401,10 +2534,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2421,6 +2554,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -2435,15 +2575,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.258Z",
+        "generatedAt": "2026-07-31T14:08:00.204Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2456,8 +2596,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2521,10 +2661,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2541,6 +2681,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -2555,15 +2702,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.258Z",
+        "generatedAt": "2026-07-31T14:08:00.204Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2576,8 +2723,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2641,10 +2788,10 @@
       },
       "minAirportDistanceMiles": 1.9114054973154482,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2652,6 +2799,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
           },
           {
             "name": "RAF Mildenhall",
@@ -2675,15 +2829,15 @@
             "distMiles": 3
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.4
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.258Z",
+        "generatedAt": "2026-07-31T14:08:00.205Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2696,8 +2850,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2761,10 +2915,10 @@
       },
       "minAirportDistanceMiles": 1.9114054973154482,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2772,6 +2926,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
           },
           {
             "name": "RAF Mildenhall",
@@ -2795,15 +2956,15 @@
             "distMiles": 3
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.4
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.258Z",
+        "generatedAt": "2026-07-31T14:08:00.205Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -2816,8 +2977,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2881,10 +3042,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -2901,6 +3062,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -2915,15 +3083,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.258Z",
+        "generatedAt": "2026-07-31T14:08:00.205Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2936,8 +3104,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -3001,10 +3169,10 @@
       },
       "minAirportDistanceMiles": 1.9574323943435838,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3012,6 +3180,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
           },
           {
             "name": "RAF Mildenhall",
@@ -3035,15 +3210,15 @@
             "distMiles": 3
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.4
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.259Z",
+        "generatedAt": "2026-07-31T14:08:00.205Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3056,8 +3231,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -3121,10 +3296,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3141,6 +3316,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -3155,15 +3337,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.259Z",
+        "generatedAt": "2026-07-31T14:08:00.205Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3176,8 +3358,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -3241,10 +3423,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3261,6 +3443,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -3275,15 +3464,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.259Z",
+        "generatedAt": "2026-07-31T14:08:00.205Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3296,8 +3485,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -3361,10 +3550,10 @@
       },
       "minAirportDistanceMiles": 1.7370823169636949,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3372,6 +3561,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.6
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.2
           },
           {
             "name": "RAF Mildenhall",
@@ -3395,15 +3591,15 @@
             "distMiles": 3.2
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.2
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.259Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3416,8 +3612,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -3523,7 +3719,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.259Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3601,10 +3797,10 @@
       },
       "minAirportDistanceMiles": 2.1087668423530883,
       "flyoverRef": {
-        "flightsPerDay": 1.4,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3612,6 +3808,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
           },
           {
             "name": "RAF Mildenhall",
@@ -3635,15 +3838,15 @@
             "distMiles": 3.1
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.5
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.260Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3656,8 +3859,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.4,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -3763,7 +3966,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.260Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3844,10 +4047,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3864,6 +4067,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -3878,15 +4088,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.260Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3897,8 +4107,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:32:00.260Z",
@@ -3966,10 +4176,10 @@
       },
       "minAirportDistanceMiles": 2.1317832043870637,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.6,
         "commercial": 0.6,
         "ga": 0.4,
-        "military": 0.4,
+        "military": 4.6,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -3977,6 +4187,13 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 27.1
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.6
           },
           {
             "name": "RAF Mildenhall",
@@ -4000,15 +4217,15 @@
             "distMiles": 2.8
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 13.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.260Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4019,8 +4236,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:32:00.260Z",
@@ -4087,10 +4304,10 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "flightsPerDay": 1.5,
+        "flightsPerDay": 5.7,
         "commercial": 0.7,
         "ga": 0.6,
-        "military": 0.3,
+        "military": 4.4,
         "topFacilities": [
           {
             "name": "London Stansted Airport",
@@ -4107,6 +4324,13 @@
             "distMiles": 5.1
           },
           {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          },
+          {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
             "category": "airport",
@@ -4121,15 +4345,15 @@
             "distMiles": 12.9
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 16.6
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.260Z",
+        "generatedAt": "2026-07-31T14:08:00.206Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4140,8 +4364,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 1.5,
-        "flightsDiffPct": -99
+        "flightsPerDay": 5.7,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:32:00.260Z",
@@ -4191,5 +4415,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.317Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.264Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:00.209Z"
 }

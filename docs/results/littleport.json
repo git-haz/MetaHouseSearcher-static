@@ -67,24 +67,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -106,10 +106,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.281Z",
+        "generatedAt": "2026-07-31T14:08:00.216Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -122,8 +129,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -191,18 +198,11 @@
       },
       "minAirportDistanceMiles": 2.945642765951098,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10.2
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
@@ -218,6 +218,13 @@
             "distMiles": 16.6
           },
           {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10.2
+          },
+          {
             "name": "RAF Honington",
             "icao": "EGXH",
             "category": "airport",
@@ -230,10 +237,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.4
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.281Z",
+        "generatedAt": "2026-07-31T14:08:00.216Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -246,8 +260,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -315,11 +329,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -328,11 +349,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -349,15 +370,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.281Z",
+        "generatedAt": "2026-07-31T14:08:00.216Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -370,8 +391,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -439,24 +460,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -478,10 +499,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.282Z",
+        "generatedAt": "2026-07-31T14:08:00.216Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -494,8 +522,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -563,24 +591,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -602,10 +630,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.282Z",
+        "generatedAt": "2026-07-31T14:08:00.216Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -618,8 +653,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -687,24 +722,24 @@
       },
       "minAirportDistanceMiles": 3.1383433370688527,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10.1
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10.1
           },
           {
             "name": "RAF Marham",
@@ -726,10 +761,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.1
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.282Z",
+        "generatedAt": "2026-07-31T14:08:00.216Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -742,8 +784,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -811,24 +853,24 @@
       },
       "minAirportDistanceMiles": 3.200511173464715,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 9.9
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.9
           },
           {
             "name": "RAF Marham",
@@ -850,10 +892,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.282Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -866,8 +915,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -935,11 +984,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -948,11 +1004,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -969,15 +1025,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.282Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -990,8 +1046,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1059,11 +1115,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -1072,11 +1135,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -1093,15 +1156,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.283Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1114,8 +1177,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1183,11 +1246,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -1196,11 +1266,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -1217,15 +1287,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.283Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1238,8 +1308,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1307,24 +1377,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -1346,10 +1416,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.283Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1362,8 +1439,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1431,24 +1508,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -1470,10 +1547,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.283Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1486,8 +1570,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1555,11 +1639,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -1568,11 +1659,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -1589,15 +1680,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.283Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1610,8 +1701,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1679,11 +1770,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -1692,11 +1790,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -1713,15 +1811,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.283Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1734,8 +1832,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1803,11 +1901,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -1816,11 +1921,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -1837,15 +1942,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.284Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1858,8 +1963,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -1927,11 +2032,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -1940,11 +2052,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -1961,15 +2073,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.284Z",
+        "generatedAt": "2026-07-31T14:08:00.217Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1982,8 +2094,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2051,18 +2163,11 @@
       },
       "minAirportDistanceMiles": 2.945642765951098,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10.2
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
@@ -2078,6 +2183,13 @@
             "distMiles": 16.6
           },
           {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10.2
+          },
+          {
             "name": "RAF Honington",
             "icao": "EGXH",
             "category": "airport",
@@ -2090,10 +2202,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.4
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.284Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2106,8 +2225,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2175,24 +2294,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -2214,10 +2333,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.284Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2230,8 +2356,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2299,24 +2425,24 @@
       },
       "minAirportDistanceMiles": 3.0939233047776225,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 4.8,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 4.7,
         "topFacilities": [
-          {
-            "name": "RAF Mildenhall",
-            "icao": "EGUN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 10
-          },
           {
             "name": "RAF Lakenheath",
             "icao": "EGUL",
             "category": "airport",
             "usage": "military",
             "distMiles": 11.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
           },
           {
             "name": "RAF Marham",
@@ -2338,10 +2464,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 18.3
+          },
+          {
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.284Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2354,8 +2487,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.8,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2422,11 +2555,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -2435,11 +2575,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -2456,15 +2596,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.285Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2477,8 +2617,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2542,11 +2682,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -2555,11 +2702,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -2576,15 +2723,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.285Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2597,8 +2744,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2662,11 +2809,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -2675,11 +2829,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -2696,15 +2850,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.285Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2717,8 +2871,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2782,11 +2936,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -2795,11 +2956,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -2816,15 +2977,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.285Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2837,8 +2998,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -2902,11 +3063,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -2915,11 +3083,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -2936,15 +3104,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.286Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2957,8 +3125,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3022,11 +3190,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3035,11 +3210,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3056,15 +3231,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.286Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3077,8 +3252,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3142,11 +3317,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3155,11 +3337,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3176,15 +3358,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.286Z",
+        "generatedAt": "2026-07-31T14:08:00.218Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3197,8 +3379,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3262,11 +3444,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3275,11 +3464,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3296,15 +3485,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.287Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3317,8 +3506,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3382,11 +3571,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3395,11 +3591,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3416,15 +3612,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.288Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3437,8 +3633,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3502,11 +3698,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3515,11 +3718,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3536,15 +3739,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.288Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3557,8 +3760,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3622,11 +3825,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3635,11 +3845,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3656,15 +3866,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.289Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3677,8 +3887,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3742,11 +3952,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3755,11 +3972,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3776,15 +3993,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.289Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3797,8 +4014,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3862,11 +4079,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3875,11 +4099,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -3896,15 +4120,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.289Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3917,8 +4141,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -3982,11 +4206,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -3995,11 +4226,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4016,15 +4247,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.289Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4037,8 +4268,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4102,11 +4333,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4115,11 +4353,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4136,15 +4374,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.289Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4157,8 +4395,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4225,11 +4463,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4238,11 +4483,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4259,15 +4504,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.290Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4280,8 +4525,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4345,11 +4590,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4358,11 +4610,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4379,15 +4631,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.290Z",
+        "generatedAt": "2026-07-31T14:08:00.219Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4400,8 +4652,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4465,11 +4717,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4478,11 +4737,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4499,15 +4758,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.290Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4520,8 +4779,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4588,11 +4847,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4601,11 +4867,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4622,15 +4888,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.290Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4643,8 +4909,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4708,11 +4974,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4721,11 +4994,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4742,15 +5015,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.291Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4763,8 +5036,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4828,11 +5101,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4841,11 +5121,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4862,15 +5142,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.291Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4883,8 +5163,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -4948,11 +5228,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -4961,11 +5248,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -4982,15 +5269,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.291Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5003,8 +5290,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -5068,11 +5355,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -5081,11 +5375,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -5102,15 +5396,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.291Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5123,8 +5417,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -5188,11 +5482,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -5201,11 +5502,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -5222,15 +5523,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.292Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5243,8 +5544,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -5308,11 +5609,18 @@
       },
       "minAirportDistanceMiles": 2.3148198492931855,
       "flyoverRef": {
-        "flightsPerDay": 0.4,
+        "flightsPerDay": 4.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.3,
+        "military": 4.5,
         "topFacilities": [
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
           {
             "name": "RAF Mildenhall",
             "icao": "EGUN",
@@ -5321,11 +5629,11 @@
             "distMiles": 11.5
           },
           {
-            "name": "RAF Lakenheath",
-            "icao": "EGUL",
+            "name": "RAF Marham",
+            "icao": "EGYM",
             "category": "airport",
             "usage": "military",
-            "distMiles": 14.2
+            "distMiles": 21.7
           },
           {
             "name": "Cambridge City Airport",
@@ -5342,15 +5650,15 @@
             "distMiles": 22.1
           },
           {
-            "name": "RAF Marham",
-            "icao": "EGYM",
-            "category": "airport",
+            "name": "Low Flying Area 3 — East Anglia",
+            "icao": null,
+            "category": "LFA",
             "usage": "military",
-            "distMiles": 21.7
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.292Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5363,8 +5671,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.4,
-        "flightsDiffPct": -100
+        "flightsPerDay": 4.6,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -5428,10 +5736,10 @@
       },
       "minAirportDistanceMiles": 5.808780189799157,
       "flyoverRef": {
-        "flightsPerDay": 6.3,
+        "flightsPerDay": 10.3,
         "commercial": 6.3,
         "ga": 0,
-        "military": 0,
+        "military": 4,
         "topFacilities": [
           {
             "name": "Manchester Airport",
@@ -5446,10 +5754,17 @@
             "category": "airport",
             "usage": "commercial",
             "distMiles": 26.6
+          },
+          {
+            "name": "Low Flying Area 16 — Pennines & Peak District",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.292Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5462,8 +5777,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 6.3,
-        "flightsDiffPct": -97
+        "flightsPerDay": 10.3,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:18:24.062Z"
@@ -5561,7 +5876,7 @@
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.292Z",
+        "generatedAt": "2026-07-31T14:08:00.220Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5641,11 +5956,18 @@
       },
       "minAirportDistanceMiles": 1.7039166561939112,
       "flyoverRef": {
-        "flightsPerDay": 0.5,
+        "flightsPerDay": 5.6,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0.4,
+        "military": 5.5,
         "topFacilities": [
+          {
+            "name": "RAF Brize Norton",
+            "icao": "EGVN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.9
+          },
           {
             "name": "RAF Benson",
             "icao": "EGUB",
@@ -5661,13 +5983,6 @@
             "distMiles": 6.6
           },
           {
-            "name": "RAF Brize Norton",
-            "icao": "EGVN",
-            "category": "airport",
-            "usage": "military",
-            "distMiles": 14.9
-          },
-          {
             "name": "RAF Fairford",
             "icao": "EGVA",
             "category": "airport",
@@ -5680,10 +5995,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 16.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.293Z",
+        "generatedAt": "2026-07-31T14:08:00.221Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5694,8 +6016,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.5,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.6,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -5763,10 +6085,10 @@
       },
       "minAirportDistanceMiles": 1.5209323226471356,
       "flyoverRef": {
-        "flightsPerDay": 8.8,
+        "flightsPerDay": 13.8,
         "commercial": 8.1,
         "ga": 0.4,
-        "military": 0.3,
+        "military": 5.3,
         "topFacilities": [
           {
             "name": "London Heathrow Airport",
@@ -5802,10 +6124,17 @@
             "category": "airport",
             "usage": "private",
             "distMiles": 12.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.293Z",
+        "generatedAt": "2026-07-31T14:08:00.221Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -5816,8 +6145,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 8.8,
-        "flightsDiffPct": -96
+        "flightsPerDay": 13.8,
+        "flightsDiffPct": -93
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:34:15.473Z",
@@ -5867,5 +6196,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.318Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.303Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:00.226Z"
 }

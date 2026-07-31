@@ -67,10 +67,10 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -92,10 +92,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.179Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -108,8 +115,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -177,10 +184,10 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -202,10 +209,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.179Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -218,8 +232,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -287,10 +301,10 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -312,10 +326,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.179Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -328,8 +349,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -397,10 +418,10 @@
       },
       "minAirportDistanceMiles": 2.605338406204555,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -422,10 +443,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.179Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -438,8 +466,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z",
@@ -511,10 +539,10 @@
       },
       "minAirportDistanceMiles": 2.4305163756228207,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -536,10 +564,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.179Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -552,8 +587,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -621,10 +656,10 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -646,10 +681,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.180Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -662,8 +704,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -731,10 +773,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -756,10 +798,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.180Z",
+        "generatedAt": "2026-07-31T14:08:00.161Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -772,8 +821,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -841,10 +890,10 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -866,10 +915,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.180Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -882,8 +938,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -951,10 +1007,10 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -976,10 +1032,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.180Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -992,8 +1055,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1061,10 +1124,10 @@
       },
       "minAirportDistanceMiles": 2.471727675395755,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1086,10 +1149,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.180Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1102,8 +1172,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1171,10 +1241,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1196,10 +1266,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.180Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1212,8 +1289,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z",
@@ -1287,10 +1364,10 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1312,10 +1389,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.181Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1328,8 +1412,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1397,10 +1481,10 @@
       },
       "minAirportDistanceMiles": 2.3135771141703594,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1422,10 +1506,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.1
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.181Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1438,8 +1529,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1507,10 +1598,10 @@
       },
       "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1532,10 +1623,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.181Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1548,8 +1646,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1617,10 +1715,10 @@
       },
       "minAirportDistanceMiles": 2.4834135380986497,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1642,10 +1740,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.184Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1658,8 +1763,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1727,10 +1832,10 @@
       },
       "minAirportDistanceMiles": 2.4275116540631503,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1752,10 +1857,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.184Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1768,8 +1880,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1837,10 +1949,10 @@
       },
       "minAirportDistanceMiles": 2.5512794917600736,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1862,10 +1974,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.185Z",
+        "generatedAt": "2026-07-31T14:08:00.162Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1878,8 +1997,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1947,10 +2066,10 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -1972,10 +2091,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.6
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.185Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -1988,8 +2114,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2053,10 +2179,10 @@
       },
       "minAirportDistanceMiles": 2.4305163756228207,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2078,10 +2204,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.185Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2094,8 +2227,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2159,10 +2292,10 @@
       },
       "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2184,10 +2317,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.185Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2200,8 +2340,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2265,10 +2405,10 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2290,10 +2430,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.185Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2306,8 +2453,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2371,10 +2518,10 @@
       },
       "minAirportDistanceMiles": 2.6667330089299868,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2396,10 +2543,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.185Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2412,8 +2566,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2477,10 +2631,10 @@
       },
       "minAirportDistanceMiles": 2.6667330089299868,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2502,10 +2656,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.186Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2518,8 +2679,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2583,10 +2744,10 @@
       },
       "minAirportDistanceMiles": 2.6687148158916245,
       "flyoverRef": {
-        "flightsPerDay": 0.3,
+        "flightsPerDay": 5.3,
         "commercial": 0.2,
         "ga": 0.2,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "London Southend Airport",
@@ -2622,10 +2783,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 6.9
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.186Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2638,8 +2806,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 0.3,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.3,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2703,10 +2871,10 @@
       },
       "minAirportDistanceMiles": 2.6512398668599713,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2728,10 +2896,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.186Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2744,8 +2919,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2809,10 +2984,10 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2834,10 +3009,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.186Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2850,8 +3032,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2915,10 +3097,10 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -2940,10 +3122,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.2
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.189Z",
+        "generatedAt": "2026-07-31T14:08:00.163Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -2956,8 +3145,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3021,10 +3210,10 @@
       },
       "minAirportDistanceMiles": 2.471727675395755,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3046,10 +3235,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.189Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3062,8 +3258,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3127,10 +3323,10 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3152,10 +3348,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.189Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3168,8 +3371,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z",
@@ -3238,10 +3441,10 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3263,10 +3466,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.190Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3279,8 +3489,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3344,10 +3554,10 @@
       },
       "minAirportDistanceMiles": 2.349912268160801,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3369,10 +3579,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.194Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -3385,8 +3602,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3450,10 +3667,10 @@
       },
       "minAirportDistanceMiles": 2.4629985556342735,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3475,10 +3692,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.194Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3491,8 +3715,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3556,10 +3780,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3581,10 +3805,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.194Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3597,8 +3828,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3662,10 +3893,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3687,10 +3918,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.195Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3703,8 +3941,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3768,10 +4006,10 @@
       },
       "minAirportDistanceMiles": 2.9571419066380193,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3793,10 +4031,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.195Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3809,8 +4054,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3874,10 +4119,10 @@
       },
       "minAirportDistanceMiles": 2.031755592047333,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -3899,10 +4144,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.195Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -3915,8 +4167,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3980,10 +4232,10 @@
       },
       "minAirportDistanceMiles": 2.0004667249758956,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4005,10 +4257,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.3
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.196Z",
+        "generatedAt": "2026-07-31T14:08:00.164Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4021,8 +4280,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4086,10 +4345,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4111,10 +4370,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.196Z",
+        "generatedAt": "2026-07-31T14:08:00.165Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4127,8 +4393,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4192,10 +4458,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4217,10 +4483,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.196Z",
+        "generatedAt": "2026-07-31T14:08:00.165Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4233,8 +4506,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4298,10 +4571,10 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4323,10 +4596,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.7
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.196Z",
+        "generatedAt": "2026-07-31T14:08:00.165Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4339,8 +4619,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4404,10 +4684,10 @@
       },
       "minAirportDistanceMiles": 1.9850704134199768,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4429,10 +4709,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 20.9
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.196Z",
+        "generatedAt": "2026-07-31T14:08:00.165Z",
         "interpolated": false
       },
       "keywordsMatched": 1,
@@ -4445,8 +4732,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4510,10 +4797,10 @@
       },
       "minAirportDistanceMiles": 1.9673432651365563,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4535,10 +4822,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.197Z",
+        "generatedAt": "2026-07-31T14:08:00.165Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4551,8 +4845,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4616,10 +4910,10 @@
       },
       "minAirportDistanceMiles": 1.9673432651365563,
       "flyoverRef": {
-        "flightsPerDay": 0.1,
+        "flightsPerDay": 5.1,
         "commercial": 0,
         "ga": 0.1,
-        "military": 0,
+        "military": 5,
         "topFacilities": [
           {
             "name": "Lydd London Ashford Airport",
@@ -4641,10 +4935,17 @@
             "category": "airstrip",
             "usage": "private",
             "distMiles": 21.4
+          },
+          {
+            "name": "Low Flying Area 14 — Southern England",
+            "icao": null,
+            "category": "LFA",
+            "usage": "military",
+            "distMiles": null
           }
         ],
         "method": "facility-direct",
-        "generatedAt": "2026-07-31T13:51:30.197Z",
+        "generatedAt": "2026-07-31T14:08:00.165Z",
         "interpolated": false
       },
       "keywordsMatched": 0,
@@ -4657,8 +4958,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 0.1,
-        "flightsDiffPct": -100
+        "flightsPerDay": 5.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -4703,5 +5004,5 @@
   ],
   "dupePassAt": "2026-07-28T10:16:38.310Z",
   "autoTaggedAt": "2026-07-30T12:15:32.295Z",
-  "flyoverRescoredAt": "2026-07-31T13:51:30.206Z"
+  "flyoverRescoredAt": "2026-07-31T14:08:00.169Z"
 }
