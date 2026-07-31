@@ -67,10 +67,50 @@
       },
       "minAirportDistanceMiles": 5.814429202457462,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.2
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.1
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +122,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.6,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -151,10 +191,50 @@
       },
       "minAirportDistanceMiles": 5.6713975353582535,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +246,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.8,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z",
@@ -239,10 +319,50 @@
       },
       "minAirportDistanceMiles": 5.782982801551091,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.2
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -254,8 +374,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -323,10 +443,50 @@
       },
       "minAirportDistanceMiles": 5.6713975353582535,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -338,8 +498,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.8,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z",
@@ -411,10 +571,50 @@
       },
       "minAirportDistanceMiles": 5.752100022429618,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -426,8 +626,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -495,10 +695,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -510,8 +750,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -579,10 +819,50 @@
       },
       "minAirportDistanceMiles": 5.843190713009117,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.3
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.1
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.863Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -594,8 +874,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.5,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -663,10 +943,50 @@
       },
       "minAirportDistanceMiles": 5.554082386216037,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 198.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -678,8 +998,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 198.1,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -747,10 +1067,50 @@
       },
       "minAirportDistanceMiles": 5.6713975353582535,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -762,8 +1122,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.8,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -831,10 +1191,50 @@
       },
       "minAirportDistanceMiles": 5.5596977160295955,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 198.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.9
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -846,8 +1246,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 198.1,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -915,10 +1315,50 @@
       },
       "minAirportDistanceMiles": 5.7527233893457606,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.2
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -930,8 +1370,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -999,10 +1439,50 @@
       },
       "minAirportDistanceMiles": 5.586526547194609,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 198,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1014,8 +1494,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 198,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1083,10 +1563,50 @@
       },
       "minAirportDistanceMiles": 5.586526547194609,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 198,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1098,8 +1618,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 198,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1167,10 +1687,50 @@
       },
       "minAirportDistanceMiles": 5.752100022429618,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1182,8 +1742,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1251,10 +1811,50 @@
       },
       "minAirportDistanceMiles": 5.752100022429618,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1266,8 +1866,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1335,10 +1935,50 @@
       },
       "minAirportDistanceMiles": 4.8606872808455694,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 199.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.8
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.3
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.4
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1350,8 +1990,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 199.4,
-        "flightsDiffPct": -5
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1419,10 +2059,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1434,8 +2114,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1503,10 +2183,50 @@
       },
       "minAirportDistanceMiles": 5.586526547194609,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 198,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.864Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1518,8 +2238,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 198,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1587,10 +2307,50 @@
       },
       "minAirportDistanceMiles": 5.752100022429618,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1602,8 +2362,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1671,10 +2431,50 @@
       },
       "minAirportDistanceMiles": 5.6713975353582535,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1686,8 +2486,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.8,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1755,10 +2555,50 @@
       },
       "minAirportDistanceMiles": 5.758663061564965,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.2
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.1
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1770,8 +2610,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.7,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1838,10 +2678,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1853,8 +2733,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1918,10 +2798,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1933,8 +2853,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -1998,10 +2918,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2013,8 +2973,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2078,10 +3038,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2093,8 +3093,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2158,10 +3158,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2173,8 +3213,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2242,10 +3282,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2257,8 +3337,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2322,10 +3402,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.865Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2337,8 +3457,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2402,10 +3522,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2417,8 +3577,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2482,10 +3642,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2497,8 +3697,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2562,10 +3762,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2577,8 +3817,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2642,10 +3882,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2657,8 +3937,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2722,10 +4002,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2737,8 +4057,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2802,10 +4122,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2817,8 +4177,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2882,10 +4242,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2897,8 +4297,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -2965,10 +4365,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2980,8 +4420,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -3049,10 +4489,50 @@
       },
       "minAirportDistanceMiles": 5.976673109594704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.6
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3064,8 +4544,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.4,
-        "flightsDiffPct": -6
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:33:57.674Z"
@@ -3133,10 +4613,50 @@
       },
       "minAirportDistanceMiles": 5.6713975353582535,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 197.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.866Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3148,8 +4668,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 197.8,
-        "flightsDiffPct": 134
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:30:32.515Z"
@@ -3193,5 +4713,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.336Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:30.870Z"
 }

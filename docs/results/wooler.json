@@ -67,10 +67,22 @@
       },
       "minAirportDistanceMiles": 4.380087155066474,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.327Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +94,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -150,10 +162,22 @@
       },
       "minAirportDistanceMiles": 4.245487128380183,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.327Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -165,8 +189,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -234,10 +258,22 @@
       },
       "minAirportDistanceMiles": 4.245487128380183,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.327Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -249,8 +285,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -318,10 +354,22 @@
       },
       "minAirportDistanceMiles": 4.245487128380183,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.327Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -333,8 +381,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -402,10 +450,22 @@
       },
       "minAirportDistanceMiles": 4.242885614989219,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.328Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -417,8 +477,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -486,10 +546,22 @@
       },
       "minAirportDistanceMiles": 4.345658359037193,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.328Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -501,8 +573,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -570,10 +642,22 @@
       },
       "minAirportDistanceMiles": 4.219608527580274,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.328Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -585,8 +669,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -650,10 +734,22 @@
       },
       "minAirportDistanceMiles": 3.01472108725103,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.328Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -665,8 +761,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -730,10 +826,22 @@
       },
       "minAirportDistanceMiles": 3.01472108725103,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.328Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -745,8 +853,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -810,10 +918,22 @@
       },
       "minAirportDistanceMiles": 3.01472108725103,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.329Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -825,8 +945,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -890,10 +1010,22 @@
       },
       "minAirportDistanceMiles": 3.01472108725103,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.329Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -905,8 +1037,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -970,10 +1102,22 @@
       },
       "minAirportDistanceMiles": 4.088746684301485,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.329Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -985,8 +1129,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.1,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1052,10 +1196,22 @@
       },
       "minAirportDistanceMiles": 4.245487128380183,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.329Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1067,8 +1223,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1132,10 +1288,22 @@
       },
       "minAirportDistanceMiles": 3.01472108725103,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.329Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1147,8 +1315,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1212,10 +1380,22 @@
       },
       "minAirportDistanceMiles": 4.241122983923004,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.329Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1227,8 +1407,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1292,10 +1472,22 @@
       },
       "minAirportDistanceMiles": 4.241122983923004,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1307,8 +1499,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1372,10 +1564,22 @@
       },
       "minAirportDistanceMiles": 4.241122983923004,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1387,8 +1591,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z",
@@ -1455,10 +1659,22 @@
       },
       "minAirportDistanceMiles": 4.241122983923004,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1470,8 +1686,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z",
@@ -1538,10 +1754,22 @@
       },
       "minAirportDistanceMiles": 4.241122983923004,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1553,8 +1781,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.9,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1618,10 +1846,29 @@
       },
       "minAirportDistanceMiles": 3.486032088554885,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 5.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1633,8 +1880,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 245.8,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1698,10 +1945,22 @@
       },
       "minAirportDistanceMiles": 0.9429681629130905,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 249.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 23.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1713,8 +1972,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 249.9,
-        "flightsDiffPct": 19
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1778,10 +2037,22 @@
       },
       "minAirportDistanceMiles": 11.113603703406511,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.330Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1801,8 +2072,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.7,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1866,10 +2137,22 @@
       },
       "minAirportDistanceMiles": 12.450743605186922,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 28.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.331Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1889,8 +2172,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.7,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -1954,10 +2237,22 @@
       },
       "minAirportDistanceMiles": 11.113603703406511,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.331Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1977,8 +2272,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 248.7,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2045,10 +2340,22 @@
       },
       "minAirportDistanceMiles": 8.691071609425107,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.331Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2060,8 +2367,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.8,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2125,10 +2432,22 @@
       },
       "minAirportDistanceMiles": 9.207833131040283,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 15.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.331Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2148,8 +2467,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 246.9,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2213,10 +2532,22 @@
       },
       "minAirportDistanceMiles": 9.369232221923948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 15.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.332Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2236,8 +2567,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 246.9,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2301,10 +2632,22 @@
       },
       "minAirportDistanceMiles": 9.833813627890368,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 15.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.332Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2324,8 +2667,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 246.9,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2392,10 +2735,29 @@
       },
       "minAirportDistanceMiles": 3.486032088554885,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 5.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.332Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2407,8 +2769,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 245.8,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2472,10 +2834,22 @@
       },
       "minAirportDistanceMiles": 8.691071609425107,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.332Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2487,8 +2861,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.8,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2552,10 +2926,22 @@
       },
       "minAirportDistanceMiles": 8.691071609425107,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.333Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2567,8 +2953,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.8,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2632,10 +3018,22 @@
       },
       "minAirportDistanceMiles": 9.001348383974534,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 15.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.333Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2655,8 +3053,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 246.9,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:55:39.747Z"
@@ -2720,10 +3118,29 @@
       },
       "minAirportDistanceMiles": 3.486032088554885,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 5.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.333Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2735,8 +3152,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 245.8,
-        "flightsDiffPct": 191
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:53:07.136Z"
@@ -2780,5 +3197,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.358Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.347Z"
 }

@@ -67,10 +67,14 @@
       },
       "minAirportDistanceMiles": 16.6094285680026,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.761Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +86,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z",
@@ -155,10 +159,14 @@
       },
       "minAirportDistanceMiles": 16.401740083215632,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.761Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -170,8 +178,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.2,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z",
@@ -243,10 +251,14 @@
       },
       "minAirportDistanceMiles": 16.702271405034086,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.761Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -258,8 +270,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -327,10 +339,14 @@
       },
       "minAirportDistanceMiles": 16.69983616461092,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.761Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -342,8 +358,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -411,10 +427,14 @@
       },
       "minAirportDistanceMiles": 16.401740083215632,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.762Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -426,8 +446,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.2,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -495,10 +515,50 @@
       },
       "minAirportDistanceMiles": 2.484735625199809,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 311.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.8,
+        "commercial": 0.7,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Manchester Airport",
+            "icao": "EGCC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.6
+          },
+          {
+            "name": "RAF Shawbury",
+            "icao": "EGOS",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Cosford",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "Tatenhill Airfield",
+            "icao": "EGBM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          },
+          {
+            "name": "Derby Airfield",
+            "icao": "EGBD",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.762Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -510,8 +570,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 311.9,
-        "flightsDiffPct": 48
+        "flightsPerDay": 0.8,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -579,10 +639,14 @@
       },
       "minAirportDistanceMiles": 16.563022589416164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.762Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -594,8 +658,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -663,10 +727,14 @@
       },
       "minAirportDistanceMiles": 16.563022589416164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.762Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -678,8 +746,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -747,10 +815,50 @@
       },
       "minAirportDistanceMiles": 2.354878168051856,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 469.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.6,
+        "commercial": 0,
+        "ga": 0.2,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Fairford",
+            "icao": "EGVA",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.8
+          },
+          {
+            "name": "Cotswold Airport",
+            "icao": "EGBP",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 14.8
+          },
+          {
+            "name": "RAF Brize Norton",
+            "icao": "EGVN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Gloucestershire Airport",
+            "icao": "EGBJ",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29
+          },
+          {
+            "name": "MoD Boscombe Down",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.762Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -762,8 +870,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 469.9,
-        "flightsDiffPct": 123
+        "flightsPerDay": 0.6,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -831,10 +939,14 @@
       },
       "minAirportDistanceMiles": 16.345151783606635,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.762Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -846,8 +958,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.2,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -915,10 +1027,14 @@
       },
       "minAirportDistanceMiles": 16.61745927329462,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -930,8 +1046,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -999,10 +1115,14 @@
       },
       "minAirportDistanceMiles": 16.563022589416164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1014,8 +1134,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1083,10 +1203,14 @@
       },
       "minAirportDistanceMiles": 16.61745927329462,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1098,8 +1222,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1163,10 +1287,14 @@
       },
       "minAirportDistanceMiles": 16.563022589416164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1178,8 +1306,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1243,10 +1371,14 @@
       },
       "minAirportDistanceMiles": 16.563022589416164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1258,8 +1390,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1323,10 +1455,14 @@
       },
       "minAirportDistanceMiles": 16.6094285680026,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1338,8 +1474,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1403,10 +1539,14 @@
       },
       "minAirportDistanceMiles": 16.563022589416164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1418,8 +1558,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1483,10 +1623,14 @@
       },
       "minAirportDistanceMiles": 16.401740083215632,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1498,8 +1642,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.2,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1563,10 +1707,14 @@
       },
       "minAirportDistanceMiles": 16.345151783606635,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1578,8 +1726,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.2,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1643,10 +1791,14 @@
       },
       "minAirportDistanceMiles": 16.69983616461092,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1658,8 +1810,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1723,10 +1875,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.763Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1746,8 +1902,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1811,10 +1967,14 @@
       },
       "minAirportDistanceMiles": 16.56112905739256,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1826,8 +1986,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.1,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1891,10 +2051,14 @@
       },
       "minAirportDistanceMiles": 16.298040848160067,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1906,8 +2070,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.3,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -1971,10 +2135,14 @@
       },
       "minAirportDistanceMiles": 16.298040848160067,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1986,8 +2154,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.3,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2051,10 +2219,14 @@
       },
       "minAirportDistanceMiles": 16.249199409241744,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2066,8 +2238,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.3,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2131,10 +2303,14 @@
       },
       "minAirportDistanceMiles": 16.87795131064843,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2146,8 +2322,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 266,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2211,10 +2387,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2234,8 +2414,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2299,10 +2479,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2322,8 +2506,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2387,10 +2571,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2410,8 +2598,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2475,10 +2663,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2498,8 +2690,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2563,10 +2755,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2586,8 +2782,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2651,10 +2847,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2674,8 +2874,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2739,10 +2939,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2762,8 +2966,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z",
@@ -2833,10 +3037,14 @@
       },
       "minAirportDistanceMiles": 17.260796012701746,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2856,8 +3064,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -2921,10 +3129,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2944,8 +3156,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -3009,10 +3221,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3032,8 +3248,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -3097,10 +3313,14 @@
       },
       "minAirportDistanceMiles": 18.11812145675794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3120,8 +3340,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.7,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:15:48.591Z"
@@ -3165,5 +3385,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.376Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.769Z"
 }

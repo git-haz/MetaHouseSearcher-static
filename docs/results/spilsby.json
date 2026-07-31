@@ -67,10 +67,50 @@
       },
       "minAirportDistanceMiles": 2.562469997275772,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 181,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.840Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +122,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 181,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -151,10 +191,50 @@
       },
       "minAirportDistanceMiles": 2.562469997275772,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 181,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.841Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +246,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 181,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -235,10 +315,50 @@
       },
       "minAirportDistanceMiles": 2.9793045783428567,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.841Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +370,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -319,10 +439,50 @@
       },
       "minAirportDistanceMiles": 2.9793045783428567,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.841Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +494,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -403,10 +563,50 @@
       },
       "minAirportDistanceMiles": 2.8295060751985996,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.841Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -418,8 +618,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.6,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -487,10 +687,50 @@
       },
       "minAirportDistanceMiles": 2.733909783255835,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.9
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.841Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -502,8 +742,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.6,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -571,10 +811,50 @@
       },
       "minAirportDistanceMiles": 2.598843425485875,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 181,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.3
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.842Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -586,8 +866,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 181,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -655,10 +935,50 @@
       },
       "minAirportDistanceMiles": 2.790046380767199,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.842Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -670,8 +990,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.6,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -739,10 +1059,50 @@
       },
       "minAirportDistanceMiles": 2.9099087794452565,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.3
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.842Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -754,8 +1114,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.6,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -823,10 +1183,50 @@
       },
       "minAirportDistanceMiles": 2.5692605873512755,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.9
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.842Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -838,8 +1238,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -907,10 +1307,50 @@
       },
       "minAirportDistanceMiles": 2.6580601499941268,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.842Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -922,8 +1362,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.8,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z",
@@ -995,10 +1435,50 @@
       },
       "minAirportDistanceMiles": 3.6705453548567006,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 205.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.3
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.8
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.8
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 21
+          },
+          {
+            "name": "RAF Wittering",
+            "icao": "EGXT",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.842Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1010,8 +1490,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 205.7,
-        "flightsDiffPct": -2
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1079,10 +1559,50 @@
       },
       "minAirportDistanceMiles": 2.1605966600404147,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 182,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.843Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1094,8 +1614,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 182,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1163,10 +1683,50 @@
       },
       "minAirportDistanceMiles": 3.0341745312562463,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.9
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.843Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1178,8 +1738,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1247,10 +1807,50 @@
       },
       "minAirportDistanceMiles": 3.0461320236179796,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.843Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1262,8 +1862,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1331,10 +1931,50 @@
       },
       "minAirportDistanceMiles": 3.1478335619520155,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.843Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1346,8 +1986,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.1,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z",
@@ -1419,10 +2059,50 @@
       },
       "minAirportDistanceMiles": 2.878260144348986,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.844Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1434,8 +2114,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.4,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1503,10 +2183,50 @@
       },
       "minAirportDistanceMiles": 2.995610989465044,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.844Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1518,8 +2238,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1587,10 +2307,50 @@
       },
       "minAirportDistanceMiles": 3.0341745312562463,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.9
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.844Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1602,8 +2362,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1671,10 +2431,50 @@
       },
       "minAirportDistanceMiles": 3.1569492758947737,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.844Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1686,8 +2486,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1755,10 +2555,50 @@
       },
       "minAirportDistanceMiles": 3.1478335619520155,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.844Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1770,8 +2610,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.1,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z",
@@ -1845,10 +2685,50 @@
       },
       "minAirportDistanceMiles": 2.9793045783428567,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.844Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1860,8 +2740,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -1929,10 +2809,50 @@
       },
       "minAirportDistanceMiles": 2.860965119795333,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.8
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.5
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.845Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1944,8 +2864,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.8,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2009,10 +2929,50 @@
       },
       "minAirportDistanceMiles": 2.733909783255835,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.9
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.845Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2024,8 +2984,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.6,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2089,10 +3049,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.845Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2104,8 +3104,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2169,10 +3169,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.845Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2184,8 +3224,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2249,10 +3289,50 @@
       },
       "minAirportDistanceMiles": 2.562469997275772,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 181,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.845Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2264,8 +3344,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 181,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2329,10 +3409,50 @@
       },
       "minAirportDistanceMiles": 2.5348505673751074,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 181.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.3
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.846Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2344,8 +3464,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 181.1,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2409,10 +3529,50 @@
       },
       "minAirportDistanceMiles": 2.8567417596288296,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.846Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2424,8 +3584,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.4,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2489,10 +3649,50 @@
       },
       "minAirportDistanceMiles": 3.0045412337086166,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.846Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2504,8 +3704,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2569,10 +3769,50 @@
       },
       "minAirportDistanceMiles": 3.0461320236179796,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.846Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2584,8 +3824,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.2,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2649,10 +3889,50 @@
       },
       "minAirportDistanceMiles": 2.1605966600404147,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 182,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.846Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2664,8 +3944,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 182,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2729,10 +4009,50 @@
       },
       "minAirportDistanceMiles": 3.1478335619520155,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.846Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2744,8 +4064,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.1,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2812,10 +4132,50 @@
       },
       "minAirportDistanceMiles": 3.1569492758947737,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.847Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2827,8 +4187,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2892,10 +4252,50 @@
       },
       "minAirportDistanceMiles": 3.1478335619520155,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.847Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2907,8 +4307,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.1,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -2972,10 +4372,50 @@
       },
       "minAirportDistanceMiles": 3.277161955945588,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 179.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.847Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2987,8 +4427,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 179.8,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3055,10 +4495,50 @@
       },
       "minAirportDistanceMiles": 3.277161955945588,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 179.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.847Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3070,8 +4550,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 179.8,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3135,10 +4615,50 @@
       },
       "minAirportDistanceMiles": 3.277161955945588,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 179.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.848Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3150,8 +4670,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 179.8,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3215,10 +4735,50 @@
       },
       "minAirportDistanceMiles": 3.3054252468798193,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 179.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.3
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.848Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3230,8 +4790,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 179.8,
-        "flightsDiffPct": -15
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3295,10 +4855,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.848Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3310,8 +4910,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z",
@@ -3378,10 +4978,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.848Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3393,8 +5033,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z",
@@ -3461,10 +5101,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.849Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3476,8 +5156,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3541,10 +5221,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.849Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3556,8 +5276,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3624,10 +5344,50 @@
       },
       "minAirportDistanceMiles": 4.025115175732483,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 177.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27.9
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.3
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.849Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3639,8 +5399,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 177.6,
-        "flightsDiffPct": -16
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3704,10 +5464,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.849Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3719,8 +5519,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3784,10 +5584,50 @@
       },
       "minAirportDistanceMiles": 0.4069221340192991,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 184.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0,
+        "ga": 0.2,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.5
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27.5
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.849Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3799,8 +5639,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 184.6,
-        "flightsDiffPct": -12
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3864,10 +5704,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.849Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3879,8 +5759,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -3944,10 +5824,50 @@
       },
       "minAirportDistanceMiles": 2.7332689466368585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.2
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.850Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3959,8 +5879,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": -14
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:31:27.854Z"
@@ -4028,10 +5948,50 @@
       },
       "minAirportDistanceMiles": 2.4585551027801933,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.4
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.4
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.850Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4043,8 +6003,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.8,
-        "flightsDiffPct": 114
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:27:57.718Z"
@@ -4108,10 +6068,50 @@
       },
       "minAirportDistanceMiles": 2.5692605873512755,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 180.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.9
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.850Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4123,8 +6123,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 180.9,
-        "flightsDiffPct": 114
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:27:57.718Z"
@@ -4188,10 +6188,50 @@
       },
       "minAirportDistanceMiles": 3.230051853920011,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 179.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.850Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4203,8 +6243,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 179.8,
-        "flightsDiffPct": 113
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:27:57.718Z"
@@ -4268,10 +6308,50 @@
       },
       "minAirportDistanceMiles": 1.9768027727785225,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 182.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.2
+          },
+          {
+            "name": "RAF Waddington",
+            "icao": "EGXW",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.6
+          },
+          {
+            "name": "RAF Cranwell",
+            "icao": "EGYD",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.4
+          },
+          {
+            "name": "RAF Barkston Heath",
+            "icao": "EGYE",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          },
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 10.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:30.850Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4283,8 +6363,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 182.5,
-        "flightsDiffPct": 116
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:27:57.718Z"
@@ -4328,5 +6408,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.334Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:30.858Z"
 }

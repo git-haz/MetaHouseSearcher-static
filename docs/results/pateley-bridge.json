@@ -67,10 +67,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.740Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +122,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -151,10 +191,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.740Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +246,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -235,10 +315,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.740Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +370,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z",
@@ -323,10 +443,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.741Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -338,8 +498,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -407,10 +567,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.741Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -422,8 +622,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -491,10 +691,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.741Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -506,8 +746,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -575,10 +815,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.741Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -590,8 +870,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -659,10 +939,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.741Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -674,8 +994,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -743,10 +1063,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.742Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -758,8 +1118,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -827,10 +1187,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.742Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -842,8 +1242,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -911,10 +1311,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.742Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -926,8 +1366,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -995,10 +1435,43 @@
       },
       "minAirportDistanceMiles": 13.064432987810878,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 255.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 15.8
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.742Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1010,8 +1483,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 255.7,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1079,10 +1552,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.742Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1094,8 +1607,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1163,10 +1676,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.742Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1178,8 +1731,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1247,10 +1800,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.743Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1262,8 +1855,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1331,10 +1924,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.743Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1346,8 +1979,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1415,10 +2048,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.743Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1430,8 +2103,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1495,10 +2168,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.743Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1510,8 +2223,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1575,10 +2288,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.743Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1590,8 +2343,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1655,10 +2408,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.743Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1670,8 +2463,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1738,10 +2531,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.744Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1753,8 +2586,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1818,10 +2651,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.744Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1833,8 +2706,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1898,10 +2771,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.744Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1913,8 +2826,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -1978,10 +2891,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.744Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1993,8 +2946,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2058,10 +3011,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.744Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2073,8 +3066,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2138,10 +3131,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.745Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2153,8 +3186,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2218,10 +3251,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.745Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2233,8 +3306,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2298,10 +3371,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.745Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2313,8 +3426,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2378,10 +3491,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.745Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2393,8 +3546,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2458,10 +3611,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.745Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2473,8 +3666,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2538,10 +3731,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.745Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2553,8 +3786,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2621,10 +3854,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.746Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2636,8 +3909,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2701,10 +3974,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.746Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2716,8 +4029,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2781,10 +4094,43 @@
       },
       "minAirportDistanceMiles": 13.014991599540013,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 255.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 15.8
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.746Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2796,8 +4142,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 255.6,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2861,10 +4207,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.746Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2876,8 +4262,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -2941,10 +4327,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.746Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2956,8 +4382,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3021,10 +4447,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.746Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3036,8 +4502,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3101,10 +4567,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.747Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3116,8 +4622,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3181,10 +4687,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.747Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3196,8 +4742,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3261,10 +4807,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.747Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3276,8 +4862,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3341,10 +4927,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.747Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3356,8 +4982,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3424,10 +5050,50 @@
       },
       "minAirportDistanceMiles": 6.657253967913638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.747Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3439,8 +5105,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:13:22.918Z"
@@ -3484,5 +5150,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.374Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.754Z"
 }

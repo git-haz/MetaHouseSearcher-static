@@ -67,10 +67,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.303Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +115,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -151,10 +184,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.303Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +232,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -235,10 +301,43 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.303Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +349,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -319,10 +418,43 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +466,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -403,10 +535,43 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -418,8 +583,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -487,10 +652,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -502,8 +700,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -571,10 +769,43 @@
       },
       "minAirportDistanceMiles": 13.634297655415123,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 26.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -586,8 +817,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.1,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -655,10 +886,43 @@
       },
       "minAirportDistanceMiles": 13.00199397049518,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.8
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -670,8 +934,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -735,10 +999,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -750,8 +1047,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -815,10 +1112,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -830,8 +1160,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -895,10 +1225,43 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -910,8 +1273,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -975,10 +1338,43 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -990,8 +1386,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1055,10 +1451,43 @@
       },
       "minAirportDistanceMiles": 12.941023921000514,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.304Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1070,8 +1499,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1135,10 +1564,43 @@
       },
       "minAirportDistanceMiles": 9.82912445535895,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.8
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.5
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.8
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 28.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.305Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1158,8 +1620,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251.8,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1223,10 +1685,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.305Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1238,8 +1733,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1306,10 +1801,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.305Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1321,8 +1849,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1386,10 +1914,43 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1409,8 +1970,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251,
-        "flightsDiffPct": 19
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1477,10 +2038,43 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1500,8 +2094,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251,
-        "flightsDiffPct": 19
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1569,10 +2163,43 @@
       },
       "minAirportDistanceMiles": 9.95218726039329,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.5
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 26.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1592,8 +2219,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251.8,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1657,10 +2284,43 @@
       },
       "minAirportDistanceMiles": 9.95218726039329,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.5
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.5
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 26.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1680,8 +2340,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251.8,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1748,10 +2408,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.306Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1763,8 +2456,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1831,10 +2524,29 @@
       },
       "minAirportDistanceMiles": 1.2514817796849904,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 87.5,
+        "commercial": 87.5,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 1.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1846,8 +2558,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 245.6,
-        "flightsDiffPct": 17
+        "flightsPerDay": 87.5,
+        "flightsDiffPct": -58
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1911,10 +2623,43 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1934,8 +2679,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251,
-        "flightsDiffPct": 19
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -1999,10 +2744,43 @@
       },
       "minAirportDistanceMiles": 5.19756057376943,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.5
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.7
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2022,8 +2800,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.3,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2087,10 +2865,43 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.5,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.2
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2102,8 +2913,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2170,10 +2981,43 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.5,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.2
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.307Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2185,8 +3029,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z",
@@ -2257,10 +3101,43 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2280,8 +3157,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251,
-        "flightsDiffPct": 19
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2348,10 +3225,43 @@
       },
       "minAirportDistanceMiles": 4.9743318022545715,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2363,8 +3273,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 254.2,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2428,10 +3338,43 @@
       },
       "minAirportDistanceMiles": 4.518066761383429,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 22
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 15.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2443,8 +3386,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.6,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2511,10 +3454,43 @@
       },
       "minAirportDistanceMiles": 4.518066761383429,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.7
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 22
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 15.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2526,8 +3502,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.6,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2594,10 +3570,43 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.5,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.2
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2609,8 +3618,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2674,10 +3683,43 @@
       },
       "minAirportDistanceMiles": 2.0201512861440074,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.7
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2689,8 +3731,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.9,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:51:24.286Z"
@@ -2758,10 +3800,43 @@
       },
       "minAirportDistanceMiles": 2.6406918854555466,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.5,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.308Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2773,8 +3848,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 199
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -2841,10 +3916,43 @@
       },
       "minAirportDistanceMiles": 12.838038479747224,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.309Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2856,8 +3964,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 253.3,
-        "flightsDiffPct": 200
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -2924,10 +4032,43 @@
       },
       "minAirportDistanceMiles": 7.375528280622607,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.309Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2947,8 +4088,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 251,
-        "flightsDiffPct": 197
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -3012,10 +4153,43 @@
       },
       "minAirportDistanceMiles": 2.9522267028851688,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0.5,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.2
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.309Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3027,8 +4201,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 199
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:48:43.501Z"
@@ -3072,5 +4246,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.352Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.312Z"
 }

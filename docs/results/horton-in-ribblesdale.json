@@ -67,10 +67,14 @@
       },
       "minAirportDistanceMiles": 21.145568343717127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.733Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -90,8 +94,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.5,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -159,10 +163,14 @@
       },
       "minAirportDistanceMiles": 21.145568343717127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -182,8 +190,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.5,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -251,10 +259,14 @@
       },
       "minAirportDistanceMiles": 21.44708498590097,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -274,8 +286,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.8,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -339,10 +351,36 @@
       },
       "minAirportDistanceMiles": 5.5277789567094935,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25
+          },
+          {
+            "name": "Warton Aerodrome",
+            "icao": "EGNO",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 23.8
+          },
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 24.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -354,8 +392,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 273.7,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -419,10 +457,36 @@
       },
       "minAirportDistanceMiles": 5.5277789567094935,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25
+          },
+          {
+            "name": "Warton Aerodrome",
+            "icao": "EGNO",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 23.8
+          },
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 24.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -434,8 +498,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 273.7,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z"
@@ -499,10 +563,36 @@
       },
       "minAirportDistanceMiles": 5.5277789567094935,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25
+          },
+          {
+            "name": "Warton Aerodrome",
+            "icao": "EGNO",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 23.8
+          },
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 24.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -514,8 +604,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 273.7,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:11:48.660Z",
@@ -583,10 +673,14 @@
       },
       "minAirportDistanceMiles": 21.0600137063131,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.734Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -606,8 +700,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 265.5,
-        "flightsDiffPct": 215
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T14:10:53.935Z"
@@ -670,10 +764,50 @@
       },
       "minAirportDistanceMiles": 0.6994870489986009,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 219,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 13.2,
+        "commercial": 11.8,
+        "ga": 1,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.8
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.5
+          },
+          {
+            "name": "London Heliport",
+            "icao": "EGLW",
+            "category": "heliport",
+            "usage": "private",
+            "distMiles": 0.7
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.735Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "nearestTownMiles": 0.9,
@@ -684,8 +818,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 219,
-        "flightsDiffPct": 159
+        "flightsPerDay": 13.2,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:35:56.033Z",
@@ -732,5 +866,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.371Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.736Z"
 }

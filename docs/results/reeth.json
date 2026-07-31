@@ -67,10 +67,36 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -90,8 +116,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.8,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -159,10 +185,36 @@
       },
       "minAirportDistanceMiles": 8.168914608116044,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.5
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -182,8 +234,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.8,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -251,10 +303,36 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -274,8 +352,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.8,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z",
@@ -347,10 +425,36 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.394Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -370,8 +474,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.8,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -439,10 +543,36 @@
       },
       "minAirportDistanceMiles": 4.032324803567636,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.6
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.8
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -454,8 +584,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 253,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -523,10 +653,36 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -546,8 +702,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.8,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -615,10 +771,36 @@
       },
       "minAirportDistanceMiles": 8.240034715082931,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 254.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.4
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -638,8 +820,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 254.8,
-        "flightsDiffPct": 21
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -703,10 +885,36 @@
       },
       "minAirportDistanceMiles": 3.4563339161574547,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.8
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.8
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -718,8 +926,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 252.4,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -783,10 +991,36 @@
       },
       "minAirportDistanceMiles": 2.2080350849997448,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 251.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 16.5
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.7
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -798,8 +1032,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 251.8,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -863,10 +1097,36 @@
       },
       "minAirportDistanceMiles": 4.032324803567636,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Teesside International Airport",
+            "icao": "EGNV",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.6
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.8
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -878,8 +1138,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 253,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T10:05:43.736Z"
@@ -942,10 +1202,50 @@
       },
       "minAirportDistanceMiles": 2.028986164956957,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 321.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 16.2,
+        "commercial": 15.2,
+        "ga": 0.4,
+        "military": 0.6,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.1
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10.3
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 12.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "nearestTownMiles": 0.4,
@@ -956,8 +1256,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 321.2,
-        "flightsDiffPct": 281
+        "flightsPerDay": 16.2,
+        "flightsDiffPct": -92
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1023,10 +1323,50 @@
       },
       "minAirportDistanceMiles": 2.6342190529599114,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 166,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 12.8,
+        "commercial": 11.9,
+        "ga": 0.3,
+        "military": 0.6,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.6
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.7
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.5
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "nearestTownMiles": 0.5,
@@ -1037,8 +1377,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 166,
-        "flightsDiffPct": 97
+        "flightsPerDay": 12.8,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1104,10 +1444,50 @@
       },
       "minAirportDistanceMiles": 1.750861906915464,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 299,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 15.5,
+        "commercial": 14.5,
+        "ga": 0.5,
+        "military": 0.5,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.4
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10.5
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.1
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 12.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "nearestTownMiles": 0.2,
@@ -1118,8 +1498,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 299,
-        "flightsDiffPct": 254
+        "flightsPerDay": 15.5,
+        "flightsDiffPct": -93
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1185,10 +1565,50 @@
       },
       "minAirportDistanceMiles": 1.9951651357661715,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 102.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 10.2,
+        "commercial": 9.5,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 13.7
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.5
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.6
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.4
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.395Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "nearestTownMiles": 0.3,
@@ -1199,8 +1619,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 102.8,
-        "flightsDiffPct": 22
+        "flightsPerDay": 10.2,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1266,10 +1686,50 @@
       },
       "minAirportDistanceMiles": 4.620228722335489,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 721.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 9.3,
+        "commercial": 8.5,
+        "ga": 0.2,
+        "military": 0.6,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 12.9
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.4
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.2
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 23.4
+          },
+          {
+            "name": "RAF Benson",
+            "icao": "EGUB",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.396Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "nearestTownMiles": 3.9,
@@ -1280,8 +1740,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 721.5,
-        "flightsDiffPct": 755
+        "flightsPerDay": 9.3,
+        "flightsDiffPct": -96
       },
       "isNew": false,
       "retrievedAt": "2026-07-24T22:22:56.353Z",
@@ -1328,5 +1788,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.366Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.397Z"
 }

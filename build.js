@@ -590,7 +590,7 @@ function autoPush(done, total, isFinal) {
     : `Build progress: ${done}/${total} locations`;
   console.log(`\n  → Git push: "${msg}"`);
   try {
-    execSync(`git add docs/results/ docs/build-status.json seed-data.json && git diff --staged --quiet || git commit -m "${msg}" && git push`, {
+    execSync(`git add docs/results/ seed-data.json && { git add docs/build-status.json 2>/dev/null || true; } && git diff --staged --quiet || git commit -m "${msg}" && git push`, {
       cwd: __dirname,
       stdio: 'pipe',
     });

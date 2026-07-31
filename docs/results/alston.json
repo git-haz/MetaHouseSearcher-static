@@ -67,10 +67,14 @@
       },
       "minAirportDistanceMiles": 7.406048944161404,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -82,8 +86,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 273.5,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -151,10 +155,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +196,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -241,10 +271,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -256,8 +312,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -331,10 +387,36 @@
       },
       "minAirportDistanceMiles": 0.9974434144111294,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0,
+        "ga": 0.3,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 6.8
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -346,8 +428,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 263.9,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -420,10 +502,22 @@
       },
       "minAirportDistanceMiles": 3.349733934728142,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 274,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 14.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -435,8 +529,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 274,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -504,10 +598,29 @@
       },
       "minAirportDistanceMiles": 5.620040236249213,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 276.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0.2,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 9
+          },
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.281Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -519,8 +632,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 276.3,
-        "flightsDiffPct": 31
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z",
@@ -592,10 +705,14 @@
       },
       "minAirportDistanceMiles": 3.209766615376731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 274.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -607,8 +724,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 274.4,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -676,10 +793,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -691,8 +834,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -760,10 +903,14 @@
       },
       "minAirportDistanceMiles": 5.989388777782586,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -775,8 +922,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 273.9,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -844,10 +991,22 @@
       },
       "minAirportDistanceMiles": 11.087708209567927,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 269.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -867,8 +1026,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 269.4,
-        "flightsDiffPct": 28
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -936,10 +1095,36 @@
       },
       "minAirportDistanceMiles": 1.5900319054314442,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 280,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 2.4,
+        "commercial": 0,
+        "ga": 2.4,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 2.1
+          },
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 24.9
+          },
+          {
+            "name": "Warton Aerodrome",
+            "icao": "EGNO",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.282Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -951,8 +1136,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 280,
-        "flightsDiffPct": 33
+        "flightsPerDay": 2.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1020,10 +1205,36 @@
       },
       "minAirportDistanceMiles": 1.7980041899100618,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 280.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 3.1,
+        "commercial": 0,
+        "ga": 3.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 1.9
+          },
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 24.9
+          },
+          {
+            "name": "Warton Aerodrome",
+            "icao": "EGNO",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1035,8 +1246,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 280.1,
-        "flightsDiffPct": 33
+        "flightsPerDay": 3.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1104,10 +1315,36 @@
       },
       "minAirportDistanceMiles": 3.924365447256325,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 264.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 28.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1119,8 +1356,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 264.5,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1188,10 +1425,36 @@
       },
       "minAirportDistanceMiles": 3.924365447256325,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 264.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 28.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1203,8 +1466,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 264.5,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1272,10 +1535,36 @@
       },
       "minAirportDistanceMiles": 3.924365447256325,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 264.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 28.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1287,8 +1576,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 264.5,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1356,10 +1645,36 @@
       },
       "minAirportDistanceMiles": 5.129233664013018,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.5,
+        "commercial": 0,
+        "ga": 0.4,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 13.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1371,8 +1686,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.1,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0.5,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1440,10 +1755,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.283Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1455,8 +1796,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1524,10 +1865,29 @@
       },
       "minAirportDistanceMiles": 2.6110983183092262,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 264.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1539,8 +1899,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 264.5,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1608,10 +1968,36 @@
       },
       "minAirportDistanceMiles": 1.4778653838785436,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 280,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 4.1,
+        "commercial": 0,
+        "ga": 4.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 1.6
+          },
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.3
+          },
+          {
+            "name": "Warton Aerodrome",
+            "icao": "EGNO",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1623,8 +2009,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 280,
-        "flightsDiffPct": 33
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1692,10 +2078,36 @@
       },
       "minAirportDistanceMiles": 1.1875433285889794,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0,
+        "ga": 0.4,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.5
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.3
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1707,8 +2119,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 263.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1776,10 +2188,36 @@
       },
       "minAirportDistanceMiles": 6.15799571282133,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0,
+        "ga": 0.3,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 6.3
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1791,8 +2229,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.9,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1860,10 +2298,36 @@
       },
       "minAirportDistanceMiles": 4.850299530728371,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 260.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.7,
+        "commercial": 0,
+        "ga": 0.4,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 4.9
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1875,8 +2339,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 260.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.7,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -1944,10 +2408,22 @@
       },
       "minAirportDistanceMiles": 1.5517606003026188,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 270.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 22.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.284Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1959,8 +2435,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 270.6,
-        "flightsDiffPct": 28
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2028,10 +2504,14 @@
       },
       "minAirportDistanceMiles": 6.470056559909628,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 259,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2051,8 +2531,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 259,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2120,10 +2600,29 @@
       },
       "minAirportDistanceMiles": 2.857762186087377,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 274.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 15.1
+          },
+          {
+            "name": "Blackpool Airport",
+            "icao": "EGNH",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2135,8 +2634,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 274.3,
-        "flightsDiffPct": 30
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2204,10 +2703,22 @@
       },
       "minAirportDistanceMiles": 5.499357152617746,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 268.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2219,8 +2730,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 268.5,
-        "flightsDiffPct": 27
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2288,10 +2799,14 @@
       },
       "minAirportDistanceMiles": 8.603737910549762,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 259.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2311,8 +2826,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 259.6,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2380,10 +2895,22 @@
       },
       "minAirportDistanceMiles": 9.318126806845495,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 269.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 25.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2395,8 +2922,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 269.7,
-        "flightsDiffPct": 28
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2472,10 +2999,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2487,8 +3040,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2552,10 +3105,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.285Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2567,8 +3146,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2632,10 +3211,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2647,8 +3252,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2712,10 +3317,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2727,8 +3358,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2792,10 +3423,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2807,8 +3464,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2872,10 +3529,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2887,8 +3570,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -2952,10 +3635,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2967,8 +3676,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3032,10 +3741,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3047,8 +3782,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3112,10 +3847,36 @@
       },
       "minAirportDistanceMiles": 9.760713683529639,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3127,8 +3888,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 258.2,
-        "flightsDiffPct": 23
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3192,10 +3953,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3207,8 +3994,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3272,10 +4059,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3287,8 +4100,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3352,10 +4165,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.286Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3367,8 +4206,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3435,10 +4274,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3450,8 +4315,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3515,10 +4380,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3530,8 +4421,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3595,10 +4486,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3610,8 +4527,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3675,10 +4592,36 @@
       },
       "minAirportDistanceMiles": 8.885509558622166,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 20.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3690,8 +4633,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 258,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3755,10 +4698,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3770,8 +4739,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3835,10 +4804,36 @@
       },
       "minAirportDistanceMiles": 8.885509558622166,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 20.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3850,8 +4845,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 258,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3915,10 +4910,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3930,8 +4951,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -3995,10 +5016,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4010,8 +5057,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4075,10 +5122,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4090,8 +5163,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4155,10 +5228,36 @@
       },
       "minAirportDistanceMiles": 9.854164806249862,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 18.1
+          },
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.287Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4170,8 +5269,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:48:48.527Z"
@@ -4239,10 +5338,22 @@
       },
       "minAirportDistanceMiles": 5.403309351912273,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 17.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -4254,8 +5365,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 273.2,
-        "flightsDiffPct": 224
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:46:07.676Z"
@@ -4323,10 +5434,14 @@
       },
       "minAirportDistanceMiles": 8.07723325109703,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 273.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4338,8 +5453,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 273.5,
-        "flightsDiffPct": 224
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:46:07.676Z"
@@ -4407,10 +5522,22 @@
       },
       "minAirportDistanceMiles": 2.1833694426860624,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 275.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Barrow Walney Island Airport",
+            "icao": "EGNL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4422,8 +5549,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 275.1,
-        "flightsDiffPct": 226
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T13:46:07.676Z"
@@ -4490,10 +5617,36 @@
       },
       "minAirportDistanceMiles": 0.7632593649508859,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 264.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0,
+        "ga": 0.2,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 7.2
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.1
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 19.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -4503,8 +5656,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 264.1,
-        "flightsDiffPct": 213
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T11:07:35.685Z",
@@ -4575,10 +5728,14 @@
       },
       "minAirportDistanceMiles": 1.2554836846598354,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 275.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.288Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -4588,8 +5745,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 275.4,
-        "flightsDiffPct": 226
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T11:07:35.685Z",
@@ -4660,10 +5817,36 @@
       },
       "minAirportDistanceMiles": 1.4675536219748264,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 264.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Carlisle Lake District Airport",
+            "icao": "EGNC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.3
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.6
+          },
+          {
+            "name": "RAF Spadeadam",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.289Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -4673,8 +5856,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 264.1,
-        "flightsDiffPct": 213
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T11:07:35.685Z",
@@ -4722,5 +5905,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.350Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.299Z"
 }

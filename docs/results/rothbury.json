@@ -67,10 +67,29 @@
       },
       "minAirportDistanceMiles": 4.922492204852221,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +101,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.2,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z",
@@ -156,10 +175,29 @@
       },
       "minAirportDistanceMiles": 5.174715515866463,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.8
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -171,8 +209,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -240,10 +278,29 @@
       },
       "minAirportDistanceMiles": 4.849081065033166,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -255,8 +312,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.2,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -324,10 +381,29 @@
       },
       "minAirportDistanceMiles": 4.961782242806729,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.7,
+        "commercial": 1.7,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -339,8 +415,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 245.7,
-        "flightsDiffPct": 17
+        "flightsPerDay": 1.7,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -408,10 +484,29 @@
       },
       "minAirportDistanceMiles": 4.961782242806729,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.7,
+        "commercial": 1.7,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 17.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -423,8 +518,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 245.7,
-        "flightsDiffPct": 17
+        "flightsPerDay": 1.7,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -492,10 +587,29 @@
       },
       "minAirportDistanceMiles": 5.340720112986391,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 245.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.9,
+        "commercial": 1.9,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.4
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 18.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -507,8 +621,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 245.6,
-        "flightsDiffPct": 17
+        "flightsPerDay": 1.9,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -576,10 +690,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -591,8 +724,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -660,10 +793,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -675,8 +827,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -744,10 +896,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.316Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -759,8 +930,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -828,10 +999,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -843,8 +1033,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -912,10 +1102,29 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -927,8 +1136,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.1,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -996,10 +1205,29 @@
       },
       "minAirportDistanceMiles": 4.96110819004143,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.4
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1011,8 +1239,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.2,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1080,10 +1308,29 @@
       },
       "minAirportDistanceMiles": 4.545458907030729,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.4
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1095,8 +1342,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.1,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1164,10 +1411,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1179,8 +1445,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1248,10 +1514,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1263,8 +1548,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1332,10 +1617,29 @@
       },
       "minAirportDistanceMiles": 4.9894017877625485,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1347,8 +1651,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.2,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1412,10 +1716,29 @@
       },
       "minAirportDistanceMiles": 5.174715515866463,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.8
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1427,8 +1750,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1492,10 +1815,29 @@
       },
       "minAirportDistanceMiles": 5.174715515866463,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.8
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1507,8 +1849,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.3,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1572,10 +1914,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1587,8 +1948,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z",
@@ -1657,10 +2018,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.317Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1672,8 +2052,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1737,10 +2117,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1752,8 +2151,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1817,10 +2216,29 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1832,8 +2250,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.1,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1897,10 +2315,29 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1912,8 +2349,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.1,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -1977,10 +2414,29 @@
       },
       "minAirportDistanceMiles": 4.592278719543894,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 248.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 14
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1992,8 +2448,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 248.1,
-        "flightsDiffPct": 18
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2057,10 +2513,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2072,8 +2547,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2140,10 +2615,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2155,8 +2649,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2220,10 +2714,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2235,8 +2748,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2303,10 +2816,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2318,8 +2850,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2386,10 +2918,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2401,8 +2952,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2466,10 +3017,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2481,8 +3051,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2549,10 +3119,29 @@
       },
       "minAirportDistanceMiles": 1.2074879528253477,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 11.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.318Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2564,8 +3153,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.9,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2629,10 +3218,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.319Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2644,8 +3252,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2709,10 +3317,29 @@
       },
       "minAirportDistanceMiles": 1.6639982516614718,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 246.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.4,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Newcastle International Airport",
+            "icao": "EGNT",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Boulmer",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 9.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:31.319Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2724,8 +3351,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 246.1,
-        "flightsDiffPct": 17
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:53:30.002Z"
@@ -2769,5 +3396,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.356Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:31.323Z"
 }
