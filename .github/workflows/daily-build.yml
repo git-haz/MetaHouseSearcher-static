@@ -53,7 +53,7 @@ jobs:
       - name: Commit and push any remaining changes
         if: always()
         run: |
-          git add docs/results/ seed-data.json 2>/dev/null || true
+          git add docs/results/ docs/build-status.json seed-data.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No unpushed changes remaining."
           else

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build Status — MetaHouseSearcher</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f5f5;
+      --card-bg: #fff;
+      --primary: #1a73e8;
+      --text: #202124;
+      --text-muted: #5f6368;
+      --border: #dadce0;
+      --success: #188038;
+      --warning: #f9ab00;
+      --danger: #d93025;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 20px; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+    .header-badge { font-size: 11px; font-weight: 500; background: rgba(255,255,255,0.2); padding: 2px 8px; border-radius: 10px; }
+    header nav a { color: #fff; text-decoration: none; margin-left: 20px; font-size: 14px; opacity: 0.9; }
+    header nav a:hover { opacity: 1; text-decoration: underline; }
+
+    .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+
+    /* Phase pill */
+    .phase-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .phase-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: 600;
+    }
+    .phase-idle    { background: #f1f3f4; color: var(--text-muted); }
+    .phase-scraping, .phase-starting { background: #e8f0fe; color: var(--primary); }
+    .phase-dedup, .phase-autotagging { background: #fef3e2; color: #b06000; }
+    .phase-complete { background: #e6f4ea; color: var(--success); }
+    .phase-error   { background: #fce8e6; color: var(--danger); }
+
+    .spin { display: inline-block; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Progress bar */
+    .progress-section { margin-bottom: 16px; }
+    .progress-labels { display: flex; justify-content: space-between; font-size: 13px; color: var(--text-muted); margin-bottom: 6px; }
+    .progress-bar { height: 8px; background: #e0e0e0; border-radius: 4px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--primary); border-radius: 4px; transition: width 0.4s ease; }
+
+    /* Meta row */
+    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 16px; }
+    .meta-item { background: #f8f9fa; border-radius: 6px; padding: 10px 14px; }
+    .meta-label { font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 3px; }
+    .meta-value { font-size: 14px; font-weight: 500; }
+
+    /* Locations list */
+    .section-title { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+    .locations-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+    .loc-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 7px 10px; border-radius: 6px; font-size: 13px;
+      border: 1px solid var(--border); background: var(--card-bg);
+    }
+    .loc-item.complete   { background: #e6f4ea; border-color: #b7dfc4; }
+    .loc-item.in_progress { background: #e8f0fe; border-color: #aecbfa; }
+    .loc-item.pending    { background: #f8f9fa; border-color: var(--border); color: var(--text-muted); }
+    .loc-icon { font-size: 14px; flex-shrink: 0; }
+    .loc-name { flex: 1; font-weight: 500; }
+    .loc-count { font-size: 11px; color: var(--text-muted); }
+
+    /* Next run */
+    .next-run-row { font-size: 14px; }
+    .next-run-row strong { color: var(--primary); }
+
+    /* Refresh indicator */
+    .refresh-row { font-size: 12px; color: var(--text-muted); margin-top: 12px; display: flex; align-items: center; gap: 6px; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--success); display: inline-block; }
+    .dot.inactive { background: var(--text-muted); }
+
+    .error-msg { color: var(--danger); font-size: 14px; }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1a1a2e; --card-bg: #16213e; --text: #e2e2e2; --text-muted: #9aa0a6;
+        --border: #3a3a5c; --primary: #8ab4f8;
+      }
+      .loc-item.complete   { background: #1e3a28; border-color: #2e6b44; }
+      .loc-item.in_progress { background: #1a2b4a; border-color: #2a4a80; }
+      .loc-item.pending    { background: #1e1e2e; }
+      .meta-item { background: #1e213a; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1><span class="header-badge">Build</span> MetaHouseSearcher</h1>
+  <nav>
+    <a href="index.html">← Results</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div class="card" id="statusCard">
+    <div class="phase-row">
+      <span class="phase-pill phase-idle" id="phasePill">⏸ Idle</span>
+      <span id="currentLocationLabel" style="font-size:14px; color:var(--text-muted);"></span>
+    </div>
+
+    <div class="progress-section" id="progressSection" style="display:none;">
+      <div class="progress-labels">
+        <span id="progressLabel">0 / 0 locations</span>
+        <span id="progressPct">0%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    </div>
+
+    <div class="meta-grid" id="metaGrid">
+      <div class="meta-item"><div class="meta-label">Last updated</div><div class="meta-value" id="lastUpdated">—</div></div>
+      <div class="meta-item"><div class="meta-label">Build started</div><div class="meta-value" id="buildStarted">—</div></div>
+      <div class="meta-item"><div class="meta-label">Build completed</div><div class="meta-value" id="buildCompleted">—</div></div>
+      <div class="meta-item"><div class="meta-label">Properties found</div><div class="meta-value" id="totalProps">—</div></div>
+    </div>
+
+    <div class="meta-grid" style="margin-bottom:0;">
+      <div class="meta-item next-run-row">
+        <div class="meta-label">Next scheduled run</div>
+        <div class="meta-value" id="nextRun">—</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Schedule</div>
+        <div class="meta-value" style="color:var(--text-muted); font-size:13px;">Mon / Wed / Fri · 05:00 UTC</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="locCard" style="display:none;">
+    <div class="section-title" id="locTitle">Locations</div>
+    <div class="locations-grid" id="locationsGrid"></div>
+  </div>
+
+  <div id="errorMsg" class="error-msg" style="display:none;"></div>
+
+  <div class="refresh-row">
+    <span class="dot inactive" id="liveIndicator"></span>
+    <span id="refreshLabel">Auto-refresh off</span>
+  </div>
+
+</div>
+
+<script>
+  let refreshTimer = null;
+
+  function nextScheduledRun() {
+    const scheduleDays = [1, 3, 5]; // Mon=1, Wed=3, Fri=5
+    const now = new Date();
+    for (let offset = 0; offset <= 7; offset++) {
+      const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + offset, 5, 0, 0));
+      if (scheduleDays.includes(d.getUTCDay()) && d > now) return d;
+    }
+    return null;
+  }
+
+  function fmtDatetime(iso) {
+    if (!iso) return '—';
+    const d = new Date(iso);
+    return d.toLocaleString(undefined, { dateStyle: 'short', timeStyle: 'short' });
+  }
+
+  function fmtRelative(iso) {
+    if (!iso) return '—';
+    const diff = Date.now() - new Date(iso).getTime();
+    if (diff < 60000) return 'just now';
+    if (diff < 3600000) return `${Math.floor(diff / 60000)}m ago`;
+    if (diff < 86400000) return `${Math.floor(diff / 3600000)}h ago`;
+    return fmtDatetime(iso);
+  }
+
+  function fmtCountdown(d) {
+    if (!d) return '—';
+    const diff = d.getTime() - Date.now();
+    if (diff <= 0) return 'now';
+    const h = Math.floor(diff / 3600000);
+    const m = Math.floor((diff % 3600000) / 60000);
+    return `${fmtDatetime(d.toISOString())} (in ${h}h ${m}m)`;
+  }
+
+  function phaseLabel(phase) {
+    const map = {
+      idle: ['⏸', 'Idle', 'phase-idle'],
+      starting: ['⚙️', 'Starting…', 'phase-starting'],
+      scraping: ['🔍', 'Scraping', 'phase-scraping'],
+      dedup: ['🔗', 'Deduplicating', 'phase-dedup'],
+      autotagging: ['🏷️', 'Auto-tagging', 'phase-autotagging'],
+      complete: ['✅', 'Complete', 'phase-complete'],
+    };
+    return map[phase] || ['❓', phase || 'Unknown', 'phase-idle'];
+  }
+
+  function locIcon(status) {
+    if (status === 'complete') return '✓';
+    if (status === 'in_progress') return '<span class="spin">⟳</span>';
+    return '○';
+  }
+
+  function render(status) {
+    document.getElementById('errorMsg').style.display = 'none';
+
+    const phase = status.phase || 'idle';
+    const [icon, label, cls] = phaseLabel(phase);
+    const pill = document.getElementById('phasePill');
+    pill.className = `phase-pill ${cls}`;
+    const isActive = ['starting','scraping','dedup','autotagging'].includes(phase);
+    pill.innerHTML = `${isActive ? `<span class="spin">⟳</span>` : icon} ${label}`;
+
+    // Current location label
+    const curLocEl = document.getElementById('currentLocationLabel');
+    if (status.currentLocation) {
+      curLocEl.textContent = `Processing: ${status.currentLocation}`;
+      curLocEl.style.display = '';
+    } else {
+      curLocEl.style.display = 'none';
+    }
+
+    // Progress
+    const total = status.totalLocations || 0;
+    const done = status.completedLocations || 0;
+    const progressSection = document.getElementById('progressSection');
+    if (total > 0) {
+      progressSection.style.display = '';
+      const pct = Math.round((done / total) * 100);
+      document.getElementById('progressLabel').textContent = `${done} / ${total} locations`;
+      document.getElementById('progressPct').textContent = `${pct}%`;
+      document.getElementById('progressFill').style.width = `${pct}%`;
+    } else {
+      progressSection.style.display = 'none';
+    }
+
+    // Meta
+    document.getElementById('lastUpdated').textContent = fmtRelative(status.lastUpdated);
+    document.getElementById('buildStarted').textContent = fmtDatetime(status.buildStartedAt);
+    document.getElementById('buildCompleted').textContent = fmtDatetime(status.buildCompletedAt);
+    document.getElementById('totalProps').textContent = status.totalProperties != null ? status.totalProperties.toLocaleString() : '—';
+
+    // Next run
+    document.getElementById('nextRun').textContent = fmtCountdown(nextScheduledRun());
+
+    // Locations grid
+    const locs = status.locations || [];
+    if (locs.length > 0) {
+      document.getElementById('locCard').style.display = '';
+      const inProg = locs.filter(l => l.status === 'in_progress').length;
+      const comp = locs.filter(l => l.status === 'complete').length;
+      document.getElementById('locTitle').textContent =
+        `Locations — ${comp} complete${inProg ? `, ${inProg} in progress` : ''}, ${locs.length - comp - inProg} pending`;
+      document.getElementById('locationsGrid').innerHTML = locs.map(l => `
+        <div class="loc-item ${l.status || 'pending'}">
+          <span class="loc-icon">${locIcon(l.status)}</span>
+          <span class="loc-name">${l.name}</span>
+          ${l.properties != null ? `<span class="loc-count">${l.properties}</span>` : ''}
+        </div>`).join('');
+    } else {
+      document.getElementById('locCard').style.display = 'none';
+    }
+
+    // Auto-refresh: on when build is active
+    const shouldRefresh = isActive;
+    const indicator = document.getElementById('liveIndicator');
+    const refreshLabel = document.getElementById('refreshLabel');
+    if (shouldRefresh) {
+      indicator.className = 'dot';
+      refreshLabel.textContent = 'Auto-refreshing every 30s';
+      if (!refreshTimer) refreshTimer = setInterval(fetchStatus, 30000);
+    } else {
+      indicator.className = 'dot inactive';
+      refreshLabel.textContent = `Last fetched ${fmtRelative(new Date().toISOString())}`;
+      if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; }
+    }
+  }
+
+  async function fetchStatus() {
+    try {
+      const r = await fetch(`build-status.json?t=${Date.now()}`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const data = await r.json();
+      render(data);
+    } catch (err) {
+      const el = document.getElementById('errorMsg');
+      el.style.display = '';
+      // show idle state if no file yet
+      const noFile = err.message.includes('404') || err.message.includes('not found');
+      el.textContent = noFile
+        ? 'No build-status.json yet — it will appear after the first build run.'
+        : `Could not load status: ${err.message}`;
+      render({ phase: 'idle' });
+    }
+  }
+
+  fetchStatus();
+  // Always tick next-run countdown every minute
+  setInterval(() => {
+    document.getElementById('nextRun').textContent = fmtCountdown(nextScheduledRun());
+    document.getElementById('lastUpdated').textContent = document.getElementById('lastUpdated').dataset.iso
+      ? fmtRelative(document.getElementById('lastUpdated').dataset.iso)
+      : document.getElementById('lastUpdated').textContent;
+  }, 60000);
+</script>
+</body>
+</html>

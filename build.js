@@ -54,6 +54,7 @@ function getPortals(config) {
 const pushEveryArg = process.argv.find(a => a.startsWith('--push-every='));
 const PUSH_EVERY   = pushEveryArg ? (parseInt(pushEveryArg.split('=')[1]) || 0) : 0;
 const RESUME       = process.argv.includes('--resume');
+const BUILD_STATUS_PATH = path.join(__dirname, 'docs', 'build-status.json');
 const USE_ML       = process.argv.includes('--ml-recommend') || process.argv.includes('--ml');
 
 // ---- Utilities ----
@@ -572,6 +573,18 @@ async function finalPass(resultsDir, slugs) {
   return totalKept;
 }
 
+// ---- Build status ----
+let buildStatus = {};
+
+function flushBuildStatus() {
+  buildStatus.lastUpdated = new Date().toISOString();
+  try {
+    fs.writeFileSync(BUILD_STATUS_PATH, JSON.stringify(buildStatus, null, 2));
+  } catch (err) {
+    console.warn(`  ⚠ Could not write build-status.json: ${err.message}`);
+  }
+}
+
 // ---- Auto git push ----
 function autoPush(done, total, isFinal) {
   const msg = isFinal
@@ -579,7 +592,7 @@ function autoPush(done, total, isFinal) {
     : `Build progress: ${done}/${total} locations`;
   console.log(`\n  → Git push: "${msg}"`);
   try {
-    execSync(`git add docs/results/ seed-data.json && git diff --staged --quiet || git commit -m "${msg}" && git push`, {
+    execSync(`git add docs/results/ docs/build-status.json seed-data.json && git diff --staged --quiet || git commit -m "${msg}" && git push`, {
       cwd: __dirname,
       stdio: 'pipe',
     });
@@ -887,6 +900,23 @@ async function main() {
   // Write initial index keeping existing results visible while new ones build
   writeIndex(resultsDir, config, baselineData, existingSlugs, existingSlugs.length > 0, existingSlugs.length > 0 ? existingTotalResults : null, existingPortalLinks);
 
+  // Initialise build status — mark already-complete slugs from a resumed build
+  buildStatus = {
+    phase: 'scraping',
+    buildStartedAt: new Date().toISOString(),
+    buildCompletedAt: null,
+    totalLocations: config.searches.length,
+    completedLocations: existingSlugs.length,
+    currentLocation: null,
+    totalProperties: null,
+    locations: config.searches.map(s => {
+      const slug = slugify(s.location);
+      const alreadyDone = existingSlugs.includes(slug);
+      return { name: s.location, slug, status: alreadyDone ? 'complete' : 'pending', properties: null, startedAt: null, completedAt: alreadyDone ? new Date().toISOString() : null };
+    }),
+  };
+  flushBuildStatus();
+
   const allPortalLinks  = [];
   const completedSlugs  = [];
 
@@ -895,6 +925,15 @@ async function main() {
     const slug     = slugify(search.location);
     const queryLoc = search.postcode || search.location;
     console.log(`\n=== [${si + 1}/${activeSearches.length}] ${search.location}${search.postcode ? ` (${search.postcode})` : ''} ===`);
+
+    // Mark this location as in_progress
+    const bsIdx = buildStatus.locations?.findIndex(l => l.slug === slug);
+    if (bsIdx >= 0) {
+      buildStatus.locations[bsIdx].status = 'in_progress';
+      buildStatus.locations[bsIdx].startedAt = new Date().toISOString();
+    }
+    buildStatus.currentLocation = search.location;
+    flushBuildStatus();
 
     const criteria = {
       locations:     queryLoc,
@@ -973,6 +1012,20 @@ async function main() {
     await processLocation(search, locationResults, locationPortalLinks, config, resultsDir, airportsArr, flyoverSource, baselineData, ukTowns);
     completedSlugs.push(slug);
 
+    // Mark this location complete in build status
+    const bsIdxDone = buildStatus.locations?.findIndex(l => l.slug === slug);
+    if (bsIdxDone >= 0) {
+      buildStatus.locations[bsIdxDone].status = 'complete';
+      buildStatus.locations[bsIdxDone].completedAt = new Date().toISOString();
+      try {
+        const locFile = JSON.parse(fs.readFileSync(path.join(resultsDir, `${slug}.json`), 'utf8'));
+        buildStatus.locations[bsIdxDone].properties = locFile.properties?.length ?? null;
+      } catch {}
+    }
+    buildStatus.completedLocations = existingSlugs.length + completedSlugs.length;
+    buildStatus.currentLocation = null;
+    flushBuildStatus();
+
     // Update index so app can see the new location (merged with existing)
     writeIndex(resultsDir, config, baselineData, [...new Set([...existingSlugs, ...completedSlugs])], false, null, [...existingPortalLinks, ...allPortalLinks]);
 
@@ -985,10 +1038,15 @@ async function main() {
   await closeBrowser();
 
   // Final cross-location pass (dupe detection + same-URL dedup)
+  buildStatus.phase = 'dedup';
+  buildStatus.currentLocation = null;
+  flushBuildStatus();
   const totalResults = await finalPass(resultsDir, completedSlugs);
 
   // Auto-tag pass across ALL location files (new + existing) — removes old recommend tags
   if (autoTagEnabled && ukTowns.length > 0) {
+    buildStatus.phase = 'autotagging';
+    flushBuildStatus();
     const allSlugsForTag = [...new Set([...existingSlugs, ...completedSlugs])];
     console.log(`\nRunning auto-tag pass on ${allSlugsForTag.length} location(s)…`);
     const { totalTagged, totalProperties } = await autoTagAllLocations(resultsDir, ukTowns, config, allSlugsForTag);
@@ -999,6 +1057,11 @@ async function main() {
   const allSlugs = [...new Set([...existingSlugs, ...completedSlugs])];
   writeIndex(resultsDir, config, baselineData, allSlugs, true, (totalResults || 0) + existingTotalResults, [...existingPortalLinks, ...allPortalLinks]);
   console.log('\nBuild complete!');
+
+  buildStatus.phase = 'complete';
+  buildStatus.buildCompletedAt = new Date().toISOString();
+  buildStatus.totalProperties = (totalResults || 0) + existingTotalResults;
+  flushBuildStatus();
 
   // Final git push
   if (PUSH_EVERY > 0) {
