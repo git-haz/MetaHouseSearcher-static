@@ -67,10 +67,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +94,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -151,10 +163,22 @@
       },
       "minAirportDistanceMiles": 3.9026318928996044,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +190,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.5,
-        "flightsDiffPct": 82
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -235,10 +259,22 @@
       },
       "minAirportDistanceMiles": 3.9417625967003893,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +286,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.5,
-        "flightsDiffPct": 82
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -319,10 +355,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +382,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -403,10 +451,22 @@
       },
       "minAirportDistanceMiles": 3.974204681484245,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -418,8 +478,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.5,
-        "flightsDiffPct": 82
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -487,10 +547,22 @@
       },
       "minAirportDistanceMiles": 4.135054418536054,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.764Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -502,8 +574,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -571,10 +643,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -586,8 +670,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -655,10 +739,22 @@
       },
       "minAirportDistanceMiles": 3.943555882457024,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -670,8 +766,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.5,
-        "flightsDiffPct": 82
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -739,10 +835,22 @@
       },
       "minAirportDistanceMiles": 4.135054418536054,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.765Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -754,8 +862,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -823,10 +931,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.766Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -838,8 +958,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -907,10 +1027,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.766Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -922,8 +1054,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -991,10 +1123,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.767Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1006,8 +1150,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1075,10 +1219,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.767Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1090,8 +1246,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1155,10 +1311,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.767Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1170,8 +1338,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1235,10 +1403,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.768Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1250,8 +1430,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1315,10 +1495,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.768Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1330,8 +1522,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1395,10 +1587,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.768Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1410,8 +1614,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1475,10 +1679,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.768Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1490,8 +1706,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1555,10 +1771,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.771Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1570,8 +1798,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1635,10 +1863,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.771Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1650,8 +1890,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1715,10 +1955,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.771Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1730,8 +1982,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1795,10 +2047,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.771Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1810,8 +2074,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1875,10 +2139,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.771Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1890,8 +2166,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -1955,10 +2231,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.772Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1970,8 +2258,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2035,10 +2323,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.772Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2050,8 +2350,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2115,10 +2415,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.772Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2130,8 +2442,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2195,10 +2507,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.772Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2210,8 +2534,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2275,10 +2599,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.772Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2290,8 +2626,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2355,10 +2691,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.772Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2370,8 +2718,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2435,10 +2783,22 @@
       },
       "minAirportDistanceMiles": 3.6214973571171383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.773Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2450,8 +2810,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.2,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2515,10 +2875,22 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.773Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2530,8 +2902,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 81
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2595,10 +2967,50 @@
       },
       "minAirportDistanceMiles": 0.6661536230858274,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 209.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 13,
+        "commercial": 11.5,
+        "ga": 1.1,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 12
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.5
+          },
+          {
+            "name": "London Heliport",
+            "icao": "EGLW",
+            "category": "heliport",
+            "usage": "private",
+            "distMiles": 0.7
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.6
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.773Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2610,8 +3022,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 209.9,
-        "flightsDiffPct": 0
+        "flightsPerDay": 13,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2675,10 +3087,50 @@
       },
       "minAirportDistanceMiles": 1.9310316669832106,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 152.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 12.5,
+        "commercial": 11.6,
+        "ga": 0.4,
+        "military": 0.5,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.8
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 10.6
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.5
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.773Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2690,8 +3142,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 152.7,
-        "flightsDiffPct": -28
+        "flightsPerDay": 12.5,
+        "flightsDiffPct": -94
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2755,10 +3207,50 @@
       },
       "minAirportDistanceMiles": 1.1340125842802955,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 146,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 8.7,
+        "commercial": 8.1,
+        "ga": 0.3,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.2
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 4.9
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.773Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2770,8 +3262,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 146,
-        "flightsDiffPct": -31
+        "flightsPerDay": 8.7,
+        "flightsDiffPct": -96
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2835,10 +3327,36 @@
       },
       "minAirportDistanceMiles": 3.9045922495916705,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 391.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 4.9,
+        "commercial": 4.6,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "Cardiff International Airport",
+            "icao": "EGFF",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 3.9
+          },
+          {
+            "name": "Bristol Airport",
+            "icao": "EGGD",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "MOD St Athan",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 7.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.773Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2850,8 +3368,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 391.3,
-        "flightsDiffPct": 86
+        "flightsPerDay": 4.9,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2915,10 +3433,36 @@
       },
       "minAirportDistanceMiles": 5.036008315474322,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 453.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.3,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Bournemouth Airport",
+            "icao": "EGHH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6
+          },
+          {
+            "name": "Southampton Airport",
+            "icao": "EGHI",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.6
+          },
+          {
+            "name": "RNAS Portland Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 25.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.774Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2930,8 +3474,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 453.6,
-        "flightsDiffPct": 115
+        "flightsPerDay": 1.3,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -2995,10 +3539,50 @@
       },
       "minAirportDistanceMiles": 0.6391386343989414,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 555.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 43.5,
+        "commercial": 1.5,
+        "ga": 0.2,
+        "military": 41.8,
+        "topFacilities": [
+          {
+            "name": "RAF Benson",
+            "icao": "EGUB",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 0.6
+          },
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.7
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.4
+          },
+          {
+            "name": "RAF Abingdon",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.3
+          },
+          {
+            "name": "RAF Brize Norton",
+            "icao": "EGVN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.774Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3010,8 +3594,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 555.1,
-        "flightsDiffPct": 163
+        "flightsPerDay": 43.5,
+        "flightsDiffPct": -79
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3075,10 +3659,50 @@
       },
       "minAirportDistanceMiles": 4.593264396638836,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 140.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 10,
+        "commercial": 9.4,
+        "ga": 0.2,
+        "military": 0.5,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.4
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9.5
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.6
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.774Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3090,8 +3714,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 140.8,
-        "flightsDiffPct": -33
+        "flightsPerDay": 10,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3155,10 +3779,50 @@
       },
       "minAirportDistanceMiles": 1.882604485318602,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 100.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 9.5,
+        "commercial": 8.8,
+        "ga": 0.3,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14.5
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.5
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 7.8
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.775Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3170,8 +3834,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 100.7,
-        "flightsDiffPct": -52
+        "flightsPerDay": 9.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3235,10 +3899,50 @@
       },
       "minAirportDistanceMiles": 2.6071642257715366,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 234.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 10.4,
+        "commercial": 9.6,
+        "ga": 0.5,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.9
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.1
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 10.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.775Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3250,8 +3954,8 @@
         "airportsDiff": 1,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 234.5,
-        "flightsDiffPct": 11
+        "flightsPerDay": 10.4,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3315,10 +4019,50 @@
       },
       "minAirportDistanceMiles": 4.425488388860203,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 13.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.2
+          },
+          {
+            "name": "Crowfield Airfield",
+            "icao": "EGSO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 14.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 16
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.3
+          },
+          {
+            "name": "Elmsett Airfield",
+            "icao": "EGST",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.775Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3330,8 +4074,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 13.4,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3395,10 +4139,29 @@
       },
       "minAirportDistanceMiles": 12.903329168276674,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 444,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Bournemouth Airport",
+            "icao": "EGHH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14.5
+          },
+          {
+            "name": "RNAS Portland Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 20.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.776Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3410,8 +4173,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 444,
-        "flightsDiffPct": 111
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3475,10 +4238,50 @@
       },
       "minAirportDistanceMiles": 5.852100842944791,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 649.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 16.4,
+        "commercial": 16.2,
+        "ga": 0.2,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.9
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.8
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29.6
+          },
+          {
+            "name": "Brighton City Airport",
+            "icao": "EGKA",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 15.4
+          },
+          {
+            "name": "Redhill Aerodrome",
+            "icao": "EGKR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 11.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.776Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3490,8 +4293,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 649.2,
-        "flightsDiffPct": 208
+        "flightsPerDay": 16.4,
+        "flightsDiffPct": -92
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3555,10 +4358,50 @@
       },
       "minAirportDistanceMiles": 2.629789424714203,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 150.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 11.5,
+        "commercial": 11,
+        "ga": 0.3,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 2.6
+          },
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.9
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.9
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.7
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.777Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3570,8 +4413,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 150.6,
-        "flightsDiffPct": -29
+        "flightsPerDay": 11.5,
+        "flightsDiffPct": -95
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:43:11.125Z"
@@ -3635,10 +4478,50 @@
       },
       "minAirportDistanceMiles": 2.214075667367273,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 410.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 1.3,
+        "ga": 0.2,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.6
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 19
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.5
+          },
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.2
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 14.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.777Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3650,8 +4533,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -2,
-        "flightsPerDay": 410.8,
-        "flightsDiffPct": 387
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -3715,10 +4598,43 @@
       },
       "minAirportDistanceMiles": 1.5515113132288605,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 175.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.6,
+        "commercial": 0.1,
+        "ga": 0.5,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Strubby Airfield",
+            "icao": "EGCG",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 1.6
+          },
+          {
+            "name": "Humberside Airport",
+            "icao": "EGNJ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.9
+          },
+          {
+            "name": "RAF Coningsby",
+            "icao": "EGXC",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22
+          },
+          {
+            "name": "Wickenby Aerodrome",
+            "icao": "EGNW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.777Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3730,8 +4646,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 175.6,
-        "flightsDiffPct": 108
+        "flightsPerDay": 0.6,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -3795,10 +4711,50 @@
       },
       "minAirportDistanceMiles": 2.109453498277803,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 312.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 5.9,
+        "commercial": 5.5,
+        "ga": 0.1,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.2
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.1
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 13.3
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.778Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3810,8 +4766,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 312.4,
-        "flightsDiffPct": 270
+        "flightsPerDay": 5.9,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -3875,10 +4831,22 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.778Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3890,8 +4858,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 353
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -3955,10 +4923,50 @@
       },
       "minAirportDistanceMiles": 2.276751907544365,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 528.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.6,
+        "commercial": 1.3,
+        "ga": 0.2,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Southampton Airport",
+            "icao": "EGHI",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 7.9
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.9
+          },
+          {
+            "name": "Bournemouth Airport",
+            "icao": "EGHH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.7
+          },
+          {
+            "name": "MoD Boscombe Down",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.3
+          },
+          {
+            "name": "Lasham Airfield",
+            "icao": "EGHL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 15.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.778Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3970,8 +4978,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -1,
-        "flightsPerDay": 528.3,
-        "flightsDiffPct": 526
+        "flightsPerDay": 1.6,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4035,10 +5043,50 @@
       },
       "minAirportDistanceMiles": 2.455686073272909,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 207.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 10.1,
+        "commercial": 9.3,
+        "ga": 0.5,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 13.8
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.4
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9.5
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 10.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.779Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -4050,8 +5098,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 207.7,
-        "flightsDiffPct": 146
+        "flightsPerDay": 10.1,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4115,10 +5163,50 @@
       },
       "minAirportDistanceMiles": 7.81190150991806,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 235.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 17.5
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "RAF Fylingdales",
+            "icao": null,
+            "category": "heliport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.779Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4130,8 +5218,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 235.4,
-        "flightsDiffPct": 179
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4195,10 +5283,50 @@
       },
       "minAirportDistanceMiles": 2.293759427762576,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 240.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0.2,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.8
+          },
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.9
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.3
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.2
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.779Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4210,8 +5338,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 240.3,
-        "flightsDiffPct": 185
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4275,10 +5403,50 @@
       },
       "minAirportDistanceMiles": 1.2250816579925334,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 260.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 13.9,
+        "commercial": 12.9,
+        "ga": 0.6,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.2
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.4
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 11.4
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.7
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 11.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.779Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4290,8 +5458,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 260.5,
-        "flightsDiffPct": 209
+        "flightsPerDay": 13.9,
+        "flightsDiffPct": -93
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4355,10 +5523,22 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.780Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4370,8 +5550,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 353
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4435,10 +5615,22 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.780Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4450,8 +5642,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 353
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4515,10 +5707,22 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.780Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4530,8 +5734,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 353
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4595,10 +5799,50 @@
       },
       "minAirportDistanceMiles": 2.921982535594725,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 296.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 2.6,
+        "commercial": 0.9,
+        "ga": 1.6,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 2.9
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Wyton",
+            "icao": "EGUY",
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.781Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4610,8 +5854,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 0,
         "helipadsDiff": -1,
-        "flightsPerDay": 296.9,
-        "flightsDiffPct": 252
+        "flightsPerDay": 2.6,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4675,10 +5919,50 @@
       },
       "minAirportDistanceMiles": 5.916171993216302,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 355.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RNAS Culdrose",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.8
+          },
+          {
+            "name": "Penzance Heliport",
+            "icao": "EGHK",
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 19.5
+          },
+          {
+            "name": "Perranporth Airfield",
+            "icao": "EGTP",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.8
+          },
+          {
+            "name": "Land's End Airport",
+            "icao": "EGHC",
+            "category": "airstrip",
+            "usage": "commercial",
+            "distMiles": 26.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.781Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4690,8 +5974,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 355.6,
-        "flightsDiffPct": 321
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4755,10 +6039,50 @@
       },
       "minAirportDistanceMiles": 1.068232405280726,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 253.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 5.2,
+        "commercial": 4.9,
+        "ga": 0.2,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.5
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.1
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9.4
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.782Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4770,8 +6094,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 253.9,
-        "flightsDiffPct": 201
+        "flightsPerDay": 5.2,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4835,10 +6159,22 @@
       },
       "minAirportDistanceMiles": 4.0109895290713355,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 382.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Exeter International Airport",
+            "icao": "EGTE",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.783Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4850,8 +6186,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 382.4,
-        "flightsDiffPct": 353
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:38:18.848Z"
@@ -4895,5 +6231,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.283Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.797Z"
 }

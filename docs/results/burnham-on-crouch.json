@@ -67,10 +67,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.965Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +122,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -151,10 +191,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.965Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +246,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -235,10 +315,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.965Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +370,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -319,10 +439,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.965Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +494,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -403,10 +563,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.966Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -418,8 +618,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -487,10 +687,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.966Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -502,8 +742,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -571,10 +811,50 @@
       },
       "minAirportDistanceMiles": 4.127334895583468,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 266.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.8
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.4
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.967Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -586,8 +866,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 266.8,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -655,10 +935,50 @@
       },
       "minAirportDistanceMiles": 3.5496085187104662,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.6,
+        "commercial": 1.6,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.9
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.8
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.967Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -670,8 +990,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.1,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.6,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -739,10 +1059,50 @@
       },
       "minAirportDistanceMiles": 3.9854703249938135,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.7
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.967Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -754,8 +1114,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.3,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -823,10 +1183,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.967Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -838,8 +1238,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -907,10 +1307,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.967Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -922,8 +1362,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -991,10 +1431,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.968Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1006,8 +1486,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1075,10 +1555,50 @@
       },
       "minAirportDistanceMiles": 4.108755199791666,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.8
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.4
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.968Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1090,8 +1610,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1159,10 +1679,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.968Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1174,8 +1734,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1243,10 +1803,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.968Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1258,8 +1858,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1327,10 +1927,50 @@
       },
       "minAirportDistanceMiles": 3.752735291114,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.8
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.969Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1342,8 +1982,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.1,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1411,10 +2051,50 @@
       },
       "minAirportDistanceMiles": 4.127869162555803,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.6
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.3
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.2
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.969Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1426,8 +2106,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.9,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1495,10 +2175,50 @@
       },
       "minAirportDistanceMiles": 4.2496810600211585,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.7
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.4
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.969Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1510,8 +2230,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.1,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1579,10 +2299,50 @@
       },
       "minAirportDistanceMiles": 3.9854703249938135,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.7
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.969Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1594,8 +2354,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.3,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1663,10 +2423,50 @@
       },
       "minAirportDistanceMiles": 3.851442783615933,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 268.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.7,
+        "commercial": 1.7,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.6
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.3
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.970Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1678,8 +2478,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 268.8,
-        "flightsDiffPct": 28
+        "flightsPerDay": 1.7,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1747,10 +2547,50 @@
       },
       "minAirportDistanceMiles": 4.097805084704164,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.8
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.4
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.970Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1762,8 +2602,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.1,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1831,10 +2671,50 @@
       },
       "minAirportDistanceMiles": 4.167983607873704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.7
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.2
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.970Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1846,8 +2726,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.3,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1915,10 +2795,50 @@
       },
       "minAirportDistanceMiles": 3.9854703249938135,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.7
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.1
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.970Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1930,8 +2850,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.3,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -1999,10 +2919,50 @@
       },
       "minAirportDistanceMiles": 4.2137566984095605,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.6
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.2
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2014,8 +2974,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.6,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2083,10 +3043,50 @@
       },
       "minAirportDistanceMiles": 3.5432047662250787,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.6,
+        "commercial": 1.6,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.9
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.8
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.8
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2098,8 +3098,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 3,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.5,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.6,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2167,10 +3167,50 @@
       },
       "minAirportDistanceMiles": 4.203672977113982,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 267.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.1,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.6
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 17.2
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 22.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2182,8 +3222,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 267.6,
-        "flightsDiffPct": 27
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2250,10 +3290,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2265,8 +3345,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2330,10 +3410,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2345,8 +3465,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2410,10 +3530,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2425,8 +3585,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2490,10 +3650,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.971Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2505,8 +3705,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2570,10 +3770,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2585,8 +3825,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2650,10 +3890,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2665,8 +3945,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2730,10 +4010,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2745,8 +4065,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2810,10 +4130,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2825,8 +4185,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2890,10 +4250,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2905,8 +4305,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -2970,10 +4370,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2985,8 +4425,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3050,10 +4490,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3065,8 +4545,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3130,10 +4610,50 @@
       },
       "minAirportDistanceMiles": 3.9225893189909984,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 260.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.8,
+        "commercial": 0.8,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 7.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 16
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.5
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.972Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3145,8 +4665,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 260.8,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0.8,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3210,10 +4730,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3225,8 +4785,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3290,10 +4850,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3305,8 +4905,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3370,10 +4970,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3385,8 +5025,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3450,10 +5090,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3465,8 +5145,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3530,10 +5210,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3545,8 +5265,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3610,10 +5330,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3625,8 +5385,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3690,10 +5450,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3705,8 +5505,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3770,10 +5570,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.973Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3785,8 +5625,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3850,10 +5690,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.974Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3865,8 +5745,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -3930,10 +5810,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.974Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3945,8 +5865,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -4013,10 +5933,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.974Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4028,8 +5988,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -4093,10 +6053,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.974Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4108,8 +6108,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -4173,10 +6173,50 @@
       },
       "minAirportDistanceMiles": 2.0280233824216833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.7
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.9
+          },
+          {
+            "name": "Clacton Airfield",
+            "icao": "EGSQ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.3
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Thurrock Airfield",
+            "icao": "EGMT",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.974Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4188,8 +6228,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 258.7,
-        "flightsDiffPct": 23
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:06:33.387Z"
@@ -4233,5 +6273,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.308Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.980Z"
 }

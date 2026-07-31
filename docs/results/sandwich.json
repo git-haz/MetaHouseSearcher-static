@@ -67,10 +67,22 @@
       },
       "minAirportDistanceMiles": 4.918478203955216,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.012Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +94,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -151,10 +163,22 @@
       },
       "minAirportDistanceMiles": 5.099601499726129,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.012Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +190,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -235,10 +259,22 @@
       },
       "minAirportDistanceMiles": 5.061899397273674,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.012Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +286,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -319,10 +355,22 @@
       },
       "minAirportDistanceMiles": 4.864442165730746,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.012Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +382,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -403,10 +451,22 @@
       },
       "minAirportDistanceMiles": 4.997358620514104,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.012Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -418,8 +478,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -487,10 +547,22 @@
       },
       "minAirportDistanceMiles": 5.177799880376733,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.012Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -502,8 +574,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -571,10 +643,22 @@
       },
       "minAirportDistanceMiles": 4.913679317086345,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -586,8 +670,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.4,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -655,10 +739,22 @@
       },
       "minAirportDistanceMiles": 4.960656335750594,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -670,8 +766,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -739,10 +835,22 @@
       },
       "minAirportDistanceMiles": 5.177799880376733,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -754,8 +862,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -823,10 +931,22 @@
       },
       "minAirportDistanceMiles": 4.997358620514104,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -838,8 +958,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -907,10 +1027,22 @@
       },
       "minAirportDistanceMiles": 4.864442165730746,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -922,8 +1054,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -991,10 +1123,22 @@
       },
       "minAirportDistanceMiles": 4.658814807691592,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1006,8 +1150,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.3,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1075,10 +1219,22 @@
       },
       "minAirportDistanceMiles": 4.943664973578833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1090,8 +1246,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1159,10 +1315,22 @@
       },
       "minAirportDistanceMiles": 4.9542509265203805,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1174,8 +1342,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1243,10 +1411,22 @@
       },
       "minAirportDistanceMiles": 4.890405152612673,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.013Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1258,8 +1438,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.9,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1327,10 +1507,22 @@
       },
       "minAirportDistanceMiles": 4.997358620514104,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1342,8 +1534,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1411,10 +1603,22 @@
       },
       "minAirportDistanceMiles": 4.88172731495,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1426,8 +1630,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.6,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1495,10 +1699,22 @@
       },
       "minAirportDistanceMiles": 4.9542509265203805,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1510,8 +1726,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1579,10 +1795,22 @@
       },
       "minAirportDistanceMiles": 5.099601499726129,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1594,8 +1822,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1663,10 +1891,22 @@
       },
       "minAirportDistanceMiles": 4.955858015885822,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1678,8 +1918,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.1,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1747,10 +1987,22 @@
       },
       "minAirportDistanceMiles": 4.997358620514104,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1762,8 +2014,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1831,10 +2083,22 @@
       },
       "minAirportDistanceMiles": 4.890405152612673,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1846,8 +2110,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.9,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1915,10 +2179,22 @@
       },
       "minAirportDistanceMiles": 5.057971889840078,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1930,8 +2206,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.4,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -1999,10 +2275,22 @@
       },
       "minAirportDistanceMiles": 4.658814807691592,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.014Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2014,8 +2302,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.3,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2083,10 +2371,22 @@
       },
       "minAirportDistanceMiles": 4.913679317086345,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2098,8 +2398,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.4,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2167,10 +2467,22 @@
       },
       "minAirportDistanceMiles": 4.573587508474751,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2182,8 +2494,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 265.6,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2251,10 +2563,22 @@
       },
       "minAirportDistanceMiles": 5.109896984015985,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2266,8 +2590,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2331,10 +2655,22 @@
       },
       "minAirportDistanceMiles": 5.061899397273674,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2346,8 +2682,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2418,10 +2754,22 @@
       },
       "minAirportDistanceMiles": 5.099601499726129,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2433,8 +2781,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2498,10 +2846,22 @@
       },
       "minAirportDistanceMiles": 5.057971889840078,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2513,8 +2873,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.4,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2578,10 +2938,22 @@
       },
       "minAirportDistanceMiles": 4.960656335750594,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.015Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2593,8 +2965,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2658,10 +3030,22 @@
       },
       "minAirportDistanceMiles": 4.658814807691592,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.016Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2673,8 +3057,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.3,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2738,10 +3122,22 @@
       },
       "minAirportDistanceMiles": 5.109896984015985,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.016Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2753,8 +3149,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2818,10 +3214,22 @@
       },
       "minAirportDistanceMiles": 4.573587508474751,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.016Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2833,8 +3241,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 265.6,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2898,10 +3306,22 @@
       },
       "minAirportDistanceMiles": 4.573587508474751,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 265.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.017Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2913,8 +3333,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 265.6,
-        "flightsDiffPct": 26
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -2978,10 +3398,22 @@
       },
       "minAirportDistanceMiles": 4.890405152612673,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.017Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2993,8 +3425,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.9,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3058,10 +3490,22 @@
       },
       "minAirportDistanceMiles": 4.658814807691592,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.017Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3073,8 +3517,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.3,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3138,10 +3582,22 @@
       },
       "minAirportDistanceMiles": 4.918478203955216,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.017Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3153,8 +3609,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3218,10 +3674,22 @@
       },
       "minAirportDistanceMiles": 4.943664973578833,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.018Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3233,8 +3701,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3298,10 +3766,22 @@
       },
       "minAirportDistanceMiles": 4.9542509265203805,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.018Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3313,8 +3793,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3378,10 +3858,22 @@
       },
       "minAirportDistanceMiles": 4.918478203955216,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.018Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3393,8 +3885,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3458,10 +3950,22 @@
       },
       "minAirportDistanceMiles": 4.864442165730746,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.018Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3473,8 +3977,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3538,10 +4042,22 @@
       },
       "minAirportDistanceMiles": 4.913679317086345,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.018Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3553,8 +4069,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.4,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3618,10 +4134,22 @@
       },
       "minAirportDistanceMiles": 4.864442165730746,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.019Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3633,8 +4161,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3698,10 +4226,22 @@
       },
       "minAirportDistanceMiles": 4.918478203955216,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.019Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3713,8 +4253,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3778,10 +4318,22 @@
       },
       "minAirportDistanceMiles": 4.751606984255132,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.019Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3793,8 +4345,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.1,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3858,10 +4410,22 @@
       },
       "minAirportDistanceMiles": 5.177799880376733,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.021Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3873,8 +4437,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -3938,10 +4502,22 @@
       },
       "minAirportDistanceMiles": 4.9542509265203805,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.021Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3953,8 +4529,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.3,
-        "flightsDiffPct": 24
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -4018,10 +4594,22 @@
       },
       "minAirportDistanceMiles": 4.918478203955216,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.021Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4033,8 +4621,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.7,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -4098,10 +4686,22 @@
       },
       "minAirportDistanceMiles": 4.792878033931412,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.021Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4113,8 +4713,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -4178,10 +4778,22 @@
       },
       "minAirportDistanceMiles": 4.997358620514104,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 262.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.021Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4193,8 +4805,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 262.5,
-        "flightsDiffPct": 25
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:13:51.272Z"
@@ -4257,10 +4869,22 @@
       },
       "minAirportDistanceMiles": 4.807913565439469,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 263.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 27.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.021Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -4270,8 +4894,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 263.5,
-        "flightsDiffPct": 212
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:29:33.662Z",
@@ -4319,5 +4943,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.315Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:14.026Z"
 }

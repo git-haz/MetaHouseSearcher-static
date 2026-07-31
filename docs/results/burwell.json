@@ -67,10 +67,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +122,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -151,10 +191,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -166,8 +246,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -235,10 +315,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -250,8 +370,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -319,10 +439,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +494,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -403,10 +563,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -418,8 +618,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -487,10 +687,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -502,8 +742,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z",
@@ -575,10 +815,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.031Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -590,8 +870,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -659,10 +939,50 @@
       },
       "minAirportDistanceMiles": 2.019417154239683,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 202.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.032Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -674,8 +994,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 202.3,
-        "flightsDiffPct": -4
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -743,10 +1063,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.032Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -758,8 +1118,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -827,10 +1187,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.032Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -842,8 +1242,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -911,10 +1311,50 @@
       },
       "minAirportDistanceMiles": 2.0910247820122922,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 203.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 2.8
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.032Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -926,8 +1366,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 203.1,
-        "flightsDiffPct": -4
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -995,10 +1435,50 @@
       },
       "minAirportDistanceMiles": 2.4548073068229668,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 208,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.6,
+        "ga": 0.5,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.6
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 2.5
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.6
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 7.6
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 14.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.032Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1010,8 +1490,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 208,
-        "flightsDiffPct": -1
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1075,10 +1555,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.033Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1090,8 +1610,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1155,10 +1675,50 @@
       },
       "minAirportDistanceMiles": 2.227958600373638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 204.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.6,
+        "ga": 0.5,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.2
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 2.6
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 7.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.033Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1170,8 +1730,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 204.5,
-        "flightsDiffPct": -3
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1235,10 +1795,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.033Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1250,8 +1850,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1315,10 +1915,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.033Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1330,8 +1970,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1395,10 +2035,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.033Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1410,8 +2090,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1475,10 +2155,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1490,8 +2210,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1557,10 +2277,50 @@
       },
       "minAirportDistanceMiles": 1.9764923748450667,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 201.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.6,
+        "ga": 0.5,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 2.5
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1572,8 +2332,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 201.5,
-        "flightsDiffPct": -4
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z",
@@ -1641,10 +2401,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1656,8 +2456,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1721,10 +2521,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1736,8 +2576,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1801,10 +2641,50 @@
       },
       "minAirportDistanceMiles": 1.9114054973154482,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 201.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.8
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.2
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1816,8 +2696,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 201.2,
-        "flightsDiffPct": -5
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1881,10 +2761,50 @@
       },
       "minAirportDistanceMiles": 1.9114054973154482,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 201.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.8
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.2
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1896,8 +2816,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 201.2,
-        "flightsDiffPct": -5
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -1961,10 +2881,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.034Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1976,8 +2936,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2041,10 +3001,50 @@
       },
       "minAirportDistanceMiles": 1.9574323943435838,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 201.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.4
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.2
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2056,8 +3056,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 201.6,
-        "flightsDiffPct": -4
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2121,10 +3121,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2136,8 +3176,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2201,10 +3241,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2216,8 +3296,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 11
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2281,10 +3361,50 @@
       },
       "minAirportDistanceMiles": 1.7370823169636949,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 199.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.6
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.4
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 3.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2296,8 +3416,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 199.2,
-        "flightsDiffPct": -5
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2361,10 +3481,50 @@
       },
       "minAirportDistanceMiles": 2.2509779004334542,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 5.8,
+        "commercial": 5.7,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 3
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.6
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.1
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.1
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2376,8 +3536,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2441,10 +3601,50 @@
       },
       "minAirportDistanceMiles": 2.1087668423530883,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 203,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.4,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 3.1
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2456,8 +3656,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 203,
-        "flightsDiffPct": -4
+        "flightsPerDay": 1.4,
+        "flightsDiffPct": -99
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2521,10 +3721,50 @@
       },
       "minAirportDistanceMiles": 2.2509779004334542,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 257.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 5.8,
+        "commercial": 5.7,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 3
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.6
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 21.1
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.1
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.035Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2536,8 +3776,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 257.9,
-        "flightsDiffPct": 22
+        "flightsPerDay": 5.8,
+        "flightsDiffPct": -97
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:16:17.792Z"
@@ -2604,10 +3844,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.036Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -2617,8 +3897,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 177
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:32:00.260Z",
@@ -2686,10 +3966,50 @@
       },
       "minAirportDistanceMiles": 2.1317832043870637,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 203.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.6,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.1
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 8
+          },
+          {
+            "name": "Newmarket Heath Airfield",
+            "icao": "EGSW",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 2.8
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.037Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -2699,8 +4019,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 203.5,
-        "flightsDiffPct": 141
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:32:00.260Z",
@@ -2767,10 +4087,50 @@
       },
       "minAirportDistanceMiles": 4.534455193975425,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 233.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.5,
+        "commercial": 0.7,
+        "ga": 0.6,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26
+          },
+          {
+            "name": "Cambridge City Airport",
+            "icao": "EGSC",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 5.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:14.037Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -2780,8 +4140,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 2,
         "helipadsDiff": -3,
-        "flightsPerDay": 233.8,
-        "flightsDiffPct": 177
+        "flightsPerDay": 1.5,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T10:32:00.260Z",
@@ -2830,5 +4190,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.317Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:14.041Z"
 }

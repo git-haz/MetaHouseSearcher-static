@@ -67,10 +67,36 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.985Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +108,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.1,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -151,10 +177,36 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.985Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +218,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.8,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -235,10 +287,36 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.985Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +328,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.1,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -319,10 +397,36 @@
       },
       "minAirportDistanceMiles": 2.605338406204555,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.5
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.987Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +438,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.9,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z",
@@ -407,10 +511,36 @@
       },
       "minAirportDistanceMiles": 2.4305163756228207,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.987Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -422,8 +552,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.3,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -491,10 +621,36 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.987Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -506,8 +662,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.3,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -575,10 +731,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.987Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -590,8 +772,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -659,10 +841,36 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.5
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.987Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -674,8 +882,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.8,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -743,10 +951,36 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.5
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -758,8 +992,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.8,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -827,10 +1061,36 @@
       },
       "minAirportDistanceMiles": 2.471727675395755,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.9
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -842,8 +1102,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.6,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -911,10 +1171,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -926,8 +1212,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z",
@@ -1001,10 +1287,36 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1016,8 +1328,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.3,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1085,10 +1397,36 @@
       },
       "minAirportDistanceMiles": 2.3135771141703594,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1100,8 +1438,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.8,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1169,10 +1507,36 @@
       },
       "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1184,8 +1548,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1253,10 +1617,36 @@
       },
       "minAirportDistanceMiles": 2.4834135380986497,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.988Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1268,8 +1658,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.5,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1337,10 +1727,36 @@
       },
       "minAirportDistanceMiles": 2.4275116540631503,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1352,8 +1768,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.4,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1421,10 +1837,36 @@
       },
       "minAirportDistanceMiles": 2.5512794917600736,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1436,8 +1878,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.8,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1505,10 +1947,36 @@
       },
       "minAirportDistanceMiles": 2.1072379638645593,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1520,8 +1988,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.1,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1585,10 +2053,36 @@
       },
       "minAirportDistanceMiles": 2.4305163756228207,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1600,8 +2094,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.3,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1665,10 +2159,36 @@
       },
       "minAirportDistanceMiles": 2.51053846029958,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1680,8 +2200,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1745,10 +2265,36 @@
       },
       "minAirportDistanceMiles": 2.6535976333491784,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1760,8 +2306,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.3,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1825,10 +2371,36 @@
       },
       "minAirportDistanceMiles": 2.6667330089299868,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1840,8 +2412,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.3,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1905,10 +2477,36 @@
       },
       "minAirportDistanceMiles": 2.6667330089299868,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.989Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1920,8 +2518,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.3,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -1985,10 +2583,50 @@
       },
       "minAirportDistanceMiles": 2.6687148158916245,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 355.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.2,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 22.3
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 6.2
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 6.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2000,8 +2638,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 355.5,
-        "flightsDiffPct": 69
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2065,10 +2703,36 @@
       },
       "minAirportDistanceMiles": 2.6512398668599713,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.5
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2080,8 +2744,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.1,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2145,10 +2809,36 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2160,8 +2850,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.8,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2225,10 +2915,36 @@
       },
       "minAirportDistanceMiles": 2.782405066133453,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 376.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.7
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2240,8 +2956,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 5,
         "helipadsDiff": -4,
-        "flightsPerDay": 376.8,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2305,10 +3021,36 @@
       },
       "minAirportDistanceMiles": 2.471727675395755,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.9
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2320,8 +3062,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.6,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2385,10 +3127,36 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.5
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2400,8 +3168,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.8,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z",
@@ -2470,10 +3238,36 @@
       },
       "minAirportDistanceMiles": 2.3406442942755725,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.5
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2485,8 +3279,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.8,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2550,10 +3344,36 @@
       },
       "minAirportDistanceMiles": 2.349912268160801,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.9
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2565,8 +3385,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.1,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2630,10 +3450,36 @@
       },
       "minAirportDistanceMiles": 2.4629985556342735,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 375.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.990Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2645,8 +3491,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 375.6,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2710,10 +3556,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2725,8 +3597,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2790,10 +3662,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2805,8 +3703,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2870,10 +3768,36 @@
       },
       "minAirportDistanceMiles": 2.9571419066380193,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 377.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.8
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.6
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2885,8 +3809,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 377.4,
-        "flightsDiffPct": 79
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -2950,10 +3874,36 @@
       },
       "minAirportDistanceMiles": 2.031755592047333,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 373.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2965,8 +3915,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 373.5,
-        "flightsDiffPct": 77
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3030,10 +3980,36 @@
       },
       "minAirportDistanceMiles": 2.0004667249758956,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 373.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3045,8 +4021,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 373.7,
-        "flightsDiffPct": 77
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3110,10 +4086,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3125,8 +4127,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3190,10 +4192,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3205,8 +4233,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3270,10 +4298,36 @@
       },
       "minAirportDistanceMiles": 2.2367994994650884,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 374.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.1
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3285,8 +4339,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 374.7,
-        "flightsDiffPct": 78
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3350,10 +4404,36 @@
       },
       "minAirportDistanceMiles": 1.9850704134199768,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 373.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 13.3
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.4
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 20.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.991Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3365,8 +4445,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 373.2,
-        "flightsDiffPct": 77
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3430,10 +4510,36 @@
       },
       "minAirportDistanceMiles": 1.9673432651365563,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 373.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.992Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3445,8 +4551,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 373.5,
-        "flightsDiffPct": 77
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3510,10 +4616,36 @@
       },
       "minAirportDistanceMiles": 1.9673432651365563,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 373.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Lydd London Ashford Airport",
+            "icao": "EGMD",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 12.9
+          },
+          {
+            "name": "Farthing Corner / Stoneacre Farm Airfield",
+            "icao": "EGMF",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 18.8
+          },
+          {
+            "name": "Rochester Airport",
+            "icao": "EGTO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 21.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.992Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3525,8 +4657,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 373.5,
-        "flightsDiffPct": 77
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T09:09:09.927Z"
@@ -3570,5 +4702,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.310Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.996Z"
 }

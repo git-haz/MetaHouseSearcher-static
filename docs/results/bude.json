@@ -67,10 +67,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.806Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +108,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -151,10 +177,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.806Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +218,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -235,10 +287,36 @@
       },
       "minAirportDistanceMiles": 10.619921281777636,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.806Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -250,8 +328,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -319,10 +397,36 @@
       },
       "minAirportDistanceMiles": 10.495820112718867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.8
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.806Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -334,8 +438,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.7,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z",
@@ -407,10 +511,36 @@
       },
       "minAirportDistanceMiles": 10.495820112718867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.8
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.806Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -422,8 +552,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.7,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -491,10 +621,36 @@
       },
       "minAirportDistanceMiles": 10.747157301424803,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.807Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -506,8 +662,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.7,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -575,10 +731,36 @@
       },
       "minAirportDistanceMiles": 10.542611619398476,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.807Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -590,8 +772,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -659,10 +841,36 @@
       },
       "minAirportDistanceMiles": 10.439400954586747,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.1
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.807Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -674,8 +882,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -743,10 +951,36 @@
       },
       "minAirportDistanceMiles": 10.603860672229015,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.807Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -758,8 +992,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.7,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -823,10 +1057,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.808Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -838,8 +1098,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -903,10 +1163,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.808Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -918,8 +1204,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -983,10 +1269,36 @@
       },
       "minAirportDistanceMiles": 10.542611619398476,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.808Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -998,8 +1310,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1063,10 +1375,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.808Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1078,8 +1416,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1143,10 +1481,36 @@
       },
       "minAirportDistanceMiles": 10.495820112718867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.8
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.808Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1158,8 +1522,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.7,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1223,10 +1587,36 @@
       },
       "minAirportDistanceMiles": 10.439400954586747,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.1
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.808Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1238,8 +1628,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1303,10 +1693,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1318,8 +1734,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1383,10 +1799,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1398,8 +1840,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1463,10 +1905,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1478,8 +1946,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1543,10 +2011,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1558,8 +2052,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1623,10 +2117,36 @@
       },
       "minAirportDistanceMiles": 10.41992168166029,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1638,8 +2158,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1703,10 +2223,36 @@
       },
       "minAirportDistanceMiles": 10.396959239567096,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.1
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1718,8 +2264,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1783,10 +2329,36 @@
       },
       "minAirportDistanceMiles": 10.41992168166029,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1798,8 +2370,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1863,10 +2435,36 @@
       },
       "minAirportDistanceMiles": 10.41992168166029,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.809Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1878,8 +2476,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -1943,10 +2541,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1958,8 +2582,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2023,10 +2647,36 @@
       },
       "minAirportDistanceMiles": 10.455843791463124,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.3
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2038,8 +2688,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2103,10 +2753,36 @@
       },
       "minAirportDistanceMiles": 10.529152646057756,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2118,8 +2794,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2183,10 +2859,36 @@
       },
       "minAirportDistanceMiles": 10.09279329983275,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2198,8 +2900,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365.1,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2263,10 +2965,36 @@
       },
       "minAirportDistanceMiles": 10.645976717048967,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2278,8 +3006,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2343,10 +3071,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2358,8 +3112,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2423,10 +3177,36 @@
       },
       "minAirportDistanceMiles": 10.204348285066512,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 14
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2438,8 +3218,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2503,10 +3283,36 @@
       },
       "minAirportDistanceMiles": 10.604297209155458,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2518,8 +3324,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2583,10 +3389,36 @@
       },
       "minAirportDistanceMiles": 10.718467497552254,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.810Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2598,8 +3430,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.9,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2663,10 +3495,36 @@
       },
       "minAirportDistanceMiles": 10.117981594287887,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 14.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 12.7
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2678,8 +3536,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 73
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:45:34.283Z"
@@ -2746,10 +3604,36 @@
       },
       "minAirportDistanceMiles": 10.483426973772954,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 364.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.6
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.2
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 23.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -2759,8 +3643,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 364.8,
-        "flightsDiffPct": 332
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -2828,10 +3712,36 @@
       },
       "minAirportDistanceMiles": 10.427913413019601,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 365,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 13.5
+          },
+          {
+            "name": "Lundy Island Helipad",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 24.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -2841,8 +3751,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -3,
-        "flightsPerDay": 365,
-        "flightsDiffPct": 332
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -2910,10 +3820,50 @@
       },
       "minAirportDistanceMiles": 2.1099160878205216,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 100.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 10.5,
+        "commercial": 9.7,
+        "ga": 0.3,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 13.3
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -2923,8 +3873,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 1,
-        "flightsPerDay": 100.2,
-        "flightsDiffPct": 19
+        "flightsPerDay": 10.5,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -2991,10 +3941,50 @@
       },
       "minAirportDistanceMiles": 0.7148888097575747,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 179.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 12.1,
+        "commercial": 10.7,
+        "ga": 1,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 12.6
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "London Heliport",
+            "icao": "EGLW",
+            "category": "heliport",
+            "usage": "private",
+            "distMiles": 0.7
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "baselineComparison": {
@@ -3004,8 +3994,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 179.6,
-        "flightsDiffPct": 113
+        "flightsPerDay": 12.1,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3072,10 +4062,50 @@
       },
       "minAirportDistanceMiles": 5.370206824369607,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 187.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 9.4,
+        "commercial": 8.7,
+        "ga": 0.2,
+        "military": 0.5,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14.7
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.9
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.1
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3085,8 +4115,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 2,
-        "flightsPerDay": 187.2,
-        "flightsDiffPct": 122
+        "flightsPerDay": 9.4,
+        "flightsDiffPct": -96
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3153,10 +4183,50 @@
       },
       "minAirportDistanceMiles": 4.491165492963766,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 481.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 11.7,
+        "commercial": 10.9,
+        "ga": 0.6,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 13.9
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14.1
+          },
+          {
+            "name": "London Biggin Hill Airport",
+            "icao": "EGKB",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 10.1
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 15.2
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3166,8 +4236,8 @@
         "airportsDiff": 1,
         "airstripsDiff": 1,
         "helipadsDiff": 0,
-        "flightsPerDay": 481.3,
-        "flightsDiffPct": 470
+        "flightsPerDay": 11.7,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3234,10 +4304,50 @@
       },
       "minAirportDistanceMiles": 1.8610029070022902,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 138.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 8.3,
+        "commercial": 7.8,
+        "ga": 0.2,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.2
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6.2
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.811Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3247,8 +4357,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 138.8,
-        "flightsDiffPct": 64
+        "flightsPerDay": 8.3,
+        "flightsDiffPct": -96
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3315,10 +4425,50 @@
       },
       "minAirportDistanceMiles": 3.361761244234064,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 87.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 9.5,
+        "commercial": 8.8,
+        "ga": 0.3,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14.2
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.4
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.3
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 26.8
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.812Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3328,8 +4478,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 87.5,
-        "flightsDiffPct": 4
+        "flightsPerDay": 9.5,
+        "flightsDiffPct": -95
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3396,10 +4546,50 @@
       },
       "minAirportDistanceMiles": 0.9276827599984866,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 119.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 9,
+        "commercial": 8.4,
+        "ga": 0.3,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 16.9
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 5.5
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.3
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.2
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.812Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3409,8 +4599,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 119.7,
-        "flightsDiffPct": 42
+        "flightsPerDay": 9,
+        "flightsDiffPct": -96
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3477,10 +4667,50 @@
       },
       "minAirportDistanceMiles": 6.024891158256553,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 799,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 39.5,
+        "commercial": 38.2,
+        "ga": 0.3,
+        "military": 1,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 6
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.3
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 7.7
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.7
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 16.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.812Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3490,8 +4720,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 4,
-        "flightsPerDay": 799,
-        "flightsDiffPct": 847
+        "flightsPerDay": 39.5,
+        "flightsDiffPct": -81
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3558,10 +4788,50 @@
       },
       "minAirportDistanceMiles": 4.069147046682783,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 439.9,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.6,
+        "commercial": 0.3,
+        "ga": 0.2,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Bristol Airport",
+            "icao": "EGGD",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.9
+          },
+          {
+            "name": "Cotswold Airport",
+            "icao": "EGBP",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 15.2
+          },
+          {
+            "name": "Gloucestershire Airport",
+            "icao": "EGBJ",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 29.4
+          },
+          {
+            "name": "RAF Keevil",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.5
+          },
+          {
+            "name": "RAF Fairford",
+            "icao": "EGVA",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.812Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3571,8 +4841,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 3,
         "helipadsDiff": -3,
-        "flightsPerDay": 439.9,
-        "flightsDiffPct": 421
+        "flightsPerDay": 0.6,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3639,10 +4909,50 @@
       },
       "minAirportDistanceMiles": 5.389463121143052,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 902.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 48.5,
+        "commercial": 47.3,
+        "ga": 0.3,
+        "military": 0.9,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 5.4
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.6
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 8.1
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.7
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.812Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3652,8 +4962,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 4,
-        "flightsPerDay": 902.5,
-        "flightsDiffPct": 969
+        "flightsPerDay": 48.5,
+        "flightsDiffPct": -77
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3720,10 +5030,50 @@
       },
       "minAirportDistanceMiles": 0.8362923502288567,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 661.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 4.1,
+        "commercial": 3.3,
+        "ga": 0.4,
+        "military": 0.4,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.9
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.3
+          },
+          {
+            "name": "RAF Benson",
+            "icao": "EGUB",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.9
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 21.3
+          },
+          {
+            "name": "Blackbushe Airport",
+            "icao": "EGLK",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 14.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.812Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -3733,8 +5083,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 661.1,
-        "flightsDiffPct": 683
+        "flightsPerDay": 4.1,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:59:32.187Z",
@@ -3782,5 +5132,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.285Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.819Z"
 }

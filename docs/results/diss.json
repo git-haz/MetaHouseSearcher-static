@@ -71,10 +71,50 @@
       },
       "minAirportDistanceMiles": 2.7282286490029923,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.877Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -86,8 +126,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -155,10 +195,50 @@
       },
       "minAirportDistanceMiles": 3.004543663347948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.877Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -170,8 +250,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -239,10 +319,50 @@
       },
       "minAirportDistanceMiles": 2.9869365900618328,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.877Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -254,8 +374,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -323,10 +443,50 @@
       },
       "minAirportDistanceMiles": 2.672012949597613,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.877Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -338,8 +498,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -407,10 +567,50 @@
       },
       "minAirportDistanceMiles": 3.086756296573452,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.5
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.877Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -422,8 +622,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -491,10 +691,50 @@
       },
       "minAirportDistanceMiles": 2.8854785254404147,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -506,8 +746,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -575,10 +815,50 @@
       },
       "minAirportDistanceMiles": 2.8749207881380294,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -590,8 +870,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -659,10 +939,50 @@
       },
       "minAirportDistanceMiles": 2.8555575097206773,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -674,8 +994,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -743,10 +1063,50 @@
       },
       "minAirportDistanceMiles": 3.086756296573452,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.5
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -758,8 +1118,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -827,10 +1187,50 @@
       },
       "minAirportDistanceMiles": 2.829696054213773,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -842,8 +1242,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -911,10 +1311,50 @@
       },
       "minAirportDistanceMiles": 2.9637259820140964,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.5
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -926,8 +1366,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -995,10 +1435,50 @@
       },
       "minAirportDistanceMiles": 2.7360291310426614,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.8
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1010,8 +1490,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1079,10 +1559,50 @@
       },
       "minAirportDistanceMiles": 3.004543663347948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.878Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1094,8 +1614,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1163,10 +1683,50 @@
       },
       "minAirportDistanceMiles": 3.086756296573452,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.5
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1178,8 +1738,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1247,10 +1807,50 @@
       },
       "minAirportDistanceMiles": 2.811416177315301,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1262,8 +1862,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1331,10 +1931,50 @@
       },
       "minAirportDistanceMiles": 2.672012949597613,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1346,8 +1986,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1415,10 +2055,50 @@
       },
       "minAirportDistanceMiles": 2.7360291310426614,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.8
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1430,8 +2110,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1499,10 +2179,50 @@
       },
       "minAirportDistanceMiles": 3.004543663347948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1514,8 +2234,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1583,10 +2303,50 @@
       },
       "minAirportDistanceMiles": 2.672012949597613,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1598,8 +2358,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1667,10 +2427,50 @@
       },
       "minAirportDistanceMiles": 2.905278317536253,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1682,8 +2482,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1747,10 +2547,50 @@
       },
       "minAirportDistanceMiles": 2.8749207881380294,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1762,8 +2602,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1831,10 +2671,50 @@
       },
       "minAirportDistanceMiles": 2.9869365900618328,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.879Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1846,8 +2726,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1911,10 +2791,50 @@
       },
       "minAirportDistanceMiles": 2.905278317536253,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -1926,8 +2846,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -1991,10 +2911,50 @@
       },
       "minAirportDistanceMiles": 2.1805393200303356,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 5.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.8
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.8
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2006,8 +2966,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 5.8,
-        "flightsDiffPct": -97
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2071,10 +3031,50 @@
       },
       "minAirportDistanceMiles": 2.829696054213773,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2086,8 +3086,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2151,10 +3151,50 @@
       },
       "minAirportDistanceMiles": 2.8854785254404147,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2166,8 +3206,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2231,10 +3271,50 @@
       },
       "minAirportDistanceMiles": 3.004543663347948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2246,8 +3326,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2311,10 +3391,50 @@
       },
       "minAirportDistanceMiles": 2.672012949597613,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2326,8 +3446,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2394,10 +3514,50 @@
       },
       "minAirportDistanceMiles": 3.556858791274383,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.5
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27.1
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2409,8 +3569,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.5,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2474,10 +3634,50 @@
       },
       "minAirportDistanceMiles": 3.52265957274159,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.5
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.1
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.9
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2489,8 +3689,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.5,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2554,10 +3754,50 @@
       },
       "minAirportDistanceMiles": 3.521143178271638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.5
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.1
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.9
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.880Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2569,8 +3809,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.5,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2634,10 +3874,50 @@
       },
       "minAirportDistanceMiles": 3.521143178271638,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.5
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 15.1
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.9
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 27
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2649,8 +3929,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.5,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2714,10 +3994,50 @@
       },
       "minAirportDistanceMiles": 2.672012949597613,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2729,8 +4049,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2794,10 +4114,50 @@
       },
       "minAirportDistanceMiles": 2.9869365900618328,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2809,8 +4169,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2874,10 +4234,50 @@
       },
       "minAirportDistanceMiles": 2.9869365900618328,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.2
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2889,8 +4289,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -2954,10 +4354,50 @@
       },
       "minAirportDistanceMiles": 2.672012949597613,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 30
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2969,8 +4409,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3034,10 +4474,50 @@
       },
       "minAirportDistanceMiles": 2.8555575097206773,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3049,8 +4529,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3118,10 +4598,50 @@
       },
       "minAirportDistanceMiles": 2.7360291310426614,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.8
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.9
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3133,8 +4653,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3198,10 +4718,50 @@
       },
       "minAirportDistanceMiles": 3.004543663347948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.881Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3213,8 +4773,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3278,10 +4838,50 @@
       },
       "minAirportDistanceMiles": 3.004543663347948,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.1
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.2
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.882Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3293,8 +4893,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3362,10 +4962,50 @@
       },
       "minAirportDistanceMiles": 2.7282286490029923,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.882Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3377,8 +5017,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3445,10 +5085,50 @@
       },
       "minAirportDistanceMiles": 3.0114675204442714,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 21.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 14.5
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.4
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.882Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3460,8 +5140,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.3,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:55:10.966Z"
@@ -3525,10 +5205,50 @@
       },
       "minAirportDistanceMiles": 2.1805393200303356,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 5.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.4,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12
+          },
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.9
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 20.8
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.8
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.882Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3540,8 +5260,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 5.8,
-        "flightsDiffPct": -93
+        "flightsPerDay": 0.4,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:50:42.586Z"
@@ -3585,5 +5305,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.295Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.890Z"
 }

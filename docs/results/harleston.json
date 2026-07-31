@@ -67,10 +67,50 @@
       },
       "minAirportDistanceMiles": 3.753303139474288,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 3.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 21.7
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.4
+          },
+          {
+            "name": "Crowfield Airfield",
+            "icao": "EGSO",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 7.2
+          },
+          {
+            "name": "Elmsett Airfield",
+            "icao": "EGST",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.895Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -82,8 +122,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 2,
         "helipadsDiff": -4,
-        "flightsPerDay": 3.4,
-        "flightsDiffPct": -98
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -151,10 +191,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.895Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -166,8 +246,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z",
@@ -239,10 +319,50 @@
       },
       "minAirportDistanceMiles": 1.6552901402876947,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.895Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -254,8 +374,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -323,10 +443,50 @@
       },
       "minAirportDistanceMiles": 1.6552901402876947,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.895Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -338,8 +498,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -407,10 +567,50 @@
       },
       "minAirportDistanceMiles": 1.783779738702232,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.895Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -422,8 +622,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -491,10 +691,50 @@
       },
       "minAirportDistanceMiles": 1.6750417394999122,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.5
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.1
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -506,8 +746,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.5,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -575,10 +815,50 @@
       },
       "minAirportDistanceMiles": 1.675998765059753,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.4
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -590,8 +870,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.5,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -659,10 +939,50 @@
       },
       "minAirportDistanceMiles": 1.928815382128326,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.5
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -674,8 +994,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -743,10 +1063,50 @@
       },
       "minAirportDistanceMiles": 1.6750417394999122,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.5
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.1
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -758,8 +1118,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.5,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -827,10 +1187,50 @@
       },
       "minAirportDistanceMiles": 4.817947447579229,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 134.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.9
+          },
+          {
+            "name": "Marshland Airfield",
+            "icao": "EGSI",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.5
+          },
+          {
+            "name": "Shipdham Airfield",
+            "icao": "EGSA",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -842,8 +1242,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 134.4,
-        "flightsDiffPct": -36
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -911,10 +1311,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -926,8 +1366,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -995,10 +1435,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1010,8 +1490,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1079,10 +1559,50 @@
       },
       "minAirportDistanceMiles": 1.8766611092996812,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1094,8 +1614,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1163,10 +1683,50 @@
       },
       "minAirportDistanceMiles": 1.9349591065421754,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.5
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.896Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1178,8 +1738,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1247,10 +1807,50 @@
       },
       "minAirportDistanceMiles": 4.817947447579229,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 134.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.9
+          },
+          {
+            "name": "Marshland Airfield",
+            "icao": "EGSI",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.5
+          },
+          {
+            "name": "Shipdham Airfield",
+            "icao": "EGSA",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1262,8 +1862,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 134.4,
-        "flightsDiffPct": -36
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1331,10 +1931,50 @@
       },
       "minAirportDistanceMiles": 1.7868820263350353,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.4
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1346,8 +1986,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1415,10 +2055,50 @@
       },
       "minAirportDistanceMiles": 1.86038808881076,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1430,8 +2110,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.7,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1499,10 +2179,50 @@
       },
       "minAirportDistanceMiles": 4.817947447579229,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 134.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 9.2
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 24.3
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26.9
+          },
+          {
+            "name": "Marshland Airfield",
+            "icao": "EGSI",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.5
+          },
+          {
+            "name": "Shipdham Airfield",
+            "icao": "EGSA",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 23.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1514,8 +2234,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 1,
         "helipadsDiff": -4,
-        "flightsPerDay": 134.4,
-        "flightsDiffPct": -36
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1583,10 +2303,50 @@
       },
       "minAirportDistanceMiles": 1.5237225875288072,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.1
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1598,8 +2358,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1667,10 +2427,50 @@
       },
       "minAirportDistanceMiles": 1.5629385405989362,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.4
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.8
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1682,8 +2482,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1751,10 +2551,50 @@
       },
       "minAirportDistanceMiles": 1.7737088168049462,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.9
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1766,8 +2606,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1835,10 +2675,50 @@
       },
       "minAirportDistanceMiles": 1.8892632369427058,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.5
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1850,8 +2730,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -1919,10 +2799,50 @@
       },
       "minAirportDistanceMiles": 1.5414419682166645,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.3
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.6
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.897Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1934,8 +2854,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2003,10 +2923,50 @@
       },
       "minAirportDistanceMiles": 1.5237225875288072,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.1
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.1
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2018,8 +2978,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2083,10 +3043,50 @@
       },
       "minAirportDistanceMiles": 1.6552901402876947,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2098,8 +3098,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2163,10 +3163,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2178,8 +3218,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2243,10 +3283,50 @@
       },
       "minAirportDistanceMiles": 1.8892632369427058,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.8
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.5
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.1
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2258,8 +3338,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2323,10 +3403,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2338,8 +3458,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2403,10 +3523,50 @@
       },
       "minAirportDistanceMiles": 1.6552901402876947,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.5
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2418,8 +3578,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.6,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2483,10 +3643,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2498,8 +3698,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2563,10 +3763,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.898Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2578,8 +3818,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2643,10 +3883,50 @@
       },
       "minAirportDistanceMiles": 1.6981717708573536,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.3
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.899Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2658,8 +3938,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2723,10 +4003,50 @@
       },
       "minAirportDistanceMiles": 1.6981717708573536,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.3
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.3
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.899Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2738,8 +4058,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2803,10 +4123,50 @@
       },
       "minAirportDistanceMiles": 1.4007217478194245,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.2
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9.2
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.6
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.899Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2818,8 +4178,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.4,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2886,10 +4246,50 @@
       },
       "minAirportDistanceMiles": 1.9501252392376436,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.6
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.900Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2901,8 +4301,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.7,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -2966,10 +4366,50 @@
       },
       "minAirportDistanceMiles": 1.575065639481075,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.8
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 9
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.6
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.900Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2981,8 +4421,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.5,
-        "flightsDiffPct": -95
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -3046,10 +4486,50 @@
       },
       "minAirportDistanceMiles": 2.0020985997429834,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.7
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.3
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.8
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.900Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3061,8 +4541,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -3126,10 +4606,50 @@
       },
       "minAirportDistanceMiles": 2.021445596946957,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 11.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.6
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.7
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.2
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 13.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.900Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3141,8 +4661,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -4,
-        "flightsPerDay": 11.8,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -3206,10 +4726,50 @@
       },
       "minAirportDistanceMiles": 2.2674165749485704,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 12,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.3,
+        "commercial": 0.2,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Norwich Airport",
+            "icao": "EGSH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 18.4
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Seething Airfield",
+            "icao": "EGSJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 8.1
+          },
+          {
+            "name": "Old Buckenham Airfield",
+            "icao": "EGSV",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.6
+          },
+          {
+            "name": "Beccles Airfield",
+            "icao": "EGSM",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 12.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.901Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3221,8 +4781,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 4,
         "helipadsDiff": -3,
-        "flightsPerDay": 12,
-        "flightsDiffPct": -94
+        "flightsPerDay": 0.3,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:57:10.568Z"
@@ -3266,5 +4826,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.298Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.906Z"
 }

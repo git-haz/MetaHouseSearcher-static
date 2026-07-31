@@ -67,10 +67,29 @@
       },
       "minAirportDistanceMiles": 10.17803019910578,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.678Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -90,8 +109,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -163,10 +182,29 @@
       },
       "minAirportDistanceMiles": 9.829100611624714,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.2
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.690Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -186,8 +224,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -261,10 +299,29 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.690Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -284,8 +341,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -358,10 +415,29 @@
       },
       "minAirportDistanceMiles": 10.164755283048741,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.691Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -381,8 +457,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -450,10 +526,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.691Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -473,8 +575,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -546,10 +648,29 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.692Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -569,8 +690,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -638,10 +759,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.693Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -661,8 +808,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -730,10 +877,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.693Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -753,8 +926,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -822,10 +995,29 @@
       },
       "minAirportDistanceMiles": 9.910252406358591,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.693Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -845,8 +1037,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -914,10 +1106,29 @@
       },
       "minAirportDistanceMiles": 10.084147824640196,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.694Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -937,8 +1148,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -1010,10 +1221,29 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.694Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1033,8 +1263,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1102,10 +1332,29 @@
       },
       "minAirportDistanceMiles": 10.100184990390153,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.694Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1125,8 +1374,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1194,10 +1443,29 @@
       },
       "minAirportDistanceMiles": 9.597473322705422,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.695Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1217,8 +1485,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.8,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1286,10 +1554,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.695Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1309,8 +1596,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1378,10 +1665,29 @@
       },
       "minAirportDistanceMiles": 9.963497677972379,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.695Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1401,8 +1707,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1470,10 +1776,29 @@
       },
       "minAirportDistanceMiles": 10.149575141120179,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.696Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1493,8 +1818,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1562,10 +1887,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.696Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1585,8 +1929,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1654,10 +1998,29 @@
       },
       "minAirportDistanceMiles": 9.95212076434195,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.697Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1677,8 +2040,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1746,10 +2109,29 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.697Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1769,8 +2151,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1838,10 +2220,29 @@
       },
       "minAirportDistanceMiles": 9.782731935429327,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.2
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.697Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1861,8 +2262,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -1930,10 +2331,29 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.698Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -1953,8 +2373,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2030,10 +2450,29 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.698Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2053,8 +2492,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2122,10 +2561,29 @@
       },
       "minAirportDistanceMiles": 9.963497677972379,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.706Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2145,8 +2603,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2214,10 +2672,29 @@
       },
       "minAirportDistanceMiles": 9.925045666920688,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.707Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2237,8 +2714,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2306,10 +2783,29 @@
       },
       "minAirportDistanceMiles": 9.982815098890333,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.707Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2329,8 +2825,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2398,10 +2894,29 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.708Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2421,8 +2936,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2486,10 +3001,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.708Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2509,8 +3050,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2574,10 +3115,29 @@
       },
       "minAirportDistanceMiles": 9.925045666920688,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.709Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2597,8 +3157,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2662,10 +3222,29 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.709Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2685,8 +3264,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z",
@@ -2755,10 +3334,29 @@
       },
       "minAirportDistanceMiles": 9.863056170821247,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.709Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -2778,8 +3376,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2843,10 +3441,29 @@
       },
       "minAirportDistanceMiles": 9.910252406358591,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.710Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2866,8 +3483,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -2931,10 +3548,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.711Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -2954,8 +3597,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3019,10 +3662,29 @@
       },
       "minAirportDistanceMiles": 9.963497677972379,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.711Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3042,8 +3704,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3107,10 +3769,29 @@
       },
       "minAirportDistanceMiles": 9.95212076434195,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.711Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3130,8 +3811,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3195,10 +3876,29 @@
       },
       "minAirportDistanceMiles": 9.982815098890333,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.712Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3218,8 +3918,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3283,10 +3983,29 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.712Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3306,8 +4025,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3371,10 +4090,29 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.712Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3394,8 +4132,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3459,10 +4197,29 @@
       },
       "minAirportDistanceMiles": 10.074754464789786,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.712Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3482,8 +4239,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3547,10 +4304,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.712Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3570,8 +4353,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3635,10 +4418,29 @@
       },
       "minAirportDistanceMiles": 10.106628422567237,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.712Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "autoTags": [],
@@ -3658,8 +4460,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3723,10 +4525,29 @@
       },
       "minAirportDistanceMiles": 9.782731935429327,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.2
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.713Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3746,8 +4567,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3811,10 +4632,29 @@
       },
       "minAirportDistanceMiles": 7.6197890555342696,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 370,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 13.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.713Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3834,8 +4674,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 370,
-        "flightsDiffPct": 76
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3899,10 +4739,29 @@
       },
       "minAirportDistanceMiles": 9.728582147186149,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.2
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.713Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -3922,8 +4781,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -3987,10 +4846,29 @@
       },
       "minAirportDistanceMiles": 10.17803019910578,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 26.9
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.713Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4010,8 +4888,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4075,10 +4953,29 @@
       },
       "minAirportDistanceMiles": 10.100184990390153,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.713Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4098,8 +4995,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4163,10 +5060,29 @@
       },
       "minAirportDistanceMiles": 9.597473322705422,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.713Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4186,8 +5102,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.8,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4251,10 +5167,29 @@
       },
       "minAirportDistanceMiles": 10.164755283048741,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.9
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.714Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4274,8 +5209,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4339,10 +5274,29 @@
       },
       "minAirportDistanceMiles": 10.56042954569038,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.5,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 10.7
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 26.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.714Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4362,8 +5316,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.5,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4427,10 +5381,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.714Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4450,8 +5430,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4519,10 +5499,29 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.714Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4542,8 +5541,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4613,10 +5612,29 @@
       },
       "minAirportDistanceMiles": 9.915170314135867,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.6
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.714Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4636,8 +5654,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.6,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4701,10 +5719,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.715Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4724,8 +5761,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4789,10 +5826,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.715Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4812,8 +5868,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4877,10 +5933,22 @@
       },
       "minAirportDistanceMiles": 3.9605092949601928,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 371.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 20.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.715Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4892,8 +5960,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 371.8,
-        "flightsDiffPct": 76
+        "flightsPerDay": 0,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -4957,10 +6025,50 @@
       },
       "minAirportDistanceMiles": 1.3152037106616494,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 610.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 4,
+        "commercial": 3.6,
+        "ga": 0.3,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 14.6
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 22.7
+          },
+          {
+            "name": "Brighton City Airport",
+            "icao": "EGKA",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 14.4
+          },
+          {
+            "name": "RAF Odiham",
+            "icao": "EGVO",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 26
+          },
+          {
+            "name": "Dunsfold Aerodrome",
+            "icao": "EGTD",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 7.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.716Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -4972,8 +6080,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 5,
         "helipadsDiff": -3,
-        "flightsPerDay": 610.2,
-        "flightsDiffPct": 190
+        "flightsPerDay": 4,
+        "flightsDiffPct": -98
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5037,10 +6145,50 @@
       },
       "minAirportDistanceMiles": 3.655209946523161,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 252.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.7,
+        "commercial": 0.5,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9.9
+          },
+          {
+            "name": "RAF Topcliffe",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 16.1
+          },
+          {
+            "name": "RAF Leeming",
+            "icao": null,
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 21
+          },
+          {
+            "name": "Leeds East Airport",
+            "icao": "EGCM",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 18.2
+          },
+          {
+            "name": "Sherburn-in-Elmet Airfield",
+            "icao": "EGCJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 19.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.717Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5052,8 +6200,8 @@
         "airportsDiff": -1,
         "airstripsDiff": 1,
         "helipadsDiff": -3,
-        "flightsPerDay": 252.2,
-        "flightsDiffPct": 20
+        "flightsPerDay": 0.7,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5117,10 +6265,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.718Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5140,8 +6307,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5205,10 +6372,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.718Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5228,8 +6414,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 75
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5293,10 +6479,50 @@
       },
       "minAirportDistanceMiles": 3.4820424957018097,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 528.6,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.2,
+        "commercial": 0.1,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Southampton Airport",
+            "icao": "EGHI",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.3
+          },
+          {
+            "name": "Goodwood Aerodrome",
+            "icao": "EGHR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 5.3
+          },
+          {
+            "name": "Brighton City Airport",
+            "icao": "EGKA",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 23.4
+          },
+          {
+            "name": "Lasham Airfield",
+            "icao": "EGHL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.4
+          },
+          {
+            "name": "Bembridge Airport",
+            "icao": "EGHJ",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 14.7
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.719Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5308,8 +6534,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 2,
         "helipadsDiff": 0,
-        "flightsPerDay": 528.6,
-        "flightsDiffPct": 151
+        "flightsPerDay": 0.2,
+        "flightsDiffPct": -100
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5373,10 +6599,36 @@
       },
       "minAirportDistanceMiles": 2.7361516793845744,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 297.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 8,
+        "commercial": 8,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Manchester Airport",
+            "icao": "EGCC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 7.8
+          },
+          {
+            "name": "Liverpool John Lennon Airport",
+            "icao": "EGGP",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          },
+          {
+            "name": "Hawarden Airport",
+            "icao": "EGNR",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 28.5
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.721Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5388,8 +6640,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 2,
         "helipadsDiff": -2,
-        "flightsPerDay": 297.4,
-        "flightsDiffPct": 41
+        "flightsPerDay": 8,
+        "flightsDiffPct": -96
       },
       "isNew": true,
       "retrievedAt": "2026-07-28T08:40:16.202Z"
@@ -5453,10 +6705,29 @@
       },
       "minAirportDistanceMiles": 1.164778002931473,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 258.4,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 4,
+        "commercial": 3.9,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Edinburgh Airport",
+            "icao": "EGPH",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 8.1
+          },
+          {
+            "name": "RAF Kirknewton",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.721Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5468,8 +6739,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": 3,
-        "flightsPerDay": 258.4,
-        "flightsDiffPct": 206
+        "flightsPerDay": 4,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -5533,10 +6804,29 @@
       },
       "minAirportDistanceMiles": 9.91119797347759,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.722Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5556,8 +6846,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -5621,10 +6911,29 @@
       },
       "minAirportDistanceMiles": 8.142361786745528,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 276.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.2,
+        "commercial": 1.2,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Manchester Airport",
+            "icao": "EGCC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 20.7
+          },
+          {
+            "name": "Leeds Bradford Airport",
+            "icao": "EGNM",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 24.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.722Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5636,8 +6945,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 276.2,
-        "flightsDiffPct": 227
+        "flightsPerDay": 1.2,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -5701,10 +7010,50 @@
       },
       "minAirportDistanceMiles": 1.430688749901749,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 147.1,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 13.5,
+        "commercial": 13,
+        "ga": 0.3,
+        "military": 0.2,
+        "topFacilities": [
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 2.6
+          },
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 19.7
+          },
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25.9
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28.1
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.8
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.723Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5716,8 +7065,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 147.1,
-        "flightsDiffPct": 74
+        "flightsPerDay": 13.5,
+        "flightsDiffPct": -94
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -5781,10 +7130,29 @@
       },
       "minAirportDistanceMiles": 8.067072853842205,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 283.2,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 4.3,
+        "commercial": 4.3,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "Manchester Airport",
+            "icao": "EGCC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 10.6
+          },
+          {
+            "name": "Liverpool John Lennon Airport",
+            "icao": "EGGP",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.724Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5796,8 +7164,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 0,
         "helipadsDiff": -2,
-        "flightsPerDay": 283.2,
-        "flightsDiffPct": 236
+        "flightsPerDay": 4.3,
+        "flightsDiffPct": -98
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -5861,10 +7229,50 @@
       },
       "minAirportDistanceMiles": 5.847968017930194,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 218.8,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 6.9,
+        "commercial": 6.4,
+        "ga": 0.2,
+        "military": 0.3,
+        "topFacilities": [
+          {
+            "name": "London Heathrow Airport",
+            "icao": "EGLL",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 17.1
+          },
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 25
+          },
+          {
+            "name": "London Luton Airport",
+            "icao": "EGGW",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 22.2
+          },
+          {
+            "name": "London City Airport",
+            "icao": "EGLC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 9.6
+          },
+          {
+            "name": "RAF Northolt",
+            "icao": "EGWU",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 13.4
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.724Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5876,8 +7284,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": 0,
-        "flightsPerDay": 218.8,
-        "flightsDiffPct": 159
+        "flightsPerDay": 6.9,
+        "flightsDiffPct": -97
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -5941,10 +7349,50 @@
       },
       "minAirportDistanceMiles": 5.789443151911293,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 56.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.7,
+        "commercial": 0,
+        "ga": 0.1,
+        "military": 0.6,
+        "topFacilities": [
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 6.8
+          },
+          {
+            "name": "RAF Mildenhall",
+            "icao": "EGUN",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.3
+          },
+          {
+            "name": "RAF Lakenheath",
+            "icao": "EGUL",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 12.7
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 27.1
+          },
+          {
+            "name": "RAF Marham",
+            "icao": "EGYM",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 28.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.724Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -5956,8 +7404,8 @@
         "airportsDiff": 0,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 56.3,
-        "flightsDiffPct": -33
+        "flightsPerDay": 0.7,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -6021,10 +7469,50 @@
       },
       "minAirportDistanceMiles": 1.0763247071266722,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 162.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.1,
+        "commercial": 0.9,
+        "ga": 0.1,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Stansted Airport",
+            "icao": "EGSS",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.5
+          },
+          {
+            "name": "London Southend Airport",
+            "icao": "EGMC",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 28
+          },
+          {
+            "name": "Earls Colne Airfield",
+            "icao": "EGSR",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 5.4
+          },
+          {
+            "name": "RAF Honington",
+            "icao": "EGXH",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 25.5
+          },
+          {
+            "name": "Duxford Aerodrome",
+            "icao": "EGSU",
+            "category": "airstrip",
+            "usage": "private",
+            "distMiles": 28.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.725Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "autoTags": [],
@@ -6036,8 +7524,8 @@
         "airportsDiff": -3,
         "airstripsDiff": 7,
         "helipadsDiff": -4,
-        "flightsPerDay": 162.3,
-        "flightsDiffPct": 92
+        "flightsPerDay": 1.1,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-25T12:34:57.076Z"
@@ -6104,10 +7592,29 @@
       },
       "minAirportDistanceMiles": 9.930894806321731,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368.7,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0,
+        "ga": 0,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 11.1
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.3
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.725Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -6117,8 +7624,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368.7,
-        "flightsDiffPct": 337
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -6197,10 +7704,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.726Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -6210,8 +7743,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -6287,10 +7820,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.726Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -6300,8 +7859,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -6377,10 +7936,36 @@
       },
       "minAirportDistanceMiles": 9.478008542296127,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 368,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 0.1,
+        "commercial": 0.1,
+        "ga": 0,
+        "military": 0.1,
+        "topFacilities": [
+          {
+            "name": "RAF Davidstow Moor",
+            "icao": null,
+            "category": "airstrip",
+            "usage": "military",
+            "distMiles": 9.5
+          },
+          {
+            "name": "Cornwall Airport Newquay",
+            "icao": "EGHQ",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.4
+          },
+          {
+            "name": "Hartland Point Heliport",
+            "icao": null,
+            "category": "heliport",
+            "usage": "commercial",
+            "distMiles": 27.2
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.726Z",
+        "interpolated": false
       },
       "keywordsMatched": 1,
       "baselineComparison": {
@@ -6390,8 +7975,8 @@
         "airportsDiff": -4,
         "airstripsDiff": 0,
         "helipadsDiff": -4,
-        "flightsPerDay": 368,
-        "flightsDiffPct": 336
+        "flightsPerDay": 0.1,
+        "flightsDiffPct": -100
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -6467,10 +8052,50 @@
       },
       "minAirportDistanceMiles": 2.122183551682229,
       "flyoverRef": {
-        "location": "interpolated",
-        "flightsPerDay": 584.3,
-        "interpolated": true,
-        "generatedAt": "2026-06-26T12:59:20.862Z"
+        "flightsPerDay": 1.8,
+        "commercial": 1.4,
+        "ga": 0.3,
+        "military": 0,
+        "topFacilities": [
+          {
+            "name": "London Gatwick Airport",
+            "icao": "EGKK",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 23.8
+          },
+          {
+            "name": "Farnborough Airport",
+            "icao": "EGLF",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 19.5
+          },
+          {
+            "name": "Southampton Airport",
+            "icao": "EGHI",
+            "category": "airport",
+            "usage": "commercial",
+            "distMiles": 29.7
+          },
+          {
+            "name": "RAF Odiham",
+            "icao": "EGVO",
+            "category": "airport",
+            "usage": "military",
+            "distMiles": 19.8
+          },
+          {
+            "name": "Lasham Airfield",
+            "icao": "EGHL",
+            "category": "airport",
+            "usage": "private",
+            "distMiles": 20
+          }
+        ],
+        "method": "facility-direct",
+        "generatedAt": "2026-07-31T13:51:13.727Z",
+        "interpolated": false
       },
       "keywordsMatched": 0,
       "baselineComparison": {
@@ -6480,8 +8105,8 @@
         "airportsDiff": -2,
         "airstripsDiff": 1,
         "helipadsDiff": -2,
-        "flightsPerDay": 584.3,
-        "flightsDiffPct": 592
+        "flightsPerDay": 1.8,
+        "flightsDiffPct": -99
       },
       "isNew": false,
       "retrievedAt": "2026-07-23T09:54:27.540Z",
@@ -6530,5 +8155,6 @@
     }
   ],
   "dupePassAt": "2026-07-28T10:16:38.279Z",
-  "autoTaggedAt": "2026-07-30T12:15:32.295Z"
+  "autoTaggedAt": "2026-07-30T12:15:32.295Z",
+  "flyoverRescoredAt": "2026-07-31T13:51:13.756Z"
 }
