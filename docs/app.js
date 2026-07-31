@@ -766,9 +766,22 @@ function renderCard(p, context) {
       : interpParts.length === 1
         ? `Derived from ${interpParts[0]} using distance-weighted movement data.`
         : '';
+    // Breakdown line for new facility-direct method
+    const breakdownLine = fd.method === 'facility-direct' && (fd.commercial || fd.ga || fd.military)
+      ? [
+          fd.commercial > 0 ? `commercial ${fd.commercial}` : '',
+          fd.ga         > 0 ? `GA ${fd.ga}`                 : '',
+          (fd.military||0) > 0 ? `military ${fd.military}`  : '',
+        ].filter(Boolean).join(' · ')
+      : '';
+    const topFacs = fd.topFacilities?.length
+      ? fd.topFacilities.slice(0,3).map(f => `${f.name} ${f.distMiles}mi`).join(', ')
+      : '';
     const popupLines = [
-      `<b>Flyover estimate</b>`,
-      `Rate: ${fd.flightsPerDay} flights/day`,
+      `<b>Flyover index</b>`,
+      `Total: ${fd.flightsPerDay}/day weighted`,
+      breakdownLine ? `Breakdown: ${breakdownLine}` : '',
+      topFacs ? `<span style="font-size:11px;color:#666;">Top contributors: ${topFacs}</span>` : '',
       fd.seasonalFlag ? `Seasonal pattern: ${fd.seasonalFlag.replace(/_/g,' ')}` : '',
       interpSentence ? `<span style="font-size:11px;color:#666;">${interpSentence}</span>` : '',
       approxFlyover
@@ -778,7 +791,7 @@ function renderCard(p, context) {
     ].filter(Boolean).join('<br>');
     return `<div class="card-flyover${approxFlyover ? ' card-flyover-approx' : ''}">
       ${approxBanner}
-      ✈ <span class="kw-info-btn" onclick="toggleInfoPopup('${flyoverPopupId}',event)">${rateDisplay} ℹ</span>
+      ✈ <span class="kw-info-btn" onclick="toggleInfoPopup('${flyoverPopupId}',event)">${rateDisplay}${breakdownLine ? ` <span style="font-size:10px;color:var(--text-muted);">(${breakdownLine})</span>` : ''} ℹ</span>
       ${fd.seasonalFlag === 'high_variance' ? '<span class="flyover-seasonal-high"> — seasonal variance</span>' : ''}
       ${fd.seasonalFlag === 'very_high_variance' ? '<span class="flyover-seasonal-high"> — high seasonal variance</span>' : ''}
       ${fd.seasonalFlag === 'stable' ? '<span class="flyover-seasonal-stable"> — stable</span>' : ''}
@@ -987,6 +1000,7 @@ function renderMap(results) {
       <br>${p.agent ? '<span style="font-size:11px;">' + p.agent + '</span><br>' : ''}${p.sources.map(s => `<a href="${s.url}" target="_blank" style="color:var(--primary);">${s.portal}</a>`).join(' ')}
       ${zn.length ? '<br><span style="color:#e65100;font-size:11px;">⚠ ' + zn.join(', ') + '</span>' : ''}
       <div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:8px;border-top:1px solid #eee;padding-top:8px;">
+        <button class="action-btn" style="font-size:11px;padding:3px 8px;background:var(--primary);color:#fff;border-color:var(--primary);" onclick="showPropertyDetail('${mk}')">Details</button>
         <button class="action-btn ${isInList('favorite',mk)?'active-favorite':''}" style="font-size:11px;padding:3px 8px;" onclick="mapToggleFav('${mk}')">☆ Fav</button>
         <button class="action-btn ${isInList('rejected',mk)?'active-rejected':''}" style="font-size:11px;padding:3px 8px;" onclick="mapOpenReject('${mk}')">Reject</button>
         <button class="action-btn" style="font-size:11px;padding:3px 8px;" onclick="mapOpenNote('${mk}')">📝 Note</button>
@@ -2028,6 +2042,199 @@ document.getElementById('mergeCancelBtn').addEventListener('click', () => {
 });
 document.getElementById('mergeModal').addEventListener('click', e => {
   if (e.target === e.currentTarget) { e.currentTarget.classList.remove('active'); exitMergeMode(); }
+});
+
+// ---- Property detail modal ----
+
+let detailCarouselIdx = 0;
+let detailCarouselTotal = 0;
+
+function flyoverLevel(v) {
+  if (v == null) return null;
+  if (v < 2)   return { cls: 'very-low',  label: 'Very low' };
+  if (v < 10)  return { cls: 'low',       label: 'Low' };
+  if (v < 30)  return { cls: 'medium',    label: 'Medium' };
+  if (v < 100) return { cls: 'high',      label: 'High' };
+  return              { cls: 'very-high', label: 'Very high' };
+}
+
+function buildDetailCarousel(images) {
+  const multi = images.length > 1;
+  const imgs = images.map((src, i) => `<img src="${src}" alt="Property photo" loading="${i === 0 ? 'eager' : 'lazy'}" class="${i === 0 ? 'active' : ''}">`).join('');
+  const nav = multi
+    ? `<button class="carousel-btn carousel-prev" onclick="detailCarouselNav(-1)">&#8249;</button>
+       <button class="carousel-btn carousel-next" onclick="detailCarouselNav(1)">&#8250;</button>
+       <span class="carousel-counter" id="detail-carousel-counter">1 / ${images.length}</span>
+       <div class="carousel-dots" id="detail-carousel-dots">${images.map((_, i) => `<span class="carousel-dot${i === 0 ? ' active' : ''}"></span>`).join('')}</div>`
+    : '';
+  const hint = `<span class="detail-img-hint">Exterior / front view</span>`;
+  return `<div class="detail-carousel" id="detail-carousel">${imgs}${nav}${images.length > 0 ? hint : ''}</div>`;
+}
+
+window.detailCarouselNav = function(dir) {
+  const carousel = document.getElementById('detail-carousel');
+  if (!carousel) return;
+  const imgs  = carousel.querySelectorAll('img');
+  const dots  = carousel.querySelectorAll('.carousel-dot');
+  const counter = carousel.querySelector('.carousel-counter');
+  const n = imgs.length;
+  imgs[detailCarouselIdx].classList.remove('active');
+  if (dots[detailCarouselIdx]) dots[detailCarouselIdx].classList.remove('active');
+  detailCarouselIdx = (detailCarouselIdx + dir + n) % n;
+  imgs[detailCarouselIdx].classList.add('active');
+  if (dots[detailCarouselIdx]) dots[detailCarouselIdx].classList.add('active');
+  if (counter) counter.textContent = `${detailCarouselIdx + 1} / ${n}`;
+  // Remove hint after first image
+  const hint = carousel.querySelector('.detail-img-hint');
+  if (hint) hint.style.display = detailCarouselIdx === 0 ? '' : 'none';
+};
+
+function buildFlyoverDetail(p) {
+  const fd = p.flyoverRef || p.flyover;
+  if (!fd) return '';
+  const lv = flyoverLevel(fd.flightsPerDay);
+  const lvHtml = lv ? `<span class="flyover-level-${lv.cls}" style="font-size:12px;margin-left:6px;">${lv.label}</span>` : '';
+  const isApprox = fd.interpolated || fd.method === 'reference-centroid' || (p.geoAccuracy && p.geoAccuracy !== 'address');
+  const approxNote = isApprox ? `<div class="detail-flyover-approx">⚠ Estimated — inexact geocode (${p.geoAccuracy || 'no coords'})</div>` : '';
+
+  // Breakdown (new method)
+  let breakdownHtml = '';
+  if (fd.method === 'facility-direct' && (fd.commercial != null || fd.ga != null)) {
+    breakdownHtml = `<div class="detail-flyover-breakdown">
+      ${fd.commercial > 0 ? `<span class="flyover-bucket flyover-bucket-commercial"><span class="flyover-bucket-dot"></span>Commercial ${fd.commercial}/day</span>` : ''}
+      ${fd.ga > 0         ? `<span class="flyover-bucket flyover-bucket-ga">        <span class="flyover-bucket-dot"></span>GA / private ${fd.ga}/day</span>` : ''}
+      ${(fd.military||0) > 0 ? `<span class="flyover-bucket flyover-bucket-military"><span class="flyover-bucket-dot"></span>Military ${fd.military}/day</span>` : ''}
+    </div>`;
+  } else if (fd.seasonalFlag) {
+    breakdownHtml = `<div style="font-size:12px;color:var(--text-muted);">Seasonal pattern: ${fd.seasonalFlag.replace(/_/g,' ')}</div>`;
+  }
+
+  // Top contributing facilities
+  let facilitiesHtml = '';
+  if (fd.topFacilities && fd.topFacilities.length) {
+    const items = fd.topFacilities.map(f => {
+      const icon = f.category === 'heliport' ? '🚁' : f.category === 'airstrip' ? '🛩' : '✈';
+      return `<span>${icon} ${f.name}${f.icao ? ` (${f.icao})` : ''} · ${f.distMiles}mi</span>`;
+    }).join('');
+    facilitiesHtml = `<div class="detail-flyover-facilities">Top contributors: ${items}</div>`;
+  }
+
+  return `<div class="detail-flyover">
+    <div class="detail-flyover-headline">
+      <span class="detail-flyover-total flyover-level-${lv?.cls || ''}">✈ ${fd.flightsPerDay}</span>
+      <span class="detail-flyover-label">weighted flights/day${lvHtml}</span>
+    </div>
+    ${breakdownHtml}
+    ${facilitiesHtml}
+    ${approxNote}
+  </div>`;
+}
+
+window.showPropertyDetail = function(key) {
+  const p = currentResults.find(r => pkey(r) === key);
+  if (!p) return;
+  detailCarouselIdx = 0;
+  const images = (p.images && p.images.length) ? p.images : ['https://placehold.co/800x500/e0e0e0/999?text=No+Image'];
+
+  const geoIcons  = { address: '📍', postcode: '📮', area: '🗺️' };
+  const geoTitles = { address: 'Street-level geocode', postcode: 'Postcode centroid', area: 'Area estimate' };
+  const geoIcon   = p.geoAccuracy ? `<span class="geo-accuracy geo-${p.geoAccuracy}" title="${geoTitles[p.geoAccuracy]}">${geoIcons[p.geoAccuracy]}</span>` : '';
+  const ek = key.replace(/'/g, "\\'");
+
+  // Specs
+  const specs = [
+    p.bedrooms  != null ? `${p.bedrooms} bed`  : null,
+    p.bathrooms != null ? `${p.bathrooms} bath` : null,
+    p.sqft ? `${p.sqft.toLocaleString()} sq ft` : null,
+    p.type || null,
+    p.agent || null,
+  ].filter(Boolean).map(s => `<span class="detail-spec">${s}</span>`).join('');
+
+  // Nearest facilities
+  const fmtFac = (item, icon, label) => !item ? '' : `<div class="detail-facility-item${item.active === false ? ' inactive' : ''}">
+    <div class="detail-facility-name">${icon} ${item.name}${item.icao ? ` (${item.icao})` : ''}</div>
+    <div class="detail-facility-meta">${label} · ${item.distanceMiles?.toFixed(1)} mi · ${item.usage || ''}${item.active === false ? ' · inactive' : ''}</div>
+  </div>`;
+  const facilitiesHtml = (p.nearestAirport || p.nearestAirstrip || p.nearestHeliport)
+    ? `<div class="detail-section-title">Nearest facilities</div>
+       <div class="detail-facilities">
+         ${fmtFac(p.nearestAirport,  '✈', 'Airport')}
+         ${fmtFac(p.nearestAirstrip, '🛩', 'Airstrip')}
+         ${fmtFac(p.nearestHeliport, '🚁', 'Heliport')}
+       </div>` : '';
+
+  // Description
+  const desc = p.fullDescription || p.description || '';
+  const descHtml = desc
+    ? `<div class="detail-section-title">Description</div>
+       <div class="detail-description">${desc.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>` : '';
+
+  // Sources
+  const sourcesHtml = p.sources?.length
+    ? `<div class="detail-section-title">View on portal</div>
+       <div class="detail-sources">
+         ${p.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="detail-source-link">↗ ${s.portal}</a>`).join('')}
+       </div>` : '';
+
+  // Action buttons (same set as card)
+  const note = propertyNotes[key] || '';
+  const actionsHtml = `<div class="detail-actions">
+    <button class="action-btn ${isInList('favorite', key) ? 'active-favorite' : ''}" onclick="toggleList('favorite','${ek}','detail');this.className='action-btn '+(isInList('favorite','${key}')?'active-favorite':'')">
+      ${isInList('favorite', key) ? '★' : '☆'} Fav
+    </button>
+    ${['seen','view','viewed','in_progress'].map(s =>
+      `<button class="action-btn ${isInList(s, key) ? 'active-'+s : ''}" onclick="toggleList('${s}','${ek}','detail')">${LIST_LABELS[s]}</button>`
+    ).join('')}
+    <button class="action-btn ${isInList('rejected', key) ? 'active-rejected' : ''}" onclick="openRejectModal('${ek}','detail')">${isInList('rejected', key) ? '✕ Rejected' : 'Reject'}</button>
+    <button class="action-btn" onclick="openNote('${ek}','detail')">${note ? 'Edit Note' : '+ Note'}</button>
+  </div>`;
+
+  // Posted date
+  const posted = p.postedDate ? `<span class="detail-posted">${p.postedDate}</span>` : '';
+
+  document.getElementById('detail-content').innerHTML = `
+    ${buildDetailCarousel(images)}
+    <div class="detail-body">
+      <div class="detail-price-row">
+        <span class="detail-price">£${p.price.toLocaleString()}</span>
+        ${posted}
+      </div>
+      <div class="detail-title">${p.title}</div>
+      <div class="detail-address">${geoIcon} ${p.address}</div>
+      <div class="detail-specs-row">${specs}</div>
+      ${buildFlyoverDetail(p)}
+      ${facilitiesHtml}
+      ${descHtml}
+      ${sourcesHtml}
+      ${actionsHtml}
+    </div>`;
+
+  document.getElementById('property-detail-modal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+};
+
+window.closePropertyDetail = function() {
+  document.getElementById('property-detail-modal').classList.add('hidden');
+  document.body.style.overflow = '';
+};
+
+window.detailOverlayClick = function(e) {
+  if (e.target === document.getElementById('property-detail-modal')) closePropertyDetail();
+};
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closePropertyDetail();
+});
+
+// Card click → open detail (event delegation on both list containers)
+['results','results-lists'].forEach(containerId => {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  el.addEventListener('click', e => {
+    if (e.target.closest('a, button, .carousel-btn, .kw-info-btn, details, .card-dupe-btn')) return;
+    const card = e.target.closest('.property-card[data-key]');
+    if (card) showPropertyDetail(card.dataset.key);
+  });
 });
 
 // --- Init ---

@@ -267,10 +267,8 @@ async function processLocation(search, rawResults, portalLinks, config, resultsD
   // 5. Airport distances
   attachAirportDistances(results);
 
-  // 6. Flyover data
-  if (fs.existsSync(flyoverSource)) {
-    attachFlyoverData(results, config.searches.map(s => s.location));
-  }
+  // 6. Flyover data — per-property from full facility list, reference as fallback
+  attachFlyoverData(results, config.searches.map(s => s.location), airportsArr);
 
   // 7. Keywords
   attachKeywords(results, config);
@@ -723,10 +721,8 @@ async function rescoreFlyoverResults(config, resultsDir, airportsArr, baselineDa
       if (!p.sourceLocation) p.sourceLocation = data.location;
     }
 
-    // Re-attach flyover using corrected sourceLocation lookup
-    if (fs.existsSync(flyoverSource)) {
-      attachFlyoverData(data.properties, searchLocations);
-    }
+    // Re-attach flyover using per-property direct calculation
+    attachFlyoverData(data.properties, searchLocations, airportsArr);
 
     // Re-attach baseline comparison (depends on flyoverRef.flightsPerDay)
     attachBaselineComparison(data.properties, airportsArr, baselineData);

@@ -227,6 +227,14 @@
 
   <div id="loading-overlay" class="spinner-overlay active"><div class="spinner"></div></div>
 
+  <!-- Property detail modal -->
+  <div id="property-detail-modal" class="detail-overlay hidden" onclick="detailOverlayClick(event)">
+    <div class="detail-panel" id="detail-panel">
+      <button class="detail-close" onclick="closePropertyDetail()" title="Close (Esc)">✕</button>
+      <div id="detail-content"></div>
+    </div>
+  </div>
+
   <!-- Results Page -->
   <div class="container page active" id="search-page">
     <div class="search-panel" style="padding:12px 16px;">

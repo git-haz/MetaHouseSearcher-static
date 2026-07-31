@@ -1404,3 +1404,173 @@ details[open] .data-sources-summary::before { transform: rotate(90deg); }
 
 /* Exclude keywords textarea (legacy — hidden, kept for compatibility) */
 #excludeKeywordsInput { display: none; }
+
+/* ---- Property detail modal ---- */
+.detail-overlay {
+  position: fixed; inset: 0; z-index: 9000;
+  background: rgba(0,0,0,0.65); backdrop-filter: blur(2px);
+  display: flex; align-items: flex-start; justify-content: center;
+  overflow-y: auto; padding: 24px 16px;
+}
+.detail-overlay.hidden { display: none; }
+.detail-panel {
+  background: var(--card-bg);
+  border-radius: 12px;
+  width: 100%; max-width: 860px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+.detail-close {
+  position: absolute; top: 12px; right: 14px; z-index: 2;
+  background: rgba(0,0,0,0.5); color: #fff; border: none;
+  width: 34px; height: 34px; border-radius: 50%; font-size: 18px;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: background 0.15s;
+}
+.detail-close:hover { background: rgba(0,0,0,0.8); }
+
+/* Detail carousel */
+.detail-carousel {
+  position: relative; width: 100%; height: 380px;
+  background: #111; overflow: hidden;
+}
+.detail-carousel img {
+  width: 100%; height: 380px; object-fit: cover; display: none;
+}
+.detail-carousel img.active { display: block; }
+.detail-carousel .carousel-btn { opacity: 0.8; width: 40px; height: 40px; font-size: 20px; }
+.detail-carousel:hover .carousel-btn { opacity: 1; }
+.detail-carousel .carousel-counter { font-size: 13px; bottom: 12px; right: 12px; }
+.detail-carousel .carousel-dots { bottom: 12px; }
+.detail-img-hint {
+  position: absolute; bottom: 12px; left: 12px;
+  background: rgba(0,0,0,0.55); color: #fff; font-size: 11px;
+  padding: 2px 8px; border-radius: 10px; pointer-events: none;
+}
+
+/* Detail body */
+.detail-body { padding: 24px; }
+.detail-price-row {
+  display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; flex-wrap: wrap;
+}
+.detail-price { font-size: 28px; font-weight: 700; color: var(--primary); }
+.detail-posted { font-size: 12px; color: var(--success); background: #e6f4ea; padding: 2px 10px; border-radius: 10px; }
+.detail-title { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+.detail-address { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
+
+.detail-specs-row {
+  display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;
+}
+.detail-spec {
+  background: #f1f3f4; border-radius: 6px;
+  padding: 5px 12px; font-size: 13px; font-weight: 500;
+}
+
+/* Flyover breakdown */
+.detail-flyover {
+  background: #f8f9fa; border: 1px solid var(--border);
+  border-radius: 8px; padding: 14px 16px; margin-bottom: 16px;
+}
+.detail-flyover-headline {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+}
+.detail-flyover-total { font-size: 18px; font-weight: 700; }
+.detail-flyover-label { font-size: 13px; color: var(--text-muted); }
+.detail-flyover-breakdown {
+  display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px;
+}
+.flyover-bucket {
+  display: flex; align-items: center; gap: 5px;
+}
+.flyover-bucket-dot {
+  width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0;
+}
+.flyover-bucket-commercial .flyover-bucket-dot { background: #1a73e8; }
+.flyover-bucket-ga         .flyover-bucket-dot { background: #188038; }
+.flyover-bucket-military   .flyover-bucket-dot { background: #d93025; }
+.flyover-level-very-low  { color: #188038; }
+.flyover-level-low       { color: #33a853; }
+.flyover-level-medium    { color: #f9ab00; }
+.flyover-level-high      { color: #ea4335; }
+.flyover-level-very-high { color: #c62828; }
+
+.detail-flyover-facilities {
+  margin-top: 10px; font-size: 12px; color: var(--text-muted);
+  border-top: 1px solid var(--border); padding-top: 8px;
+}
+.detail-flyover-facilities span { margin-right: 12px; }
+.detail-flyover-approx {
+  font-size: 11px; color: #b45309; background: #fef3e2;
+  padding: 3px 8px; border-radius: 6px; display: inline-block; margin-top: 6px;
+}
+
+/* Nearest facilities */
+.detail-facilities {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px; margin-bottom: 16px;
+}
+.detail-facility-item {
+  background: #f8f9fa; border: 1px solid var(--border); border-radius: 6px;
+  padding: 8px 12px; font-size: 13px;
+}
+.detail-facility-item.inactive { opacity: 0.55; }
+.detail-facility-name { font-weight: 600; margin-bottom: 2px; }
+.detail-facility-meta { color: var(--text-muted); font-size: 12px; }
+
+/* Description */
+.detail-description {
+  font-size: 14px; line-height: 1.65; color: var(--text);
+  margin-bottom: 16px; white-space: pre-wrap;
+  max-height: 280px; overflow-y: auto;
+  border: 1px solid var(--border); border-radius: 6px; padding: 12px;
+  background: #fafafa;
+}
+
+/* Source links */
+.detail-sources {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;
+}
+.detail-source-link {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 7px 16px; border-radius: 6px;
+  background: var(--primary); color: #fff;
+  text-decoration: none; font-size: 13px; font-weight: 500;
+  transition: background 0.15s;
+}
+.detail-source-link:hover { background: var(--primary-hover); }
+
+/* Detail section headers */
+.detail-section-title {
+  font-size: 11px; font-weight: 600; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.5px;
+  margin: 16px 0 8px;
+}
+.detail-section-title:first-child { margin-top: 0; }
+
+/* Action row in detail */
+.detail-actions {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  padding-top: 16px; border-top: 1px solid var(--border);
+}
+
+/* Card click affordance */
+.property-card { cursor: pointer; }
+.property-card .card-sources a,
+.property-card .card-actions button,
+.property-card .carousel-btn,
+.property-card .kw-info-btn,
+.property-card .card-dupe-btn,
+.property-card details { cursor: auto; }
+
+@media (max-width: 600px) {
+  .detail-carousel, .detail-carousel img { height: 240px; }
+  .detail-body { padding: 16px; }
+  .detail-price { font-size: 22px; }
+}
+@media (prefers-color-scheme: dark) {
+  .detail-description { background: #1e1e2e; border-color: #3a3a5c; }
+  .detail-flyover { background: #1e213a; border-color: #3a3a5c; }
+  .detail-spec, .detail-facility-item { background: #1e213a; border-color: #3a3a5c; }
+}
