@@ -17,6 +17,41 @@
       <h3>MetaHouseSearcher — Changelog</h3>
       <div class="changelog-list">
         <div class="changelog-entry">
+          <span class="changelog-ver">v2.17.0</span>
+          <span class="changelog-date">31 Jul 2026</span>
+          <ul>
+            <li>Flyover calculation now includes military Low Flying Areas (LFAs), transit corridors and 15 military airbases — properties inside LFA zones (e.g. Yorkshire Dales, Welsh valleys) now show accurate military sortie contributions</li>
+            <li>LFA contributions use the published MOD low-end daily sortie estimate; corridor transits use per-corridor estimates (2–8 sorties/day)</li>
+            <li>Top contributing facilities in property detail view now shows ⚡ LFA and ↗ corridor entries alongside airports</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
+          <span class="changelog-ver">v2.16.0</span>
+          <span class="changelog-date">31 Jul 2026</span>
+          <ul>
+            <li>Property detail view: click any result card (list or map) to open a full in-app detail panel without leaving to the source site</li>
+            <li>Detail panel shows full-size photo carousel (exterior/front view first), flyover breakdown by commercial/GA/military, top contributing facilities, and all property metadata</li>
+            <li>Flyover score in cards now shows breakdown (commercial X / GA Y / military Z) inline</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
+          <span class="changelog-ver">v2.15.0</span>
+          <span class="changelog-date">31 Jul 2026</span>
+          <ul>
+            <li>Build status page (<a href="build.html">build.html</a>): shows live build progress, per-location status, last updated time and next scheduled run</li>
+            <li>Build auto-pushes to GitHub Pages every 10 locations so results appear incrementally during a run</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
+          <span class="changelog-ver">v2.14.0</span>
+          <span class="changelog-date">31 Jul 2026</span>
+          <ul>
+            <li>Flyover calculation switched from inverse-square interpolation to per-facility direct calculation: each airport, airstrip and helipad now contributes based on actual annual movement data (CAA Table 03.1) and facility-type weighting</li>
+            <li>Inactive facilities weighted at 5%; GA airstrips at 25%; private heliports at 30%; commercial airports at 100%</li>
+            <li>All 45 locations rescored with the new method</li>
+          </ul>
+        </div>
+        <div class="changelog-entry">
           <span class="changelog-ver">v2.13.0</span>
           <span class="changelog-date">28 Jul 2026</span>
           <ul>
@@ -216,7 +251,7 @@
   </div>
 
   <header>
-    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.13.0</span> MetaHouseSearcher</h1>
+    <h1><span class="header-version" id="versionBadge" title="View changelog" style="cursor:pointer;">v2.17.0</span> MetaHouseSearcher</h1>
     <nav>
       <a href="#" class="active" data-page="search-page">Results</a>
       <a href="#" data-page="lists-page">My Lists</a>
